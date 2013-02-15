@@ -199,8 +199,16 @@ close NGRAMS;
 
 memoize('all_matches');
 
-# keys are strings containing last two words in the hypothesis
-# each value is the best hypothesis with the given two final words (a hashref) 
+# Keys are strings containing last two words in the hypothesis.
+# We just need the last two since these are used to compute the
+# most likely *next* word, which only depends on the previous two.
+# The value corresponding to the two words is a hashref representing
+# the *best* hypothesis with the given two final words.
+# The hashref stores the running logprob of the hypothesis
+# and an array containing all of the standardizations in the hypothesis...
+# this could conceivably be quite long.
+# entries in the array are hashrefs that look like:
+# {'s' => 'bainríoghan', 't' => 'banríon'}
 my %hypotheses;
 $hypotheses{''} = {
 	'logprob' => 0.0,
@@ -209,11 +217,16 @@ $hypotheses{''} = {
 
 sub process_one_token {
 	(my $tok) = @_;
+
 	my %newhypotheses;
 	my $hashref = all_matches($tok, 0);
+
+	# if there were no matches in %cands, and none computed
+	# by applying rules, then leave the token unchanged
 	if (scalar keys %{$hashref} == 0) {
 		$hashref->{$tok} = 0;
 	}
+
 	print "Input token = $tok\n" if $verbose;
 	for my $x (keys %{$hashref}) {
 		print "Possible standardization: $x\n" if $verbose;
@@ -227,6 +240,7 @@ sub process_one_token {
 			);
 			my $newtwo = last_two_words($tail);
 			if (exists($newhypotheses{$newtwo})) {
+				# need only keep the best among those ending w/ these two words
 				if ($newhypotheses{$newtwo}->{'logprob'} < $newhyp{'logprob'}) {
 					$newhypotheses{$newtwo} = \%newhyp;
 				}
@@ -236,6 +250,8 @@ sub process_one_token {
 			}
 		}
 	}
+
+	# if there's only one hypothesis left, we can flush output and reset
 	if (scalar keys %newhypotheses == 1) {
 		my $uniq = (keys %newhypotheses)[0];
 		print "FLUSH:\n" if ($verbose);
