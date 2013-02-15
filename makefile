@@ -12,20 +12,22 @@ shuffle: FORCE
 
 # evaluate the algorithm that does nothing to the prestandard text!
 baseline: FORCE
-	perl compare.pl $(TESTPRE) $(TESTPOST)
-	echo `cat unchanged.txt | wc -l` "out of" `cat $(TESTPRE) | wc -l` "unchanged"
+	@perl compare.pl $(TESTPOST) $(TESTPRE)
+	@echo `cat unchanged.txt | wc -l` "out of" `cat $(TESTPRE) | wc -l` "unchanged"
+	@echo "Baseline got these right, we got them wrong:"
+	@cat unchanged.txt | keepif -n ok.txt
 
 # run pre-standardized text through the new code
 tokenized-output.txt: $(TESTPRE) tiomanai.sh caighdean.pl rules.txt clean.txt pairs.txt ngrams.txt alltokens.pl
 	cat $(TESTPRE) | bash tiomanai.sh > $@
 
-nua-output.txt: tokenized-output.txt
+nua-output.txt: tokenized-output.txt detokenize.pl
 	cat tokenized-output.txt | sed 's/^.* => //' | perl detokenize.pl > $@
 
 # outputs unchanged.txt (set of sentences from testpost.txt that we got right)
 # pre-tokens.txt (correct standardizations in sentences we got wrong),
 # and post-tokens.txt (the standardizations we output)
-eval: nua-output.txt FORCE
+ok.txt: nua-output.txt $(TESTPOST) compare.pl
 	perl compare.pl $(TESTPOST) nua-output.txt
 	echo `cat unchanged.txt | wc -l` "out of" `cat nua-output.txt | wc -l` "correct"
 	mv unchanged.txt ok.txt
