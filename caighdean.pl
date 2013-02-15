@@ -9,9 +9,13 @@ binmode STDIN, ":utf8";
 binmode STDOUT, ":utf8";
 binmode STDERR, ":utf8";
 
-my $maxdepth = 10;
 my $verbose = 0;
-my $load_lang_model = 1;
+
+if ($#ARGV == 0 and $ARGV[0] eq '-v') {
+	$verbose = 1;
+}
+
+my $maxdepth = 10;
 
 my @rules;
 my %cands;
@@ -111,6 +115,8 @@ sub compute_log_prob {
 
 # takes non-standard word and returns hashref whose keys are
 # candidate standardizations and values the number of rules applied to get there
+# Second argument is there because it's recursive.
+# Callers should call as: all_matches('focal', 0)
 sub all_matches {
 	(my $w, my $count) = @_;
 	my %ans;
@@ -181,24 +187,19 @@ while (<PAIRS>) {
 }
 close PAIRS;
 
-if ($load_lang_model) {
-	print "Loading n-gram language model...\n" if $verbose;
-	open(NGRAMS, "<:utf8", "ngrams.txt") or die "Could not open n-gram data: $!";
-	while (<NGRAMS>) {
-		chomp;
-		m/^(.+)\t(.+)\t(.+)$/;
-		$prob{$1} = $2;
-		$smooth{$1} = $3 unless ($3 == 0);
-	}
-	close NGRAMS;
+print "Loading n-gram language model...\n" if $verbose;
+open(NGRAMS, "<:utf8", "ngrams.txt") or die "Could not open n-gram data: $!";
+while (<NGRAMS>) {
+	chomp;
+	m/^(.+)\t(.+)\t(.+)$/;
+	$prob{$1} = $2;
+	$smooth{$1} = $3 unless ($3 == 0);
 }
-else {
-	$prob{'<UNSEEN>'} = -1.0;
-}
+close NGRAMS;
 
 memoize('all_matches');
 
-# keys are last two words in the hypothesis
+# keys are strings containing last two words in the hypothesis
 # each value is the best hypothesis with the given two final words (a hashref) 
 my %hypotheses;
 $hypotheses{''} = {
@@ -214,7 +215,7 @@ sub process_one_token {
 		$hashref->{$tok} = 0;
 	}
 	print "Input token = $tok\n" if $verbose;
-	for my $x (sort { $hashref->{$a} <=> $hashref->{$b} } keys %{$hashref}) {
+	for my $x (keys %{$hashref}) {
 		print "Possible standardization: $x\n" if $verbose;
 		for my $two (keys %hypotheses) {
 			my @newoutput = @{$hypotheses{$two}->{'output'}};
@@ -268,9 +269,6 @@ while (<STDIN>) {
 			process_one_token($1) if ($1 ne '');
 			process_one_token($2) if ($2 ne '');
 			process_one_token($3) if ($3 ne '');
-			#process_one_token($1) if defined($1);
-			#process_one_token($2) if defined($2);
-			#process_one_token($3) if defined($3);
 		}
 	}
 	else {
