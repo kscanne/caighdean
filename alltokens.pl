@@ -44,11 +44,16 @@ sub flushcurr {
 				print "$1\n";
 				$curr = $2;
 			}
-			(my $post) = $curr =~ m/([$ints]*)$/;
-			$curr =~ s/([$ints]*)$//;
-			print "$curr\n" unless ($curr eq '');
-			while ($post =~ /(.)/g) {
-				print "$1\n";
+			if ($ints eq '') {
+				print "$curr\n" unless ($curr eq '');
+			}
+			else {
+				(my $post) = $curr =~ m/([$ints]*)$/;
+				$curr =~ s/([$ints]*)$//;
+				print "$curr\n" unless ($curr eq '');
+				while ($post =~ /(.)/g) {
+					print "$1\n";
+				}
 			}
 		}
 		else {
@@ -67,7 +72,7 @@ sub process_chunk {
 			flushcurr() unless ($toktype==0);
 			$toktype=0;
         }
-        elsif ($c =~ /^[$ints]$/) {
+        elsif ($ints ne '' and $c =~ /^[$ints]$/) {
 			unless ($toktype==0 and $curr ne '') {
 				flushcurr();
 				$toktype=2;
