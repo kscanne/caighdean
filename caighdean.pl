@@ -16,6 +16,7 @@ if ($#ARGV == 0 and $ARGV[0] eq '-v') {
 }
 
 my $maxdepth = 10;
+my $penalty = 2.9;
 
 my @rules;
 my %cands;
@@ -235,7 +236,7 @@ sub process_one_token {
 			push @newoutput, {'s' => $tok, 't' => $x};
 			my $tail = extend_sentence($two, $x);
 			my %newhyp = (
-				'logprob' => $hypotheses{$two}->{'logprob'} + compute_log_prob($tail),
+				'logprob' => $hypotheses{$two}->{'logprob'} + compute_log_prob($tail) - $penalty*$hashref->{$x},
 				'output' => \@newoutput,
 			);
 			my $newtwo = last_two_words($tail);
