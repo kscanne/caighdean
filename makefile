@@ -1,3 +1,9 @@
+# These two files make up the test set
+# Typical workflow: tweak code or input files, evaluate with
+# $ make ok.txt
+# and then examine errors with 
+# $ vimdiff pre-tokens.txt post-tokens.txt
+# LHS = gold-standard, RHS = output of caighdeánaitheoir
 #TESTPRE=testpre.txt
 #TESTPOST=testpre.txt
 TESTPRE=testpre-temp.txt
@@ -24,7 +30,8 @@ tokenized-output.txt: $(TESTPRE) tiomanai.sh caighdean.pl rules.txt clean.txt pa
 nua-output.txt: tokenized-output.txt detokenize.pl
 	cat tokenized-output.txt | sed 's/^.* => //' | perl detokenize.pl > $@
 
-# outputs unchanged.txt (set of sentences from testpost.txt that we got right)
+# compare.pl outputs unchanged.txt (set of sentences from
+# testpost.txt that we got right),
 # pre-tokens.txt (correct standardizations in sentences we got wrong),
 # and post-tokens.txt (the standardizations we output)
 ok.txt: nua-output.txt $(TESTPOST) compare.pl
@@ -62,8 +69,8 @@ alltokens.pl: ${HOME}/gaeilge/crubadan/crubadan/alltokens.pl
 	cp -f ${HOME}/gaeilge/crubadan/crubadan/alltokens.pl $@
 	chmod 444 $@
 
-pairs.txt: $(GAELSPELL)/apost $(GAELSPELL)/gaelu $(GAELSPELL)/athfhocail $(GAELSPELL)/earraidi spurious.txt
-	LC_ALL=C sort -u $(GAELSPELL)/apost $(GAELSPELL)/gaelu $(GAELSPELL)/athfhocail $(GAELSPELL)/earraidi | keepif -n spurious.txt | sort -k1,1 > $@
+pairs.txt: $(GAELSPELL)/apost $(GAELSPELL)/gaelu $(GAELSPELL)/athfhocail $(GAELSPELL)/earraidi
+	LC_ALL=C sort -u $(GAELSPELL)/apost $(GAELSPELL)/gaelu $(GAELSPELL)/athfhocail $(GAELSPELL)/earraidi | sort -k1,1 > $@
 	chmod 444 $@
 
 ngrams.txt: ${HOME}/gaeilge/ngram/ga-model.txt

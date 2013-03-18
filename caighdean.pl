@@ -179,10 +179,20 @@ while (<CLEAN>) {
 }
 close CLEAN;
 
+my %spurious;
+print "Loading spurious non-standard/standard...\n" if $verbose;
+open(SPURIOUS, "<:utf8", "spurious.txt") or die "Could not open list of spurious pairs: $!";
+while (<SPURIOUS>) {
+	chomp;
+	$spurious{$_}++;
+}
+close SPURIOUS;
+
 print "Loading non-standard/standard pairs...\n" if $verbose;
 open(PAIRS, "<:utf8", "pairs.txt") or die "Could not open list of pairs: $!";
 while (<PAIRS>) {
 	chomp;
+	next if exists($spurious{$_});
 	m/^([^ ]+) (.+)$/;
 	push @{$cands{$1}}, $2;
 }
