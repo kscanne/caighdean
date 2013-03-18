@@ -159,8 +159,9 @@ sub all_matches {
 print "Loading rules file...\n" if $verbose;
 open(RULES, "<:utf8", "rules.txt") or die "Could not open morph rules file: $!";
 while (<RULES>) {
-	my %rule;
+	next if (/^#/);
 	chomp;
+	my %rule;
 	m/^(\S+)\t(\S+)\t([0-9-]+)$/;
 	$rule{'patt'} = qr/$1/;
 	$rule{'level'} = $3;
@@ -197,6 +198,18 @@ while (<PAIRS>) {
 	push @{$cands{$1}}, $2;
 }
 close PAIRS;
+
+print "Loading local non-standard/standard pairs...\n" if $verbose;
+open(LOCALPAIRS, "<:utf8", "pairs-local.txt") or die "Could not open list of local pairs: $!";
+while (<LOCALPAIRS>) {
+	chomp;
+	if (exists($spurious{$_})) {
+		print STDERR "Warning: pair \"$_\" is in pairs-local and spurious\n"; 	
+	}
+	m/^([^ ]+) (.+)$/;
+	push @{$cands{$1}}, $2;
+}
+close LOCALPAIRS;
 
 print "Loading n-gram language model...\n" if $verbose;
 open(NGRAMS, "<:utf8", "ngrams.txt") or die "Could not open n-gram data: $!";
@@ -249,15 +262,21 @@ sub process_one_token {
 				'logprob' => $hypotheses{$two}->{'logprob'} + compute_log_prob($tail) - $penalty*$hashref->{$x},
 				'output' => \@newoutput,
 			);
+			print "Created a new hypothesis (".$newhyp{'logprob'}."): ".hypothesis_output_string(\%newhyp)."\n" if $verbose;
 			my $newtwo = last_two_words($tail);
 			if (exists($newhypotheses{$newtwo})) {
 				# need only keep the best among those ending w/ these two words
 				if ($newhypotheses{$newtwo}->{'logprob'} < $newhyp{'logprob'}) {
 					$newhypotheses{$newtwo} = \%newhyp;
+					print "And it's the best so far ending in: $newtwo\n" if $verbose;
+				}
+				else {
+					print "But not as good as (".$newhypotheses{$newtwo}->{'logprob'}."): ".hypothesis_output_string($newhypotheses{$newtwo})."\n" if $verbose;
 				}
 			}
 			else {
 				$newhypotheses{$newtwo} = \%newhyp;
+				print "And it's the first (hence best) so far ending in: $newtwo\n" if $verbose;
 			}
 		}
 	}
