@@ -23,7 +23,9 @@ sub normalize {
 	my $inword = 0;
 	while ($s =~ /(.)/g) {
 		my $c = $1;
-		if ($c =~ /(\p{L}|-)/) {
+		# easier to just split on all aposts
+		#if ($c =~ /(\p{L}|[’'-])/) {
+		if ($c =~ /(\p{L}|[-])/) {
 			$answer .= $c;
 			$inword = 1;
 		}
