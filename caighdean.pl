@@ -79,14 +79,11 @@ sub compute_log_prob_helper {
 		if ($ngram =~ m/ /) {  # n>1
 			my $start = $ngram;
 			$start =~ s/ [^ ]+$//;
+			my $tail = $ngram;
+			$tail =~ s/^[^ ]+ //;
+			$ans = compute_log_prob_helper($tail);
 			if (exists($smooth{$start})) {
-				my $tail = $ngram;
-				$tail =~ s/^[^ ]+ //;
-				$ans = compute_log_prob_helper($tail) + $smooth{$start};
-			}
-			else {
-				$ngram =~ m/([^ ]+)$/;
-				$ans = compute_log_prob_helper($1);
+				$ans += $smooth{$start};
 			}
 		}
 		else {  # 1-gram
@@ -262,7 +259,12 @@ sub process_one_token {
 				'logprob' => $hypotheses{$two}->{'logprob'} + compute_log_prob($tail) - $penalty*$hashref->{$x},
 				'output' => \@newoutput,
 			);
-			print "Created a new hypothesis (".$newhyp{'logprob'}."): ".hypothesis_output_string(\%newhyp)."\n" if $verbose;
+			if ($verbose) {
+				print "Created a new hypothesis (".$newhyp{'logprob'}."): ".hypothesis_output_string(\%newhyp)."\n";
+				print "Computed from logprob of best hypothesis with key $two: ".$hypotheses{$two}->{'logprob'}."\n";
+				print "Plus logprob of n-gram: $tail\n";
+				print "Minus penalty $penalty times ".$hashref->{$x}."\n";
+			}
 			my $newtwo = last_two_words($tail);
 			if (exists($newhypotheses{$newtwo})) {
 				# need only keep the best among those ending w/ these two words
