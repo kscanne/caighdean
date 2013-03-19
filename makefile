@@ -73,9 +73,9 @@ pairs.txt: $(GAELSPELL)/apost $(GAELSPELL)/gaelu $(GAELSPELL)/athfhocail $(GAELS
 	LC_ALL=C sort -u $(GAELSPELL)/apost $(GAELSPELL)/gaelu $(GAELSPELL)/athfhocail $(GAELSPELL)/earraidi | sort -k1,1 > $@
 	chmod 444 $@
 
-ngrams.txt: ${HOME}/gaeilge/ngram/ga-model.txt
-	cp -f ${HOME}/gaeilge/ngram/ga-model.txt $@
-	chmod 444 $@
+#ngrams.txt: ${HOME}/gaeilge/ngram/ga-model.txt
+#	cp -f ${HOME}/gaeilge/ngram/ga-model.txt $@
+#	chmod 444 $@
 
 # GLAN==aspell.txt, LEXICON=GLAN + proper names, etc.
 # ispell personal, uimhreacha, apost; .ispell_gaeilge; dinneenok.txt
