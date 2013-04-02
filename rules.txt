@@ -460,11 +460,11 @@ mist$	mis	1
 ^tras([^bcfghmnps-])	$1	0
 ^tras([bcfgmp]h)	$1	0
 ^tras-(s)	$1	0
-^(cil|gig|h?is|meig|micr|pic|teil)ea-?([^aeiouáéíóú-]+[aouáóú])	$2	0
-^(cil|gig|h?is|meig|micr|pic|teil)i-?([^aeiouáéíóú-]+[eiéí])	$2	0
-^(h?ant|fót|nan|par|pol|h?ultr)a-?([^aeiouáéíóú-]+[aouáóú])	$2	0
-^(h?ant|fót|nan|par|pol|h?ultr)ai-?([^aeiouáéíóú-]+[eiéí])	$2	0
-^(h?eachtar|freas|h?íos|neas|réalt|tob|h?uas|h?uath)-?([^-])	$2	0
+#^(cil|gig|h?is|meig|micr|pic|teil)ea-?([^aeiouáéíóú-]+[aouáóú])	$2	0
+#^(cil|gig|h?is|meig|micr|pic|teil)i-?([^aeiouáéíóú-]+[eiéí])	$2	0
+#^(h?ant|fót|nan|par|pol|h?ultr)a-?([^aeiouáéíóú-]+[aouáóú])	$2	0
+#^(h?ant|fót|nan|par|pol|h?ultr)ai-?([^aeiouáéíóú-]+[eiéí])	$2	0
+#^(h?eachtar|freas|h?íos|neas|réalt|tob|h?uas|h?uath)-?([^-])	$2	0
 chaí$	cha	1
 thaí$	tha	1
 (.[aá])igh$	$1ch	1
