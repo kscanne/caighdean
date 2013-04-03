@@ -66,6 +66,23 @@ sub shift_ngram {
 	return "$ngram $w";
 }
 
+# same as gaeilge/crubadan/crubadan/tolow
+sub irishlc {
+	(my $w) = @_;
+	$w =~ s/^([nt])([AEIOUÁÉÍÓÚ])/$1-$2/;
+	return lc($w);
+}
+
+# whatever we do to corpus in gaeilge/ngram we need to do here!
+# unicode apostrophes already handled at STDIN
+sub ngram_preprocess {
+	(my $w) = @_;
+	$w = irishlc($w);
+	$w =~ s/^[0-9]+$/<NUM>/;
+	$w =~ s/^.{1001}.*$/<UNK>/;
+	return $w;
+}
+
 # takes an n-gram, say "X Y Z" as an arg, returns log P(Z | X Y)
 # recursive for unseen n-grams, n > 1 
 # only called for n <= maximum stored in the precomputed lang model (usually 3)
@@ -208,8 +225,13 @@ while (<LOCALPAIRS>) {
 }
 close LOCALPAIRS;
 
-print "Loading n-gram language model...\n" if $verbose;
-open(NGRAMS, "<:utf8", "ngrams.txt") or die "Could not open n-gram data: $!";
+my $ngramfile = 'ngrams.txt';
+if ($verbose) {
+	print "Loading n-gram language model...\n";
+	$ngramfile = 'ngrams-prune-3.txt';
+	
+}
+open(NGRAMS, "<:utf8", $ngramfile) or die "Could not open n-gram data file $ngramfile: $!";
 while (<NGRAMS>) {
 	chomp;
 	m/^(.+)\t(.+)\t(.+)$/;
@@ -250,11 +272,12 @@ sub process_one_token {
 
 	print "Input token = $tok\n" if $verbose;
 	for my $x (keys %{$hashref}) {
-		print "Possible standardization: $x\n" if $verbose;
+		my $normalized_x = ngram_preprocess($x);
+		print "Possible standardization: $x, normalized: $normalized_x\n" if $verbose;
 		for my $two (keys %hypotheses) {
 			my @newoutput = @{$hypotheses{$two}->{'output'}};
 			push @newoutput, {'s' => $tok, 't' => $x};
-			my $tail = extend_sentence($two, $x);
+			my $tail = extend_sentence($two, $normalized_x);
 			my %newhyp = (
 				'logprob' => $hypotheses{$two}->{'logprob'} + compute_log_prob($tail) - $penalty*$hashref->{$x},
 				'output' => \@newoutput,
@@ -308,6 +331,9 @@ sub process_one_token {
 print "Ready.\n" if $verbose;
 while (<STDIN>) {
 	chomp;
+	if (/[a-zA-ZáéíóúÁÉÍÓÚ]/) {
+		s/’/'/g;
+	}
 	if (/^'/ or /'$/) {
 		if (exists($cands{$_}) or /^'+$/) {
 			process_one_token($_);
