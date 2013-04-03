@@ -8,6 +8,8 @@ TESTPRE=testpre.txt
 TESTPOST=testpost.txt
 TESTSIZE=500
 
+all: ok.txt
+
 # only if copyrighted material is added en masse
 shuffle: FORCE
 	paste testpre.txt testpost.txt | shuf | tee pasted.txt | cut -f 1 > newpre.txt
@@ -67,12 +69,7 @@ cgaeval: cga-output.txt FORCE
 GAELSPELL=${HOME}/gaeilge/ispell/ispell-gaeilge
 CRUB=/usr/local/share/crubadan
 
-refresh: rules.txt clean.txt pairs.txt ngrams.txt alltokens.pl
-
-# installs to /usr/local/bin but copy here for dist
-alltokens.pl: ${HOME}/gaeilge/crubadan/crubadan/alltokens.pl
-	cp -f ${HOME}/gaeilge/crubadan/crubadan/alltokens.pl $@
-	chmod 444 $@
+refresh: rules.txt clean.txt pairs.txt ngrams.txt
 
 pairs.txt: $(GAELSPELL)/apost $(GAELSPELL)/gaelu $(GAELSPELL)/athfhocail $(GAELSPELL)/earraidi
 	LC_ALL=C sort -u $(GAELSPELL)/apost $(GAELSPELL)/gaelu $(GAELSPELL)/athfhocail $(GAELSPELL)/earraidi | sort -k1,1 > $@
