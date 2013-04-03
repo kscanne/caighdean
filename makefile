@@ -2,7 +2,9 @@
 # Typical workflow: tweak code or input files, evaluate with
 # $ make ok.txt
 # and then examine errors with 
-# $ vimdiff pre-tokens.txt post-tokens.txt
+# $ diff -u pre-tokens.txt post-tokens.txt
+# or visually with 
+# $ make surv
 # LHS = gold-standard, RHS = output of caighdeánaitheoir
 TESTPRE=testpre.txt
 TESTPOST=testpost.txt
@@ -30,6 +32,12 @@ tokenized-output.txt: $(TESTPRE) tiomanai.sh caighdean.pl rules.txt clean.txt pa
 nua-output.txt: tokenized-output.txt detokenize.pl
 	cat tokenized-output.txt | sed 's/^.* => //' | perl detokenize.pl > $@
 
+# doing full files is too slow
+surv: FORCE
+	head -n 10000 pre-tokens.txt > pre-surv.txt
+	head -n 10000 post-tokens.txt > post-surv.txt
+	vimdiff pre-surv.txt post-surv.txt
+
 # compare.pl outputs unchanged.txt (set of sentences from
 # testpost.txt that we got right),
 # pre-tokens.txt (correct standardizations in sentences we got wrong),
@@ -47,7 +55,7 @@ eid-output.txt: tokenized-output.txt
 	cat tokenized-output.txt | perl detokenize.pl > $@
 
 clean:
-	rm -f detokentest.txt unchanged.txt post-tokens.txt pre-tokens.txt tokenized-output.txt nua-output.txt cga-output.txt
+	rm -f detokentest.txt unchanged.txt post-tokens.txt pre-tokens.txt tokenized-output.txt nua-output.txt cga-output.txt pre-surv.txt post-surv.txt
 
 ############## COMPARISON WITH RULE-BASED VERSION ONLY ###############
 
