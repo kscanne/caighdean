@@ -6,15 +6,14 @@
 # LHS = gold-standard, RHS = output of caighdeánaitheoir
 TESTPRE=testpre.txt
 TESTPOST=testpost.txt
-TESTSIZE=500
 
 all: ok.txt
 
 # only if copyrighted material is added en masse
 shuffle: FORCE
-	paste testpre.txt testpost.txt | shuf | tee pasted.txt | cut -f 1 > newpre.txt
-	cat pasted.txt | cut -f 2 > testpost.txt
-	mv -f newpre.txt testpre.txt
+	paste $(TESTPRE) $(TESTPOST) | shuf | tee pasted.txt | cut -f 1 > newpre.txt
+	cat pasted.txt | cut -f 2 > $(TESTPOST)
+	mv -f newpre.txt $(TESTPRE)
 	rm -f pasted.txt
 
 # evaluate the algorithm that does nothing to the prestandard text!
@@ -24,15 +23,9 @@ baseline: FORCE
 	@echo "Baseline got these right, we got them wrong:"
 	@cat unchanged.txt | keepif -n ok.txt
 
-testpre-beag.txt: $(TESTPRE)
-	cat $(TESTPRE) | head -n $(TESTSIZE) > $@
-
-testpost-beag.txt: $(TESTPOST)
-	cat $(TESTPOST) | head -n $(TESTSIZE) > $@
-
 # run pre-standardized text through the new code
-tokenized-output.txt: testpre-beag.txt tiomanai.sh caighdean.pl rules.txt clean.txt pairs.txt ngrams.txt alltokens.pl pairs-local.txt spurious.txt
-	cat testpre-beag.txt | bash tiomanai.sh > $@
+tokenized-output.txt: $(TESTPRE) tiomanai.sh caighdean.pl rules.txt clean.txt pairs.txt ngrams.txt alltokens.pl pairs-local.txt spurious.txt
+	cat $(TESTPRE) | bash tiomanai.sh > $@
 
 nua-output.txt: tokenized-output.txt detokenize.pl
 	cat tokenized-output.txt | sed 's/^.* => //' | perl detokenize.pl > $@
@@ -41,8 +34,8 @@ nua-output.txt: tokenized-output.txt detokenize.pl
 # testpost.txt that we got right),
 # pre-tokens.txt (correct standardizations in sentences we got wrong),
 # and post-tokens.txt (the standardizations we output)
-ok.txt: nua-output.txt testpost-beag.txt compare.pl
-	perl compare.pl testpost-beag.txt nua-output.txt
+ok.txt: nua-output.txt $(TESTPOST) compare.pl
+	perl compare.pl $(TESTPOST) nua-output.txt
 	echo `cat unchanged.txt | wc -l` "out of" `cat nua-output.txt | wc -l` "correct"
 	mv unchanged.txt ok.txt
 	git diff ok.txt
@@ -54,15 +47,15 @@ eid-output.txt: tokenized-output.txt
 	cat tokenized-output.txt | perl detokenize.pl > $@
 
 clean:
-	rm -f detokentest.txt unchanged.txt post-tokens.txt pre-tokens.txt tokenized-output.txt nua-output.txt cga-output.txt testpre-beag.txt testpost-beag.txt
+	rm -f detokentest.txt unchanged.txt post-tokens.txt pre-tokens.txt tokenized-output.txt nua-output.txt cga-output.txt
 
 ############## COMPARISON WITH RULE-BASED VERSION ONLY ###############
 
 cga-output.txt: tokenized-output.txt
-	cat testpre-beag.txt | cga > $@
+	cat $(TESTPRE) | cga > $@
 
 cgaeval: cga-output.txt FORCE
-	perl compare.pl testpost-beag.txt cga-output.txt
+	perl compare.pl $(TESTPOST) cga-output.txt
 	echo `cat unchanged.txt | wc -l` "out of" `cat cga-output.txt | wc -l` "correct"
 
 ############## TARGETS FOR MAINTAINER ONLY ! ###############
