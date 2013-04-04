@@ -26,7 +26,7 @@ baseline: FORCE
 	@cat unchanged.txt | keepif -n ok.txt
 
 # run pre-standardized text through the new code
-tokenized-output.txt: $(TESTPRE) tiomanai.sh caighdean.pl rules.txt clean.txt pairs.txt ngrams.txt alltokens.pl pairs-local.txt spurious.txt
+tokenized-output.txt: $(TESTPRE) tiomanai.sh nasc.pl caighdean.pl rules.txt clean.txt pairs.txt ngrams.txt alltokens.pl pairs-local.txt spurious.txt multi.txt
 	cat $(TESTPRE) | bash tiomanai.sh > $@
 
 nua-output.txt: tokenized-output.txt detokenize.pl

@@ -213,6 +213,15 @@ while (<PAIRS>) {
 }
 close PAIRS;
 
+print "Loading multi-word phrases/standardizations...\n" if $verbose;
+open(MULTI, "<:utf8", "multi.txt") or die "Could not open list of phrases: $!";
+while (<MULTI>) {
+	chomp;
+	m/^([^ ]+) (.+)$/;
+	push @{$cands{$1}}, $2;
+}
+close MULTI;
+
 print "Loading local non-standard/standard pairs...\n" if $verbose;
 open(LOCALPAIRS, "<:utf8", "pairs-local.txt") or die "Could not open list of local pairs: $!";
 while (<LOCALPAIRS>) {
