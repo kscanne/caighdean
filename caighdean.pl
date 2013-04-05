@@ -19,6 +19,7 @@ my $maxdepth = 10;
 my $penalty = 2.9;
 
 my @rules;
+my %spurious;
 my %cands;
 my %prob;
 my %smooth;
@@ -156,6 +157,7 @@ sub all_matches {
 			$subcount++ unless ($rule->{'level'} == -1);
 			my $subans = all_matches($cand, $subcount);
 			for my $a (keys %{$subans}) {
+				next if (exists($spurious{"$w $a"}));
 				if (exists($ans{$a})) {  # if already found some other way
 					if ($subans->{$a} < $ans{$a}) {
 						$ans{$a} = $subans->{$a};
@@ -194,7 +196,6 @@ while (<CLEAN>) {
 }
 close CLEAN;
 
-my %spurious;
 print "Loading spurious non-standard/standard...\n" if $verbose;
 open(SPURIOUS, "<:utf8", "spurious.txt") or die "Could not open list of spurious pairs: $!";
 while (<SPURIOUS>) {
