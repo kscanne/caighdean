@@ -55,7 +55,10 @@ sub hypothesis_pairs_string {
 	(my $hyp) = @_;
 	my $ans = '';
 	for my $hr (@{$hyp->{'output'}}) {
-		$ans .= $hr->{'s'}." => ".$hr->{'t'}."\n";
+		my $source = $hr->{'s'};
+		my $target = $hr->{'t'};
+		$target = recapitalize(irishlc($target), cap_style($source));
+		$ans .= "$source => $target\n";
 	}
 	return $ans;
 }
@@ -65,6 +68,76 @@ sub shift_ngram {
 	return $w if ($ngram eq '');
 	$ngram =~ s/^[^ ]+ //;
 	return "$ngram $w";
+}
+
+sub recapitalize {
+	(my $w, my $n) = @_;
+	my $capital_p = $n % 2;
+	$n = int($n / 2);
+	my $firstcap_p = $n % 2;
+	$n = int($n / 2);
+	my $cap_after_hyphen = $n % 2;
+	$n = int($n / 2);
+	my $allcaps = $n % 2;
+	if ($capital_p) {
+		$w =~ s/^mc(.)/"Mc".uc($1)/e;
+		$w =~ s/^o'(.)/"O'".uc($1)/e;
+		$w =~ s/^mb/mB/;
+		$w =~ s/^gc/gC/;
+		$w =~ s/^nd/nD/;
+		$w =~ s/^bhf/bhF/;
+		$w =~ s/^ng/nG/;
+		$w =~ s/^bp/bP/;
+		$w =~ s/^ts/tS/;
+		$w =~ s/^dt/dT/;
+		$w =~ s/^([nt])-([aeiouáéíóú])/$1.uc($2)/e;
+		unless ($firstcap_p) {
+			$w =~ s/^([bdm]')([aeiouáéíóú])/$1.uc($2)/e;  # d'Éirinn
+			$w =~ s/^(h-?)([aeiouáéíóú])/$1.uc($2)/e;  # hÉireann
+		}
+		unless ($w =~ /\p{Lu}/) {
+			$w =~ s/^(['-]*)(.)/$1.uc($2)/e;
+		}
+	}
+	if ($cap_after_hyphen) {
+		$w =~ s/-(.)/"-".uc($1)/eg;
+	}
+	if ($allcaps) {
+		if ($w =~ m/\p{Ll}.*\p{Lu}/) {
+			$w =~ s/^((?:\p{Ll}|['-])*\p{Lu})(.*)$/$1.uc($2)/e;
+		}
+		else {
+			$w = uc($w);
+		}
+	}
+	return $w;
+}
+
+# 1st bit: on if "first" letter capitalized (ignoring eclipsis, etc.)
+# 2nd bit: on if the actual first letter is capitalized (Tacht but not tAcht)
+# 3rd bit: on if there are any caps after hyphens (ignore initial h-,n-,t-)
+# (only examples where it's mixed are like "Bhaile-an-Easa" - rare)
+# 4rd bit: on if all caps after initial eclipsis or whatever.  So:
+# 0 = fear, bean, droch-cheann
+# 1 = bhFear, h-Árd-rí, 'Sé
+# 3 = Droch-chor, Fear, Bean
+# 4 = sean-Mháirtín
+# 5 = bhFíor-Ghaedhealtacht
+# 7 = Nua-Eabhrac, Ard-Easbog
+# 9 = gCNOC
+# 11 = FEAR 
+# 13 = h-AIMSIRE
+# 15 = SEAN-GHAEDHEAL
+# It's important that this be reasonable on pre-standard text, so that
+# h-Éireann is a "regular" capitalized word even w/ hyphen
+sub cap_style {
+	(my $w) = @_;
+	my $ans = 0;
+	$ans += 1 if ($w =~ m/^'*(([bdm]'|[hnt]-?)[AEIOUÁÉÍÓÚ]|mB|gC|n[DG]|bhF|bP|tS|dT|\p{Lu})/);
+	$ans += 2 if ($w =~ m/^\p{Lu}/);
+	$ans += 4 if ($w =~ m/^...*-\p{Lu}/);
+	$ans += 8 if ($w =~ m/^'*(([hnt]-?)[AEIOUÁÉÍÓÚ]|mB|gC|n[DG]|bhF|bP|tS|dT)?(\p{Lu}|['-])*$/ and $w =~ /\p{Lu}/);
+	return $ans;
 }
 
 # same as gaeilge/crubadan/crubadan/tolow
