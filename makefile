@@ -66,30 +66,45 @@ cgaeval: cga-output.txt FORCE
 
 ############## TARGETS FOR MAINTAINER ONLY ! ###############
 GAELSPELL=${HOME}/gaeilge/ispell/ispell-gaeilge
+CRUBLOCAL=${HOME}/gaeilge/crubadan/crubadan
+GRAMADOIR=${HOME}/gaeilge/gramadoir/gr/ga
 CRUB=/usr/local/share/crubadan
+NGRAM=${HOME}/gaeilge/ngram
 
-refresh: rules.txt clean.txt pairs.txt ngrams.txt
+# rules.txt currently locally modified - don't refresh from gramadoir!
+refresh: clean.txt-refresh pairs.txt-refresh ngrams.txt-refresh alltokens.pl-refresh
 
-pairs.txt: $(GAELSPELL)/apost $(GAELSPELL)/gaelu $(GAELSPELL)/athfhocail $(GAELSPELL)/earraidi
-	LC_ALL=C sort -u $(GAELSPELL)/apost $(GAELSPELL)/gaelu $(GAELSPELL)/athfhocail $(GAELSPELL)/earraidi | sort -k1,1 > $@
-	chmod 444 $@
+pairs.txt-refresh: $(GAELSPELL)/apost $(GAELSPELL)/gaelu $(GAELSPELL)/athfhocail $(GAELSPELL)/earraidi
+	rm -f pairs.txt
+	LC_ALL=C sort -u $(GAELSPELL)/apost $(GAELSPELL)/gaelu $(GAELSPELL)/athfhocail $(GAELSPELL)/earraidi | sort -k1,1 > pairs.txt
+	chmod 444 pairs.txt
 
-#ngrams.txt: ${HOME}/gaeilge/ngram/ga-model.txt
-#	cp -f ${HOME}/gaeilge/ngram/ga-model.txt $@
-#	chmod 444 $@
+ngrams.txt-refresh: FORCE
+	rm -f ngrams.txt
+	(cd $(NGRAM); make ga-model.txt)
+	cp -f $(NGRAM)/ga-model.txt ngrams.txt
+	chmod 444 ngrams.txt
 
 # GLAN==aspell.txt, LEXICON=GLAN + proper names, etc.
 # ispell personal, uimhreacha, apost; .ispell_gaeilge; dinneenok.txt
-clean.txt: $(CRUB)/ga/LEXICON
-	cp -f $(CRUB)/ga/LEXICON $@
-	chmod 444 $@
+clean.txt-refresh: $(CRUB)/ga/LEXICON
+	rm -f clean.txt
+	cp -f $(CRUB)/ga/LEXICON clean.txt
+	chmod 444 clean.txt
 
-rules.txt: ${HOME}/gaeilge/gramadoir/gr/ga/morph-ga.txt
-	cat ${HOME}/gaeilge/gramadoir/gr/ga/morph-ga.txt | iconv -f iso-8859-1 -t utf8 | egrep -v '^#' | sed 's/^\([^ \t]*\)[ \t]*\([^ \t]*\)[ \t]*\([^ \t]*\).*/\1\t\2\t\3/' > $@
-	chmod 444 $@
+rules.txt-refresh: $(GRAMADOIR)/morph-ga.txt
+	rm -f rules.txt
+	cat $(GRAMADOIR)/morph-ga.txt | iconv -f iso-8859-1 -t utf8 | egrep -v '^#' | sed 's/^\([^ \t]*\)[ \t]*\([^ \t]*\)[ \t]*\([^ \t]*\).*/\1\t\2\t\3/' > rules.txt
+	chmod 444 rules.txt
 
+alltokens.pl-refresh: $(CRUBLOCAL)/alltokens.pl
+	rm -f alltokens.pl
+	cp $(CRUBLOCAL)/alltokens.pl alltokens.pl
+	chmod 444 alltokens.pl
+
+# don't wipe rules.txt - locally modified
 maintainer-clean:
 	$(MAKE) clean
-	rm -f rules.txt clean.txt pairs.txt ngrams.txt alltokens.pl
+	rm -f clean.txt pairs.txt ngrams.txt alltokens.pl
 
 FORCE:
