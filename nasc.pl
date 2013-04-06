@@ -35,9 +35,8 @@ LINE: while (<STDIN>) {
 	}
 	for (my $len=$tot; $len >= 2; $len--) {
 		my $cand = join('_', @queue[0..($len-1)]);
-		#print "checking for $cand\n";
-		if (exists($phrases{$cand})) {
-			for my $k (0..($len-1)) {
+		if (exists($phrases{lc($cand)})) {
+			for (0..($len-1)) {
 				shift @queue;
 			}
 			print "$cand\n";
