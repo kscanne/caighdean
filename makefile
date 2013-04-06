@@ -22,8 +22,6 @@ shuffle: FORCE
 baseline: FORCE
 	@perl compare.pl $(TESTPOST) $(TESTPRE)
 	@echo `cat unchanged.txt | wc -l` "out of" `cat $(TESTPRE) | wc -l` "unchanged"
-	@echo "Baseline got these right, we got them wrong:"
-	@cat unchanged.txt | keepif -n ok.txt
 
 # run pre-standardized text through the new code
 tokenized-output.txt: $(TESTPRE) tiomanai.sh nasc.pl caighdean.pl rules.txt clean.txt pairs.txt ngrams.txt alltokens.pl pairs-local.txt spurious.txt multi.txt
