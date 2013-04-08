@@ -261,14 +261,6 @@ while (<RULES>) {
 }
 close RULES;
 
-print "Loading clean word list...\n" if $verbose;
-open(CLEAN, "<:utf8", "clean.txt") or die "Could not open clean wordlist: $!";
-while (<CLEAN>) {
-	chomp;
-	push @{$cands{$_}}, $_;
-}
-close CLEAN;
-
 print "Loading spurious non-standard/standard...\n" if $verbose;
 open(SPURIOUS, "<:utf8", "spurious.txt") or die "Could not open list of spurious pairs: $!";
 while (<SPURIOUS>) {
@@ -276,6 +268,14 @@ while (<SPURIOUS>) {
 	$spurious{$_}++;
 }
 close SPURIOUS;
+
+print "Loading clean word list...\n" if $verbose;
+open(CLEAN, "<:utf8", "clean.txt") or die "Could not open clean wordlist: $!";
+while (<CLEAN>) {
+	chomp;
+	push @{$cands{$_}}, $_ unless (exists($spurious{"$_ $_"}));
+}
+close CLEAN;
 
 print "Loading non-standard/standard pairs...\n" if $verbose;
 open(PAIRS, "<:utf8", "pairs.txt") or die "Could not open list of pairs: $!";
