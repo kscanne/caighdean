@@ -53,7 +53,7 @@ eid-output.txt: tokenized-output.txt
 	cat tokenized-output.txt | perl detokenize.pl > $@
 
 clean:
-	rm -f detokentest.txt unchanged.txt post-tokens.txt pre-tokens.txt tokenized-output.txt nua-output.txt cga-output.txt pre-surv.txt post-surv.txt tofix.txt
+	rm -f detokentest.txt unchanged.txt post-tokens.txt pre-tokens.txt tokenized-output.txt nua-output.txt cga-output.txt pre-surv.txt post-surv.txt tofix.txt survey.txt
 
 ############## COMPARISON WITH RULE-BASED VERSION ONLY ###############
 
@@ -64,10 +64,15 @@ cgaeval: cga-output.txt FORCE
 	perl compare.pl $(TESTPOST) cga-output.txt
 	echo `cat unchanged.txt | wc -l` "out of" `cat cga-output.txt | wc -l` "correct"
 
-############## TESTPOST.TXT CLEANUP ONLY ###############
+############## SURVEY OF UNKNOWN WORDS ###############
 
+# in testpost.txt; use this output to further standardize testpost.txt manually
 tofix.txt: FORCE
 	cat testpost.txt | sed "s/\([A-Za-z]\)’\([A-Za-zÁÉÍÓÚáéíóú]\)/\1'\2/g" | perl -I ${HOME}/gaeilge/gramadoir/gr/ga/Lingua-GA-Gramadoir/lib ${HOME}/gaeilge/gramadoir/gr/ga/Lingua-GA-Gramadoir/scripts/gram-ga.pl --ionchod=utf-8 --litriu | LC_ALL=C sort | LC_ALL=C uniq -c | LC_ALL=C sort -r -n > $@
+
+# in nua-output.txt; use this to add to backend database: rules and pairs
+survey.txt: nua-output.txt
+	cat nua-output.txt | sed "s/\([A-Za-z]\)’\([A-Za-zÁÉÍÓÚáéíóú]\)/\1'\2/g" | perl -I ${HOME}/gaeilge/gramadoir/gr/ga/Lingua-GA-Gramadoir/lib ${HOME}/gaeilge/gramadoir/gr/ga/Lingua-GA-Gramadoir/scripts/gram-ga.pl --ionchod=utf-8 --litriu | LC_ALL=C sort | LC_ALL=C uniq -c | LC_ALL=C sort -r -n > $@
 
 ############## TARGETS FOR MAINTAINER ONLY ! ###############
 GAELSPELL=${HOME}/gaeilge/ispell/ispell-gaeilge
