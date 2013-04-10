@@ -325,7 +325,9 @@ close NGRAMS;
 
 memoize('all_matches');
 
-# Keys are strings containing last two words in the hypothesis.
+# Keys are strings containing last two processed words, whether
+# flushed or not.  If we haven't flushed in a while, the key is usually
+# simply the last two words in the hypothesis.
 # We just need the last two since these are used to compute the
 # most likely *next* word, which only depends on the previous two.
 # The value corresponding to the two words is a hashref representing
@@ -368,7 +370,7 @@ sub process_one_token {
 			if ($verbose) {
 				print "Created a new hypothesis (".$newhyp{'logprob'}."): ".hypothesis_output_string(\%newhyp)."\n";
 				print "Computed from logprob of best hypothesis with key $two: ".$hypotheses{$two}->{'logprob'}."\n";
-				print "Plus logprob of n-gram: $tail\n";
+				print "Plus logprob of n-gram: $tail (".compute_log_prob($tail).")\n";
 				print "Minus penalty $penalty times ".$hashref->{$x}."\n";
 			}
 			my $newtwo = last_two_words($tail);
@@ -394,8 +396,7 @@ sub process_one_token {
 		my $uniq = (keys %newhypotheses)[0];
 		print "FLUSH:\n" if ($verbose);
 		print hypothesis_pairs_string($newhypotheses{$uniq});
-		delete $newhypotheses{$uniq};
-		$newhypotheses{''} = {
+		$newhypotheses{$uniq} = {
 			'logprob' => 0.0,
 			'output' => [],
 		}; 
@@ -403,10 +404,8 @@ sub process_one_token {
 	%hypotheses = %newhypotheses;
 	if ($verbose) {
 		print "Live hypotheses:\n";
-		my $counter = 1;
 		for my $two (keys %hypotheses) {
-			print "Hypothesis $counter (".$hypotheses{$two}->{'logprob'}."): ".hypothesis_output_string($hypotheses{$two})."\n";
-			$counter++;
+			print "Hypothesis with key '$two' (".$hypotheses{$two}->{'logprob'}."): ".hypothesis_output_string($hypotheses{$two})."\n";
 		}
 	}
 }
