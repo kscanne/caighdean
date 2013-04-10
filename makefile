@@ -82,6 +82,7 @@ CRUB=/usr/local/share/crubadan
 NGRAM=${HOME}/gaeilge/ngram
 
 # rules.txt currently locally modified - don't refresh from gramadoir!
+# do "make refresh" right after running "groom"
 refresh: clean.txt-refresh pairs.txt-refresh ngrams.txt-refresh alltokens.pl-refresh
 
 pairs.txt-refresh: $(GAELSPELL)/apost $(GAELSPELL)/gaelu $(GAELSPELL)/athfhocail $(GAELSPELL)/earraidi
@@ -99,7 +100,7 @@ ngrams.txt-refresh: FORCE
 # ispell personal, uimhreacha, apost; .ispell_gaeilge; dinneenok.txt
 clean.txt-refresh: $(CRUB)/ga/LEXICON
 	rm -f clean.txt
-	cp -f $(CRUB)/ga/LEXICON clean.txt
+	cat $(CRUB)/ga/LEXICON | sort -u > clean.txt
 	chmod 444 clean.txt
 
 rules.txt-refresh: $(GRAMADOIR)/morph-ga.txt
