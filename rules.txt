@@ -233,6 +233,10 @@ eamhla	iúla	1
 ([^e])amhla	$1úla	1
 adht([aá])	at$1	1
 aíle$	aíola	1
+eachaibh$	igh	1
+([^e])achaibh$	$1aigh	1
+anaibh$	anna	1
+ánaibh$	áin	1
 aibh$	a	1
 ([^a])ibh$	$1e	1
 (.)eu	$1éa	1
@@ -255,6 +259,7 @@ ghaile$	aíola	1
 ighil$	íl	1
 ighile$	íola	1
 (ain|é[ai]|iar)gc	$1g	1
+e[au]gc	éag	1
 (é[ai])dt	$1d	1
 (dh?í?)omb	$1om	1
 (ai?n)bhf	$1bh	1
@@ -292,6 +297,7 @@ aghadh	ú	1
 iaghadh	íodh	1
 (..)thear$	$1tear	1
 (..)t(te?ar)$	$1$2	1
+ighdar	íodar	1
 ighim	ím	1
 ighidh	í	1
 ighinn	ínn	1
