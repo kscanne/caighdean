@@ -416,7 +416,10 @@ while (<STDIN>) {
 	if (/[a-zA-ZáéíóúÁÉÍÓÚ]/) {
 		s/’/'/g;
 	}
-	if (/^'/ or /'$/) {
+	if (/^<.*>$/) {  # skip SGML markup
+		print "$_ => $_\n";
+	}
+	elsif (/^'/ or /'$/) {
 		if (exists($cands{$_}) or /^'+$/) {
 			process_one_token($_);
 		}
