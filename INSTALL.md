@@ -17,7 +17,4 @@ containing all of the files in the repository.
 
 The one file _not_ contained in the repository is the n-gram
 language model (roughly speaking, this contains a table of probabilities of
-seeing an word in Irish if you know the previous two words).  
-It currently weighs in at about 500MB uncompressed, and is therefore
-much too big to maintain on github.  Contact me directly if you
-need access to the file.
+seeing an word in Irish if you know the previous two words).  It currently weighs in at about 500MB uncompressed, and is therefore much too big to maintain on github.  Contact me directly if you need access to the file.
