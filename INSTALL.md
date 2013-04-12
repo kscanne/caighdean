@@ -15,6 +15,4 @@ If you would rather not do this, then you can simply
 [download a ZIP file](https://github.com/kscanne/caighdean/archive/master.zip)
 containing all of the files in the repository.
 
-The one file _not_ contained in the repository is the n-gram
-language model (roughly speaking, this contains a table of probabilities of
-seeing an word in Irish if you know the previous two words).  It currently weighs in at about 500MB uncompressed, and is therefore much too big to maintain on github.  Contact me directly if you need access to the file.
+The one file _not_ contained in the repository is the statistical language model `ngrams.txt` (roughly speaking, this contains a table of probabilities of seeing an word in Irish if you know the previous two words).  It currently weighs in at about 500MB uncompressed, and is therefore much too big to maintain on github. It should be placed in the same directory as all of the other files in the repository.  Contact me directly if you need a copy of `ngrams.txt`.
