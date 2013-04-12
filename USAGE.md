@@ -16,6 +16,28 @@ Assume the text to be standardized is called `input.txt`, and has been saved in 
 
 	$ cat input.txt | bash tiomanai.sh > output.txt
 
+This writes the standardization to the file output.txt in the following
+format:
+
+	Ní => Ní
+	bhéadh => bheadh
+	aoinne => aon duine
+	i => in
+	n-amhras => amhras
+	nach => nach
+	dairíribh => dáiríre
+	a => a
+	bhí => bhí
+	sí => sí
+	. => .
+	\n => \n
+
+There is a (rough) _detokenizer_ included in the repository if you
+do not care about keeping the pre-standard forms and just want a clean
+version of the standardized text.  Use this command, for example:
+
+	$ cat output.txt | sed 's/^.* => //' | perl detokenize.pl > standard.txt
+
 Hacking
 -------
 
