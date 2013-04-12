@@ -47,6 +47,6 @@ This version of the standardizer was written specifically to make it easy for no
 
 * `pairs-local.txt`.  On each line of this file is a _standardization pair_ consisting of a pre-standard word, a space, and then the standardized form.  The primary collection of standardizations is contained in a separate file called `pairs.txt`; it uses the same format, but is generated automatically from my backend database and you should not edit it.  Any new pairs you want to add to the system should go in `pairs-local.txt`.
 * `multi.txt`. This file contains standardization pairs where the pre-standard form consists of more than one word.  The file format is basically the same as `pairs-local.txt`, except that underscores must be used in place of any spaces in the pre-standard phrase.
-`spurious.txt`. Sometimes you will find that you are not happy with one of the built-in standardizations from `pairs.txt`. There could be an error, or simply a standardization that you do not like or agree with.  It is possible to "turn off" a given pair by placing it in the file `spurious.txt`.
+* `spurious.txt`. Sometimes you will find that you are not happy with one of the built-in standardizations from `pairs.txt`. There could be an error, or simply a standardization that you do not like or agree with.  It is possible to "turn off" a given pair by placing it in the file `spurious.txt`.
 
 After making changes to any of these files, you can rerun the program and you should see your improvements take effect.
