@@ -12,7 +12,7 @@ with 12GB RAM and a pretty fast drive it takes about a minute and
 half to load the language models.  On a MacBook Pro with 8GB RAM it
 takes about 12 minutes.  Once the models are loaded the actual
 standardization process is 
-pretty fast; about X words per minute on the Linux server.
+pretty fast; better than 200K words per minute on the Linux server.
 
 Almost everything you need to run the standardizer is contained
 in this github repository.  I recommend strongly that you access the code
