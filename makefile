@@ -75,6 +75,13 @@ tofix.txt: FORCE
 survey.txt: nua-output.txt
 	cat nua-output.txt | perl -I ${HOME}/gaeilge/gramadoir/gr/ga/Lingua-GA-Gramadoir/lib ${HOME}/gaeilge/gramadoir/gr/ga/Lingua-GA-Gramadoir/scripts/gram-ga.pl --ionchod=utf-8 --litriu | LC_ALL=C sort | LC_ALL=C uniq -c | LC_ALL=C sort -r -n > $@
 
+# similar to survey, but catches context-sensitive non-standard bits too, 
+# like "go dtáinig", "i n-áit" and so on
+# often these arise because they appear frequently in n-gram model -
+# add them to cleanup.sh in that dir
+probsleft.txt: nua-output.txt
+	cat nua-output.txt | perl -I ${HOME}/gaeilge/gramadoir/gr/ga/Lingua-GA-Gramadoir/lib ${HOME}/gaeilge/gramadoir/gr/ga/Lingua-GA-Gramadoir/scripts/gram-ga.pl --ionchod=utf-8 --api | perl ${HOME}/gaeilge/gramadoir/gr/bin/api2old | egrep -o 'errortext="[^"]+"' | sed 's/^errortext="//' | sed 's/"$$//' | LC_ALL=C sort | LC_ALL=C uniq -c | LC_ALL=C sort -r -n > $@
+
 ############## TARGETS FOR MAINTAINER ONLY ! ###############
 GAELSPELL=${HOME}/gaeilge/ispell/ispell-gaeilge
 CRUBLOCAL=${HOME}/gaeilge/crubadan/crubadan
