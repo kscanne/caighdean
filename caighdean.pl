@@ -420,7 +420,8 @@ while (<STDIN>) {
 		print "$_ => $_\n";
 	}
 	elsif (/^'/ or /'$/) {
-		if (exists($cands{$_}) or /^'+$/) {
+		if (exists($cands{$_}) or /^'+$/ or
+			(/^[A-ZÁÉÍÓÚ]/ and exists($cands{lc($_)}))) {
 			process_one_token($_);
 		}
 		else {
