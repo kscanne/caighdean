@@ -38,6 +38,14 @@ version of the standardized text.  Use this command, for example:
 
 	$ cat output.txt | sed 's/^.* => //' | perl detokenize.pl > standard.txt
 
+The detokenizer can also convert the usual output format into an alternate format that we used as part of the [New English-Irish Dictionary project](http://focloir.ie/):
+
+	$ cat output.txt | perl detokenize.pl
+	Ní ^bhéadh^ bheadh duine ar bith ^i^ in ^n-amhras^ amhras nach ^dairíribh^ dáiríre a bhí sí.
+	Nuair a bhí sí réidh le ^h-imtheacht^ himeacht d'fhág sí slán agus beannacht ag ballaí na ^cisteanadh^ cistine.
+	Bhí spéir bhog ^theith^ the ann agus ^néalltaí^ néaltaí bána mar ^bhéadh^ bheadh olann ann agus corr-réalt.
+	...
+
 Hacking
 -------
 
