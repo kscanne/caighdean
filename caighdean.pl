@@ -24,6 +24,12 @@ my %cands;
 my %prob;
 my %smooth;
 
+sub max {
+	(my $a, my $b) = @_;
+	return $a if ($a > $b);
+	return $b;
+}
+
 sub extend_sentence {
 	(my $s, my $w) = @_;
 	return $w if ($s eq '');
@@ -232,12 +238,22 @@ sub all_matches {
 			for my $a (keys %{$subans}) {
 				next if (exists($spurious{"$w $a"}));
 				if (exists($ans{$a})) {  # if already found some other way
-					if ($subans->{$a} < $ans{$a}) {
-						$ans{$a} = $subans->{$a};
-					}
+					$ans{$a} = $subans->{$a} if ($subans->{$a} < $ans{$a});
 				}
 				else {
 					$ans{$a} = $subans->{$a};
+				}
+			}
+			# rule produces multiword: oidhche-sin => oidhche_sin
+			if ($cand =~ m/^([^_]+)_(.+)$/ and scalar keys %ans == 0) {
+				my $left = $1;
+				my $right = $2;
+				my $subans_l = all_matches($left, $subcount);
+				my $subans_r = all_matches($right, $subcount);
+				for my $a (keys %{$subans_l}) {
+					for my $b (keys %{$subans_r}) {
+						$ans{"$a $b"} = max($subans_l->{$a}, $subans_r->{$b});
+					}
 				}
 			}
 		}
