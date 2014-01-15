@@ -43,6 +43,9 @@
 ^t([AEIOUÁÉÍÓÚ])([A-ZÁÉÍÓÚ'-]+)$	t$1\L$2	-1
 ^t([AEIOUÁÉÍÓÚ])	t-\l$1	-1
 ^mb'	b'	-1
+(...)-sin$	$1_sin	1
+(...)-seo$	$1_seo	1
+e[oó]chad$	eoidh_mé	1
 ^d'f([aeiouáéíóú])	d'fh$1	2
 u(i?[dg]h)	a$1	1
 i[dg]h(th?.)	i$1	1
@@ -318,9 +321,11 @@ eoi?[ds]$	eoidh	1
 ([eéií][^aeiouáéíóú]*)far$	$1fear	1
 ([eéií][^aeiouáéíóú]*)tar$	$1tear	1
 fa$	faidh	1
-fai[rsd]$	faidh	1
+fair$	faidh_tú	1
+fai[sd]$	faidh	1
 fe$	fidh	1
-fi[rsd]$	fidh	1
+fir$	fidh_tú	1
+fi[sd]$	fidh	1
 óis$	óidh	1
 eois$	eoidh	1
 ^h([aeiouáéíóú].+fe?ar)$	$1	1
