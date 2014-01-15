@@ -245,6 +245,7 @@ aibh$	a	1
 tch	t	1
 i[dg]hea	ío	1
 i[dg]he	í	1
+i[dg]hio	ío	1
 uí([mto])	aí$1	1
 uith	aith	1
 adha	ú	1
@@ -276,6 +277,7 @@ eoig$	eog	1
 lainn$	lann	1
 aisí$	ais	1
 dth([ea])$	dt$1	1
+ioch$	each	1
 íbh$	í	1
 íocha$	í	1
 e[oó]cha(i?dh)$	eo$1	1
@@ -327,6 +329,7 @@ eois$	eoidh	1
 (...)ai[rs]$	$1	1
 (..[^aeiouáéíóú])i[rs]$	$1	1
 (...)ís$	$1igh	1
+iodh$	eadh	1
 taoi$	taí	1
 ains$	ann	1
 ins$	eann	1
@@ -510,7 +513,6 @@ eor$	eoir	2
 ionn$	íonn	2
 itear$	ítear	2
 iteá$	íteá	2
-iodh$	íodh	2
 ([^e])oidh$	$1óidh	2
 ([^e])ofar$	$1ófar	2
 u$	ú	2
