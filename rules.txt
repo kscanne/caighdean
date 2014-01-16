@@ -238,6 +238,8 @@ eamhla	iúla	1
 ([^e])amhla	$1úla	1
 adht([aá])	at$1	1
 aíle$	aíola	1
+aighibh$	aigh	1
+([^a])ighibh$	$1igh	1
 eachaibh$	igh	1
 ([^e])achaibh$	$1aigh	1
 anaibh$	anna	1
