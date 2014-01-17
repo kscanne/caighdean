@@ -4,12 +4,15 @@ use strict;
 use warnings;
 use utf8;
 use Memoize;
+use DB_File;
+use DBM_Filter;
 
 binmode STDIN, ":utf8";
 binmode STDOUT, ":utf8";
 binmode STDERR, ":utf8";
 
 my $verbose = 0;
+my $db = 1;
 
 if ($#ARGV == 0 and $ARGV[0] eq '-v') {
 	$verbose = 1;
@@ -324,20 +327,26 @@ while (<LOCALPAIRS>) {
 }
 close LOCALPAIRS;
 
-my $ngramfile = 'ngrams.txt';
-if ($verbose) {
-	print "Loading n-gram language model...\n";
-	$ngramfile = 'ngrams-prune-3.txt';
-	
+if ($db) {
+	my $dbp = tie %prob, "DB_File", "prob.db", O_RDONLY, 0644, $DB_HASH or die "Cannot open prob.db: $!\n";
+	$dbp->Filter_Push('utf8');
+
+	my $dbs = tie %smooth, "DB_File", "smooth.db", O_RDONLY, 0644, $DB_HASH or die "Cannot open smooth.db: $!\n";
+	$dbs->Filter_Push('utf8');
+
+	memoize('compute_log_prob');
 }
-open(NGRAMS, "<:utf8", $ngramfile) or die "Could not open n-gram data file $ngramfile: $!";
-while (<NGRAMS>) {
-	chomp;
-	m/^(.+)\t(.+)\t(.+)$/;
-	$prob{$1} = $2;
-	$smooth{$1} = $3 unless ($3 == 0);
+else {
+	print "Loading n-gram language model...\n" if ($verbose);
+	open(NGRAMS, "<:utf8", 'ngrams.txt') or die "Could not open n-gram data file ngrams.txt: $!";
+	while (<NGRAMS>) {
+		chomp;
+		m/^(.+)\t(.+)\t(.+)$/;
+		$prob{$1} = $2;
+		$smooth{$1} = $3 unless ($3 == 0);
+	}
+	close NGRAMS;
 }
-close NGRAMS;
 
 memoize('all_matches');
 
