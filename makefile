@@ -96,6 +96,8 @@ NGRAM=${HOME}/gaeilge/ngram
 # do "make refresh" right after running "groom"
 refresh: clean.txt-refresh pairs.txt-refresh ngrams.txt-refresh alltokens.pl-refresh
 
+groom: pairs.txt-refresh clean.txt-refresh
+
 pairs.txt-refresh: $(GAELSPELL)/apost $(GAELSPELL)/gaelu $(GAELSPELL)/athfhocail $(GAELSPELL)/earraidi
 	rm -f pairs.txt
 	LC_ALL=C sort -u $(GAELSPELL)/apost $(GAELSPELL)/gaelu $(GAELSPELL)/athfhocail $(GAELSPELL)/earraidi | sort -k1,1 > pairs.txt
