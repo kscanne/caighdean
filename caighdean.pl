@@ -12,11 +12,16 @@ binmode STDOUT, ":utf8";
 binmode STDERR, ":utf8";
 
 my $verbose = 0;
+my $gd = 0;
 my $db = 1;
 
-if ($#ARGV == 0 and $ARGV[0] eq '-v') {
-	$verbose = 1;
+for my $a (@ARGV) {
+	$verbose = 1 if ($a eq '-v');
+	$gd = 1 if ($a eq '-d');
 }
+
+my $extension = '';
+$extension = '-gd' if ($gd);
 
 my $maxdepth = 10;
 my $penalty = 2.9;
@@ -265,7 +270,7 @@ sub all_matches {
 }
 
 print "Loading rules file...\n" if $verbose;
-open(RULES, "<:utf8", "rules.txt") or die "Could not open morph rules file: $!";
+open(RULES, "<:utf8", "rules$extension.txt") or die "Could not open spelling rules file: $!";
 while (<RULES>) {
 	next if (/^#/);
 	chomp;
@@ -280,8 +285,8 @@ while (<RULES>) {
 }
 close RULES;
 
-print "Loading spurious non-standard/standard...\n" if $verbose;
-open(SPURIOUS, "<:utf8", "spurious.txt") or die "Could not open list of spurious pairs: $!";
+print "Loading spurious pairs...\n" if $verbose;
+open(SPURIOUS, "<:utf8", "spurious$extension.txt") or die "Could not open list of spurious pairs: $!";
 while (<SPURIOUS>) {
 	chomp;
 	$spurious{$_}++;
@@ -296,8 +301,8 @@ while (<CLEAN>) {
 }
 close CLEAN;
 
-print "Loading non-standard/standard pairs...\n" if $verbose;
-open(PAIRS, "<:utf8", "pairs.txt") or die "Could not open list of pairs: $!";
+print "Loading list of pairs...\n" if $verbose;
+open(PAIRS, "<:utf8", "pairs$extension.txt") or die "Could not open list of pairs: $!";
 while (<PAIRS>) {
 	chomp;
 	next if exists($spurious{$_});
@@ -306,8 +311,8 @@ while (<PAIRS>) {
 }
 close PAIRS;
 
-print "Loading multi-word phrases/standardizations...\n" if $verbose;
-open(MULTI, "<:utf8", "multi.txt") or die "Could not open list of phrases: $!";
+print "Loading multi-word phrase pairs...\n" if $verbose;
+open(MULTI, "<:utf8", "multi$extension.txt") or die "Could not open list of phrases: $!";
 while (<MULTI>) {
 	chomp;
 	m/^([^ ]+) (.+)$/;
@@ -315,8 +320,8 @@ while (<MULTI>) {
 }
 close MULTI;
 
-print "Loading local non-standard/standard pairs...\n" if $verbose;
-open(LOCALPAIRS, "<:utf8", "pairs-local.txt") or die "Could not open list of local pairs: $!";
+print "Loading local pairs...\n" if $verbose;
+open(LOCALPAIRS, "<:utf8", "pairs-local$extension.txt") or die "Could not open list of local pairs: $!";
 while (<LOCALPAIRS>) {
 	chomp;
 	if (exists($spurious{$_})) {
