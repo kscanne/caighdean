@@ -8,6 +8,8 @@
 # LHS = gold-standard, RHS = output of caighdeánaitheoir
 TESTPRE=testpre.txt
 TESTPOST=testpost.txt
+TESTGA=testpost-gd.txt
+TESTGD=testpre-gd.txt
 
 all: ok.txt
 
@@ -23,12 +25,22 @@ baseline: FORCE
 	@perl compare.pl $(TESTPOST) $(TESTPRE)
 	@echo `cat unchanged.txt | wc -l` "out of" `cat $(TESTPRE) | wc -l` "unchanged"
 
+baseline-gd: FORCE
+	@perl compare.pl $(TESTGA) $(TESTGD)
+	@echo `cat unchanged.txt | wc -l` "out of" `cat $(TESTGD) | wc -l` "unchanged"
+
 # run pre-standardized text through the new code
 tokenized-output.txt: $(TESTPRE) tiomanai.sh nasc.pl caighdean.pl rules.txt clean.txt pairs.txt ngrams.txt alltokens.pl pairs-local.txt spurious.txt multi.txt
 	cat $(TESTPRE) | bash tiomanai.sh > $@
 
+tokenized-output-gd.txt: $(TESTGD) tiomanai.sh nasc.pl caighdean.pl rules-gd.txt clean.txt pairs-gd.txt ngrams.txt alltokens.pl pairs-local-gd.txt spurious-gd.txt multi-gd.txt
+	cat $(TESTGD) | bash tiomanai.sh -d > $@
+
 nua-output.txt: tokenized-output.txt detokenize.pl
 	cat tokenized-output.txt | sed 's/^.* => //' | perl detokenize.pl > $@
+
+nua-output-gd.txt: tokenized-output-gd.txt detokenize.pl
+	cat tokenized-output-gd.txt | sed 's/^.* => //' | perl detokenize.pl > $@
 
 # doing full files is too slow
 surv: FORCE
@@ -43,8 +55,14 @@ surv: FORCE
 ok.txt: nua-output.txt $(TESTPOST) compare.pl
 	perl compare.pl $(TESTPOST) nua-output.txt
 	echo `cat unchanged.txt | wc -l` "out of" `cat nua-output.txt | wc -l` "correct"
-	mv unchanged.txt ok.txt
-	git diff ok.txt
+	mv unchanged.txt $@
+	git diff $@
+
+ok-gd.txt: nua-output-gd.txt $(TESTGA) compare.pl
+	perl compare.pl $(TESTGA) nua-output-gd.txt
+	echo `cat unchanged.txt | wc -l` "out of" `cat nua-output-gd.txt | wc -l` "correct"
+	mv unchanged.txt $@
+	git diff $@
 
 # TODO: Add an independent test of detokenizer; use generic
 # modern texts, not stuff from CCGB that may have already by detokenized once
@@ -53,7 +71,14 @@ eid-output.txt: tokenized-output.txt
 	cat tokenized-output.txt | perl detokenize.pl > $@
 
 clean:
-	rm -f detokentest.txt unchanged.txt post-tokens.txt pre-tokens.txt tokenized-output.txt nua-output.txt cga-output.txt pre-surv.txt post-surv.txt tofix.txt survey.txt probsleft.txt tofixgram.txt
+	rm -f detokentest.txt unchanged.txt post-tokens.txt pre-tokens.txt tokenized-output.txt tokenized-output-gd.txt nua-output.txt nua-output-gd.txt cga-output.txt pre-surv.txt post-surv.txt tofix.txt survey.txt probsleft.txt tofixgram.txt
+
+############## Build test sets from CCGG ###############
+
+ccgg-refresh: FORCE
+	find ${HOME}/gaeilge/ga2gd/ccgg -type f | egrep -v -- '-b$$' | egrep -v '/po-m[a-z][a-z]t$$' | while read x; do paste $$x $$x-b | sed 's/^[^:]*: *//' | sed 's/\t[^:]*: */\t/'; done | shuf | tee pasted.txt | cut -f 1 > $(TESTGA)
+	cat pasted.txt | cut -f 2 > $(TESTGD)
+	rm -f pasted.txt
 
 ############## COMPARISON WITH RULE-BASED VERSION ONLY ###############
 
