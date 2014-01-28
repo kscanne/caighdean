@@ -53,7 +53,7 @@ eid-output.txt: tokenized-output.txt
 	cat tokenized-output.txt | perl detokenize.pl > $@
 
 clean:
-	rm -f detokentest.txt unchanged.txt post-tokens.txt pre-tokens.txt tokenized-output.txt nua-output.txt cga-output.txt pre-surv.txt post-surv.txt tofix.txt survey.txt probsleft.txt
+	rm -f detokentest.txt unchanged.txt post-tokens.txt pre-tokens.txt tokenized-output.txt nua-output.txt cga-output.txt pre-surv.txt post-surv.txt tofix.txt survey.txt probsleft.txt tofixgram.txt
 
 ############## COMPARISON WITH RULE-BASED VERSION ONLY ###############
 
@@ -84,6 +84,10 @@ survey.txt: nua-output.txt
 # add them to cleanup.sh in that dir
 probsleft.txt: nua-output.txt
 	cat nua-output.txt | perl -I ${HOME}/gaeilge/gramadoir/gr/ga/Lingua-GA-Gramadoir/lib ${HOME}/gaeilge/gramadoir/gr/ga/Lingua-GA-Gramadoir/scripts/gram-ga.pl --ionchod=utf-8 --api | perl ${HOME}/gaeilge/gramadoir/gr/bin/api2old | egrep -o 'errortext="[^"]+"' | sed 's/^errortext="//' | sed 's/"$$//' | LC_ALL=C sort | LC_ALL=C uniq -c | LC_ALL=C sort -r -n > $@
+
+PUL.txt: FORCE
+	rm -f $@
+	find ${HOME}/gaeilge/diolaim/sean/ria -name '?M*' | egrep -v nua | xargs egrep -l '^<U.+(Athair Peadar|Rev. Peter)' | egrep -v '(LM17[345]|LM088)' | xargs cat | sed 's/<[^>]*>//g' > $@
 
 ############## TARGETS FOR MAINTAINER ONLY ! ###############
 GAELSPELL=${HOME}/gaeilge/ispell/ispell-gaeilge
