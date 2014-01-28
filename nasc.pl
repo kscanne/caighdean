@@ -10,8 +10,15 @@ binmode STDERR, ":utf8";
 
 my %phrases;
 my $maxwords = 0;
+my $gd = 0;
 
-open(MULTI, "<:utf8", "multi.txt") or die "Could not open list of phrases: $!";
+for my $a (@ARGV) {
+	$gd = 1 if ($a eq '-d');
+}
+my $extension = '';
+$extension = '-gd' if ($gd);
+
+open(MULTI, "<:utf8", "multi$extension.txt") or die "Could not open list of phrases: $!";
 while (<MULTI>) {
 	chomp;
 	(my $phrase, my $ignore) = m/^([^ ]+) (.+)$/;
