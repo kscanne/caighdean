@@ -36,9 +36,7 @@ sub normalize {
 			}
 		}
 	}
-	if ($answer eq '') {
-		print STDERR "Warning: empty normalization: $s\n\n";
-	}
+	#print STDERR "Warning: empty normalization: $s\n\n" if ($answer eq '');
 	$answer = lc($answer);
 	$answer =~ s/\|$//;
 	return $answer;
