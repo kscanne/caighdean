@@ -120,6 +120,7 @@ CRUBLOCAL=${HOME}/gaeilge/crubadan/crubadan
 GRAMADOIR=${HOME}/gaeilge/gramadoir/gr/ga
 CRUB=/usr/local/share/crubadan
 NGRAM=${HOME}/gaeilge/ngram
+GA2GD=${HOME}/gaeilge/ga2gd/ga2gd
 
 # rules.txt currently locally modified - don't refresh from gramadoir!
 # do "make refresh" right after running "groom"
@@ -131,6 +132,12 @@ pairs.txt-refresh: $(GAELSPELL)/apost $(GAELSPELL)/gaelu $(GAELSPELL)/athfhocail
 	rm -f pairs.txt
 	LC_ALL=C sort -u $(GAELSPELL)/apost $(GAELSPELL)/gaelu $(GAELSPELL)/athfhocail $(GAELSPELL)/earraidi | sort -k1,1 > pairs.txt
 	chmod 444 pairs.txt
+
+pairs-gd.txt-refresh: FORCE
+	rm -f pairs-gd.txt
+	(cd $(GA2GD); make pairs-gd.txt)
+	cp $(GA2GD)/pairs-gd.txt .
+	chmod 444 pairs-gd.txt
 
 ngrams.txt-refresh: FORCE
 	rm -f ngrams.txt
