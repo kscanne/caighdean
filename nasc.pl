@@ -24,7 +24,7 @@ while (<MULTI>) {
 	(my $phrase, my $ignore) = m/^([^ ]+) (.+)$/;
 	my $numwords = 1 + ($phrase =~ tr/_//);
 	$maxwords = $numwords if ($numwords > $maxwords);
-	$phrases{$phrase}++;
+	$phrases{lc($phrase)}++;
 }
 close MULTI;
 
