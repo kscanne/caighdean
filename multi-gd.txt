@@ -2,11 +2,18 @@
 'n_uiridh anuraidh
 'n_uraidh anuraidh
 Eabhraig_Nuadh Nua-Eabhrac
+Earra_Gháidheal Earra Gháidheal
 Eilean_Wight Inis Iocht
 Lib_Deamach Daonlathaithe Liobrálach
 Lib_Deamach Daonlathaí Liobrálach
+Lib_Deamaich Daonlathaithe Liobrálach
+Lib_Deamaich Daonlathaí Liobrálach
+Lib_Dems Daonlathaithe Liobrálacha
 Naoimh_Anndrais San Aindrias
 Naomh_Anndrais San Aindrias
+Phrìomh_Mhinistear Phríomh-Aire
+Prìomh_Mhinistear Príomh-Aire
+Prìomh_Mhinistear bPríomh-Aire
 Thìr_Ìosal Ísiltír
 Thìre_Ìosal Ísiltíre
 Tìr_Ìosal b'Ísiltír
@@ -34,6 +41,7 @@ a_th'anns_a' atá san
 a_th'anns_an atá sa
 a_th'anns_an atá san
 a_th'anns_na atá sna
+a_tha' atá
 abradh_iad abraidís
 abradh_iad déarfaidís
 abradh_iad n-abraidís
@@ -43,6 +51,7 @@ abradh_tu ndéarfá
 air_beulaibh ar bhéal
 air_uairibh uaireanta
 am_measg i measc
+am_màireach amárach
 an_còmhnaidh i gcónaí
 an_diugh inniu
 an_seo anseo
@@ -52,6 +61,8 @@ ann_am i
 ann_am in
 ann_an i
 ann_an in
+anns_A' sa
+anns_A' san
 anns_An sa
 anns_An san
 anns_Na sna
@@ -170,8 +181,9 @@ cluinneadh_iad gcluinidís
 cluinneadh_tu gcluinfeá
 cluinnidh_sinn cluinfimid
 cluinnidh_sinn gcluinfimid
-co dhiu ar aon nós
-co dhiù ar aon nós
+co_dhiu ar aon nós
+co_dhiù ar aon nós
+corr'_uair corruair
 cruthaicheadh_iad cruthaídís
 cruthaicheadh_iad gcruthaídís
 cruthaicheadh_iad gcruthóidís
@@ -191,8 +203,8 @@ cuireadh_tu gcuirfeá
 cuiridh_sinn cuirfimid
 cuiridh_sinn gcuirfimid
 càit_a_bheil cá bhfuil
-cò dhiu ar aon nós
-cò dhiù ar aon nós
+cò_dhiu ar aon nós
+cò_dhiù ar aon nós
 d'rinn_iad dhearnadar
 d'rinn_iad ndearnadar
 d'rinn_sinn dhearnamar
@@ -530,6 +542,7 @@ gheibh_sinn gheobhaimid
 gheibh_sinn ngeobhaimid
 gheibheadh_iad gheobhaidís
 gheibheadh_tu gheofá
+gur_h-e gurbh é
 h-abradh_iad habraidís
 h-innseadh_iad hinsídís
 h-obraicheadh_iad hoibrídís
@@ -584,6 +597,8 @@ obraicheadh_iad n-oibrídís
 obraicheadh_iad oibrídís
 obraichidh_sinn n-oibreoimid
 obraichidh_sinn oibreoimid
+oidhche_Haoine oíche Aoine
+oidhche_Shathairne oíche Shathairn
 phrìomh_adhbhar phríomhábhair
 phrìomh_adhbhar phríomhábhar
 phrìomh_amas phríomhaidhm
