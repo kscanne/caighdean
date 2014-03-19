@@ -152,6 +152,8 @@ aigesan aigesean
 aille áille
 air air
 airsan airsean
+aisde aisti
+aisdese aistise
 aiste aisti
 aistese aistise
 ait' áit
@@ -171,6 +173,8 @@ asainn asainn
 asainne asainne
 asam asam
 asamsa asamsa
+asda astu
+asdasan astusan
 asta astu
 astasan astusan
 b'Abchas b'Abcáis
@@ -276,6 +280,12 @@ ban-righinne banríona
 ban-righinne mbanríona
 ban-righinnean banríonacha
 ban-righinnean mbanríonacha
+ban-rìgh banríon
+ban-rìgh mbanríon
+ban-rìghe banríona
+ban-rìghe mbanríona
+ban-rìghean banríonacha
+ban-rìghean mbanríonacha
 banrigh banríon
 banrigh mbanríon
 banrighe banríona
@@ -323,6 +333,9 @@ bhan-righean bhanríonacha
 bhan-righinn bhanríon
 bhan-righinne bhanríona
 bhan-righinnean bhanríonacha
+bhan-rìgh bhanríon
+bhan-rìghe bhanríona
+bhan-rìghean bhanríonacha
 bhanrigh bhanríon
 bhanrighe bhanríona
 bhanrighean bhanríonacha
@@ -368,6 +381,8 @@ bhithibh bhígí
 bhithidh bheidh
 bhithinn beinn
 bhithinn bheinn
+bhriodachadh phórú
+bhriodachaidh phóraithe
 bhuin bhain
 bhuin mbain
 bhuineadh baineadh
@@ -418,6 +433,10 @@ bithibh mbígí
 bithidh beidh
 bithidh mbeidh
 bithinn mbeinn
+briodachadh bpórú
+briodachadh pórú
+briodachaidh bpóraithe
+briodachaidh póraithe
 buin bain
 buin mbain
 buineadh baineadh
@@ -1038,6 +1057,20 @@ faighibh bhfaighigí
 faighibh faighigí
 faighte b'fhaighte
 faighte faighte
+fastaiche b'fhostóir
+fastaiche bhfostóir
+fastaiche bhfostóra
+fastaiche d'fhostóir
+fastaiche d'fhostóra
+fastaiche fostóir
+fastaiche fostóra
+fastaiche m'fhostóir
+fastaiche m'fhostóra
+fastaichean b'fhostóirí
+fastaichean bhfostóirí
+fastaichean d'fhostóirí
+fastaichean fostóirí
+fastaichean m'fhostóirí
 fhag fhág
 fhagadh fhágadh
 fhagaibh fhágaigí
@@ -1061,6 +1094,9 @@ fhaigheamaid fhaighimis
 fhaighear fhaightear
 fhaighibh fhaighigí
 fhaighte fhaighte
+fhastaiche fhostóir
+fhastaiche fhostóra
+fhastaichean fhostóirí
 fhreagair bhfreagair
 fhreagair d'fhreagair
 fhreagair fhreagair
@@ -1419,6 +1455,7 @@ m'àite m'áite
 m'àiteachan m'áiteanna
 m'àitean m'áiteanna
 m'àitichean m'áiteanna
+maerl méarla
 mair mair
 maireadh maireadh
 maireadh mairfeadh
@@ -1431,6 +1468,10 @@ mairibh mairigí
 mairidh mairfidh
 mairinn mairfinn
 mairte martha
+meal-a-naidheachd comhghairdeas
+meal-a-naidheachd comhghairdis
+meal-a-naidheachd gcomhghairdeas
+meal-a-naidheachd gcomhghairdis
 mhair mair
 mhair mhair
 mhaireadh maireadh
@@ -1447,6 +1488,8 @@ mhairibh mhairigí
 mhairidh mhairfidh
 mhairinn mhairfinn
 mhairte mhartha
+mheal-a-naidheachd chomhghairdeas
+mheal-a-naidheachd chomhghairdis
 n-Abchais nAbcáise
 n-Abchas nAbcáis
 n-Abchasach nAbcásach
@@ -1528,6 +1571,7 @@ nochdar nochtar
 nochdar nochtfar
 nochdas nochtfaidh
 nochdta nochta
+nochdte nochta
 nochte nochta
 nì dhéanfaidh
 nì déanfaidh
@@ -1592,6 +1636,10 @@ pheacaidhean pheacaí
 pheacannan pheacaí
 phoileasaidh pholasaí
 phoileasaidhean pholasaithe
+phoileatagach pholaitiúil
+phoileatagach pholaitiúla
+phoileatagaich pholaitiúil
+phoileatagaiche pholaitiúla
 phoileataics pholaitíocht
 phoileataics pholaitíochta
 phoileataigeach pholaitiúil
@@ -1640,6 +1688,10 @@ poileasaidh bpolasaí
 poileasaidh polasaí
 poileasaidhean bpolasaithe
 poileasaidhean polasaithe
+poileatagach polaitiúil
+poileatagach polaitiúla
+poileatagaich polaitiúil
+poileatagaiche polaitiúla
 poileataics bpolaitíocht
 poileataics bpolaitíochta
 poileataics polaitíocht
@@ -1762,6 +1814,9 @@ rachar théitear
 rachar téitear
 rinn rinne
 rinneadh rinneadh
+ro-eachdraidheil réamhstairiúil
+ro-eachdraidheil réamhstairiúla
+ro-eachdraidheile réamhstairiúla
 rug rug
 rugadh rugadh
 ruig shroich
@@ -1875,6 +1930,10 @@ tagar clibeálfar
 tagar gclibeáiltear
 tagar gclibeálfar
 tagta clibeáilte
+tea dtae
+tea tae
+teatha dtae
+teatha tae
 teireadh ndéarfadh
 teireamaid ndéarfaimis
 teirinn ndéarfainn
@@ -1899,6 +1958,8 @@ thagas chlibeálfaidh
 thagas clibeálfaidh
 thagas gclibeálfaidh
 thagta chlibeáilte
+thea thae
+theatha thae
 their déarfaidh
 their ndéarfaidh
 theireadh déarfadh
@@ -1981,6 +2042,7 @@ thèidear dtéifear
 thèidear rachfar
 thèidear théifear
 thèidear téifear
+thì thae
 thòiseachadh thosú
 thòiseachaidh thosaithe
 thòisich dtosaigh
@@ -2017,6 +2079,7 @@ toirear tugtar
 toiribh dtugaigí
 toiribh tugaigí
 toirinn dtabharfainn
+trèan-lann stáisiún traenach
 tuath-gaoithe feirm ghaoithe
 tubaist-rathaid timpiste bhóthair
 tuig dtuig
@@ -2039,6 +2102,8 @@ tuigidh dtuigfidh
 tuigidh tuigfidh
 tuiginn dtuigfinn
 tuigte tuigthe
+tì dtae
+tì tae
 tòiseachadh dtosú
 tòiseachadh tosú
 tòiseachaidh dtosaithe
