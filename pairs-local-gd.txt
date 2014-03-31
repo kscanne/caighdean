@@ -86,6 +86,7 @@
 50f 50in
 55f 55in
 1d 1ú
+1ad 1ú
 01mh 1ú
 1mh 1ú
 02mh 2ú
@@ -108,6 +109,7 @@
 10mh 10ú
 11mh 11ú
 12mh 12ú
+12na 12ú
 13mh 13ú
 14mh 14ú
 15mh 15ú
@@ -118,6 +120,7 @@
 20mh 20ú
 21mh 21ú
 22mh 22ú
+22na 22ú
 23mh 23ú
 24mh 24ú
 25mh 25ú
@@ -178,6 +181,7 @@ abradh déarfadh
 abradh ndéarfadh
 Abrahàim Abrahám
 Abrahàm Abrahám
+Abraim Abrám
 abrainn déarfainn
 abrainn ndéarfainn
 abramaid déarfaimis
@@ -189,20 +193,28 @@ a'cur ag cur
 a'd' i do
 Adhamh Ádhamh
 Àdhamh Ádhamh
+Adhamhnan Adhamhnán
 a'dol ag dul
 AE AE
 aea acu
 aeh ach
 Afrikaans Afracáinis
 a'Ghàidhlig an Ghàidhlig
+agiis agus
+Ah Á
 aidh aidhe
 AIDS SEIF
 al ag
 Albainn Alba
+Algiers Cathair na hAilgéire
 a'm' i mo
+Amsterdam Amstardam
+Andalusia an Andalúis
 Antioquia Antioquia
 aonais éagmhais
 aon-neach aonair
+app aip
+àrd-bheann sléibhte
 ars arsa
 ars' arsa
 arsa arsa
@@ -214,22 +226,27 @@ au au
 au an
 Ban Bán
 bba bhí
+BC BC
+BC RC
 Beál Béal
 b'fheudar b'éigean
 beil bhfuil
 beilear bhfuiltear
 beileas bhfuiltear
+Beniàmin Biniáimin
 beir bhéarfaidh
 beir mbéarfaidh
 Berlin Beirlín
 beirtear beirtear
 b'fheàrr b'fhearr
+b'fhearr b'fhearr
 bh' bhí
 bha bhí
 bh'aca bhí acu
 bh'aig bhí ag
 bh'aige bhí aige
 bh'air bhí ar
+bhais bháis
 bhalachaibh bhuachaillí
 bha'n bhí an
 bh'ann a bhí ann
@@ -237,6 +254,7 @@ bhatar bhíothas
 bhathas bhíothas
 bheachdsa thuairimse
 bheachd-sa thuairimse
+bheii bhfuil
 bheil bhfuil
 bheilear bhfuiltear
 bheileas bhfuiltear
@@ -284,7 +302,14 @@ bliadhna-sa bliana-sa
 Bogotá Bogatá
 BPAan BPAanna
 Breatainne Breataine
+Budapest Búdaipeist
+Budapest mBúdaipeist
 Burras Speig Neanta
+Cairo Caireo
+Calafòrnia California
+Caledonia Caladóin
+cante ndéarfaí
+cante dhéarfaí
 Caoimhìn Caoimhín
 Caoimhin Caoimhín
 CDan CDanna
@@ -301,6 +326,8 @@ chionn's cionn is
 chìthear bhfeicfear
 chìthear fheicfear
 chìthear feicfear
+chlaich chloch
+chlainn chlann
 chloich chloch
 chloinn chlann
 chluinn chluinnfidh
@@ -308,13 +335,23 @@ chluinn gcluinnfidh
 chluinneas chluinfidh
 chluinntear chluinfear
 chluinntear chluintear
+choillidh choill
 chois chos
+chosaibh chosa
 chraoibh chrann
 chreig chreig
+chrìch chríoch
+chrich chríoch
+chrìch teorainn
+chrich teorainn
+chrìch theorainn
+chrich theorainn
 chual' chuala
 chual' gcuala
 chualas chualathas
 chualas gcualathas
+chùlaibh chúl
+chulaibh chúl
 chunna chonaic
 chunnacas chonacthas
 chunnacas gconacthas
@@ -327,6 +364,7 @@ cluinn chluinnfidh
 cluinn gcluinnfidh
 cluinntear cluinfear
 cluinntear cluintear
+c6ig cúig
 Coirèa an Chóiré
 cois cos
 Colombia an Cholóim
@@ -338,12 +376,16 @@ Corcaigh Chorcaí
 craoibh gcrann
 creig creig
 crìch críoch
+crich críoch
 cuala chuala
 cuala gcuala
 cualadh chualathas
 cualadh gcualathas
 cualas chualathas
 cualas gcualathas
+cùlaibh cúl
+culaibh cúl
+cultural cultúrtha
 'cur ag cur
 d' d'
 deach dheachaigh
@@ -390,7 +432,9 @@ dh'fhaodte seans
 dh'fhaoidte seans
 dhiag dhéag
 diag déag
+diesel díosail
 diugh inniu
+dlreach díreach
 'dol ag dul
 d'ràinig shroich
 d'ràinig sroich
@@ -407,6 +451,7 @@ d'rugadh rugadh
 Dtr Dr
 dubhairt dúirt
 dubhairt ndúirt
+DVDan DVDanna
 ea' sé ag
 Eabhraig Eabhrac
 ealan ealaíon
@@ -422,8 +467,10 @@ eilear bhfuiltear
 eileas bhfuiltear
 Éirinn Éire
 Éirinn Éirinn
+ell bhfuil
 Esau Éasáú
 etc srl
+EU AE
 Eubha Éabha
 EURoeTha Tá
 fac' bhfaca
@@ -451,6 +498,8 @@ faighinn bhfaighinn
 faightear bhfaighfear
 faightear faightear
 Fèinne Féinne
+feirg fearg
+feirg feirge
 fhac' fhaca
 fhac' bhfaca
 fhaca fhaca
@@ -469,6 +518,7 @@ fhèarr fearr
 fhearr fearr
 fheàrr fearr
 fheudar éigean
+Fhransaidh Phroinsias
 fhuaireadh bhfuarthas
 fhuaireadh fuarthas
 fhuaireas bhfuarthas
@@ -477,7 +527,9 @@ fhuaras bhfuarthas
 fhuaras fuarthas
 Fiobha Fìobha
 fiù's fiú is
+Fransaidh Proinsias
 'G Ag
+gaeh gach
 Gaelige Gaeilge
 Gall-Ghaidhealaibh Gall-Ghàidhealaibh
 gaoith gaoithe
@@ -485,12 +537,15 @@ gaoith gaoth
 Ghalile na Gailíle
 ghaoith ghaoth
 ghaoith ngaoth
+Ghearrloch Gheàrrloch
 gheibhtear gheofar
 ghrèin ghrian
 ghrèin ngrian
 Gini Guine
 Gini-Bissau Guine Bhissau
 Gini-Nuadh Nua-Ghuine
+Hadrian Haidrian
+Hàgar Hágár
 Haileafags Halifax
 Haiti Háítí
 Halafacs Halifax
@@ -538,6 +593,7 @@ Kenya Céinia
 Khartoum Cartúm
 Kinshasa Cinseasa
 Làban Lábán
+Làbain Lábán
 làn-Ghàidhlig lán-Ghàidhlig
 Lèah Léá
 learn liom
@@ -550,6 +606,7 @@ Lunnain Londain
 Lùtair Liútar
 m' m'
 Madrid Maidrid
+Magdalen Mhaigdiléana
 Màili Mailí
 me msh
 meadhan-Beurla Béarla
@@ -559,6 +616,7 @@ meadhan-Gàidhlig Ghàidhlig
 Mecca Meice
 Metis Métis
 mh ú
+Mhagdalena Mhaigdiléana
 Mhairi Mhàiri
 mhnaoi bhean
 mhnaoi mbean
@@ -569,18 +627,24 @@ mi-fhèin mé féin
 mi-fhein mé féin
 mi-fhìn mé féin
 mi'n mé an
+mnaoi bean
+mnaoi bhean
+mnaoi mbean
 Moire Muire
 Mhóir-roinn Mhór-Roinn
 Móir-roinne Mór-Roinne
 Morag Mòrag
 msaa srl
+nacheil nach bhfuil
 naeh nach
+Nàhor Náchór
 ni ní
 nitear déanfar
 nitear dhéanfar
 nitear ndéanfar
 Nòah Naoi
 'Nuair Nuair
+Odin Óidin
 Oh' D'
 Oh Ó
 ors arsa
@@ -593,9 +657,14 @@ Paris Páras
 ParlamaidAlba Parlaimint na hAlban
 Phàraoh Faró
 Pharis Pháras
+Philippines na hOileáin Fhilipíneacha
+phiuthair dheirfiúr
 Phòil Phóil
 Pilat Píoláit
+piuthair deirfiúr
 Plato Platón
+Quebec Québec
+Racheil Ráchael
 rachtar téitear
 ràineas shroicheadh
 ràineas sroicheadh
@@ -609,6 +678,7 @@ referendum reifreann
 reigheadh rachadh
 reigheamaid rachaimis
 reighinn rachainn
+Rimhinn Rìmhinn
 rni mé
 robh raibh
 robhar rabhthas
@@ -647,11 +717,19 @@ se is é
 seann sean
 sec seo
 Sechem Seicim
+seD seo
+Seoras Seòras
+serpulid sheirpíneach
+serpulid seirpíneach
 'si is í
 'Si Is í
 siad is iad
+silage sadhlas
+Siudaig Siùdaig
+Sleite Slèite
 Sòcraitèas Sócraitéas
 Shòdoim Shodam
+spaghetti spaigití
 Sraid Sráid
 Steornabhagh Steòrnabhagh
 Stiubhairt Stiùbhairt
@@ -666,6 +744,7 @@ t-27mh 27ú
 t-8mh 8ú
 t-18mh 18ú
 t-28mh 28ú
+Ta Tá
 tabhaireadh dtabharfadh
 tabhaireadh tugadh
 tabhaiream tugaim
@@ -685,6 +764,7 @@ TBh Tf
 Tbh Tf
 td lch
 tdd lgh
+techniques teicnící
 téid rachaidh
 teid rachaidh
 tèid rachaidh
@@ -698,8 +778,16 @@ teirigibh téigí
 telly teilifís
 th' atá
 tha'n tá an
+th'aca atá acu
+th'agad atá agat
+th'againn atá againn
+th'agam atá agam
+th'aig atá ag
+th'aige atá aige
 th'air atá ar
 th'ann atá ann
+th'annam atá ionam
+th'annta atá iontu
 tha tá
 thabhaireadh thabharfadh
 thabhairinn thabharfainn
@@ -719,6 +807,7 @@ thànaig tháinig
 thatar táthar
 thathar táthar
 thathas táthar
+Thearlaich Theárlaich
 theid rachaidh
 théid rachaidh
 theirig téigh
@@ -756,6 +845,7 @@ tigeamaid tagaimis
 tigear tagtar
 tigibh tagaigí
 tigtear tagtar
+tiops sceallóga
 Tobago Tobága
 toir tabhair
 toir dtabharfaidh
@@ -763,7 +853,9 @@ toir thabharfaidh
 'toirt ag tabhairt
 Tokyo Tóiceo
 t-Oll tOll
+Tripoli Tripilí
 t-Urr tUrr
+t-Ùrr tUrr
 tigtear tagtar
 tubhairt dúirt
 tubhairt ndúirt
@@ -783,14 +875,17 @@ tuirt ndúirt
 tuirteadh dúradh
 tuirteadh ndúradh
 Turtair-mheallta Turtar Bréige
+tweets tweetanna
 uairsin uair sin
 uaith uaidh
 uell bhuel
 Uf Uí
 Ui Uí
 Ulpan Ùlpan
+Urr Urr
 urrainnear féidir
 USA SAM
 VAT CBL
 well bhuel
+Westminsteir Westminster
 wiki vicí
