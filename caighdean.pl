@@ -445,6 +445,7 @@ while (<STDIN>) {
 	chomp;
 	if (/[a-zA-ZáéíóúÁÉÍÓÚ]/) {
 		s/’/'/g;
+		s/‐/-/g;  # U+2010 to ASCII
 	}
 	if (/^<.*>$/) {  # skip SGML markup
 		print "$_ => $_\n";
