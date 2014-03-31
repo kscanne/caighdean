@@ -1,3 +1,64 @@
+#######################################################
+# an fhoirm cheart Gàidhlig a lorg i dtosach báire...
+#######################################################
+^ard-	àrd-	2
+^beo-	beò-	2
+^clar-	clàr-	2
+^clo-	clò-	2
+^coi-	co-	2
+^da-	dà-	2
+^di-	dì-	2
+^fein-	fèin-	2
+^gearr-	geàrr-	2
+^iomadh	ioma	1
+^iomadh	ioma	1
+^mi-	mì-	2
+^mor-	mòr-	2
+^priomh-	prìomh-	2
+^rum-	rùm-	2
+^tir-	tìr-	2
+^tri-	trì-	2
+^ts		t-s	2
+^ùr-	ur-	2
+^h([AEIOUÀÈÌÒÙÁÉÍÓÚ])	h-$1	2
+#######################################################
+# ansin iarracht ar fhocal sa sprioctheanga a aimsiú...
+#######################################################
+# creuchd->créacht, deug->déag, sgeul->scéal
+eu	éa	1
+# ceòl->ceol, beò->beo, beòir->beoir, eòlas->eolas
+eò	eo	1
+# beàrnach->bearnach, ceàrnach->cearnach, ceàrr->cearr
+eà	ea	1
+sg	sc	1
+sd	st	1
+# ochd->ocht, uchd->ucht, bochd->bocht, and all achd$->acht
+achd	acht	1
+# comhairleachadh->comhairliú
+eachadh	iú	1
+# ceadachadh->ceadú, 
+achadh	ú	1
+# àrsaidheachd->ársaíocht, buidheach->buíoch,
+# rannaigheachd->rannaíocht
+i[dg]hea	ío	1
+# siubhail->siúil, triubhas->triús
+ubha	ú	1
+# eireag->eireog
+eag$	eog	1
+# feadag->feadóg
+([^e])ag	$1óg	1
+# eòlaiche->eolaí, gadaiche->gadaí
+iche$	í	1
+# suimeil->suimiúil, taibhseil->taibhsiúil
+eil$	iúil	1
+# gineadair->gineadóir, glacadair->glacadóir, leantair->leantóir
+air$	óir	1
+^co-	comh	1
+^deagh-	dea-	1
+^mì-	mí-	1
+^neo-	neamh-	1
+^ro-mh	réamh-mh	1
+^ro-([^m])	réamh$1	1
 à	á	1
 è	é	1
 è	í	1
@@ -8,6 +69,4 @@
 Ì	Í	1
 Ò	Ó	1
 Ù	Ú	1
-sg	sc	1
-sd	st	1
-achd	acht	1
+# strip hyphens (but not after 1st letter else infinite loop (ts->t-s above)
