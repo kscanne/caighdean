@@ -20,7 +20,11 @@
 ^tri-	trì-	2
 ^ts		t-s	2
 ^ùr-	ur-	2
-^h([AEIOUÀÈÌÒÙÁÉÍÓÚ])	h-$1	2
+^h([AEIOUÀÈÌÒÙÁÉÍÓÚaeiouàèìòùáéíóú]..)	h-$1	2
+# atharraichidhean -> atharrachaidhean
+ichidhean$	chaidhean	2
+# leagte->leagta, seargte->seargta, taghte->taghta, glacte->glacta
+te$	ta	1
 #######################################################
 # ansin iarracht ar fhocal sa sprioctheanga a aimsiú...
 #######################################################
