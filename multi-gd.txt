@@ -1,6 +1,8 @@
 'g_a á
 'n_uiridh anuraidh
 'n_uraidh anuraidh
+'na_dhiaigh ina dhiaidh
+'na_dhèigh ina dhiaidh
 Abhainn_Niger Abhainn na Nígire
 Beurla_Ghallta Albainis
 Bheurla_Ghallta Albainis
@@ -73,7 +75,11 @@ Tìre_Ìosal hÍsiltíre
 Tìre_Ìosal m'Ísiltíre
 Tìre_Ìosal nÍsiltíre
 Tìre_Ìosal Ísiltíre
+a'_fuireach ag fanacht
+a'_fuireach ina chónaí
+a'_gabhail_pàirt ag glacadh páirte
 a'_màireach amárach
+a'gabhail_pàirt ag glacadh páirte
 a_Deas Theas
 a_Tuath Thuaidh
 a_bh'ann a bhí ann
@@ -87,10 +93,6 @@ a_dh'ionnsaidh chun
 a_dh'ionnsaigh chun
 a_dh'ionnsuidh chun
 a_dh'ionnsuigh chun
-a'_fuireach ina chónaí
-a'_fuireach ag fanacht
-a'_gabhail_pàirt ag glacadh páirte
-a'gabhail_pàirt ag glacadh páirte
 a_mhain amháin
 a_mhàin amháin
 a_màireach amárach
@@ -153,6 +155,7 @@ an_d'thàinig ar tháinig
 an_de inné
 an_deidh i ndiaidh
 an_deigh i ndiaidh
+an_diaigh i ndiaidh
 an_diugh inniu
 an_dochas ag súil
 an_dè inné
@@ -161,15 +164,14 @@ an_dèigh i ndiaidh
 an_dé inné
 an_déidh i ndiaidh
 an_déigh i ndiaidh
-an_diaigh i ndiaidh
 an_dòchas ag súil
 an_impis ar tí
-an_ìmpis ar tí
 an_seo anseo
 an_sin anseo
 an_t-seachdain-sa an tseachtain seo
 an_uiridh anuraidh
 an_uraidh anuraidh
+an_ìmpis ar tí
 ann_a'_seo anseo
 ann_a'_sheo anseo
 ann_a'_shin ansin
@@ -212,12 +214,8 @@ anus_an san
 anus_na sna
 as_deaghaidh i ndiaidh
 as_deaghaidh tar éis
-às_deaghaidh i ndiaidh
-às_deaghaidh tar éis
 as_deoghaidh i ndiaidh
 as_deoghaidh tar éis
-às_deoghaidh i ndiaidh
-às_deoghaidh tar éis
 as_t-Fhoghar san Fhómhar
 as_t-fhoghar san fhómhar
 beireadh_iad beiridís
@@ -677,8 +675,8 @@ dèanadh_iad ndéanaidís
 dèanadh_iad ndéanfaidís
 dèanadh_tu ndéanfá
 dé_cho cé_chomh
-e_a'fuireach sé ina chónaí
 e_a'_fuireach sé ina chónaí
+e_a'fuireach sé ina chónaí
 eilean_Thoraigh oileán Thoraí
 faca_iad bhfacadar
 faca_sinn bhfacamar
@@ -786,11 +784,15 @@ gun_fhiosda i ngan fhios
 gun_fhiosta i ngan fhios
 gur_h-ann gur
 gur_h-e gurbh é
+gura_b'_e gurbh é
+gura_b'_i gurbh í
+gura_h-e gurb é
+gura_h-i gurb í
 h-abradh_iad habraidís
 h-innseadh_iad hinsídís
 h-obraicheadh_iad hoibrídís
-i_a'fuireach sí ina cónaí
 i_a'_fuireach sí ina cónaí
+i_a'fuireach sí ina cónaí
 innseadh_iad insídís
 innseadh_iad n-insídís
 innsidh_sinn inseoimid
@@ -825,6 +827,7 @@ maireadh_iad mairfidís
 maireadh_iad mairidís
 maireadh_tu mairfeá
 mairidh_sinn mairfimid
+man_deidhinn fúthu
 mar_deidhinn fúinn
 mar_thà cheana
 math_dh'fhaodte seans
@@ -837,14 +840,22 @@ mhaireadh_iad mhairfidís
 mhaireadh_iad mhairidís
 mhaireadh_tu mhairfeá
 mhairidh_sinn mhairfimid
-mi_a'fuireach mé i mo chónaí
-mi_a'_fuireach mé i mo chónaí
 mi'n_diugh mé inniu
 mi'n_dochas mé ag súil
 mi'n_dòchas mé ag súil
+mi_a'_fuireach mé i mo chónaí
+mi_a'fuireach mé i mo chónaí
+mu_a_dheidhinn faoi
+mu_ar_deidhinn fúinn
+mu_deidheinn fúithi
+mu_deidhinn fúithi
 mu_dheidheinn faoi
 mu_dheidhinn faoi
 mu_dhèidhinn faoi
+mu_do_dheidhinn fút
+mu_dèidhinn fúithi
+mu_m'_dheidhinn fúm
+mu_mo_dheidhinn fúm
 mu_thimcheall timpeall
 mud_dheidhinn fút
 mum_dheidhinn fúm
@@ -854,10 +865,8 @@ mun_ear san oirthear
 mun_iar san iarthar
 mur_deidhinn fúibh
 na_b'fhaide ní b'fhaide
-'na_dhèigh ina dhiaidh
-na_dhèigh ina dhiaidh
-'na_dhiaigh ina dhiaidh
 na_dhiaigh ina dhiaidh
+na_dhèigh ina dhiaidh
 na_grèin na gréine
 na_h-Innseachan an India
 na_h-ath an ath-
@@ -893,8 +902,6 @@ oidhche_Chiadain oíche Chéadaoin
 oidhche_Haoine oíche Aoine
 oidhche_Luain oíche Luain
 oidhche_Shathairne oíche Shathairn
-pàirt_a'_ghabhail páirt a ghlacadh
-pàirt_a_ghabhail páirt a ghlacadh
 phrìomh_adhbhar phríomhábhair
 phrìomh_adhbhar phríomhábhar
 phrìomh_amas phríomhaidhm
@@ -1032,6 +1039,8 @@ prìomh_òraidiche bpríomhchainteoir
 prìomh_òraidiche bpríomhchainteora
 prìomh_òraidiche príomhchainteoir
 prìomh_òraidiche príomhchainteora
+pàirt_a'_ghabhail páirt a ghlacadh
+pàirt_a_ghabhail páirt a ghlacadh
 rachadh_iad dtéidís
 rachadh_iad dtéifidís
 rachadh_iad rachaidís
@@ -1164,8 +1173,8 @@ thigeadh_tu thiocfá
 thoireadh_iad thabharfaidís
 thoireadh_iad thugaidís
 thoireadh_tu thabharfá
-thu_a'fuireach tú i do chónaí
 thu_a'_fuireach tú i do chónaí
+thu_a'fuireach tú i do chónaí
 thubhairt_iad dúradar
 thubhairt_iad ndúradar
 thubhairt_sinn dúramar
@@ -1226,4 +1235,7 @@ tòisichidh_sinn tosóimid
 Èireann_a-Tuath Tuaisceart Éireann
 Èirinn_a-Tuath Tuaisceart Éireann
 às_deaghaidh i ndiaidh
+às_deaghaidh tar éis
+às_deoghaidh i ndiaidh
+às_deoghaidh tar éis
 às_dèidh i ndiaidh
