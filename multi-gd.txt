@@ -138,6 +138,8 @@ air_shàilleibh de bharr
 air_sàilleibh de bharr
 air_tàillibh de bharr
 air_uairibh uaireanta
+am_bi an mbeidh
+am_broinn i lár
 am_feasd go brách
 am_feast go brách
 am_measg i measc
@@ -146,8 +148,15 @@ an_Elbe an Eilbe
 an_ath-dhoras bhéal dorais
 an_ath-dhoras béal dorais
 an_ath-latha an chéad lá eile
-an_ath-mhìos an mhí seo chugainn
+an_ath-mhìos an chéad mhí eile
 an_ath-thuras an chéad uair eile
+an_ath_bhliadhna an chéad bhliain eile
+an_ath_latha an chéad lá eile
+an_ath_là an chéad lá eile
+an_ath_mhadainn an chéad mhaidin eile
+an_ath_mhìos an chéad mhí eile
+an_ath_oidhche an chéad oíche eile
+an_ath_sheachdain an chéad seachtain eile
 an_ceartuair anois
 an_ceartuair ar ball
 an_ceartuair faoi láthair
@@ -254,6 +263,11 @@ bhitheadh_tu bheifeá
 bhitheadh_tu mbeifeá
 bhithidh_sinn bheimid
 bho_Algiers ó Chathair na hAilgéire
+bho_a óna
+bho_ar ónár
+bhon_a' ón
+bhon_am ón
+bhon_an ón
 bhuin_iad bhaineadar
 bhuin_iad mbaineadar
 bhuin_sinn bhaineamar
@@ -276,6 +290,7 @@ buinidh_sinn bainfimid
 buinidh_sinn mbainfimid
 c'ar_son cén fáth
 car_son cén fáth
+cha_bhi ní bheidh
 chaidh_iad chuadar
 chaidh_iad dtéadar
 chaidh_iad gcuadar
@@ -369,9 +384,12 @@ d'rinn_sinn dhearnamar
 d'rinn_sinn ndearnamar
 d'thug thug
 d'thàinig tháinig
+da_a dá
 da_rìreabh dáiríre
 da_rìribh dáiríre
 de_Chile de Chile
+de_a dá
+de_ar dár
 de_dh'fhaid ar fad
 deach_iad dheachadar
 deach_iad ndeachadar
@@ -423,6 +441,9 @@ deanadh_iad ndéanfaidís
 deanadh_tu ndéanfá
 deanaidh_sinn déanfaimid
 deanaidh_sinn ndéanfaimid
+den_a' den
+den_am den
+den_an den
 dh'aona_ghnothach d'aon ghnó
 dh'aona_ghnothaich d'aon ghnó
 dh'aona_gnothach d'aon ghnó
@@ -516,8 +537,15 @@ dh'obraicheadh_iad oibreoidís
 dh'obraicheadh_tu d'oibreofá
 dh'obraicheadh_tu n-oibreofá
 dh'obraicheadh_tu oibreofá
+dha_a dá
+dha_ar dár
 dha_rìreabh dáiríre
 dha_rìribh dáiríre
+dhan_a' don
+dhan_am don
+dhan_an don
+dhe_a dá
+dhe_ar dár
 dheagh_adhartas dul chun cinn maith
 dheagh_aimsir dhea-aimsir
 dheagh_aimsir dhea-aimsire
@@ -544,6 +572,9 @@ dheanadh_iad dhéanaidís
 dheanadh_iad dhéanfaidís
 dheanadh_tu dhéanfá
 dheanaidh_sinn dhéanfaimid
+dhen_a' den
+dhen_am den
+dhen_an den
 dhroch_aimsir dhrochaimsir
 dhroch_aimsir dhrochaimsire
 dhroch_amharas dhrochamhrais
@@ -581,6 +612,7 @@ dhèanadh_iad dhéanaidís
 dhèanadh_iad dhéanfaidís
 dhèanadh_tu dhéanfá
 do_Ghalile don_Ghailíl
+do_ar dár
 do_dh'Alasdair d'Alasdair
 do_dh'Iain d'Iain
 do_dh'Uibhist d'Uibhist
@@ -592,6 +624,9 @@ do_rinn_sinn dhearnamar
 do_rinn_sinn ndearnamar
 do_rinneadh dhearnadh
 do_rinneadh ndearnadh
+don_a' don
+don_am don
+don_an don
 droch_Ghàidhlig drochGhàidhlig
 droch_aimsir drochaimsir
 droch_aimsir drochaimsire
@@ -738,7 +773,12 @@ fhàgaidh_sinn fhágfaimid
 fhàsadh_iad fhásaidís
 fhàsaidh_sinn fhásfaimid
 fiamh_a'_ghàire gáire beag
+fo_a faoina
+fo_ar faoinár
 fo_gheasaibh faoi gheasa
+fon_a' faoin
+fon_am faoin
+fon_an faoin
 fosgaileadh_iad hosclaídís
 fosgaileadh_iad n-osclaídís
 fosgaileadh_iad osclaídís
@@ -775,11 +815,13 @@ gheibh_sinn ngeobhaimid
 gheibheadh_iad gheobhaidís
 gheibheadh_tu gheofá
 gu'n_d'thàinig gur tháinig
+gu_a chun a
 gu_crìch chun críche
 gu_crìch go críoch
 gu_de cad é
 gu_dè cad é
 gu_dé cad é
+gum_bi go mbeidh
 gun_d'thàinig gur tháinig
 gun_fhiosda i ngan fhios
 gun_fhiosta i ngan fhios
@@ -799,6 +841,9 @@ innseadh_iad n-insídís
 innsidh_sinn inseoimid
 innsidh_sinn n-inseoimid
 is_an-aoibhinn is mairg
+le_a lena
+le_ar lenár
+le_na leis na
 lean_iad leanadar
 lean_sinn leanamar
 leanadh_iad leanaidís
@@ -811,6 +856,7 @@ leigeadh_iad ligfidís
 leigeadh_iad ligidís
 leigeadh_tu ligfeá
 leigidh_sinn ligfimid
+leis_gach le gach
 leugh_iad léadar
 leugh_sinn léamar
 leughadh_iad léidís
@@ -860,6 +906,9 @@ mu_mo_dheidhinn fúm
 mu_thimcheall timpeall
 mud_dheidhinn fút
 mum_dheidhinn fúm
+mun_a' faoin
+mun_am faoin
+mun_an faoin
 mun_deidhinn fúthu
 mun_dheidhinn fúthu
 mun_ear san oirthear
@@ -878,6 +927,7 @@ na_h-ath_cheumannan na chéad chéimeanna eile
 na_h-ath_mhìos na chéad mhíosa eile
 na_h-ath_sheachdain na chéad seachtaine eile
 na_h-ath_ìre an chéad leibhéil eile
+nach_bi nach mbeidh
 nach_eil nach bhfuil
 nam_Ban na mBan
 nam_Fiann na bhFiann
@@ -895,6 +945,8 @@ nì_sinn dhéanfaimid
 nì_sinn déanfaimid
 nì_sinn ndéanfaimid
 o_Ghalile ón_Ghailíl
+o_a óna
+o_ar ónár
 obraicheadh_iad n-oibrídís
 obraicheadh_iad oibrídís
 obraichidh_sinn n-oibreoimid
@@ -1051,10 +1103,18 @@ rachadh_iad téidís
 rachadh_tu dtéifeá
 rachadh_tu rachfá
 rachadh_tu théifeá
+ri_a lena
+ri_ar lenár
 ri_grèin le grian
+ri_na leis na
 rinn_iad rinneadar
 rinn_sinn rinneamar
 ris_an_cante ar a dtugtar
+ris_gach le gach
+ro_a roimh a
+ron_a' roimh an
+ron_am roimh an
+ron_an roimh an
 rug_iad rugadar
 rug_sinn rugamar
 ruigeadh_iad shroichfidís
@@ -1069,6 +1129,7 @@ ràinig_iad shroicheadar
 ràinig_iad sroicheadar
 ràinig_sinn shroicheamar
 ràinig_sinn sroicheamar
+san san_prep,sa
 san_eadar-àm idir an dá linn
 saor_an-asgaidh saor in aisce
 seann_daoine seandaoine
@@ -1219,6 +1280,11 @@ toireadh_iad dtabharfaidís
 toireadh_iad dtugaidís
 toireadh_iad tugaidís
 toireadh_tu dtabharfá
+tro_a trína
+tro_ar trínár
+tron_a' tríd an
+tron_am tríd an
+tron_an tríd an
 tugadh_iad dtabharfaidís
 tugadh_tu dtabharfá
 tuigeadh_iad dtuigfidís
@@ -1235,6 +1301,7 @@ tòisichidh_sinn dtosóimid
 tòisichidh_sinn tosóimid
 Èireann_a-Tuath Tuaisceart Éireann
 Èirinn_a-Tuath Tuaisceart Éireann
+à_measg as measc
 às_deaghaidh i ndiaidh
 às_deaghaidh tar éis
 às_deoghaidh i ndiaidh
