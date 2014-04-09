@@ -26,6 +26,12 @@
 ichidhean$	chaidhean	2
 # leagte->leagta, seargte->seargta, taghte->taghta, glacte->glacta
 te$	ta	1
+# GOC conventions; these coincide with gd->ga rules so no fear of infinite loop
+# usbag->uspag
+sb	sp	1
+# aosda->aosta
+sd	st	1
+# sc->sg is the other rule of this kind, but moves away from ga so think twice
 #######################################################
 # ansin iarracht ar fhocal sa sprioctheanga a aimsiú...
 #######################################################
