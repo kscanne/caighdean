@@ -8,6 +8,7 @@
 ^coi-	co-	1
 ^comh-	co-	1
 ^da-	dà-	2
+^deadh	deagh	1
 ^di-	dì-	2
 ^fein-	fèin-	2
 ^gearr-	geàrr-	2
@@ -23,7 +24,9 @@
 ^ùr-	ur-	2
 ^h([AEIOUÀÈÌÒÙÁÉÍÓÚaeiouàèìòùáéíóú]..)	h-$1	2
 # atharraichidhean -> atharrachaidhean
-ichidhean$	chaidhean	2
+ichidhean$	chaidhean	1
+# beannuichte -> beannaichte, òrduichibh -> òrdaichibh
+uich	aich	1
 # leagte->leagta, seargte->seargta, taghte->taghta, glacte->glacta
 te$	ta	1
 # GOC conventions; these coincide with gd->ga rules so no fear of infinite loop
