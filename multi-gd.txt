@@ -124,6 +124,7 @@ a_mhain amháin
 a_mhàin amháin
 a_màireach amárach
 a_nall anall
+a_nios aníos
 a_nis anois
 a_nuas anuas
 a_null anall
@@ -157,7 +158,14 @@ abradh_iad n-abraidís
 abradh_iad ndéarfaidís
 abradh_tu déarfá
 abradh_tu ndéarfá
+ad_hoc ad hoc
 air_beulaibh ar bhéal
+air_eagal ar eagla
+air_eagal's ar eagla
+air_eagal_'s ar eagla
+air_feadh ar fud
+air_feagh ar fud
+air_iomadan ar seachrán
 air_sailleabh de bharr
 air_sgath de bharr
 air_sgath's de bharr
@@ -351,6 +359,8 @@ chan_eil ní bhíonn
 chan_eil níl
 chan_ell ní bhíonn
 chan_ell níl
+chan_fhac ní fhaca
+chan_fhaca ní fhaca
 cheòl_rock rac-cheol
 chitheadh_iad d'fheicfidís
 chitheadh_iad fheicfidís
@@ -766,6 +776,7 @@ dèanadh_tu ndéanfá
 dé_cho cé_chomh
 e_a'_fuireach sé ina chónaí
 e_a'fuireach sé ina chónaí
+ehan_eil níl
 eilean_Thoraigh oileán Thoraí
 fa_dheòidh faoi dheoidh
 faca_iad bhfacadar
@@ -858,6 +869,7 @@ fàsadh_iad bhfásaidís
 fàsadh_iad fásaidís
 fàsaidh_sinn bhfásfaimid
 fàsaidh_sinn fásfaimid
+g'_eil go bhfuil
 ga_brith is cuma
 ga_rìreabh dáiríre
 gaoth_a_tuath gaoth aduaidh
@@ -876,8 +888,12 @@ gu_crìch go críoch
 gu_de cad é
 gu_dè cad é
 gu_dé cad é
+gu_h-aon_ghuthach d'aon ghuth
+gu_h-aona_ghuthach d'aon ghuth
 gum_bi go mbeidh
 gun_d'thàinig gur tháinig
+gun_fhios i ngan fhios
+gun_fhiosd i ngan fhios
 gun_fhiosda i ngan fhios
 gun_fhiosta i ngan fhios
 gur_h-ann gur
@@ -892,6 +908,7 @@ h-obraicheadh_iad hoibrídís
 i_a'_fuireach sí ina cónaí
 i_a'fuireach sí ina cónaí
 i_nEirinn in Éirinn
+in_loco_parentis in loco parentis
 innseadh_iad insídís
 innseadh_iad n-insídís
 innsidh_sinn inseoimid
@@ -1241,6 +1258,9 @@ sheann_rathaidean sheanbhóithre
 sheann_sgeulachdan sheanscéalta
 sheann_taighean sheantithe
 sheann_òrain sheanamhráin
+shiostam_in-smachd chóras rialaithe inmheánaigh
+siostam_in-smachd córas rialaithe inmheánaigh
+siostaman_in-smachd córais rialaithe inmheánaigh
 sna_h-Innseachan san India
 t-Sealainn_Nuadh Nua-Shéalainn
 t-seann_duine seanduine
