@@ -3,6 +3,8 @@
 'n_uraidh anuraidh
 'na_dhiaigh ina dhiaidh
 'na_dhèigh ina dhiaidh
+'s_an_t-fhoghar san fhómhar
+'s_t-fhoghar san fhómhar
 Abhainn_Niger Abhainn na Nígire
 Aràibia_nan_Sabhd an Araib Shàdach
 Beal_Feairste Béal Feirste
@@ -16,6 +18,7 @@ Burkina_Faso Buircíne Fasó
 Cait_Cheallais Cait Chláracha
 Cape_Verde Rinn Verde
 Cat_Cheallais Cat Clárach
+Cinn_Abair Cinn Abair
 Conradh_na_Gaeilge Conradh na Gaeilge
 Costa_Rica Cósta Ríce
 Cu_Chullain Cú Chulainn
@@ -25,6 +28,7 @@ Dùthaich_nan_Suasaidh An tSuasalainn
 Eabhraig_Nuadh Nua-Eabhrac
 Earra_Gháidheal Earra Gháidheal
 Eilean_Wight Inis Iocht
+Eilean_an_Truisg Talamh an Éisc
 Eileanan_Greanadach na Greanáidíní
 Ellan_Vannin Ellan Vannin
 Eòin_Baiste Eoin Baiste
@@ -50,6 +54,7 @@ Lib_Deamach Daonlathaí Liobrálach
 Lib_Deamaich Daonlathaithe Liobrálach
 Lib_Deamaich Daonlathaí Liobrálach
 Lib_Dems Daonlathaithe Liobrálacha
+Loch_Abar Loch Abar
 Là_Luain Dé Luain
 MIME_type cineál MIME
 Naoimh_Anndrais San Aindrias
@@ -107,6 +112,7 @@ a'_fuireach ina chónaí
 a'_gabhail_pàirt ag glacadh páirte
 a'_màireach amárach
 a'gabhail_pàirt ag glacadh páirte
+a's_t-fhoghar san fhómhar
 a_Deas Theas
 a_Tuath Thuaidh
 a_bh'ann a bhí ann
@@ -130,6 +136,9 @@ a_nuas anuas
 a_null anall
 a_nunn anonn
 a_nìos aníos
+a_riabh riamh
+a_riamh riamh
+a_rithist arís
 a_staigh istigh
 a_stigh istigh
 a_ta atá
@@ -142,6 +151,7 @@ a_th'aig atá ag
 a_th'aige atá aige
 a_th'air atá ar
 a_th'ann atá ann
+a_th'annad atá ionam
 a_th'annam atá ionam
 a_th'anns_a' atá sa
 a_th'anns_a' atá san
@@ -149,9 +159,15 @@ a_th'anns_an atá sa
 a_th'anns_an atá san
 a_th'anns_na atá sna
 a_th'annta atá iontu
+a_th'ort atá ort
 a_tha atá
 a_tha' atá
+a_thaobheigin éigin
 a_tuath ó thuaidh
+abaicheadh_iad aibídís
+abaicheadh_iad n-aibídís
+abaichidh_sinn aibeoimid
+abaichidh_sinn n-aibeoimid
 abradh_iad abraidís
 abradh_iad déarfaidís
 abradh_iad n-abraidís
@@ -270,6 +286,7 @@ anns_an sa
 anns_an san
 anns_an_Elbe san Eilbe
 anns_an_eadar-àm idir an dá linn
+anns_an_t-fhoghar san fhómhar
 anns_na sna
 anus_a' sa
 anus_a' san
@@ -402,6 +419,7 @@ chunnaic_iad chonaiceadar
 chunnaic_iad gconaiceadar
 chunnaic_sinn chonaiceamar
 chunnaic_sinn gconaiceamar
+chur_seachadan chaitheamh aimsire
 chì_sinn bhfeicfimid
 chì_sinn feicfimid
 chì_sinn fheicfimid
@@ -428,12 +446,14 @@ cuidicheadh_iad gcuidídís
 cuidicheadh_tu gcuideofá
 cuidichidh_sinn cuideoimid
 cuidichidh_sinn gcuideoimid
+cuir_seachadan chaitheamh aimsire
 cuireadh_iad cuiridís
 cuireadh_iad gcuirfidís
 cuireadh_iad gcuiridís
 cuireadh_tu gcuirfeá
 cuiridh_sinn cuirfimid
 cuiridh_sinn gcuirfimid
+cur_seachadan chaitheamh aimsire
 càit_a_bheil cá bhfuil
 cò_dhiu ar aon nós
 cò_dhiù ar aon nós
@@ -505,6 +525,18 @@ den_a' den
 den_am den
 den_an den
 den_fhàsach_Sahara den Sahára
+dh'abaich_iad aibíodar
+dh'abaich_iad d'aibíodar
+dh'abaich_iad n-aibíodar
+dh'abaich_sinn aibíomar
+dh'abaich_sinn d'aibíomar
+dh'abaich_sinn n-aibíomar
+dh'abaicheadh_iad aibeoidís
+dh'abaicheadh_iad d'aibeoidís
+dh'abaicheadh_iad n-aibeoidís
+dh'abaicheadh_tu aibeofá
+dh'abaicheadh_tu d'aibeofá
+dh'abaicheadh_tu n-aibeofá
 dh'aona_ghnothach d'aon ghnó
 dh'aona_ghnothaich d'aon ghnó
 dh'aona_gnothach d'aon ghnó
@@ -669,6 +701,7 @@ dhroch_shlàinte dhrochshláinte
 dhroch_shìde dhrochaimsir
 dhroch_shìde dhrochaimsire
 dhà_rìreabh dáiríre
+dhà_rìribh dáiríre
 dhèanadh_iad dhéanaidís
 dhèanadh_iad dhéanfaidís
 dhèanadh_tu dhéanfá
@@ -872,6 +905,7 @@ fàsaidh_sinn fásfaimid
 g'_eil go bhfuil
 ga_brith is cuma
 ga_rìreabh dáiríre
+ga_rìribh dáiríre
 gaoth_a_tuath gaoth aduaidh
 ge_brith is cuma
 geibheadh_iad ngeobhaidís
@@ -902,6 +936,7 @@ gura_b'_e gurbh é
 gura_b'_i gurbh í
 gura_h-e gurb é
 gura_h-i gurb í
+h-abaicheadh_iad haibídís
 h-abradh_iad habraidís
 h-innseadh_iad hinsídís
 h-obraicheadh_iad hoibrídís
@@ -1215,6 +1250,7 @@ ràinig_sinn shroicheamar
 ràinig_sinn sroicheamar
 san san_prep,sa
 san_eadar-àm idir an dá linn
+san_t-fhoghar san fhómhar
 saor_an-asgaidh saor in aisce
 seann_daoine seandaoine
 seann_dhaoine seandaoine
@@ -1259,9 +1295,13 @@ sheann_sgeulachdan sheanscéalta
 sheann_taighean sheantithe
 sheann_òrain sheanamhráin
 shiostam_in-smachd chóras rialaithe inmheánaigh
+shrath_spè shraithspé
+shrath_spé shraithspé
 siostam_in-smachd córas rialaithe inmheánaigh
 siostaman_in-smachd córais rialaithe inmheánaigh
 sna_h-Innseachan san India
+srath_spè sraithspé
+srath_spé sraithspé
 t-Sealainn_Nuadh Nua-Shéalainn
 t-seann_duine seanduine
 t-seann_duine tseanduine
