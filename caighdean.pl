@@ -25,6 +25,8 @@ $extension = '-gd' if ($gd);
 
 my $maxdepth = 10;
 my $penalty = 2.9;
+my $tokens = 0;
+my $unknown = 0;
 
 my @rules;
 my %spurious;
@@ -376,6 +378,7 @@ $hypotheses{''} = {
 sub process_one_token {
 	(my $tok) = @_;
 
+	$tokens++;
 	my %newhypotheses;
 	my $hashref = all_matches($tok, 0);
 
@@ -383,6 +386,7 @@ sub process_one_token {
 	# by applying rules, then leave the token unchanged
 	if (scalar keys %{$hashref} == 0) {
 		$hashref->{$tok} = 0;
+		$unknown++;
 	}
 
 	print "Input token = $tok\n" if $verbose;
@@ -465,6 +469,13 @@ while (<STDIN>) {
 	else {
 		process_one_token($_);
 	}
+}
+
+if ($verbose) {
+	print "Total tokens: $tokens\n";
+	print "Unknown tokens: $unknown\n";
+	my $frac = $unknown / (1.0 * $tokens);
+	print "Fraction unknown: $frac\n";
 }
 
 exit 0;
