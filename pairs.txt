@@ -2964,6 +2964,8 @@ annsúd ansiúd
 annúlacht annamhacht
 Annunciation Teachtaireacht an Aingil
 anóch anóiteach
+anorac anarac
+anoraic anaraic
 anórthar anóirthear
 anos anois
 ánra ánradh
@@ -5993,6 +5995,8 @@ Banogue An Bhánóg
 ban-oighre banoidhre
 ban-oighrí banoidhrí
 banóirseach banabhraiseach
+b'anorac b'anarac
+b'anoraic b'anaraic
 banphríor banphrióir
 banradán banrán
 b'anradh b'ánradh
@@ -29204,8 +29208,11 @@ chruadhálaí chruálaí
 chruadhalaigh chruálaigh
 chruadhálaigh chruálaigh
 chruadhas chruas
+chruadhcháis chruacháis
 chruadhchan chruachan
 chruadhchana chruachana
+chruadhchás chruachás
+chruadhchásanna chruachásanna
 chruadh-chroicneach chruachraicneach
 chruadh-chroicneacha chruachraicneacha
 chruadh-chroicní chruachraicní
@@ -35521,8 +35528,11 @@ cruadhalaigh cruálaigh
 cruadhálaigh cruálaigh
 cruadhán cruán
 cruadhas cruas
+cruadhcháis cruacháis
 cruadhchan cruachan
 cruadhchana cruachana
+cruadhchás cruachás
+cruadhchásanna cruachásanna
 cruadh-chroicneach cruachraicneach
 cruadh-chroicneacha cruachraicneacha
 cruadh-chroicní cruachraicní
@@ -38125,6 +38135,8 @@ d'annamhaíochta d'annamhachta
 d'annsprid d'ainsprid
 d'annspride d'ainspride
 d'annspridí d'ainspridí
+d'anorac d'anarac
+d'anoraic d'anaraic
 danra danartha
 danrachán danarthachán
 danracht danarthacht
@@ -69779,8 +69791,11 @@ gcruadhála gcruála
 gcruadhálacht gcruálacht
 gcruadhálachta gcruálachta
 gcruadhas gcruas
+gcruadhcháis gcruacháis
 gcruadhchan gcruachan
 gcruadhchana gcruachana
+gcruadhchás gcruachás
+gcruadhchásanna gcruachásanna
 gcruadhghaoithe gcruaghaoithe
 gcruadhghaoth gcruaghaoth
 gcruadhghaotha gcruaghaotha
@@ -76533,6 +76548,8 @@ hannsprid hainsprid
 hannspride hainspride
 hannspridí hainspridí
 Hanoi Hanáí
+hanorac hanarac
+hanoraic hanaraic
 hanradh hánradh
 hanraid hanairt
 hanraide hanairte
@@ -86589,6 +86606,8 @@ m'annamhaíochta m'annamhachta
 m'annsprid m'ainsprid
 m'annspride m'ainspride
 m'annspridí m'ainspridí
+m'anorac m'anarac
+m'anoraic m'anaraic
 Manorcunningham Mainéar Uí Chuinneagáin
 Manorhamilton Cluainín
 manrach banrach
@@ -98513,6 +98532,8 @@ n-annamhaíochta n-annamhachta
 n-annsprid n-ainsprid
 n-annspride n-ainspride
 n-annspridí n-ainspridí
+n-anorac n-anarac
+n-anoraic n-anaraic
 n-anradh n-ánradh
 n-anraid n-anairt
 n-anraide n-anairte
@@ -117737,6 +117758,8 @@ seanórdhacht seanórthacht
 seanórtas seanórthacht
 seansá seansáith
 seansá seansáithe
+seansaoghail seansaoil
+seansaoghal seansaol
 sean-spreasadán seanspreasán
 seansúr seamsúr
 Sean-tiomna Sean-Tiomna
@@ -119129,6 +119152,8 @@ sheanfhundúra sheanfhondúra
 sheanmóracha sheanmóirí
 sheansá sheansáith
 sheansá sheansáithe
+sheansaoghail sheansaoil
+sheansaoghal sheansaol
 Shean-tiomna Shean-Tiomna
 shean-undúr sheanfhondúir
 shearabh sharaifín
@@ -128688,6 +128713,7 @@ tangna tangnacht
 t-an-mhacnas t-anmhacnas
 tánn bíonn
 tánn tá
+t-anorac t-anarac
 t-anradh t-ánradh
 t-anródh t-anró
 t-anrógh t-anró
@@ -133402,11 +133428,19 @@ thuigseanach thuisceanach
 thuigseanacha thuisceanacha
 thuigseanaí thuisceanaí
 thuigseanaigh thuisceanaigh
+thuigseannach thuisceanach
+thuigseannacha thuisceanacha
+thuigseannaí thuisceanaí
+thuigseannaigh thuisceanaigh
 thuigsí thuisceanaí
 thuigsigh thuisceanaigh
 thuigsin thuiscint
 thuigsinn thuiscint
 thuigsint thuiscint
+thuigsionach thuisceanach
+thuigsionacha thuisceanacha
+thuigsionaí thuisceanaí
+thuigsionaigh thuisceanaigh
 thuileodh thuilfeadh
 thuileofá thuilfeá
 thuileofaí thuilfí
@@ -136203,6 +136237,7 @@ tseanchusa tseanchais
 tseandhuine tseanduine
 tseanfhundúra tseanfhondúra
 tseansá tseansáith
+tseansaoghail tseansaoil
 tSean-tiomna tSean-Tiomna
 tséaracht séarachas
 tsearaibh tsaraifín
@@ -136932,11 +136967,19 @@ tuigseanach tuisceanach
 tuigseanacha tuisceanacha
 tuigseanaí tuisceanaí
 tuigseanaigh tuisceanaigh
+tuigseannach tuisceanach
+tuigseannacha tuisceanacha
+tuigseannaí tuisceanaí
+tuigseannaigh tuisceanaigh
 tuigsí tuisceanaí
 tuigsigh tuisceanaigh
 tuigsin tuiscint
 tuigsinn tuiscint
 tuigsint tuiscint
+tuigsionach tuisceanach
+tuigsionacha tuisceanacha
+tuigsionaí tuisceanaí
+tuigsionaigh tuisceanaigh
 tuileadh tuile
 t-uile-íce uile-íoc
 t-uileloisctheach t-uileloscadh

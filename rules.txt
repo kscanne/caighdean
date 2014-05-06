@@ -222,6 +222,7 @@ chd(a?)$	cht$1	1
 eamhn	iún	1
 ([^e])amhn	$1ún	1
 ^b'f([aeiouáéíóú])	b'fh$1	1
+([dntls])-([dntls])h	$1-$2	1
 ai(cht?ín)	a$1	1
 sg	sc	1
 sb	sp	1
