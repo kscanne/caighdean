@@ -563,6 +563,6 @@ leir	léir	2
 ^([Tt])h([^s])	$1$2	0
 ^([Ss])h([lnraeiouáéíóú])	$1$2	0
 ^t'([AEIOUÁÉÍÓÚaeiouáéíóú]|[Ff]h)	d'$1	1
-^[bdm]'([AEIOUÁÉÍÓÚaeiouáéíóú]|[Ff]h)	$1	0
+#^[bdm]'([AEIOUÁÉÍÓÚaeiouáéíóú]|[Ff]h)	$1	0
 ^[nt]-([aeiouáéíóú])	$1	0
 ^[nt]([AEIOUÁÉÍÓÚ])	$1	0
