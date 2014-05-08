@@ -128,9 +128,11 @@ refresh: clean.txt-refresh pairs.txt-refresh ngrams.txt-refresh alltokens.pl-ref
 
 groom: pairs.txt-refresh clean.txt-refresh
 
-pairs.txt-refresh: $(GAELSPELL)/apost $(GAELSPELL)/gaelu $(GAELSPELL)/athfhocail $(GAELSPELL)/earraidi
+# removed gaelu for RIA May 2014; doesn't make sense if trying to mimic
+# a human standardizing a pre-standard Irish book for example
+pairs.txt-refresh: $(GAELSPELL)/apost $(GAELSPELL)/athfhocail $(GAELSPELL)/earraidi
 	rm -f pairs.txt
-	LC_ALL=C sort -u $(GAELSPELL)/apost $(GAELSPELL)/gaelu $(GAELSPELL)/athfhocail $(GAELSPELL)/earraidi | sort -k1,1 > pairs.txt
+	LC_ALL=C sort -u $(GAELSPELL)/apost $(GAELSPELL)/athfhocail $(GAELSPELL)/earraidi | sort -k1,1 > pairs.txt
 	chmod 444 pairs.txt
 
 pairs-gd.txt-refresh: FORCE
