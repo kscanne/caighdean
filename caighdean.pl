@@ -387,6 +387,7 @@ sub process_one_token {
 	if (scalar keys %{$hashref} == 0) {
 		$hashref->{$tok} = 0;
 		$unknown++;
+		print "UNKNOWN: $tok\n" if $verbose;
 	}
 
 	print "Input token = $tok\n" if $verbose;
@@ -442,6 +443,7 @@ sub process_one_token {
 			print "Hypothesis with key '$two' (".$hypotheses{$two}->{'logprob'}."): ".hypothesis_output_string($hypotheses{$two})."\n";
 		}
 	}
+	delete $hashref->{$tok};
 }
 
 print "Ready.\n" if $verbose;
