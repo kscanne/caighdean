@@ -71,7 +71,7 @@ eid-output.txt: tokenized-output.txt
 	cat tokenized-output.txt | perl detokenize.pl > $@
 
 clean:
-	rm -f detokentest.txt unchanged.txt post-tokens.txt pre-tokens.txt tokenized-output.txt tokenized-output-gd.txt nua-output.txt nua-output-gd.txt cga-output.txt pre-surv.txt post-surv.txt tofix.txt survey.txt probsleft.txt tofixgram.txt
+	rm -f detokentest.txt unchanged.txt post-tokens.txt pre-tokens.txt tokenized-output.txt tokenized-output-gd.txt nua-output.txt nua-output-gd.txt cga-output.txt pre-surv.txt post-surv.txt tofix.txt survey.txt probsleft.txt tofixgram.txt eid-output.txt unknown-gd.txt
 
 ############## Build test sets from CCGG ###############
 
@@ -90,6 +90,10 @@ cgaeval: cga-output.txt FORCE
 	echo `cat unchanged.txt | wc -l` "out of" `cat cga-output.txt | wc -l` "correct"
 
 ############## SURVEY OF UNKNOWN WORDS ###############
+
+GDCORPUS=${HOME}/seal/idirlamha/gd/freq/corpus.txt
+unknown-gd.txt:
+	cat $(GDCORPUS) | randomize | bash tiomanai.sh -d -v | egrep '^UNKNOWN: ' | sed 's/^UNKNOWN: //' | egrep '[A-Za-zÁÉÍÓÚáéíóúÀÈÌÒÙàèìòù]' | sort | uniq -c | sort -r -n > $@
 
 # in testpost.txt; use this output to further standardize testpost.txt manually
 tofix.txt: FORCE
