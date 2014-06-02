@@ -22,13 +22,14 @@ while (<STDIN>) {
 	}
 	if ($s eq $t) {
 		if ($s eq '\n') {
+			$suppress = 1;
 			print "\n";
 		}
 		else {
-			unless ($suppress == 1 or $s =~ /^([.,;:!?%})]|<[^>]+>)$/) {
+			unless ($suppress == 1 or $s =~ /^([.,;”:!?%})]|<[^>]+>)$/) {
 				print " ";
 			}
-			$suppress = ($s =~ /^([\$(\[#{]|<[^>]+>)$/);
+			$suppress = ($s =~ /^([“\$(\[#{]|<[^>]+>)$/);
 			print $s;
 		}
 	}
