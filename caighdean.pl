@@ -159,6 +159,7 @@ sub cap_style {
 # same as gaeilge/crubadan/crubadan/tolow
 sub irishlc {
 	(my $w) = @_;
+	return $w if ($w =~ /^[<\\]/);
 	$w =~ s/^([nt])([AEIOUÁÉÍÓÚ])/$1-$2/;
 	return lc($w);
 }
