@@ -375,6 +375,15 @@ $hypotheses{''} = {
 	'output' => [],
 }; 
 
+sub process_ignorable_token {
+	(my $tok) = @_;
+
+	print "Processing ignorable: $tok\n" if $verbose;
+	for my $two (keys %hypotheses) {
+		push @{$hypotheses{$two}->{'output'}}, {'s' => $tok, 't' => $tok};
+	}
+}
+
 sub process_one_token {
 	(my $tok) = @_;
 
@@ -454,8 +463,8 @@ while (<STDIN>) {
 		s/’/'/g;
 		s/‐/-/g;  # U+2010 to ASCII
 	}
-	if (/^<.*>$/) {  # skip SGML markup
-		print "$_ => $_\n";
+	if ($_ eq '\n' or /^<.*>$/) { # skip SGML markup, newlines
+		process_ignorable_token($_);
 	}
 	elsif (/^'/ or /'$/) {
 		if (exists($cands{$_}) or /^'+$/ or
