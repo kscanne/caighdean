@@ -381,10 +381,11 @@ sub process_one_token {
 	$tokens++;
 	my %newhypotheses;
 	my $hashref = all_matches($tok, 0);
+	my $unknown_p = (scalar keys %{$hashref} == 0);
 
 	# if there were no matches in %cands, and none computed
 	# by applying rules, then leave the token unchanged
-	if (scalar keys %{$hashref} == 0) {
+	if ($unknown_p) {
 		$hashref->{$tok} = 0;
 		$unknown++;
 		print "UNKNOWN: $tok\n" if $verbose;
@@ -443,7 +444,7 @@ sub process_one_token {
 			print "Hypothesis with key '$two' (".$hypotheses{$two}->{'logprob'}."): ".hypothesis_output_string($hypotheses{$two})."\n";
 		}
 	}
-	delete $hashref->{$tok};
+	delete $hashref->{$tok} if ($verbose and $unknown_p); # for eval purposes
 }
 
 print "Ready.\n" if $verbose;
