@@ -92,8 +92,12 @@ cgaeval: cga-output.txt FORCE
 ############## SURVEY OF UNKNOWN WORDS ###############
 
 GDCORPUS=${HOME}/seal/idirlamha/gd/freq/corpus.txt
-unknown-gd.txt:
-	cat $(GDCORPUS) | randomize | bash tiomanai.sh -d -v | egrep '^UNKNOWN: ' | sed 's/^UNKNOWN: //' | egrep '[A-Za-zÁÉÍÓÚáéíóúÀÈÌÒÙàèìòù]' | sort | uniq -c | sort -r -n > $@
+unknown-gd.txt: $(GDCORPUS) multi-gd.txt pairs-gd.txt pairs-local-gd.txt rules-gd.txt spurious-gd.txt alltokens.pl nasc.pl tiomanai.sh
+	cat $(GDCORPUS) | bash tiomanai.sh -d -v | egrep '^UNKNOWN: ' | sed 's/^UNKNOWN: //' | egrep '[A-Za-zÁÉÍÓÚáéíóúÀÈÌÒÙàèìòù]' | sort | uniq -c | sort -r -n | sed 's/^ *//' > $@
+
+oov.txt: unknown-gd.txt $(GDCORPUS) alltokens.pl nasc.pl
+	echo `date '+%Y-%m-%d %H:%M:%S'` `(cat unknown-gd.txt | sed 's/ .*//' | addem; echo '10000'; echo '*'; cat $(GDCORPUS) | perl alltokens.pl "-‐" "0-9’'#@" | perl nasc.pl -d | egrep -v '^[<\\]' | wc -l; echo '/'; echo 'p') | dc | sed 's/..$$/.&/'` >> $@
+	tail $@
 
 # in testpost.txt; use this output to further standardize testpost.txt manually
 tofix.txt: FORCE
