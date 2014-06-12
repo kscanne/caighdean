@@ -528,6 +528,7 @@ bàsichidh_sinn mbásóimid
 bòtadh_iad vótálfaidís
 bòtadh_tu vótálfá
 c'ar_son cén fáth
+camara_video físcheamara
 caochaileadh_iad héagaidís
 caochaileadh_iad n-éagaidís
 caochaileadh_iad n-éagfaidís
@@ -550,6 +551,7 @@ chaidh_sinn chuamar
 chaidh_sinn dtéamar
 chaidh_sinn gcuamar
 chaidh_sinn théamar
+chamara_video fhíscheamara
 chan_eil ní bhíonn
 chan_eil níl
 chan_ell ní bhíonn
@@ -1503,11 +1505,25 @@ gaoth_a_tuath gaoth aduaidh
 ge_brith is cuma
 geibheadh_iad ngeobhaidís
 geibheadh_tu ngeofá
+geumadh_iad géimidís
+geumadh_iad ngéimfidís
+geumadh_iad ngéimidís
+geumadh_tu ngéimfeá
+geumaidh_sinn géimfimid
+geumaidh_sinn ngéimfimid
 ghaoth_a_tuath gaoth aduaidh
 gheibh_sinn gheobhaimid
 gheibh_sinn ngeobhaimid
 gheibheadh_iad gheobhaidís
 gheibheadh_tu gheofá
+gheum_iad ghéimeadar
+gheum_iad ngéimeadar
+gheum_sinn ghéimeamar
+gheum_sinn ngéimeamar
+gheumadh_iad ghéimfidís
+gheumadh_iad ghéimidís
+gheumadh_tu ghéimfeá
+gheumaidh_sinn ghéimfimid
 ghlais_iad ghlasáladar
 ghlais_iad nglasáladar
 ghlais_sinn ghlasálamar
@@ -1632,6 +1648,23 @@ leughadh_iad léidís
 leughadh_iad léifidís
 leughadh_tu léifeá
 leughaidh_sinn léifimid
+lorg_iad aimsíodar
+lorg_iad d'aimsíodar
+lorg_iad n-aimsíodar
+lorg_sinn aimsíomar
+lorg_sinn d'aimsíomar
+lorg_sinn n-aimsíomar
+lorgadh_iad aimseoidís
+lorgadh_iad aimsídís
+lorgadh_iad d'aimseoidís
+lorgadh_iad haimsídís
+lorgadh_iad n-aimseoidís
+lorgadh_iad n-aimsídís
+lorgadh_tu aimseofá
+lorgadh_tu d'aimseofá
+lorgadh_tu n-aimseofá
+lorgaidh_sinn aimseoimid
+lorgaidh_sinn n-aimseoimid
 ma_deidhinn fúithi
 ma_dh'fhaodte seans
 ma_dh'fhaoidte seans
@@ -1689,6 +1722,7 @@ mi'n_dochas mé ag súil
 mi'n_dòchas mé ag súil
 mi_a'_fuireach mé i mo chónaí
 mi_a'fuireach mé i mo chónaí
+mo_liagh mo dhuine
 mu_a_dheidhinn faoi
 mu_ar_deidhinn fúinn
 mu_deidheinn fúithi
@@ -1982,6 +2016,8 @@ ràinig_iad shroicheadar
 ràinig_iad sroicheadar
 ràinig_sinn shroicheamar
 ràinig_sinn sroicheamar
+rè_na_h-ùine_sin lena linn sin
+ré_na_h-ùine_sin lena linn sin
 sam_bith ar bith
 san_eadar-àm idir an dá linn
 san_t-fhoghar san fhómhar
@@ -2099,6 +2135,9 @@ thairis_oirre thairsti
 thairis_oirrese thairstise
 thairis_orra tharstu
 thairis_orrasan tharstusan
+thar_chuain thar lear
+thar_lear thar lear
+thar_learsàile thar lear
 theab_am dóbair_don
 theab_an dóbair_don
 theab_e dóbair_dó
