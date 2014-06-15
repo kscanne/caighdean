@@ -2,9 +2,12 @@
 'n_uiridh anuraidh
 'n_uraidh anuraidh
 'na_dhiaigh ina dhiaidh
+'na_dhèidh ina dhiaidh
 'na_dhèigh ina dhiaidh
 's_an_t-fhoghar san fhómhar
 's_t-fhoghar san fhómhar
+'sa_bhad ar an bpointe
+'sa_bhad láithreach
 Abhainn_Niger Abhainn na Nígire
 Aràibia_nan_Sabhd an Araib Shàdach
 Beal_Feairste Béal Feirste
@@ -164,10 +167,12 @@ a_bhàn aníos
 a_bhàn síos
 a_chaochail_ann_an a fuair bás i
 a_chaochladh a mhalairt
+a_chum chun
 a_deas theas
 a_dh'Uibhist d'Uibhist
 a_dh'aindeoin in ainneoin
 a_dh'aithghearr go luath
+a_dh'aois d'aois
 a_dh'fhaid ar fad
 a_dh'ionnsaidh chun
 a_dh'ionnsaigh chun
@@ -237,6 +242,7 @@ air_an_adhbhar_seo dá bhrí seo
 air_an_adhbhar_sin dá bhrí sin
 air_atharrachadh athraithe
 air_beulaibh ar bhéal
+air_choreigin éigin
 air_chuthach ar buile
 air_eagal ar eagla
 air_eagal's ar eagla
@@ -271,6 +277,7 @@ am_measg i measc
 am_màireach amárach
 an t-aite far a bheil an áit ina bhfuil
 an_Cèitean Bealtaine
+an_Dàmhair Deireadh Fómhair
 an_Elbe an Eilbe
 an_Roinn-Eorpa Roinn na hEorpa
 an_ath-dhoras bhéal dorais
@@ -289,6 +296,12 @@ an_ceartuair anois
 an_ceartuair ar ball
 an_ceartuair faoi láthair
 an_còmhnaidh i gcónaí
+an_còrr an chuid eile
+an_còrr tuilleadh
+an_còrr_de an chuid eile de
+an_còrr_den an chuid eile den
+an_còrr_dhe an chuid eile de
+an_còrr_dhen an chuid eile den
 an_d'thàinig ar tháinig
 an_de inné
 an_deidh i ndiaidh
@@ -359,6 +372,10 @@ anns_Na sna
 anns_a' sa
 anns_a' san
 anns_a'_Chuimrigh sa Bhreatain Bheag
+anns_a'_bhad ar an bpointe
+anns_a'_bhad láithreach
+anns_a_bhad ar an bpointe
+anns_a_bhad láithreach
 anns_a_bheil ina bhfuil
 anns_a_h-uile i ngach uile
 anns_an sa
@@ -379,9 +396,12 @@ aonaichidh_sinn aontóimid
 aonaichidh_sinn n-aontóimid
 as_deaghaidh i ndiaidh
 as_deaghaidh tar éis
+as_deidh i ndiaidh
+as_deidh tar éis
 as_deoghaidh i ndiaidh
 as_deoghaidh tar éis
 as_dèidh i ndiaidh
+as_dèidh tar éis
 as_motha is mó
 as_t-Fhoghar san Fhómhar
 as_t-fhoghar san fhómhar
@@ -461,6 +481,22 @@ bhruidhneadh_iad labhraídís
 bhruidhneadh_iad labhróidís
 bhruidhneadh_tu labhrófá
 bhruidhnidh_sinn labhróimid
+bhuair_iad bhuaireadar
+bhuair_iad chathaíodar
+bhuair_iad gcathaíodar
+bhuair_iad mbuaireadar
+bhuair_sinn bhuaireamar
+bhuair_sinn chathaíomar
+bhuair_sinn gcathaíomar
+bhuair_sinn mbuaireamar
+bhuaireadh_iad bhuairfidís
+bhuaireadh_iad bhuairidís
+bhuaireadh_iad chathaídís
+bhuaireadh_iad chathóidís
+bhuaireadh_tu bhuairfeá
+bhuaireadh_tu chathófá
+bhuairidh_sinn bhuairfimid
+bhuairidh_sinn chathóimid
 bhuannaich_iad bhuadar
 bhuannaich_iad mbuadar
 bhuannaich_sinn bhuamar
@@ -469,6 +505,14 @@ bhuannaicheadh_iad bhuafaidís
 bhuannaicheadh_iad bhuaidís
 bhuannaicheadh_tu bhuafá
 bhuannaichidh_sinn bhuafaimid
+bhuidhinn_iad ghnóthaíodar
+bhuidhinn_iad ngnóthaíodar
+bhuidhinn_sinn ghnóthaíomar
+bhuidhinn_sinn ngnóthaíomar
+bhuidhinneadh_iad ghnóthaídís
+bhuidhinneadh_iad ghnóthóidís
+bhuidhinneadh_tu ghnóthófá
+bhuidhinnidh_sinn ghnóthóimid
 bhuin_iad bhaineadar
 bhuin_iad mbaineadar
 bhuin_sinn bhaineamar
@@ -477,6 +521,14 @@ bhuineadh_iad bhainfidís
 bhuineadh_iad bhainidís
 bhuineadh_tu bhainfeá
 bhuinidh_sinn bhainfimid
+bhuinnig_iad ghnóthaíodar
+bhuinnig_iad ngnóthaíodar
+bhuinnig_sinn ghnóthaíomar
+bhuinnig_sinn ngnóthaíomar
+bhuinnigeadh_iad ghnóthaídís
+bhuinnigeadh_iad ghnóthóidís
+bhuinnigeadh_tu ghnóthófá
+bhuinnigidh_sinn ghnóthóimid
 bhàsaich_iad bhásaíodar
 bhàsaich_iad mbásaíodar
 bhàsaich_sinn bhásaíomar
@@ -519,12 +571,30 @@ bruidhneadh_iad labhraídís
 bruidhneadh_iad labhróidís
 bruidhneadh_tu labhrófá
 bruidhnidh_sinn labhróimid
+buaireadh_iad buairidís
+buaireadh_iad cathaídís
+buaireadh_iad gcathaídís
+buaireadh_iad gcathóidís
+buaireadh_iad mbuairfidís
+buaireadh_iad mbuairidís
+buaireadh_tu gcathófá
+buaireadh_tu mbuairfeá
+buairidh_sinn buairfimid
+buairidh_sinn cathóimid
+buairidh_sinn gcathóimid
+buairidh_sinn mbuairfimid
 buannaicheadh_iad buaidís
 buannaicheadh_iad mbuafaidís
 buannaicheadh_iad mbuaidís
 buannaicheadh_tu mbuafá
 buannaichidh_sinn buafaimid
 buannaichidh_sinn mbuafaimid
+buidhinneadh_iad gnóthaídís
+buidhinneadh_iad ngnóthaídís
+buidhinneadh_iad ngnóthóidís
+buidhinneadh_tu ngnóthófá
+buidhinnidh_sinn gnóthóimid
+buidhinnidh_sinn ngnóthóimid
 buileach_cho go díreach chomh
 buileach_cho lán díreach chomh
 buineadh_iad bainidís
@@ -533,6 +603,12 @@ buineadh_iad mbainidís
 buineadh_tu mbainfeá
 buinidh_sinn bainfimid
 buinidh_sinn mbainfimid
+buinnigeadh_iad gnóthaídís
+buinnigeadh_iad ngnóthaídís
+buinnigeadh_iad ngnóthóidís
+buinnigeadh_tu ngnóthófá
+buinnigidh_sinn gnóthóimid
+buinnigidh_sinn ngnóthóimid
 bàsaicheadh_iad básaídís
 bàsaicheadh_iad mbásaídís
 bàsaicheadh_iad mbásóidís
@@ -605,10 +681,19 @@ chitheadh_iad d'fheicfidís
 chitheadh_iad fheicfidís
 chitheadh_tu d'fheicfeá
 chitheadh_tu fheicfeá
+chliù-mhill_iad chlúmhilleadar
+chliù-mhill_iad gclúmhilleadar
+chliù-mhill_sinn chlúmhilleamar
+chliù-mhill_sinn gclúmhilleamar
+chliù-mhilleadh_iad chlúmhillfidís
+chliù-mhilleadh_iad chlúmhillidís
+chliù-mhilleadh_tu chlúmhillfeá
+chliù-mhillidh_sinn chlúmhillfimid
 chluinneadh_iad chluinfidís
 chluinneadh_iad chluinidís
 chluinneadh_tu chluinfeá
 chluinnidh_sinn chluinfimid
+chlàradh_a-steach logáil isteach
 chlàraich_iad chláraíodar
 chlàraich_iad gcláraíodar
 chlàraich_sinn chláraíomar
@@ -689,6 +774,14 @@ chomhlìonadh_iad chomhlíonaidís
 chomhlìonadh_iad chomhlíonfaidís
 chomhlìonadh_tu chomhlíonfá
 chomhlìonaidh_sinn chomhlíonfaimid
+chreid_iad chreideadar
+chreid_iad gcreideadar
+chreid_sinn chreideamar
+chreid_sinn gcreideamar
+chreideadh_iad chreidfidís
+chreideadh_iad chreididís
+chreideadh_tu chreidfeá
+chreididh_sinn chreidfimid
 chruthaich_iad chruthaíodar
 chruthaich_iad gcruthaíodar
 chruthaich_sinn chruthaíomar
@@ -736,12 +829,19 @@ chòrdaidh_sinn thaitneoimid
 cia_mheud cé mhéad
 citheadh_iad bhfeicfidís
 citheadh_tu bhfeicfeá
+cliù-mhilleadh_iad clúmhillidís
+cliù-mhilleadh_iad gclúmhillfidís
+cliù-mhilleadh_iad gclúmhillidís
+cliù-mhilleadh_tu gclúmhillfeá
+cliù-mhillidh_sinn clúmhillfimid
+cliù-mhillidh_sinn gclúmhillfimid
 cluinneadh_iad cluinidís
 cluinneadh_iad gcluinfidís
 cluinneadh_iad gcluinidís
 cluinneadh_tu gcluinfeá
 cluinnidh_sinn cluinfimid
 cluinnidh_sinn gcluinfimid
+clàradh_a-steach logáil isteach
 clàraicheadh_iad cláraídís
 clàraicheadh_iad gcláraídís
 clàraicheadh_iad gcláróidís
@@ -800,6 +900,13 @@ comhlìonadh_tu gcomhlíonfá
 comhlìonaidh_sinn comhlíonfaimid
 comhlìonaidh_sinn gcomhlíonfaimid
 corr'_uair corruair
+corr_uair corruair
+creideadh_iad creididís
+creideadh_iad gcreidfidís
+creideadh_iad gcreididís
+creideadh_tu gcreidfeá
+creididh_sinn creidfimid
+creididh_sinn gcreidfimid
 cruthaicheadh_iad cruthaídís
 cruthaicheadh_iad gcruthaídís
 cruthaicheadh_iad gcruthóidís
@@ -842,6 +949,7 @@ còrdadh_iad taitnídís
 còrdadh_tu dtaitneofá
 còrdaidh_sinn dtaitneoimid
 còrdaidh_sinn taitneoimid
+còrr_is thart ar
 d'rinn_iad dhearnadar
 d'rinn_iad ndearnadar
 d'rinn_sinn dhearnamar
@@ -906,10 +1014,17 @@ deanadh_iad ndéanfaidís
 deanadh_tu ndéanfá
 deanaidh_sinn déanfaimid
 deanaidh_sinn ndéanfaimid
+dearbhadh_iad dearbhaídís
+dearbhadh_iad ndearbhaídís
+dearbhadh_iad ndearbhóidís
+dearbhadh_tu ndearbhófá
+dearbhaidh_sinn dearbhóimid
+dearbhaidh_sinn ndearbhóimid
 den_a' den
 den_am den
 den_an den
 den_fhàsach_Sahara den Sahára
+deuchainn_Àrd-ìre Ardteist
 dh'abaich_iad aibíodar
 dh'abaich_iad d'aibíodar
 dh'abaich_iad n-aibíodar
@@ -961,6 +1076,26 @@ dh'eas-aontaicheadh_iad n-easaontóidís
 dh'eas-aontaicheadh_tu d'easaontófá
 dh'eas-aontaicheadh_tu easaontófá
 dh'eas-aontaicheadh_tu n-easaontófá
+dh'eireadh_iad d'éireoidís
+dh'eireadh_iad n-éireoidís
+dh'eireadh_iad éireoidís
+dh'eireadh_tu d'éireofá
+dh'eireadh_tu n-éireofá
+dh'eireadh_tu éireofá
+dh'eirich_iad d'éiríodar
+dh'eirich_iad n-éiríodar
+dh'eirich_iad éiríodar
+dh'eirich_sinn d'éiríomar
+dh'eirich_sinn n-éiríomar
+dh'eirich_sinn éiríomar
+dh'eiridnich_iad mhuirníodar
+dh'eiridnich_iad muirníodar
+dh'eiridnich_sinn mhuirníomar
+dh'eiridnich_sinn muirníomar
+dh'eiridnicheadh_iad mhuirneoidís
+dh'eiridnicheadh_iad muirneoidís
+dh'eiridnicheadh_tu mhuirneofá
+dh'eiridnicheadh_tu muirneofá
 dh'eist_iad d'éisteadar
 dh'eist_iad n-éisteadar
 dh'eist_iad éisteadar
@@ -997,6 +1132,18 @@ dh'fhalbhadh_iad n-imeoidís
 dh'fhalbhadh_tu d'imeofá
 dh'fhalbhadh_tu imeofá
 dh'fhalbhadh_tu n-imeofá
+dh'fhaod_iad bhféadadar
+dh'fhaod_iad d'fhéadadar
+dh'fhaod_iad fhéadadar
+dh'fhaod_sinn bhféadamar
+dh'fhaod_sinn d'fhéadamar
+dh'fhaod_sinn fhéadamar
+dh'fhaodadh_iad bhféadfaidís
+dh'fhaodadh_iad d'fhéadfaidís
+dh'fhaodadh_iad fhéadfaidís
+dh'fhaodadh_tu bhféadfá
+dh'fhaodadh_tu d'fhéadfá
+dh'fhaodadh_tu fhéadfá
 dh'fhas_iad bhfásadar
 dh'fhas_iad d'fhásadar
 dh'fhas_iad fhásadar
@@ -1125,6 +1272,18 @@ dh'àrdaicheadh_iad n-ardóidís
 dh'àrdaicheadh_tu ardófá
 dh'àrdaicheadh_tu d'ardófá
 dh'àrdaicheadh_tu n-ardófá
+dh'èireadh_iad d'éireoidís
+dh'èireadh_iad n-éireoidís
+dh'èireadh_iad éireoidís
+dh'èireadh_tu d'éireofá
+dh'èireadh_tu n-éireofá
+dh'èireadh_tu éireofá
+dh'èirich_iad d'éiríodar
+dh'èirich_iad n-éiríodar
+dh'èirich_iad éiríodar
+dh'èirich_sinn d'éiríomar
+dh'èirich_sinn n-éiríomar
+dh'èirich_sinn éiríomar
 dh'èisd_iad d'éisteadar
 dh'èisd_iad n-éisteadar
 dh'èisd_iad éisteadar
@@ -1149,6 +1308,18 @@ dh'èisteadh_iad éistfidís
 dh'èisteadh_tu d'éistfeá
 dh'èisteadh_tu n-éistfeá
 dh'èisteadh_tu éistfeá
+dh'éireadh_iad d'éireoidís
+dh'éireadh_iad n-éireoidís
+dh'éireadh_iad éireoidís
+dh'éireadh_tu d'éireofá
+dh'éireadh_tu n-éireofá
+dh'éireadh_tu éireofá
+dh'éirich_iad d'éiríodar
+dh'éirich_iad n-éiríodar
+dh'éirich_iad éiríodar
+dh'éirich_sinn d'éiríomar
+dh'éirich_sinn n-éiríomar
+dh'éirich_sinn éiríomar
 dh'éisd_iad d'éisteadar
 dh'éisd_iad n-éisteadar
 dh'éisd_iad éisteadar
@@ -1221,6 +1392,14 @@ dheanadh_iad dhéanaidís
 dheanadh_iad dhéanfaidís
 dheanadh_tu dhéanfá
 dheanaidh_sinn dhéanfaimid
+dhearbh_iad dhearbhaíodar
+dhearbh_iad ndearbhaíodar
+dhearbh_sinn dhearbhaíomar
+dhearbh_sinn ndearbhaíomar
+dhearbhadh_iad dhearbhaídís
+dhearbhadh_iad dhearbhóidís
+dhearbhadh_tu dhearbhófá
+dhearbhaidh_sinn dhearbhóimid
 dhen_a' den
 dhen_am den
 dhen_an den
@@ -1262,6 +1441,14 @@ dhà_rìribh dáiríre
 dhèanadh_iad dhéanaidís
 dhèanadh_iad dhéanfaidís
 dhèanadh_tu dhéanfá
+dhèilig_iad dhéileáladar
+dhèilig_iad ndéileáladar
+dhèilig_sinn dhéileálamar
+dhèilig_sinn ndéileálamar
+dhèiligeadh_iad dhéileálaidís
+dhèiligeadh_iad dhéileálfaidís
+dhèiligeadh_tu dhéileálfá
+dhèiligidh_sinn dhéileálfaimid
 do_Ghalile don_Ghailíl
 do_ar dár
 do_bhrìgh de bhrí
@@ -1368,6 +1555,12 @@ dèanadh_iad déanaidís
 dèanadh_iad ndéanaidís
 dèanadh_iad ndéanfaidís
 dèanadh_tu ndéanfá
+dèiligeadh_iad déileálaidís
+dèiligeadh_iad ndéileálaidís
+dèiligeadh_iad ndéileálfaidís
+dèiligeadh_tu ndéileálfá
+dèiligidh_sinn déileálfaimid
+dèiligidh_sinn ndéileálfaimid
 dé_cho cé_chomh
 e_a'_fuireach sé ina chónaí
 e_a'fuireach sé ina chónaí
@@ -1377,6 +1570,14 @@ eas-aontaichidh_sinn easaontóimid
 eas-aontaichidh_sinn n-easaontóimid
 ehan_eil níl
 eilean_Thoraigh oileán Thoraí
+eireadh_iad n-éirídís
+eireadh_iad éirídís
+eiridh_sinn n-éireoimid
+eiridh_sinn éireoimid
+eiridnicheadh_iad mhuirnídís
+eiridnicheadh_iad muirnídís
+eiridnichidh_sinn mhuirneoimid
+eiridnichidh_sinn muirneoimid
 eisteadh_iad n-éistidís
 eisteadh_iad éistidís
 eistidh_sinn n-éistfimid
@@ -1410,6 +1611,10 @@ falbhadh_iad imídís
 falbhadh_iad n-imídís
 falbhaidh_sinn imeoimid
 falbhaidh_sinn n-imeoimid
+faodadh_iad bhféadaidís
+faodadh_iad féadaidís
+faodaidh_sinn bhféadfaimid
+faodaidh_sinn féadfaimid
 far_a_bheil áit ina bhfuil
 far_am áit ina
 far_am_b' inar
@@ -1442,6 +1647,8 @@ fhaigheadh_iad fhaighidís
 fhaigheadh_tu bhfaighfeá
 fhalbhadh_iad imídís
 fhalbhaidh_sinn imeoimid
+fhaodadh_iad fhéadaidís
+fhaodaidh_sinn fhéadfaimid
 fhasadh_iad fhásaidís
 fhasaidh_sinn fhásfaimid
 fheadadh_iad fheadaidís
@@ -1638,14 +1845,18 @@ h-abradh_iad habraidís
 h-aonaicheadh_iad haontaídís
 h-atharraicheadh_iad hathraídís
 h-eas-aontaicheadh_iad heasaontaídís
+h-eireadh_iad héirídís
+h-eiridnicheadh_iad muirnídís
 h-eisteadh_iad héistidís
 h-innseadh_iad hinsídís
 h-obraicheadh_iad hoibrídís
 h-oladh_iad hólaidís
 h-àraicheadh_iad tógaidís
 h-àrdaicheadh_iad hardaídís
+h-èireadh_iad héirídís
 h-èisdeadh_iad héistidís
 h-èisteadh_iad héistidís
+h-éireadh_iad héirídís
 h-éisdeadh_iad héistidís
 h-ìocadh_iad híocaidís
 h-òladh_iad hólaidís
@@ -1774,6 +1985,8 @@ mi_a'fuireach mé i mo chónaí
 mo_liagh mo dhuine
 mu_a_dheidhinn faoi
 mu_ar_deidhinn fúinn
+mu_choinneamh in aghaidh
+mu_choinneamh os comhair
 mu_deidheinn fúithi
 mu_deidhinn fúithi
 mu_dheidheinn faoi
@@ -2069,6 +2282,8 @@ ràinig_sinn shroicheamar
 ràinig_sinn sroicheamar
 rè_na_h-ùine_sin lena linn sin
 ré_na_h-ùine_sin lena linn sin
+sa_bhad ar an bpointe
+sa_bhad láithreach
 sam_bith ar bith
 san_eadar-àm idir an dá linn
 san_t-fhoghar san fhómhar
@@ -2089,6 +2304,16 @@ seargadh_iad seargaidís
 seargadh_iad seargfaidís
 seargadh_tu seargfá
 seargaidh_sinn seargfaimid
+seinneadh_iad canaidís
+seinneadh_iad gcanaidís
+seinneadh_iad gcanfaidís
+seinneadh_iad seinnfidís
+seinneadh_iad seinnidís
+seinneadh_tu gcanfá
+seinneadh_tu seinnfeá
+seinnidh_sinn canfaimid
+seinnidh_sinn gcanfaimid
+seinnidh_sinn seinnfimid
 sgriobh_iad scríobhadar
 sgriobh_sinn scríobhamar
 sgriobhadh_iad scríobhaidís
@@ -2127,6 +2352,22 @@ sheargadh_iad sheargaidís
 sheargadh_iad sheargfaidís
 sheargadh_tu sheargfá
 sheargaidh_sinn sheargfaimid
+sheinn_iad chanadar
+sheinn_iad gcanadar
+sheinn_iad seinneadar
+sheinn_iad sheinneadar
+sheinn_sinn chanamar
+sheinn_sinn gcanamar
+sheinn_sinn seinneamar
+sheinn_sinn sheinneamar
+sheinneadh_iad chanaidís
+sheinneadh_iad chanfaidís
+sheinneadh_iad sheinnfidís
+sheinneadh_iad sheinnidís
+sheinneadh_tu chanfá
+sheinneadh_tu sheinnfeá
+sheinnidh_sinn chanfaimid
+sheinnidh_sinn sheinnfimid
 shiostam_in-smachd chóras rialaithe inmheánaigh
 shrath_spè shraithspé
 shrath_spé shraithspé
@@ -2381,11 +2622,18 @@ tòisichidh_sinn tosóimid
 àrdaichidh_sinn n-ardóimid
 às_deaghaidh i ndiaidh
 às_deaghaidh tar éis
+às_deidh i ndiaidh
+às_deidh tar éis
 às_deoghaidh i ndiaidh
 às_deoghaidh tar éis
 às_dèidh i ndiaidh
+às_dèidh tar éis
 ás_deoghaidh i ndiaidh
 ás_deoghaidh tar éis
+èireadh_iad n-éirídís
+èireadh_iad éirídís
+èiridh_sinn n-éireoimid
+èiridh_sinn éireoimid
 èisdeadh_iad n-éistidís
 èisdeadh_iad éistidís
 èisdidh_sinn n-éistfimid
@@ -2394,6 +2642,10 @@ tòisichidh_sinn tosóimid
 èisteadh_iad éistidís
 èistidh_sinn n-éistfimid
 èistidh_sinn éistfimid
+éireadh_iad n-éirídís
+éireadh_iad éirídís
+éiridh_sinn n-éireoimid
+éiridh_sinn éireoimid
 éisdeadh_iad n-éistidís
 éisdeadh_iad éistidís
 éisdidh_sinn n-éistfimid
