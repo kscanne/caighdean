@@ -28,7 +28,7 @@ while (<MULTI>) {
 }
 close MULTI;
 
-$maxwords = 3;
+$maxwords = 5;
 
 my @queue;
 LINE: while (<STDIN>) {
