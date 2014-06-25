@@ -149,10 +149,10 @@ sub recapitalize {
 sub cap_style {
 	(my $w) = @_;
 	my $ans = 0;
-	$ans += 1 if ($w =~ m/^'*(([bdm]'|[hnt]-?)[AEIOUÁÉÍÓÚ]|mB|gC|n[DG]|bhF|bP|tS|dT|\p{Lu})/);
+	$ans += 1 if ($w =~ m/^'*(([bdm]'|[hnt]-?)[AEIOUÁÉÍÓÚÀÈÌÒÙ]|mB|gC|n[DG]|bhF|bP|tS|dT|\p{Lu})/);
 	$ans += 2 if ($w =~ m/^\p{Lu}/);
 	$ans += 4 if ($w =~ m/^...*-\p{Lu}/);
-	$ans += 8 if ($w =~ m/^'*(([hnt]-?)[AEIOUÁÉÍÓÚ]|mB|gC|n[DG]|bhF|bP|tS|dT)?(\p{Lu}|['-])*$/ and $w =~ /\p{Lu}/);
+	$ans += 8 if ($w =~ m/^'*(([hnt]-?)[AEIOUÁÉÍÓÚÀÈÌÒÙ]|mB|gC|n[DG]|bhF|bP|tS|dT)?(\p{Lu}|['-])*$/ and $w =~ /\p{Lu}/);
 	return $ans;
 }
 
@@ -460,7 +460,7 @@ sub process_one_token {
 print "Ready.\n" if $verbose;
 while (<STDIN>) {
 	chomp;
-	if (/[a-zA-ZáéíóúÁÉÍÓÚ]/) {
+	if (/[a-zA-ZáéíóúÁÉÍÓÚàèìòùÀÈÌÒÙ]/) {
 		s/’/'/g;
 		s/‐/-/g;  # U+2010 to ASCII
 	}
@@ -469,7 +469,7 @@ while (<STDIN>) {
 	}
 	elsif (/^'/ or /'$/) {
 		if (exists($cands{$_}) or /^'+$/ or
-			(/^[A-ZÁÉÍÓÚ]/ and exists($cands{lc($_)}))) {
+			(/^[A-ZÁÉÍÓÚÀÈÌÒÙ]/ and exists($cands{lc($_)}))) {
 			process_one_token($_);
 		}
 		else {
