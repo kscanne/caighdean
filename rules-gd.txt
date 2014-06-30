@@ -57,6 +57,22 @@ sb	sp	1
 # aosda->aosta
 sd	st	1
 # sc->sg is the other rule of this kind, but moves away from ga so think twice
+# Decided to include the following rules here vs. the opposite rules
+# in the section below because we're much more likely to "find" the
+# source word through rules than we are to luck out and hit the ga word.
+# Plus the gd sources are pretty noisy.
+# Plus I surveyed gd->ga pairs obtained by making accents acute and made
+# sure to include those in gd2ga.po
+á	à	1
+é	è	1
+í	ì	1
+ó	ò	1
+ú	ù	1
+Á	À	1
+É	È	1
+Í	Ì	1
+Ó	Ò	1
+Ú	Ù	1
 #######################################################
 # ansin iarracht ar fhocal sa sprioctheanga a aimsiú...
 #######################################################
@@ -95,14 +111,14 @@ air$	óir	1
 ^neo-	neamh-	1
 ^ro-mh	réamh-mh	1
 ^ro-([^m])	réamh$1	1
-à	á	1
-è	é	1
-è	í	1
-ò	ó	1
-ù	ú	1
-À	Á	1
-È	É	1
-Ì	Í	1
-Ò	Ó	1
-Ù	Ú	1
+#à	á	1
+#è	é	1
+#è	í	1
+#ò	ó	1
+#ù	ú	1
+#À	Á	1
+#È	É	1
+#Ì	Í	1
+#Ò	Ó	1
+#Ù	Ú	1
 # strip hyphens (but not after 1st letter else infinite loop (ts->t-s above)
