@@ -155,11 +155,10 @@ ngrams.txt-refresh: FORCE
 	cp -f $(NGRAM)/ga-model.txt ngrams.txt
 	chmod 444 ngrams.txt
 
-# GLAN==aspell.txt, LEXICON=GLAN + proper names, etc.
-# ispell personal, uimhreacha, apost; .ispell_gaeilge; dinneenok.txt
-clean.txt-refresh: $(CRUB)/ga/LEXICON
+# run groom to rebuild gaelspell.txt if necessary
+clean.txt-refresh: FORCE
 	rm -f clean.txt
-	cat $(CRUB)/ga/LEXICON | sort -u > clean.txt
+	cat ${HOME}/gaeilge/ispell/ispell-gaeilge/gaelspell.txt | sort -u > clean.txt
 	chmod 444 clean.txt
 
 rules.txt-refresh: $(GRAMADOIR)/morph-ga.txt
