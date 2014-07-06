@@ -133,7 +133,7 @@ sub recapitalize {
 # 2nd bit: on if the actual first letter is capitalized (Tacht but not tAcht)
 # 3rd bit: on if there are any caps after hyphens (ignore initial h-,n-,t-)
 # (only examples where it's mixed are like "Bhaile-an-Easa" - rare)
-# 4rd bit: on if all caps after initial eclipsis or whatever.  So:
+# 4rd bit: on if all caps (at least 2) after initial eclipsis or whatever.  So:
 # 0 = fear, bean, droch-cheann
 # 1 = bhFear, h-Árd-rí, 'Sé
 # 3 = Droch-chor, Fear, Bean
@@ -152,7 +152,7 @@ sub cap_style {
 	$ans += 1 if ($w =~ m/^'*(([bdm]'|[hnt]-?)[AEIOUÁÉÍÓÚÀÈÌÒÙ]|mB|gC|n[DG]|bhF|bP|tS|dT|\p{Lu})/);
 	$ans += 2 if ($w =~ m/^\p{Lu}/);
 	$ans += 4 if ($w =~ m/^...*-\p{Lu}/);
-	$ans += 8 if ($w =~ m/^'*(([hnt]-?)[AEIOUÁÉÍÓÚÀÈÌÒÙ]|mB|gC|n[DG]|bhF|bP|tS|dT)?(\p{Lu}|['-])*$/ and $w =~ /\p{Lu}/);
+	$ans += 8 if ($w =~ m/^'*(([hnt]-?)[AEIOUÁÉÍÓÚÀÈÌÒÙ]|mB|gC|n[DG]|bhF|bP|tS|dT)?(\p{Lu}|['-])*$/ and $w =~ /\p{Lu}.*\p{Lu}/);
 	return $ans;
 }
 
@@ -469,7 +469,7 @@ while (<STDIN>) {
 	}
 	elsif (/^'/ or /'$/) {
 		if (exists($cands{$_}) or /^'+$/ or
-			(/^[A-ZÁÉÍÓÚÀÈÌÒÙ]/ and exists($cands{lc($_)}))) {
+			(/^'*[A-ZÁÉÍÓÚÀÈÌÒÙ]/ and exists($cands{lc($_)}))) {
 			process_one_token($_);
 		}
 		else {
