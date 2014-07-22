@@ -16,6 +16,7 @@
 'n_dràsta anois
 'n_dèidh i ndiaidh
 'n_dòchas ag súil
+'n_impis ar tí
 'n_uiridh anuraidh
 'n_uraidh anuraidh
 'na_chrùban ar a ghogaide
@@ -211,6 +212,7 @@ Tìre_Ìosal nÍsiltíre
 Tìre_Ìosal Ísiltíre
 a'_Bhreatainn_Bheag an Bhriotáin
 a'_Bhreatainn_Bhig an Bhriotáin
+a'_Chomainn_Iosaid Chumann Íosa
 a'_Chròthais an Chróit
 a'_Chuain_Shiair an Aigéin Atlantaigh
 a'_Chuain_Shiar an Aigéin Atlantaigh
@@ -711,6 +713,7 @@ an-tromaicheadh_iad tromaídís
 an-tromaichidh_sinn dtromóimid
 an-tromaichidh_sinn thromóimid
 an-tromaichidh_sinn tromóimid
+an_Comann_Iosaid Cumann Íosa
 an_Cuan_Sèimh an tAigéan Ciúin
 an_Cèitean Bealtaine
 an_Dubhlachd Nollaig
@@ -1209,6 +1212,10 @@ b'_fhiach b'fhiú
 b'_fhiù b'fhiú
 b'aisigte_air_ais b'aisíoctha
 b'an_sac b'asma
+b'iasg_geal b'fhaoitín
+b'inneal_tomhais_aimsir b'anaróideach
+b'innealan_tomhais_aimsir b'anaróidigh
+b'èisg_geal b'fhaoitíní
 bacadh_iad bacaidís
 bacadh_iad mbacaidís
 bacadh_iad mbacfaidís
@@ -2604,6 +2611,7 @@ cacadh_iad gcacfaidís
 cacadh_tu gcacfá
 cacaidh_sinn cacfaimid
 cacaidh_sinn gcacfaimid
+cadal_ìneach codladh grifín
 cagainneadh_iad cognaídís
 cagainneadh_iad gcognaídís
 cagainneadh_iad gcognóidís
@@ -7432,6 +7440,22 @@ dh'fhùcadh_iad úcfaidís
 dh'fhùcadh_tu d'úcfá
 dh'fhùcadh_tu n-úcfá
 dh'fhùcadh_tu úcfá
+dh'iadh_iad chiorclaíodar
+dh'iadh_iad dtimpeallaíodar
+dh'iadh_iad gciorclaíodar
+dh'iadh_iad thimpeallaíodar
+dh'iadh_sinn chiorclaíomar
+dh'iadh_sinn dtimpeallaíomar
+dh'iadh_sinn gciorclaíomar
+dh'iadh_sinn thimpeallaíomar
+dh'iadhadh_iad chiorclóidís
+dh'iadhadh_iad dtimpeallóidís
+dh'iadhadh_iad gciorclóidís
+dh'iadhadh_iad thimpeallóidís
+dh'iadhadh_tu chiorclófá
+dh'iadhadh_tu dtimpeallófá
+dh'iadhadh_tu gciorclófá
+dh'iadhadh_tu thimpeallófá
 dh'iarnaich_iad d'iarnáladar
 dh'iarnaich_iad iarnáladar
 dh'iarnaich_iad n-iarnáladar
@@ -7468,6 +7492,7 @@ dh'iarradh_iad n-iarrfaidís
 dh'iarradh_tu d'iarrfá
 dh'iarradh_tu iarrfá
 dh'iarradh_tu n-iarrfá
+dh'iasg_geal d'fhaoitín
 dh'iasgaich_iad d'iascadar
 dh'iasgaich_iad iascadar
 dh'iasgaich_iad n-iascadar
@@ -7480,6 +7505,22 @@ dh'iasgaicheadh_iad n-iascfaidís
 dh'iasgaicheadh_tu d'iascfá
 dh'iasgaicheadh_tu iascfá
 dh'iasgaicheadh_tu n-iascfá
+dh'iath_iad chiorclaíodar
+dh'iath_iad dtimpeallaíodar
+dh'iath_iad gciorclaíodar
+dh'iath_iad thimpeallaíodar
+dh'iath_sinn chiorclaíomar
+dh'iath_sinn dtimpeallaíomar
+dh'iath_sinn gciorclaíomar
+dh'iath_sinn thimpeallaíomar
+dh'iathadh_iad chiorclóidís
+dh'iathadh_iad dtimpeallóidís
+dh'iathadh_iad gciorclóidís
+dh'iathadh_iad thimpeallóidís
+dh'iathadh_tu chiorclófá
+dh'iathadh_tu dtimpeallófá
+dh'iathadh_tu gciorclófá
+dh'iathadh_tu thimpeallófá
 dh'imich_iad d'imíodar
 dh'imich_iad imíodar
 dh'imich_iad n-imíodar
@@ -7492,12 +7533,28 @@ dh'imicheadh_iad n-imeoidís
 dh'imicheadh_tu d'imeofá
 dh'imicheadh_tu imeofá
 dh'imicheadh_tu n-imeofá
+dh'imlich_iad líodar
+dh'imlich_sinn líomar
+dh'imlicheadh_iad lífidís
+dh'imlicheadh_tu lífeá
+dh'inneal_tomhais_aimsir d'anaróideach
+dh'innealan_tomhais_aimsir d'anaróideach
+dh'innealan_tomhais_aimsir d'anaróidigh
+dh'inneil_tomhais_aimsir d'anaróidigh
 dh'innis_iad d'insíodar
 dh'innis_iad insíodar
 dh'innis_iad n-insíodar
 dh'innis_sinn d'insíomar
 dh'innis_sinn insíomar
 dh'innis_sinn n-insíomar
+dh'innlich_iad cheapadar
+dh'innlich_iad gceapadar
+dh'innlich_sinn cheapamar
+dh'innlich_sinn gceapamar
+dh'innlicheadh_iad cheapfaidís
+dh'innlicheadh_iad gceapfaidís
+dh'innlicheadh_tu cheapfá
+dh'innlicheadh_tu gceapfá
 dh'inns_iad d'insíodar
 dh'inns_iad insíodar
 dh'inns_iad n-insíodar
@@ -7510,6 +7567,30 @@ dh'innseadh_iad n-inseoidís
 dh'innseadh_tu d'inseofá
 dh'innseadh_tu inseofá
 dh'innseadh_tu n-inseofá
+dh'inntrig_iad rochtaíodar
+dh'inntrig_sinn rochtaíomar
+dh'inntrigeadh_iad rochtóidís
+dh'inntrigeadh_tu rochtófá
+dh'iom-ghlan_iad d'íonghlanadar
+dh'iom-ghlan_iad n-íonghlanadar
+dh'iom-ghlan_iad íonghlanadar
+dh'iom-ghlan_sinn d'íonghlanamar
+dh'iom-ghlan_sinn n-íonghlanamar
+dh'iom-ghlan_sinn íonghlanamar
+dh'iom-ghlanadh_iad d'íonghlanfaidís
+dh'iom-ghlanadh_iad n-íonghlanfaidís
+dh'iom-ghlanadh_iad íonghlanfaidís
+dh'iom-ghlanadh_tu d'íonghlanfá
+dh'iom-ghlanadh_tu n-íonghlanfá
+dh'iom-ghlanadh_tu íonghlanfá
+dh'iomain_iad dtiomáineadar
+dh'iomain_iad thiomáineadar
+dh'iomain_sinn dtiomáineamar
+dh'iomain_sinn thiomáineamar
+dh'iomaineadh_iad dtiomáinfidís
+dh'iomaineadh_iad thiomáinfidís
+dh'iomaineadh_tu dtiomáinfeá
+dh'iomaineadh_tu thiomáinfeá
 dh'iomair_iad d'iomraíodar
 dh'iomair_iad iomraíodar
 dh'iomair_iad n-iomraíodar
@@ -7526,6 +7607,74 @@ dh'iomaireadh_tu d'iomrófá
 dh'iomaireadh_tu iomrófá
 dh'iomaireadh_tu n-iomrófá
 dh'iomaireadh_tu rámhófá
+dh'iomchair_iad d'iompraíodar
+dh'iomchair_iad iompraíodar
+dh'iomchair_iad n-iompraíodar
+dh'iomchair_sinn d'iompraíomar
+dh'iomchair_sinn iompraíomar
+dh'iomchair_sinn n-iompraíomar
+dh'iomchaireadh_iad d'iompróidís
+dh'iomchaireadh_iad iompróidís
+dh'iomchaireadh_iad n-iompróidís
+dh'iomchaireadh_tu d'iomprófá
+dh'iomchaireadh_tu iomprófá
+dh'iomchaireadh_tu n-iomprófá
+dh'iomlaidich_iad d'iomalartaíodar
+dh'iomlaidich_iad d'iomlaoidíodar
+dh'iomlaidich_iad iomalartaíodar
+dh'iomlaidich_iad iomlaoidíodar
+dh'iomlaidich_iad n-iomalartaíodar
+dh'iomlaidich_iad n-iomlaoidíodar
+dh'iomlaidich_sinn d'iomalartaíomar
+dh'iomlaidich_sinn d'iomlaoidíomar
+dh'iomlaidich_sinn iomalartaíomar
+dh'iomlaidich_sinn iomlaoidíomar
+dh'iomlaidich_sinn n-iomalartaíomar
+dh'iomlaidich_sinn n-iomlaoidíomar
+dh'iomlaidicheadh_iad d'iomalartóidís
+dh'iomlaidicheadh_iad d'iomlaoideoidís
+dh'iomlaidicheadh_iad iomalartóidís
+dh'iomlaidicheadh_iad iomlaoideoidís
+dh'iomlaidicheadh_iad n-iomalartóidís
+dh'iomlaidicheadh_iad n-iomlaoideoidís
+dh'iomlaidicheadh_tu d'iomalartófá
+dh'iomlaidicheadh_tu d'iomlaoideofá
+dh'iomlaidicheadh_tu iomalartófá
+dh'iomlaidicheadh_tu iomlaoideofá
+dh'iomlaidicheadh_tu n-iomalartófá
+dh'iomlaidicheadh_tu n-iomlaoideofá
+dh'iomlanaich_iad d'iomlánaíodar
+dh'iomlanaich_iad iomlánaíodar
+dh'iomlanaich_iad n-iomlánaíodar
+dh'iomlanaich_sinn d'iomlánaíomar
+dh'iomlanaich_sinn iomlánaíomar
+dh'iomlanaich_sinn n-iomlánaíomar
+dh'iomlanaicheadh_iad d'iomlánóidís
+dh'iomlanaicheadh_iad iomlánóidís
+dh'iomlanaicheadh_iad n-iomlánóidís
+dh'iomlanaicheadh_tu d'iomlánófá
+dh'iomlanaicheadh_tu iomlánófá
+dh'iomlanaicheadh_tu n-iomlánófá
+dh'iompaich_iad d'iompaíodar
+dh'iompaich_iad dtiontaíodar
+dh'iompaich_iad iompaíodar
+dh'iompaich_iad n-iompaíodar
+dh'iompaich_iad thiontaíodar
+dh'iompaich_sinn d'iompaíomar
+dh'iompaich_sinn dtiontaíomar
+dh'iompaich_sinn iompaíomar
+dh'iompaich_sinn n-iompaíomar
+dh'iompaich_sinn thiontaíomar
+dh'iompaicheadh_iad d'iompóidís
+dh'iompaicheadh_iad dtiontóidís
+dh'iompaicheadh_iad iompóidís
+dh'iompaicheadh_iad n-iompóidís
+dh'iompaicheadh_iad thiontóidís
+dh'iompaicheadh_tu d'iompófá
+dh'iompaicheadh_tu dtiontófá
+dh'iompaicheadh_tu iompófá
+dh'iompaicheadh_tu n-iompófá
+dh'iompaicheadh_tu thiontófá
 dh'ionadaich_iad d'ionadaíodar
 dh'ionadaich_iad ionadaíodar
 dh'ionadaich_iad n-ionadaíodar
@@ -7538,6 +7687,18 @@ dh'ionadaicheadh_iad n-ionadóidís
 dh'ionadaicheadh_tu d'ionadófá
 dh'ionadaicheadh_tu ionadófá
 dh'ionadaicheadh_tu n-ionadófá
+dh'ionaltair_iad d'iníoradar
+dh'ionaltair_iad iníoradar
+dh'ionaltair_iad n-iníoradar
+dh'ionaltair_sinn d'iníoramar
+dh'ionaltair_sinn iníoramar
+dh'ionaltair_sinn n-iníoramar
+dh'ionaltaireadh_iad d'iníorfaidís
+dh'ionaltaireadh_iad iníorfaidís
+dh'ionaltaireadh_iad n-iníorfaidís
+dh'ionaltaireadh_tu d'iníorfá
+dh'ionaltaireadh_tu iníorfá
+dh'ionaltaireadh_tu n-iníorfá
 dh'ionndrainn_iad chronaíodar
 dh'ionndrainn_iad gcronaíodar
 dh'ionndrainn_sinn chronaíomar
@@ -7546,6 +7707,18 @@ dh'ionndrainneadh_iad chronóidís
 dh'ionndrainneadh_iad gcronóidís
 dh'ionndrainneadh_tu chronófá
 dh'ionndrainneadh_tu gcronófá
+dh'ionnlaid_iad d'ionladar
+dh'ionnlaid_iad ionladar
+dh'ionnlaid_iad n-ionladar
+dh'ionnlaid_sinn d'ionlamar
+dh'ionnlaid_sinn ionlamar
+dh'ionnlaid_sinn n-ionlamar
+dh'ionnlaideadh_iad d'ionnalfaidís
+dh'ionnlaideadh_iad ionnalfaidís
+dh'ionnlaideadh_iad n-ionnalfaidís
+dh'ionnlaideadh_tu d'ionnalfá
+dh'ionnlaideadh_tu ionnalfá
+dh'ionnlaideadh_tu n-ionnalfá
 dh'ionnsaich_iad bhfoghlaimíodar
 dh'ionnsaich_iad d'fhoghlaimíodar
 dh'ionnsaich_iad fhoghlaimíodar
@@ -7558,6 +7731,18 @@ dh'ionnsaicheadh_iad fhoghlaimeoidís
 dh'ionnsaicheadh_tu bhfoghlaimeofá
 dh'ionnsaicheadh_tu d'fhoghlaimeofá
 dh'ionnsaicheadh_tu fhoghlaimeofá
+dh'irioslaich_iad d'uiríslíodar
+dh'irioslaich_iad n-uiríslíodar
+dh'irioslaich_iad uiríslíodar
+dh'irioslaich_sinn d'uiríslíomar
+dh'irioslaich_sinn n-uiríslíomar
+dh'irioslaich_sinn uiríslíomar
+dh'irioslaicheadh_iad d'uirísleoidís
+dh'irioslaicheadh_iad n-uirísleoidís
+dh'irioslaicheadh_iad uirísleoidís
+dh'irioslaicheadh_tu d'uirísleofá
+dh'irioslaicheadh_tu n-uirísleofá
+dh'irioslaicheadh_tu uirísleofá
 dh'itealaich_iad d'eitlíodar
 dh'itealaich_iad eitlíodar
 dh'itealaich_iad n-eitlíodar
@@ -7886,6 +8071,8 @@ dh'èisdeadh_iad éistfidís
 dh'èisdeadh_tu d'éistfeá
 dh'èisdeadh_tu n-éistfeá
 dh'èisdeadh_tu éistfeá
+dh'èisg_geal d'fhaoitín
+dh'èisg_geal d'fhaoitíní
 dh'èist_iad d'éisteadar
 dh'èist_iad n-éisteadar
 dh'èist_iad éisteadar
@@ -8085,6 +8272,7 @@ dhalladh_iad dhallaidís
 dhalladh_iad dhallfaidís
 dhalladh_tu dhallfá
 dhallaidh_sinn dhallfaimid
+dhan_Comann_Iosaid do Chumann Íosa
 dhan_a' don
 dhan_am don
 dhan_an don
@@ -9434,6 +9622,7 @@ eagranaicheadh_iad eagraídís
 eagranaicheadh_iad n-eagraídís
 eagranaichidh_sinn eagróimid
 eagranaichidh_sinn n-eagróimid
+ealain_lèirsinneachd amharcealaíne
 earbadh_iad earbaidís
 earbadh_iad n-earbaidís
 earbaidh_sinn earbfaimid
@@ -11634,6 +11823,7 @@ h-eadar-theangaicheadh_iad haistrídís
 h-eadardhealaicheadh_iad hidirdhealaídís
 h-eagraicheadh_iad heagraídís
 h-eagranaicheadh_iad heagraídís
+h-ealain_lèirsinneachd hamharcealaíona
 h-earbadh_iad hearbaidís
 h-eas-aontaicheadh_iad heasaontaídís
 h-eas-onaraicheadh_iad heasonóraídís
@@ -11646,17 +11836,40 @@ h-eisteadh_iad héistidís
 h-eucoiricheadh_iad héagóirídís
 h-eugadh_iad héagaidís
 h-euradh_iad héaraidís
+h-iadhadh_iad ciorclaídís
+h-iadhadh_iad timpeallaídís
 h-iarnaicheadh_iad hiarnálaidís
 h-iarnaigeadh_iad hiarnálaidís
 h-iarradh_iad hiarraidís
+h-iasg_geal faoitín
 h-iasgaicheadh_iad hiascaidís
+h-iathadh_iad ciorclaídís
+h-iathadh_iad timpeallaídís
 h-imicheadh_iad himídís
+h-imlicheadh_iad lídís
+h-inneal_tomhais_aimsir hanaróideach
+h-innealan_tomhais_aimsir hanaróideach
+h-innealan_tomhais_aimsir hanaróidigh
+h-inneil_tomhais_aimsir hanaróidigh
+h-innlicheadh_iad ceapaidís
 h-innseadh_iad hinsídís
+h-inntrigeadh_iad rochtaídís
+h-iom-ghlanadh_iad híonghlanaidís
+h-iomaineadh_iad tiomáinidís
 h-iomaireadh_iad hiomraídís
 h-iomaireadh_iad rámhaídís
+h-iomchaireadh_iad hiompraídís
+h-iomlaidicheadh_iad hiomalartaídís
+h-iomlaidicheadh_iad hiomlaoidídís
+h-iomlanaicheadh_iad hiomlánaídís
+h-iompaicheadh_iad hiompaídís
+h-iompaicheadh_iad tiontaídís
 h-ionadaicheadh_iad hionadaídís
+h-ionaltaireadh_iad hiníoraidís
 h-ionndrainneadh_iad cronaídís
+h-ionnlaideadh_iad hionlaidís
 h-ionnsaicheadh_iad foghlaimídís
+h-irioslaicheadh_iad huiríslídís
 h-itealaicheadh_iad heitlídís
 h-itheadh_iad hithidís
 h-obadh_iad hobaidís
@@ -11688,6 +11901,8 @@ h-èigheadh_iad scairtidís
 h-èignicheadh_iad héignídís
 h-èireadh_iad héirídís
 h-èisdeadh_iad héistidís
+h-èisg_geal faoitín
+h-èisg_geal faoitíní
 h-èisteadh_iad héistidís
 h-éigheadh_iad béicidís
 h-éigheadh_iad glaoidís
@@ -11707,6 +11922,18 @@ h-ùraicheadh_iad nuashonraídís
 i_a'_fuireach sí ina cónaí
 i_a'fuireach sí ina cónaí
 i_nEirinn in Éirinn
+iadhadh_iad chiorclaídís
+iadhadh_iad ciorclaídís
+iadhadh_iad dtimpeallaídís
+iadhadh_iad gciorclaídís
+iadhadh_iad thimpeallaídís
+iadhadh_iad timpeallaídís
+iadhaidh_sinn chiorclóimid
+iadhaidh_sinn ciorclóimid
+iadhaidh_sinn dtimpeallóimid
+iadhaidh_sinn gciorclóimid
+iadhaidh_sinn thimpeallóimid
+iadhaidh_sinn timpeallóimid
 iar-chuairt_deireannach cluiche leathcheannais
 iar-chuairt_deireannaich cluiche leathcheannais
 iar-chuairt_dheireannach cluiche leathcheannais
@@ -11725,38 +11952,111 @@ iarradh_iad iarraidís
 iarradh_iad n-iarraidís
 iarraidh_sinn iarrfaimid
 iarraidh_sinn n-iarrfaimid
+iasg_geal faoitín
+iasg_geal fhaoitín
+iasg_geal iasc geal
 iasgaicheadh_iad iascaidís
 iasgaicheadh_iad n-iascaidís
 iasgaichidh_sinn iascfaimid
 iasgaichidh_sinn n-iascfaimid
+iathadh_iad chiorclaídís
+iathadh_iad ciorclaídís
+iathadh_iad dtimpeallaídís
+iathadh_iad gciorclaídís
+iathadh_iad thimpeallaídís
+iathadh_iad timpeallaídís
+iathaidh_sinn chiorclóimid
+iathaidh_sinn ciorclóimid
+iathaidh_sinn dtimpeallóimid
+iathaidh_sinn gciorclóimid
+iathaidh_sinn thimpeallóimid
+iathaidh_sinn timpeallóimid
 imicheadh_iad imídís
 imicheadh_iad n-imídís
 imichidh_sinn imeoimid
 imichidh_sinn n-imeoimid
+imlicheadh_iad lídís
+imlichidh_sinn lífimid
 in_loco_parentis in loco parentis
 inneal_ciùil gléas ceoil
+inneal_tomhais_aimsir anaróideach
+innealan_tomhais_aimsir anaróideach
+innealan_tomhais_aimsir anaróidigh
+inneil_tomhais_aimsir anaróidigh
+innlicheadh_iad ceapaidís
+innlicheadh_iad cheapaidís
+innlicheadh_iad gceapaidís
+innlichidh_sinn ceapfaimid
+innlichidh_sinn cheapfaimid
+innlichidh_sinn gceapfaimid
 innseadh_iad insídís
 innseadh_iad n-insídís
 innsidh_sinn inseoimid
 innsidh_sinn n-inseoimid
+inntrigeadh_iad rochtaídís
+inntrigidh_sinn rochtóimid
+iom-ghlanadh_iad n-íonghlanaidís
+iom-ghlanadh_iad íonghlanaidís
+iom-ghlanaidh_sinn n-íonghlanfaimid
+iom-ghlanaidh_sinn íonghlanfaimid
+iomaineadh_iad dtiomáinidís
+iomaineadh_iad thiomáinidís
+iomaineadh_iad tiomáinidís
+iomainidh_sinn dtiomáinfimid
+iomainidh_sinn thiomáinfimid
+iomainidh_sinn tiomáinfimid
 iomaireadh_iad iomraídís
 iomaireadh_iad n-iomraídís
 iomaireadh_iad rámhaídís
 iomairidh_sinn iomróimid
 iomairidh_sinn n-iomróimid
 iomairidh_sinn rámhóimid
+iomchaireadh_iad iompraídís
+iomchaireadh_iad n-iompraídís
+iomchairidh_sinn iompróimid
+iomchairidh_sinn n-iompróimid
+iomlaidicheadh_iad iomalartaídís
+iomlaidicheadh_iad iomlaoidídís
+iomlaidicheadh_iad n-iomalartaídís
+iomlaidicheadh_iad n-iomlaoidídís
+iomlaidichidh_sinn iomalartóimid
+iomlaidichidh_sinn iomlaoideoimid
+iomlaidichidh_sinn n-iomalartóimid
+iomlaidichidh_sinn n-iomlaoideoimid
+iomlanaicheadh_iad iomlánaídís
+iomlanaicheadh_iad n-iomlánaídís
+iomlanaichidh_sinn iomlánóimid
+iomlanaichidh_sinn n-iomlánóimid
+iompaicheadh_iad dtiontaídís
+iompaicheadh_iad iompaídís
+iompaicheadh_iad n-iompaídís
+iompaicheadh_iad thiontaídís
+iompaicheadh_iad tiontaídís
+iompaichidh_sinn dtiontóimid
+iompaichidh_sinn iompóimid
+iompaichidh_sinn n-iompóimid
+iompaichidh_sinn thiontóimid
+iompaichidh_sinn tiontóimid
 iomradh_air tagairt do
 iomradh_caractair aonán carachtair
 ionadaicheadh_iad ionadaídís
 ionadaicheadh_iad n-ionadaídís
 ionadaichidh_sinn ionadóimid
 ionadaichidh_sinn n-ionadóimid
+ionaltaireadh_iad iníoraidís
+ionaltaireadh_iad n-iníoraidís
+ionaltairidh_sinn iníorfaimid
+ionaltairidh_sinn n-iníorfaimid
 ionndrainneadh_iad chronaídís
 ionndrainneadh_iad cronaídís
 ionndrainneadh_iad gcronaídís
 ionndrainnidh_sinn chronóimid
 ionndrainnidh_sinn cronóimid
 ionndrainnidh_sinn gcronóimid
+ionnlaideadh_iad ionlaidís
+ionnlaideadh_iad n-ionlaidís
+ionnlaididh_sinn ionnalfaimid
+ionnlaididh_sinn n-ionnalfaimid
 ionnsachadh_bogaidh tumoideachas
 ionnsaicheadh_iad bhfoghlaimídís
 ionnsaicheadh_iad fhoghlaimídís
@@ -11764,6 +12064,10 @@ ionnsaicheadh_iad foghlaimídís
 ionnsaichidh_sinn bhfoghlaimeoimid
 ionnsaichidh_sinn fhoghlaimeoimid
 ionnsaichidh_sinn foghlaimeoimid
+irioslaicheadh_iad n-uiríslídís
+irioslaicheadh_iad uiríslídís
+irioslaichidh_sinn n-uirísleoimid
+irioslaichidh_sinn uirísleoimid
 is_an-aoibhinn is mairg
 is_coireach_gu an chúis go
 is_coireach_gum_bi an chúis go mbeidh
@@ -11820,7 +12124,31 @@ laigheadh_iad luídís
 laigheadh_iad luífidís
 laigheadh_tu luífeá
 laighidh_sinn luífimid
+lannaich_iad lannaíodar
+lannaich_sinn lannaíomar
+lannaicheadh_iad lannaídís
+lannaicheadh_iad lannóidís
+lannaicheadh_tu lannófá
+lannaichidh_sinn lannóimid
 laoidh_nàiseanta amhrán náisiúnta
+las_iad lasadar
+las_sinn lasamar
+lasadh_iad lasaidís
+lasadh_iad lasfaidís
+lasadh_tu lasfá
+lasaich_iad maolaíodar
+lasaich_iad mhaolaíodar
+lasaich_sinn maolaíomar
+lasaich_sinn mhaolaíomar
+lasaicheadh_iad maolaídís
+lasaicheadh_iad maolóidís
+lasaicheadh_iad mhaolaídís
+lasaicheadh_iad mhaolóidís
+lasaicheadh_tu maolófá
+lasaicheadh_tu mhaolófá
+lasaichidh_sinn maolóimid
+lasaichidh_sinn mhaolóimid
+lasaidh_sinn lasfaimid
 latha_breith lá breithe
 le_Aràibia_nan_Sabhd leis an Araib Shàdach
 le_Gabon leis an nGabúin
@@ -11828,7 +12156,19 @@ le_Tài-lann leis an Téalainn
 le_a lena
 le_ar lenár
 le_na leis na
+leabaich_iad leabaíodar
+leabaich_sinn leabaíomar
+leabaicheadh_iad leabaídís
+leabaicheadh_iad leabóidís
+leabaicheadh_tu leabófá
+leabaichidh_sinn leabóimid
 leabhar_Genesis leabhar Gheineasas
+leacanaich_iad leacaíodar
+leacanaich_sinn leacaíomar
+leacanaicheadh_iad leacaídís
+leacanaicheadh_iad leacóidís
+leacanaicheadh_tu leacófá
+leacanaichidh_sinn leacóimid
 leag_iad leagadar
 leag_sinn leagamar
 leagadh_iad leagaidís
@@ -11841,12 +12181,63 @@ leaghadh_iad leáfaidís
 leaghadh_iad leáidís
 leaghadh_tu leáfá
 leaghaidh_sinn leáfaimid
+leamhaich_iad chiapadar
+leamhaich_iad chrádar
+leamhaich_iad gciapadar
+leamhaich_iad gcrádar
+leamhaich_sinn chiapamar
+leamhaich_sinn chrámar
+leamhaich_sinn gciapamar
+leamhaich_sinn gcrámar
+leamhaicheadh_iad chiapaidís
+leamhaicheadh_iad chiapfaidís
+leamhaicheadh_iad chráfaidís
+leamhaicheadh_iad chráidís
+leamhaicheadh_iad ciapaidís
+leamhaicheadh_iad cráidís
+leamhaicheadh_iad gciapaidís
+leamhaicheadh_iad gciapfaidís
+leamhaicheadh_iad gcráfaidís
+leamhaicheadh_iad gcráidís
+leamhaicheadh_tu chiapfá
+leamhaicheadh_tu chráfá
+leamhaicheadh_tu gciapfá
+leamhaicheadh_tu gcráfá
+leamhaichidh_sinn chiapfaimid
+leamhaichidh_sinn chráfaimid
+leamhaichidh_sinn ciapfaimid
+leamhaichidh_sinn cráfaimid
+leamhaichidh_sinn gciapfaimid
+leamhaichidh_sinn gcráfaimid
 lean_iad leanadar
 lean_sinn leanamar
 leanadh_iad leanaidís
 leanadh_iad leanfaidís
 leanadh_tu leanfá
+leanaich_iad leacaíodar
+leanaich_sinn leacaíomar
+leanaicheadh_iad leacaídís
+leanaicheadh_iad leacóidís
+leanaicheadh_tu leacófá
+leanaichidh_sinn leacóimid
 leanaidh_sinn leanfaimid
+leannaich_iad athlasadar
+leannaich_iad d'athlasadar
+leannaich_iad n-athlasadar
+leannaich_sinn athlasamar
+leannaich_sinn d'athlasamar
+leannaich_sinn n-athlasamar
+leannaicheadh_iad athlasaidís
+leannaicheadh_iad athlasfaidís
+leannaicheadh_iad d'athlasfaidís
+leannaicheadh_iad hathlasaidís
+leannaicheadh_iad n-athlasaidís
+leannaicheadh_iad n-athlasfaidís
+leannaicheadh_tu athlasfá
+leannaicheadh_tu d'athlasfá
+leannaicheadh_tu n-athlasfá
+leannaichidh_sinn athlasfaimid
+leannaichidh_sinn n-athlasfaimid
 leasaich_iad bhfeabhsaíodar
 leasaich_iad bhforbraíodar
 leasaich_iad d'fheabhsaíodar
@@ -11900,10 +12291,22 @@ leig_sinn ligeamar
 leigeadh_iad ligfidís
 leigeadh_iad ligidís
 leigeadh_tu ligfeá
+leighis_iad leigheasadar
+leighis_sinn leigheasamar
+leighiseadh_iad leigheasaidís
+leighiseadh_iad leigheasfaidís
+leighiseadh_tu leigheasfá
+leighisidh_sinn leigheasfaimid
 leigidh_sinn ligfimid
 leis_a_seo leis seo
 leis_a_sin leis sin
 leis_gach le gach
+leithnich_iad leathnaíodar
+leithnich_sinn leathnaíomar
+leithnicheadh_iad leathnaídís
+leithnicheadh_iad leathnóidís
+leithnicheadh_tu leathnófá
+leithnichidh_sinn leathnóimid
 leth_cheud leathchéad
 leth_mhìle leathmhíle
 leth_phinnt leathphionta
@@ -12044,9 +12447,63 @@ lus_an_àirneag ae abhann
 lus_nan_àirneag ae abhann
 lusan_an_àirneag ae abhann
 lusan_nan_àirneag ae abhann
+làidrich_iad láidríodar
+làidrich_sinn láidríomar
+làidricheadh_iad láidreoidís
+làidricheadh_iad láidrídís
+làidricheadh_tu láidreofá
+làidrichidh_sinn láidreoimid
+làimhsich_iad bpróiseáladar
+làimhsich_iad láimhseáladar
+làimhsich_iad phróiseáladar
+làimhsich_sinn bpróiseálamar
+làimhsich_sinn láimhseálamar
+làimhsich_sinn phróiseálamar
+làimhsicheadh_iad bpróiseálaidís
+làimhsicheadh_iad bpróiseálfaidís
+làimhsicheadh_iad láimhseálaidís
+làimhsicheadh_iad láimhseálfaidís
+làimhsicheadh_iad phróiseálaidís
+làimhsicheadh_iad phróiseálfaidís
+làimhsicheadh_iad próiseálaidís
+làimhsicheadh_tu bpróiseálfá
+làimhsicheadh_tu láimhseálfá
+làimhsicheadh_tu phróiseálfá
+làimhsichidh_sinn bpróiseálfaimid
+làimhsichidh_sinn láimhseálfaimid
+làimhsichidh_sinn phróiseálfaimid
+làimhsichidh_sinn próiseálfaimid
+làn-fhiosraich_iad chinntíodar
+làn-fhiosraich_iad gcinntíodar
+làn-fhiosraich_sinn chinntíomar
+làn-fhiosraich_sinn gcinntíomar
+làn-fhiosraicheadh_iad chinnteoidís
+làn-fhiosraicheadh_iad chinntídís
+làn-fhiosraicheadh_iad cinntídís
+làn-fhiosraicheadh_iad gcinnteoidís
+làn-fhiosraicheadh_iad gcinntídís
+làn-fhiosraicheadh_tu chinnteofá
+làn-fhiosraicheadh_tu gcinnteofá
+làn-fhiosraichidh_sinn chinnteoimid
+làn-fhiosraichidh_sinn cinnteoimid
+làn-fhiosraichidh_sinn gcinnteoimid
 làn_thaic lántacaíocht
 làn_thìde lánaimseartha
 làn_ùine lánaimseartha
+lèir_iad chéasadar
+lèir_iad gcéasadar
+lèir_sinn chéasamar
+lèir_sinn gcéasamar
+lèireadh_iad chéasaidís
+lèireadh_iad chéasfaidís
+lèireadh_iad céasaidís
+lèireadh_iad gcéasaidís
+lèireadh_iad gcéasfaidís
+lèireadh_tu chéasfá
+lèireadh_tu gcéasfá
+lèiridh_sinn chéasfaimid
+lèiridh_sinn céasfaimid
+lèiridh_sinn gcéasfaimid
 lèirsgrios_iad léirscriosadar
 lèirsgrios_sinn léirscriosamar
 lèirsgriosadh_iad léirscriosaidís
@@ -12086,6 +12543,13 @@ lùghdaichidh_sinn laghdóimid
 m'_eudail mo chroí
 m'_eudail mo chuisle
 m'an_sac m'asma
+m'iasg_geal m'fhaoitín
+m'inneal_tomhais_aimsir m'anaróideach
+m'innealan_tomhais_aimsir m'anaróideach
+m'innealan_tomhais_aimsir m'anaróidigh
+m'inneil_tomhais_aimsir m'anaróidigh
+m'èisg_geal m'fhaoitín
+m'èisg_geal m'fhaoitíní
 ma_deidhinn fúithi
 ma_dh'fhaodte seans
 ma_dh'fhaoidte seans
@@ -12594,6 +13058,13 @@ mùthadh_tu n-athrófá
 mùthaidh_sinn athróimid
 mùthaidh_sinn n-athróimid
 n-an_sac n-asma
+n-iasg_geal bhfaoitín
+n-inneal_tomhais_aimsir n-anaróideach
+n-innealan_tomhais_aimsir n-anaróideach
+n-innealan_tomhais_aimsir n-anaróidigh
+n-inneil_tomhais_aimsir n-anaróidigh
+n-èisg_geal bhfaoitín
+n-èisg_geal bhfaoitíní
 na_Congo an Chongó
 na_Dùthchannan_Céin Gnóthaí Eachtracha
 na_Gàidhlig Ghaeilge na hAlban
@@ -15033,6 +15504,8 @@ sònraicheadh_tu sonrófá
 sònraichidh_sinn sonróimid
 t-Sealainn_Nuadh Nua-Shéalainn
 t-an_sac t-asma
+t-iasg_geal faoitín
+t-inneal_tomhais_aimsir t-anaróideach
 t-seann_duine seanduine
 t-seann_duine tseanduine
 t-seann_nos sean-nós
@@ -16231,6 +16704,10 @@ urramaichidh_sinn urramóimid
 èisdeadh_iad éistidís
 èisdidh_sinn n-éistfimid
 èisdidh_sinn éistfimid
+èisg_geal faoitín
+èisg_geal faoitíní
+èisg_geal fhaoitín
+èisg_geal fhaoitíní
 èisteadh_iad n-éistidís
 èisteadh_iad éistidís
 èistidh_sinn n-éistfimid
