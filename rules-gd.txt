@@ -48,7 +48,7 @@
 ^h([AEIOUÀÈÌÒÙÁÉÍÓÚaeiouàèìòùáéíóú]..)	h-$1	2
 # atharraichidhean -> atharrachaidhean
 ichidhean$	chaidhean	1
-# beannuichte -> beannaichte, òrduichibh -> òrdaichibh
+# beannuichte -> beannaichte, òrduichibh -> òrdaichibh, shocruich -> shocraich
 uich	aich	1
 # leagte->leagta, seargte->seargta, taghte->taghta, glacte->glacta
 te$	ta	1
