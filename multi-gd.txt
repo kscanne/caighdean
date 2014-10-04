@@ -6,6 +6,7 @@
 'S_fiach Is fiú
 'S_gann Is ar éigean
 'S_mathaid B'fhéidir
+'S_urrainnear Is féidir
 'g_a á
 'm_fagas i bhfogas
 'm_fagus i bhfogas
@@ -62,6 +63,7 @@
 's_math_dh'fhaoidte seans
 's_mathaid b'fhéidir
 's_t-fhoghar san fhómhar
+'s_urrainnear is féidir
 'sa_bhad ar an bpointe
 'sa_bhad láithreach
 'san_t-seadh sa chiall
@@ -363,6 +365,7 @@ a_b'_urrainn_dhomh ab fhéidir liom
 a_b'_urrainn_dhuibh ab fhéidir libh
 a_b'_urrainn_dhuinn ab fhéidir linn
 a_b'_urrainn_dhut ab fhéidir leat
+a_b'fhasa ab fhusa
 a_b'urrainn ab fhéidir
 a_b'urrainn_dha ab fhéidir leis
 a_b'urrainn_dhaibh ab fhéidir leo
@@ -493,6 +496,8 @@ a_th'aig atá ag
 a_th'aige atá aige
 a_th'air atá ar
 a_th'ann atá ann
+a_th'ann_an atá i
+a_th'ann_an atá in
 a_th'annad atá ionam
 a_th'annam atá ionam
 a_th'anns_a' atá sa
@@ -929,6 +934,8 @@ an-tromaicheadh_iad tromaídís
 an-tromaichidh_sinn dtromóimid
 an-tromaichidh_sinn thromóimid
 an-tromaichidh_sinn tromóimid
+an_Afraga an Afraic
+an_Astràilia an Astráil
 an_Comann_Iosaid Cumann Íosa
 an_Cuan_Sèimh an tAigéan Ciúin
 an_Cèitean Bealtaine
@@ -938,8 +945,11 @@ an_Dùbhlachd Nollaig
 an_Elbe an Eilbe
 an_Gearran Feabhra
 an_Giblean Aibreán
+an_Iapan an tSeapáin
 an_Lùnasdal Lúnasa
+an_Nirribhidh an Iorua
 an_Roinn-Eorpa Roinn na hEorpa
+an_Sloibhinia an tSlóivéin
 an_abhainn_Rhine an Réin
 an_aghaidh in aghaidh
 an_asgaidh in aisce
@@ -1103,7 +1113,6 @@ an_taca_ri_a i gcomparáid lena
 an_taca_ri_ar i gcomparáid lenár
 an_taca_ri_na i gcomparáid leis na
 an_taca_ris i gcomparáid leis
-an_ti an té
 an_toiseach ar dtús
 an_tòiseach ar dtús
 an_uiridh anuraidh
@@ -1161,15 +1170,40 @@ ann_am_Belarus sa Bhealarúis
 ann_am_Bermuda i mBeirmiúda
 ann_am_Betlehem i mBeithil
 ann_am_Beul-Feirste i mBéal Feirste
+ann_am_Boilibhia sa Bholaiv
+ann_am_Bosna sa Bhoisnia
+ann_am_Bosnia sa Bhoisnia
+ann_am_Botsuana sa Bhotsuáin
+ann_am_Braisil sa Bhrasaíl
+ann_am_Brasail sa Bhrasaíl
 ann_am_Brasil sa Bhrasaíl
 ann_am_Brazil sa Bhrasaíl
 ann_am_Breatainn sa Bhreatain
 ann_am_Bulgaria sa Bhulgáir
+ann_am_Bulgàiria sa Bhulgáir
+ann_am_Burundaidh sa Bhurúin
+ann_am_Burundi sa Bhurúin
+ann_am_Frìoslann sa Fhreaslainn
 ann_am_Fàsach_Sahara sa Sahára
+ann_am_Malabhaidh sa Mhaláiv
+ann_am_Malaidhsea sa Mhalaeisia
+ann_am_Malaidhsia sa Mhalaeisia
 ann_am_Malawi sa Maláiv
+ann_am_Malaysia sa Mhalaeisia
+ann_am_Malàbhaidh sa Mhaláiv
 ann_am_Mongolia sa Mongóil
+ann_am_Moratain sa Mháratáin
+ann_am_Moratainia sa Mháratáin
+ann_am_Moratàinea sa Mháratáin
+ann_am_Pagastan sa Phacastáin
+ann_am_Pagastàn sa Phacastáin
+ann_am_Pakistan sa Phacastáin
 ann_am_Paras i bPáras
 ann_am_Paris i bPáras
+ann_am_Patagonia sa Phatagóin
+ann_am_Patagòinia sa Phatagóin
+ann_am_Peirse sa Pheirs
+ann_am_Persia sa Pheirs
 ann_am_Pompeii i bPoimpé
 ann_am_Pràg i bPrág
 ann_am_Punjab sa Phuinseaib
@@ -1178,29 +1212,130 @@ ann_am_bitheantas de ghnáth
 ann_am_priobadh_na_sùla i bpreabadh na súl
 ann_an i
 ann_an in
+ann_an_Afganastan san Afganastáin
+ann_an_Afghanistan san Afganastáin
+ann_an_Afraca san Afraic
 ann_an_Afraga san Afraic
+ann_an_Africa san Afraic
+ann_an_Aibisinia san Aibisín
+ann_an_Aildiria san Ailgéir
+ann_an_Ailgear san Ailgéir
+ann_an_Airmeinia san Airméin
+ann_an_Algeria san Ailgéir
 ann_an_Algiers i gCathair na hAilgéire
 ann_an_Andalusia san Andalúis
 ann_an_Andes sna hAindéis
 ann_an_Arabia san Araib
+ann_an_Armenia san Airméin
 ann_an_Aràibia_nan_Sabhd san Araib Shàdach
+ann_an_Asarbaidean san Asarbaiseáin
+ann_an_Astrailia san Astráil
+ann_an_Astralàisia san Astraláise
+ann_an_Astràilia san Astráil
+ann_an_Australia san Astráil
+ann_an_Cambodia sa Chambóid
+ann_an_Cambuidea sa Chambóid
+ann_an_Casachstan sa Chasacstáin
 ann_an_Catalan i gCatalóinis
+ann_an_Ceinia sa Chéinia
+ann_an_Cirgiostàn sa Chirgeastáin
+ann_an_Coirea sa Chóiré
+ann_an_Coiria sa Chóiré
 ann_an_Coirèa sa Chóiré
+ann_an_Coloimbia sa Cholóim
 ann_an_Copenhagen i gCóbanhávan
 ann_an_Corea_a_Deas sa Chóiré Theas
 ann_an_Corea_a_Tuath sa Chóiré Thuaidh
+ann_an_Croatia sa Chróit
+ann_an_Croàisia sa Chróit
+ann_an_Cròthais sa Chróit
+ann_an_Cìorgastan sa Chirgeastáin
 ann_an_Dùthaich_nan_Tàidh sa Téalainn
+ann_an_Eastoinia san Eastóin
+ann_an_Eastòinia san Eastóin
+ann_an_Estòinia san Eastóin
 ann_an_Gabon sa Ghabúin
+ann_an_Galicia sa Ghailís
 ann_an_Galile sa Ghailíl
+ann_an_Iapan sa tSeapáin
+ann_an_Iarac san Iaráic
+ann_an_Iarag san Iaráic
+ann_an_Iarain san Iaráin
+ann_an_Iaran san Iaráin
+ann_an_Iordan san Iordáin
+ann_an_Ioràc san Iaráic
+ann_an_Ioràn san Iaráin
+ann_an_Iran san Iaráin
+ann_an_Iòrdan san Iordáin
+ann_an_Iùgo-Slàbhia san Iúgslaiv
+ann_an_Iùgoslabh san Iúgslaiv
+ann_an_Iùgoslaibhia san Iúgslaiv
+ann_an_Iùgoslàibhia san Iúgslaiv
 ann_an_Korea sa Chóiré
 ann_an_Korea_Tuath sa Chóiré Thuaidh
+ann_an_Libeiria sa Libéir
+ann_an_Liberia sa Libéir
+ann_an_Libia sa Libia
+ann_an_Libiria sa Libéir
+ann_an_Libèir sa Libéir
+ann_an_Libèiria sa Libéir
+ann_an_Libéir sa Libéir
+ann_an_Liotuàinia sa Liotuáin
+ann_an_Lituàinia sa Liotuáin
+ann_an_Naimibia sa Namaib
+ann_an_Namibia sa Namaib
+ann_an_Nigeria sa Nigéir
+ann_an_Nigèiria sa Nigéir
+ann_an_Nigéiria sa Nigéir
+ann_an_Nirribhidh san Iorua
 ann_an_Normandaidh sa Normainn
+ann_an_Nìgeir sa Nígir
+ann_an_Nìgeiria sa Nigéir
+ann_an_Nòrmandaidh sa Normainn
+ann_an_Romàinia sa Rómáin
+ann_an_Sagsainn sa tSacsain
+ann_an_Sagsainn-Anhalt sa tSacsain-Anhalt
+ann_an_Saimbia sa tSaimbia
+ann_an_Sambia sa tSaimbia
+ann_an_Sardinia sa tSairdín
+ann_an_Seanagal sa tSeineagáil
 ann_an_Seapan sa tSeapáin
 ann_an_Silesia sa tSiléis
+ann_an_Simbabue sa tSiombáib
+ann_an_Siombabue sa tSiombáib
+ann_an_Siona sa tSín
+ann_an_Siria sa tSiria
+ann_an_Siridhea sa tSiria
+ann_an_Slobhagia sa tSlóvaic
+ann_an_Slobhinia sa tSlóivéin
+ann_an_Slobhàicia sa tSlóvaic
+ann_an_Slobhèinia sa tSlóivéin
+ann_an_Sloibhinia sa tSlóivéin
+ann_an_Sloibhìnia sa tSlóivéin
+ann_an_Slòbhac sa tSlóvaic
+ann_an_Slòbhain sa tSlóivéin
+ann_an_Somàilia sa tSomáil
+ann_an_Sudan sa tSúdáin
+ann_an_Sudàn sa tSúdáin
+ann_an_Suomaidh san Fhionlainn
+ann_an_Suòmaidh san Fhionlainn
+ann_an_Sàrdainea sa tSairdín
+ann_an_Sìn sa tSín
+ann_an_Sìombab sa tSiombáib
+ann_an_Sìombabue sa tSiombáib
+ann_an_Sìombaibe sa tSiombáib
 ann_an_Sìona sa tSín
 ann_an_Taiwan sa Téaváin
 ann_an_Thailand sa Téalainn
+ann_an_Tuinisea sa Túinéis
+ann_an_Tuinisia sa Túinéis
+ann_an_Tuircmeanastan sa Tuircméanastáin
+ann_an_Tunisia sa Túinéis
+ann_an_Turcmanastàn sa Tuircméanastáin
+ann_an_Usbagastàn san Úisbéiceastáin
 ann_an_Venice sa Veinéis
+ann_an_Yugoslavia san Iúgslaiv
+ann_an_Zimbabwe sa tSiombáib
 ann_an_aithghearrachd go gairid
 ann_an_cabhaig faoi dheifir
 ann_an_cabhaig go gasta
@@ -1439,6 +1574,7 @@ as_mo_dhéidh i mo dhiaidh
 as_motha is mó
 as_t-Fhoghar san Fhómhar
 as_t-fhoghar san fhómhar
+as_urrainnear is féidir
 asal_stiallach shéabra
 asal_stiallach séabra
 ascaoineadh_iad choinnealbháidís
@@ -1565,6 +1701,13 @@ b'ath-fhuaimneach_a comhchordaí
 b'iasg_geal b'fhaoitín
 b'inneal_tomhais_aimsir b'anaróideach
 b'innealan_tomhais_aimsir b'anaróidigh
+b'urrainn_dha b'fhéidir leis
+b'urrainn_dhaibh b'fhéidir leo
+b'urrainn_dhi b'fhéidir léi
+b'urrainn_dhomh b'fhéidir liom
+b'urrainn_dhuibh b'fhéidir libh
+b'urrainn_dhuinn b'fhéidir linn
+b'urrainn_dhut b'fhéidir leat
 b'èisg_geal b'fhaoitíní
 bacadh_iad bacaidís
 bacadh_iad mbacaidís
@@ -2110,8 +2253,139 @@ bhlàthaicheadh_iad théidís
 bhlàthaicheadh_iad théifidís
 bhlàthaicheadh_tu théifeá
 bhlàthaichidh_sinn théifimid
+bho_Afganastan ón Afganastáin
+bho_Afghanistan ón Afganastáin
+bho_Afraca ón Afraic
+bho_Afraga ón Afraic
+bho_Africa ón Afraic
+bho_Aibisinia ón Aibisín
+bho_Aildiria ón Ailgéir
+bho_Ailgear ón Ailgéir
+bho_Airmeinia ón Airméin
+bho_Algeria ón Ailgéir
 bho_Algiers ó Chathair na hAilgéire
+bho_Armenia ón Airméin
+bho_Asarbaidean ón Asarbaiseáin
+bho_Astrailia ón Astráil
+bho_Astralàisia ón Astraláise
+bho_Astràilia ón Astráil
+bho_Australia ón Astráil
+bho_Boilibhia ón Bholaiv
+bho_Bosna ón Bhoisnia
+bho_Bosnia ón Bhoisnia
+bho_Botsuana ón Bhotsuáin
+bho_Braisil ón Bhrasaíl
+bho_Brasail ón Bhrasaíl
+bho_Bulgàiria ón Bhulgáir
+bho_Burundaidh ón Bhurúin
+bho_Burundi ón Bhurúin
+bho_Cambodia ón Chambóid
+bho_Cambuidea ón Chambóid
+bho_Casachstan ón Chasacstáin
+bho_Ceinia ón Chéinia
+bho_Cirgiostàn ón Chirgeastáin
+bho_Coirea ón Chóiré
+bho_Coiria ón Chóiré
+bho_Coirèa ón Chóiré
+bho_Coloimbia ón Cholóim
+bho_Croatia ón Chróit
+bho_Croàisia ón Chróit
+bho_Cròthais ón Chróit
+bho_Cìorgastan ón Chirgeastáin
+bho_Eastoinia ón Eastóin
+bho_Eastòinia ón Eastóin
+bho_Estòinia ón Eastóin
+bho_Frìoslann ón Fhreaslainn
+bho_Galicia ón Ghailís
+bho_Iapan ón tSeapáin
+bho_Iarac ón Iaráic
+bho_Iarag ón Iaráic
+bho_Iarain ón Iaráin
+bho_Iaran ón Iaráin
+bho_Iordan ón Iordáin
+bho_Ioràc ón Iaráic
+bho_Ioràn ón Iaráin
+bho_Iran ón Iaráin
+bho_Iòrdan ón Iordáin
+bho_Iùgo-Slàbhia ón Iúgslaiv
+bho_Iùgoslabh ón Iúgslaiv
+bho_Iùgoslaibhia ón Iúgslaiv
+bho_Iùgoslàibhia ón Iúgslaiv
+bho_Libeiria ón Libéir
+bho_Liberia ón Libéir
+bho_Libia ón Libia
+bho_Libiria ón Libéir
+bho_Libèir ón Libéir
+bho_Libèiria ón Libéir
+bho_Libéir ón Libéir
+bho_Liotuàinia ón Liotuáin
+bho_Lituàinia ón Liotuáin
+bho_Malabhaidh ón Mhaláiv
+bho_Malaidhsea ón Mhalaeisia
+bho_Malaidhsia ón Mhalaeisia
+bho_Malaysia ón Mhalaeisia
+bho_Malàbhaidh ón Mhaláiv
+bho_Moratain ón Mháratáin
+bho_Moratainia ón Mháratáin
+bho_Moratàinea ón Mháratáin
+bho_Naimibia ón Namaib
+bho_Namibia ón Namaib
+bho_Nigeria ón Nigéir
+bho_Nigèiria ón Nigéir
+bho_Nigéiria ón Nigéir
+bho_Nirribhidh ón Iorua
+bho_Normandaidh ón Normainn
+bho_Nìgeir ón Nígir
+bho_Nìgeiria ón Nigéir
+bho_Nòrmandaidh ón Normainn
+bho_Pagastan ón Phacastáin
+bho_Pagastàn ón Phacastáin
+bho_Pakistan ón Phacastáin
+bho_Patagonia ón Phatagóin
+bho_Patagòinia ón Phatagóin
+bho_Peirse ón Pheirs
+bho_Persia ón Pheirs
+bho_Romàinia ón Rómáin
+bho_Sagsainn ón tSacsain
+bho_Sagsainn-Anhalt ón tSacsain-Anhalt
+bho_Saimbia ón tSaimbia
+bho_Sambia ón tSaimbia
+bho_Sardinia ón tSairdín
+bho_Seanagal ón tSeineagáil
+bho_Seapan ón tSeapáin
 bho_Shìona ón tSín
+bho_Simbabue ón tSiombáib
+bho_Siombabue ón tSiombáib
+bho_Siona ón tSín
+bho_Siria ón tSiria
+bho_Siridhea ón tSiria
+bho_Slobhagia ón tSlóvaic
+bho_Slobhinia ón tSlóivéin
+bho_Slobhàicia ón tSlóvaic
+bho_Slobhèinia ón tSlóivéin
+bho_Sloibhinia ón tSlóivéin
+bho_Sloibhìnia ón tSlóivéin
+bho_Slòbhac ón tSlóvaic
+bho_Slòbhain ón tSlóivéin
+bho_Somàilia ón tSomáil
+bho_Sudan ón tSúdáin
+bho_Sudàn ón tSúdáin
+bho_Suomaidh ón Fhionlainn
+bho_Suòmaidh ón Fhionlainn
+bho_Sàrdainea ón tSairdín
+bho_Sìn ón tSín
+bho_Sìombab ón tSiombáib
+bho_Sìombabue ón tSiombáib
+bho_Sìombaibe ón tSiombáib
+bho_Sìona ón tSín
+bho_Tuinisea ón Túinéis
+bho_Tuinisia ón Túinéis
+bho_Tuircmeanastan ón Tuircméanastáin
+bho_Tunisia ón Túinéis
+bho_Turcmanastàn ón Tuircméanastáin
+bho_Usbagastàn ón Úisbéiceastáin
+bho_Yugoslavia ón Iúgslaiv
+bho_Zimbabwe ón tSiombáib
 bho_a óna
 bho_ar ónár
 bho_chionn_fada i bhfad ó shin
@@ -3004,6 +3278,7 @@ brùthadh_iad mbrúidís
 brùthadh_tu mbrúfá
 brùthaidh_sinn brúfaimid
 brùthaidh_sinn mbrúfaimid
+bu_chOir ba chóir
 bu_choir ba chóir
 bu_choireach_gu an chúis go
 bu_choireach_gum_bi an chúis go mbeidh
@@ -3504,6 +3779,10 @@ cha-n_eil níl
 cha_b'_e níorbh é
 cha_b'_fhada níorbh fhada
 cha_b'_fhiach níorbh fhiú
+cha_b'_i níorbh í
+cha_b'_iad níorbh iad
+cha_b'_iadsan níorbh iadsan
+cha_b'_ise níorbh ise
 cha_b'_urrainn níorbh fhéidir
 cha_b'_urrainn_dha níorbh fhéidir leis
 cha_b'_urrainn_dhaibh níorbh fhéidir leo
@@ -3514,7 +3793,12 @@ cha_b'_urrainn_dhuinn níorbh fhéidir linn
 cha_b'_urrainn_dhut níorbh fhéidir leat
 cha_b'e níorbh é
 cha_b'fhada níorbh fhada
+cha_b'fhasa níorbh fhusa
 cha_b'fhiach níorbh fhiú
+cha_b'i níorbh í
+cha_b'iad níorbh iad
+cha_b'iadsan níorbh iadsan
+cha_b'ise níorbh ise
 cha_b'urrainn níorbh fhéidir
 cha_b'urrainn_dha níorbh fhéidir leis
 cha_b'urrainn_dhaibh níorbh fhéidir leo
@@ -3523,6 +3807,7 @@ cha_b'urrainn_dhomh níorbh fhéidir liom
 cha_b'urrainn_dhuibh níorbh fhéidir libh
 cha_b'urrainn_dhuinn níorbh fhéidir linn
 cha_b'urrainn_dhut níorbh fhéidir leat
+cha_b'urrainnear níorbh fhéidir
 cha_bhi ní bheidh
 cha_bu_toigh níor mhaith
 cha_d' níor
@@ -3690,6 +3975,7 @@ chan_urrainn_dhomh ní féidir liom
 chan_urrainn_dhuibh ní féidir libh
 chan_urrainn_dhuinn ní féidir linn
 chan_urrainn_dhut ní féidir leat
+chan_urrainnear ní féidir
 chanadh_iad abraidís
 chanadh_iad déarfaidís
 chanadh_tu déarfá
@@ -6553,13 +6839,147 @@ dathaidh_sinn dathóimid
 dathaidh_sinn ndathóimid
 de'n_t-Sultain de Mheán Fómhair
 de'n_t-Sultainn de Mheán Fómhair
+de_Afganastan den Afganastáin
+de_Afghanistan den Afganastáin
+de_Afraca den Afraic
+de_Afraga den Afraic
+de_Africa den Afraic
+de_Aibisinia den Aibisín
+de_Aildiria den Ailgéir
+de_Ailgear den Ailgéir
+de_Airmeinia den Airméin
+de_Algeria den Ailgéir
+de_Armenia den Airméin
+de_Asarbaidean den Asarbaiseáin
+de_Astrailia den Astráil
+de_Astralàisia den Astraláise
+de_Astràilia den Astráil
+de_Australia den Astráil
+de_Boilibhia den Bholaiv
+de_Bosna den Bhoisnia
+de_Bosnia den Bhoisnia
+de_Botsuana den Bhotsuáin
+de_Braisil den Bhrasaíl
+de_Brasail den Bhrasaíl
+de_Bulgàiria den Bhulgáir
+de_Burundaidh den Bhurúin
+de_Burundi den Bhurúin
+de_Cambodia den Chambóid
+de_Cambuidea den Chambóid
+de_Casachstan den Chasacstáin
+de_Ceinia den Chéinia
 de_Chile de Chile
+de_Cirgiostàn den Chirgeastáin
+de_Coirea den Chóiré
+de_Coiria den Chóiré
+de_Coirèa den Chóiré
+de_Coloimbia den Cholóim
+de_Croatia den Chróit
+de_Croàisia den Chróit
+de_Cròthais den Chróit
+de_Cìorgastan den Chirgeastáin
+de_Eastoinia den Eastóin
+de_Eastòinia den Eastóin
+de_Estòinia den Eastóin
+de_Frìoslann den Fhreaslainn
+de_Galicia den Ghailís
+de_Iapan den tSeapáin
+de_Iarac den Iaráic
+de_Iarag den Iaráic
+de_Iarain den Iaráin
+de_Iaran den Iaráin
+de_Iordan den Iordáin
+de_Ioràc den Iaráic
+de_Ioràn den Iaráin
+de_Iran den Iaráin
+de_Iòrdan den Iordáin
+de_Iùgo-Slàbhia den Iúgslaiv
+de_Iùgoslabh den Iúgslaiv
+de_Iùgoslaibhia den Iúgslaiv
+de_Iùgoslàibhia den Iúgslaiv
+de_Libeiria den Libéir
+de_Liberia den Libéir
+de_Libia den Libia
+de_Libiria den Libéir
+de_Libèir den Libéir
+de_Libèiria den Libéir
+de_Libéir den Libéir
+de_Liotuàinia den Liotuáin
+de_Lituàinia den Liotuáin
+de_Malabhaidh den Mhaláiv
+de_Malaidhsea den Mhalaeisia
+de_Malaidhsia den Mhalaeisia
+de_Malaysia den Mhalaeisia
+de_Malàbhaidh den Mhaláiv
+de_Moratain den Mháratáin
+de_Moratainia den Mháratáin
+de_Moratàinea den Mháratáin
+de_Naimibia den Namaib
+de_Namibia den Namaib
+de_Nigeria den Nigéir
+de_Nigèiria den Nigéir
+de_Nigéiria den Nigéir
+de_Nirribhidh den Iorua
+de_Normandaidh den Normainn
+de_Nìgeir den Nígir
+de_Nìgeiria den Nigéir
+de_Nòrmandaidh den Normainn
+de_Pagastan den Phacastáin
+de_Pagastàn den Phacastáin
+de_Pakistan den Phacastáin
+de_Patagonia den Phatagóin
+de_Patagòinia den Phatagóin
+de_Peirse den Pheirs
+de_Persia den Pheirs
+de_Romàinia den Rómáin
+de_Sagsainn den tSacsain
+de_Sagsainn-Anhalt den tSacsain-Anhalt
+de_Saimbia den tSaimbia
+de_Sambia den tSaimbia
+de_Sardinia den tSairdín
+de_Seanagal den tSeineagáil
+de_Seapan den tSeapáin
+de_Simbabue den tSiombáib
+de_Siombabue den tSiombáib
+de_Siona den tSín
+de_Siria den tSiria
+de_Siridhea den tSiria
+de_Slobhagia den tSlóvaic
+de_Slobhinia den tSlóivéin
+de_Slobhàicia den tSlóvaic
+de_Slobhèinia den tSlóivéin
+de_Sloibhinia den tSlóivéin
+de_Sloibhìnia den tSlóivéin
+de_Slòbhac den tSlóvaic
+de_Slòbhain den tSlóivéin
+de_Somàilia den tSomáil
+de_Sudan den tSúdáin
+de_Sudàn den tSúdáin
+de_Suomaidh den Fhionlainn
+de_Suòmaidh den Fhionlainn
+de_Sàrdainea den tSairdín
+de_Sìn den tSín
+de_Sìombab den tSiombáib
+de_Sìombabue den tSiombáib
+de_Sìombaibe den tSiombáib
+de_Sìona den tSín
+de_Tuinisea den Túinéis
+de_Tuinisia den Túinéis
+de_Tuircmeanastan den Tuircméanastáin
+de_Tunisia den Túinéis
+de_Turcmanastàn den Tuircméanastáin
+de_Usbagastàn den Úisbéiceastáin
+de_Yugoslavia den Iúgslaiv
+de_Zimbabwe den tSiombáib
 de_a dá
 de_ar dár
 de_dh'Alba d'Albain
 de_dh'Astràilia den Astráil
 de_dh'Earra-Ghàidheal d'Earra-Ghàidheal
 de_dh'Iapan den tSeapáin
+de_dh'_inbhich de dhaoine fásta
+de_dh'_oileanach de mhac léinn
+de_dh'_oileanaich de mhic léinn
 de_dh'airgead d'airgead
 de_dh'eòlas d'eolas
 de_dh'fhaid ar fad
@@ -6591,6 +7011,7 @@ deachdadh_tu spreagfá
 deachdaidh_sinn deachtóimid
 deachdaidh_sinn ndeachtóimid
 deachdaidh_sinn spreagfaimid
+deagh eisimpleirean dea-shamplaí
 deagh_Ghàidhlig dea-Ghàidhlig
 deagh_Nollaig Nollaig shona
 deagh_adhartas dul chun cinn maith
@@ -6638,6 +7059,7 @@ deagh_bhunait bunús maith
 deagh_bhùth siopa maith
 deagh_chadal codladh sámh
 deagh_charaid cara croí
+deagh_charaidean cairde croí
 deagh_cheann ceann maith
 deagh_cheist ceist mhaith
 deagh_cheòl ceol maith
@@ -6645,11 +7067,13 @@ deagh_chleachdadh dea-chleachtais
 deagh_chleachdadh dea-chleachtas
 deagh_chleachdadh ndea-chleachtais
 deagh_chleachdadh ndea-chleachtas
+deagh_chleachdaidhean dea-chleachtais
 deagh_chliù dea-chlú
 deagh_chliù ndea-chlú
 deagh_choinneamh cruinniú maith
 deagh_choltas cuma mhaith
 deagh_chomas cumas maith
+deagh_chomasan cumas maith
 deagh_chomhairle dea-chomhairle
 deagh_chomhairle ndea-chomhairle
 deagh_chomharra dea-chomhartha
@@ -6658,14 +7082,17 @@ deagh_chomharradh dea-chomhartha
 deagh_chomharradh ndea-chomhartha
 deagh_chosnadh tuarastal maith
 deagh_chothrom deis iontach
+deagh_chothroman deiseanna iontacha
 deagh_chraic craic mhaith
 deagh_chuid cuid mhaith
+deagh_chuideachd comhluadar maith
 deagh_chuimhne dea-chuimhne
 deagh_chuimhne ndea-chuimhne
 deagh_chupa cupán deas
 deagh_chàirdeas cairdeas maith
 deagh_chèilidh céilí maith
 deagh_chòmhradh comhrá maith
+deagh_cothrom deis iontach
 deagh_dhachaigh baile deas
 deagh_dhealbh pictiúr maith
 deagh_dheasbad díospóireacht mhaith
@@ -6781,6 +7208,7 @@ deagh_sgeulachd dea-scéal
 deagh_sgeulachd dea-scéil
 deagh_sgeulachd ndea-scéal
 deagh_sgeulachd ndea-scéil
+deagh_sgilean scileanna maithe
 deagh_shamhla dea-shampla
 deagh_shamhla ndea-shampla
 deagh_shamhladh dea-shampla
@@ -6790,7 +7218,9 @@ deagh_shealbh dea-fhortúin
 deagh_shealbh dea-fhortún
 deagh_shealbh ndea-fhortúin
 deagh_shealbh ndea-fhortún
+deagh_shealladh radharc breá
 deagh_shealladh radharc maith
+deagh_sheallaidhean radhairc bhreátha
 deagh_sheansa seans maith
 deagh_sheinn canadh breá
 deagh_sheirbheis seirbhís mhaith
@@ -11054,8 +11484,139 @@ dlùthaicheadh_iad ndlúthóidís
 dlùthaicheadh_tu ndlúthófá
 dlùthaichidh_sinn dlúthóimid
 dlùthaichidh_sinn ndlúthóimid
+do_Afganastan don Afganastáin
+do_Afghanistan don Afganastáin
+do_Afraca don Afraic
+do_Afraga don Afraic
+do_Africa don Afraic
+do_Aibisinia don Aibisín
+do_Aildiria don Ailgéir
+do_Ailgear don Ailgéir
+do_Airmeinia don Airméin
+do_Algeria don Ailgéir
+do_Armenia don Airméin
+do_Asarbaidean don Asarbaiseáin
+do_Astrailia don Astráil
+do_Astralàisia don Astraláise
+do_Astràilia don Astráil
+do_Australia don Astráil
+do_Boilibhia don Bholaiv
+do_Bosna don Bhoisnia
+do_Bosnia don Bhoisnia
+do_Botsuana don Bhotsuáin
+do_Braisil don Bhrasaíl
+do_Brasail don Bhrasaíl
+do_Bulgàiria don Bhulgáir
+do_Burundaidh don Bhurúin
+do_Burundi don Bhurúin
+do_Cambodia don Chambóid
+do_Cambuidea don Chambóid
+do_Casachstan don Chasacstáin
+do_Ceinia don Chéinia
+do_Cirgiostàn don Chirgeastáin
+do_Coirea don Chóiré
+do_Coiria don Chóiré
+do_Coirèa don Chóiré
+do_Coloimbia don Cholóim
+do_Croatia don Chróit
+do_Croàisia don Chróit
+do_Cròthais don Chróit
+do_Cìorgastan don Chirgeastáin
+do_Eastoinia don Eastóin
+do_Eastòinia don Eastóin
+do_Estòinia don Eastóin
+do_Frìoslann don Fhreaslainn
+do_Galicia don Ghailís
 do_Ghalile don Ghailíl
+do_Iapan don tSeapáin
+do_Iarac don Iaráic
+do_Iarag don Iaráic
+do_Iarain don Iaráin
+do_Iaran don Iaráin
+do_Iordan don Iordáin
+do_Ioràc don Iaráic
+do_Ioràn don Iaráin
+do_Iran don Iaráin
+do_Iòrdan don Iordáin
+do_Iùgo-Slàbhia don Iúgslaiv
+do_Iùgoslabh don Iúgslaiv
+do_Iùgoslaibhia don Iúgslaiv
+do_Iùgoslàibhia don Iúgslaiv
+do_Libeiria don Libéir
+do_Liberia don Libéir
+do_Libia don Libia
+do_Libiria don Libéir
+do_Libèir don Libéir
+do_Libèiria don Libéir
+do_Libéir don Libéir
+do_Liotuàinia don Liotuáin
+do_Lituàinia don Liotuáin
+do_Malabhaidh don Mhaláiv
+do_Malaidhsea don Mhalaeisia
+do_Malaidhsia don Mhalaeisia
+do_Malaysia don Mhalaeisia
+do_Malàbhaidh don Mhaláiv
+do_Moratain don Mháratáin
+do_Moratainia don Mháratáin
+do_Moratàinea don Mháratáin
+do_Naimibia don Namaib
+do_Namibia don Namaib
+do_Nigeria don Nigéir
+do_Nigèiria don Nigéir
+do_Nigéiria don Nigéir
+do_Nirribhidh don Iorua
+do_Normandaidh don Normainn
+do_Nìgeir don Nígir
+do_Nìgeiria don Nigéir
+do_Nòrmandaidh don Normainn
+do_Pagastan don Phacastáin
+do_Pagastàn don Phacastáin
+do_Pakistan don Phacastáin
+do_Patagonia don Phatagóin
+do_Patagòinia don Phatagóin
+do_Peirse don Pheirs
+do_Persia don Pheirs
+do_Romàinia don Rómáin
+do_Sagsainn don tSacsain
+do_Sagsainn-Anhalt don tSacsain-Anhalt
+do_Saimbia don tSaimbia
+do_Sambia don tSaimbia
+do_Sardinia don tSairdín
+do_Seanagal don tSeineagáil
+do_Seapan don tSeapáin
 do_Shìona don tSín
+do_Simbabue don tSiombáib
+do_Siombabue don tSiombáib
+do_Siona don tSín
+do_Siria don tSiria
+do_Siridhea don tSiria
+do_Slobhagia don tSlóvaic
+do_Slobhinia don tSlóivéin
+do_Slobhàicia don tSlóvaic
+do_Slobhèinia don tSlóivéin
+do_Sloibhinia don tSlóivéin
+do_Sloibhìnia don tSlóivéin
+do_Slòbhac don tSlóvaic
+do_Slòbhain don tSlóivéin
+do_Somàilia don tSomáil
+do_Sudan don tSúdáin
+do_Sudàn don tSúdáin
+do_Suomaidh don Fhionlainn
+do_Suòmaidh don Fhionlainn
+do_Sàrdainea don tSairdín
+do_Sìn don tSín
+do_Sìombab don tSiombáib
+do_Sìombabue don tSiombáib
+do_Sìombaibe don tSiombáib
+do_Sìona don tSín
+do_Tuinisea don Túinéis
+do_Tuinisia don Túinéis
+do_Tuircmeanastan don Tuircméanastáin
+do_Tunisia don Túinéis
+do_Turcmanastàn don Tuircméanastáin
+do_Usbagastàn don Úisbéiceastáin
+do_Yugoslavia don Iúgslaiv
+do_Zimbabwe don tSiombáib
 do_ar dár
 do_bhrìgh de bhrí
 do_chàch don chuid eile
@@ -11067,6 +11628,9 @@ do_dh'Earra-Ghàidheal d'Earra-Ghàidheal
 do_dh'Iain d'Iain
 do_dh'Iapan don tSeapáin
 do_dh'Uibhist d'Uibhist
+do_dh'_inbhich do dhuine fásta
+do_dh'_oileanach do mhac léinn
+do_dh'_oileanaich do mhic léinn
 do_dh'airgead d'airgead
 do_dh'fhileantaich do chainteoirí líofa
 do_dh'fhilteantaich do chainteoirí líofa
@@ -13966,6 +14530,137 @@ grìosaichidh_sinn impeoimid
 grìosaichidh_sinn n-impeoimid
 grìosaichidh_sinn ngríosóimid
 gu'n_d'thàinig gur tháinig
+gu_Afganastan go dtí an Afganastáin
+gu_Afghanistan go dtí an Afganastáin
+gu_Afraca go dtí an Afraic
+gu_Afraga go dtí an Afraic
+gu_Africa go dtí an Afraic
+gu_Aibisinia go dtí an Aibisín
+gu_Aildiria go dtí an Ailgéir
+gu_Ailgear go dtí an Ailgéir
+gu_Airmeinia go dtí an Airméin
+gu_Algeria go dtí an Ailgéir
+gu_Armenia go dtí an Airméin
+gu_Asarbaidean go dtí an Asarbaiseáin
+gu_Astrailia go dtí an Astráil
+gu_Astralàisia go dtí an Astraláise
+gu_Astràilia go dtí an Astráil
+gu_Australia go dtí an Astráil
+gu_Boilibhia go dtí an Bholaiv
+gu_Bosna go dtí an Bhoisnia
+gu_Bosnia go dtí an Bhoisnia
+gu_Botsuana go dtí an Bhotsuáin
+gu_Braisil go dtí an Bhrasaíl
+gu_Brasail go dtí an Bhrasaíl
+gu_Bulgàiria go dtí an Bhulgáir
+gu_Burundaidh go dtí an Bhurúin
+gu_Burundi go dtí an Bhurúin
+gu_Cambodia go dtí an Chambóid
+gu_Cambuidea go dtí an Chambóid
+gu_Casachstan go dtí an Chasacstáin
+gu_Ceinia go dtí an Chéinia
+gu_Cirgiostàn go dtí an Chirgeastáin
+gu_Coirea go dtí an Chóiré
+gu_Coiria go dtí an Chóiré
+gu_Coirèa go dtí an Chóiré
+gu_Coloimbia go dtí an Cholóim
+gu_Croatia go dtí an Chróit
+gu_Croàisia go dtí an Chróit
+gu_Cròthais go dtí an Chróit
+gu_Cìorgastan go dtí an Chirgeastáin
+gu_Eastoinia go dtí an Eastóin
+gu_Eastòinia go dtí an Eastóin
+gu_Estòinia go dtí an Eastóin
+gu_Frìoslann go dtí an Fhreaslainn
+gu_Galicia go dtí an Ghailís
+gu_Iapan go dtí an tSeapáin
+gu_Iarac go dtí an Iaráic
+gu_Iarag go dtí an Iaráic
+gu_Iarain go dtí an Iaráin
+gu_Iaran go dtí an Iaráin
+gu_Iordan go dtí an Iordáin
+gu_Ioràc go dtí an Iaráic
+gu_Ioràn go dtí an Iaráin
+gu_Iran go dtí an Iaráin
+gu_Iòrdan go dtí an Iordáin
+gu_Iùgo-Slàbhia go dtí an Iúgslaiv
+gu_Iùgoslabh go dtí an Iúgslaiv
+gu_Iùgoslaibhia go dtí an Iúgslaiv
+gu_Iùgoslàibhia go dtí an Iúgslaiv
+gu_Libeiria go dtí an Libéir
+gu_Liberia go dtí an Libéir
+gu_Libia go dtí an Libia
+gu_Libiria go dtí an Libéir
+gu_Libèir go dtí an Libéir
+gu_Libèiria go dtí an Libéir
+gu_Libéir go dtí an Libéir
+gu_Liotuàinia go dtí an Liotuáin
+gu_Lituàinia go dtí an Liotuáin
+gu_Malabhaidh go dtí an Mhaláiv
+gu_Malaidhsea go dtí an Mhalaeisia
+gu_Malaidhsia go dtí an Mhalaeisia
+gu_Malaysia go dtí an Mhalaeisia
+gu_Malàbhaidh go dtí an Mhaláiv
+gu_Moratain go dtí an Mháratáin
+gu_Moratainia go dtí an Mháratáin
+gu_Moratàinea go dtí an Mháratáin
+gu_Naimibia go dtí an Namaib
+gu_Namibia go dtí an Namaib
+gu_Nigeria go dtí an Nigéir
+gu_Nigèiria go dtí an Nigéir
+gu_Nigéiria go dtí an Nigéir
+gu_Nirribhidh go dtí an Iorua
+gu_Normandaidh go dtí an Normainn
+gu_Nìgeir go dtí an Nígir
+gu_Nìgeiria go dtí an Nigéir
+gu_Nòrmandaidh go dtí an Normainn
+gu_Pagastan go dtí an Phacastáin
+gu_Pagastàn go dtí an Phacastáin
+gu_Pakistan go dtí an Phacastáin
+gu_Patagonia go dtí an Phatagóin
+gu_Patagòinia go dtí an Phatagóin
+gu_Peirse go dtí an Pheirs
+gu_Persia go dtí an Pheirs
+gu_Romàinia go dtí an Rómáin
+gu_Sagsainn go dtí an tSacsain
+gu_Sagsainn-Anhalt go dtí an tSacsain-Anhalt
+gu_Saimbia go dtí an tSaimbia
+gu_Sambia go dtí an tSaimbia
+gu_Sardinia go dtí an tSairdín
+gu_Seanagal go dtí an tSeineagáil
+gu_Seapan go dtí an tSeapáin
+gu_Simbabue go dtí an tSiombáib
+gu_Siombabue go dtí an tSiombáib
+gu_Siona go dtí an tSín
+gu_Siria go dtí an tSiria
+gu_Siridhea go dtí an tSiria
+gu_Slobhagia go dtí an tSlóvaic
+gu_Slobhinia go dtí an tSlóivéin
+gu_Slobhàicia go dtí an tSlóvaic
+gu_Slobhèinia go dtí an tSlóivéin
+gu_Sloibhinia go dtí an tSlóivéin
+gu_Sloibhìnia go dtí an tSlóivéin
+gu_Slòbhac go dtí an tSlóvaic
+gu_Slòbhain go dtí an tSlóivéin
+gu_Somàilia go dtí an tSomáil
+gu_Sudan go dtí an tSúdáin
+gu_Sudàn go dtí an tSúdáin
+gu_Suomaidh go dtí an Fhionlainn
+gu_Suòmaidh go dtí an Fhionlainn
+gu_Sàrdainea go dtí an tSairdín
+gu_Sìn go dtí an tSín
+gu_Sìombab go dtí an tSiombáib
+gu_Sìombabue go dtí an tSiombáib
+gu_Sìombaibe go dtí an tSiombáib
+gu_Sìona go dtí an tSín
+gu_Tuinisea go dtí an Túinéis
+gu_Tuinisia go dtí an Túinéis
+gu_Tuircmeanastan go dtí an Tuircméanastáin
+gu_Tunisia go dtí an Túinéis
+gu_Turcmanastàn go dtí an Tuircméanastáin
+gu_Usbagastàn go dtí an Úisbéiceastáin
+gu_Yugoslavia go dtí an Iúgslaiv
+gu_Zimbabwe go dtí an tSiombáib
 gu_a chun a
 gu_bitheanta go minic
 gu_brath go brách
@@ -14038,6 +14733,10 @@ guireadh_tu ngorfá
 guiridh_sinn gorfaimid
 guiridh_sinn ngorfaimid
 gum_b'_e gurbh é
+gum_b'_i gurbh í
+gum_b'_iad gurbh iad
+gum_b'_iadsan gurbh iadsan
+gum_b'_ise gurbh ise
 gum_b'_urrainn gurbh fhéidir
 gum_b'_urrainn_dha gurbh fhéidir leis
 gum_b'_urrainn_dhaibh gurbh fhéidir leo
@@ -14047,6 +14746,10 @@ gum_b'_urrainn_dhuibh gurbh fhéidir libh
 gum_b'_urrainn_dhuinn gurbh fhéidir linn
 gum_b'_urrainn_dhut gurbh fhéidir leat
 gum_b'e gurbh é
+gum_b'i gurbh í
+gum_b'iad gurbh iad
+gum_b'iadsan gurbh iadsan
+gum_b'ise gurbh ise
 gum_b'urrainn gurbh fhéidir
 gum_b'urrainn_dha gurbh fhéidir leis
 gum_b'urrainn_dhaibh gurbh fhéidir leo
@@ -14055,6 +14758,7 @@ gum_b'urrainn_dhomh gurbh fhéidir liom
 gum_b'urrainn_dhuibh gurbh fhéidir libh
 gum_b'urrainn_dhuinn gurbh fhéidir linn
 gum_b'urrainn_dhut gurbh fhéidir leat
+gum_b'urrainnear gurbh fhéidir
 gum_bi go mbeidh
 gum_faodainn go bhféadfainn
 gum_faodte go bhféadfaí
@@ -14098,6 +14802,7 @@ gur_urrainn_dhuinn gurbh fhéidir linn
 gur_urrainn_dhut gurbh fhéidir leat
 gura_b'_e gurbh é
 gura_b'_i gurbh í
+gura_b'_ise gurbh ise
 gura_h-e gurb é
 gura_h-i gurb í
 gus_am chun an
@@ -14633,9 +15338,140 @@ lathadh_tu phréachfá
 lathaidh_sinn bpréachfaimid
 lathaidh_sinn phréachfaimid
 lathaidh_sinn préachfaimid
+le_Afganastan leis an Afganastáin
+le_Afghanistan leis an Afganastáin
+le_Afraca leis an Afraic
+le_Afraga leis an Afraic
+le_Africa leis an Afraic
+le_Aibisinia leis an Aibisín
+le_Aildiria leis an Ailgéir
+le_Ailgear leis an Ailgéir
+le_Airmeinia leis an Airméin
+le_Algeria leis an Ailgéir
+le_Armenia leis an Airméin
 le_Aràibia_nan_Sabhd leis an Araib Shàdach
+le_Asarbaidean leis an Asarbaiseáin
+le_Astrailia leis an Astráil
+le_Astralàisia leis an Astraláise
+le_Astràilia leis an Astráil
+le_Australia leis an Astráil
+le_Boilibhia leis an Bholaiv
+le_Bosna leis an Bhoisnia
+le_Bosnia leis an Bhoisnia
+le_Botsuana leis an Bhotsuáin
+le_Braisil leis an Bhrasaíl
+le_Brasail leis an Bhrasaíl
+le_Bulgàiria leis an Bhulgáir
+le_Burundaidh leis an Bhurúin
+le_Burundi leis an Bhurúin
+le_Cambodia leis an Chambóid
+le_Cambuidea leis an Chambóid
+le_Casachstan leis an Chasacstáin
+le_Ceinia leis an Chéinia
+le_Cirgiostàn leis an Chirgeastáin
+le_Coirea leis an Chóiré
+le_Coiria leis an Chóiré
+le_Coirèa leis an Chóiré
+le_Coloimbia leis an Cholóim
+le_Croatia leis an Chróit
+le_Croàisia leis an Chróit
+le_Cròthais leis an Chróit
+le_Cìorgastan leis an Chirgeastáin
+le_Eastoinia leis an Eastóin
+le_Eastòinia leis an Eastóin
+le_Estòinia leis an Eastóin
+le_Frìoslann leis an Fhreaslainn
 le_Gabon leis an nGabúin
+le_Galicia leis an Ghailís
+le_Iapan leis an tSeapáin
+le_Iarac leis an Iaráic
+le_Iarag leis an Iaráic
+le_Iarain leis an Iaráin
+le_Iaran leis an Iaráin
+le_Iordan leis an Iordáin
+le_Ioràc leis an Iaráic
+le_Ioràn leis an Iaráin
+le_Iran leis an Iaráin
+le_Iòrdan leis an Iordáin
+le_Iùgo-Slàbhia leis an Iúgslaiv
+le_Iùgoslabh leis an Iúgslaiv
+le_Iùgoslaibhia leis an Iúgslaiv
+le_Iùgoslàibhia leis an Iúgslaiv
+le_Libeiria leis an Libéir
+le_Liberia leis an Libéir
+le_Libia leis an Libia
+le_Libiria leis an Libéir
+le_Libèir leis an Libéir
+le_Libèiria leis an Libéir
+le_Libéir leis an Libéir
+le_Liotuàinia leis an Liotuáin
+le_Lituàinia leis an Liotuáin
+le_Malabhaidh leis an Mhaláiv
+le_Malaidhsea leis an Mhalaeisia
+le_Malaidhsia leis an Mhalaeisia
+le_Malaysia leis an Mhalaeisia
+le_Malàbhaidh leis an Mhaláiv
+le_Moratain leis an Mháratáin
+le_Moratainia leis an Mháratáin
+le_Moratàinea leis an Mháratáin
+le_Naimibia leis an Namaib
+le_Namibia leis an Namaib
+le_Nigeria leis an Nigéir
+le_Nigèiria leis an Nigéir
+le_Nigéiria leis an Nigéir
+le_Nirribhidh leis an Iorua
+le_Normandaidh leis an Normainn
+le_Nìgeir leis an Nígir
+le_Nìgeiria leis an Nigéir
+le_Nòrmandaidh leis an Normainn
+le_Pagastan leis an Phacastáin
+le_Pagastàn leis an Phacastáin
+le_Pakistan leis an Phacastáin
+le_Patagonia leis an Phatagóin
+le_Patagòinia leis an Phatagóin
+le_Peirse leis an Pheirs
+le_Persia leis an Pheirs
+le_Romàinia leis an Rómáin
+le_Sagsainn leis an tSacsain
+le_Sagsainn-Anhalt leis an tSacsain-Anhalt
+le_Saimbia leis an tSaimbia
+le_Sambia leis an tSaimbia
+le_Sardinia leis an tSairdín
+le_Seanagal leis an tSeineagáil
+le_Seapan leis an tSeapáin
+le_Simbabue leis an tSiombáib
+le_Siombabue leis an tSiombáib
+le_Siona leis an tSín
+le_Siria leis an tSiria
+le_Siridhea leis an tSiria
+le_Slobhagia leis an tSlóvaic
+le_Slobhinia leis an tSlóivéin
+le_Slobhàicia leis an tSlóvaic
+le_Slobhèinia leis an tSlóivéin
+le_Sloibhinia leis an tSlóivéin
+le_Sloibhìnia leis an tSlóivéin
+le_Slòbhac leis an tSlóvaic
+le_Slòbhain leis an tSlóivéin
+le_Somàilia leis an tSomáil
+le_Sudan leis an tSúdáin
+le_Sudàn leis an tSúdáin
+le_Suomaidh leis an Fhionlainn
+le_Suòmaidh leis an Fhionlainn
+le_Sàrdainea leis an tSairdín
+le_Sìn leis an tSín
+le_Sìombab leis an tSiombáib
+le_Sìombabue leis an tSiombáib
+le_Sìombaibe leis an tSiombáib
+le_Sìona leis an tSín
+le_Tuinisea leis an Túinéis
+le_Tuinisia leis an Túinéis
+le_Tuircmeanastan leis an Tuircméanastáin
+le_Tunisia leis an Túinéis
+le_Turcmanastàn leis an Tuircméanastáin
 le_Tài-lann leis an Téalainn
+le_Usbagastàn leis an Úisbéiceastáin
+le_Yugoslavia leis an Iúgslaiv
+le_Zimbabwe leis an tSiombáib
 le_a lena
 le_ar lenár
 le_cheil le chéile
@@ -15881,6 +16717,7 @@ martraicheadh_tu martrófá
 martraichidh_sinn martróimid
 mas_eadh más ea
 mas_fhìor mar dhea
+mas_urrainnear más féidir
 maslaicheadh_iad maslaídís
 maslaicheadh_iad maslóidís
 maslaicheadh_tu maslófá
@@ -16909,6 +17746,7 @@ na_Roinne-Eòrpa na hEorpa
 na_Sami na Sámaigh
 na_Sámi na Sámaigh
 na_b'fhaide ní b'fhaide
+na_b'fhasa ní b'fhusa
 na_bliadhnasa na blianasa
 na_chrùban ar a ghogaide
 na_crùban ar a gogaide
@@ -16951,6 +17789,10 @@ na_shuidhe ina shuí
 na_suidhe ina suí
 na_teagamhan an t-amhras
 nach_b'_e nárbh é
+nach_b'_i nárbh í
+nach_b'_iad nárbh iad
+nach_b'_iadsan nárbh iadsan
+nach_b'_ise nárbh ise
 nach_b'_urrainn níorbh fhéidir
 nach_b'_urrainn_dha níorbh fhéidir leis
 nach_b'_urrainn_dhaibh níorbh fhéidir leo
@@ -16960,6 +17802,10 @@ nach_b'_urrainn_dhuibh níorbh fhéidir libh
 nach_b'_urrainn_dhuinn níorbh fhéidir linn
 nach_b'_urrainn_dhut níorbh fhéidir leat
 nach_b'e nárbh é
+nach_b'i nárbh í
+nach_b'iad nárbh iad
+nach_b'iadsan nárbh iadsan
+nach_b'ise nárbh ise
 nach_b'urrainn níorbh fhéidir
 nach_b'urrainn_dha níorbh fhéidir leis
 nach_b'urrainn_dhaibh níorbh fhéidir leo
@@ -16968,12 +17814,15 @@ nach_b'urrainn_dhomh níorbh fhéidir liom
 nach_b'urrainn_dhuibh níorbh fhéidir libh
 nach_b'urrainn_dhuinn níorbh fhéidir linn
 nach_b'urrainn_dhut níorbh fhéidir leat
+nach_b'urrainnear níorbh fhéidir
 nach_bi nach mbeidh
 nach_do nár
 nach_do_dh' nár
 nach_do_rinn nach ndearna
 nach_eil nach bhfuil
 nach_maireann nach maireann
+nach_urrainnear nach féidir
+nach_urrainnear ní féidir
 nad_shuidhe i do shuí
 naisg_iad nascadar
 naisg_sinn nascamar
@@ -17297,7 +18146,138 @@ nàraichidh_sinn náireoimid
 nì_sinn dhéanfaimid
 nì_sinn déanfaimid
 nì_sinn ndéanfaimid
+o_Afganastan ón Afganastáin
+o_Afghanistan ón Afganastáin
+o_Afraca ón Afraic
+o_Afraga ón Afraic
+o_Africa ón Afraic
+o_Aibisinia ón Aibisín
+o_Aildiria ón Ailgéir
+o_Ailgear ón Ailgéir
+o_Airmeinia ón Airméin
+o_Algeria ón Ailgéir
+o_Armenia ón Airméin
+o_Asarbaidean ón Asarbaiseáin
+o_Astrailia ón Astráil
+o_Astralàisia ón Astraláise
+o_Astràilia ón Astráil
+o_Australia ón Astráil
+o_Boilibhia ón Bholaiv
+o_Bosna ón Bhoisnia
+o_Bosnia ón Bhoisnia
+o_Botsuana ón Bhotsuáin
+o_Braisil ón Bhrasaíl
+o_Brasail ón Bhrasaíl
+o_Bulgàiria ón Bhulgáir
+o_Burundaidh ón Bhurúin
+o_Burundi ón Bhurúin
+o_Cambodia ón Chambóid
+o_Cambuidea ón Chambóid
+o_Casachstan ón Chasacstáin
+o_Ceinia ón Chéinia
+o_Cirgiostàn ón Chirgeastáin
+o_Coirea ón Chóiré
+o_Coiria ón Chóiré
+o_Coirèa ón Chóiré
+o_Coloimbia ón Cholóim
+o_Croatia ón Chróit
+o_Croàisia ón Chróit
+o_Cròthais ón Chróit
+o_Cìorgastan ón Chirgeastáin
+o_Eastoinia ón Eastóin
+o_Eastòinia ón Eastóin
+o_Estòinia ón Eastóin
+o_Frìoslann ón Fhreaslainn
+o_Galicia ón Ghailís
 o_Ghalile ón Ghailíl
+o_Iapan ón tSeapáin
+o_Iarac ón Iaráic
+o_Iarag ón Iaráic
+o_Iarain ón Iaráin
+o_Iaran ón Iaráin
+o_Iordan ón Iordáin
+o_Ioràc ón Iaráic
+o_Ioràn ón Iaráin
+o_Iran ón Iaráin
+o_Iòrdan ón Iordáin
+o_Iùgo-Slàbhia ón Iúgslaiv
+o_Iùgoslabh ón Iúgslaiv
+o_Iùgoslaibhia ón Iúgslaiv
+o_Iùgoslàibhia ón Iúgslaiv
+o_Libeiria ón Libéir
+o_Liberia ón Libéir
+o_Libia ón Libia
+o_Libiria ón Libéir
+o_Libèir ón Libéir
+o_Libèiria ón Libéir
+o_Libéir ón Libéir
+o_Liotuàinia ón Liotuáin
+o_Lituàinia ón Liotuáin
+o_Malabhaidh ón Mhaláiv
+o_Malaidhsea ón Mhalaeisia
+o_Malaidhsia ón Mhalaeisia
+o_Malaysia ón Mhalaeisia
+o_Malàbhaidh ón Mhaláiv
+o_Moratain ón Mháratáin
+o_Moratainia ón Mháratáin
+o_Moratàinea ón Mháratáin
+o_Naimibia ón Namaib
+o_Namibia ón Namaib
+o_Nigeria ón Nigéir
+o_Nigèiria ón Nigéir
+o_Nigéiria ón Nigéir
+o_Nirribhidh ón Iorua
+o_Normandaidh ón Normainn
+o_Nìgeir ón Nígir
+o_Nìgeiria ón Nigéir
+o_Nòrmandaidh ón Normainn
+o_Pagastan ón Phacastáin
+o_Pagastàn ón Phacastáin
+o_Pakistan ón Phacastáin
+o_Patagonia ón Phatagóin
+o_Patagòinia ón Phatagóin
+o_Peirse ón Pheirs
+o_Persia ón Pheirs
+o_Romàinia ón Rómáin
+o_Sagsainn ón tSacsain
+o_Sagsainn-Anhalt ón tSacsain-Anhalt
+o_Saimbia ón tSaimbia
+o_Sambia ón tSaimbia
+o_Sardinia ón tSairdín
+o_Seanagal ón tSeineagáil
+o_Seapan ón tSeapáin
+o_Simbabue ón tSiombáib
+o_Siombabue ón tSiombáib
+o_Siona ón tSín
+o_Siria ón tSiria
+o_Siridhea ón tSiria
+o_Slobhagia ón tSlóvaic
+o_Slobhinia ón tSlóivéin
+o_Slobhàicia ón tSlóvaic
+o_Slobhèinia ón tSlóivéin
+o_Sloibhinia ón tSlóivéin
+o_Sloibhìnia ón tSlóivéin
+o_Slòbhac ón tSlóvaic
+o_Slòbhain ón tSlóivéin
+o_Somàilia ón tSomáil
+o_Sudan ón tSúdáin
+o_Sudàn ón tSúdáin
+o_Suomaidh ón Fhionlainn
+o_Suòmaidh ón Fhionlainn
+o_Sàrdainea ón tSairdín
+o_Sìn ón tSín
+o_Sìombab ón tSiombáib
+o_Sìombabue ón tSiombáib
+o_Sìombaibe ón tSiombáib
+o_Sìona ón tSín
+o_Tuinisea ón Túinéis
+o_Tuinisia ón Túinéis
+o_Tuircmeanastan ón Tuircméanastáin
+o_Tunisia ón Túinéis
+o_Turcmanastàn ón Tuircméanastáin
+o_Usbagastàn ón Úisbéiceastáin
+o_Yugoslavia ón Iúgslaiv
+o_Zimbabwe ón tSiombáib
 o_a óna
 o_ar ónár
 o_chionn ó
@@ -18844,8 +19824,139 @@ reòthadh_iad reofaidís
 reòthadh_iad reoidís
 reòthadh_tu reofá
 reòthaidh_sinn reofaimid
+ri_Afganastan leis an Afganastáin
+ri_Afghanistan leis an Afganastáin
+ri_Afraca leis an Afraic
+ri_Afraga leis an Afraic
+ri_Africa leis an Afraic
+ri_Aibisinia leis an Aibisín
+ri_Aildiria leis an Ailgéir
+ri_Ailgear leis an Ailgéir
+ri_Airmeinia leis an Airméin
+ri_Algeria leis an Ailgéir
+ri_Armenia leis an Airméin
+ri_Asarbaidean leis an Asarbaiseáin
+ri_Astrailia leis an Astráil
+ri_Astralàisia leis an Astraláise
+ri_Astràilia leis an Astráil
+ri_Australia leis an Astráil
+ri_Boilibhia leis an Bholaiv
+ri_Bosna leis an Bhoisnia
+ri_Bosnia leis an Bhoisnia
+ri_Botsuana leis an Bhotsuáin
+ri_Braisil leis an Bhrasaíl
+ri_Brasail leis an Bhrasaíl
+ri_Bulgàiria leis an Bhulgáir
+ri_Burundaidh leis an Bhurúin
+ri_Burundi leis an Bhurúin
+ri_Cambodia leis an Chambóid
+ri_Cambuidea leis an Chambóid
+ri_Casachstan leis an Chasacstáin
+ri_Ceinia leis an Chéinia
+ri_Cirgiostàn leis an Chirgeastáin
+ri_Coirea leis an Chóiré
+ri_Coiria leis an Chóiré
+ri_Coirèa leis an Chóiré
+ri_Coloimbia leis an Cholóim
+ri_Croatia leis an Chróit
+ri_Croàisia leis an Chróit
+ri_Cròthais leis an Chróit
+ri_Cìorgastan leis an Chirgeastáin
+ri_Eastoinia leis an Eastóin
+ri_Eastòinia leis an Eastóin
+ri_Estòinia leis an Eastóin
+ri_Frìoslann leis an Fhreaslainn
+ri_Galicia leis an Ghailís
+ri_Iapan leis an tSeapáin
+ri_Iarac leis an Iaráic
+ri_Iarag leis an Iaráic
+ri_Iarain leis an Iaráin
+ri_Iaran leis an Iaráin
+ri_Iordan leis an Iordáin
+ri_Ioràc leis an Iaráic
+ri_Ioràn leis an Iaráin
+ri_Iran leis an Iaráin
+ri_Iòrdan leis an Iordáin
+ri_Iùgo-Slàbhia leis an Iúgslaiv
+ri_Iùgoslabh leis an Iúgslaiv
+ri_Iùgoslaibhia leis an Iúgslaiv
+ri_Iùgoslàibhia leis an Iúgslaiv
+ri_Libeiria leis an Libéir
+ri_Liberia leis an Libéir
+ri_Libia leis an Libia
+ri_Libiria leis an Libéir
+ri_Libèir leis an Libéir
+ri_Libèiria leis an Libéir
+ri_Libéir leis an Libéir
+ri_Liotuàinia leis an Liotuáin
+ri_Lituàinia leis an Liotuáin
+ri_Malabhaidh leis an Mhaláiv
+ri_Malaidhsea leis an Mhalaeisia
+ri_Malaidhsia leis an Mhalaeisia
+ri_Malaysia leis an Mhalaeisia
+ri_Malàbhaidh leis an Mhaláiv
+ri_Moratain leis an Mháratáin
+ri_Moratainia leis an Mháratáin
+ri_Moratàinea leis an Mháratáin
+ri_Naimibia leis an Namaib
+ri_Namibia leis an Namaib
+ri_Nigeria leis an Nigéir
+ri_Nigèiria leis an Nigéir
+ri_Nigéiria leis an Nigéir
+ri_Nirribhidh leis an Iorua
+ri_Normandaidh leis an Normainn
+ri_Nìgeir leis an Nígir
+ri_Nìgeiria leis an Nigéir
+ri_Nòrmandaidh leis an Normainn
 ri_Onan le hÓnán
+ri_Pagastan leis an Phacastáin
+ri_Pagastàn leis an Phacastáin
+ri_Pakistan leis an Phacastáin
+ri_Patagonia leis an Phatagóin
+ri_Patagòinia leis an Phatagóin
+ri_Peirse leis an Pheirs
+ri_Persia leis an Pheirs
+ri_Romàinia leis an Rómáin
+ri_Sagsainn leis an tSacsain
+ri_Sagsainn-Anhalt leis an tSacsain-Anhalt
+ri_Saimbia leis an tSaimbia
+ri_Sambia leis an tSaimbia
+ri_Sardinia leis an tSairdín
+ri_Seanagal leis an tSeineagáil
+ri_Seapan leis an tSeapáin
+ri_Simbabue leis an tSiombáib
+ri_Siombabue leis an tSiombáib
+ri_Siona leis an tSín
+ri_Siria leis an tSiria
+ri_Siridhea leis an tSiria
+ri_Slobhagia leis an tSlóvaic
+ri_Slobhinia leis an tSlóivéin
+ri_Slobhàicia leis an tSlóvaic
+ri_Slobhèinia leis an tSlóivéin
+ri_Sloibhinia leis an tSlóivéin
+ri_Sloibhìnia leis an tSlóivéin
+ri_Slòbhac leis an tSlóvaic
+ri_Slòbhain leis an tSlóivéin
+ri_Somàilia leis an tSomáil
+ri_Sudan leis an tSúdáin
+ri_Sudàn leis an tSúdáin
+ri_Suomaidh leis an Fhionlainn
+ri_Suòmaidh leis an Fhionlainn
+ri_Sàrdainea leis an tSairdín
+ri_Sìn leis an tSín
+ri_Sìombab leis an tSiombáib
+ri_Sìombabue leis an tSiombáib
+ri_Sìombaibe leis an tSiombáib
+ri_Sìona leis an tSín
+ri_Tuinisea leis an Túinéis
+ri_Tuinisia leis an Túinéis
+ri_Tuircmeanastan leis an Tuircméanastáin
+ri_Tunisia leis an Túinéis
+ri_Turcmanastàn leis an Tuircméanastáin
+ri_Usbagastàn leis an Úisbéiceastáin
 ri_Venice leis an Veinéis
+ri_Yugoslavia leis an Iúgslaiv
+ri_Zimbabwe leis an tSiombáib
 ri_a lena
 ri_ar lenár
 ri_cheil le chéile
@@ -19257,6 +20368,7 @@ samhlaicheadh_tu siombalófá
 samhlaichidh_sinn insamhlóimid
 samhlaichidh_sinn n-insamhlóimid
 samhlaichidh_sinn siombalóimid
+san_Iapan sa tSeapáin
 san_ath-cheum sa chéad chéim eile
 san_ath-choinneamh sa chéad chruinniú eile
 san_ath-earrann sa chéad chuid eile
@@ -25084,6 +26196,137 @@ woo_hoo wúhú
 Àrd_Sgoil Ardscoil
 Èireann_a-Tuath Tuaisceart Éireann
 Èirinn_a-Tuath Tuaisceart Éireann
+à_Afganastan as an Afganastáin
+à_Afghanistan as an Afganastáin
+à_Afraca as an Afraic
+à_Afraga as an Afraic
+à_Africa as an Afraic
+à_Aibisinia as an Aibisín
+à_Aildiria as an Ailgéir
+à_Ailgear as an Ailgéir
+à_Airmeinia as an Airméin
+à_Algeria as an Ailgéir
+à_Armenia as an Airméin
+à_Asarbaidean as an Asarbaiseáin
+à_Astrailia as an Astráil
+à_Astralàisia as an Astraláise
+à_Astràilia as an Astráil
+à_Australia as an Astráil
+à_Boilibhia as an Bholaiv
+à_Bosna as an Bhoisnia
+à_Bosnia as an Bhoisnia
+à_Botsuana as an Bhotsuáin
+à_Braisil as an Bhrasaíl
+à_Brasail as an Bhrasaíl
+à_Bulgàiria as an Bhulgáir
+à_Burundaidh as an Bhurúin
+à_Burundi as an Bhurúin
+à_Cambodia as an Chambóid
+à_Cambuidea as an Chambóid
+à_Casachstan as an Chasacstáin
+à_Ceinia as an Chéinia
+à_Cirgiostàn as an Chirgeastáin
+à_Coirea as an Chóiré
+à_Coiria as an Chóiré
+à_Coirèa as an Chóiré
+à_Coloimbia as an Cholóim
+à_Croatia as an Chróit
+à_Croàisia as an Chróit
+à_Cròthais as an Chróit
+à_Cìorgastan as an Chirgeastáin
+à_Eastoinia as an Eastóin
+à_Eastòinia as an Eastóin
+à_Estòinia as an Eastóin
+à_Frìoslann as an Fhreaslainn
+à_Galicia as an Ghailís
+à_Iapan as an tSeapáin
+à_Iarac as an Iaráic
+à_Iarag as an Iaráic
+à_Iarain as an Iaráin
+à_Iaran as an Iaráin
+à_Iordan as an Iordáin
+à_Ioràc as an Iaráic
+à_Ioràn as an Iaráin
+à_Iran as an Iaráin
+à_Iòrdan as an Iordáin
+à_Iùgo-Slàbhia as an Iúgslaiv
+à_Iùgoslabh as an Iúgslaiv
+à_Iùgoslaibhia as an Iúgslaiv
+à_Iùgoslàibhia as an Iúgslaiv
+à_Libeiria as an Libéir
+à_Liberia as an Libéir
+à_Libia as an Libia
+à_Libiria as an Libéir
+à_Libèir as an Libéir
+à_Libèiria as an Libéir
+à_Libéir as an Libéir
+à_Liotuàinia as an Liotuáin
+à_Lituàinia as an Liotuáin
+à_Malabhaidh as an Mhaláiv
+à_Malaidhsea as an Mhalaeisia
+à_Malaidhsia as an Mhalaeisia
+à_Malaysia as an Mhalaeisia
+à_Malàbhaidh as an Mhaláiv
+à_Moratain as an Mháratáin
+à_Moratainia as an Mháratáin
+à_Moratàinea as an Mháratáin
+à_Naimibia as an Namaib
+à_Namibia as an Namaib
+à_Nigeria as an Nigéir
+à_Nigèiria as an Nigéir
+à_Nigéiria as an Nigéir
+à_Nirribhidh as an Iorua
+à_Normandaidh as an Normainn
+à_Nìgeir as an Nígir
+à_Nìgeiria as an Nigéir
+à_Nòrmandaidh as an Normainn
+à_Pagastan as an Phacastáin
+à_Pagastàn as an Phacastáin
+à_Pakistan as an Phacastáin
+à_Patagonia as an Phatagóin
+à_Patagòinia as an Phatagóin
+à_Peirse as an Pheirs
+à_Persia as an Pheirs
+à_Romàinia as an Rómáin
+à_Sagsainn as an tSacsain
+à_Sagsainn-Anhalt as an tSacsain-Anhalt
+à_Saimbia as an tSaimbia
+à_Sambia as an tSaimbia
+à_Sardinia as an tSairdín
+à_Seanagal as an tSeineagáil
+à_Seapan as an tSeapáin
+à_Simbabue as an tSiombáib
+à_Siombabue as an tSiombáib
+à_Siona as an tSín
+à_Siria as an tSiria
+à_Siridhea as an tSiria
+à_Slobhagia as an tSlóvaic
+à_Slobhinia as an tSlóivéin
+à_Slobhàicia as an tSlóvaic
+à_Slobhèinia as an tSlóivéin
+à_Sloibhinia as an tSlóivéin
+à_Sloibhìnia as an tSlóivéin
+à_Slòbhac as an tSlóvaic
+à_Slòbhain as an tSlóivéin
+à_Somàilia as an tSomáil
+à_Sudan as an tSúdáin
+à_Sudàn as an tSúdáin
+à_Suomaidh as an Fhionlainn
+à_Suòmaidh as an Fhionlainn
+à_Sàrdainea as an tSairdín
+à_Sìn as an tSín
+à_Sìombab as an tSiombáib
+à_Sìombabue as an tSiombáib
+à_Sìombaibe as an tSiombáib
+à_Sìona as an tSín
+à_Tuinisea as an Túinéis
+à_Tuinisia as an Túinéis
+à_Tuircmeanastan as an Tuircméanastáin
+à_Tunisia as an Túinéis
+à_Turcmanastàn as an Tuircméanastáin
+à_Usbagastàn as an Úisbéiceastáin
+à_Yugoslavia as an Iúgslaiv
+à_Zimbabwe as an tSiombáib
 à_measg as measc
 à_rèim ar fionraí
 à_sealladh as radharc
