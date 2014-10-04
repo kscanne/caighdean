@@ -362,6 +362,7 @@ a_b'_urrainn_dha ab fhéidir leis
 a_b'_urrainn_dhaibh ab fhéidir leo
 a_b'_urrainn_dhi ab fhéidir léi
 a_b'_urrainn_dhomh ab fhéidir liom
+a_b'_urrainn_dhuibh ab fhéidir leat
 a_b'_urrainn_dhuibh ab fhéidir libh
 a_b'_urrainn_dhuinn ab fhéidir linn
 a_b'_urrainn_dhut ab fhéidir leat
@@ -371,6 +372,7 @@ a_b'urrainn_dha ab fhéidir leis
 a_b'urrainn_dhaibh ab fhéidir leo
 a_b'urrainn_dhi ab fhéidir léi
 a_b'urrainn_dhomh ab fhéidir liom
+a_b'urrainn_dhuibh ab fhéidir leat
 a_b'urrainn_dhuibh ab fhéidir libh
 a_b'urrainn_dhuinn ab fhéidir linn
 a_b'urrainn_dhut ab fhéidir leat
@@ -490,6 +492,7 @@ a_th' atá
 a_th'aca atá acu
 a_th'agad atá agat
 a_th'agaibh atá agaibh
+a_th'agaibh atá agat
 a_th'againn atá againn
 a_th'agam atá agam
 a_th'aig atá ag
@@ -920,6 +923,7 @@ amhaircidh_sinn n-amharcfaimid
 amharas_aca amhras orthu
 amharas_agad amhras ort
 amharas_agaibh amhras oraibh
+amharas_agaibh amhras ort
 amharas_againn amhras orainn
 amharas_agam amhras orm
 amharas_aig amhras ar
@@ -1124,7 +1128,9 @@ an_urra_ri freagrach as
 an_urra_ri_na ag brath ar na
 an_urra_ri_na freagrach as na
 an_urra_ribh ag brath oraibh
+an_urra_ribh ag brath ort
 an_urra_ribh freagrach asaibh
+an_urra_ribh freagrach asat
 an_urra_rinn ag brath orainn
 an_urra_rinn freagrach asainn
 an_urra_rinne ag brath orainne
@@ -1705,6 +1711,7 @@ b'urrainn_dha b'fhéidir leis
 b'urrainn_dhaibh b'fhéidir leo
 b'urrainn_dhi b'fhéidir léi
 b'urrainn_dhomh b'fhéidir liom
+b'urrainn_dhuibh b'fhéidir leat
 b'urrainn_dhuibh b'fhéidir libh
 b'urrainn_dhuinn b'fhéidir linn
 b'urrainn_dhut b'fhéidir leat
@@ -3788,6 +3795,7 @@ cha_b'_urrainn_dha níorbh fhéidir leis
 cha_b'_urrainn_dhaibh níorbh fhéidir leo
 cha_b'_urrainn_dhi níorbh fhéidir léi
 cha_b'_urrainn_dhomh níorbh fhéidir liom
+cha_b'_urrainn_dhuibh níorbh fhéidir leat
 cha_b'_urrainn_dhuibh níorbh fhéidir libh
 cha_b'_urrainn_dhuinn níorbh fhéidir linn
 cha_b'_urrainn_dhut níorbh fhéidir leat
@@ -3804,6 +3812,7 @@ cha_b'urrainn_dha níorbh fhéidir leis
 cha_b'urrainn_dhaibh níorbh fhéidir leo
 cha_b'urrainn_dhi níorbh fhéidir léi
 cha_b'urrainn_dhomh níorbh fhéidir liom
+cha_b'urrainn_dhuibh níorbh fhéidir leat
 cha_b'urrainn_dhuibh níorbh fhéidir libh
 cha_b'urrainn_dhuinn níorbh fhéidir linn
 cha_b'urrainn_dhut níorbh fhéidir leat
@@ -3972,6 +3981,7 @@ chan_urrainn_dha ní féidir leis
 chan_urrainn_dhaibh ní féidir leo
 chan_urrainn_dhi ní féidir léi
 chan_urrainn_dhomh ní féidir liom
+chan_urrainn_dhuibh ní féidir leat
 chan_urrainn_dhuibh ní féidir libh
 chan_urrainn_dhuinn ní féidir linn
 chan_urrainn_dhut ní féidir leat
@@ -6020,6 +6030,7 @@ comharraichidh_sinn gcomharthóimid
 comharraichidh_sinn marcálfaimid
 comhla_le in éineacht le
 comhla_ri in éineacht le
+comhla_ribh in éineacht leat
 comhla_ribh in éineacht libh
 comhla_rinn in éineacht linn
 comhla_ris in éineacht leis
@@ -6027,6 +6038,7 @@ comhla_rithe in éineacht léi
 comhla_rium in éineacht liom
 comhla_riut in éineacht leat
 comhla_riutha in éineacht leo
+comhla_ruibh in éineacht leat
 comhla_ruibh in éineacht libh
 comhla_ruinn in éineacht linn
 comhlionadh_iad comhlíonaidís
@@ -6394,12 +6406,14 @@ cuidhteas_dhem réidh le mo
 cuidhteas_dhen réidh leis an
 cuidhteas_dher réidh lenár
 cuidhteas_dheth réidh leis
+cuidhteas_dhibh réidh leat
 cuidhteas_dhibh réidh libh
 cuidhteas_dhinn réidh linn
 cuidhteas_dhith réidh léi
 cuidhteas_dhiubh réidh leo
 cuidhteas_dhìom réidh liom
 cuidhteas_dhìot réidh leat
+cuidhteas_dibh réidh leat
 cuidhteas_dibh réidh libh
 cuidhteas_dinn réidh linn
 cuidhteas_dith réidh léi
@@ -6676,6 +6690,7 @@ còirichidh_sinn cóireoimid
 còirichidh_sinn gcóireoimid
 còmh'_le in éineacht le
 còmh'_ri in éineacht le
+còmh'_ribh in éineacht leat
 còmh'_ribh in éineacht libh
 còmh'_rinn in éineacht linn
 còmh'_ris in éineacht leis
@@ -6683,6 +6698,7 @@ còmh'_rithe in éineacht léi
 còmh'_rium in éineacht liom
 còmh'_riut in éineacht leat
 còmh'_riutha in éineacht leo
+còmh'_ruibh in éineacht leat
 còmh'_ruibh in éineacht libh
 còmh'_ruinn in éineacht linn
 còmhdaicheadh_iad clúdaídís
@@ -6700,6 +6716,7 @@ còmhdaichidh_sinn gcumhdóimid
 còmhdhail_phoblach iompar poiblí
 còmhla_le in éineacht le
 còmhla_ri in éineacht le
+còmhla_ribh in éineacht leat
 còmhla_ribh in éineacht libh
 còmhla_rinn in éineacht linn
 còmhla_ris in éineacht leis
@@ -6707,6 +6724,7 @@ còmhla_rithe in éineacht léi
 còmhla_rium in éineacht liom
 còmhla_riut in éineacht leat
 còmhla_riutha in éineacht leo
+còmhla_ruibh in éineacht leat
 còmhla_ruibh in éineacht libh
 còmhla_ruinn in éineacht linn
 còmhlaicheadh_iad comhdaídís
@@ -12215,6 +12233,7 @@ eagranaichidh_sinn n-eagróimid
 ealain_lèirsinneachd amharcealaíne
 ealla_ri amharc ar
 ealla_ribh amharc oraibh
+ealla_ribh amharc ort
 ealla_rinn amharc orainn
 ealla_ris amharc air
 ealla_ris_a' amharc ar an
@@ -12299,6 +12318,7 @@ eòlas_leighis leigheas
 eòlas_obrach taithí oibre
 fa-near_dha i gceist aige
 fa-near_dhaibh i gceist agaibh
+fa-near_dhaibh i gceist agat
 fa-near_dhan i gceist ag an
 fa-near_dhomh i gceist agam
 fa-near_dhuinn i gceist againn
@@ -13217,6 +13237,7 @@ ga_rìreamh dáiríre
 ga_rìribh dáiríre
 gabh_ealla_ri breathnaigh ar
 gabh_ealla_ribh breathnaigh oraibh
+gabh_ealla_ribh breathnaigh ort
 gabh_ealla_rinn breathnaigh orainn
 gabh_ealla_ris breathnaigh air
 gabh_ealla_ris_a' breathnaigh ar an
@@ -13241,6 +13262,7 @@ gabhaidh_sinn ngabhfaimid
 gabhaidh_sinn nglacfaimid
 gabhail_ealla_ri breathnú ar
 gabhail_ealla_ribh breathnú oraibh
+gabhail_ealla_ribh breathnú ort
 gabhail_ealla_rinn breathnú orainn
 gabhail_ealla_ris breathnú air
 gabhail_ealla_ris_a' breathnú ar an
@@ -14742,6 +14764,7 @@ gum_b'_urrainn_dha gurbh fhéidir leis
 gum_b'_urrainn_dhaibh gurbh fhéidir leo
 gum_b'_urrainn_dhi gurbh fhéidir léi
 gum_b'_urrainn_dhomh gurbh fhéidir liom
+gum_b'_urrainn_dhuibh gurbh fhéidir leat
 gum_b'_urrainn_dhuibh gurbh fhéidir libh
 gum_b'_urrainn_dhuinn gurbh fhéidir linn
 gum_b'_urrainn_dhut gurbh fhéidir leat
@@ -14755,6 +14778,7 @@ gum_b'urrainn_dha gurbh fhéidir leis
 gum_b'urrainn_dhaibh gurbh fhéidir leo
 gum_b'urrainn_dhi gurbh fhéidir léi
 gum_b'urrainn_dhomh gurbh fhéidir liom
+gum_b'urrainn_dhuibh gurbh fhéidir leat
 gum_b'urrainn_dhuibh gurbh fhéidir libh
 gum_b'urrainn_dhuinn gurbh fhéidir linn
 gum_b'urrainn_dhut gurbh fhéidir leat
@@ -14797,6 +14821,7 @@ gur_urrainn_dha gurbh fhéidir leis
 gur_urrainn_dhaibh gurbh fhéidir leo
 gur_urrainn_dhi gurbh fhéidir léi
 gur_urrainn_dhomh gurbh fhéidir liom
+gur_urrainn_dhuibh gurbh fhéidir leat
 gur_urrainn_dhuibh gurbh fhéidir libh
 gur_urrainn_dhuinn gurbh fhéidir linn
 gur_urrainn_dhut gurbh fhéidir leat
@@ -15256,6 +15281,7 @@ is_urrainn_dha is féidir leis
 is_urrainn_dhaibh is féidir leo
 is_urrainn_dhi is féidir léi
 is_urrainn_dhomh is féidir liom
+is_urrainn_dhuibh is féidir leat
 is_urrainn_dhuibh is féidir libh
 is_urrainn_dhuinn is féidir linn
 is_urrainn_dhut is féidir leat
@@ -17798,6 +17824,7 @@ nach_b'_urrainn_dha níorbh fhéidir leis
 nach_b'_urrainn_dhaibh níorbh fhéidir leo
 nach_b'_urrainn_dhi níorbh fhéidir léi
 nach_b'_urrainn_dhomh níorbh fhéidir liom
+nach_b'_urrainn_dhuibh níorbh fhéidir leat
 nach_b'_urrainn_dhuibh níorbh fhéidir libh
 nach_b'_urrainn_dhuinn níorbh fhéidir linn
 nach_b'_urrainn_dhut níorbh fhéidir leat
@@ -17811,6 +17838,7 @@ nach_b'urrainn_dha níorbh fhéidir leis
 nach_b'urrainn_dhaibh níorbh fhéidir leo
 nach_b'urrainn_dhi níorbh fhéidir léi
 nach_b'urrainn_dhomh níorbh fhéidir liom
+nach_b'urrainn_dhuibh níorbh fhéidir leat
 nach_b'urrainn_dhuibh níorbh fhéidir libh
 nach_b'urrainn_dhuinn níorbh fhéidir linn
 nach_b'urrainn_dhut níorbh fhéidir leat
@@ -17843,6 +17871,7 @@ nam_b'_urrainn_dha dá mb'fhéidir leis
 nam_b'_urrainn_dhaibh dá mb'fhéidir leo
 nam_b'_urrainn_dhi dá mb'fhéidir léi
 nam_b'_urrainn_dhomh dá mb'fhéidir liom
+nam_b'_urrainn_dhuibh dá mb'fhéidir leat
 nam_b'_urrainn_dhuibh dá mb'fhéidir libh
 nam_b'_urrainn_dhuinn dá mb'fhéidir linn
 nam_b'_urrainn_dhut dá mb'fhéidir leat
@@ -17851,6 +17880,7 @@ nam_b'urrainn_dha dá mb'fhéidir leis
 nam_b'urrainn_dhaibh dá mb'fhéidir leo
 nam_b'urrainn_dhi dá mb'fhéidir léi
 nam_b'urrainn_dhomh dá mb'fhéidir liom
+nam_b'urrainn_dhuibh dá mb'fhéidir leat
 nam_b'urrainn_dhuibh dá mb'fhéidir libh
 nam_b'urrainn_dhuinn dá mb'fhéidir linn
 nam_b'urrainn_dhut dá mb'fhéidir leat
@@ -24215,6 +24245,7 @@ thadhail_iad mbreathnaíodar
 thadhail_iad thugadar cuairt
 thadhail_mi thug mé cuairt
 thadhail_sibh thug sibh cuairt
+thadhail_sibh thug tú cuairt
 thadhail_sinn bhreathnaíomar
 thadhail_sinn mbreathnaíomar
 thadhail_sinn thugamar cuairt
@@ -24447,6 +24478,7 @@ theab_e dóbair dó
 theab_iad dóbair dóibh
 theab_mi dóbair dom
 theab_sibh dóbair daoibh
+theab_sibh dóbair duit
 theab_thu dóbair duit
 theagaisg_iad dteagascadar
 theagaisg_iad mhúineadar
