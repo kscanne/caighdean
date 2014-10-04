@@ -42,10 +42,12 @@ LINE: while (<STDIN>) {
 	}
 	for (my $len=$tot; $len >= 2; $len--) {
 		my $cand = join('_', @queue[0..($len-1)]);
-		if (exists($phrases{lc($cand)})) {
+		my $lccand = lc($cand);
+		if (exists($phrases{$lccand}) or $lccand =~ m/^([bdm]|dh)[’']_[^_]+$/) {
 			for (0..($len-1)) {
 				shift @queue;
 			}
+			$cand =~ s/^([bdm]|dh)([’'])_/$1$2/i;
 			print "$cand\n";
 			next LINE;
 		}
