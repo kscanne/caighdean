@@ -461,7 +461,7 @@ print "Ready.\n" if $verbose;
 while (<STDIN>) {
 	chomp;
 	if (/[a-zA-ZáéíóúÁÉÍÓÚàèìòùÀÈÌÒÙ]/) {
-		s/’/'/g;
+		s/[ʼ’]/'/g;
 		s/‐/-/g;  # U+2010 to ASCII
 	}
 	if ($_ eq '\n' or /^<.*>$/) { # skip SGML markup, newlines
