@@ -73,7 +73,7 @@ sub process_chunk {
 			$toktype=0;
         }
         elsif ($ints ne '' and $c =~ /^[$ints]$/) {
-			unless ($toktype==0 and $curr ne '') {
+			unless ($toktype==0 and $curr ne '' and $curr !~ m/[$ints]$/) {
 				flushcurr();
 				$toktype=2;
 			}
