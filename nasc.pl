@@ -18,13 +18,19 @@ for my $a (@ARGV) {
 my $extension = '';
 $extension = '-gd' if ($gd);
 
+sub normalize {
+	(my $w) = @_;
+	$w =~ s/[ʼ’]/'/g;
+	return lc($w);
+}
+
 open(MULTI, "<:utf8", "multi$extension.txt") or die "Could not open list of phrases: $!";
 while (<MULTI>) {
 	chomp;
 	(my $phrase, my $ignore) = m/^([^ ]+) (.+)$/;
 	my $numwords = 1 + ($phrase =~ tr/_//);
 	$maxwords = $numwords if ($numwords > $maxwords);
-	$phrases{lc($phrase)}++;
+	$phrases{normalize($phrase)}++;
 }
 close MULTI;
 
@@ -42,12 +48,12 @@ LINE: while (<STDIN>) {
 	}
 	for (my $len=$tot; $len >= 2; $len--) {
 		my $cand = join('_', @queue[0..($len-1)]);
-		my $lccand = lc($cand);
-		if (exists($phrases{$lccand}) or $lccand =~ m/^([bdm]|dh)[ʼ’']_[^_]+$/) {
+		my $lccand = normalize($cand);
+		if (exists($phrases{$lccand}) or $lccand =~ m/^([bdm]|dh)'_[^_]+$/) {
 			for (0..($len-1)) {
 				shift @queue;
 			}
-			$cand =~ s/^([bdm]|dh)([ʼ’'])_/$1$2/i;
+			$cand =~ s/^([BDMbdm]|[Dd]h)([ʼ’'])_/$1$2/i;
 			print "$cand\n";
 			next LINE;
 		}
