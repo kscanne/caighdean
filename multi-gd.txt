@@ -4656,6 +4656,9 @@ a_dh'fhìon-poirt do phórtfhíon
 a_dh'fhìona d'fhíona
 a_dh'fhìona-geur d'fhínéagair
 a_dh'fhìona-poirt do phórtfhíona
+a_dh'fhìor-dhealbh do léaráid
+a_dh'fhìor-dhealbha do léaráide
+a_dh'fhìor-dhealbhan do léaráidí
 a_dh'fhìor-uisge d'fhíoruisce
 a_dh'fhìor-uisgeachan d'fhíoruiscí
 a_dh'fhìor-àireamh do réaduimhir
@@ -8312,6 +8315,7 @@ ann_an_Sagsainn-Anhalt sa tSacsain-Anhalt
 ann_an_Saimbia sa tSaimbia
 ann_an_Sambia sa tSaimbia
 ann_an_Sardinia sa tSairdín
+ann_an_Sealainn_Nuadh sa Nua-Shéalainn
 ann_an_Seanagal sa tSeineagáil
 ann_an_Seapan sa tSeapáin
 ann_an_Silesia sa tSiléis
@@ -8414,6 +8418,7 @@ anns_an sa
 anns_an san
 anns_an_Ear-Thuath san Oirthuaisceart
 anns_an_Elbe san Eilbe
+anns_an_Sealainn_Nuadh sa Nua-Shéalainn
 anns_an_Seapan sa tSeapáin
 anns_an_Ulaidh in Ulaidh
 anns_an_ath-cheum sa chéad chéim eile
@@ -10648,9 +10653,13 @@ bu_chluaran b'fheochadán
 bu_chluaranan b'fheochadáin
 bu_chluich b'imirt
 bu_chluiche b'imirt
+bu_chluicheadair b'aisteoir
 bu_chluicheadair b'imreoir
+bu_chluicheadairean b'aisteoirí
 bu_chluicheadairean b'imreoirí
+bu_chluicheadar b'aisteoir
 bu_chluicheadar b'imreoir
+bu_chluicheadaran b'aisteoirí
 bu_chluicheadaran b'imreoirí
 bu_chluichte b'imeartha
 bu_chlàr-ama b'amchlár
@@ -21116,6 +21125,9 @@ de_dh'fhìon-poirt de phórtfhíon
 de_dh'fhìona d'fhíona
 de_dh'fhìona-geur d'fhínéagair
 de_dh'fhìona-poirt de phórtfhíona
+de_dh'fhìor-dhealbh de léaráid
+de_dh'fhìor-dhealbha de léaráide
+de_dh'fhìor-dhealbhan de léaráidí
 de_dh'fhìor-uisge d'fhíoruisce
 de_dh'fhìor-uisgeachan d'fhíoruiscí
 de_dh'fhìor-àireamh de réaduimhir
@@ -32639,6 +32651,9 @@ do_dh'fhìon-poirt do phórtfhíon
 do_dh'fhìona d'fhíona
 do_dh'fhìona-geur d'fhínéagair
 do_dh'fhìona-poirt do phórtfhíona
+do_dh'fhìor-dhealbh do léaráid
+do_dh'fhìor-dhealbha do léaráide
+do_dh'fhìor-dhealbhan do léaráidí
 do_dh'fhìor-uisge d'fhíoruisce
 do_dh'fhìor-uisgeachan d'fhíoruiscí
 do_dh'fhìor-àireamh do réaduimhir
@@ -36964,6 +36979,25 @@ galar_neasgaideach eachma
 galar_neasgaideach heachma
 galar_neasgaideach m'eachma
 galar_neasgaideach n-eachma
+gan_ceangal á gceangal
+gan_cleachdadh á n-úsáid
+gan_cruthachadh á gcruthú
+gan_cuideachadh á gcuidiú
+gan_cumail á gcoinneáil
+gan_cur á gcur
+gan_dèanamh á ndéanamh
+gan_dìon á gcosaint
+gan_glacadh á nglacadh
+gan_iarraidh á n-iarraidh
+gan_leasachadh á bhforbairt
+gan_reic á ndíol
+gan_stiùireadh á mbainistiú
+gan_taisbeanadh á dtaispeáint
+gan_tarraing á dtarraingt
+gan_teagasg á dteagasc
+gan_togail á dtógáil
+gan_toirt á dtabhairt
+gan_tuigsinn á dtuiscint
 gaoir_tro crith trí
 gaoir_troimhe crith tríd
 gaoir_troimhpe crith tríthi
@@ -41610,10 +41644,15 @@ mo_chluaranan m'fheochadán
 mo_chluich m'imirt
 mo_chluiche m'imeartha
 mo_chluiche m'imirt
+mo_chluicheadair m'aisteoir
+mo_chluicheadair m'aisteora
 mo_chluicheadair m'imreoir
 mo_chluicheadair m'imreora
+mo_chluicheadairean m'aisteoirí
 mo_chluicheadairean m'imreoirí
+mo_chluicheadar m'aisteoir
 mo_chluicheadar m'imreoir
+mo_chluicheadaran m'aisteoirí
 mo_chluicheadaran m'imreoirí
 mo_chlàir-ama m'amchláir
 mo_chlàir-amais m'innéacs
