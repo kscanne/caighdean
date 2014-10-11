@@ -67,6 +67,7 @@ sub hypothesis_output_string {
 	return $ans;
 }
 
+# argument is a hypothesis (so a hashref with 'logprob' and 'output' keys
 sub hypothesis_pairs_string {
 	(my $hyp) = @_;
 	my $ans = '';
@@ -376,6 +377,26 @@ $hypotheses{''} = {
 	'output' => [],
 }; 
 
+# pass hashref in vs. using global %hypotheses
+sub flush_best_hypothesis {
+	(my $hashref) = @_;
+	my $bestlogprob = -9999;
+	my $bestkey;
+	print "Flushing best of ".scalar(keys %{$hashref})." hypotheses\n" if ($verbose);
+	for my $k (keys %{$hashref}) {
+		if ($hashref->{$k}->{'logprob'} > $bestlogprob) {
+			$bestlogprob = $hashref->{$k}->{'logprob'};
+			$bestkey = $k;
+		}
+	}
+	print "FLUSH:\n" if ($verbose);
+	print hypothesis_pairs_string($hashref->{$bestkey});
+	$hashref->{$bestkey} = {
+		'logprob' => 0.0,
+		'output' => [],
+	}; 
+}
+
 sub process_ignorable_token {
 	(my $tok) = @_;
 
@@ -438,16 +459,9 @@ sub process_one_token {
 	}
 
 	# if there's only one hypothesis left, we can flush output and reset
-	if (scalar keys %newhypotheses == 1) {
-		my $uniq = (keys %newhypotheses)[0];
-		print "FLUSH:\n" if ($verbose);
-		print hypothesis_pairs_string($newhypotheses{$uniq});
-		$newhypotheses{$uniq} = {
-			'logprob' => 0.0,
-			'output' => [],
-		}; 
-	}
+	flush_best_hypothesis(\%newhypotheses) if (scalar keys %newhypotheses == 1);
 	%hypotheses = %newhypotheses;
+
 	if ($verbose) {
 		print "Live hypotheses:\n";
 		for my $two (keys %hypotheses) {
@@ -483,6 +497,8 @@ while (<STDIN>) {
 		process_one_token($_);
 	}
 }
+
+flush_best_hypothesis(\%hypotheses);
 
 if ($verbose) {
 	print "Total tokens: $tokens\n";
