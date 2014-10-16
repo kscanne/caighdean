@@ -145,12 +145,17 @@ Cuach_na_Cruinne Corn an Domhain
 Cupa_na_Cruinne Corn an Domhain
 Cànan_Soighnigh Teanga Chomharthaíochta
 Cù_Chullain Cú Chulainn
+Dhùidsis Ollainnise
 Dhùn_Bhreatainn Dhùn Bhreatainn
 Dhùn_Phris Dùn Phrìs
 Dhùn_Phrìs Dùn Phrìs
 Dhùn_Èideann Dhún Éideann
 Din_Eidyn Din Eidyn
 Donnchadh_nan_sùl_mòr Donncha na súl mór
+Dùidsis Ollainnise
+Dùidsis d'Ollainnise
+Dùidsis hOllainnise
+Dùidsis nOllainnise
 Dùn_Bhreatainn Dùn Bhreatainn
 Dùn_Phris Dùn Phrìs
 Dùn_Phrìs Dùn Phrìs
@@ -2453,6 +2458,11 @@ a_dh'eadar-theangachaidh d'aistrithe
 a_dh'eadar-theangachaidh d'aistriúcháin
 a_dh'eadar-theangachaidhean d'aistriúcháin
 a_dh'eadar-theangachaidhean d'aistriúchán
+a_dh'eadar-theangaiche d'aistritheoir
+a_dh'eadar-theangaiche d'aistritheora
+a_dh'eadar-theangaiche d'ateangaire
+a_dh'eadar-theangaichean d'aistritheoirí
+a_dh'eadar-theangaichean d'ateangairí
 a_dh'eadar-theangair d'aistritheoir
 a_dh'eadar-theangair d'aistritheora
 a_dh'eadar-theangair d'ateangaire
@@ -5261,7 +5271,11 @@ a_dh'iomchar d'iompar
 a_dh'iomhadh d'éad
 a_dh'iomhaidh d'éada
 a_dh'iomhaigh d'íomhá
+a_dh'iomhaigh do dhealbh
+a_dh'iomhaigh do dheilbhe
 a_dh'iomhaighean d'íomhánna
+a_dh'iomhaighean do dhealbh
+a_dh'iomhaighean do dhealbha
 a_dh'iomlaid do mhalairt
 a_dh'iomlaid do mhalartú
 a_dh'iomlaide do mhalairte
@@ -7027,9 +7041,13 @@ a_dh'ìoghnaidhean d'ionaí
 a_dh'ìoghnaidhean d'iontais
 a_dh'ìoghnaidhean d'iontas
 a_dh'ìomhaigh d'íomhá
+a_dh'ìomhaigh do dhealbh
+a_dh'ìomhaigh do dheilbhe
 a_dh'ìomhaigheachd d'íomháineachais
 a_dh'ìomhaigheachd d'íomháineachas
 a_dh'ìomhaighean d'íomhánna
+a_dh'ìomhaighean do dhealbh
+a_dh'ìomhaighean do dhealbha
 a_dh'ìompaire d'impire
 a_dh'ìompaireachd d'impireacht
 a_dh'ìompaireachd d'impireachta
@@ -10319,11 +10337,13 @@ bu_Dhiameugach b'Iamácach
 bu_Dhiameugach b'Iamácacha
 bu_Dhiameugaich b'Iamácaigh
 bu_Dhiameugaiche b'Iamácaí
+bu_Dhuidsis b'Ollainnis
 bu_Dhuitseach b'Ollannach
 bu_Dhuitseach b'Ollannacha
 bu_Dhuitsich b'Ollannaigh
 bu_Dhuitsiche b'Ollannaí
 bu_Dhuitsis b'Ollainnis
+bu_Dhùidsis b'Ollainnis
 bu_Fhairge b'Fharraige
 bu_Fhaoilleach b'Eanáir
 bu_Fhaoilteach b'Eanáir
@@ -12105,6 +12125,8 @@ bu_gheilt b'eagla
 bu_gheilt b'uafás
 bu_gheiltean b'eaglaí
 bu_gheiltean b'uafáis
+bu_gheur-dhàin b'eipeagraim
+bu_gheur-dhàn b'eipeagram
 bu_gheàrr-ainm b'acrainm
 bu_gheàrr-ainmean b'acrainmneacha
 bu_gheàrr-chunntas b'achoimre
@@ -13856,9 +13878,19 @@ champaicheadh_iad champálaidís
 champaicheadh_iad champálfaidís
 champaicheadh_tu champálfá
 champaichidh_sinn champálfaimid
+chan_ann ní
+chan_e ní
+chan_e_a' ní hé an
+chan_e_am ní hé an
+chan_e_an ní hé an
+chan_e_gu ní hé go
+chan_e_gun ní hé go
+chan_e_seo ní hé seo
+chan_e_sin ní hé sin
 chan_eadh ní hea
 chan_eil ní bhíonn
 chan_eil níl
+chan_eilear níltear
 chan_ell ní bhíonn
 chan_ell níl
 chan_fhac ní fhaca
@@ -13870,6 +13902,7 @@ chan_iad dúradar
 chan_iad ndúradar
 chan_sinn dúramar
 chan_sinn ndúramar
+chan_urrainn ní féidir
 chan_urrainn_dha ní féidir leis
 chan_urrainn_dhaibh ní féidir leo
 chan_urrainn_dhi ní féidir léi
@@ -15924,6 +15957,8 @@ comharraichidh_sinn gcomharthóimid
 comharraichidh_sinn marcálfaimid
 comhla_le in éineacht le
 comhla_ri in éineacht le
+comhla_ri_a in éineacht lena
+comhla_ri_ar in éineacht lenár
 comhla_ribh in éineacht leat
 comhla_ribh in éineacht libh
 comhla_rinn in éineacht linn
@@ -16295,6 +16330,8 @@ cuibhrigidh_sinn ceilfimid
 cuibhrigidh_sinn gceilfimid
 cuide_le in éineacht le
 cuide_ri in éineacht le
+cuide_ri_a in éineacht lena
+cuide_ri_ar in éineacht lenár
 cuide_ribh in éineacht leat
 cuide_ribh in éineacht libh
 cuide_rinn in éineacht linn
@@ -16605,6 +16642,8 @@ còirichidh_sinn cóireoimid
 còirichidh_sinn gcóireoimid
 còmh'_le in éineacht le
 còmh'_ri in éineacht le
+còmh'_ri_a in éineacht lena
+còmh'_ri_ar in éineacht lenár
 còmh'_ribh in éineacht leat
 còmh'_ribh in éineacht libh
 còmh'_rinn in éineacht linn
@@ -16631,6 +16670,8 @@ còmhdaichidh_sinn gcumhdóimid
 còmhdhail_phoblach iompar poiblí
 còmhla_le in éineacht le
 còmhla_ri in éineacht le
+còmhla_ri_a in éineacht lena
+còmhla_ri_ar in éineacht lenár
 còmhla_ribh in éineacht leat
 còmhla_ribh in éineacht libh
 còmhla_rinn in éineacht linn
@@ -18921,6 +18962,11 @@ de_dh'eadar-theangachaidh d'aistrithe
 de_dh'eadar-theangachaidh d'aistriúcháin
 de_dh'eadar-theangachaidhean d'aistriúcháin
 de_dh'eadar-theangachaidhean d'aistriúchán
+de_dh'eadar-theangaiche d'aistritheoir
+de_dh'eadar-theangaiche d'aistritheora
+de_dh'eadar-theangaiche d'ateangaire
+de_dh'eadar-theangaichean d'aistritheoirí
+de_dh'eadar-theangaichean d'ateangairí
 de_dh'eadar-theangair d'aistritheoir
 de_dh'eadar-theangair d'aistritheora
 de_dh'eadar-theangair d'ateangaire
@@ -21732,7 +21778,11 @@ de_dh'iomchar d'iompar
 de_dh'iomhadh d'éad
 de_dh'iomhaidh d'éada
 de_dh'iomhaigh d'íomhá
+de_dh'iomhaigh de dhealbh
+de_dh'iomhaigh de dheilbhe
 de_dh'iomhaighean d'íomhánna
+de_dh'iomhaighean de dhealbh
+de_dh'iomhaighean de dhealbha
 de_dh'iomlaid de mhalairt
 de_dh'iomlaid de mhalartú
 de_dh'iomlaide de mhalairte
@@ -23495,9 +23545,13 @@ de_dh'ìoghnaidhean d'ionaí
 de_dh'ìoghnaidhean d'iontais
 de_dh'ìoghnaidhean d'iontas
 de_dh'ìomhaigh d'íomhá
+de_dh'ìomhaigh de dhealbh
+de_dh'ìomhaigh de dheilbhe
 de_dh'ìomhaigheachd d'íomháineachais
 de_dh'ìomhaigheachd d'íomháineachas
 de_dh'ìomhaighean d'íomhánna
+de_dh'ìomhaighean de dhealbh
+de_dh'ìomhaighean de dhealbha
 de_dh'ìompaire d'impire
 de_dh'ìompaireachd d'impireacht
 de_dh'ìompaireachd d'impireachta
@@ -30448,6 +30502,11 @@ do_dh'eadar-theangachaidh d'aistrithe
 do_dh'eadar-theangachaidh d'aistriúcháin
 do_dh'eadar-theangachaidhean d'aistriúcháin
 do_dh'eadar-theangachaidhean d'aistriúchán
+do_dh'eadar-theangaiche d'aistritheoir
+do_dh'eadar-theangaiche d'aistritheora
+do_dh'eadar-theangaiche d'ateangaire
+do_dh'eadar-theangaichean d'aistritheoirí
+do_dh'eadar-theangaichean d'ateangairí
 do_dh'eadar-theangair d'aistritheoir
 do_dh'eadar-theangair d'aistritheora
 do_dh'eadar-theangair d'ateangaire
@@ -33259,7 +33318,11 @@ do_dh'iomchar d'iompar
 do_dh'iomhadh d'éad
 do_dh'iomhaidh d'éada
 do_dh'iomhaigh d'íomhá
+do_dh'iomhaigh do dhealbh
+do_dh'iomhaigh do dheilbhe
 do_dh'iomhaighean d'íomhánna
+do_dh'iomhaighean do dhealbh
+do_dh'iomhaighean do dhealbha
 do_dh'iomlaid do mhalairt
 do_dh'iomlaid do mhalartú
 do_dh'iomlaide do mhalairte
@@ -35022,9 +35085,13 @@ do_dh'ìoghnaidhean d'ionaí
 do_dh'ìoghnaidhean d'iontais
 do_dh'ìoghnaidhean d'iontas
 do_dh'ìomhaigh d'íomhá
+do_dh'ìomhaigh do dhealbh
+do_dh'ìomhaigh do dheilbhe
 do_dh'ìomhaigheachd d'íomháineachais
 do_dh'ìomhaigheachd d'íomháineachas
 do_dh'ìomhaighean d'íomhánna
+do_dh'ìomhaighean do dhealbh
+do_dh'ìomhaighean do dhealbha
 do_dh'ìompaire d'impire
 do_dh'ìompaireachd d'impireacht
 do_dh'ìompaireachd d'impireachta
@@ -41253,11 +41320,15 @@ mo_Dhiameuga m'Iamáice
 mo_Dhiameugach m'Iamácach
 mo_Dhiameugaich m'Iamácach
 mo_Dhiameugaich m'Iamácaigh
+mo_Dhuidsis m'Ollainnis
+mo_Dhuidsis m'Ollainnise
 mo_Dhuitseach m'Ollannach
 mo_Dhuitsich m'Ollannach
 mo_Dhuitsich m'Ollannaigh
 mo_Dhuitsis m'Ollainnis
 mo_Dhuitsis m'Ollainnise
+mo_Dhùidsis m'Ollainnis
+mo_Dhùidsis m'Ollainnise
 mo_Fhairge m'Fharraige
 mo_Fhaoilleach m'Eanáir
 mo_Fhaoillich m'Eanáir
@@ -43117,6 +43188,9 @@ mo_gheilte m'uafáis
 mo_gheiltean m'eaglaí
 mo_gheiltean m'uafáis
 mo_gheiltean m'uafás
+mo_gheur-dhàin m'eipeagraim
+mo_gheur-dhàin m'eipeagram
+mo_gheur-dhàn m'eipeagram
 mo_gheàrr-ainm m'acrainm
 mo_gheàrr-ainme m'acrainm
 mo_gheàrr-ainmean m'acrainmneacha
@@ -53385,6 +53459,7 @@ woo_hoo wúhú
 àiticheadh_iad áitídís
 àitichidh_sinn n-áiteoimid
 àitichidh_sinn áiteoimid
+àm_eigin am éigin
 àraicheadh_iad dtógaidís
 àraicheadh_iad thógaidís
 àraicheadh_iad tógaidís
