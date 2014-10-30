@@ -22,9 +22,12 @@ binmode STDERR, ":utf8";
 # probably want to sync these with filt.pl
 # (good way of cleaning corpus is to kill sentences with these!)
 my @fixed = (
-	qr/(?:https?|ftp):\/\/[A-Za-z0-9\/.:=_%?&~+;\$@\#()-]+[A-Za-z0-9\/=]/,
-	qr/[A-Za-z0-9._]+@[A-Za-z0-9.]+[A-Za-z0-9]/,
-	qr/<[\/]?[A-Za-z]([^>]+)?>/,
+	qr/(?:https?|ftp):\/\/[A-Za-z0-9\/.:=_%?&~+;\$@\#()-]+[A-Za-z0-9\/=]/, # URLs
+	qr/[A-Za-z0-9._]+@[A-Za-z0-9.]+[A-Za-z0-9]/,   # emails
+	qr/<[\/]?[A-Za-z]([^>]+)?>/,             # markup
+	qr/[:;=]['’0o-]?[()\]\/\\{}|dpDP][)]*/,  # emoticons
+	qr/[1-9][0-9]{0,2}(?:,[0-9]{3})+(?:\.[0-9]+)?/,  # numbers with commas in them
+	qr/[0-9]+(?:[:.][0-9]+)+/,  # numbers with commas in them
 );
 
 my $curr='';
