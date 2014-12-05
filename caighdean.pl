@@ -74,7 +74,8 @@ sub hypothesis_pairs_string {
 	for my $hr (@{$hyp->{'output'}}) {
 		my $source = $hr->{'s'};
 		my $target = $hr->{'t'};
-		$target = recapitalize(irishlc($target), cap_style($source));
+		$target = irishlc($target) unless ($source =~ m/_/);
+		$target = recapitalize($target, cap_style($source));
 		$ans .= "$source => $target\n";
 	}
 	return $ans;
@@ -112,7 +113,7 @@ sub recapitalize {
 			$w =~ s/^([bdm]')([aeiouáéíóú])/$1.uc($2)/e;  # d'Éirinn
 			$w =~ s/^(h-?)([aeiouáéíóú])/$1.uc($2)/e;  # hÉireann
 		}
-		unless ($w =~ /\p{Lu}/) {
+		unless ($w =~ /^[^ _]*\p{Lu}/) {
 			$w =~ s/^(['-]*)(.)/$1.uc($2)/e;
 		}
 	}
