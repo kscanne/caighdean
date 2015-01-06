@@ -71,7 +71,7 @@ eid-output.txt: tokenized-output.txt
 	cat tokenized-output.txt | perl detokenize.pl > $@
 
 clean:
-	rm -f detokentest.txt unchanged.txt post-tokens.txt pre-tokens.txt tokenized-output.txt tokenized-output-gd.txt nua-output.txt nua-output-gd.txt cga-output.txt pre-surv.txt post-surv.txt tofix.txt survey.txt probsleft.txt tofixgram.txt eid-output.txt unknown-gd.txt
+	rm -f detokentest.txt unchanged.txt post-tokens.txt pre-tokens.txt tokenized-output.txt tokenized-output-gd.txt nua-output.txt nua-output-gd.txt cga-output.txt pre-surv.txt post-surv.txt tofix.txt survey.txt probsleft.txt tofixgram.txt eid-output.txt
 
 ############## Build test sets from CCGG ###############
 
@@ -92,11 +92,11 @@ cgaeval: cga-output.txt FORCE
 ############## SURVEY OF UNKNOWN WORDS ###############
 
 GDCORPUS=${HOME}/seal/idirlamha/gd/freq/corpus.txt
-unknown-gd.txt: $(GDCORPUS) multi-gd.txt pairs-gd.txt pairs-local-gd.txt rules-gd.txt spurious-gd.txt alltokens.pl nasc.pl tiomanai.sh
+maint/unknown-gd.txt: $(GDCORPUS) multi-gd.txt pairs-gd.txt pairs-local-gd.txt rules-gd.txt spurious-gd.txt alltokens.pl nasc.pl tiomanai.sh
 	cat $(GDCORPUS) | bash tiomanai.sh -d -v | egrep '^UNKNOWN: ' | sed 's/^UNKNOWN: //' | egrep '[A-Za-zÁÉÍÓÚáéíóúÀÈÌÒÙàèìòù]' | sort | uniq -c | sort -r -n | sed 's/^ *//' > $@
 
-oov.txt: unknown-gd.txt $(GDCORPUS) alltokens.pl nasc.pl
-	echo `date '+%Y-%m-%d %H:%M:%S'` `(cat unknown-gd.txt | sed 's/ .*//' | addem; echo '10000'; echo '*'; cat $(GDCORPUS) | perl alltokens.pl "-‐" "0-9’'#@" | perl nasc.pl -d | egrep -v '^[<\\]' | wc -l; echo '/'; echo 'p') | dc | sed 's/..$$/.&/'` >> $@
+maint/oov.txt: maint/unknown-gd.txt $(GDCORPUS) alltokens.pl nasc.pl
+	echo `date '+%Y-%m-%d %H:%M:%S'` `(cat maint/unknown-gd.txt | sed 's/ .*//' | addem; echo '10000'; echo '*'; cat $(GDCORPUS) | perl alltokens.pl "-‐" "0-9’'#@" | perl nasc.pl -d | egrep -v '^[<\\]' | wc -l; echo '/'; echo 'p') | dc | sed 's/..$$/.&/'` >> $@
 	tail $@
 
 # in testpost.txt; use this output to further standardize testpost.txt manually
