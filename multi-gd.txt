@@ -152,10 +152,6 @@ Dhùn_Phrìs Dùn Phrìs
 Dhùn_Èideann Dhún Éideann
 Din_Eidyn Din Eidyn
 Donnchadh_nan_sùl_mòr Donncha na súl mór
-Dùidsis Ollainnise
-Dùidsis d'Ollainnise
-Dùidsis hOllainnise
-Dùidsis nOllainnise
 Dùn_Bhreatainn Dùn Bhreatainn
 Dùn_Phris Dùn Phrìs
 Dùn_Phrìs Dùn Phrìs
@@ -8407,6 +8403,7 @@ ann_an_tiotan i bhfaiteadh na súl
 ann_an_tiotan i bprap na súl
 ann_an_toiseach ar dtús
 ann_an_tòiseach ar dtús
+ann_an_Àstralia san Astráil
 ann_an_òrdugh in ord
 anno_Domini anno Domini
 anns_A' sa
@@ -9442,6 +9439,7 @@ bho_chionn_fhada i bhfad ó shin
 bho_chionn_ghoirid le déanaí
 bho_chionn_goirid le déanaí
 bho_chàch ón chuid eile
+bho_Àstralia ón Astráil
 bhoc_iad bhocáladar
 bhoc_iad bpreabadar
 bhoc_iad mbocáladar
@@ -16227,6 +16225,8 @@ cruthaicheadh_iad gcruthóidís
 cruthaicheadh_tu gcruthófá
 cruthaichidh_sinn cruthóimid
 cruthaichidh_sinn gcruthóimid
+cruthan_clò clónna
+cruthan_clò gclónna
 cruthan_tìre dtír-raonta
 cruthan_tìre tír-raonta
 cràidheadh_iad cráidís
@@ -16750,6 +16750,7 @@ cùram_chloinne cùram clainne
 cùram_cloinne cùram clainne
 cùrsa_bogaidh tumchúrsa
 cùrsaichean_bogaidh tumchúrsaí
+d'Ard_Righ d'ardrí
 d'a_ionnsuidh chuige
 d'an_goirear ar a dtugtar
 d'an_sac d'asma
@@ -23863,6 +23864,7 @@ de_dh'ùtrais d'fhústráil
 de_dh'ùtrais d'fhústrála
 de_làimh de láimh
 de_marble de mharmar
+de_Àstralia den Astráil
 deach_iad dheachadar
 deach_iad ndeachadar
 deach_sinn dheachamar
@@ -35413,6 +35415,7 @@ do_rinn_sinn ndearnamar
 do_rinneadh dhearnadh
 do_rinneadh ndearnadh
 do_rèir dá réir sin
+do_Àstralia don Astráil
 dochainneadh_iad dochraídís
 dochainneadh_iad ndochraídís
 dochainneadh_iad ndochróidís
@@ -38502,6 +38505,7 @@ gu_sìorruidh go deo
 gu_sìorruidh go síoraí
 gu_sìorruidh_bràth go brách
 gu_sònraichte go háirithe
+gu_Àstralia go dtí an Astráil
 guidheadh_iad guídís
 guidheadh_iad nguídís
 guidheadh_iad nguífidís
@@ -39283,6 +39287,7 @@ le_t-uile_anam le d'anam iomlán
 le_t-uile_chridhe le do chroí iomlán
 le_t-uile_inntinn le d'intinn iomlán
 le_t-uile_neart le do neart iomlán
+le_Àstralia leis an Astráil
 leabaich_iad leabaíodar
 leabaich_sinn leabaíomar
 leabaicheadh_iad leabaídís
@@ -40402,6 +40407,8 @@ m'a_dheidhin faoi
 m'a_dheidhinn faoi
 m'an_deidhinn fúthu
 m'an_sac m'asma
+m'aodach_uachdair m'fhoréadach
+m'aodach_uachdair mo bhrat
 m'iasg_geal m'fhaoitín
 m'inneal_tomhais_aimsir m'anaróideach
 m'innealan_tomhais_aimsir m'anaróideach
@@ -45260,6 +45267,7 @@ o_chionn_greiseig le déanaí
 o_chionn_tiota le déanaí
 o_chionn_tiotaig le déanaí
 o_chàch ón chuid eile
+o_Àstralia ón Astráil
 obadh_iad n-obaidís
 obadh_iad obaidís
 obaidh_sinn n-obfaimid
@@ -46950,6 +46958,7 @@ ri_linn de bharr
 ri_linn de bhrí
 ri_na leis na
 ri_taobh le taobh
+ri_Àstralia leis an Astráil
 riaghail_iad rialaíodar
 riaghail_sinn rialaíomar
 riaghaileadh_iad rialaídís
@@ -53438,6 +53447,7 @@ woo_hoo wúhú
 à_measg as measc
 à_rèim ar fionraí
 à_sealladh as radharc
+à_Àstralia as an Astráil
 àicheidheadh_iad shéanaidís
 àicheidheadh_iad séanaidís
 àicheidhidh_sinn shéanfaimid
