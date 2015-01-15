@@ -10,13 +10,11 @@ binmode STDERR, ":utf8";
 
 my %phrases;
 my $maxwords = 0;
-my $gd = 0;
+my $extension = '';
 
 for my $a (@ARGV) {
-	$gd = 1 if ($a eq '-d');
+	$extension = '-gd' if ($a eq '-d');
 }
-my $extension = '';
-$extension = '-gd' if ($gd);
 
 sub normalize {
 	(my $w) = @_;
@@ -34,33 +32,40 @@ while (<MULTI>) {
 }
 close MULTI;
 
-$maxwords = 5;
-
-my @queue;
-LINE: while (<STDIN>) {
-	chomp;
-	push @queue, $_;
-	my $tot = scalar @queue;
-	if ($tot > $maxwords) {
-		my $w = shift @queue;
-		$tot--;
-		print "$w\n";
-	}
+# looks for longest multiword (only) at front of queue
+# prints and shifts words off if one is found
+sub look_for_multi {
+	(my $q) = @_;
+	my $tot = scalar @{$q};
 	for (my $len=$tot; $len >= 2; $len--) {
-		my $cand = join('_', @queue[0..($len-1)]);
+		my $cand = join('_', @$q[0..($len-1)]);
 		my $lccand = normalize($cand);
 		if (exists($phrases{$lccand}) or $lccand =~ m/^([bdm]|dh)'_[^_]+$/) {
 			for (0..($len-1)) {
-				shift @queue;
+				shift @{$q};
 			}
 			$cand =~ s/^([BDMbdm]|[Dd]h)([ʼ’'])_/$1$2/i;
 			print "$cand\n";
-			next LINE;
+			return;
 		}
 	}
+
 }
-for my $w (@queue) {
+
+my @queue;
+while (<STDIN>) {
+	chomp;
+	push @queue, $_;
+	if (scalar @queue > $maxwords) {
+		my $w = shift @queue;
+		print "$w\n";
+	}
+	look_for_multi(\@queue);
+}
+while (scalar @queue > 0) {
+	my $w = shift @queue;
 	print "$w\n";
+	look_for_multi(\@queue);
 }
 
 exit 0;
