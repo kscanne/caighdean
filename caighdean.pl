@@ -12,16 +12,15 @@ binmode STDOUT, ":utf8";
 binmode STDERR, ":utf8";
 
 my $verbose = 0;
-my $gd = 0;
+my $extension = '';
 my $db = 1;
 
 for my $a (@ARGV) {
 	$verbose = 1 if ($a eq '-v');
-	$gd = 1 if ($a eq '-d');
+	$extension = '-gd' if ($a eq '-d');
+	$extension = '-gv' if ($a eq '-x');
 }
 
-my $extension = '';
-$extension = '-gd' if ($gd);
 
 my $maxdepth = 10;
 my $penalty = 2.9;

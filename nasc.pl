@@ -14,6 +14,7 @@ my $extension = '';
 
 for my $a (@ARGV) {
 	$extension = '-gd' if ($a eq '-d');
+	$extension = '-gv' if ($a eq '-x');
 }
 
 sub normalize {
@@ -22,7 +23,7 @@ sub normalize {
 	return lc($w);
 }
 
-open(MULTI, "<:utf8", "multi$extension.txt") or die "Could not open list of phrases: $!";
+open(MULTI, "<:utf8", "multi$extension.txt") or die "Could not open list of phrases multi$extension.txt: $!";
 while (<MULTI>) {
 	chomp;
 	(my $phrase, my $ignore) = m/^([^ ]+) (.+)$/;
