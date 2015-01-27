@@ -8,8 +8,10 @@
 # LHS = gold-standard, RHS = output of caighdeánaitheoir
 TESTPRE=testpre.txt
 TESTPOST=testpost.txt
-TESTGA=testpost-gd.txt
+TESTGDGA=testpost-gd.txt
 TESTGD=testpre-gd.txt
+TESTGVGA=testpost-gv.txt
+TESTGV=testpre-gv.txt
 
 all: ok.txt
 
@@ -26,7 +28,11 @@ baseline: FORCE
 	@echo `cat unchanged.txt | wc -l` "out of" `cat $(TESTPRE) | wc -l` "unchanged"
 
 baseline-gd: FORCE
-	@perl compare.pl $(TESTGA) $(TESTGD)
+	@perl compare.pl $(TESTGDGA) $(TESTGD)
+	@echo `cat unchanged.txt | wc -l` "out of" `cat $(TESTGD) | wc -l` "unchanged"
+
+baseline-gv: FORCE
+	@perl compare.pl $(TESTGDGA) $(TESTGD)
 	@echo `cat unchanged.txt | wc -l` "out of" `cat $(TESTGD) | wc -l` "unchanged"
 
 # run pre-standardized text through the new code
@@ -36,11 +42,17 @@ tokenized-output.txt: $(TESTPRE) tiomanai.sh nasc.pl caighdean.pl rules.txt clea
 tokenized-output-gd.txt: $(TESTGD) tiomanai.sh nasc.pl caighdean.pl rules-gd.txt clean.txt pairs-gd.txt ngrams.txt alltokens.pl pairs-local-gd.txt spurious-gd.txt multi-gd.txt
 	cat $(TESTGD) | bash tiomanai.sh -d > $@
 
+tokenized-output-gv.txt: $(TESTGV) tiomanai.sh nasc.pl caighdean.pl rules-gv.txt clean.txt pairs-gv.txt ngrams.txt alltokens.pl pairs-local-gv.txt spurious-gv.txt multi-gv.txt
+	cat $(TESTGV) | bash tiomanai.sh -x > $@
+
 nua-output.txt: tokenized-output.txt detokenize.pl
 	cat tokenized-output.txt | sed 's/^.* => //' | perl detokenize.pl > $@
 
 nua-output-gd.txt: tokenized-output-gd.txt detokenize.pl
 	cat tokenized-output-gd.txt | sed 's/^.* => //' | perl detokenize.pl > $@
+
+nua-output-gv.txt: tokenized-output-gv.txt detokenize.pl
+	cat tokenized-output-gv.txt | sed 's/^.* => //' | perl detokenize.pl > $@
 
 # doing full files is too slow
 surv: FORCE
@@ -58,9 +70,15 @@ ok.txt: nua-output.txt $(TESTPOST) compare.pl
 	mv unchanged.txt $@
 	git diff $@
 
-ok-gd.txt: nua-output-gd.txt $(TESTGA) compare.pl
-	perl compare.pl $(TESTGA) nua-output-gd.txt
+ok-gd.txt: nua-output-gd.txt $(TESTGDGA) compare.pl
+	perl compare.pl $(TESTGDGA) nua-output-gd.txt
 	echo `cat unchanged.txt | wc -l` "out of" `cat nua-output-gd.txt | wc -l` "correct"
+	mv unchanged.txt $@
+	git diff $@
+
+ok-gv.txt: nua-output-gv.txt $(TESTGVGA) compare.pl
+	perl compare.pl $(TESTGVGA) nua-output-gv.txt
+	echo `cat unchanged.txt | wc -l` "out of" `cat nua-output-gv.txt | wc -l` "correct"
 	mv unchanged.txt $@
 	git diff $@
 
@@ -76,8 +94,13 @@ clean:
 ############## Build test sets from CCGG ###############
 
 ccgg-refresh: FORCE
-	find ${HOME}/gaeilge/ga2gd/ccgg -type f | egrep -v -- '-b$$' | egrep -v '/po-m[a-z][a-z]t$$' | while read x; do paste $$x $$x-b | sed 's/^[^:]*: *//' | sed 's/\t[^:]*: */\t/'; done | shuf | tee pasted.txt | cut -f 1 > $(TESTGA)
+	find ${HOME}/gaeilge/ga2gd/ccgg -type f | egrep -v -- '-b$$' | egrep -v '/po-m[a-z][a-z]t$$' | while read x; do paste $$x $$x-b | sed 's/^[^:]*: *//' | sed 's/\t[^:]*: */\t/'; done | shuf | tee pasted.txt | cut -f 1 > $(TESTGDGA)
 	cat pasted.txt | cut -f 2 > $(TESTGD)
+	rm -f pasted.txt
+
+cc-refresh: FORCE
+	find ${HOME}/gaeilge/ga2gv/cc -type f | egrep -v -- '-b$$' | egrep -v 'ga2gv$$' | while read x; do paste $$x $$x-b | sed 's/^[^ ]*: *//' | sed 's/\t[^ ]*: */\t/'; done | shuf | head -n 5000 | tee pasted.txt | cut -f 1 > $(TESTGVGA)
+	cat pasted.txt | cut -f 2 > $(TESTGV)
 	rm -f pasted.txt
 
 ############## COMPARISON WITH RULE-BASED VERSION ONLY ###############
