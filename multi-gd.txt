@@ -145,7 +145,6 @@ Cuach_na_Cruinne Corn an Domhain
 Cupa_na_Cruinne Corn an Domhain
 Cànan_Soighnigh Teanga Chomharthaíochta
 Cù_Chullain Cú Chulainn
-Dhùidsis Ollainnise
 Dhùn_Bhreatainn Dhùn Bhreatainn
 Dhùn_Phris Dùn Phrìs
 Dhùn_Phrìs Dùn Phrìs
@@ -1021,6 +1020,8 @@ a_dh'actair d'aisteora
 a_dh'actaireachd d'aisteoireacht
 a_dh'actaireachd d'aisteoireachta
 a_dh'actairean d'aisteoirí
+a_dh'actar d'aisteoir
+a_dh'actaran d'aisteoirí
 a_dh'acàdamaidh d'acadaimh
 a_dh'acàdamaidh d'acadamh
 a_dh'acàdamaidhean d'acadaimh
@@ -7419,7 +7420,7 @@ a_nisde anois
 a_nise anois
 a_nist anois
 a_nuas anuas
-a_null anall
+a_null anonn
 a_nunn anonn
 a_nìos aníos
 a_raoir aréir
@@ -7441,6 +7442,7 @@ a_tann atá ann
 a_th' atá
 a_th'aca atá acu
 a_th'agad atá agat
+a_th'agad-sa atá agatsa
 a_th'agaibh atá agaibh
 a_th'agaibh atá agat
 a_th'againn atá againn
@@ -7451,14 +7453,16 @@ a_th'air atá ar
 a_th'ann atá ann
 a_th'ann_an atá i
 a_th'ann_an atá in
-a_th'annad atá ionam
+a_th'annad atá ionat
 a_th'annam atá ionam
+a_th'annamsa atá ionamsa
 a_th'anns_a' atá sa
 a_th'anns_a' atá san
 a_th'anns_an atá sa
 a_th'anns_an atá san
 a_th'anns_na atá sna
 a_th'annta atá iontu
+a_th'orm atá orm
 a_th'ort atá ort
 a_tha atá
 a_tha' atá
@@ -7541,6 +7545,7 @@ aig_an_tòiseach ar dtús
 aig_an_ìre-sa ag an bpointe seo
 aig_an_ìre_sa ag an bpointe seo
 aig_an_ìre_seo ag an bpointe seo
+aig_auction ar ceant
 aig_fois faoi shuaimhneas
 aig_peilear_a_beatha ar lánluas
 aig_peilear_a_bheatha ar lánluas
@@ -8467,6 +8472,7 @@ anns_a_bheil ina bhfuil
 anns_a_h-uile i ngach uile
 anns_an sa
 anns_an san
+anns_an_Eadailt san Iodáil
 anns_an_Ear-Thuath san Oirthuaisceart
 anns_an_Elbe san Eilbe
 anns_an_Sealainn_Nuadh sa Nua-Shéalainn
@@ -9746,6 +9752,22 @@ bhrosnaicheadh_iad spreagaidís
 bhrosnaicheadh_iad spreagfaidís
 bhrosnaicheadh_tu spreagfá
 bhrosnaichidh_sinn spreagfaimid
+bhruadair_iad dtaibhríodar
+bhruadair_iad thaibhríodar
+bhruadair_sinn dtaibhríomar
+bhruadair_sinn thaibhríomar
+bhruadaireadh_iad thaibhreoidís
+bhruadaireadh_iad thaibhrídís
+bhruadaireadh_tu thaibhreofá
+bhruadairidh_sinn thaibhreoimid
+bhruadraich_iad dtaibhríodar
+bhruadraich_iad thaibhríodar
+bhruadraich_sinn dtaibhríomar
+bhruadraich_sinn thaibhríomar
+bhruadraicheadh_iad thaibhreoidís
+bhruadraicheadh_iad thaibhrídís
+bhruadraicheadh_tu thaibhreofá
+bhruadraichidh_sinn thaibhreoimid
 bhruich_iad bhruitheadar
 bhruich_iad chócaráladar
 bhruich_iad gcócaráladar
@@ -10300,6 +10322,18 @@ brosnaicheadh_iad spreagaidís
 brosnaicheadh_iad spreagfaidís
 brosnaicheadh_tu spreagfá
 brosnaichidh_sinn spreagfaimid
+bruadaireadh_iad dtaibhreoidís
+bruadaireadh_iad dtaibhrídís
+bruadaireadh_iad taibhrídís
+bruadaireadh_tu dtaibhreofá
+bruadairidh_sinn dtaibhreoimid
+bruadairidh_sinn taibhreoimid
+bruadraicheadh_iad dtaibhreoidís
+bruadraicheadh_iad dtaibhrídís
+bruadraicheadh_iad taibhrídís
+bruadraicheadh_tu dtaibhreofá
+bruadraichidh_sinn dtaibhreoimid
+bruadraichidh_sinn taibhreoimid
 bruicheadh_iad bruithidís
 bruicheadh_iad cócarálaidís
 bruicheadh_iad gcócarálaidís
@@ -10527,6 +10561,8 @@ bu_bhriathar b'fhocal
 bu_bhriathra b'fhocail
 bu_bhriathraibh b'fhocail
 bu_bhriathran b'fhocail
+bu_bhrioscaid b'fhianán
+bu_bhrioscaidean b'fhianáin
 bu_bhriosgaid b'fhianán
 bu_bhriosgaidean b'fhianáin
 bu_bhroilleach b'ucht
@@ -10840,7 +10876,9 @@ bu_chìobair b'aoire
 bu_chìobairean b'aoirí
 bu_chìoch-shluagain b'úbhal
 bu_chìoch-shlugain b'úbhal
+bu_chìs-bhuailteach b'incháinithe
 bu_chìs-bhuailteach b'inchánaithe
+bu_chìs-bhuailtiche b'incháinithe
 bu_chìs-bhuailtiche b'inchánaithe
 bu_chòilean b'idirstad
 bu_chòileanan b'idirstadanna
@@ -13229,8 +13267,10 @@ bu_thèatair b'amharclann
 bu_thèatairean b'amharclanna
 bu_thèatar b'amharclann
 bu_thèataran b'amharclanna
+bu_thìd b'am
 bu_thìd' b'am
 bu_thìde b'am
+bu_thìdeachan b'amanna
 bu_thìdean b'amanna
 bu_thìm b'aimsir
 bu_thìm b'am
@@ -17586,6 +17626,8 @@ de_dh'actair d'aisteora
 de_dh'actaireachd d'aisteoireacht
 de_dh'actaireachd d'aisteoireachta
 de_dh'actairean d'aisteoirí
+de_dh'actar d'aisteoir
+de_dh'actaran d'aisteoirí
 de_dh'acàdamaidh d'acadaimh
 de_dh'acàdamaidh d'acadamh
 de_dh'acàdamaidhean d'acadaimh
@@ -24407,6 +24449,7 @@ deothaileadh_iad ndiúlfaidís
 deothaileadh_tu ndiúlfá
 deothailidh_sinn diúlfaimid
 deothailidh_sinn ndiúlfaimid
+despatch_rider giolla turais
 deuchainn_Àrd-ìre Ardteist
 deàlraicheadh_iad dealraídís
 deàlraicheadh_iad lonraídís
@@ -28405,6 +28448,7 @@ dionadh_iad gcosnóidís
 dionadh_tu gcosnófá
 dionaidh_sinn cosnóimid
 dionaidh_sinn gcosnóimid
+dispatch_rider giolla turais
 diultadh_iad diúltaídís
 diultadh_iad ndiúltaídís
 diultadh_iad ndiúltóidís
@@ -29163,6 +29207,8 @@ do_dh'actair d'aisteora
 do_dh'actaireachd d'aisteoireacht
 do_dh'actaireachd d'aisteoireachta
 do_dh'actairean d'aisteoirí
+do_dh'actar d'aisteoir
+do_dh'actaran d'aisteoirí
 do_dh'acàdamaidh d'acadaimh
 do_dh'acàdamaidh d'acadamh
 do_dh'acàdamaidhean d'acadaimh
@@ -41642,6 +41688,10 @@ mo_bhriathraibh m'fhocail
 mo_bhriathraibh m'fhocal
 mo_bhriathran m'fhocail
 mo_bhriathran m'fhocal
+mo_bhrioscaid m'fhianán
+mo_bhrioscaide m'fhianáin
+mo_bhrioscaidean m'fhianáin
+mo_bhrioscaidean m'fhianán
 mo_bhriosgaid m'fhianán
 mo_bhriosgaide m'fhianáin
 mo_bhriosgaidean m'fhianáin
@@ -44612,10 +44662,12 @@ mo_thèatairean m'amharclanna
 mo_thèatar m'amharclann
 mo_thèataran m'amharclann
 mo_thèataran m'amharclanna
+mo_thìd m'am
 mo_thìd' m'am
 mo_thìd' m'ama
 mo_thìde m'am
 mo_thìde m'ama
+mo_thìdeachan m'amanna
 mo_thìdean m'amanna
 mo_thìm m'aimsir
 mo_thìm m'am
