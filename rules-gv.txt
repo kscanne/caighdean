@@ -25,6 +25,7 @@
 ^n-([AEIOUÁÉÍÓÚÀÈÌÒÙ])	n-\l$1	-1
 ^t([AEIOUÁÉÍÓÚÀÈÌÒÙSHF])	t-$1	-1
 ^t-([AEIOUÁÉÍÓÚÀÈÌÒÙSHF])	t-\l$1	-1
+^h-	h	1
 #######################################################
 # ansin iarracht ar fhocal sa sprioctheanga a aimsiú...
 # turas góidrisc den chuid is mó! 
