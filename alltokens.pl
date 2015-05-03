@@ -24,6 +24,7 @@ binmode STDERR, ":utf8";
 my @fixed = (
 	qr/(?:https?|ftp):\/\/[A-Za-z0-9\/.:=_%?&~+;\$@\#()-]+[A-Za-z0-9\/=]/, # URLs
 	qr/[A-Za-z0-9._]+@[A-Za-z0-9.]+[A-Za-z0-9]/,   # emails
+	qr/&(amp|[lg]t|quot|#[0-9]+);/, # SGML entities
 	qr/<[\/]?[A-Za-z]([^>]+)?>/,             # markup
 	qr/[:;=]['’0o-]?[()\]\\{}|dpDP][)]*/,  # emoticons
 	qr/[1-9][0-9]{0,2}(?:,[0-9]{3})+(?:\.[0-9]+)?/,  # numbers with commas in them
