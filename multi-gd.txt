@@ -8865,6 +8865,8 @@ as_motha is mó
 as_t-Fhoghar san Fhómhar
 as_t-fhoghar san fhómhar
 as_urrainnear is féidir
+as_ùire is déanaí
+as_ùire is nuaí
 asal_stiallach shéabra
 asal_stiallach séabra
 ascaoineadh_iad choinnealbháfaidís
@@ -10176,13 +10178,21 @@ bhuaireadh_tu bhuairfeá
 bhuaireadh_tu chathófá
 bhuairidh_sinn bhuairfimid
 bhuairidh_sinn chathóimid
+bhuanaich_iad bhuadar
 bhuanaich_iad bhuanaíodar
+bhuanaich_iad mbuadar
 bhuanaich_iad mbuanaíodar
+bhuanaich_sinn bhuamar
 bhuanaich_sinn bhuanaíomar
+bhuanaich_sinn mbuamar
 bhuanaich_sinn mbuanaíomar
+bhuanaicheadh_iad bhuafaidís
+bhuanaicheadh_iad bhuaidís
 bhuanaicheadh_iad bhuanaídís
 bhuanaicheadh_iad bhuanóidís
+bhuanaicheadh_tu bhuafá
 bhuanaicheadh_tu bhuanófá
+bhuanaichidh_sinn bhuafaimid
 bhuanaichidh_sinn bhuanóimid
 bhuannaich_iad bhuadar
 bhuannaich_iad mbuadar
@@ -13631,11 +13641,17 @@ buairidh_sinn buairfimid
 buairidh_sinn cathóimid
 buairidh_sinn gcathóimid
 buairidh_sinn mbuairfimid
+buanaicheadh_iad buaidís
 buanaicheadh_iad buanaídís
+buanaicheadh_iad mbuafaidís
+buanaicheadh_iad mbuaidís
 buanaicheadh_iad mbuanaídís
 buanaicheadh_iad mbuanóidís
+buanaicheadh_tu mbuafá
 buanaicheadh_tu mbuanófá
+buanaichidh_sinn buafaimid
 buanaichidh_sinn buanóimid
+buanaichidh_sinn mbuafaimid
 buanaichidh_sinn mbuanóimid
 buannaicheadh_iad buaidís
 buannaicheadh_iad mbuafaidís
@@ -15312,6 +15328,14 @@ chriathraicheadh_iad chriathraídís
 chriathraicheadh_iad chriathróidís
 chriathraicheadh_tu chriathrófá
 chriathraichidh_sinn chriathróimid
+chriochnich_iad chríochnaíodar
+chriochnich_iad gcríochnaíodar
+chriochnich_sinn chríochnaíomar
+chriochnich_sinn gcríochnaíomar
+chriochnicheadh_iad chríochnaídís
+chriochnicheadh_iad chríochnóidís
+chriochnicheadh_tu chríochnófá
+chriochnichidh_sinn chríochnóimid
 chriom_iad chreimeadar
 chriom_iad gcreimeadar
 chriom_sinn chreimeamar
@@ -16586,6 +16610,12 @@ criathraicheadh_iad gcriathróidís
 criathraicheadh_tu gcriathrófá
 criathraichidh_sinn criathróimid
 criathraichidh_sinn gcriathróimid
+criochnicheadh_iad críochnaídís
+criochnicheadh_iad gcríochnaídís
+criochnicheadh_iad gcríochnóidís
+criochnicheadh_tu gcríochnófá
+criochnichidh_sinn críochnóimid
+criochnichidh_sinn gcríochnóimid
 criomadh_iad creimidís
 criomadh_iad gcreimfidís
 criomadh_iad gcreimidís
@@ -40192,6 +40222,8 @@ is_urrainn_dhuibh is féidir leat
 is_urrainn_dhuibh is féidir libh
 is_urrainn_dhuinn is féidir linn
 is_urrainn_dhut is féidir leat
+is_ùire is déanaí
+is_ùire is nuaí
 itealaicheadh_iad eitleoidís
 itealaicheadh_iad eitlídís
 itealaicheadh_iad n-eitleoidís
@@ -46057,6 +46089,8 @@ nas_fhaisge níos cóngaraí
 nas_miosa níos measa
 nas_motha níos mó
 nas_them níos fearr
+nas_ùire níos déanaí
+nas_ùire níos nuaí
 neach_ainmichte ainmnitheach
 neach_aithris dtráchtaire
 neach_aithris thráchtaire
