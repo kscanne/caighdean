@@ -30,6 +30,7 @@
 'n_impis ar tí
 'n_uiridh anuraidh
 'n_uraidh anuraidh
+'na_chois lena chois
 'na_chrùban ar a ghogaide
 'na_crùban ar a gogaide
 'na_deann ar lánluas
@@ -342,7 +343,12 @@ a'_feuchainn_ri ag iarraidh
 a'_feuchainn_ris ag iarraidh
 a'_fuireach ag fanacht
 a'_fuireach ina chónaí
+a'_gabhail_aite ag tarlú
 a'_gabhail_pàirt ag glacadh páirte
+a'_gabhail_àite ag tarlú
+a'_gabhal_aite ag tarlú
+a'_gabhal_pàirt ag glacadh páirte
+a'_gabhal_àite ag tarlú
 a'_mealtainn ag baint sult as
 a'_màireach amárach
 a'_nisd anois
@@ -2849,6 +2855,7 @@ a_dh'eiriceachd d'eiriceacht
 a_dh'eiriceachd d'eiriceachta
 a_dh'eiricich d'eiriceach
 a_dh'eiricich d'eiricigh
+a_dh'eiridh d'éirí
 a_dh'eiridinn d'altranais
 a_dh'eiridinn d'altranas
 a_dh'eiridneach d'othar
@@ -6967,6 +6974,7 @@ a_dh'èildeir do sheanóra
 a_dh'èileadh d'fhilleadh
 a_dh'èilidh d'fhillidh
 a_dh'èill d'éille
+a_dh'èiridh d'éirí
 a_dh'èirig d'éiric
 a_dh'èirige d'éirice
 a_dh'èirigean d'éiricí
@@ -7014,6 +7022,7 @@ a_dh'éiginn d'éigin
 a_dh'éileadh d'fhilleadh
 a_dh'éilidh d'fhillidh
 a_dh'éilidhean d'fhillteacha
+a_dh'éiridh d'éirí
 a_dh'éirigh d'éirí
 a_dh'éisdeachd d'éisteacht
 a_dh'éisdeachd d'éisteachta
@@ -7599,7 +7608,10 @@ aidicheadh_tu admhófá
 aidicheadh_tu n-admhófá
 aidichidh_sinn admhóimid
 aidichidh_sinn n-admhóimid
+aig_a'_cheann-thall faoi dheireadh thiar
 aig_a'_cheann-thall i ndeireadh na dála
+aig_a_cheann-thall faoi dheireadh thiar
+aig_a_cheann-thall i ndeireadh na dála
 aig_an_ire-sa ag an bpointe seo
 aig_an_ire_sa ag an bpointe seo
 aig_an_ire_seo ag an bpointe seo
@@ -8159,8 +8171,12 @@ an_ath-ghinealach an chéad ghlúin eile
 an_ath-latha an chéad lá eile
 an_ath-mhionaid an chéad nóiméad eile
 an_ath-mhìos an chéad mhí eile
+an_ath-oidhch an chéad oíche eile
+an_ath-oidhch oíche amárach
 an_ath-oidhch' an chéad oíche eile
+an_ath-oidhch' oíche amárach
 an_ath-oidhche an chéad oíche eile
+an_ath-oidhche oíche amárach
 an_ath-rud an chéad rud eile
 an_ath-sheachdain an chéad seachtain eile
 an_ath-sheachdainn an chéad seachtain eile
@@ -19824,6 +19840,7 @@ de_dh'eiriceachd d'eiriceacht
 de_dh'eiriceachd d'eiriceachta
 de_dh'eiricich d'eiriceach
 de_dh'eiricich d'eiricigh
+de_dh'eiridh d'éirí
 de_dh'eiridinn d'altranais
 de_dh'eiridinn d'altranas
 de_dh'eiridneach d'othar
@@ -23942,6 +23959,7 @@ de_dh'èildeir de sheanóra
 de_dh'èileadh d'fhilleadh
 de_dh'èilidh d'fhillidh
 de_dh'èill d'éille
+de_dh'èiridh d'éirí
 de_dh'èirig d'éiric
 de_dh'èirige d'éirice
 de_dh'èirigean d'éiricí
@@ -23989,6 +24007,7 @@ de_dh'éiginn d'éigin
 de_dh'éileadh d'fhilleadh
 de_dh'éilidh d'fhillidh
 de_dh'éilidhean d'fhillteacha
+de_dh'éiridh d'éirí
 de_dh'éirigh d'éirí
 de_dh'éisdeachd d'éisteacht
 de_dh'éisdeachd d'éisteachta
@@ -31432,6 +31451,7 @@ do_dh'eiriceachd d'eiriceacht
 do_dh'eiriceachd d'eiriceachta
 do_dh'eiricich d'eiriceach
 do_dh'eiricich d'eiricigh
+do_dh'eiridh d'éirí
 do_dh'eiridinn d'altranais
 do_dh'eiridinn d'altranas
 do_dh'eiridneach d'othar
@@ -35550,6 +35570,7 @@ do_dh'èildeir do sheanóra
 do_dh'èileadh d'fhilleadh
 do_dh'èilidh d'fhillidh
 do_dh'èill d'éille
+do_dh'èiridh d'éirí
 do_dh'èirig d'éiric
 do_dh'èirige d'éirice
 do_dh'èirigean d'éiricí
@@ -35597,6 +35618,7 @@ do_dh'éiginn d'éigin
 do_dh'éileadh d'fhilleadh
 do_dh'éilidh d'fhillidh
 do_dh'éilidhean d'fhillteacha
+do_dh'éiridh d'éirí
 do_dh'éirigh d'éirí
 do_dh'éisdeachd d'éisteacht
 do_dh'éisdeachd d'éisteachta
@@ -45919,6 +45941,7 @@ na_Sámi na Sámaigh
 na_b'fhaide ní b'fhaide
 na_b'fhasa ní b'fhusa
 na_bliadhnasa na blianasa
+na_chois lena chois
 na_chrùban ar a ghogaide
 na_crùban ar a gogaide
 na_deann ar lánluas
@@ -46038,6 +46061,8 @@ nan_Cumantan na dTeachtaí
 nan_Dùthchannan_Céin Gnóthaí Eachtracha
 nan_Innseachan na hIndia
 nan_Komi na gCoimithe
+nan_Luchd-Obrach an Lucht Oibre
+nan_Luchd_Obrach an Lucht Oibre
 nan_Làbaraich Pháirtí an Lucht Oibre
 nan_Làboraich Pháirtí an Lucht Oibre
 nan_Nua-Ealain na Nua-Ealaíon
@@ -48195,6 +48220,7 @@ ri_linn de bharr
 ri_linn de bhrí
 ri_na leis na
 ri_taobh le taobh
+ri_thighinn le teacht
 ri_Àstralia leis an Astráil
 riaghail_iad rialaíodar
 riaghail_sinn rialaíomar
