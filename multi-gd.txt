@@ -7679,9 +7679,13 @@ air_a'_char_as_motha ar a mhéad
 air_a'_chiad_as_lugha ar a laghad
 air_a'_chiad_dol-a-mach ar an gcéad dul síos
 air_a_beulaibh os a comhair
+air_a_beò-ghlacadh gafa
 air_a_bheulaibh os a chomhair
+air_a_bheò-ghlacadh gafa
 air_a_bhrùthadh brúite
 air_a_brùthadh brúite
+air_a_chur curtha
+air_a_cur curtha
 air_a_gealltainn geallta
 air_a_ghealltainn geallta
 air_a_ghlasadh faoi ghlas
@@ -7714,6 +7718,11 @@ air_aghaidh ar aghaidh
 air_ais ar ais
 air_allaban ar seachrán
 air_am_beulaibh os a gcomhair
+air_am_beò-ghlacadh gafa
+air_am_brosnachadh spreagtha
+air_am_fàgail fágtha
+air_am_maoineachadh maoinithe
+air_am_mìneachadh mínithe
 air_an_adhart ar aghaidh
 air_an_adhbhar_seo dá bhrí seo
 air_an_adhbhar_sin dá bhrí sin
@@ -7741,6 +7750,8 @@ air_an_cur curtha
 air_an_cur_seachad caite
 air_an_dearbhadh dearbhaithe
 air_an_deasachadh ullmhaithe
+air_an_do ar ar
+air_an_do_rinn ar a ndearna
 air_an_dèanamh déanta
 air_an_fhàire ar fhíor na spéire
 air_an_gabhail glactha
@@ -7767,6 +7778,7 @@ air_an_reic díolta
 air_an_riaghladh rialaithe
 air_an_riochdachadh ionadaithe
 air_an_ruith rite
+air_an_seo air seo
 air_an_seòrsachadh aicmithe
 air_an_seòrsachadh sórtáilte
 air_an_seòrsadh aicmithe
@@ -7779,6 +7791,7 @@ air_an_sgeadachadh maisithe
 air_an_sgrìobhadh scríofa
 air_an_sgrùdadh ar an scrúdú
 air_an_sgrùdadh scrúdaithe
+air_an_sin air sin
 air_an_snaigheadh snoite
 air_an_stiùireadh bainistithe
 air_an_stiùireadh stiúrtha
@@ -7795,7 +7808,9 @@ air_an_tarraing tarraingthe
 air_an_teagasg múinte
 air_an_tiodhlacadh adhlactha
 air_an_togail tógtha
+air_an_toirt_gu_ìre forbartha
 air_an_trèanadh traenáilte
+air_an_tuath faoin tuath
 air_an_tàladh meallta
 air_an_ullachadh ullmhaithe
 air_ar_beulaibh os ár gcomhair
@@ -11280,6 +11295,9 @@ bu_dheseil b'ullamh
 bu_dheseil b'ullamha
 bu_dheseile b'ullaimhe
 bu_dhi-beathte b'fháiltithe
+bu_dhiofarach b'éagsúil
+bu_dhiofarach b'éagsúla
+bu_dhiofaraiche b'éagsúla
 bu_dhiofaraichte b'éagsúil
 bu_dhiofaraichte b'éagsúla
 bu_dhiofraichte b'éagsúil
@@ -29046,7 +29064,6 @@ do_Zimbabwe don tSiombáib
 do_ar dár
 do_bhrìgh de bhrí
 do_chàch don chuid eile
-do_dh' do dho
 do_dh'Abchais d'Abcáise
 do_dh'Abchas d'Abcáis
 do_dh'Abchasach d'Abcásach
