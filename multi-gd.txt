@@ -7725,14 +7725,20 @@ air_ais ar ais
 air_allaban ar seachrán
 air_am_beulaibh os a gcomhair
 air_am_beò-ghlacadh gafa
+air_am_bi ar a bhfuil
+air_am_bi ar a mbeidh
 air_am_brosnachadh spreagtha
+air_am_bu ar ar
 air_am_fàgail fágtha
+air_am_foillseachadh foilsithe
 air_am_maoineachadh maoinithe
 air_am_mìneachadh mínithe
+air_am_moladh molta
 air_an_adhart ar aghaidh
 air_an_adhbhar_seo dá bhrí seo
 air_an_adhbhar_sin dá bhrí sin
 air_an_ainmeachadh ainmnithe
+air_an_ais ar ais
 air_an_aiseag ar an mbád farantóireachta
 air_an_aithneachadh aitheanta
 air_an_allaban ar seachrán
@@ -7747,6 +7753,7 @@ air_an_coileanadh comhlíonta
 air_an_coileanadh críochnaithe
 air_an_comharrachadh ceiliúrtha
 air_an_comharrachadh marcáilte
+air_an_crochadh crochta
 air_an_cruinneachadh cnuasaithe
 air_an_cruthachadh cruthaithe
 air_an_cuairteachadh timpeallaithe
@@ -7754,11 +7761,15 @@ air_an_cumail coinnithe
 air_an_cunntadh comhairthe
 air_an_cur curtha
 air_an_cur_seachad caite
+air_an_còmhdach clúdaithe
+air_an_dealbhachadh deartha
+air_an_dealbhadh deartha
 air_an_dearbhadh dearbhaithe
 air_an_deasachadh ullmhaithe
 air_an_do ar ar
 air_an_do_rinn ar a ndearna
 air_an_dèanamh déanta
+air_an_eadar-theangachadh aistrithe
 air_an_fhàire ar fhíor na spéire
 air_an_gabhail glactha
 air_an_gearradh gearrtha
@@ -7774,11 +7785,14 @@ air_an_leasachadh ar an bhforbairt
 air_an_leasachadh forbartha
 air_an_leughadh léite
 air_an_liostadh liostaithe
+air_an_liubhairt soláthartha
 air_an_lorg aimsithe
 air_an_lorg ar an gcuardach
 air_an_lìbhrigeadh seachadta
 air_an_lìonadh líonta
 air_an_neartachadh neartaithe
+air_an_oideachadh_tron múinte trí
+air_an_oir ar an imeall
 air_an_rannsachadh ar an taighde
 air_an_reic díolta
 air_an_riaghladh rialaithe
@@ -7799,6 +7813,8 @@ air_an_sgrùdadh ar an scrúdú
 air_an_sgrùdadh scrúdaithe
 air_an_sin air sin
 air_an_snaigheadh snoite
+air_an_son ar a son
+air_an_son-san ar a sonsa
 air_an_stiùireadh bainistithe
 air_an_stiùireadh stiúrtha
 air_an_stèidheachadh bunaithe
@@ -7814,7 +7830,10 @@ air_an_tarraing tarraingthe
 air_an_teagasg múinte
 air_an_tiodhlacadh adhlactha
 air_an_togail tógtha
+air_an_toirt tugtha
 air_an_toirt_gu_ìre forbartha
+air_an_toirt_seachad curtha ar fáil
+air_an_toiseach ar dtús
 air_an_trèanadh traenáilte
 air_an_tuath faoin tuath
 air_an_tàladh meallta
@@ -53412,6 +53431,7 @@ thoirmisgeadh_tu thoirmiscfeá
 thoirmisgidh_sinn choiscfimid
 thoirmisgidh_sinn thoirmiscfimid
 thoirt_gu_buil chur i bhfeidhm
+thoirt_seachad chur ar fáil
 thoiseach_tòiseachaidh thosú
 thoiseach_tòiseachaidh urthosach
 thoisich_iad dtosaíodar
@@ -54145,6 +54165,7 @@ toirmisgidh_sinn dtoirmiscfimid
 toirmisgidh_sinn gcoiscfimid
 toirmisgidh_sinn toirmiscfimid
 toirt_gu_buil cur i bhfeidhm
+toirt_seachad cur ar fáil
 toiseach_tòiseachaidh tosú
 toisicheadh_iad dtosaídís
 toisicheadh_iad dtosóidís
