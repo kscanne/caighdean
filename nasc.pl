@@ -50,22 +50,17 @@ sub look_for_multi {
 			return;
 		}
 	}
-
+	my $w = shift @{$q};
+	print "$w\n";
 }
 
 my @queue;
 while (<STDIN>) {
 	chomp;
 	push @queue, $_;
-	if (scalar @queue > $maxwords) {
-		my $w = shift @queue;
-		print "$w\n";
-	}
-	look_for_multi(\@queue);
+	look_for_multi(\@queue) if (scalar @queue > $maxwords);
 }
 while (scalar @queue > 0) {
-	my $w = shift @queue;
-	print "$w\n";
 	look_for_multi(\@queue);
 }
 
