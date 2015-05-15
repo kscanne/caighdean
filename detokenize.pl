@@ -26,10 +26,10 @@ while (<STDIN>) {
 			print "\n";
 		}
 		else {
-			unless ($suppress == 1 or $s =~ /^([.,;”:!?%})]|<[^>]+>)$/) {
+			unless ($suppress == 1 or $s =~ /^([.,\/;”:!?%})]|<[^>]+>)$/) {
 				print " ";
 			}
-			$suppress = ($s =~ /^([“\$(\[#{]|<[^>]+>)$/);
+			$suppress = ($s =~ /^([“\/\$(\[#{]|<[^>]+>)$/);
 			print $s;
 		}
 	}
