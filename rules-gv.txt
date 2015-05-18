@@ -26,6 +26,11 @@
 ^t([AEIOUÁÉÍÓÚÀÈÌÒÙSHF])	t-$1	-1
 ^t-([AEIOUÁÉÍÓÚÀÈÌÒÙSHF])	t-\l$1	-1
 ^h-	h	1
+^n'gh	ng	1
+^n'y	y	1
+^ghi	yi	1
+# imperative plural; PM p.121
+shiu$	jee	1
 #######################################################
 # ansin iarracht ar fhocal sa sprioctheanga a aimsiú...
 # turas góidrisc den chuid is mó! 
