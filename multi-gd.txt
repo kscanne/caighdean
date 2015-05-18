@@ -145,6 +145,7 @@ Cu_Chullain Cú Chulainn
 Cuach_na_Cruinne Corn an Domhain
 Cupa_na_Cruinne Corn an Domhain
 Cànan_Soighnigh Teanga Chomharthaíochta
+Céline_Dion Céline Dion
 Cù_Chullain Cú Chulainn
 Dhùn_Bhreatainn Dhùn Bhreatainn
 Dhùn_Phris Dùn Phrìs
@@ -7723,17 +7724,54 @@ air_adhart ar aghaidh
 air_aghaidh ar aghaidh
 air_ais ar ais
 air_allaban ar seachrán
+air_am_bacadh bactha
 air_am_beulaibh os a gcomhair
 air_am_beò-ghlacadh gafa
 air_am_bi ar a bhfuil
 air_am_bi ar a mbeidh
+air_am_biadhadh beathaithe
+air_am_bialaobh os a gcomhair
+air_am_biathadh beathaithe
+air_am_bogadh tumtha
+air_am_bonntachadh bunaithe
+air_am_breith beirthe
+air_am_briseadh briste
 air_am_brosnachadh spreagtha
 air_am_bu ar ar
-air_am_fàgail fágtha
+air_am_buain buainte
+air_am_bualadh buailte
+air_am_buileachadh bronnta
+air_am_bàthadh báite
+air_am_faighinn faighte
+air_am_falach folaithe
+air_am_falach i bhfolach
+air_am_faodar ar ar féidir
+air_am_fasdadh fostaithe
+air_am_fastadh fostaithe
+air_am_fighe fite
+air_am_filleadh fillte
 air_am_foillseachadh foilsithe
+air_am_fosgladh ar oscailt
+air_am_freagairt freagartha
+air_am_fuadach díshealbhaithe
+air_am_fuadachadh ruaigthe
+air_am_fàgail fágtha
+air_am_maitheadh maite
 air_am_maoineachadh maoinithe
-air_am_mìneachadh mínithe
+air_am_marbhadh maraithe
+air_am_mathadh maite
+air_am_mealladh meallta
+air_am_measgachadh measctha
+air_am_meudachadh méadaithe
+air_am_milleadh millte
+air_am_misneachadh spreagtha
 air_am_moladh molta
+air_am_mìneachadh mínithe
+air_am_peanasachadh pionósaithe
+air_am_peantadh péinteáilte
+air_am_pearsanachadh pearsantaithe
+air_am_pearsonachadh pearsantaithe
+air_am_pàigheadh íoctha
 air_an_adhart ar aghaidh
 air_an_adhbhar_seo dá bhrí seo
 air_an_adhbhar_sin dá bhrí sin
@@ -8293,8 +8331,8 @@ an_còrr_den an chuid eile den
 an_còrr_dhe an chuid eile de
 an_còrr_dhen an chuid eile den
 an_d'_fhuair an bhfuair
-an_d'fhuair an bhfuair
 an_d'_thàinig ar tháinig
+an_d'fhuair an bhfuair
 an_d'thàinig ar tháinig
 an_de inné
 an_deach an ndeachaigh
@@ -14224,13 +14262,13 @@ cha_bhi ní bheidh
 cha_bu_toigh níor mhaith
 cha_chuala níor chuala
 cha_d' níor
-cha_deach ní dheachaigh
 cha_d'_fhuair ní bhfuair
 cha_d'_fhuaireadh ní bhfuarthas
 cha_d'_fhuaradh ní bhfuarthas
 cha_d'fhuair ní bhfuair
 cha_d'fhuaireadh ní bhfuarthas
 cha_d'fhuaradh ní bhfuarthas
+cha_deach ní dheachaigh
 cha_do níor
 cha_do_rinn ní dhearna
 cha_leig_mi_a_leas ní gá dom
@@ -14253,8 +14291,8 @@ cha_neil ní bhíonn
 cha_neil níl
 cha_nel ní bhíonn
 cha_nel níl
-cha_tàinig níor tháinig
 cha_tug níor thug
+cha_tàinig níor tháinig
 chac_iad chacadar
 chac_iad gcacadar
 chac_sinn chacamar
@@ -16352,6 +16390,8 @@ co-òrdanaicheadh_iad gcomhordóidís
 co-òrdanaicheadh_tu gcomhordófá
 co-òrdanaichidh_sinn comhordóimid
 co-òrdanaichidh_sinn gcomhordóimid
+co_air_a_bha cé air a raibh
+co_air_a_tha cé air a bhfuil
 co_as cad as
 co_bha cé a bhí
 co_dhiu ar aon nós
@@ -17136,15 +17176,15 @@ càiricheadh_tu ndeiseofá
 càirichidh_sinn deiseoimid
 càirichidh_sinn leagfaimid
 càirichidh_sinn ndeiseoimid
-càit_a_bheil cá bhfuil
-càite_a_bheil cá bhfuil
 càit'_a_bheil cá bhfuil
-càit_bheil cá bhfuil
-càite_bheil cá bhfuil
-càit'_bheil cá bhfuil
-càit_an_deach cá ndeachaigh
-càite_an_deach cá ndeachaigh
 càit'_an_deach cá ndeachaigh
+càit'_bheil cá bhfuil
+càit_a_bheil cá bhfuil
+càit_an_deach cá ndeachaigh
+càit_bheil cá bhfuil
+càite_a_bheil cá bhfuil
+càite_an_deach cá ndeachaigh
+càite_bheil cá bhfuil
 càraicheadh_iad deisídís
 càraicheadh_iad leagaidís
 càraicheadh_iad leagfaidís
@@ -17183,6 +17223,8 @@ cò-latha_breith breithlá
 cò-latha_brèith breithlá
 cò-là_breith breithlá
 cò-là_brèith breithlá
+cò_air_a_bha cé air a raibh
+cò_air_a_tha cé air a bhfuil
 cò_as cad as
 cò_bha cé a bhí
 cò_dhiu ar aon nós
