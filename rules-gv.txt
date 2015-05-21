@@ -29,8 +29,29 @@
 ^n'gh	ng	1
 ^n'y	y	1
 ^ghi	yi	1
+# pronomials for marish
+^mâr	mar	1
+# non-standard diacritics
+ï	i	1
 # imperative plural; PM p.121
 shiu$	jee	1
+# emphatics aym's -> ayms (PM p.55)
+'s$	s	1
+# yn ven s'aaley; assumes we have all "ny s'ADJ" forms in multi-gv
+^s'(...)	is_$1	1
+# atchim -> atçhim
+tch	tçh	1
+cheer	çheer	1
+chell	çhell	1
+cheng	çheng	1
+chenn	çhenn	1
+^chesh	çhesh	1
+cheu	çheu	1
+^chym	çhym	1
+^chyn	çhyn	1
+# ver-ym(s) => verym
+-ym$	ym	1
+-yms$	ym	1
 #######################################################
 # ansin iarracht ar fhocal sa sprioctheanga a aimsiú...
 # turas góidrisc den chuid is mó! 
