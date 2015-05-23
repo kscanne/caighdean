@@ -1,5 +1,9 @@
 #######################################################
 # an fhoirm cheart Gaelg a lorg i dtosach báire...
+# numerical codes aren't used (from gramadoir):
+# -1=capitalization changes, etc. that can be applied silently
+# 0=derivational morphology 1=non-standard or pre-standard variants
+# 2=errors
 #######################################################
 ^([A-CEFGIJKLOPQRSU-ZÁÉÍÓÚÀÈÌÒÙ])([A-ZÁÉÍÓÚÀÈÌÒÙ'-]*[A-ZÁÉÍÓÚÀÈÌÒÙ][A-ZÁÉÍÓÚÀÈÌÒÙ'-]*)$	$1\L$2	-1
 ^D([A-GI-ZÁÉÍÓÚÀÈÌÒÙ][A-ZÁÉÍÓÚÀÈÌÒÙ'-]*)$	D\L$1	-1
@@ -11,24 +15,24 @@
 ^M([A-ZÁÉÍÓÚÀÈÌÒÙF][A-ZÁÉÍÓÚÀÈÌÒÙ'-]*)$	M\L$1	-1
 ^M'([AEIOUÁÉÍÓÚÀÈÌÒÙF])([A-ZÁÉÍÓÚÀÈÌÒÙ'-]*)$	m'$1\L$2	-1
 ^N([A-ZÁÉÍÓÚÀÈÌÒÙ][A-ZÁÉÍÓÚÀÈÌÒÙ'-]*)$	N\L$1	-1
-^N-([A-ZÁÉÍÓÚÀÈÌÒÙ])([A-ZÁÉÍÓÚÀÈÌÒÙ'-]*)$	n-$1\L$2	-1
 ^T([A-ZÁÉÍÓÚÀÈÌÒÙ][A-ZÁÉÍÓÚÀÈÌÒÙ'-]*)$	T\L$1	-1
-^T-([AEIOUÁÉÍÓÚÀÈÌÒÙSHF])([A-ZÁÉÍÓÚÀÈÌÒÙ'-]*)$	t-$1\L$2	-1
 ^'([A-ZÁÉÍÓÚÀÈÌÒÙ])	'\l$1	-1
 ^([A-ZÁÉÍÓÚÀÈÌÒÙ])	\l$1	-1
 ^d'([AEIOUÁÉÍÓÚÀÈÌÒÙF])	d'\l$1	-1
 ^dh'([AEIOUÁÉÍÓÚÀÈÌÒÙF])	d'\l$1	-1
-^h([AEIOUÁÉÍÓÚÀÈÌÒÙ])	h-$1	-1
-^h-([AEIOUÁÉÍÓÚÀÈÌÒÙ])	h-\l$1	-1
+^h([AEIOUÁÉÍÓÚÀÈÌÒÙ])	h\l$1	-1
 ^m'([AEIOUÁÉÍÓÚÀÈÌÒÙF])	m'\l$1	-1
-^n([AEIOUÁÉÍÓÚÀÈÌÒÙ])	n-$1	-1
-^n-([AEIOUÁÉÍÓÚÀÈÌÒÙ])	n-\l$1	-1
-^t([AEIOUÁÉÍÓÚÀÈÌÒÙSHF])	t-$1	-1
-^t-([AEIOUÁÉÍÓÚÀÈÌÒÙSHF])	t-\l$1	-1
+# h-Ellanyn -> hEllanyn
 ^h-	h	1
+# alternate nasalization of initial g
 ^n'gh	ng	1
+# alternate nasalization of initial j
 ^n'y	y	1
+# alternate lenition of initial gi
 ^ghi	yi	1
+# sometimes in corpus prefix "n" on conditional verb includes apost...
+# e.g. "cha n'eaishtagh"; compare PM p.16 1.9.3
+^n'	n	1
 # pronomials for marish
 ^mâr	mar	1
 # non-standard diacritics
@@ -38,6 +42,7 @@ shiu$	jee	1
 # emphatics aym's -> ayms (PM p.55)
 's$	s	1
 # yn ven s'aaley; assumes we have all "ny s'ADJ" forms in multi-gv
+# this rules is half-way between "fix gv" and "convert to ga"
 ^s'(...)	is_$1	1
 # atchim -> atçhim
 tch	tçh	1
