@@ -24,6 +24,8 @@
 ^m'([AEIOUÁÉÍÓÚÀÈÌÒÙF])	m'\l$1	-1
 # h-Ellanyn -> hEllanyn
 ^h-	h	1
+# h'Inshey -> hInshey
+^h'	h	1
 # alternate nasalization of initial g
 ^n'gh	ng	1
 # alternate nasalization of initial j

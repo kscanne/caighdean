@@ -1,16 +1,23 @@
+May_Eo Maigh Eo
 Purt_le_Moirrey Purt le Moirrey
+Vay_Eo Mhaigh Eo
 ad_ad-hene siad féin
+ayns_Asia san Áise
 ayns_Galilee sa Ghailíl
 ayns_Lebanon sa Liobáin
 ayns_Samaria sa tSamáir
+ayns_Syria sa tSiria
 beagh_ad beidís
 beagh_ad mbeidís
 beagh_oo beifeá
 beagh_oo mbeifeá
 beagh_shin beimis
 beagh_shin mbeimis
+cha_'s níl a fhios
+cha_begin níorbh éigean
 cha_der ní thabharfaidh
 cha_dod níor fhéad
+cha_leah's chomh luath is
 cha_lhisagh níor chóir
 cha_lhisagh_ad níor chóir dóibh
 cha_lhisagh_ee níor chóir di
@@ -34,7 +41,8 @@ cha_noddym ní féidir liom
 cha_nodmayd ní féidir linn
 cha_ren ní dhearna
 cha_row ní raibh
-cha_'s níl a fhios
+cha_s'aym níl a fhios agam
+cha_s'ayms níl a fhios agamsa
 cha_vel níl
 cha_vod ní féidir
 cha_vod-mayd ní féidir linn
@@ -45,7 +53,9 @@ cha_vod_mayd ní féidir linn
 cha_vod_oo ní féidir leat
 cha_vod_shiu ní féidir libh
 cha_voddym ní féidir liom
+cha_voddym's ní féidir liomsa
 cha_vodmayd ní féidir linn
+cho_leah's chomh luath is
 cho_wheesh_as_shen an oiread sin
 chooin_ad chúnaíodar
 chooin_ad gcúnaíodar
@@ -62,6 +72,9 @@ dty_lurg i do dhiaidh
 dty_yei i do dhiaidh
 dty_yeï i do dhiaidh
 dy_Yordan den Iordáin
+dy_begin gurbh éigean
+dy_bra go brách
+dy_bragh go brách
 dy_bragh_farraghtyn go brách
 dy_chooilley gach uile
 dy_der go dtabharfaidh
@@ -101,6 +114,7 @@ dy_vod_mayd gur féidir linn
 dy_vod_oo gur féidir leat
 dy_vod_shiu gur féidir libh
 dy_voddym gur féidir liom
+dy_voddym's gur féidir liomsa
 dy_vodmayd gur féidir linn
 e_hoi ina haghaidh
 e_hoï ina haghaidh
@@ -118,6 +132,8 @@ er_a_son ar a son
 er_ash ar ais
 er_e_hon ar a shon
 er_e_son ar a son
+er_feai-ny-cruinney ar fud an domhain
+er_feaï-ny-cruinney ar fud an domhain
 er_lheh ar leith
 er_mayrn ar marthain
 er_my_hon ar mo shon
@@ -177,12 +193,25 @@ hie_ad ghabhadar
 hie_shin ghabhamar
 honnick_ad chonaiceadar
 honnick_shin chonaiceamar
+hymsee_ad dtiomsaíodar
+hymsee_ad thiomsaíodar
+hymsee_shin dtiomsaíomar
+hymsee_shin thiomsaíomar
+hymseeagh_ad thiomsóidís
+hymseeagh_oo thiomsófá
+hymseeagh_shin thiomsóimis
 jagh_ad ghabhadar
 jagh_ad ngabhadar
 jagh_shin ghabhamar
 jagh_shin ngabhamar
 jeh_elley duine eile
 jey_y_cheilley i ndiaidh a chéile
+jymseeagh_ad dtiomsóidís
+jymseeagh_ad thiomsóidís
+jymseeagh_oo dtiomsófá
+jymseeagh_oo thiomsófá
+jymseeagh_shin dtiomsóimis
+jymseeagh_shin thiomsóimis
 kiongoyrt_r'ee os a comhair
 kiongoyrt_ree os a comhair
 kiongoyrt_rhym os mo chomhair
@@ -258,6 +287,7 @@ nagh_vod_mayd nach féidir linn
 nagh_vod_oo nach féidir leat
 nagh_vod_shiu nach féidir libh
 nagh_voddym nach féidir liom
+nagh_voddym's nach féidir liomsa
 nagh_vodmayd nach féidir linn
 niee_ad níodar
 niee_shin níomar
@@ -298,14 +328,151 @@ ny_lurg ina diaidh
 ny_mast'ain inár measc
 ny_mast'eu in bhur measc
 ny_mast'oc ina measc
+ny_quail ina treo
 ny_s' níos
+ny_s'aa níos óige
+ny_s'aaley níos áille
+ny_s'aalin níos áille
+ny_s'aasey níos éasca
+ny_s'aeg níos óige
+ny_s'agglee níos eaglaí
+ny_s'aghtaley níos cliste
+ny_s'anmagh níos déanaí
+ny_s'anmee níos déanaí
 ny_s'anmey níos déanaí
+ny_s'annooney níos laige
+ny_s'anvenkey níos annaimhe
+ny_s'ardjey níos airde
+ny_s'arryltee níos toilteanaí
+ny_s'assey níos éasca
+ny_s'bannee níos beannaithe
+ny_s'berchee níos saibhre
+ny_s'berçhee níos saibhre
+ny_s'biallee níos umhaile
+ny_s'bieau níos mire
+ny_s'bieauee níos mire
+ny_s'boghtey níos boichte
+ny_s'braew níos breátha
+ny_s'breeoil níos bríomhaire
+ny_s'buiggey níos boige
+ny_s'caarjoiley níos cairdiúla
+ny_s'cadjiney níos caighdeánaí
+ny_s'cairal níos ionraice
+ny_s'casherick níos naofa
+ny_s'chee níos tibhe
+ny_s'chenney níos teinne
+ny_s'choe is teo
+ny_s'costal níos costasaí
+ny_s'creeney níos críonna
+ny_s'creoi níos crua
+ny_s'creoiey níos crua
+ny_s'cronnal níos soiléire
+ny_s'croutagh níos glice
+ny_s'cruinney níos cruinne
+ny_s'daaney níos dána
+ny_s'deyrey níos daoire
+ny_s'diuney níos doimhne
+ny_s'doillee níos deacra
+ny_s'dooey níos duibhe
+ny_s'doogh níos measa
+ny_s'dorraghey níos dorcha
+ny_s'dree níos leadránaí
+ny_s'dunnal níos cróga
+ny_s'eajee níos gránna
+ny_s'eaynee níos géire
+ny_s'eddrym níos éadroime
+ny_s'eddrymee níos éadroime
+ny_s'eddrymey níos éadroime
+ny_s'faase níos lú
+ny_s'faggys níos gaire
+ny_s'fardalee níos lú
+ny_s'feagh níos ciúine
+ny_s'feayrey níos fuaire
+ny_s'feeu níos fiú
+ny_s'fliughey níos fliche
+ny_s'fondagh níos foirfe
+ny_s'genney níos gainne
+ny_s'geyrey níos géire
+ny_s'giare níos giorra
+ny_s'gilley níos gile
+ny_s'girrey níos giorra
+ny_s'girroo níos gairbhe
+ny_s'glassey níos glaise
+ny_s'glenney níos glaine
+ny_s'graihee níos ansa
+ny_s'graney níos gránna
+ny_s'inshley níos ísle
+ny_s'jeean níos déine
+ny_s'jeeaney níos déine
+ny_s'jeeanney níos déine
+ny_s'jerree níos déanaí
+ny_s'keoiey níos feirge
+ny_s'kiaralee níos díograisí
+ny_s'kiuney níos ciúine
+ny_s'leah níos luaithe
+ny_s'leaie níos luaithe
+ny_s'lhag níos laige
+ny_s'lhea níos leithne
+ny_s'lheah níos luaithe
+ny_s'lhee níos líonmhaire
+ny_s'lhiurey níos airde
+ny_s'lhiurey níos faide
+ny_s'lhuirey níos airde
+ny_s'lhuirey níos faide
+ny_s'liurey níos airde
+ny_s'liurey níos faide
+ny_s'loo níos lú
+ny_s'maynrey níos sonasaí
+ny_s'meeiney níos míne
+ny_s'melley níos moille
+ny_s'menkey níos minice
+ny_s'mennick níos minice
+ny_s'mennickey níos minice
+ny_s'messey níos measa
+ny_s'messoil níos torthúla
+ny_s'mie níos maithe
+ny_s'miljey níos milse
+ny_s'moal níos maille
+ny_s'moghey níos luaithe
+ny_s'moo níos mó
+ny_s'mooar níos mó
+ny_s'niartal níos cumhachtaí
+ny_s'niartal níos treise
+ny_s'niessey níos gaire
+ny_s'odjey níos faide
+ny_s'onnoroil níos onóraí
+ny_s'ooasle níos uaisle
+ny_s'pooaral níos cumhachtaí
+ny_s'pooaral níos treise
+ny_s'quaaghey níos aistí
+ny_s'rea níos réidhe
+ny_s'riurey níos raimhre
+ny_s'taitnyssagh is taitneamhaí
+ny_s'taitnyssee is taitneamhaí
+ny_s'tappee níos tapúla
+ny_s'thollee níos airde
+ny_s'tiarkey níos teirce
+ny_s'trimmey níos troime
+ny_s'trimshee níos brónaí
+ny_s'troshey níos treise
+ny_s'ynrick níos ionraice
+ny_s'yrdjey níos airde
+ny_s'yrjey níos airde
+ny_s'çhee níos tibhe
+ny_s'çhenney níos teinne
+ny_s'çhoe is teo
 ny_share níos fearr
 ny_shinney níos sine
 ny_sloo_na níos lú ná
 ny_smessey níos measa
 ny_yei ina dhiaidh
 ny_yeï ina dhiaidh
+nyn_'oi in bhur n-aghaidh
+nyn_'oi ina n-aghaidh
+nyn_'oi inár n-aghaidh
+nyn_'oï in bhur n-aghaidh
+nyn_'oï ina n-aghaidh
+nyn_'oï inár n-aghaidh
 nyn_lurg in bhur ndiaidh
 nyn_lurg ina ndiaidh
 nyn_lurg inár ndiaidh
@@ -318,12 +485,6 @@ nyn_oi inár n-aghaidh
 nyn_oï in bhur n-aghaidh
 nyn_oï ina n-aghaidh
 nyn_oï inár n-aghaidh
-nyn_'oi in bhur n-aghaidh
-nyn_'oi ina n-aghaidh
-nyn_'oi inár n-aghaidh
-nyn_'oï in bhur n-aghaidh
-nyn_'oï ina n-aghaidh
-nyn_'oï inár n-aghaidh
 nyn_vegooish in bhur n-éagmais
 nyn_vegooish ina n-éagmais
 nyn_vegooish inár n-éagmais
@@ -346,6 +507,9 @@ oddys_oo ar féidir leat
 oddys_oo is féidir leat
 oddys_shiu ar féidir libh
 oddys_shiu is féidir libh
+possession_jeh seilbh ar
+possession_jeh'n seilbh ar an
+quoi_s'lesh cé leis
 ragh_ad ghabhfaidís
 ragh_ad ngabhfaidís
 ragh_oo ghabhfá
@@ -353,6 +517,7 @@ ragh_oo ngabhfá
 ragh_shin ghabhfaimis
 ragh_shin ngabhfaimis
 roish_my_row sula raibh
+ry_hoi le haghaidh
 s'_mie is maith
 s'treisht_lhiam tá súil agam
 son_aym ar mo shon
@@ -380,8 +545,11 @@ vaikagh_shin fheicfimis
 veagh_ad bheidís
 veagh_oo bheifeá
 veagh_shin bheimis
+veih_Asia ón Áise
 veih_Galilee ón nGailíl
+veih_Macedonia ón Macadóin
 veih_Samaria ón tSamáir
+veih_Tyre ón Tuír
 y_derrey_yeh an duine amháin
 yeeagh_ad bhféachadar
 yeeagh_ad d'fhéachadar
@@ -398,8 +566,8 @@ yeeaghagh_oo fhéachfá
 yeeaghagh_shin bhféachfaimis
 yeeaghagh_shin d'fhéachfaimis
 yeeaghagh_shin fhéachfaimis
+yn_'iorag an iora
+yn_'iorag an t-iora
 yn_Chanadey Ceanada
 yn_Chanadey gCeanada
 yn_derrey_yeh an duine amháin
-yn_'iorag an iora
-yn_'iorag an t-iora
