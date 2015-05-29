@@ -26,6 +26,8 @@
 ^h-	h	1
 # h'Inshey -> hInshey
 ^h'	h	1
+# g'aase -> gaase, g'irree -> girree
+^g'	g	1
 # alternate nasalization of initial g
 ^n'gh	ng	1
 # alternate nasalization of initial j
@@ -37,8 +39,13 @@
 ^n'	n	1
 # pronomials for marish
 ^mâr	mar	1
+# ôney -> oney, etc.
+ôn	on	1
 # non-standard diacritics
 ï	i	1
+#
+êgin	egin	1
+mêr	mer	1
 # imperative plural; PM p.121
 shiu$	jee	1
 # emphatics aym's -> ayms (PM p.55)
@@ -60,6 +67,7 @@ chenn	çhenn	1
 ^chesh	çhesh	1
 cheu	çheu	1
 chill	çhill	1
+ching	çhing	1
 chiolt	çhiolt	1
 chirv	çhirv	1
 chym	çhym	1
