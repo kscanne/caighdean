@@ -18,6 +18,7 @@ ayns_Lebanon sa Liobáin
 ayns_Samaria sa tSamáir
 ayns_Syria sa tSiria
 ayns_ard-choraa in ard gutha
+ayns_ny sna
 ayns_shilley'n i bhfianaise an
 ayns_shilley'n i bhfianaise na
 ayns_y sa
@@ -119,6 +120,7 @@ cha_dod níor fhéad
 cha_dreih ní oth
 cha_gooin ní cuimhin
 cha_jarg ní fhéadfadh
+cha_jargym ní féidir liom
 cha_laik ní maith
 cha_leah's chomh luath is
 cha_lhiass ní gá
@@ -132,6 +134,7 @@ cha_lhisagh_shin níor chóir dúinn
 cha_lhisagh_shiu níor chóir daoibh
 cha_lhisagh_y níor chóir don
 cha_lhisagh_yn níor chóir don
+cha_lhisins níor chóir dom
 cha_mie chomh maith
 cha_mie ní maith
 cha_naik ní fhaca
@@ -263,6 +266,7 @@ dy_der go dtabharfaidh
 dy_gooidsave gur toil
 dy_gooin gur cuimhin
 dy_laik gur maith
+dy_leah go luath
 dy_lhisagh gur chóir
 dy_lhisagh_ad gur chóir dóibh
 dy_lhisagh_ee gur chóir di
@@ -272,8 +276,11 @@ dy_lhisagh_shin gur chóir dúinn
 dy_lhisagh_shiu gur chóir daoibh
 dy_lhisagh_y gur chóir don
 dy_lhisagh_yn gur chóir don
+dy_lhisins gur chóir dom
 dy_lickly is dócha
 dy_liooar go leor
+dy_meeaighar ar an drochuair
+dy_meeaighar faraor
 dy_naillee gur mian léi
 dy_naillee gur áil léi
 dy_naillin gur mian linn
@@ -333,6 +340,10 @@ e_hoi ina haghaidh
 e_hoï ina haghaidh
 e_oi ina aghaidh
 e_oï ina aghaidh
+ee_hene sí féin
+ee_hene í féin
+eh_hene sé féin
+eh_hene é féin
 er-y-fa_dy de bharr go
 er-y-fa_dy de bhrí go
 er-y-fa_dy_row de bharr go raibh
@@ -371,6 +382,7 @@ er_feiy'n ar feadh na
 er_feiy'n ar fud an
 er_feiy'n ar fud na
 er_giyn dar gcionn
+er_hoiaghey-beg ag déanamh beag is fiú
 er_lheh ar leith
 er_mayrn ar marthain
 er_my_hon ar mo shon
@@ -419,6 +431,7 @@ er_shaghryn ar seachrán
 er_son ar son
 er_troailt i dtinneas clainne
 er_y_hon dá bharr sin
+er_y_hon-syn dá bharr sin
 er_y_hon_shen dá bharr sin
 er_çhee ar tí
 erskyn_ain os ár gcionn
@@ -442,6 +455,8 @@ fegooish_oc ina n-éagmais
 fey_ny_laa ar feadh an lae
 fey_yerrey faoi dheireadh
 fey_yn_laa ar feadh an lae
+fod_mayd is féidir linn
+fod_oo is féidir leat
 foddee_ad is féidir leo
 foddee_ee is féidir léi
 foddee_eh is féidir leis
@@ -451,6 +466,7 @@ fud_ny-hoie ar fud na hoíche
 fud_ny_hoie ar fud na hoíche
 fy_yerrey faoi dheireadh
 fy_yerrey_hoal faoi dheireadh thiar
+gentreil_stiagh ag dul isteach
 gheaagh_ad dteithfidís
 gheaagh_ad theithfidís
 gheaagh_oo dteithfeá
@@ -531,6 +547,12 @@ jeh_nyn_yoin_hene as bhur stuaim féin
 jeh_nyn_yoin_hene as ár stuaim féin
 jeh_yoin d'aon turas
 jey_y_cheilley i ndiaidh a chéile
+jinnagh_ad dhéanfaidís
+jinnagh_ad ndéanfaidís
+jinnagh_oo dhéanfá
+jinnagh_oo ndéanfá
+jinnagh_shin dhéanfaimis
+jinnagh_shin ndéanfaimis
 jymseeagh_ad dtiomsóidís
 jymseeagh_ad thiomsóidís
 jymseeagh_oo dtiomsófá
@@ -554,6 +576,7 @@ laue_yesh lámh dheas
 lesh_ard-choraa in ard gutha
 lesh_e lena
 lesh_nyn lena
+lhiggey'n_raad tabhairt saoirse
 lhisagh_ad ba chóir dóibh
 lhisagh_ee ba chóir di
 lhisagh_eh ba chóir dó
@@ -562,6 +585,18 @@ lhisagh_shin ba chóir dúinn
 lhisagh_shiu ba chóir daoibh
 lhisagh_y ba chóir don
 lhisagh_yn ba chóir don
+lioar_laa dhialainne
+lioar_laa dhialann
+lioar_laa dialainne
+lioar_laa dialann
+lioar_laa ndialainne
+lioar_laa ndialann
+lioaryn_laa dhialann
+lioaryn_laa dhialanna
+lioaryn_laa dialann
+lioaryn_laa dialanna
+lioaryn_laa ndialann
+lioaryn_laa ndialanna
 lus_ny_graih drúchtín móna
 mannagh_row mura raibh
 mannagh_vel mura bhfuil
@@ -606,6 +641,7 @@ mychione_eu fúibh
 mychione_oc fúthu
 myrane_lesh mar aon le
 myrane_lesh mar aon leis
+nach_jargym nach féidir liom
 nagh_b'eeu nárbh fhiú
 nagh_b'lhoys_da nach leomhfadh sé
 nagh_b'lhoys_daue nach leomhfaidís
@@ -650,6 +686,7 @@ nagh_lhisagh_shin nár chóir dúinn
 nagh_lhisagh_shiu nár chóir daoibh
 nagh_lhisagh_y nár chóir don
 nagh_lhisagh_yn nár chóir don
+nagh_lhisins nár chóir dom
 nagh_naik nach bhfaca
 nagh_naillee nach mian léi
 nagh_naillee nach áil léi
@@ -743,6 +780,7 @@ ny_hoi ina haghaidh
 ny_host ina thost
 ny_hoï ina haghaidh
 ny_hrooid tríd
+ny_hrooidsyn tríd
 ny_jei ina diaidh
 ny_jeï ina diaidh
 ny_lurg ina dhiaidh
@@ -919,6 +957,7 @@ nyn_gour inár gcomhair
 nyn_guail in bhur dtreo
 nyn_guail ina dtreo
 nyn_guail inár dtreo
+nyn_guaiyl ina gcomhdháil
 nyn_lurg in bhur ndiaidh
 nyn_lurg ina ndiaidh
 nyn_lurg inár ndiaidh
@@ -962,6 +1001,8 @@ ragh_oo ghabhfá
 ragh_oo ngabhfá
 ragh_shin ghabhfaimis
 ragh_shin ngabhfaimis
+ren_ad rinneadar
+ren_shin rinneamar
 roish_my_row sula raibh
 ry_chosh de chois
 ry_hoi le haghaidh
@@ -1102,6 +1143,9 @@ yeeaghagh_shin d'fhéachfaimis
 yeeaghagh_shin fhéachfaimis
 yiarrey_çhymmylt thimpeallghearradh
 yiarrey_çhymmylt thimpeallghearrtha
+yinnagh_ad dhéanfaidís
+yinnagh_oo dhéanfá
+yinnagh_shin dhéanfaimis
 yn_'iorag an iora
 yn_'iorag an t-iora
 yn_Chanadey Ceanada
