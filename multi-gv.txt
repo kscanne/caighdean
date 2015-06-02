@@ -83,6 +83,8 @@ by_loys_dou leomhfainn
 by_loys_jee leomhfadh sí
 by_taittin ba mhaith
 cha_'s níl a fhios
+cha_'saym níl a fhios agam
+cha_'sayms níl a fhios agam
 cha_b'eeu níorbh fhiú
 cha_b'laik níor mhaith
 cha_b'leayr níor léir
@@ -162,6 +164,7 @@ cha_nhimmey ní iomaí
 cha_nhione ní aithnid
 cha_nhione ní eol
 cha_nhynney ní breá
+cha_nhyrrys ní aon iontas
 cha_niare ní b'fhearr
 cha_nione ní aithnid
 cha_nione ní eol
@@ -174,10 +177,13 @@ cha_nod_oo ní féidir leat
 cha_nod_shiu ní féidir libh
 cha_noddym ní féidir liom
 cha_nodmayd ní féidir linn
+cha_nyrrys ní aon iontas
 cha_ren ní dhearna
 cha_row ní raibh
 cha_s'aym níl a fhios agam
 cha_s'ayms níl a fhios agamsa
+cha_saym níl a fhios agam
+cha_sayms níl a fhios agam
 cha_vel níl
 cha_vod ní féidir
 cha_vod-mayd ní féidir linn
@@ -190,6 +196,7 @@ cha_vod_shiu ní féidir libh
 cha_voddym ní féidir liom
 cha_voddym's ní féidir liomsa
 cha_vodmayd ní féidir linn
+chan_yrrys ní aon iontas
 che_nel níl
 cheu_dty_veealloo os do chomhair
 cheu_e_beealloo os a comhair
@@ -217,6 +224,7 @@ cre_hon cén fáth
 cre_vel cá bhfuil
 cur-jee_my-ner féachaigí
 da'n_derrey_yeh don duine amháin
+dt'irree_seose-reesht d'aiséirí
 dty_chour i do chomhair
 dty_hrooid tríot
 dty_lurg i do dhiaidh
@@ -427,6 +435,7 @@ er_nyn_skyn os a gcionn
 er_nyn_skyn os bhur gcionn
 er_nyn_skyn os ár gcionn
 er_nyn_son ar ár son
+er_oi ar aghaidh
 er_shaghryn ar seachrán
 er_son ar son
 er_troailt i dtinneas clainne
@@ -511,6 +520,7 @@ heeagh_oo d'fheicfeá
 heeagh_shin d'fheicfimis
 hie_ad ghabhadar
 hie_shin ghabhamar
+hirree_seose-reesht haiséirí
 honnick_ad chonaiceadar
 honnick_shin chonaiceamar
 hop_tu_naa Oíche Chinn Bhliana
@@ -521,6 +531,9 @@ hymsee_shin thiomsaíomar
 hymseeagh_ad thiomsóidís
 hymseeagh_oo thiomsófá
 hymseeagh_shin thiomsóimis
+irree_seose-reesht aiséirí
+irree_seose-reesht b'aiséirí
+irree_seose-reesht t-aiséirí
 jagh_ad ghabhadar
 jagh_ad ngabhadar
 jagh_shin ghabhamar
@@ -572,6 +585,8 @@ kiongoyrt_rish os comhair
 kiongoyrt_riu os bhur gcomhair
 kiongoyrt_roo os a gcomhair
 kiongoyrt_rooin os ár gcomhair
+laa_nuyr arú amárach
+laa_ny_nuyr arú amárach
 laue_yesh lámh dheas
 lesh_ard-choraa in ard gutha
 lesh_e lena
@@ -598,6 +613,8 @@ lioaryn_laa dialanna
 lioaryn_laa ndialann
 lioaryn_laa ndialanna
 lus_ny_graih drúchtín móna
+m'irree_seose-reesht m'aiséirí
+mairagh_ny_nuyr arú amárach
 mannagh_row mura raibh
 mannagh_vel mura bhfuil
 mast'_ain inár measc
@@ -607,7 +624,9 @@ mie_as_sie maith is saith
 mie_er_bashtal den scoth
 mie_er_bashtal thar barr
 mie_ny_sie maith nó saith
+moghrey_nuyr maidin arú amárach
 my_chour i mo chomhair
+my_host i mo thost
 my_hrooid tríom
 my_lurg i mo dhiaidh
 my_ner faoi deara
@@ -737,6 +756,8 @@ nagh_vod_shiu nach féidir libh
 nagh_voddym nach féidir liom
 nagh_voddym's nach féidir liomsa
 nagh_vodmayd nach féidir linn
+neayr_as ó
+neayr_y ón
 ngiarrey_çhymmylt dtimpeallghearradh
 ngiarrey_çhymmylt dtimpeallghearrtha
 niee_ad níodar
@@ -744,6 +765,7 @@ niee_shin níomar
 nieeagh_ad nífidís
 nieeagh_oo nífeá
 nieeagh_shin nífimis
+nirree_seose-reesht n-aiséirí
 nod_ad an féidir leo
 nod_ee an féidir léi
 nod_eh an féidir leis
@@ -925,6 +947,7 @@ ny_s'çhenney níos teinne
 ny_s'çhoe is teo
 ny_s'çhoie is teo
 ny_share níos fearr
+ny_sheyn láithreach
 ny_shinney níos sine
 ny_shlee níos líonmhaire
 ny_sloo_na níos lú ná
@@ -1022,6 +1045,8 @@ s'loys_dooin leomhaimid
 s'loys_dou leomhaim
 s'loys_jee leomhann sí
 s'treisht_lhiam tá súil agam
+scheimyn_aitt stiallchartúin
+scheimyn_aittey stiallchartúin
 son_aym ar mo shon
 son_echey ar a shon
 son_eck ar a son
