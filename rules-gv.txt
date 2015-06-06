@@ -33,7 +33,7 @@
 # alternate nasalization of initial j
 ^n'y	y	1
 # alternate lenition of initial gi
-^ghi	yi	1
+^gh([ei])	y$1	1
 # sometimes in corpus prefix "n" on conditional verb includes apost...
 # e.g. "cha n'eaishtagh"; compare PM p.16 1.9.3
 ^n'	n	1
@@ -72,6 +72,7 @@ chiolt	çhiolt	1
 chirv	çhirv	1
 chym	çhym	1
 chyn	çhyn	1
+myrch	myrçh	1
 preach	preaçh	1
 brâ	bragh	1
 dênee	denee	1

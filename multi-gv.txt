@@ -195,6 +195,7 @@ cha_vod_oo ní féidir leat
 cha_vod_shiu ní féidir libh
 cha_voddym ní féidir liom
 cha_voddym's ní féidir liomsa
+cha_voddyms ní féidir liomsa
 cha_vodmayd ní féidir linn
 chan_yrrys ní aon iontas
 che_nel níl
@@ -342,6 +343,7 @@ dy_vod_oo gur féidir leat
 dy_vod_shiu gur féidir libh
 dy_voddym gur féidir liom
 dy_voddym's gur féidir liomsa
+dy_voddyms gur féidir liomsa
 dy_vodmayd gur féidir linn
 dyn_yss gan fhios
 e_hoi ina haghaidh
@@ -755,6 +757,7 @@ nagh_vod_oo nach féidir leat
 nagh_vod_shiu nach féidir libh
 nagh_voddym nach féidir liom
 nagh_voddym's nach féidir liomsa
+nagh_voddyms nach féidir liomsa
 nagh_vodmayd nach féidir linn
 neayr_as ó
 neayr_y ón
@@ -950,7 +953,9 @@ ny_share níos fearr
 ny_sheyn láithreach
 ny_shinney níos sine
 ny_shlee níos líonmhaire
+ny_sleaie níos luaithe
 ny_sloo_na níos lú ná
+ny_smelley níos moille
 ny_smessey níos measa
 ny_sodjey níos faide
 ny_stroshey níos treise
@@ -960,6 +965,7 @@ ny_vud_eu in bhur measc
 ny_vud_oc ina measc
 ny_whail ina threo
 ny_yei ina dhiaidh
+ny_yei'n i ndiaidh an
 ny_yeï ina dhiaidh
 nyn_'oi in bhur n-aghaidh
 nyn_'oi ina n-aghaidh
@@ -1050,8 +1056,11 @@ scheimyn_aittey stiallchartúin
 son_aym ar mo shon
 son_echey ar a shon
 son_eck ar a son
+son_shickerys go cinnte
+son_shickerys go deimhin
 son_shickyrys ar ndóigh
 son_shickyrys gan amhras
+son_shickyrys go cinnte
 son_shickyrys go deimhin
 sy_Chanadey i gCeanada
 syns_y sa
@@ -1059,7 +1068,11 @@ syns_y san
 syns_yn sa
 syns_yn san
 t'er_dty_ruggey atá saolaithe
+t'er_dty_skyn atá os do chionn
+t'er_e_skyn atá os a chionn
+t'er_e_skyn atá os a cionn
 t'er_my_ruggey atá saolaithe
+t'er_my_skyn atá os mo chionn
 t'er_n'aagail atá tar éis fágáil
 t'er_n'aarlaghey atá tar éis cóiriú
 t'er_n'aase atá tar éis fás
@@ -1089,12 +1102,19 @@ t'er_nakin atá tar éis feiceáil
 t'er_ny_ruggey atá saolaithe
 t'er_nyannoo atá tar éis déanamh
 t'er_nyn_ruggey atá saolaithe
+t'er_nyn_skyn atá os a gcionn
+t'er_nyn_skyn atá os bhur gcionn
+t'er_nyn_skyn atá os ár gcionn
 ta'n_chied-vess tá na céadtorthaí
 ta'n_derrey_yeh tá an duine amháin
 v'ee_ruggit rugadh í
 v'eh_ruggit rugadh é
 v'er_dty_ruggey a bhí saolaithe
+v'er_dty_skyn a bhí os do chionn
+v'er_e_skyn a bhí os a chionn
+v'er_e_skyn a bhí os a cionn
 v'er_my_ruggey a bhí saolaithe
+v'er_my_skyn a bhí os mo chionn
 v'er_n'aagail a bhí tar éis fágáil
 v'er_n'aarlaghey a bhí tar éis cóiriú
 v'er_n'aase a bhí tar éis fás
@@ -1124,6 +1144,9 @@ v'er_nakin a bhí tar éis feiceáil
 v'er_ny_ruggey a bhí saolaithe
 v'er_nyannoo a bhí tar éis déanamh
 v'er_nyn_ruggey a bhí saolaithe
+v'er_nyn_skyn a bhí os a gcionn
+v'er_nyn_skyn a bhí os bhur gcionn
+v'er_nyn_skyn a bhí os ár gcionn
 va'n_derrey_yeh bhí an duine amháin
 va_ad bhíodar
 va_mee_ruggit rugadh mé
@@ -1139,6 +1162,7 @@ vaikagh_oo bhfeicfeá
 vaikagh_oo fheicfeá
 vaikagh_shin bhfeicfimis
 vaikagh_shin fheicfimis
+var_a_mish mise faoi dhuit
 veagh_ad bheidís
 veagh_oo bheifeá
 veagh_shin bheimis
