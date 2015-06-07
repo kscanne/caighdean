@@ -34,6 +34,7 @@
 ^n'y	y	1
 # alternate lenition of initial gi
 ^gh([ei])	y$1	1
+^Gh([ei])	Y$1	1
 # sometimes in corpus prefix "n" on conditional verb includes apost...
 # e.g. "cha n'eaishtagh"; compare PM p.16 1.9.3
 ^n'	n	1
@@ -65,6 +66,7 @@ chell	çhell	1
 cheng	çheng	1
 chenn	çhenn	1
 ^chesh	çhesh	1
+^Chesh	Çhesh	1
 cheu	çheu	1
 chill	çhill	1
 ching	çhing	1
