@@ -7,11 +7,14 @@ BBC_Alba BBC Alba
 Baile_Ghib Baile Ghib
 Bar_Shorys Bar Shorys
 Bhaile_Ghib Bhaile Ghib
+Burkina_Faso Buircíne Fasó
 Cayr_Deeth Caerdydd
 Cheeill_Darey Chill Dara
 Cheeill_Mantan Chill Mhantáin
 Far-Ligganagh_Marrey Turtar Bréige
+Ghuilley_Drid Ghiolla
 Glion_Meay Glion Meay
+Guilley_Drid Giolla
 Hong_Kong Hong Cong
 Hop_tu_Naa Oíche Chinn Bhliana
 Keeill_Darey Cill Dara
@@ -28,6 +31,8 @@ Pontius_Pilate Phointias Pioláit
 Pontius_Pilate Pointias Pioláit
 Purt_Largey Port Láirge
 Purt_le_Moirrey Purt le Moirrey
+Ree_Adha Rí Artúr
+Ros_Comain Ros Comáin
 Saudi_Arabia an Araib Shádach
 Saudi_Arabia na hAraibe Sádaí
 Shorys_y_Creayrie Shorys y Creayrie
@@ -252,6 +257,9 @@ cre_vel cá bhfuil
 cur-jee_my-ner féachaigí
 da'n_derrey_yeh don duine amháin
 dt'irree_seose-reesht d'aiséirí
+dt_oi i d'aghaidh
+dt_row go raibh
+dty_choair i do threo
 dty_chour i do chomhair
 dty_hrooid tríot
 dty_lurg i do dhiaidh
@@ -316,6 +324,7 @@ dy_lickly is dócha
 dy_liooar go leor
 dy_meeaighar ar an drochuair
 dy_meeaighar faraor
+dy_moghey go moch
 dy_naillee gur mian léi
 dy_naillee gur áil léi
 dy_naillin gur mian linn
@@ -380,6 +389,10 @@ ee_hene sí féin
 ee_hene í féin
 eh_hene sé féin
 eh_hene é féin
+er-be_dy mura
+er-be_dy murar
+er-be_dy_row mura raibh
+er-be_dy_vel mura bhfuil
 er-y-fa_dy de bharr go
 er-y-fa_dy de bhrí go
 er-y-fa_dy_row de bharr go raibh
@@ -392,21 +405,29 @@ er_a_son ar a son
 er_ash ar ais
 er_bashtal den scoth
 er_bashtal thar barr
+er_be_dy mura
+er_be_dy murar
+er_be_dy_row mura raibh
+er_be_dy_vel mura bhfuil
 er_chee ar tí
 er_chosh ar bun
 er_coontey'n mar gheall ar an
+er_dty_eiyrts sa tóir ort
 er_dty_hon ar do shon
 er_dty_hons ar do shonsa
 er_dty_ruggey saolaithe
 er_dty_skyn os do chionn
 er_dty_veealloo os do chomhair
 er_e_beealloo os a comhair
+er_e_eiyrts sa tóir air
+er_e_eiyrts sa tóir uirthi
 er_e_hon ar a shon
 er_e_hons ar a shonsa
 er_e_skyn os a chionn
 er_e_skyn os a cionn
 er_e_son ar a son
 er_e_veealloo os a chomhair
+er_eiyrts sa tóir ar
 er_feai-ny-cruinney ar fud an domhain
 er_feaï-ny-cruinney ar fud an domhain
 er_feie'n ar feadh an
@@ -421,6 +442,7 @@ er_giyn dar gcionn
 er_hoiaghey-beg ag déanamh beag is fiú
 er_lheh ar leith
 er_mayrn ar marthain
+er_my_eiyrts sa tóir orm
 er_my_hon ar mo shon
 er_my_hons ar mo shonsa
 er_my_ruggey saolaithe
@@ -455,6 +477,9 @@ er_nakin tar éis feiceáil
 er_nonney nó
 er_ny_ruggey saolaithe
 er_nyannoo tar éis déanamh
+er_nyn_eiyrts sa tóir oraibh
+er_nyn_eiyrts sa tóir orainn
+er_nyn_eiyrts sa tóir orthu
 er_nyn_meealloo os a gcomhair
 er_nyn_meealloo os bhur gcomhair
 er_nyn_meealloo os ár gcomhair
@@ -504,6 +529,7 @@ fud_ny-hoie ar fud na hoíche
 fud_ny_hoie ar fud na hoíche
 fy_yerrey faoi dheireadh
 fy_yerrey_hoal faoi dheireadh thiar
+fys_em a fhios agam
 gentreil_stiagh ag dul isteach
 gheaagh_ad dteithfidís
 gheaagh_ad theithfidís
@@ -654,6 +680,7 @@ mie_er_bashtal den scoth
 mie_er_bashtal thar barr
 mie_ny_sie maith nó saith
 moghrey_nuyr maidin arú amárach
+my_choair i mo threo
 my_chour i mo chomhair
 my_host i mo thost
 my_hrooid tríom
@@ -824,6 +851,7 @@ ny-vud_oc ina measc
 ny_Canadey Cheanada
 ny_Geyrragh na gCaorach
 ny_bare ní b'fhearr
+ny_choair ina threo
 ny_chour ina chomhair
 ny_cour ina comhair
 ny_fegooish ina héagmais
@@ -1007,6 +1035,7 @@ nyn_dhost inár dtost
 nyn_drooid tríbh
 nyn_drooid trínn
 nyn_drooid tríothu
+nyn_eiyrts sa tóir orthu
 nyn_ghing a gceann
 nyn_gour in bhur gcomhair
 nyn_gour ina gcomhair
@@ -1209,6 +1238,7 @@ veih_Tyre ón Tuír
 y_Chanadey Ceanada
 y_chied-vess na céadtorthaí
 y_derrey_yeh an duine amháin
+y_Çhaayr Chester
 yeant_magh shásta
 yeeagh_ad bhféachadar
 yeeagh_ad d'fhéachadar
@@ -1236,6 +1266,7 @@ yn_Chanadey Ceanada
 yn_Chanadey gCeanada
 yn_chied-vess na céadtorthaí
 yn_derrey_yeh an duine amháin
+yn_Çhaayr Chester
 Çheer_Thai Téalainn
 çheu_dty_veealloo os do chomhair
 çheu_e_beealloo os a comhair
