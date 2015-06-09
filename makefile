@@ -122,6 +122,10 @@ maint/oov.txt: maint/unknown-gd.txt $(GDCORPUS) alltokens.pl nasc.pl
 	echo `date '+%Y-%m-%d %H:%M:%S'` `(cat maint/unknown-gd.txt | sed 's/ .*//' | addem; echo '10000'; echo '*'; cat $(GDCORPUS) | perl alltokens.pl "-‐" "0-9’'#@" | perl nasc.pl -d | egrep -v '^[<\\]' | wc -l; echo '/'; echo 'p') | dc | sed 's/..$$/.&/'` >> $@
 	tail $@
 
+GVCORPUS=${HOME}/seal/idirlamha/gv/freq/corpus.txt
+maint/unknown-gv.txt: $(GVCORPUS) multi-gv.txt pairs-gv.txt pairs-local-gv.txt rules-gv.txt spurious-gv.txt alltokens.pl nasc.pl tiomanai.sh
+	cat $(GVCORPUS) | bash tiomanai.sh -x -v | egrep '^UNKNOWN: ' | sed 's/^UNKNOWN: //' | egrep '[A-Za-zçÇÁÉÍÓÚáéíóúÀÈÌÒÙàèìòù]' | sort | uniq -c | sort -r -n | sed 's/^ *//' > $@
+
 # in testpost.txt; use this output to further standardize testpost.txt manually
 tofix.txt: FORCE
 	cat testpost.txt | sed "s/\([A-Za-z]\)’\([A-Za-zÁÉÍÓÚáéíóú]\)/\1'\2/g" | perl -I ${HOME}/gaeilge/gramadoir/gr/ga/Lingua-GA-Gramadoir/lib ${HOME}/gaeilge/gramadoir/gr/ga/Lingua-GA-Gramadoir/scripts/gram-ga.pl --ionchod=utf-8 --litriu | LC_ALL=C sort | LC_ALL=C uniq -c | LC_ALL=C sort -r -n > $@
