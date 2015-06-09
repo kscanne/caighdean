@@ -53,7 +53,9 @@ shiu$	jee	1
 's$	s	1
 # yn ven s'aaley; assumes we have all "ny s'ADJ" forms in multi-gv
 # this rules is half-way between "fix gv" and "convert to ga"
-^s'(...)	is_$1	1
+^s'(..)	is_$1	1
+# shleayst lenites to leayst in i.pl (and PM p.19), but lheayst common enough
+^lh	l	1
 # atchim -> atçhim
 tch	tçh	1
 ^chag	çhag	1

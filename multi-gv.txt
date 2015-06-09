@@ -12,7 +12,9 @@ Cayr_Deeth Caerdydd
 Cheeill_Darey Chill Dara
 Cheeill_Mantan Chill Mhantáin
 Far-Ligganagh_Marrey Turtar Bréige
+Ghlion_Faba Ghlion Faba
 Ghuilley_Drid Ghiolla
+Glion_Faba Glion Faba
 Glion_Meay Glion Meay
 Guilley_Drid Giolla
 Hong_Kong Hong Cong
@@ -33,11 +35,14 @@ Purt_Largey Port Láirge
 Purt_le_Moirrey Purt le Moirrey
 Ree_Adha Rí Artúr
 Ros_Comain Ros Comáin
+Sabhal_Mor_Ostaig Sabhal Mòr Ostaig
 Saudi_Arabia an Araib Shádach
 Saudi_Arabia na hAraibe Sádaí
 Shorys_y_Creayrie Shorys y Creayrie
 Sierra_Leone Siarra Leon
 Vay_Eo Mhaigh Eo
+Ynys_Manaw Ynys Manaw
+Zealan_Noa an Nua-Shéalainn
 ad_ad-hene siad féin
 ayns_Arabia san Araib
 ayns_Asia san Áise
@@ -47,6 +52,7 @@ ayns_Lebanon sa Liobáin
 ayns_Purt_Largey i bPort Láirge
 ayns_Samaria sa tSamáir
 ayns_Syria sa tSiria
+ayns_Zealan_Noa sa Nua-Shéalainn
 ayns_ard-choraa in ard gutha
 ayns_ny sna
 ayns_shilley'n i bhfianaise an
@@ -74,6 +80,7 @@ beagh_oo beifeá
 beagh_oo mbeifeá
 beagh_shin beimis
 beagh_shin mbeimis
+bollan_feailleoin luibh Eoin Baiste
 bun_ry_skyn bunoscionn
 by-lhoys_da leomhfadh sé
 by-lhoys_daue leomhfaidís
@@ -184,6 +191,8 @@ cha_naillt ní mian leat
 cha_naillt ní áil leat
 cha_naillym ní mian liom
 cha_naillym ní áil liom
+cha_nailt ní mian leat
+cha_nailt ní áil leat
 cha_nee ní
 cha_neeu ní fiú
 cha_negin ní éigean
@@ -227,6 +236,8 @@ cha_voddym ní féidir liom
 cha_voddym's ní féidir liomsa
 cha_voddyms ní féidir liomsa
 cha_vodmayd ní féidir linn
+cha_yarg ní fhéadfadh
+cha_yargym ní féidir liom
 chan_yrrys ní aon iontas
 che_nel níl
 cheu_dty_veealloo os do chomhair
@@ -255,7 +266,14 @@ cre-voish_ta_mee cad as dom
 cre_hon cén fáth
 cre_vel cá bhfuil
 cur-jee_my-ner féachaigí
+cur-my_ner féach
 da'n_derrey_yeh don duine amháin
+doghtagh_ad dtachtfaidís
+doghtagh_ad thachtfaidís
+doghtagh_oo dtachtfá
+doghtagh_oo thachtfá
+doghtagh_shin dtachtfaimis
+doghtagh_shin thachtfaimis
 dt'irree_seose-reesht d'aiséirí
 dt_oi i d'aghaidh
 dt_row go raibh
@@ -339,6 +357,8 @@ dy_naillt gur mian leat
 dy_naillt gur áil leat
 dy_naillym gur mian liom
 dy_naillym gur áil liom
+dy_nailt gur mian leat
+dy_nailt gur áil leat
 dy_nee gur
 dy_neeu gur fiú
 dy_negin gur éigean
@@ -367,6 +387,7 @@ dy_row_ee_ruggit gur rugadh í
 dy_row_eh_ruggit gur rugadh é
 dy_row_mee_ruggit gur rugadh mé
 dy_row_oo_ruggit gur rugadh thú
+dy_ve_yn le bheith ina
 dy_vel go bhfuil
 dy_vod ní féidir
 dy_vod-mayd gur féidir linn
@@ -385,6 +406,9 @@ e_hoi ina haghaidh
 e_hoï ina haghaidh
 e_oi ina aghaidh
 e_oï ina aghaidh
+eddyr_ain eadrainn
+eddyr_eu eadraibh
+eddyr_oc eatarthu
 ee_hene sí féin
 ee_hene í féin
 eh_hene sé féin
@@ -473,6 +497,7 @@ er_n'yannoo tar éis déanamh
 er_n'yiooldey tar éis diúltú
 er_n'ymmyrkey tar éis iompar
 er_n'ynsaghey tar éis foghlaim
+er_naagail tar éis fágáil
 er_nakin tar éis feiceáil
 er_nonney nó
 er_ny_ruggey saolaithe
@@ -488,11 +513,14 @@ er_nyn_skyn os a gcionn
 er_nyn_skyn os bhur gcionn
 er_nyn_skyn os ár gcionn
 er_nyn_son ar ár son
+er_oai ar aghaidh
 er_oi ar aghaidh
 er_shaghryn ar seachrán
 er_skyn os cionn
 er_son ar son
 er_troailt i dtinneas clainne
+er_troggloo thraochta
+er_troggloo traochta
 er_y_hon dá bharr sin
 er_y_hon-syn dá bharr sin
 er_y_hon_shen dá bharr sin
@@ -573,9 +601,17 @@ heaagh_shin theithfimis
 heeagh_ad d'fheicfidís
 heeagh_oo d'fheicfeá
 heeagh_shin d'fheicfimis
+her_troggloo traochta
 hie_ad ghabhadar
 hie_shin ghabhamar
 hirree_seose-reesht haiséirí
+hoght_ad dtachtadar
+hoght_ad thachtadar
+hoght_shin dtachtamar
+hoght_shin thachtamar
+hoghtagh_ad thachtfaidís
+hoghtagh_oo thachtfá
+hoghtagh_shin thachtfaimis
 honnick_ad chonaiceadar
 honnick_shin chonaiceamar
 hop_tu_naa Oíche Chinn Bhliana
@@ -716,7 +752,6 @@ mychione_eu fúibh
 mychione_oc fúthu
 myrane_lesh mar aon le
 myrane_lesh mar aon leis
-nach_jargym nach féidir liom
 nagh_b'eeu nárbh fhiú
 nagh_b'lhoys_da nach leomhfadh sé
 nagh_b'lhoys_daue nach leomhfaidís
@@ -750,6 +785,7 @@ nagh_der nach dtabharfaidh
 nagh_dod nár fhéad
 nagh_gooin nach cuimhin
 nagh_jarg nach bhféadfadh
+nagh_jargym nach féidir liom
 nagh_leayr nach léir
 nagh_lhiass nach gá
 nagh_lhisagh nár chóir
@@ -777,6 +813,8 @@ nagh_naillt nach mian leat
 nagh_naillt nach áil leat
 nagh_naillym nach mian liom
 nagh_naillym nach áil liom
+nagh_nailt nach mian leat
+nagh_nailt nach áil leat
 nagh_nee nach
 nagh_neeu nach fiú
 nagh_negin nach éigean
@@ -813,6 +851,8 @@ nagh_voddym nach féidir liom
 nagh_voddym's nach féidir liomsa
 nagh_voddyms nach féidir liomsa
 nagh_vodmayd nach féidir linn
+nagh_yarg nach bhféadfadh
+nagh_yargym nach féidir liom
 neayr_as ó
 neayr_y ón
 ngiarrey_çhymmylt dtimpeallghearradh
@@ -828,7 +868,9 @@ nod_ee an féidir léi
 nod_eh an féidir leis
 nod_mayd an féidir linn
 nod_oo an féidir leat
+nod_shinyn an féidir linne
 nod_shiu an féidir libh
+nod_yn an féidir leis an
 noddagh_ad bhféadfaidís
 noddagh_ad fhéadfaidís
 noddagh_oo bhféadfá
@@ -849,6 +891,7 @@ ny-vud_ain inár measc
 ny-vud_eu in bhur measc
 ny-vud_oc ina measc
 ny_Canadey Cheanada
+ny_Flandyryn Flóndras
 ny_Geyrragh na gCaorach
 ny_bare ní b'fhearr
 ny_choair ina threo
@@ -1124,11 +1167,15 @@ son_shickyrys ar ndóigh
 son_shickyrys gan amhras
 son_shickyrys go cinnte
 son_shickyrys go deimhin
+streisht_lhiam tá súil agam
 sy_Chanadey i gCeanada
 syns_y sa
 syns_y san
 syns_yn sa
 syns_yn san
+t'eddyr_ain atá eadrainn
+t'eddyr_eu atá eadraibh
+t'eddyr_oc atá eatarthu
 t'er_dty_ruggey atá saolaithe
 t'er_dty_skyn atá os do chionn
 t'er_e_skyn atá os a chionn
@@ -1168,8 +1215,12 @@ t'er_nyn_skyn atá os a gcionn
 t'er_nyn_skyn atá os bhur gcionn
 t'er_nyn_skyn atá os ár gcionn
 t'er_skyn atá os cionn
+ta'n_Flandyryn tá Flóndras
 ta'n_chied-vess tá na céadtorthaí
 ta'n_derrey_yeh tá an duine amháin
+v'eddyr_ain a bhí eadrainn
+v'eddyr_eu a bhí eadraibh
+v'eddyr_oc a bhí eatarthu
 v'ee_ruggit rugadh í
 v'eh_ruggit rugadh é
 v'er_dty_ruggey a bhí saolaithe
@@ -1203,6 +1254,7 @@ v'er_n'yannoo a bhí tar éis déanamh
 v'er_n'yiooldey a bhí tar éis diúltú
 v'er_n'ymmyrkey a bhí tar éis iompar
 v'er_n'ynsaghey a bhí tar éis foghlaim
+v'er_naagail a bhí tar éis fágáil
 v'er_nakin a bhí tar éis feiceáil
 v'er_ny_ruggey a bhí saolaithe
 v'er_nyannoo a bhí tar éis déanamh
@@ -1235,7 +1287,9 @@ veih_Macedonia ón Macadóin
 veih_Purt_Largey ó Phort Láirge
 veih_Samaria ón tSamáir
 veih_Tyre ón Tuír
+voish_Zealan_Noa ón Nua-Shéalainn
 y_Chanadey Ceanada
+y_Flandyryn Flóndras
 y_chied-vess na céadtorthaí
 y_derrey_yeh an duine amháin
 y_Çhaayr Chester
@@ -1264,6 +1318,7 @@ yn_'iorag an iora
 yn_'iorag an t-iora
 yn_Chanadey Ceanada
 yn_Chanadey gCeanada
+yn_Flandyryn Flóndras
 yn_chied-vess na céadtorthaí
 yn_derrey_yeh an duine amháin
 yn_Çhaayr Chester
