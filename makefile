@@ -118,13 +118,17 @@ GDCORPUS=${HOME}/seal/idirlamha/gd/freq/corpus.txt
 maint/unknown-gd.txt: $(GDCORPUS) multi-gd.txt pairs-gd.txt pairs-local-gd.txt rules-gd.txt spurious-gd.txt alltokens.pl nasc.pl tiomanai.sh
 	cat $(GDCORPUS) | bash tiomanai.sh -d -v | egrep '^UNKNOWN: ' | sed 's/^UNKNOWN: //' | egrep '[A-Za-zÁÉÍÓÚáéíóúÀÈÌÒÙàèìòù]' | sort | uniq -c | sort -r -n | sed 's/^ *//' > $@
 
-maint/oov.txt: maint/unknown-gd.txt $(GDCORPUS) alltokens.pl nasc.pl
+maint/oov-gd.txt: maint/unknown-gd.txt $(GDCORPUS) alltokens.pl nasc.pl
 	echo `date '+%Y-%m-%d %H:%M:%S'` `(cat maint/unknown-gd.txt | sed 's/ .*//' | addem; echo '10000'; echo '*'; cat $(GDCORPUS) | perl alltokens.pl "-‐" "0-9’'#@" | perl nasc.pl -d | egrep -v '^[<\\]' | wc -l; echo '/'; echo 'p') | dc | sed 's/..$$/.&/'` >> $@
 	tail $@
 
 GVCORPUS=${HOME}/seal/idirlamha/gv/freq/corpus.txt
 maint/unknown-gv.txt: $(GVCORPUS) multi-gv.txt pairs-gv.txt pairs-local-gv.txt rules-gv.txt spurious-gv.txt alltokens.pl nasc.pl tiomanai.sh
 	cat $(GVCORPUS) | bash tiomanai.sh -x -v | egrep '^UNKNOWN: ' | sed 's/^UNKNOWN: //' | egrep '[A-Za-zçÇÁÉÍÓÚáéíóúÀÈÌÒÙàèìòù]' | sort | uniq -c | sort -r -n | sed 's/^ *//' > $@
+
+maint/oov-gv.txt: maint/unknown-gv.txt $(GVCORPUS) alltokens.pl nasc.pl
+	echo `date '+%Y-%m-%d %H:%M:%S'` `(cat maint/unknown-gv.txt | sed 's/ .*//' | addem; echo '10000'; echo '*'; cat $(GVCORPUS) | perl alltokens.pl "-‐" "0-9’'#@" | perl nasc.pl -x | egrep -v '^[<\\]' | wc -l; echo '/'; echo 'p') | dc | sed 's/..$$/.&/'` >> $@
+	tail $@
 
 # in testpost.txt; use this output to further standardize testpost.txt manually
 tofix.txt: FORCE
