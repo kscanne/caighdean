@@ -1,5 +1,4 @@
 'Sy_Vurmey I mBurma
-chamyr_cho-akinagh seomra agallaimh
 'cha_nel 'níl
 'eaynid_mooar spás amuigh
 'sy_Chanadey i gCeanada
@@ -797,6 +796,8 @@ ayns_Samaria sa tSamáir
 ayns_Syria sa tSiria
 ayns_Zealan_Noa sa Nua-Shéalainn
 ayns_ard-choraa in ard gutha
+ayns_coardailys ar aon intinn
+ayns_coardailys ar aon tuairim
 ayns_dy_vel mar go bhfuil
 ayns_ennym in ainm
 ayns_fenish i bhfianaise
@@ -1811,6 +1812,13 @@ chaign_shin gcognaíomar
 chaignagh_ad chognóidís
 chaignagh_oo chognófá
 chaignagh_shin chognóimis
+chaih_ad cháitheadar
+chaih_ad gcáitheadar
+chaih_shin cháitheamar
+chaih_shin gcáitheamar
+chaihagh_ad cháithfidís
+chaihagh_oo cháithfeá
+chaihagh_shin cháithfimis
 chaill_ad chailleadar
 chaill_ad gcailleadar
 chaill_shin chailleamar
@@ -1848,6 +1856,7 @@ champagh_ad champálfaidís
 champagh_oo champálfá
 champagh_shin champálfaimis
 chamyr_aarlee chistin
+chamyr_cho-akinagh seomra agallaimh
 chan_yrrys ní aon iontas
 chappan_queeyllagh mholchaidhp
 chappan_queeyllagh mholchaidhpe
@@ -2135,6 +2144,31 @@ chlouscreeuagh_shin chlóscríobhfaimis
 chluinnagh_ad chloisfidís
 chluinnagh_oo chloisfeá
 chluinnagh_shin chloisfimis
+cho-cheaghil_ad chómhalartaíodar
+cho-cheaghil_ad gcómhalartaíodar
+cho-cheaghil_shin chómhalartaíomar
+cho-cheaghil_shin gcómhalartaíomar
+cho-cheaghilagh_ad chómhalartóidís
+cho-cheaghilagh_oo chómhalartófá
+cho-cheaghilagh_shin chómhalartóimis
+cho-chleayn_ad chomhchlaonadar
+cho-chleayn_ad gcomhchlaonadar
+cho-chleayn_shin chomhchlaonamar
+cho-chleayn_shin gcomhchlaonamar
+cho-chleaynagh_ad chomhchlaonfaidís
+cho-chleaynagh_oo chomhchlaonfá
+cho-chleaynagh_shin chomhchlaonfaimis
+cho-haaghey_sollys fhótaisintéis
+cho-haaghey_sollysh fhótaisintéis
+cho-haah_ad chomhtháthaíodar
+cho-haah_ad gcomhtháthaíodar
+cho-haah_shin chomhtháthaíomar
+cho-haah_shin gcomhtháthaíomar
+cho-haahagh_ad chomhtháthóidís
+cho-haahagh_oo chomhtháthófá
+cho-haahagh_shin chomhtháthóimis
+cho-hollys_rollageagh réaltbhraisle
+cho-hollysyn_rollageagh réaltbhraislí
 cho_leah's chomh luath is
 cho_wheesh_as_shen an oiread sin
 choad_ad chosnaíodar
@@ -2186,6 +2220,62 @@ choagyr_shin gcócarálamar
 choagyragh_ad chócarálfaidís
 choagyragh_oo chócarálfá
 choagyragh_shin chócarálfaimis
+choamree_ad bhfeistíodar
+choamree_ad d'fheistíodar
+choamree_ad fheistíodar
+choamree_ad ghléasadar
+choamree_ad ngléasadar
+choamree_shin bhfeistíomar
+choamree_shin d'fheistíomar
+choamree_shin fheistíomar
+choamree_shin ghléasamar
+choamree_shin ngléasamar
+choamreeagh_ad d'fheisteoidís
+choamreeagh_ad ghléasfaidís
+choamreeagh_oo d'fheisteofá
+choamreeagh_oo ghléasfá
+choamreeagh_shin d'fheisteoimis
+choamreeagh_shin ghléasfaimis
+choard_ad aontaíodar
+choard_ad chomhaontaíodar
+choard_ad d'aontaíodar
+choard_ad gcomhaontaíodar
+choard_ad n-aontaíodar
+choard_shin aontaíomar
+choard_shin chomhaontaíomar
+choard_shin d'aontaíomar
+choard_shin gcomhaontaíomar
+choard_shin n-aontaíomar
+choardagh_ad chomhaontóidís
+choardagh_ad d'aontóidís
+choardagh_oo chomhaontófá
+choardagh_oo d'aontófá
+choardagh_shin chomhaontóimis
+choardagh_shin d'aontóimis
+choau_ad cháitheadar
+choau_ad gcáitheadar
+choau_shin cháitheamar
+choau_shin gcáitheamar
+choauagh_ad cháithfidís
+choauagh_oo cháithfeá
+choauagh_shin cháithfimis
+choayl_chooinaght aimnéise
+chochiangle_ad chomhcheanglaíodar
+chochiangle_ad gcomhcheanglaíodar
+chochiangle_shin chomhcheanglaíomar
+chochiangle_shin gcomhcheanglaíomar
+chochiangleagh_ad chomhcheanglóidís
+chochiangleagh_oo chomhcheanglófá
+chochiangleagh_shin chomhcheanglóimis
+choe_ad chaoineadar
+choe_ad gcaoineadar
+choe_shin chaoineamar
+choe_shin gcaoineamar
+choeagh_ad chaoinfidís
+choeagh_oo chaoinfeá
+choeagh_shin chaoinfimis
+cholaastaghyn_cleragh chliarcholáistí
+cholaastey_cleragh chliarcholáiste
 chooilleen_ad chomhlíonadar
 chooilleen_ad gcomhlíonadar
 chooilleen_shin chomhlíonamar
@@ -2431,7 +2521,29 @@ clou_cassee tlú cataíola
 clout_king éadach cinn
 cluic_hoilshee cleas poiblíochta
 cluic_hooilley iomrall súl
+co-chorp_coontae contaebhuirg
+co-earrooder_focklagh próiseálaí focal
+co-earrooder_laue ríomhaire boise
+co-haaghey_sollys fótaisintéis
+co-haaghey_sollysh fótaisintéis
+co-hollys_rollageagh réaltbhraisle
+co-hollysyn_rollageagh réaltbhraislí
 coadey_slayntoil tuáille sláintíochta
+coar_ny_hastan corr éisc
+coar_veg naoscach bhídeach
+coardail_rish de réir
+coayl_chooinaght aimnéise
+coayl_chooinaght b'aimnéise
+coayl_chooinaght d'aimnéise
+coayl_chooinaght haimnéise
+coayl_chooinaght m'aimnéise
+cochasley_rish cosúil le
+cochast_feeit_ry-cheilley fite fuaite
+cochionneeaght_sleab trádáil daor
+colaastaghyn_cleragh cliarcholáistí
+colaastey_cleragh cliarcholáiste
+colloo_boalley piléar balla
+colloo_ny_merriu colún na marbh
 cooinaghtyn_keead_blein comóradh céad bliain
 coontey'n_pobble daonáireamh
 cordail_rish de réir
@@ -3192,6 +3304,12 @@ gaignagh_oo chognófá
 gaignagh_oo gcognófá
 gaignagh_shin chognóimis
 gaignagh_shin gcognóimis
+gaihagh_ad cháithfidís
+gaihagh_ad gcáithfidís
+gaihagh_oo cháithfeá
+gaihagh_oo gcáithfeá
+gaihagh_shin cháithfimis
+gaihagh_shin gcáithfimis
 gaillagh_ad chaillfidís
 gaillagh_ad gcaillfidís
 gaillagh_oo chaillfeá
@@ -3607,6 +3725,26 @@ gluinnagh_oo chloisfeá
 gluinnagh_oo gcloisfeá
 gluinnagh_shin chloisfimis
 gluinnagh_shin gcloisfimis
+go-cheaghilagh_ad chómhalartóidís
+go-cheaghilagh_ad gcómhalartóidís
+go-cheaghilagh_oo chómhalartófá
+go-cheaghilagh_oo gcómhalartófá
+go-cheaghilagh_shin chómhalartóimis
+go-cheaghilagh_shin gcómhalartóimis
+go-chleaynagh_ad chomhchlaonfaidís
+go-chleaynagh_ad gcomhchlaonfaidís
+go-chleaynagh_oo chomhchlaonfá
+go-chleaynagh_oo gcomhchlaonfá
+go-chleaynagh_shin chomhchlaonfaimis
+go-chleaynagh_shin gcomhchlaonfaimis
+go-haahagh_ad chomhtháthóidís
+go-haahagh_ad gcomhtháthóidís
+go-haahagh_oo chomhtháthófá
+go-haahagh_oo gcomhtháthófá
+go-haahagh_shin chomhtháthóimis
+go-haahagh_shin gcomhtháthóimis
+go-hollys_rollageagh réaltbhraisle
+go-hollysyn_rollageagh réaltbhraislí
 goadagh_ad chosnóidís
 goadagh_ad chumhdóidís
 goadagh_ad chódóidís
@@ -3653,12 +3791,57 @@ goaill_baght_jeh breathú air
 goaill_baght_jeh breathú ar
 goaill_baght_jeh'n breathú ar an
 goaill_baght_jeu breathú orthu
+goamreeagh_ad bhfeisteoidís
+goamreeagh_ad fheisteoidís
+goamreeagh_ad ghléasfaidís
+goamreeagh_ad ngléasfaidís
+goamreeagh_oo bhfeisteofá
+goamreeagh_oo fheisteofá
+goamreeagh_oo ghléasfá
+goamreeagh_oo ngléasfá
+goamreeagh_shin bhfeisteoimis
+goamreeagh_shin fheisteoimis
+goamreeagh_shin ghléasfaimis
+goamreeagh_shin ngléasfaimis
+goardagh_ad aontóidís
+goardagh_ad chomhaontóidís
+goardagh_ad gcomhaontóidís
+goardagh_ad n-aontóidís
+goardagh_oo aontófá
+goardagh_oo chomhaontófá
+goardagh_oo gcomhaontófá
+goardagh_oo n-aontófá
+goardagh_shin aontóimis
+goardagh_shin chomhaontóimis
+goardagh_shin gcomhaontóimis
+goardagh_shin n-aontóimis
+goauagh_ad cháithfidís
+goauagh_ad gcáithfidís
+goauagh_oo cháithfeá
+goauagh_oo gcáithfeá
+goauagh_shin cháithfimis
+goauagh_shin gcáithfimis
+goayl_chooinaght n-aimnéise
+gochiangleagh_ad chomhcheanglóidís
+gochiangleagh_ad gcomhcheanglóidís
+gochiangleagh_oo chomhcheanglófá
+gochiangleagh_oo gcomhcheanglófá
+gochiangleagh_shin chomhcheanglóimis
+gochiangleagh_shin gcomhcheanglóimis
+goeagh_ad chaoinfidís
+goeagh_ad gcaoinfidís
+goeagh_oo chaoinfeá
+goeagh_oo gcaoinfeá
+goeagh_shin chaoinfimis
+goeagh_shin gcaoinfimis
 goghe_ad ghabhfaidís
 goghe_ad ngabhfaidís
 goghe_oo ghabhfá
 goghe_oo ngabhfá
 goghe_shin ghabhfaimis
 goghe_shin ngabhfaimis
+golaastaghyn_cleragh gcliarcholáistí
+golaastey_cleragh gcliarcholáiste
 gooilleenagh_ad chomhlíonfaidís
 gooilleenagh_ad gcomhlíonfaidís
 gooilleenagh_oo chomhlíonfá
