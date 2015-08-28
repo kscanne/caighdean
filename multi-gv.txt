@@ -3773,6 +3773,12 @@ dellal_çheusthie déileáil chos istigh
 delleyder_glassreeyn grósaeir glasraí
 denmys_ad d'ainmníodar
 denmys_shin d'ainmníomar
+dennalee_ad d'análaíodar
+dennalee_shin d'análaíomar
+dennee_ad mhothaíodar
+dennee_shin mhothaíomar
+dentreil_ad d'iontráladar
+dentreil_shin d'iontrálamar
 derragh_ad chuirfidís
 derragh_ad dtabharfaidís
 derragh_ad gcuirfidís
@@ -4136,6 +4142,9 @@ dt'eederyn_foalley carnabhóirí
 dt'eederyn_foalley d'fheoiliteoirí
 dt'eirinys_bainney déiríocht
 dt'eirinys_bainney déiríochta
+dt'ennym_çhymsagh cnuasainm
+dt'ennymyn_çhymsagh cnuasainmneacha
+dt'eoylley_varrey guanó
 dt'irree_seose-reesht d'aiséirí
 dt_oi i d'aghaidh
 dt_row go raibh
@@ -4668,10 +4677,46 @@ enmys_shin n-ainmníomar
 enmysagh_ad d'ainmneoidís
 enmysagh_oo d'ainmneofá
 enmysagh_shin d'ainmneoimis
+ennalee_ad análaíodar
+ennalee_ad n-análaíodar
+ennalee_shin análaíomar
+ennalee_shin n-análaíomar
+ennaleeagh_ad d'análóidís
+ennaleeagh_oo d'análófá
+ennaleeagh_shin d'análóimis
+ennee_ad mhothaíodar
+ennee_ad mothaíodar
+ennee_shin mhothaíomar
+ennee_shin mothaíomar
+enneeagh_ad mhothóidís
+enneeagh_oo mhothófá
+enneeagh_shin mhothóimis
+enney_marranagh iomrall aithne
+ennym-ockle_breearagh ainm briathartha
+ennym_bashtee ainm baiste
+ennym_breearagh ainm briathartha
+ennym_cair ainm dílis
+ennym_meechiart ainm mícheart
+ennym_çhymsagh chnuasainm
+ennym_çhymsagh cnuasainm
+ennymyn_çhymsagh chnuasainmneacha
+ennymyn_çhymsagh cnuasainmneacha
+entreil_ad iontráladar
+entreil_ad n-iontráladar
+entreil_shin iontrálamar
+entreil_shin n-iontrálamar
+entreilagh_ad d'iontrálfaidís
+entreilagh_oo d'iontrálfá
+entreilagh_shin d'iontrálfaimis
+eoylley_ollee aoileach bó
+eoylley_varrey ghuanó
+eoylley_varrey guanó
 er-be_dy mura
 er-be_dy murar
 er-be_dy_row mura raibh
 er-be_dy_vel mura bhfuil
+er-dyn_toshiaght ó thús
+er-dyn_toshiaght ón tús
 er-gerrey_da i ngar do
 er-gerrey_da i ngar dó
 er-gerrey_da'n i ngar don
@@ -4692,7 +4737,11 @@ er-y-fa_shen dá bharr sin
 er-y-fa_shen dá bhrí sin
 er_a_son ar a son
 er_aash ar áis
+er_aggle ar eagla
+er_aght_cosoylagh ar an gcuma chéanna
 er_aght_erbee ar chor ar bith
+er_ard os ard
+er_ardjey in airde
 er_ash ar ais
 er_bashtal den scoth
 er_bashtal thar barr
@@ -4701,11 +4750,14 @@ er_be_dy murar
 er_be_dy_row mura raibh
 er_be_dy_vel mura bhfuil
 er_bee ar bith
+er_broogh ar bhruach
 er_chee ar tí
 er_chor_erbee ar chor ar bith
 er_chosh ar bun
+er_conaant ar chuntar
 er_coontey'n mar gheall ar an
 er_cor_erbee ar chor ar bith
+er_creau ar crith
 er_croo_lesh ar snámh le
 er_croo_lesh ar snámh leis
 er_daayl ar cairde
@@ -4721,6 +4773,9 @@ er_dty_veealloo os do chomhair
 er_dy-henney ó shin
 er_dy_chooilley_chor ar gach aon chor
 er_dy_henney ó shin
+er_dy_rieau riamh anall
+er_dyn_traa ó
+er_dyn_traa_shen ó shin
 er_e_beealloo os a comhair
 er_e_eiyrts sa tóir air
 er_e_eiyrts sa tóir uirthi
@@ -4829,6 +4884,7 @@ er_yn_aght_cheddin mar an gcéanna
 er_yn_oyr de bharr
 er_yn_oyr de bhrí
 er_çhee ar tí
+er_çheu_ny_geayee ar thaobh na gaoithe
 erdy_henney ó shin
 erskyn_ain os ár gcionn
 erskyn_ayd os do chionn
@@ -6584,6 +6640,9 @@ hengaghyn_brynneragh mhilteangacha
 hengaghyn_ny_mayrey mháthairtheangacha
 hengey_brynneragh mhilteanga
 hengey_ny_mayrey mháthairtheanga
+hennym_çhymsagh cnuasainm
+hennymyn_çhymsagh cnuasainmneacha
+heoylley_varrey guanó
 her_troggloo traochta
 heshvean_trimmid mheáchanláir
 heshvean_trimmid mheáchanlár
@@ -7169,6 +7228,9 @@ m'eederyn_foalley carnabhóirí
 m'eederyn_foalley m'fheoiliteoirí
 m'eirinys_bainney déiríocht
 m'eirinys_bainney déiríochta
+m'ennym_çhymsagh cnuasainm
+m'ennymyn_çhymsagh cnuasainmneacha
+m'eoylley_varrey guanó
 m'irree_seose-reesht m'aiséirí
 maaragh_ad bhearrfaidís
 maaragh_ad chaithfidís
@@ -8501,6 +8563,27 @@ nenmysagh_oo ainmneofá
 nenmysagh_oo n-ainmneofá
 nenmysagh_shin ainmneoimis
 nenmysagh_shin n-ainmneoimis
+nennaleeagh_ad análóidís
+nennaleeagh_ad n-análóidís
+nennaleeagh_oo análófá
+nennaleeagh_oo n-análófá
+nennaleeagh_shin análóimis
+nennaleeagh_shin n-análóimis
+nenneeagh_ad mhothóidís
+nenneeagh_ad mothóidís
+nenneeagh_oo mhothófá
+nenneeagh_oo mothófá
+nenneeagh_shin mhothóimis
+nenneeagh_shin mothóimis
+nennym_çhymsagh gcnuasainm
+nennymyn_çhymsagh gcnuasainmneacha
+nentreilagh_ad iontrálfaidís
+nentreilagh_ad n-iontrálfaidís
+nentreilagh_oo iontrálfá
+nentreilagh_oo n-iontrálfá
+nentreilagh_shin iontrálfaimis
+nentreilagh_shin n-iontrálfaimis
+neoylley_varrey nguanó
 neyragh_ad dhaorfaidís
 neyragh_ad ndaorfaidís
 neyragh_oo dhaorfá
