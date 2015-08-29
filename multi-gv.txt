@@ -1,4 +1,5 @@
 'Sy_Vurmey I mBurma
+'Syn_Nerin In Éirinn
 'cha_nel 'níl
 'eaynid_mooar spás amuigh
 'sy_Chanadey i gCeanada
@@ -11,6 +12,7 @@
 'sy_Vurmey i mBurma
 'syn_Americkey i Meiriceá
 'syn_Chanadey i gCeanada
+'syn_Nerin in Éirinn
 'syn_Nickeraag i Nicearagua
 'syn_aght_cheddin mar an gcéanna
 Affrick_Yiass Afraic Theas
@@ -27,7 +29,6 @@ Ard_y_Twoaie Mol Thuaidh
 Arg_Noah Áirc Naoi
 Arg_y_Chonaant Áirc an Chonartha
 Armee_yn_Taualtys Arm an tSlánaithe
-Azov Mheoid
 BBC_Alba BBC Alba
 Baarle_Albinagh Albainis
 Baarle_Albinagh Albainise
@@ -53,7 +54,6 @@ Burkina_Faso Buircíne Fasó
 Caayr_Adrian Cathair Aidriain
 Caladoan_Noa Nua-Chaladóin
 Cayr_Deeth Caerdydd
-Chaspagh Chaisp
 Cheayn_Sheealtagh Aigéan Ciúin
 Cheayn_Sheear Aigéan Atlantach
 Cheeill_Darey Chill Dara
@@ -131,7 +131,6 @@ Logh_Nay Loch nEathach
 Maarle_Albinagh nAlbainis
 Maarle_Albinagh nAlbainise
 May_Eo Maigh Eo
-Mooir_Azov Muir Azov
 Mooir_Azov Muir Mheoid
 Mooir_Charibagh Muir Chairib
 Mooir_Chaspagh Muir Chaisp
@@ -152,8 +151,16 @@ Neash_Chloaie gClochaoise
 Neash_Yiarn nIarannaois
 Neash_Yiarn nIarannaoise
 Neashyn_Chloaie gClochaoiseanna
+Nerin_Hwoaie Tuaisceart Éireann
+Nerin_Twoaie Tuaisceart Éireann
+Nerin_twoaie Tuaisceart Éireann
+New_Brunswick New Brunswick
+New_Hampshire New Hampshire
+New_Horizons New Horizons
 New_Jersey New Jersey
 New_Mexico New Mexico
+New_Scientist New Scientist
+New_York Nua-Eabhrac
 Niar_Foddey Chianoirthear
 Niar_Foddey Chianoirthir
 Niar_Foddey Cianoirthear
@@ -173,6 +180,7 @@ Phurt_Largey Phort Láirge
 Pobblaght_Nerin Poblacht na hÉireann
 Pontius_Pilate Phointias Pioláit
 Pontius_Pilate Pointias Pioláit
+Port_Erin Port Erin
 Purt_Largey Port Láirge
 Purt_le_Moirrey Purt le Moirrey
 Ree_Adha Rí Artúr
@@ -191,6 +199,7 @@ Sierra_Leone Siarra Leon
 Sleityn_Pyreanagh Piréiní
 Sleityn_Pyreanagh bPiréiní
 Slyst_Iuaagagh Cósta Eabhair
+Steat_Seyr_Nerin Saorstát Éireann
 Stroo_yn_Eearvooir Sruth na Murascaille
 Teelan_Noa Nua-Shéalainn
 Teelynn_Noa Nua-Shéalainn
@@ -404,6 +413,13 @@ aarheynnagh_oo d'athroinnfeá
 aarheynnagh_oo d'fhoroinnfeá
 aarheynnagh_shin d'athroinnfimis
 aarheynnagh_shin d'fhoroinnfimis
+aarkee_ad shnámhadar
+aarkee_ad snámhadar
+aarkee_shin shnámhamar
+aarkee_shin snámhamar
+aarkeeagh_ad shnámhfaidís
+aarkeeagh_oo shnámhfá
+aarkeeagh_shin shnámhfaimis
 aarlee_ad n-ullmhaíodar
 aarlee_ad ullmhaíodar
 aarlee_shin n-ullmhaíomar
@@ -819,6 +835,8 @@ ayns_Cilicia sa tSiléis
 ayns_Ethiopia san Aetóip
 ayns_Galilee sa Ghailíl
 ayns_Lebanon sa Liobáin
+ayns_Nerin in Éirinn
+ayns_Nerin_Hwoaie i dTuaisceart Éireann
 ayns_Purt_Largey i bPort Láirge
 ayns_Samaria sa tSamáir
 ayns_Syria sa tSiria
@@ -855,6 +873,7 @@ ayns_y_Phobblaght_Check i bPoblacht na Seice
 ayns_y_Phobblaght_Çheck i bPoblacht na Seice
 ayns_yn sa
 ayns_yn_Aidyn Áidin
+ayns_yn_Erin in Éirinn
 ayns_ynnyd in ionad
 ayr_'sy_leigh athair céile
 ayr_bashtee athair baistí
@@ -3648,6 +3667,8 @@ daarheynn_ad d'athroinneadar
 daarheynn_ad d'fhoroinneadar
 daarheynn_shin d'athroinneamar
 daarheynn_shin d'fhoroinneamar
+daarkee_ad shnámhadar
+daarkee_shin shnámhamar
 daarlee_ad d'ullmhaíodar
 daarlee_shin d'ullmhaíomar
 daascreeu_ad d'athscríobhadar
@@ -3792,6 +3813,12 @@ derragh_shin dtabharfaimis
 derragh_shin gcuirfimis
 derragh_shin thabharfaimis
 derrey_nish go dtí anois
+detch_ad d'eitseáladar
+detch_shin d'eitseálamar
+detlee_ad d'eitlíodar
+detlee_shin d'eitlíomar
+dettyl_ad d'eitlíodar
+dettyl_shin d'eitlíomar
 deyll_eairkagh daol adharcach
 deyll_feohdagh ciaróg dhubh
 deyllag_vreck bóín Dé
@@ -3899,7 +3926,6 @@ dooyrt_ad dúradar
 dooyrt_ad ndúradar
 dooyrt_shin dúramar
 dooyrt_shin ndúramar
-dorraghey dorcha_
 dorrys_egin doras éalaithe
 dorrys_leaystee luascdhorais
 dorrys_leaystee luascdhoras
@@ -4145,6 +4171,13 @@ dt'eirinys_bainney déiríochta
 dt'ennym_çhymsagh cnuasainm
 dt'ennymyn_çhymsagh cnuasainmneacha
 dt'eoylley_varrey guanó
+dt'essylys_mooar mór-ais
+dt'essylys_mooar mór-aise
+dt'essylysyn_mooar mór-aiseanna
+dt'etlan_cassee héileacaptair
+dt'etlan_cassee héileacaptar
+dt'etlanyn_cassee héileacaptair
+dt'etlanyn_cassee héileacaptar
 dt'irree_seose-reesht d'aiséirí
 dt_oi i d'aghaidh
 dt_row go raibh
@@ -4743,6 +4776,7 @@ er_aght_erbee ar chor ar bith
 er_ard os ard
 er_ardjey in airde
 er_ash ar ais
+er_bargane_soiagh ar léas
 er_bashtal den scoth
 er_bashtal thar barr
 er_be_dy mura
@@ -4755,7 +4789,10 @@ er_chee ar tí
 er_chor_erbee ar chor ar bith
 er_chosh ar bun
 er_conaant ar chuntar
+er_coontey ar son
+er_coontey de bharr
 er_coontey'n mar gheall ar an
+er_coontey_shen dá bharr sin
 er_cor_erbee ar chor ar bith
 er_creau ar crith
 er_croo_lesh ar snámh le
@@ -4780,12 +4817,16 @@ er_e_beealloo os a comhair
 er_e_eiyrts sa tóir air
 er_e_eiyrts sa tóir uirthi
 er_e_hon ar a shon
+er_e_hon_shoh_ooilley ar a shon sin
 er_e_hons ar a shonsa
 er_e_skyn os a chionn
 er_e_skyn os a cionn
 er_e_son ar a son
 er_e_veealloo os a chomhair
+er_eam ar fáil
+er_eeasaght ar iasacht
 er_eiyrts sa tóir ar
+er_ennym ar ainm
 er_feai-ny-cruinney ar fud an domhain
 er_feaï-ny-cruinney ar fud an domhain
 er_feie ar feadh
@@ -4802,6 +4843,7 @@ er_feiy'n ar fud an
 er_feiy'n ar fud na
 er_feiy-ny-cruinney ar fud an domhain
 er_feiy_ny_cruinney ar fud an domhain
+er_foyr ar fiar
 er_gerrey i leith
 er_gerrey_da i ngar do
 er_gerrey_da i ngar dó
@@ -4813,10 +4855,21 @@ er_gerrey_diu i ngar daoibh
 er_gerrey_dooin i ngar dúinn
 er_gerrey_dou i ngar dom
 er_gerrey_jee i ngar di
+er_ghlee faoi chlíth
 er_giyn dar gcionn
+er_goan-eeck ar ghannphá
 er_hoiaghey-beg ag déanamh beag is fiú
+er_jeid ar tinneall
+er_lheead ar leithead
 er_lheh ar leith
+er_lhiattee ar leataobh
+er_liurid ar a fhad
+er_mayl ar cíos
 er_mayrn ar marthain
+er_mean ar meán
+er_meshtey ar meisce
+er_mooin ar muin
+er_mooin_y_cheilley ar muin a chéile
 er_my_eiyrts sa tóir orm
 er_my_hon ar mo shon
 er_my_hons ar mo shonsa
@@ -4850,6 +4903,7 @@ er_n'ymmyrkey tar éis iompar
 er_n'ynsaghey tar éis foghlaim
 er_naagail tar éis fágáil
 er_nakin tar éis feiceáil
+er_neunhee ar neamhní
 er_nonney nó
 er_ny_ruggey saolaithe
 er_nyannoo tar éis déanamh
@@ -4865,36 +4919,120 @@ er_nyn_skyn os bhur gcionn
 er_nyn_skyn os ár gcionn
 er_nyn_son ar ár son
 er_oai ar aghaidh
+er_oaie ar aghaidh
 er_oi ar aghaidh
+er_prowalys ar promhadh
+er_rouyl ar buile
+er_rouyl ar mire
 er_shaghryn ar seachrán
+er_shen air sin
 er_skyn os cionn
 er_son ar son
+er_tayrn ar tarraingt
+er_toshiaght chun tosaigh
 er_troailt i dtinneas clainne
 er_troggloo thraochta
 er_troggloo traochta
+er_y_cheayn ar an bhfarraige
+er_y_cheayn ar farraige
 er_y_chlag a chlog
+er_y_chooyl ar an bpointe
+er_y_chooyl láithreach
 er_y_fa de bhrí
 er_y_fa toisc
 er_y_fa_shen dá bharr sin
 er_y_fa_shen dá bhrí sin
+er_y_gherrid le gairid
+er_y_gherrit le gairid
 er_y_hon dá bharr sin
 er_y_hon-syn dá bharr sin
 er_y_hon_shen dá bharr sin
+er_y_traie ar an trá
+er_y_çheer ar an tír
+er_y_çheer faoin tuath
+er_y_çheu_heear ar an taobh thiar
+er_y_çheu_twoaie ar an taobh thuaidh
 er_yn_aght_cheddin mar an gcéanna
+er_yn_aght_cosoylagh mar an gcéanna
 er_yn_oyr de bharr
 er_yn_oyr de bhrí
+er_yn_ushtey ar an uisce
 er_çhee ar tí
 er_çheu_ny_geayee ar thaobh na gaoithe
+erbey_dy mura
+erbey_dy murar
+erbey_dy_re murar
+erbey_dy_ren mura ndearna
+erbey_dy_row mura raibh
+erbey_dy_vel mura bhfuil
 erdy_henney ó shin
+erreish_da'n_cheim iarchéime
+erreish_da_baase iarbháis
 erskyn_ain os ár gcionn
 erskyn_ayd os do chionn
 erskyn_aym os mo chionn
-erskyn_echey os a chionn 
+erskyn_deiney b'fhordhaonna
+erskyn_deiney fhordhaonna
+erskyn_deiney fordhaonna
+erskyn_dooghys b'osnádúrtha
+erskyn_dooghys osnádúrtha
+erskyn_earroo as cuimse
+erskyn_earroo gan áireamh
+erskyn_earroo thar áireamh
+erskyn_echey os a chionn
 erskyn_eck os a cionn
 erskyn_eu os bhur gcionn
+erskyn_insh thar cuimse
+erskyn_insh thar na bearta
+erskyn_laue os cionn láimhe
+erskyn_leagh os cionn luacha
 erskyn_oc os a gcionn
+erskyn_shen ina theannta sin
+erskyn_shen lena chois sin
 erskyn_towse thar a bheith
+essylys_cochruinnagh ais chothrománach
+essylys_mooar mhór-ais
+essylys_mooar mhór-aise
+essylys_mooar mór-ais
+essylys_mooar mór-aise
+essylys_pontreilagh ais cheartingearach
+essylysyn_mooar mhór-aiseanna
+essylysyn_mooar mór-aiseanna
 et_al et al
+etch_ad eitseáladar
+etch_ad n-eitseáladar
+etch_shin eitseálamar
+etch_shin n-eitseálamar
+etchagh_ad d'eitseálfaidís
+etchagh_oo d'eitseálfá
+etchagh_shin d'eitseálfaimis
+etlan_cassee héileacaptair
+etlan_cassee héileacaptar
+etlan_troddanagh eitleán troda
+etlanyn_cassee héileacaptair
+etlanyn_cassee héileacaptar
+etlee_ad eitlíodar
+etlee_ad n-eitlíodar
+etlee_shin eitlíomar
+etlee_shin n-eitlíomar
+etleeagh_ad d'eitleoidís
+etleeagh_oo d'eitleofá
+etleeagh_shin d'eitleoimis
+ettyl_ad eitlíodar
+ettyl_ad n-eitlíodar
+ettyl_shin eitlíomar
+ettyl_shin n-eitlíomar
+ettylagh_ad d'eitleoidís
+ettylagh_oo d'eitleofá
+ettylagh_shin d'eitleoimis
+faaie_amas plásóg amais
+faaie_balley_beg_çheerey faiche an bhaile
+faaie_vargee páirc aonaigh
+faaie_voulleragh faiche bollaí
+faaishnys_ny_h-emshir réamhaisnéis na haimsire
+faarkey_brisht farraige bhriste
+faasagh_faiyr fásach féir
+faasagh_keylley fásach coille
 faggys_da i ngar do
 faggys_da i ngar dó
 faggys_da'n i ngar don
@@ -6644,10 +6782,19 @@ hennym_çhymsagh cnuasainm
 hennymyn_çhymsagh cnuasainmneacha
 heoylley_varrey guanó
 her_troggloo traochta
+herskyn_deiney fordhaonna
+herskyn_dooghys hosnádúrtha
 heshvean_trimmid mheáchanláir
 heshvean_trimmid mheáchanlár
 heshveanyn_trimmid mheáchanláir
 heshveanyn_trimmid mheáchanlár
+hessylys_mooar mór-ais
+hessylys_mooar mór-aise
+hessylysyn_mooar mór-aiseanna
+hetlan_cassee héileacaptair
+hetlan_cassee héileacaptar
+hetlanyn_cassee héileacaptair
+hetlanyn_cassee héileacaptar
 heuee_ad cheanglaíodar
 heuee_ad gceanglaíodar
 heuee_shin cheanglaíomar
@@ -7231,6 +7378,13 @@ m'eirinys_bainney déiríochta
 m'ennym_çhymsagh cnuasainm
 m'ennymyn_çhymsagh cnuasainmneacha
 m'eoylley_varrey guanó
+m'essylys_mooar mór-ais
+m'essylys_mooar mór-aise
+m'essylysyn_mooar mór-aiseanna
+m'etlan_cassee héileacaptair
+m'etlan_cassee héileacaptar
+m'etlanyn_cassee héileacaptair
+m'etlanyn_cassee héileacaptar
 m'irree_seose-reesht m'aiséirí
 maaragh_ad bhearrfaidís
 maaragh_ad chaithfidís
@@ -8584,6 +8738,31 @@ nentreilagh_oo n-iontrálfá
 nentreilagh_shin iontrálfaimis
 nentreilagh_shin n-iontrálfaimis
 neoylley_varrey nguanó
+nessylys_mooar mór-ais
+nessylys_mooar mór-aise
+nessylysyn_mooar mór-aiseanna
+netchagh_ad eitseálfaidís
+netchagh_ad n-eitseálfaidís
+netchagh_oo eitseálfá
+netchagh_oo n-eitseálfá
+netchagh_shin eitseálfaimis
+netchagh_shin n-eitseálfaimis
+netlan_cassee héileacaptair
+netlan_cassee héileacaptar
+netlanyn_cassee héileacaptair
+netlanyn_cassee héileacaptar
+netleeagh_ad eitleoidís
+netleeagh_ad n-eitleoidís
+netleeagh_oo eitleofá
+netleeagh_oo n-eitleofá
+netleeagh_shin eitleoimis
+netleeagh_shin n-eitleoimis
+nettylagh_ad eitleoidís
+nettylagh_ad n-eitleoidís
+nettylagh_oo eitleofá
+nettylagh_oo n-eitleofá
+nettylagh_shin eitleoimis
+nettylagh_shin n-eitleoimis
 neyragh_ad dhaorfaidís
 neyragh_ad ndaorfaidís
 neyragh_oo dhaorfá
@@ -9389,6 +9568,12 @@ vaareagh_oo bhearrfá
 vaareagh_oo chaithfeá
 vaareagh_shin bhearrfaimis
 vaareagh_shin chaithfimis
+vaarkeeagh_ad shnámhfaidís
+vaarkeeagh_ad snámhfaidís
+vaarkeeagh_oo shnámhfá
+vaarkeeagh_oo snámhfá
+vaarkeeagh_shin shnámhfaimis
+vaarkeeagh_shin snámhfaimis
 vaataghyn_bieauid luasbhád
 vaataghyn_bieauid luasbháid
 vaatey_bieauid luasbhád
@@ -9486,6 +9671,8 @@ veeyn_cooag sheamsóga
 veih_Asia ón Áise
 veih_Galilee ón nGailíl
 veih_Macedonia ón Macadóin
+veih_Nerin ó Éirinn
+veih_Nerin_Hwoaie ó Thuaisceart Éireann
 veih_Purt_Largey ó Phort Láirge
 veih_Samaria ón tSamáir
 veih_Tyre ón Tuír
@@ -10181,8 +10368,8 @@ yn_derrey_yeh an duine amháin
 yn_Çhaayr Chester
 yn_Çheet an Aidbhint
 yn_Çheet na hAidbhinte
-ynnyd_eggey shuíomh Gréasáin 
-ynnyd_eggey suíomh Gréasáin 
+ynnyd_eggey shuíomh Gréasáin
+ynnyd_eggey suíomh Gréasáin
 Çheer_Chonnal Tír Chonaill
 Çheer_Eoin Tír Eoghain
 Çheer_Swassee Suasalainn
