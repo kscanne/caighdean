@@ -58,6 +58,8 @@ Cheayn_Sheealtagh Aigéan Ciúin
 Cheayn_Sheear Aigéan Atlantach
 Cheeill_Darey Chill Dara
 Cheeill_Mantan Chill Mhantáin
+Cheshaght_Ghailckagh Chumann Gaelach
+Cheshaght_Ghailckagh Cumann Gaelach
 Chiarn_ny_flaunyssee Tiarna na Slua
 Chiart_Vooar Chairt Mhór
 Choonseil_Reeoil Rí-Chomhairle
@@ -111,6 +113,10 @@ Far-Ligganagh_Marrey Turtar Bréige
 Feaill'_Vaayl Féile Michíl
 Feailley_Sarn Féile Satairn
 Fianna_Fail Fianna Fáil
+Gael_Albinagh Gael Albanach
+Gaelg_ny_Halbey Gaeilge na hAlban
+Gaoth_Dobhair Gaoth Dobhair
+Garey_Eden Gairdín Éidin
 Ghlion_Faba Ghlion Faba
 Ghuilley_Drid Ghiolla
 Glion_Faba Glion Faba
@@ -667,6 +673,20 @@ ard-raad_mooar mórbhealach
 ard-raad_mooar mórbhealaigh
 ard-raadyn_mooar mhórbhealaí
 ard-raadyn_mooar mórbhealaí
+ard-voyl_ad ardmholadar
+ard-voyl_ad n-ardmholadar
+ard-voyl_shin ardmholamar
+ard-voyl_shin n-ardmholamar
+ard-voylagh_ad d'ardmholfaidís
+ard-voylagh_oo d'ardmholfá
+ard-voylagh_shin d'ardmholfaimis
+ard-voyll_ad ardmholadar
+ard-voyll_ad n-ardmholadar
+ard-voyll_shin ardmholamar
+ard-voyll_shin n-ardmholamar
+ard-voyllagh_ad d'ardmholfaidís
+ard-voyllagh_oo d'ardmholfá
+ard-voyllagh_shin d'ardmholfaimis
 ard_gheurey dhúluachair
 ard_gheurey dhúluachra
 ard_gheurey dúluachair
@@ -757,11 +777,18 @@ armeeyn_hassooagh ghnátharm
 armeeyn_hassooagh gnáthairm
 armeeyn_hassooagh gnátharm
 arr_ad dtairgeadar
+arr_ad n-ofráladar
+arr_ad ofráladar
 arr_ad thairgeadar
 arr_shin dtairgeamar
+arr_shin n-ofrálamar
+arr_shin ofrálamar
 arr_shin thairgeamar
+arragh_ad d'ofrálfaidís
 arragh_ad thairgfidís
+arragh_oo d'ofrálfá
 arragh_oo thairgfeá
+arragh_shin d'ofrálfaimis
 arragh_shin thairgfimis
 arragher_magh b'eisimirceach
 arragher_magh eisimirceach
@@ -956,6 +983,7 @@ ayns_Bretin sa Bhreatain Bheag
 ayns_Canada i gCeanada
 ayns_Cilicia sa tSiléis
 ayns_Ethiopia san Aetóip
+ayns_Galicia sa Ghailís
 ayns_Galilee sa Ghailíl
 ayns_Lebanon sa Liobáin
 ayns_Nerin in Éirinn
@@ -1123,6 +1151,7 @@ bee_cooag bia éadáin
 bee_cooag seamsóg
 bee_cooag seamsóige
 bee_cooag tseamsóg
+bee_muc_friogganagh bleachtán colgach
 beeal_awiney béal abhann
 beeal_bing béal binn
 beeal_foee béal faoi
@@ -1209,6 +1238,7 @@ bentyn_jee bainte léi
 benyn_abb ban-abaí
 benyn_adultrinagh banadhaltrach
 benyn_adultrinagh banadhaltraigh
+benyn_chleuin banchliamhaineacha
 benyn_chloie ban-aisteoirí
 benyn_eearley cuntaoisí
 benyn_emshyr meitéareolaithe
@@ -1422,6 +1452,7 @@ bollee_dooblit débhealaí
 bonnad_skianagh boinéad sciathánach
 booa_'liught bó bhleacht
 booa_varrey bó mhara
+bossan_friogganagh briogadán uisce
 bossan_keylley bodán coille
 boteil_heh buidéal te
 boyn_sthie bonn istigh
@@ -3088,6 +3119,8 @@ chudjal_beg bhod
 chudjal_beg bhoid
 chudjalyn_beg bhod
 chudjalyn_beg bhoid
+chuillee_vee chuile
+chuilleeyn_vee chuilí
 chuir_ad chuireadar
 chuir_ad dtugadar
 chuir_ad gcuireadar
@@ -3673,6 +3706,7 @@ cudjalyn_beg bod
 cudjalyn_beg boid
 cuillee_stokal cúil stócála
 cuillee_vee cuile
+cuilleeyn_vee cuilí
 cuirraghyn_kiaull ceolchoirmeacha
 cuirrey_kiaull ceolchoirm
 cuirrey_kiaull ceolchoirme
@@ -3719,6 +3753,7 @@ curnyn_spreih fraschannaí
 currit_ass curtha as
 currit_er_skedjal curtha ar sceideal
 curtan_dorrysh cuirtín dorais
+d'ockle_arrey d'fhocal faire
 da'n_derrey_yeh don duine amháin
 daa-enmys_ad d'athsheoladar
 daa-enmys_shin d'athsheolamar
@@ -3850,6 +3885,10 @@ dann_ad d'fheannadar
 dann_shin d'fheannamar
 dansoor_ad d'fhreagraíodar
 dansoor_shin d'fhreagraíomar
+dard-voyl_ad d'ardmholadar
+dard-voyl_shin d'ardmholamar
+dard-voyll_ad d'ardmholadar
+dard-voyll_shin d'ardmholamar
 dargane_ad d'argónadar
 dargane_shin d'argónamar
 dargid_ad d'airgeadaíodar
@@ -3860,7 +3899,9 @@ dark_ad d'fhanadar
 dark_shin d'fhanamar
 darkee_ad d'fhanadar
 darkee_shin d'fhanamar
+darr_ad d'ofráladar
 darr_ad thairgeadar
+darr_shin d'ofrálamar
 darr_shin thairgeamar
 darragh_ad dtiocfaidís
 darragh_ad thiocfaidís
@@ -4023,6 +4064,8 @@ dliugh_ad d'fhliuchadar
 dliugh_shin d'fhliuchamar
 dlout_ad d'aithisíodar
 dlout_shin d'aithisíomar
+do-yiall_ad d'fhrithghealladar
+do-yiall_shin d'fhrithgheallamar
 do_nagh ionas nach
 do_nagh sa chaoi nach
 doad_ad d'adhnadar
@@ -4044,6 +4087,22 @@ doalsee_ad d'fhalsaíodar
 doalsee_shin d'fhalsaíomar
 doayr_ad d'fhabhraíodar
 doayr_shin d'fhabhraíomar
+dockle_ad d'fhoghraíodar
+dockle_ad d'fhuaimníodar
+dockle_ad d'fhógraíodar
+dockle_shin d'fhoghraíomar
+dockle_shin d'fhuaimníomar
+dockle_shin d'fhógraíomar
+docklee_ad d'fhoghraíodar
+docklee_ad d'fhuaimníodar
+docklee_ad d'fhógraíodar
+docklee_shin d'fhoghraíomar
+docklee_shin d'fhuaimníomar
+docklee_shin d'fhógraíomar
+doghan_ad bhachlaíodar
+doghan_ad phéacadar
+doghan_shin bhachlaíomar
+doghan_shin phéacamar
 doghtagh_ad dtachtfaidís
 doghtagh_ad thachtfaidís
 doghtagh_oo dtachtfá
@@ -4056,6 +4115,8 @@ doigagh_oo dtuigfeá
 doigagh_oo thuigfeá
 doigagh_shin dtuigfimis
 doigagh_shin thuigfimis
+doll_ad d'fholaíodar
+doll_shin d'fholaíomar
 dollaghyn_magh cealuithe
 dollan_beg tambóirín
 dollan_beg tiompáin
@@ -4063,7 +4124,11 @@ dollan_beg tiompán
 dollanyn_beg tambóiríní
 dollanyn_beg tiompáin
 dollanyn_beg tiompán
+dollee_ad d'fholaíodar
+dollee_shin d'fholaíomar
 dolley_magh cealú
+dolmee_ad d'fholmhaíodar
+dolmee_shin d'fholmhaíomar
 doltey_firryn mac uchta
 doo_sooie smúrabháin
 doo_sooie smúrabhán
@@ -4129,16 +4194,24 @@ dooinney_sooree suiríoch
 dooinney_sooree tsuirígh
 dooinney_treoghe baintreach fir
 dooinney_yeshlaueagh fear deaslámhach
+doostyr_ad d'fhútráladar
+doostyr_shin d'fhútrálamar
 dooyrt_ad dúradar
 dooyrt_ad ndúradar
 dooyrt_shin dúramar
 dooyrt_shin ndúramar
+dordree_ad spáráladar
+dordree_shin spárálamar
 dorrys_egin doras éalaithe
 dorrys_leaystee luascdhorais
 dorrys_leaystee luascdhoras
 dorrys_shliawin doras sleamhnáin
 dorrysyn_leaystee luascdhoirse
+doshil_ad d'osclaíodar
+doshil_shin d'osclaíomar
 dow_oaldey_ushtey buabhall uisce
+dowan_ad loisceadar
+dowan_shin loisceamar
 drappeyder_eaynnee ailleadóir
 drappeyder_eaynnee ailleadóra
 drappeyder_eaynnee b'ailleadóir
@@ -4177,11 +4250,19 @@ dreanyn_ailey lasairchíor
 dreanyn_ailey lasairchíora
 dreanyn_mollagh meantáin
 dreanyn_mollagh meantán
+dreayn_ad bhorradar
+dreayn_shin bhorramar
 dreays_corrym dreas cothrom
+dreegh_ad d'fhriochadar
+dreegh_shin d'fhriochamar
 dreeym_braagey droim bróige
 dreeym_choshey droim coise
 dreggyr_ad d'fhreagraíodar
 dreggyr_shin d'fhreagraíomar
+dreill_ad choimeádadar
+dreill_ad choinníodar
+dreill_shin choimeádamar
+dreill_shin choinníomar
 drogagh_ad dtógfaidís
 drogagh_ad thógfaidís
 drogagh_oo dtógfá
@@ -4583,6 +4664,18 @@ dt'ishig_rollageagh réaltfhisic
 dt'ishig_rollageagh réaltfhisice
 dt'oain_golf galfchúrsa
 dt'oainyn_golf galfchúrsaí
+dt'ockle_meshtit d'anagraim
+dt'ockle_meshtit d'anagram
+dt'ockleyn_meshtit d'anagraim
+dt'ockleyn_meshtit d'anagram
+dt'oiee_creoi crua-adhmad
+dt'oiee_creoi crua-adhmaid
+dt'oieeyn_creoi crua-adhmad
+dt'oieeyn_creoi crua-adhmaid
+dt'oyr_bevyllit d'fhiarfhaobhair
+dt'oyr_bevyllit d'fhiarfhaobhar
+dt'oyryn_bevyllit d'fhiarfhaobhair
+dt'oyryn_bevyllit d'fhiarfhaobhar
 dt_oi i d'aghaidh
 dt_row go raibh
 dty_choair i do threo
@@ -4595,6 +4688,8 @@ dty_whail i do threo
 dty_yei i do dhiaidh
 dty_yeï i do dhiaidh
 du_liooar go leor
+duaill_ad d'fhuadar
+duaill_shin d'fhuamar
 dug_ad chuireadar
 dug_ad dtugadar
 dug_ad gcuireadar
@@ -4626,6 +4721,12 @@ duillagyn_scarree scarbhileog
 duillagyn_scarree scarbhileoga
 duillagyn_vooar mórbhileog
 duillagyn_vooar mórbhileoga
+duillee_ad d'fhulaingíodar
+duillee_shin d'fhulaingíomar
+duinn_ad d'fhuineadar
+duinn_shin d'fhuineamar
+duirree_ad d'fhanadar
+duirree_shin d'fhanamar
 duitagh_ad dtitfidís
 duitagh_ad thitfidís
 duitagh_oo dtitfeá
@@ -4717,10 +4818,14 @@ dy_donney go dona
 dy_feayr-chooishagh go fuarchúiseach
 dy_feer go fíor
 dy_firrinagh go fírinneach
+dy_firrinagh-focklagh go dearfa
 dy_firrinagh_focklagh déanta na fírinne
+dy_firrinagh_focklagh go dearfa
 dy_fondagh go teann
 dy_gammanagh mar mhagadh
 dy_gerrid go gairid
+dy_gerrid go luath
+dy_gerrid sul i bhfad
 dy_ghoaill_baght_jeh breathú air
 dy_ghoaill_baght_jeh breathú ar
 dy_ghoaill_baght_jeh'n breathú ar an
@@ -5141,6 +5246,10 @@ eer_liauyr an-fhada
 eer_mie fhíormhaith
 eer_mie fhíormhaithe
 eer_neuchramp an-simplí
+eer_neugheyr an-saoir
+eer_neugheyr an-saoire
+eer_neugheyr an-saor
+eer_neugheyr an-saora
 eer_saasit an-sásta
 eer_saasit lánsásta
 eer_sassit an-sásta
@@ -5283,6 +5392,8 @@ ennym-ockle_breearagh ainm briathartha
 ennym_bashtee ainm baiste
 ennym_breearagh ainm briathartha
 ennym_cair ainm dílis
+ennym_foaysagh ainmfhocal teibí
+ennym_foayssagh ainmfhocal teibí
 ennym_meechiart ainm mícheart
 ennym_çhymsagh chnuasainm
 ennym_çhymsagh cnuasainm
@@ -5444,6 +5555,9 @@ er_feiy-ny-cruinney ar fud an domhain
 er_feiy_ny_cruinney ar fud an domhain
 er_foalsey shlusaí
 er_foyr ar fiar
+er_fud ar fud
+er_fud_ny_h-oie ar feadh na hoíche
+er_fud_ny_hoie ar feadh na hoíche
 er_gerrey i leith
 er_gerrey_da i ngar do
 er_gerrey_da i ngar dó
@@ -5586,6 +5700,7 @@ er_y_fa de bhrí
 er_y_fa toisc
 er_y_fa_shen dá bharr sin
 er_y_fa_shen dá bhrí sin
+er_y_gerrid le gairid
 er_y_gherrid le gairid
 er_y_gherrit le gairid
 er_y_hon dá bharr sin
@@ -5891,7 +6006,14 @@ feer_mie b'fhíormhaithe
 feer_mie fíormhaith
 feer_mie fíormhaithe
 feer_neuchramp an-simplí
+feer_neugheyr an-saoir
+feer_neugheyr an-saoire
 feer_neugheyr an-saor
+feer_neugheyr an-saora
+feer_neugheyr b'an-saoire
+feer_neugheyr b'an-saor
+feer_neugheyr b'an-saora
+feer_neugheyr han-saor
 feer_saasit an-sásta
 feer_saasit lánsásta
 feer_sassit an-sásta
@@ -6249,13 +6371,48 @@ floddey_rioee oighearshlaod
 floddey_rioee oighearshlaoda
 floddey_rioee t-oighearshlaod
 fo'n_aer faoin aer
+fo-eaddagh_ben fo-éadaí mná
 fo_aggle faoi eagla
 fo_ardaneyn faoi lochtáin
+fo_beeal_gunn faoi bhéal gunna
+fo_brat faoi bhrat
+fo_brat_airh b'órphlátáilte
+fo_brat_airh faoi bhrat óir
+fo_brat_airh hórphlátáilte
+fo_brat_airh órphlátáilte
 fo_chosh faoi chois
+fo_ghlass faoi ghlas
+fo_ghruaiaght faoi dhraíocht
+fo_ghuillag faoi bhláth
+fo_harey faoi ordú
+fo_loo faoi mhionn
+fo_loo faoi mhóid
+fo_ny_harrish faoi nó thairis
+fo_ordaag faoi shlat
+fo_smaght faoi smacht
 fo_stiurey faoi stiúir
+fo_urryssaght faoi árachas
+fo_vrat_sniaghtee faoi bhrat sneachta
 foaddan_kereagh lasán céarach
 foain_golf galfchúrsa
 foainyn_golf galfchúrsaí
+fockle_arrey focal faire
+fockle_co-rait focal comhfhuaimneach
+fockle_er_fockle focal ar fhocal
+fockle_jerrinagh focal deireanach
+fockle_meshtit anagraim
+fockle_meshtit anagram
+fockle_meshtit b'anagram
+fockle_meshtit hanagraim
+fockle_meshtit hanagram
+fockle_meshtit t-anagram
+fockle_yn_arrey focal faire
+fockleyn_meshtit anagraim
+fockleyn_meshtit anagram
+fockleyn_meshtit b'anagraim
+fockleyn_meshtit hanagraim
+fockleyn_meshtit hanagram
+fockleyr_beg foclóir beag
 fod_mayd is féidir linn
 fod_oo is féidir leat
 foddee_ad is féidir leo
@@ -6263,11 +6420,86 @@ foddee_ee is féidir léi
 foddee_eh is féidir leis
 foddee_oo is féidir leat
 foddee_shiu is féidir libh
-fud_ny-hoie ar fud na hoíche
-fud_ny_hoie ar fud na hoíche
+foddey_er-dy-henney fada ó shin
+foddey_er-dy-henney fadó
+foddey_farraghtyn seasmhach
+foddey_farraghtyn seasmhacha
+foddey_farraghtyn seasmhaigh
+foddey_farraghtyn seasmhaí
+foddey_seihllagh b'fhadsaolach
+foddey_seihllagh b'fhadsaolacha
+foddey_seihllagh b'fhadsaolaí
+foddey_seihllagh fadsaolach
+foddey_seihllagh fadsaolacha
+foddey_seihllagh fadsaolaigh
+foddey_seihllagh fadsaolaí
+foddey_veih_my_cheilley i bhfad óna chéile
+fogrey_draamey fógra dráma
+fogrey_jerree fógra deiridh
+fogrit_magh fógartha
+foiee_creoi crua-adhmad
+foiee_creoi crua-adhmaid
+foieeyn_creoi crua-adhmad
+foieeyn_creoi crua-adhmaid
+follaghyn_as_feddyn folach bíog
+follid_braag snasán bróg
+follym_faase b'fhoilmhe
+follym_faase b'fholamh
+follym_faase b'fholmha
+follym_faase b'fhásúil
+follym_faase b'fhásúla
+follym_faase foilmhe
+follym_faase folaimh
+follym_faase folamh
+follym_faase folmha
+follym_faase fásúil
+follym_faase fásúla
+foyr_bevyllit b'fhiarfhaobhar
+foyr_bevyllit fiarfhaobhair
+foyr_bevyllit fiarfhaobhar
+foyr_skynney béal scine
+foyr_skynney faobhar scine
+foyryn_bevyllit b'fhiarfhaobhair
+foyryn_bevyllit fiarfhaobhair
+foyryn_bevyllit fiarfhaobhar
+frass_greiney múirín gréine
+fraue_cadleen codlaidín
+fraue_cherrinagh fréamh chearnach
+fraue_chiubagh fréamh chiúbach
+freeney_doont biorán dúnta
+freoagh_ny_sooghyn crann caithne
+fritlag_dy_'er gioblacháin
+fritlag_dy_'er gioblachán
+fritlagyn_dy_'er gioblacháin
+fritlagyn_dy_'er gioblachán
+frog_aeg torbáin
+frog_aeg torbán
+frogyn_aeg torbáin
+frogyn_aeg torbán
+fud_ny-hoie ar feadh na hoíche
+fud_ny_h-oie ar feadh na hoíche
+fud_ny_hoie ar feadh na hoíche
+fud_y_cheilley trína chéile
+fuill_stroaney fuil shróine
+furnish_aer foirnéis soinneáin
+fuygh_marrey adhmad raice
+fuygh_ny_bea crann na beatha
+fwee_jantagh faí ghníomhach
+fwee_surransagh faí chéasta
 fy_yerrey faoi dheireadh
 fy_yerrey_hoal faoi dheireadh thiar
+fynneig_spoar spáschapsúil
+fynneig_spoar spáschapsúl
+fynneigyn_spoar spáschapsúil
+fynneigyn_spoar spáschapsúl
 fys_em a fhios agam
+fys_obbree fios gnóthaí
+fys_rolaue réamheolais
+fys_rolaue réamheolas
+ga-reih_ta cé go bhfuil
+ga_dy cé go
+ga_dy cé gur
+ga_dy_vel cé go bhfuil
 gaabylagh_ad cháblóidís
 gaabylagh_ad gcáblóidís
 gaabylagh_oo cháblófá
@@ -6296,6 +6528,16 @@ gaartyragh_shin aithiseoimis
 gaartyragh_shin maslóimis
 gaartyragh_shin mhaslóimis
 gaartyragh_shin n-aithiseoimis
+gaaue_airh gabha óir
+gaaue_argid gabha geal
+gaaue_cobbyr gabha copair
+gaaue_glish glasadóir
+gaaue_glish glasadóra
+gaaue_stainney gabha stáin
+gaaue_stainney stánadóir
+gaaue_stainney stánadóra
+gaaueyn_glish glasadóirí
+gaaueyn_stainney stánadóirí
 gabbyl_awin ndobhareach
 gabbyl_awin ndobhareich
 gabbylyn_awin ndobhareach
@@ -6306,6 +6548,7 @@ gaddagh_oo chosnófá
 gaddagh_oo gcosnófá
 gaddagh_shin chosnóimis
 gaddagh_shin gcosnóimis
+gaddee_sporran piocaire póca
 gaddilagh_ad chodlóidís
 gaddilagh_ad gcodlóidís
 gaddilagh_oo chodlófá
@@ -6351,6 +6594,9 @@ gaghlaagh_shin chlaochlóimis
 gaghlaagh_shin gclaochlóimis
 gaghlaagh_shin n-athróimis
 gaghlaayn_folley bhfuilaistrithe
+gah_greiney ga gréine
+gah_greiney griangha
+gahyn_greiney grianghathanna
 gaignagh_ad chognóidís
 gaignagh_ad gcognóidís
 gaignagh_oo chognófá
@@ -6369,6 +6615,10 @@ gaillagh_oo chaillfeá
 gaillagh_oo gcaillfeá
 gaillagh_shin chaillfimis
 gaillagh_shin gcaillfimis
+gaillaghyn_keerey cogansach
+gaillaghyn_keerey cogansacha
+gailley_keerey cogansach
+gailley_keerey cogansaí
 gainle_eayil n-aolchoinneal
 gainle_eayil n-aolchoinnle
 gainle_gheirrey bhfáideog
@@ -6387,18 +6637,52 @@ galghoolagh_oo chomhairfeá
 galghoolagh_oo gcomhairfeá
 galghoolagh_shin chomhairfimis
 galghoolagh_shin gcomhairfimis
+gallan_mooar gallán mór
+gallane_millish gallán milis
 gallish_Rangagh mbrocailí
+gamman_lettraghey comórtas litrithe
 gampagh_ad champálfaidís
 gampagh_ad gcampálfaidís
 gampagh_oo champálfá
 gampagh_oo gcampálfá
 gampagh_shin champálfaimis
 gampagh_shin gcampálfaimis
+gansee_foshlit cairdeagan
+gant_Arctagh geabhróg Artach
 gappan_queeyllagh molchaidhp
 gappan_queeyllagh molchaidhpe
 gappanyn_queeyllagh molchaidhpeanna
+garaghyn_baagh zúnna
+garaghyn_creggey creig-ghairdíní
+garaghyn_feeyney b'fhíonghoirt
+garaghyn_feeyney d'fhíonghoirt
+garaghyn_feeyney d'fhíonghort
+garaghyn_feeyney fíonghoirt
+garaghyn_feeyney fíonghort
+garaghyn_feeyney m'fhíonghoirt
+garaghyn_feeyney m'fhíonghort
+garaghyn_lossreeyn luibhghoirt
+garaghyn_lossreeyn luibhghort
+garaghyn_rose rósghairdíní
 garbyd_clienney naíchóiste
 garbydyn_clienney naíchóistí
+gard_kirpey garda cosanta
+gardey_corp garda tarrthála
+garee_breck gearr breac
+gareeyn_breckey gearraí breaca
+garey_baagh gairdín ainmhithe
+garey_baagh zú
+garey_creggey creig-ghairdín
+garey_feeyney b'fhíonghort
+garey_feeyney d'fhíonghoirt
+garey_feeyney d'fhíonghort
+garey_feeyney fíonghoirt
+garey_feeyney fíonghort
+garey_feeyney m'fhíonghoirt
+garey_feeyney m'fhíonghort
+garey_lossreeyn luibhghoirt
+garey_lossreeyn luibhghort
+garey_rose rósghairdín
 garlan_oast gcarróstlainne
 garlan_oast gcarróstlann
 garlan_oast móstáin
@@ -6409,14 +6693,19 @@ garlanyn_oast móstáin
 garlanyn_oast móstán
 garmin_fidderagh bhíoma fíodóra
 garmin_fidderagh bíoma fíodóra
+garmin_yiarn cearchaill
+garmin_yiarn cearchaille
+garminyn_yiarn cearchaillí
 garr_laadee leoraí
 garradje_feie mealbhacáin
 garradje_feie mealbhacán
 garradjeyn_feie mealbhacáin
 garradjeyn_feie mealbhacán
+garran_yiarn gearrán iarainn
 garrane_injinagh mocaisín
 garraneyn_injinagh mocaisíní
 garryn_laadee leoraithe
+gas_gearey gás gáire
 gasherickeeagh_ad bheannóidís
 gasherickeeagh_ad choisricfidís
 gasherickeeagh_ad gcoisricfidís
@@ -6488,6 +6777,28 @@ geauagh_oo chaithfeá
 geauagh_oo gcaithfeá
 geauagh_shin chaithfimis
 geauagh_shin gcaithfimis
+geay-ghreienyn_maidjey gaothuirlis adhmaid
+geay_chassee camghaoithe
+geay_chassee camghaoth
+geay_chassee cuaifeach
+geay_chassee cuaifigh
+geay_neear_ass gaoth aniar aneas
+geay_veeley leoithne
+geay_vooar gaoth mhór
+geayghn_chassee camghaoth
+geayghn_chassee camghaotha
+geayghn_chassee cuaifeach
+geayghn_chassee cuaifigh
+geayl_creoi antraicít
+geayl_creoi antraicíte
+geayl_creoi b'antraicít
+geayl_creoi d'antraicít
+geayl_creoi d'antraicíte
+geayl_creoi gual crua
+geayl_creoi hantraicít
+geayl_creoi hantraicíte
+geayl_creoi m'antraicít
+geayl_creoi m'antraicíte
 geayll_ad chualadar
 geayll_ad gcualadar
 geayll_shin chualamar
@@ -6498,7 +6809,23 @@ geaynagh_oo chaoinfeá
 geaynagh_oo gcaoinfeá
 geaynagh_shin chaoinfimis
 geaynagh_shin gcaoinfimis
+geayr_hiddracloaragh aigéad hidreaclórach
+geaysh_ghoair fionnadh gabhair
+geayyn_veeley leoithní
+geinniagh_vio gaineamh beo
+geirr_vill céir bheach
+geirr_villish bealadh gruaige
 gentreil_stiagh ag dul isteach
+gerrym_caggee gáir chatha
+gerrym_caggee rosc catha
+geuley_bee slabhra bia
+ghaag_ad ghágadar
+ghaag_ad ngágadar
+ghaag_shin ghágamar
+ghaag_shin ngágamar
+ghaagagh_ad ghágfaidís
+ghaagagh_oo ghágfá
+ghaagagh_shin ghágfaimis
 ghaah_ad dhathaíodar
 ghaah_ad dhódar
 ghaah_ad ndathaíodar
@@ -6513,9 +6840,36 @@ ghaahagh_oo dhathófá
 ghaahagh_oo dhófá
 ghaahagh_shin dhathóimis
 ghaahagh_shin dhófaimis
+ghaaig_ad ghágadar
+ghaaig_ad ngágadar
+ghaaig_shin ghágamar
+ghaaig_shin ngágamar
+ghaaigagh_ad ghágfaidís
+ghaaigagh_oo ghágfá
+ghaaigagh_shin ghágfaimis
+ghaal-vroie_ad ghalbhruitheadar
+ghaal-vroie_ad ngalbhruitheadar
+ghaal-vroie_shin ghalbhruitheamar
+ghaal-vroie_shin ngalbhruitheamar
+ghaal-vroieagh_ad ghalbhruithfidís
+ghaal-vroieagh_oo ghalbhruithfeá
+ghaal-vroieagh_shin ghalbhruithfimis
 ghaan_mooar eipic
 ghaan_mooar eipice
 ghaanyn_mooar eipicí
+ghaartlian_ad ghortghlanadar
+ghaartlian_ad ngortghlanadar
+ghaartlian_shin ghortghlanamar
+ghaartlian_shin ngortghlanamar
+ghaartlianagh_ad ghortghlanfaidís
+ghaartlianagh_oo ghortghlanfá
+ghaartlianagh_shin ghortghlanfaimis
+ghaaue_glish ghlasadóir
+ghaaue_glish ghlasadóra
+ghaaue_stainney stánadóir
+ghaaue_stainney stánadóra
+ghaaueyn_glish ghlasadóirí
+ghaaueyn_stainney stánadóirí
 ghaayl_coshey stangairt
 ghaayl_coshey stangairte
 ghaaylyn_coshey stangairtí
@@ -6531,9 +6885,32 @@ ghaggilagh_shin bhaileoimis
 ghaggilagh_shin chruinneoimis
 ghaggilagh_shin gcruinneoimis
 ghaggilagh_shin mbaileoimis
+ghah_greiney ghriangha
+ghahyn_greiney ghrianghathanna
+ghaillaghyn_keerey chogansach
+ghaillaghyn_keerey chogansacha
+ghailley_keerey chogansach
+ghailley_keerey chogansaí
+gharaghyn_baagh zúnna
+gharaghyn_creggey chreig-ghairdíní
+gharaghyn_feeyney fhíonghoirt
+gharaghyn_feeyney fhíonghort
+gharaghyn_lossreeyn luibhghoirt
+gharaghyn_lossreeyn luibhghort
+gharaghyn_rose rósghairdíní
 gharbaagh_ad scoithfidís
 gharbaagh_oo scoithfeá
 gharbaagh_shin scoithfimis
+gharey_baagh zú
+gharey_creggey chreig-ghairdín
+gharey_feeyney fhíonghoirt
+gharey_feeyney fhíonghort
+gharey_lossreeyn luibhghoirt
+gharey_lossreeyn luibhghort
+gharey_rose rósghairdín
+gharmin_yiarn chearchaill
+gharmin_yiarn chearchaille
+gharminyn_yiarn chearchaillí
 gharn_ad dhearnáladar
 gharn_ad ndearnáladar
 gharn_shin dhearnálamar
@@ -6728,6 +7105,13 @@ ghraght_shin ndréachtaíomar
 ghraghtagh_ad dhréachtóidís
 ghraghtagh_oo dhréachtófá
 ghraghtagh_shin dhréachtóimis
+ghrainn_ad ghreanadar
+ghrainn_ad ngreanadar
+ghrainn_shin ghreanamar
+ghrainn_shin ngreanamar
+ghrainnagh_ad ghreanfaidís
+ghrainnagh_oo ghreanfá
+ghrainnagh_shin ghreanfaimis
 ghrap_ad dhreapadar
 ghrap_ad ndreapadar
 ghrap_shin dhreapamar
@@ -6765,6 +7149,7 @@ ghrigagh_oo dhriogfá
 ghrigagh_shin dhriogfaimis
 ghrogh_'uill dhrochfhola
 ghrogh_'uill dhrochfhuil
+ghrogh_aigney dhrochaigne
 ghrogh_chonagh dhrochrath
 ghrogh_chonagh dhrochratha
 ghrogh_ghoo dhrochthuairisc
@@ -7669,6 +8054,8 @@ gudjal_beg mbod
 gudjal_beg mboid
 gudjalyn_beg mbod
 gudjalyn_beg mboid
+guillee_vee gcuile
+guilleeyn_vee gcuilí
 guiragh_ad chuirfidís
 guiragh_ad dtabharfaidís
 guiragh_ad gcuirfidís
@@ -8400,6 +8787,7 @@ jyndaagh_oo dtiontófá
 jyndaagh_oo thiontófá
 jyndaagh_shin dtiontóimis
 jyndaagh_shin thiontóimis
+kellagh_frangagh coileach francach
 kiart_dy_liooar ceart go leor
 kied_chouyr garchabhair
 kied_chouyr garchabhrach
@@ -8853,6 +9241,19 @@ m'ishig_rollageagh réaltfhisic
 m'ishig_rollageagh réaltfhisice
 m'oain_golf galfchúrsa
 m'oainyn_golf galfchúrsaí
+m'ockle_arrey m'fhocal faire
+m'ockle_meshtit m'anagraim
+m'ockle_meshtit m'anagram
+m'ockleyn_meshtit m'anagraim
+m'ockleyn_meshtit m'anagram
+m'oiee_creoi crua-adhmad
+m'oiee_creoi crua-adhmaid
+m'oieeyn_creoi crua-adhmad
+m'oieeyn_creoi crua-adhmaid
+m'oyr_bevyllit m'fhiarfhaobhair
+m'oyr_bevyllit m'fhiarfhaobhar
+m'oyryn_bevyllit m'fhiarfhaobhair
+m'oyryn_bevyllit m'fhiarfhaobhar
 maaragh_ad bhearrfaidís
 maaragh_ad chaithfidís
 maaragh_ad gcaithfidís
@@ -8942,6 +9343,12 @@ mashtagh_shin mbaistfimis
 mast'_ain inár measc
 mast'_eu ina measc
 mast'_oc ina measc
+mastagh_ad bhástálfaidís
+mastagh_ad mbástálfaidís
+mastagh_oo bhástálfá
+mastagh_oo mbástálfá
+mastagh_shin bhástálfaimis
+mastagh_shin mbástálfaimis
 mayrn_caggee gcafairr
 mayrn_caggee gcafarr
 mayrn_caggee gclogad
@@ -8969,6 +9376,7 @@ men_abb mban-ab
 men_abb mban-aba
 men_adultrinagh mbanadhaltrach
 men_adultrinagh mbanadhaltraigh
+men_chleuin mbanchliamhain
 men_chloie mban-aisteoir
 men_chloie mban-aisteora
 men_eearley gcuntaois
@@ -9008,6 +9416,7 @@ mennagh_shin mbainfimis
 menyn_abb mban-abaí
 menyn_adultrinagh mbanadhaltrach
 menyn_adultrinagh mbanadhaltraigh
+menyn_chleuin mbanchliamhaineacha
 menyn_chloie mban-aisteoirí
 menyn_eearley gcuntaoisí
 menyn_emshyr meitéareolaithe
@@ -9375,6 +9784,9 @@ mruightagh_oo bhrúchtfá
 mruightagh_oo mbrúchtfá
 mruightagh_shin bhrúchtfaimis
 mruightagh_shin mbrúchtfaimis
+mucyn_frangagh muca ghuine
+mucyn_rangagh muca ghuine
+muic_rangagh muca ghuine
 muigheeagh_ad bhuífidís
 muigheeagh_ad mbuífidís
 muigheeagh_oo bhuífeá
@@ -9890,6 +10302,18 @@ napey_jiarg n-órang-útan
 nard-raad_mooar mórbhealach
 nard-raad_mooar mórbhealaigh
 nard-raadyn_mooar mórbhealaí
+nard-voylagh_ad ardmholfaidís
+nard-voylagh_ad n-ardmholfaidís
+nard-voylagh_oo ardmholfá
+nard-voylagh_oo n-ardmholfá
+nard-voylagh_shin ardmholfaimis
+nard-voylagh_shin n-ardmholfaimis
+nard-voyllagh_ad ardmholfaidís
+nard-voyllagh_ad n-ardmholfaidís
+nard-voyllagh_oo ardmholfá
+nard-voyllagh_oo n-ardmholfá
+nard-voyllagh_shin ardmholfaimis
+nard-voyllagh_shin n-ardmholfaimis
 nard_gheurey ndúluachair
 nard_gheurey ndúluachra
 nard_reiragh bpríomhfheidhmeannach
@@ -9937,10 +10361,16 @@ narnagh_oo ndearnálfá
 narnagh_shin dhearnálfaimis
 narnagh_shin ndearnálfaimis
 narragh_ad dtairgfidís
+narragh_ad n-ofrálfaidís
+narragh_ad ofrálfaidís
 narragh_ad thairgfidís
 narragh_oo dtairgfeá
+narragh_oo n-ofrálfá
+narragh_oo ofrálfá
 narragh_oo thairgfeá
 narragh_shin dtairgfimis
+narragh_shin n-ofrálfaimis
+narragh_shin ofrálfaimis
 narragh_shin thairgfimis
 narragher_magh n-eisimirceach
 narragher_magh n-eisimircigh
@@ -10236,8 +10666,121 @@ neyragh_oo dhaorfá
 neyragh_oo ndaorfá
 neyragh_shin dhaorfaimis
 neyragh_shin ndaorfaimis
+ngaagagh_ad ghágfaidís
+ngaagagh_ad ngágfaidís
+ngaagagh_oo ghágfá
+ngaagagh_oo ngágfá
+ngaagagh_shin ghágfaimis
+ngaagagh_shin ngágfaimis
+ngaaigagh_ad ghágfaidís
+ngaaigagh_ad ngágfaidís
+ngaaigagh_oo ghágfá
+ngaaigagh_oo ngágfá
+ngaaigagh_shin ghágfaimis
+ngaaigagh_shin ngágfaimis
+ngaal-vroieagh_ad ghalbhruithfidís
+ngaal-vroieagh_ad ngalbhruithfidís
+ngaal-vroieagh_oo ghalbhruithfeá
+ngaal-vroieagh_oo ngalbhruithfeá
+ngaal-vroieagh_shin ghalbhruithfimis
+ngaal-vroieagh_shin ngalbhruithfimis
+ngaartlianagh_ad ghortghlanfaidís
+ngaartlianagh_ad ngortghlanfaidís
+ngaartlianagh_oo ghortghlanfá
+ngaartlianagh_oo ngortghlanfá
+ngaartlianagh_shin ghortghlanfaimis
+ngaartlianagh_shin ngortghlanfaimis
+ngaaue_glish nglasadóir
+ngaaue_glish nglasadóra
+ngaaue_stainney stánadóir
+ngaaue_stainney stánadóra
+ngaaueyn_glish nglasadóirí
+ngaaueyn_stainney stánadóirí
+ngah_greiney ngriangha
+ngahyn_greiney ngrianghathanna
+ngaillaghyn_keerey gcogansach
+ngaillaghyn_keerey gcogansacha
+ngailley_keerey gcogansach
+ngailley_keerey gcogansaí
+ngaraghyn_baagh zúnna
+ngaraghyn_creggey gcreig-ghairdíní
+ngaraghyn_feeyney bhfíonghoirt
+ngaraghyn_feeyney bhfíonghort
+ngaraghyn_lossreeyn luibhghoirt
+ngaraghyn_lossreeyn luibhghort
+ngaraghyn_rose rósghairdíní
+ngarey_baagh zú
+ngarey_creggey gcreig-ghairdín
+ngarey_feeyney bhfíonghoirt
+ngarey_feeyney bhfíonghort
+ngarey_lossreeyn luibhghoirt
+ngarey_lossreeyn luibhghort
+ngarey_rose rósghairdín
+ngarmin_yiarn gcearchaill
+ngarmin_yiarn gcearchaille
+ngarminyn_yiarn gcearchaillí
+ngearagh_ad gháirfidís
+ngearagh_ad ngáirfidís
+ngearagh_oo gháirfeá
+ngearagh_oo ngáirfeá
+ngearagh_shin gháirfimis
+ngearagh_shin ngáirfimis
+ngeay_chassee gcamghaoithe
+ngeay_chassee gcamghaoth
+ngeay_chassee gcuaifeach
+ngeay_chassee gcuaifigh
+ngeay_veeley leoithne
+ngeayghn_chassee gcamghaoth
+ngeayghn_chassee gcamghaotha
+ngeayghn_chassee gcuaifeach
+ngeayghn_chassee gcuaifigh
+ngeayl_creoi n-antraicít
+ngeayl_creoi n-antraicíte
+ngeayyn_veeley leoithní
+ngeegagh_ad ghíogfaidís
+ngeegagh_ad ngíogfaidís
+ngeegagh_oo ghíogfá
+ngeegagh_oo ngíogfá
+ngeegagh_shin ghíogfaimis
+ngeegagh_shin ngíogfaimis
+ngeidagh_ad ghoidfidís
+ngeidagh_ad ngoidfidís
+ngeidagh_oo ghoidfeá
+ngeidagh_oo ngoidfeá
+ngeidagh_shin ghoidfimis
+ngeidagh_shin ngoidfimis
+ngerjeeagh_ad mhisneoidís
+ngerjeeagh_ad misneoidís
+ngerjeeagh_ad shólásóidís
+ngerjeeagh_ad sólásóidís
+ngerjeeagh_oo mhisneofá
+ngerjeeagh_oo misneofá
+ngerjeeagh_oo shólásófá
+ngerjeeagh_oo sólásófá
+ngerjeeagh_shin mhisneoimis
+ngerjeeagh_shin misneoimis
+ngerjeeagh_shin shólásóimis
+ngerjeeagh_shin sólásóimis
+ngerragh_ad ghairfidís
+ngerragh_ad ngairfidís
+ngerragh_oo ghairfeá
+ngerragh_oo ngairfeá
+ngerragh_shin ghairfimis
+ngerragh_shin ngairfimis
+ngeyreeagh_ad ghéaróidís
+ngeyreeagh_ad ngéaróidís
+ngeyreeagh_oo ghéarófá
+ngeyreeagh_oo ngéarófá
+ngeyreeagh_shin ghéaróimis
+ngeyreeagh_shin ngéaróimis
 ngiarrey_çhymmylt dtimpeallghearradh
 ngiarrey_çhymmylt dtimpeallghearrtha
+ngrainnagh_ad ghreanfaidís
+ngrainnagh_ad ngreanfaidís
+ngrainnagh_oo ghreanfá
+ngrainnagh_oo ngreanfá
+ngrainnagh_shin ghreanfaimis
+ngrainnagh_shin ngreanfaimis
 ngueeagh_ad ghuífidís
 ngueeagh_ad impeoidís
 ngueeagh_ad n-impeoidís
@@ -10433,6 +10976,7 @@ nrigagh_shin dhriogfaimis
 nrigagh_shin ndriogfaimis
 nrogh_'uill ndrochfhola
 nrogh_'uill ndrochfhuil
+nrogh_aigney ndrochaigne
 nrogh_chonagh ndrochrath
 nrogh_chonagh ndrochratha
 nrogh_ghoo míchlú
@@ -10505,6 +11049,7 @@ ny_Paraguay Pharagua
 ny_Pobblaght_Check Phoblacht na Seice
 ny_Pobblaght_Çheck Phoblacht na Seice
 ny_Sansibar Sainsibeár
+ny_Sheshaght_Gailckagh an Chumainn Ghaelaigh
 ny_Slyst_Iuaagagh an Chósta Eabhair
 ny_Sparta Sparta
 ny_annalyn na hannála
@@ -10742,6 +11287,14 @@ nyndyragh_oo iníorfá
 nyndyragh_oo n-iníorfá
 nyndyragh_shin iníorfaimis
 nyndyragh_shin n-iníorfaimis
+o-yiall_ad bhfrithghealladar
+o-yiall_ad fhrithghealladar
+o-yiall_shin bhfrithgheallamar
+o-yiall_shin fhrithgheallamar
+o-yiallagh_ad d'fhrithgheallfaidís
+o-yiallagh_oo d'fhrithgheallfá
+o-yiallagh_shin d'fhrithgheallfaimis
+o_brat_airh órphlátáilte
 oad_ad adhnadar
 oad_ad bhfadaíodar
 oad_ad fhadaíodar
@@ -10796,9 +11349,63 @@ oayr_shin fhabhraíomar
 oayragh_ad d'fhabhróidís
 oayragh_oo d'fhabhrófá
 oayragh_shin d'fhabhróimis
+ockle_ad bhfoghraíodar
+ockle_ad bhfuaimníodar
+ockle_ad bhfógraíodar
+ockle_ad fhoghraíodar
+ockle_ad fhuaimníodar
+ockle_ad fhógraíodar
+ockle_meshtit anagraim
+ockle_meshtit anagram
+ockle_shin bhfoghraíomar
+ockle_shin bhfuaimníomar
+ockle_shin bhfógraíomar
+ockle_shin fhoghraíomar
+ockle_shin fhuaimníomar
+ockle_shin fhógraíomar
+ockleagh_ad d'fhoghróidís
+ockleagh_ad d'fhuaimneoidís
+ockleagh_ad d'fhógróidís
+ockleagh_oo d'fhoghrófá
+ockleagh_oo d'fhuaimneofá
+ockleagh_oo d'fhógrófá
+ockleagh_shin d'fhoghróimis
+ockleagh_shin d'fhuaimneoimis
+ockleagh_shin d'fhógróimis
+ocklee_ad bhfoghraíodar
+ocklee_ad bhfuaimníodar
+ocklee_ad bhfógraíodar
+ocklee_ad fhoghraíodar
+ocklee_ad fhuaimníodar
+ocklee_ad fhógraíodar
+ocklee_shin bhfoghraíomar
+ocklee_shin bhfuaimníomar
+ocklee_shin bhfógraíomar
+ocklee_shin fhoghraíomar
+ocklee_shin fhuaimníomar
+ocklee_shin fhógraíomar
+ockleeagh_ad d'fhoghróidís
+ockleeagh_ad d'fhuaimneoidís
+ockleeagh_ad d'fhógróidís
+ockleeagh_oo d'fhoghrófá
+ockleeagh_oo d'fhuaimneofá
+ockleeagh_oo d'fhógrófá
+ockleeagh_shin d'fhoghróimis
+ockleeagh_shin d'fhuaimneoimis
+ockleeagh_shin d'fhógróimis
+ockleyn_meshtit anagraim
+ockleyn_meshtit anagram
 oddagh_ad d'fhéadfaidís
 oddagh_oo d'fhéadfá
 oddagh_shin d'fhéadfaimis
+oddey_farraghtyn sheasmhach
+oddey_farraghtyn sheasmhacha
+oddey_farraghtyn sheasmhaigh
+oddey_farraghtyn sheasmhaí
+oddey_seihllagh fhadsaolach
+oddey_seihllagh fhadsaolacha
+oddey_seihllagh fhadsaolaigh
+oddey_seihllagh fhadsaolaí
 oddys_ad ar féidir leo
 oddys_ad is féidir leo
 oddys_ee ar féidir léi
@@ -10809,6 +11416,79 @@ oddys_oo ar féidir leat
 oddys_oo is féidir leat
 oddys_shiu ar féidir libh
 oddys_shiu is féidir libh
+oghan_ad bhachlaíodar
+oghan_ad bpéacadar
+oghan_ad mbachlaíodar
+oghan_ad phéacadar
+oghan_shin bhachlaíomar
+oghan_shin bpéacamar
+oghan_shin mbachlaíomar
+oghan_shin phéacamar
+oghanagh_ad bhachlóidís
+oghanagh_ad phéacfaidís
+oghanagh_oo bhachlófá
+oghanagh_oo phéacfá
+oghanagh_shin bhachlóimis
+oghanagh_shin phéacfaimis
+oiee_creoi chrua-adhmad
+oiee_creoi chrua-adhmaid
+oieeyn_creoi chrua-adhmad
+oieeyn_creoi chrua-adhmaid
+oll_ad bhfolaíodar
+oll_ad fholaíodar
+oll_shin bhfolaíomar
+oll_shin fholaíomar
+ollagh_ad d'fholóidís
+ollagh_oo d'fholófá
+ollagh_shin d'fholóimis
+ollee_ad bhfolaíodar
+ollee_ad fholaíodar
+ollee_shin bhfolaíomar
+ollee_shin fholaíomar
+olleeagh_ad d'fholóidís
+olleeagh_oo d'fholófá
+olleeagh_shin d'fholóimis
+ollym_faase fhoilmhe
+ollym_faase fholaimh
+ollym_faase fholamh
+ollym_faase fholmha
+ollym_faase fhásúil
+ollym_faase fhásúla
+olmee_ad bhfolmhaíodar
+olmee_ad fholmhaíodar
+olmee_shin bhfolmhaíomar
+olmee_shin fholmhaíomar
+olmeeagh_ad d'fholmhóidís
+olmeeagh_oo d'fholmhófá
+olmeeagh_shin d'fholmhóimis
+oostyr_ad bhfútráladar
+oostyr_ad fhútráladar
+oostyr_shin bhfútrálamar
+oostyr_shin fhútrálamar
+oostyragh_ad d'fhútrálfaidís
+oostyragh_oo d'fhútrálfá
+oostyragh_shin d'fhútrálfaimis
+ordree_ad spáráladar
+ordree_shin spárálamar
+ordreeagh_ad spárálfaidís
+ordreeagh_oo spárálfá
+ordreeagh_shin spárálfaimis
+oshil_ad n-osclaíodar
+oshil_ad osclaíodar
+oshil_shin n-osclaíomar
+oshil_shin osclaíomar
+oshilagh_ad d'osclóidís
+oshilagh_oo d'osclófá
+oshilagh_shin d'osclóimis
+owan_ad loisceadar
+owan_shin loisceamar
+owanagh_ad loiscfidís
+owanagh_oo loiscfeá
+owanagh_shin loiscfimis
+oyr_bevyllit fhiarfhaobhair
+oyr_bevyllit fhiarfhaobhar
+oyryn_bevyllit fhiarfhaobhair
+oyryn_bevyllit fhiarfhaobhar
 paart_dy roinnt
 phrent_ad bpriontáladar
 phrent_ad phriontáladar
@@ -10832,8 +11512,23 @@ ragh_oo ngabhfá
 ragh_shin ghabhfaimis
 ragh_shin ngabhfaimis
 rass_correy síol
+raue_cadleen chodlaidín
+reayn_ad bhorradar
+reayn_ad mborradar
+reayn_shin bhorramar
+reayn_shin mborramar
+reaynagh_ad bhorrfaidís
+reaynagh_oo bhorrfá
+reaynagh_shin bhorrfaimis
 red_beg rud beag
 red_erbee rud ar bith
+reegh_ad bhfriochadar
+reegh_ad fhriochadar
+reegh_shin bhfriochamar
+reegh_shin fhriochamar
+reeghagh_ad d'fhriochfaidís
+reeghagh_oo d'fhriochfá
+reeghagh_shin d'fhriochfaimis
 reggyr_ad bhfreagraíodar
 reggyr_ad fhreagraíodar
 reggyr_shin bhfreagraíomar
@@ -10841,6 +11536,20 @@ reggyr_shin fhreagraíomar
 reggyragh_ad d'fhreagróidís
 reggyragh_oo d'fhreagrófá
 reggyragh_shin d'fhreagróimis
+reill_ad choimeádadar
+reill_ad choinníodar
+reill_ad gcoimeádadar
+reill_ad gcoinníodar
+reill_shin choimeádamar
+reill_shin choinníomar
+reill_shin gcoimeádamar
+reill_shin gcoinníomar
+reillagh_ad choimeádfaidís
+reillagh_ad choinneoidís
+reillagh_oo choimeádfá
+reillagh_oo choinneofá
+reillagh_shin choimeádfaimis
+reillagh_shin choinneoimis
 ren_ad rinneadar
 ren_shin rinneamar
 reuyr_ad rómhraíodar
@@ -10848,6 +11557,14 @@ reuyr_shin rómhraíomar
 reuyragh_ad rómhróidís
 reuyragh_oo rómhrófá
 reuyragh_shin rómhróimis
+ritlag_dy_'er ghioblacháin
+ritlag_dy_'er ghioblachán
+ritlagyn_dy_'er ghioblacháin
+ritlagyn_dy_'er ghioblachán
+rog_aeg thorbáin
+rog_aeg thorbán
+rogyn_aeg thorbáin
+rogyn_aeg thorbán
 roie_ad ritheadar
 roie_shin ritheamar
 roieagh_ad rithfidís
@@ -10939,6 +11656,9 @@ son_aym ar mo shon
 son_earish ar feadh tamaill
 son_echey ar a shon
 son_eck ar a son
+son_ga_dy cé go
+son_ga_dy cé gur
+son_ga_dy_vel cé go bhfuil
 son_shickerys go cinnte
 son_shickerys go deimhin
 son_shickyrys ar ndóigh
@@ -11008,6 +11728,34 @@ traa_ta nuair atá
 trome_chooishagh tromchúiseach
 trome_cooishagh tromchúiseach
 trooid_as_trooid tríd is tríd
+uaill_ad bhfuadar
+uaill_ad fhuadar
+uaill_shin bhfuamar
+uaill_shin fhuamar
+uaillagh_ad d'fhuafaidís
+uaillagh_oo d'fhuafá
+uaillagh_shin d'fhuafaimis
+uillee_ad bhfulaingíodar
+uillee_ad fhulaingíodar
+uillee_shin bhfulaingíomar
+uillee_shin fhulaingíomar
+uilleeagh_ad d'fhulaingeoidís
+uilleeagh_oo d'fhulaingeofá
+uilleeagh_shin d'fhulaingeoimis
+uinn_ad bhfuineadar
+uinn_ad fhuineadar
+uinn_shin bhfuineamar
+uinn_shin fhuineamar
+uinnagh_ad d'fhuinfidís
+uinnagh_oo d'fhuinfeá
+uinnagh_shin d'fhuinfimis
+uirree_ad bhfanadar
+uirree_ad fhanadar
+uirree_shin bhfanamar
+uirree_shin fhanamar
+uirreeagh_ad d'fhanfaidís
+uirreeagh_oo d'fhanfá
+uirreeagh_shin d'fhanfaimis
 ushtey_bea uisce beatha
 v'eddyr_ain a bhí eadrainn
 v'eddyr_eu a bhí eadraibh
@@ -11281,6 +12029,13 @@ vasseeagh_oo iníorfá
 vasseeagh_oo n-iníorfá
 vasseeagh_shin iníorfaimis
 vasseeagh_shin n-iníorfaimis
+vast_ad bhástáladar
+vast_ad mbástáladar
+vast_shin bhástálamar
+vast_shin mbástálamar
+vastagh_ad bhástálfaidís
+vastagh_oo bhástálfá
+vastagh_shin bhástálfaimis
 vayrn_caggee chafairr
 vayrn_caggee chafarr
 vayrn_caggee chlogad
@@ -11388,6 +12143,7 @@ ven_abb bhan-ab
 ven_abb bhan-aba
 ven_adultrinagh bhanadhaltrach
 ven_adultrinagh bhanadhaltraigh
+ven_chleuin bhanchliamhain
 ven_chloie bhan-aisteoir
 ven_chloie bhan-aisteora
 ven_chorrey bhean thorrach
@@ -11444,6 +12200,7 @@ vennagh_shin bhainfimis
 venyn_abb bhan-abaí
 venyn_adultrinagh bhanadhaltrach
 venyn_adultrinagh bhanadhaltraigh
+venyn_chleuin bhanchliamhaineacha
 venyn_chloie bhan-aisteoirí
 venyn_eearley chuntaoisí
 venyn_emshyr mheitéareolaithe
@@ -11829,6 +12586,12 @@ vluckan_foalley riosól
 vluckaneyr_sockyr imreoir sacair
 vluckanyn_foalley riosóil
 vluckanyn_foalley riosól
+vo-yiallagh_ad bhfrithgheallfaidís
+vo-yiallagh_ad fhrithgheallfaidís
+vo-yiallagh_oo bhfrithgheallfá
+vo-yiallagh_oo fhrithgheallfá
+vo-yiallagh_shin bhfrithgheallfaimis
+vo-yiallagh_shin fhrithgheallfaimis
 voadagh_ad adhanfaidís
 voadagh_ad bhfadóidís
 voadagh_ad fhadóidís
@@ -11919,6 +12682,46 @@ vochillaghyn_muickey mhuicithe
 vochilley_anmey thréadaí
 vochilley_muickey mhuicí
 vock_bouyran aineolaí
+vockle_meshtit n-anagraim
+vockle_meshtit n-anagram
+vockleagh_ad bhfoghróidís
+vockleagh_ad bhfuaimneoidís
+vockleagh_ad bhfógróidís
+vockleagh_ad fhoghróidís
+vockleagh_ad fhuaimneoidís
+vockleagh_ad fhógróidís
+vockleagh_oo bhfoghrófá
+vockleagh_oo bhfuaimneofá
+vockleagh_oo bhfógrófá
+vockleagh_oo fhoghrófá
+vockleagh_oo fhuaimneofá
+vockleagh_oo fhógrófá
+vockleagh_shin bhfoghróimis
+vockleagh_shin bhfuaimneoimis
+vockleagh_shin bhfógróimis
+vockleagh_shin fhoghróimis
+vockleagh_shin fhuaimneoimis
+vockleagh_shin fhógróimis
+vockleeagh_ad bhfoghróidís
+vockleeagh_ad bhfuaimneoidís
+vockleeagh_ad bhfógróidís
+vockleeagh_ad fhoghróidís
+vockleeagh_ad fhuaimneoidís
+vockleeagh_ad fhógróidís
+vockleeagh_oo bhfoghrófá
+vockleeagh_oo bhfuaimneofá
+vockleeagh_oo bhfógrófá
+vockleeagh_oo fhoghrófá
+vockleeagh_oo fhuaimneofá
+vockleeagh_oo fhógrófá
+vockleeagh_shin bhfoghróimis
+vockleeagh_shin bhfuaimneoimis
+vockleeagh_shin bhfógróimis
+vockleeagh_shin fhoghróimis
+vockleeagh_shin fhuaimneoimis
+vockleeagh_shin fhógróimis
+vockleyn_meshtit n-anagraim
+vockleyn_meshtit n-anagram
 vockyn_bouyran aineolaithe
 voggee_ad bhogadar
 voggee_ad mbogadar
@@ -11934,6 +12737,18 @@ voggeeagh_oo bhogfá
 voggeeagh_oo shéimheofá
 voggeeagh_shin bhogfaimis
 voggeeagh_shin shéimheoimis
+voghanagh_ad bhachlóidís
+voghanagh_ad bpéacfaidís
+voghanagh_ad mbachlóidís
+voghanagh_ad phéacfaidís
+voghanagh_oo bhachlófá
+voghanagh_oo bpéacfá
+voghanagh_oo mbachlófá
+voghanagh_oo phéacfá
+voghanagh_shin bhachlóimis
+voghanagh_shin bpéacfaimis
+voghanagh_shin mbachlóimis
+voghanagh_shin phéacfaimis
 voghe_ad gheobhaidís
 voghe_ad ngeobhaidís
 voghe_oo gheofá
@@ -11955,6 +12770,10 @@ void_niargan bhod
 void_niargan bhoid
 voidyn_niargan bhod
 voidyn_niargan bhoid
+voiee_creoi gcrua-adhmad
+voiee_creoi gcrua-adhmaid
+voieeyn_creoi gcrua-adhmad
+voieeyn_creoi gcrua-adhmaid
 voir_ad bhuaireadar
 voir_ad mbuaireadar
 voir_shin bhuaireamar
@@ -11962,10 +12781,51 @@ voir_shin mbuaireamar
 voiragh_ad bhuairfidís
 voiragh_oo bhuairfeá
 voiragh_shin bhuairfimis
+voish_Galicia ón Ghailís
 voish_Zealan_Noa ón Nua-Shéalainn
+vollagh_ad bhfolóidís
+vollagh_ad fholóidís
 vollagh_dooblit dhébhealach
 vollagh_dooblit dhébhealaigh
+vollagh_oo bhfolófá
+vollagh_oo fholófá
+vollagh_shin bhfolóimis
+vollagh_shin fholóimis
 vollee_dooblit dhébhealaí
+volleeagh_ad bhfolóidís
+volleeagh_ad fholóidís
+volleeagh_oo bhfolófá
+volleeagh_oo fholófá
+volleeagh_shin bhfolóimis
+volleeagh_shin fholóimis
+volmeeagh_ad bhfolmhóidís
+volmeeagh_ad fholmhóidís
+volmeeagh_oo bhfolmhófá
+volmeeagh_oo fholmhófá
+volmeeagh_shin bhfolmhóimis
+volmeeagh_shin fholmhóimis
+voostyragh_ad bhfútrálfaidís
+voostyragh_ad fhútrálfaidís
+voostyragh_oo bhfútrálfá
+voostyragh_oo fhútrálfá
+voostyragh_shin bhfútrálfaimis
+voostyragh_shin fhútrálfaimis
+vordreeagh_ad spárálfaidís
+vordreeagh_oo spárálfá
+vordreeagh_shin spárálfaimis
+voshilagh_ad n-osclóidís
+voshilagh_ad osclóidís
+voshilagh_oo n-osclófá
+voshilagh_oo osclófá
+voshilagh_shin n-osclóimis
+voshilagh_shin osclóimis
+vowanagh_ad loiscfidís
+vowanagh_oo loiscfeá
+vowanagh_shin loiscfimis
+voyr_bevyllit bhfiarfhaobhair
+voyr_bevyllit bhfiarfhaobhar
+voyryn_bevyllit bhfiarfhaobhair
+voyryn_bevyllit bhfiarfhaobhar
 vraag_foiee phaitín
 vraagyn_foiee phaitíní
 vraane_aegey chailíní
@@ -11986,6 +12846,13 @@ vrahagh_oo bhraithfeá
 vrahagh_shin bhraithfimis
 vrashlagh_rangagh sceallagach
 vrashlagh_rangagh sceallagaigh
+vraue_cadleen gcodlaidín
+vreaynagh_ad bhorrfaidís
+vreaynagh_ad mborrfaidís
+vreaynagh_oo bhorrfá
+vreaynagh_oo mborrfá
+vreaynagh_shin bhorrfaimis
+vreaynagh_shin mborrfaimis
 vreb_ad chiceáladar
 vreb_ad gciceáladar
 vreb_ad speachadar
@@ -12035,6 +12902,12 @@ vreearragh_oo mhionnófá
 vreearragh_oo mhóideofá
 vreearragh_shin mhionnóimis
 vreearragh_shin mhóideoimis
+vreeghagh_ad bhfriochfaidís
+vreeghagh_ad fhriochfaidís
+vreeghagh_oo bhfriochfá
+vreeghagh_oo fhriochfá
+vreeghagh_shin bhfriochfaimis
+vreeghagh_shin fhriochfaimis
 vreek_ghreinnit adóib
 vreek_ghreinnit adóibe
 vreeçhyn_dungaree dhungaraí
@@ -12059,6 +12932,18 @@ vreigagh_oo bhréagfá
 vreigagh_oo mheallfá
 vreigagh_shin bhréagfaimis
 vreigagh_shin mheallfaimis
+vreillagh_ad choimeádfaidís
+vreillagh_ad choinneoidís
+vreillagh_ad gcoimeádfaidís
+vreillagh_ad gcoinneoidís
+vreillagh_oo choimeádfá
+vreillagh_oo choinneofá
+vreillagh_oo gcoimeádfá
+vreillagh_oo gcoinneofá
+vreillagh_shin choimeádfaimis
+vreillagh_shin choinneoimis
+vreillagh_shin gcoimeádfaimis
+vreillagh_shin gcoinneoimis
 vreim_ad bhromadar
 vreim_ad mbromadar
 vreim_shin bhromamar
@@ -12101,6 +12986,10 @@ vrishey_trostey bhricfeasta
 vrisheyder_stiagh ionróir
 vrisheyder_stiagh ionróra
 vrisheyderyn_stiagh ionróirí
+vritlag_dy_'er ngioblacháin
+vritlag_dy_'er ngioblachán
+vritlagyn_dy_'er ngioblacháin
+vritlagyn_dy_'er ngioblachán
 vriw_beg ghiúistís
 vriwyn_beg ghiúistísí
 vrod_ad bhroideadar
@@ -12112,6 +13001,10 @@ vrodagh_oo bhroidfeá
 vrodagh_shin bhroidfimis
 vroddag_woirryn éastraigin
 vroddag_woirryn éastraigine
+vrog_aeg dtorbáin
+vrog_aeg dtorbán
+vrogyn_aeg dtorbáin
+vrogyn_aeg dtorbán
 vroie_ad bhruitheadar
 vroie_ad mbruitheadar
 vroie_shin bhruitheamar
@@ -12152,6 +13045,13 @@ vruight_shin mbrúchtamar
 vruightagh_ad bhrúchtfaidís
 vruightagh_oo bhrúchtfá
 vruightagh_shin bhrúchtfaimis
+vuaillagh_ad bhfuafaidís
+vuaillagh_ad fhuafaidís
+vuaillagh_oo bhfuafá
+vuaillagh_oo fhuafá
+vuaillagh_shin bhfuafaimis
+vuaillagh_shin fhuafaimis
+vuc_rangagh mhuc ghuine
 vuighee_ad bhuíodar
 vuighee_ad mbuíodar
 vuighee_shin bhuíomar
@@ -12167,14 +13067,32 @@ vuillagh_ad bhuailfidís
 vuillagh_oo bhuailfeá
 vuillagh_shin bhuailfimis
 vuillaghyn_cooyl chúlbhuillí
+vuilleeagh_ad bhfulaingeoidís
+vuilleeagh_ad fhulaingeoidís
+vuilleeagh_oo bhfulaingeofá
+vuilleeagh_oo fhulaingeofá
+vuilleeagh_shin bhfulaingeoimis
+vuilleeagh_shin fhulaingeoimis
 vuilley_cooyl chúlbhuille
 vuinn_ad bhuaineadar
 vuinn_ad mbuaineadar
 vuinn_shin bhuaineamar
 vuinn_shin mbuaineamar
+vuinnagh_ad bhfuinfidís
 vuinnagh_ad bhuainfidís
+vuinnagh_ad fhuinfidís
+vuinnagh_oo bhfuinfeá
 vuinnagh_oo bhuainfeá
+vuinnagh_oo fhuinfeá
+vuinnagh_shin bhfuinfimis
 vuinnagh_shin bhuainfimis
+vuinnagh_shin fhuinfimis
+vuirreeagh_ad bhfanfaidís
+vuirreeagh_ad fhanfaidís
+vuirreeagh_oo bhfanfá
+vuirreeagh_oo fhanfá
+vuirreeagh_shin bhfanfaimis
+vuirreeagh_shin fhanfaimis
 vuirroogh_ad bhúireadar
 vuirroogh_ad mbúireadar
 vuirroogh_shin bhúireamar
@@ -12219,6 +13137,12 @@ vussalyn_laue chiarsúr
 vussalyn_mwannal mhuifléad
 vussalyn_mwannal mhuifléid
 vussalyn_mwannal scaifeanna
+vynneig_spoar spáschapsúil
+vynneig_spoar spáschapsúl
+vynneigyn_spoar spáschapsúil
+vynneigyn_spoar spáschapsúl
+vys_rolaue réamheolais
+vys_rolaue réamheolas
 y_Chanadey Ceanada
 y_Chanadey Cheanada
 y_Cheayn_Sheealtagh an Aigéan Ciúin
@@ -12259,6 +13183,25 @@ y_chied-vess na céadtorthaí
 y_derrey_yeh an duine amháin
 y_Çhaayr Chester
 yeant_magh shásta
+year_ad gháireadar
+year_ad ngáireadar
+year_shin gháireamar
+year_shin ngáireamar
+yearagh_ad gháirfidís
+yearagh_oo gháirfeá
+yearagh_shin gháirfimis
+yeay_chassee chamghaoithe
+yeay_chassee chamghaoth
+yeay_chassee chuaifeach
+yeay_chassee chuaifigh
+yeay_veeley leoithne
+yeayghn_chassee chamghaoth
+yeayghn_chassee chamghaotha
+yeayghn_chassee chuaifeach
+yeayghn_chassee chuaifigh
+yeayl_creoi antraicít
+yeayl_creoi antraicíte
+yeayyn_veeley leoithní
 yeeagh_ad bhféachadar
 yeeagh_ad d'fhéachadar
 yeeagh_ad fhéachadar
@@ -12274,6 +13217,48 @@ yeeaghagh_oo fhéachfá
 yeeaghagh_shin bhféachfaimis
 yeeaghagh_shin d'fhéachfaimis
 yeeaghagh_shin fhéachfaimis
+yeeg_ad ghíogadar
+yeeg_ad ngíogadar
+yeeg_shin ghíogamar
+yeeg_shin ngíogamar
+yeegagh_ad ghíogfaidís
+yeegagh_oo ghíogfá
+yeegagh_shin ghíogfaimis
+yeid_ad ghoideadar
+yeid_ad ngoideadar
+yeid_shin ghoideamar
+yeid_shin ngoideamar
+yeidagh_ad ghoidfidís
+yeidagh_oo ghoidfeá
+yeidagh_shin ghoidfimis
+yerjee_ad mhisníodar
+yerjee_ad misníodar
+yerjee_ad shólásaíodar
+yerjee_ad sólásaíodar
+yerjee_shin mhisníomar
+yerjee_shin misníomar
+yerjee_shin shólásaíomar
+yerjee_shin sólásaíomar
+yerjeeagh_ad mhisneoidís
+yerjeeagh_ad shólásóidís
+yerjeeagh_oo mhisneofá
+yerjeeagh_oo shólásófá
+yerjeeagh_shin mhisneoimis
+yerjeeagh_shin shólásóimis
+yerr_ad ghaireadar
+yerr_ad ngaireadar
+yerr_shin ghaireamar
+yerr_shin ngaireamar
+yerragh_ad ghairfidís
+yerragh_oo ghairfeá
+yerragh_shin ghairfimis
+yeyree_ad ghéaraíodar
+yeyree_ad ngéaraíodar
+yeyree_shin ghéaraíomar
+yeyree_shin ngéaraíomar
+yeyreeagh_ad ghéaróidís
+yeyreeagh_oo ghéarófá
+yeyreeagh_shin ghéaróimis
 yiarragh_ad déarfaidís
 yiarragh_oo déarfá
 yiarragh_shin déarfaimis
@@ -12292,6 +13277,7 @@ yn_Americkey Meiriceá
 yn_Chanadey Ceanada
 yn_Chanadey gCeanada
 yn_Channon an tSionainn
+yn_Cheshaght_Ghailckagh an Cumann Gaelach
 yn_Chissyl an tSicil
 yn_Choobey Cúba
 yn_Choowait Chuáit
@@ -12335,6 +13321,7 @@ yn_derrey_yeh an duine amháin
 yn_Çhaayr Chester
 yn_Çheet an Aidbhint
 yn_Çheet na hAidbhinte
+yn_Çheshaght_Ghailckagh an Cumann Gaelach
 yndyr_ad iníoradar
 yndyr_ad n-iníoradar
 yndyr_shin iníoramar
@@ -12342,8 +13329,14 @@ yndyr_shin n-iníoramar
 yndyragh_ad d'iníorfaidís
 yndyragh_oo d'iníorfá
 yndyragh_shin d'iníorfaimis
+ynneig_spoar spáschapsúil
+ynneig_spoar spáschapsúl
+ynneigyn_spoar spáschapsúil
+ynneigyn_spoar spáschapsúl
 ynnyd_eggey shuíomh Gréasáin
 ynnyd_eggey suíomh Gréasáin
+ys_rolaue réamheolais
+ys_rolaue réamheolas
 Çheer_Chonnal Tír Chonaill
 Çheer_Eoin Tír Eoghain
 Çheer_Swassee Suasalainn
@@ -12355,6 +13348,8 @@ ynnyd_eggey suíomh Gréasáin
 Çheer_ny_Rhiney Tír na Réine
 Çheer_y_Sniaghtey an Ghraonlainn
 Çheer_y_Vagheragh an Ísiltír
+Çheshaght_Ghailckagh Chumann Gaelach
+Çheshaght_Ghailckagh Cumann Gaelach
 Çhibbyrt_Aarey Tiobraid Árann
 Çhybbyrt_Aarey Tiobraid Árann
 Çhyndaa_yn_Ghoayr trópaic an Ghabhair
