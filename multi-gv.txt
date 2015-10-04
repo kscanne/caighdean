@@ -133,6 +133,9 @@ Heer_Thai Théalainn
 Heer_Thai Théalainne
 Hong_Kong Hong Cong
 Hop_tu_Naa Oíche Chinn Bhliana
+Inis_Meain Inis Meáin
+Jecrean_ny_Leoie Céadaoin an Luaithrigh
+Jecrean_yn_Vrah Céadaoin an Bhraith
 Jeer_Swassee Suasalainn
 Jeer_Swassee Suasalainne
 Jeer_Thai dTéalainn
@@ -188,6 +191,7 @@ Niar_Meanagh Mheánoirthear
 Niar_Meanagh Mheánoirthir
 Nova_Scotia Albain Nua
 Oie_Houney Oíche Shamhna
+Oie_Innyd Oíche Inide
 Parlamaid_Vretyn_Mooar Parlaimint na Breataine Móire
 Parlamaid_Vretyn_Vooar Parlaimint na Breataine Móire
 Phobblaght_Nerin Phoblacht na hÉireann
@@ -2222,6 +2226,9 @@ chied_chouyr garchabhair
 chied_chouyr garchabhrach
 chied_chouyr gharchabhair
 chied_chouyr gharchabhrach
+chied_ingan chéadghin
+chied_ingan céadghin
+chied_ingan céadtorthaí
 chlaare_argidoil bhuiséad
 chlaare_argidoil bhuiséid
 chlaare_caghlaaee lasc-chláir
@@ -4058,6 +4065,20 @@ dimlee_ad d'uiríslíodar
 dimlee_ad d'íslíodar
 dimlee_shin d'uiríslíomar
 dimlee_shin d'íslíomar
+dimman_ad thiomáineadar
+dimman_shin thiomáineamar
+dimmee_ad d'imíodar
+dimmee_shin d'imíomar
+dimraa_ad luadar
+dimraa_shin luamar
+dindughtee_ad d'ionduchtaíodar
+dindughtee_shin d'ionduchtaíomar
+dinjillee_ad d'uiríslíodar
+dinjillee_ad d'umhlaíodar
+dinjillee_ad d'íslíodar
+dinjillee_shin d'uiríslíomar
+dinjillee_shin d'umhlaíomar
+dinjillee_shin d'íslíomar
 dinsh_ad d'insíodar
 dinsh_shin d'insíomar
 dioghee_ad d'fheodar
@@ -4661,6 +4682,10 @@ dt'eyshtey_tessen ceistiú
 dt'eyshtyn_creoi cruacheisteanna
 dt'ine_Frangagh coiscín
 dt'ineyn_Frangagh coiscíní
+dt'inneen_shayrey neacht
+dt'inneen_shayrey neachta
+dt'inneen_çheet-magh deibiútant
+dt'inneenyn_shayrey neachtanna
 dt'ir_baghee d'áitritheoirí
 dt'ir_coonee cabhróirí
 dt'ir_coonee cúntóirí
@@ -4675,6 +4700,10 @@ dt'ir_reill seanóirí
 dt'ir_toshee ceannródaithe
 dt'ir_ynsee múinteoirí
 dt'irree_seose-reesht d'aiséirí
+dt'irreyder_magh ceannairceach
+dt'irreyder_magh ceannaircigh
+dt'irreyderyn_magh ceannairceach
+dt'irreyderyn_magh ceannaircigh
 dt'ishig_rollageagh réaltfhisic
 dt'ishig_rollageagh réaltfhisice
 dt'oain_golf galfchúrsa
@@ -4698,6 +4727,7 @@ dty_chour i do chomhair
 dty_heaghyn do chruachás
 dty_heaghyn do thrioblóid
 dty_hrooid tríot
+dty_inneen-'sy-leigh bean do mhic
 dty_lurg i do dhiaidh
 dty_whail i do threo
 dty_yei i do dhiaidh
@@ -4978,6 +5008,7 @@ e_heaghyn a chruachás
 e_heaghyn a thrioblóid
 e_hoi ina haghaidh
 e_hoï ina haghaidh
+e_inneen-'sy-leigh bean a mhic
 e_oi ina aghaidh
 e_oï ina aghaidh
 eab_ad dtriaileadar
@@ -9389,10 +9420,15 @@ hiassaghey_sheeintyn mhaistíteas
 hiassaghey_sheeintyn mhaistítis
 hie_ad ghabhadar
 hie_shin ghabhamar
+himraait_heese thíosluaite
 hingys_aane heipitíteas
 hingys_aane heipitítis
 hingys_marrey mhuirghalair
 hingys_marrey mhuirghalar
+hinneen_shayrey neacht
+hinneen_shayrey neachta
+hinneen_çheet-magh deibiútant
+hinneenyn_shayrey neachtanna
 hionn_ad dteannadar
 hionn_ad theannadar
 hionn_shin dteannamar
@@ -9422,6 +9458,10 @@ hirmeeagh_ad thriomóidís
 hirmeeagh_oo thriomófá
 hirmeeagh_shin thriomóimis
 hirree_seose-reesht haiséirí
+hirreyder_magh ceannairceach
+hirreyder_magh ceannaircigh
+hirreyderyn_magh ceannairceach
+hirreyderyn_magh ceannaircigh
 hirrym-ghlen_ad dtirimghlanadar
 hirrym-ghlen_ad thirimghlanadar
 hirrym-ghlen_shin dtirimghlanamar
@@ -9579,8 +9619,67 @@ imleeagh_oo d'uirísleofá
 imleeagh_oo d'ísleofá
 imleeagh_shin d'uirísleoimis
 imleeagh_shin d'ísleoimis
+imman_ad dtiomáineadar
+imman_ad thiomáineadar
+imman_shin dtiomáineamar
+imman_shin thiomáineamar
+immanagh_ad thiomáinfidís
+immanagh_carriads tiománaí caib
+immanagh_oo thiomáinfeá
+immanagh_shin thiomáinfimis
+immee_ad imíodar
+immee_ad n-imíodar
+immee_shin imíomar
+immee_shin n-imíomar
+immeeagh_ad d'imeoidís
+immeeagh_oo d'imeofá
+immeeagh_shin d'imeoimis
+imraa_ad luadar
+imraa_shin luamar
+imraagh_ad luafaidís
+imraagh_oo luafá
+imraagh_shin luafaimis
+imraait_heese thíosluaite
+indughtee_ad ionduchtaíodar
+indughtee_ad n-ionduchtaíodar
+indughtee_shin ionduchtaíomar
+indughtee_shin n-ionduchtaíomar
+indughteeagh_ad d'ionduchtóidís
+indughteeagh_oo d'ionduchtófá
+indughteeagh_shin d'ionduchtóimis
 ine_Frangagh choiscín
 ineyn_Frangagh choiscíní
+ingin_gharleid ionga gairleoige
+ingin_ordaag ionga ordóige
+injillee_ad n-uiríslíodar
+injillee_ad n-umhlaíodar
+injillee_ad n-íslíodar
+injillee_ad uiríslíodar
+injillee_ad umhlaíodar
+injillee_ad íslíodar
+injillee_shin n-uiríslíomar
+injillee_shin n-umhlaíomar
+injillee_shin n-íslíomar
+injillee_shin uiríslíomar
+injillee_shin umhlaíomar
+injillee_shin íslíomar
+injilleeagh_ad d'uirísleoidís
+injilleeagh_ad d'umhlóidís
+injilleeagh_ad d'ísleoidís
+injilleeagh_oo d'uirísleofá
+injilleeagh_oo d'umhlófá
+injilleeagh_oo d'ísleofá
+injilleeagh_shin d'uirísleoimis
+injilleeagh_shin d'umhlóimis
+injilleeagh_shin d'ísleoimis
+inneen-'sy-leigh_echey bean a mhic
+inneen-'sy-leigh_eck bean a mic
+inneen_firryn cailín báire
+inneen_shayrey neacht
+inneen_shayrey neachta
+inneen_çheet-magh deibiútant
+inneen_çheet-magh dheibiútant
+inneenyn_shayrey neachtanna
 insh_ad insíodar
 insh_ad n-insíodar
 insh_shin insíomar
@@ -9608,16 +9707,30 @@ ir_reill uachtaráin
 ir_reill uachtarán
 ir_toshee cheannródaithe
 ir_ynsee mhúinteoirí
+irree-seose_reesht aiséirí
 irree_ad n-éiríodar
 irree_ad éiríodar
+irree_ass éirí as
+irree_magh éirí amach
+irree_ny_greiney éirí na gréine
+irree_ny_heayst éirí na gealaí
 irree_seose-reesht aiséirí
 irree_seose-reesht b'aiséirí
 irree_seose-reesht t-aiséirí
 irree_shin n-éiríomar
 irree_shin éiríomar
+irree_yn_laa éirí an lae
 irreeagh_ad d'éireoidís
 irreeagh_oo d'éireofá
 irreeagh_shin d'éireoimis
+irreyder_magh ceannairceach
+irreyder_magh ceannaircigh
+irreyder_magh cheannairceach
+irreyder_magh cheannaircigh
+irreyderyn_magh ceannairceach
+irreyderyn_magh ceannaircigh
+irreyderyn_magh cheannairceach
+irreyderyn_magh cheannaircigh
 irrinee_ad bhfíoraíodar
 irrinee_ad dheimhníodar
 irrinee_ad fhíoraíodar
@@ -9632,6 +9745,9 @@ irrineeagh_oo d'fhíorófá
 irrineeagh_oo dheimhneofá
 irrineeagh_shin d'fhíoróimis
 irrineeagh_shin dheimhneoimis
+irriney_lhome fhírinne lom
+irriney_lhome fírinne lom
+irriney_lhome lomchlár na fírinne
 ish_grouigey ise faoi ghruig
 ishig_rollageagh réaltfhisic
 ishig_rollageagh réaltfhisice
@@ -9649,6 +9765,7 @@ iuagh_oo d'ibhfeá
 iuagh_oo d'ólfá
 iuagh_shin d'ibhfimis
 iuagh_shin d'ólfaimis
+jaggad_yinnairagh seaicéad dinnéir
 jaggilagh_ad bhaileoidís
 jaggilagh_ad chruinneoidís
 jaggilagh_ad gcruinneoidís
@@ -9670,6 +9787,34 @@ jaghter_yn_tushtal misinéara
 jaghter_yn_tushtal misinéir
 jaghteryn_rolaue réamhtheachtairí
 jaghteryn_yn_tushtal misinéirí
+jalloo_cooyl cúlchló
+jalloo_toshee dealbh tosaigh
+jallyn_buigh Siobháinín bhuí
+jallyn_buigh buíóg
+jallyn_buigh buíóige
+jallyn_cleigh gealbhan bruaigh
+jallynyn_buigh buíóg
+jallynyn_buigh buíóga
+jannoo_beg déanamh beag
+jannoo_beg_jeh déanamh beag de
+jannoo_caarjys déanamh cairdis
+jannoo_kirpey déanamh coirp
+jannoo_meill pusaireacht
+jannoo_meill pusaireachta
+jannoo_noo_jeh canónaithe
+jannoo_noo_jeh canónú
+jannoo_reilt normalaithe
+jannoo_reilt normalú
+jannoo_siyr déanamh deifre
+jantagh_thallooin gníomhaire eastáit
+janteyr_caashey cáiseoir
+janteyr_caashey cáiseora
+janteyr_caashey déantóir cáise
+janteyryn_caashey cáiseoirí
+jantys_naight nuachtghníomhaireacht
+jantys_naight nuachtghníomhaireachta
+jantys_troailt gníomhaireacht taistil
+jantysyn_naight nuachtghníomhaireachtaí
 jarbaagh_ad scoithfidís
 jarbaagh_oo scoithfeá
 jarbaagh_shin scoithfimis
@@ -9685,13 +9830,37 @@ jeagh_oo dteithfeá
 jeagh_oo theithfeá
 jeagh_shin dteithfimis
 jeagh_shin theithfimis
+jean_airhey buíáin
+jean_airhey buíán
+jeant_'sy_thie déanta sa mbaile
 jeant_magh sásta
+jeant_rolaue réamhdhéanta
+jeant_seyr-obbragh b'uathoibrithe
+jeant_seyr-obbragh huathoibrithe
+jeant_seyr-obbragh uathoibrithe
+jeanyn_airhey buíáin
+jeanyn_airhey buíán
 jeelagh_ad dtíleoidís
 jeelagh_ad thíleoidís
 jeelagh_oo dtíleofá
 jeelagh_oo thíleofá
 jeelagh_shin dtíleoimis
 jeelagh_shin thíleoimis
+jeen_noi_mergey meirgdhíonach
+jeen_noi_mergey meirgdhíonacha
+jeen_noi_mergey meirgdhíonaigh
+jeen_noi_mergey meirgdhíonaí
+jeen_noi_smarrey gréiscdhíonach
+jeen_noi_smarrey gréiscdhíonacha
+jeen_noi_smarrey gréiscdhíonaigh
+jeen_noi_smarrey gréiscdhíonaí
+jeeneyder_thie díonadóir
+jeeneyder_thie díonadóra
+jeeneyder_thie slinneadóir
+jeeneyder_thie slinneadóra
+jeeneyder_thie tslinneadóra
+jeeneyderyn_thie díonadóirí
+jeeneyderyn_thie slinneadóirí
 jeer_coadit gcoimirceas
 jeer_coadit gcoimircis
 jeer_dooie n-athartha
@@ -10259,6 +10428,10 @@ m'eyshtey_tessen ceistiú
 m'eyshtyn_creoi cruacheisteanna
 m'ine_Frangagh coiscín
 m'ineyn_Frangagh coiscíní
+m'inneen_shayrey neacht
+m'inneen_shayrey neachta
+m'inneen_çheet-magh deibiútant
+m'inneenyn_shayrey neachtanna
 m'ir_baghee m'áitritheoirí
 m'ir_coonee cabhróirí
 m'ir_coonee cúntóirí
@@ -10273,6 +10446,10 @@ m'ir_reill seanóirí
 m'ir_toshee ceannródaithe
 m'ir_ynsee múinteoirí
 m'irree_seose-reesht m'aiséirí
+m'irreyder_magh ceannairceach
+m'irreyder_magh ceannaircigh
+m'irreyderyn_magh ceannairceach
+m'irreyderyn_magh ceannaircigh
 m'ishig_rollageagh réaltfhisic
 m'ishig_rollageagh réaltfhisice
 m'oain_golf galfchúrsa
@@ -12294,6 +12471,49 @@ nimleeagh_shin n-uirísleoimis
 nimleeagh_shin n-ísleoimis
 nimleeagh_shin uirísleoimis
 nimleeagh_shin ísleoimis
+nimmanagh_ad dtiomáinfidís
+nimmanagh_ad thiomáinfidís
+nimmanagh_oo dtiomáinfeá
+nimmanagh_oo thiomáinfeá
+nimmanagh_shin dtiomáinfimis
+nimmanagh_shin thiomáinfimis
+nimmeeagh_ad imeoidís
+nimmeeagh_ad n-imeoidís
+nimmeeagh_oo imeofá
+nimmeeagh_oo n-imeofá
+nimmeeagh_shin imeoimis
+nimmeeagh_shin n-imeoimis
+nimraagh_ad luafaidís
+nimraagh_oo luafá
+nimraagh_shin luafaimis
+nindughteeagh_ad ionduchtóidís
+nindughteeagh_ad n-ionduchtóidís
+nindughteeagh_oo ionduchtófá
+nindughteeagh_oo n-ionduchtófá
+nindughteeagh_shin ionduchtóimis
+nindughteeagh_shin n-ionduchtóimis
+ninjilleeagh_ad n-uirísleoidís
+ninjilleeagh_ad n-umhlóidís
+ninjilleeagh_ad n-ísleoidís
+ninjilleeagh_ad uirísleoidís
+ninjilleeagh_ad umhlóidís
+ninjilleeagh_ad ísleoidís
+ninjilleeagh_oo n-uirísleofá
+ninjilleeagh_oo n-umhlófá
+ninjilleeagh_oo n-ísleofá
+ninjilleeagh_oo uirísleofá
+ninjilleeagh_oo umhlófá
+ninjilleeagh_oo ísleofá
+ninjilleeagh_shin n-uirísleoimis
+ninjilleeagh_shin n-umhlóimis
+ninjilleeagh_shin n-ísleoimis
+ninjilleeagh_shin uirísleoimis
+ninjilleeagh_shin umhlóimis
+ninjilleeagh_shin ísleoimis
+ninneen_shayrey neacht
+ninneen_shayrey neachta
+ninneen_çheet-magh ndeibiútant
+ninneenyn_shayrey neachtanna
 ninshagh_ad inseoidís
 ninshagh_ad n-inseoidís
 ninshagh_oo inseofá
@@ -12307,6 +12527,10 @@ nirreeagh_oo n-éireofá
 nirreeagh_oo éireofá
 nirreeagh_shin n-éireoimis
 nirreeagh_shin éireoimis
+nirreyder_magh gceannairceach
+nirreyder_magh gceannaircigh
+nirreyderyn_magh gceannairceach
+nirreyderyn_magh gceannaircigh
 nish_as_reesht anois is arís
 niuagh_ad ibhfidís
 niuagh_ad n-ibhfidís
@@ -13287,6 +13511,7 @@ v'er_nyn_skyn a bhí os a gcionn
 v'er_nyn_skyn a bhí os bhur gcionn
 v'er_nyn_skyn a bhí os ár gcionn
 va'n_derrey_yeh bhí an duine amháin
+va'n_inneen-'sy-leigh_echey bhí bean a mhic
 va_ad bhíodar
 va_mee_ruggit rugadh mé
 va_oo_ruggit rugadh thú
@@ -14667,7 +14892,81 @@ y_Vinorcey Mionarca
 y_chied-vess na céadtorthaí
 y_derrey_yeh an duine amháin
 y_Çhaayr Chester
+yaght_ad dheachtaíodar
+yaght_ad ndeachtaíodar
+yaght_shin dheachtaíomar
+yaght_shin ndeachtaíomar
+yaghtagh_ad dheachtóidís
+yaghtagh_ad ndeachtóidís
+yaghtagh_oo dheachtófá
+yaghtagh_oo ndeachtófá
+yaghtagh_shin dheachtóimis
+yaghtagh_shin ndeachtóimis
+yalloo_ad adhradar
+yalloo_ad d'adhradar
+yalloo_ad n-adhradar
+yalloo_cooyl chúlchló
+yalloo_cooyl gcúlchló
+yalloo_shin adhramar
+yalloo_shin d'adhramar
+yalloo_shin n-adhramar
+yallooagh_ad adharfaidís
+yallooagh_ad d'adharfaidís
+yallooagh_ad n-adharfaidís
+yallooagh_oo adharfá
+yallooagh_oo d'adharfá
+yallooagh_oo n-adharfá
+yallooagh_shin adharfaimis
+yallooagh_shin d'adharfaimis
+yallooagh_shin n-adharfaimis
+yallyn_buigh bhuíóg
+yallyn_buigh bhuíóige
+yallyn_buigh mbuíóg
+yallyn_buigh mbuíóige
+yallynyn_buigh bhuíóg
+yallynyn_buigh bhuíóga
+yallynyn_buigh mbuíóg
+yallynyn_buigh mbuíóga
+yannoo_meill bpusaireacht
+yannoo_meill bpusaireachta
+yannoo_meill phusaireacht
+yannoo_meill phusaireachta
+yannoo_noo_jeh chanónaithe
+yannoo_noo_jeh chanónú
+yannoo_noo_jeh gcanónaithe
+yannoo_noo_jeh gcanónú
+yannoo_reilt normalaithe
+yannoo_reilt normalú
+yanteyr_caashey cháiseoir
+yanteyr_caashey cháiseora
+yanteyr_caashey gcáiseoir
+yanteyr_caashey gcáiseora
+yanteyryn_caashey cháiseoirí
+yanteyryn_caashey gcáiseoirí
+yantys_naight nuachtghníomhaireacht
+yantys_naight nuachtghníomhaireachta
+yantysyn_naight nuachtghníomhaireachtaí
+yarrood_ad dhearmadadar
+yarrood_ad ndearmadadar
+yarrood_shin dhearmadamar
+yarrood_shin ndearmadamar
+yarroodagh_ad dhearmadfaidís
+yarroodagh_ad ndearmadfaidís
+yarroodagh_oo dhearmadfá
+yarroodagh_oo ndearmadfá
+yarroodagh_shin dhearmadfaimis
+yarroodagh_shin ndearmadfaimis
+yean_airhey bhuíáin
+yean_airhey bhuíán
+yean_airhey mbuíáin
+yean_airhey mbuíán
 yeant_magh shásta
+yeant_rolaue réamhdhéanta
+yeant_seyr-obbragh uathoibrithe
+yeanyn_airhey bhuíáin
+yeanyn_airhey bhuíán
+yeanyn_airhey mbuíáin
+yeanyn_airhey mbuíán
 year_ad gháireadar
 year_ad ngáireadar
 year_shin gháireamar
@@ -14687,6 +14986,36 @@ yeayghn_chassee chuaifigh
 yeayl_creoi antraicít
 yeayl_creoi antraicíte
 yeayyn_veeley leoithní
+yee-agglishee_ad dtuathaíodar
+yee-agglishee_ad thuathaíodar
+yee-agglishee_shin dtuathaíomar
+yee-agglishee_shin thuathaíomar
+yee-agglisheeagh_ad dtuathóidís
+yee-agglisheeagh_ad thuathóidís
+yee-agglisheeagh_oo dtuathófá
+yee-agglisheeagh_oo thuathófá
+yee-agglisheeagh_shin dtuathóimis
+yee-agglisheeagh_shin thuathóimis
+yee-arm_ad dhí-armáladar
+yee-arm_ad ndí-armáladar
+yee-arm_shin dhí-armálamar
+yee-arm_shin ndí-armálamar
+yee-armagh_ad dhí-armálfaidís
+yee-armagh_ad ndí-armálfaidís
+yee-armagh_oo dhí-armálfá
+yee-armagh_oo ndí-armálfá
+yee-armagh_shin dhí-armálfaimis
+yee-armagh_shin ndí-armálfaimis
+yee-chlann_ad dhídhaoiníodar
+yee-chlann_ad ndídhaoiníodar
+yee-chlann_shin dhídhaoiníomar
+yee-chlann_shin ndídhaoiníomar
+yee-chlannagh_ad dhídhaoineoidís
+yee-chlannagh_ad ndídhaoineoidís
+yee-chlannagh_oo dhídhaoineofá
+yee-chlannagh_oo ndídhaoineofá
+yee-chlannagh_shin dhídhaoineoimis
+yee-chlannagh_shin ndídhaoineoimis
 yeeagh_ad bhféachadar
 yeeagh_ad d'fhéachadar
 yeeagh_ad fhéachadar
@@ -14702,6 +15031,16 @@ yeeaghagh_oo fhéachfá
 yeeaghagh_shin bhféachfaimis
 yeeaghagh_shin d'fhéachfaimis
 yeeaghagh_shin fhéachfaimis
+yeechoyd_ad dhíchódaíodar
+yeechoyd_ad ndíchódaíodar
+yeechoyd_shin dhíchódaíomar
+yeechoyd_shin ndíchódaíomar
+yeechoydagh_ad dhíchódóidís
+yeechoydagh_ad ndíchódóidís
+yeechoydagh_oo dhíchódófá
+yeechoydagh_oo ndíchódófá
+yeechoydagh_shin dhíchódóimis
+yeechoydagh_shin ndíchódóimis
 yeeg_ad ghíogadar
 yeeg_ad ngíogadar
 yeeg_shin ghíogamar
@@ -14709,6 +15048,111 @@ yeeg_shin ngíogamar
 yeegagh_ad ghíogfaidís
 yeegagh_oo ghíogfá
 yeegagh_shin ghíogfaimis
+yeeig_ad dhiúgadar
+yeeig_ad dhíscíodar
+yeeig_ad ndiúgadar
+yeeig_ad ndíscíodar
+yeeig_shin dhiúgamar
+yeeig_shin dhíscíomar
+yeeig_shin ndiúgamar
+yeeig_shin ndíscíomar
+yeeigagh_ad dhiúgfaidís
+yeeigagh_ad dhísceoidís
+yeeigagh_ad ndiúgfaidís
+yeeigagh_ad ndísceoidís
+yeeigagh_oo dhiúgfá
+yeeigagh_oo dhísceofá
+yeeigagh_oo ndiúgfá
+yeeigagh_oo ndísceofá
+yeeigagh_shin dhiúgfaimis
+yeeigagh_shin dhísceoimis
+yeeigagh_shin ndiúgfaimis
+yeeigagh_shin ndísceoimis
+yeeil_ad dhiailíodar
+yeeil_ad dhíoladar
+yeeil_ad ndiailíodar
+yeeil_ad ndíoladar
+yeeil_shin dhiailíomar
+yeeil_shin dhíolamar
+yeeil_shin ndiailíomar
+yeeil_shin ndíolamar
+yeeilagh_ad dhiaileoidís
+yeeilagh_ad dhíolfaidís
+yeeilagh_ad ndiaileoidís
+yeeilagh_ad ndíolfaidís
+yeeilagh_oo dhiaileofá
+yeeilagh_oo dhíolfá
+yeeilagh_oo ndiaileofá
+yeeilagh_oo ndíolfá
+yeeilagh_shin dhiaileoimis
+yeeilagh_shin dhíolfaimis
+yeeilagh_shin ndiaileoimis
+yeeilagh_shin ndíolfaimis
+yeel_ad dhiailíodar
+yeel_ad dhíoladar
+yeel_ad ndiailíodar
+yeel_ad ndíoladar
+yeel_shin dhiailíomar
+yeel_shin dhíolamar
+yeel_shin ndiailíomar
+yeel_shin ndíolamar
+yeelaad_ad d'íoslódáladar
+yeelaad_ad n-íoslódáladar
+yeelaad_ad íoslódáladar
+yeelaad_shin d'íoslódálamar
+yeelaad_shin n-íoslódálamar
+yeelaad_shin íoslódálamar
+yeelaadagh_ad d'íoslódálfaidís
+yeelaadagh_ad n-íoslódálfaidís
+yeelaadagh_ad íoslódálfaidís
+yeelaadagh_oo d'íoslódálfá
+yeelaadagh_oo n-íoslódálfá
+yeelaadagh_oo íoslódálfá
+yeelaadagh_shin d'íoslódálfaimis
+yeelaadagh_shin n-íoslódálfaimis
+yeelaadagh_shin íoslódálfaimis
+yeelagh_ad dhiaileoidís
+yeelagh_ad dhíolfaidís
+yeelagh_ad ndiaileoidís
+yeelagh_ad ndíolfaidís
+yeelagh_oo dhiaileofá
+yeelagh_oo dhíolfá
+yeelagh_oo ndiaileofá
+yeelagh_oo ndíolfá
+yeelagh_shin dhiaileoimis
+yeelagh_shin dhíolfaimis
+yeelagh_shin ndiaileoimis
+yeelagh_shin ndíolfaimis
+yeen_ad dhíonadar
+yeen_ad ndíonadar
+yeen_noi_mergey mheirgdhíonach
+yeen_noi_mergey mheirgdhíonacha
+yeen_noi_mergey mheirgdhíonaigh
+yeen_noi_mergey mheirgdhíonaí
+yeen_noi_smarrey ghréiscdhíonach
+yeen_noi_smarrey ghréiscdhíonacha
+yeen_noi_smarrey ghréiscdhíonaigh
+yeen_noi_smarrey ghréiscdhíonaí
+yeen_shin dhíonamar
+yeen_shin ndíonamar
+yeenagh_ad dhíonfaidís
+yeenagh_ad ndíonfaidís
+yeenagh_oo dhíonfá
+yeenagh_oo ndíonfá
+yeenagh_shin dhíonfaimis
+yeenagh_shin ndíonfaimis
+yeeneyder_thie dhíonadóir
+yeeneyder_thie dhíonadóra
+yeeneyder_thie ndíonadóir
+yeeneyder_thie ndíonadóra
+yeeneyder_thie shlinneadóir
+yeeneyder_thie shlinneadóra
+yeeneyder_thie slinneadóir
+yeeneyder_thie slinneadóra
+yeeneyderyn_thie dhíonadóirí
+yeeneyderyn_thie ndíonadóirí
+yeeneyderyn_thie shlinneadóirí
+yeeneyderyn_thie slinneadóirí
 yeid_ad ghoideadar
 yeid_ad ngoideadar
 yeid_shin ghoideamar
@@ -14888,6 +15332,8 @@ yn_ammyr_Hostyn Muir nIocht
 yn_chied-vess na céadtorthaí
 yn_chruinnaght an cruinniú
 yn_derrey_yeh an duine amháin
+yn_inneen-'sy-leigh_echey bean a mhic
+yn_inneen-'sy-leigh_eck bean a mic
 yn_Çhaayr Chester
 yn_Çheet an Aidbhint
 yn_Çheet na hAidbhinte
