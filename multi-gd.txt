@@ -7622,8 +7622,12 @@ aidichidh_sinn admhóimid
 aidichidh_sinn n-admhóimid
 aig_a'_cheann-thall faoi dheireadh thiar
 aig_a'_cheann-thall i ndeireadh na dála
+aig_a'_chorr ag an chuid eile
+aig_a'_chòrr ag an chuid eile
 aig_a_cheann-thall faoi dheireadh thiar
 aig_a_cheann-thall i ndeireadh na dála
+aig_a_chorr ag an chuid eile
+aig_a_chòrr ag an chuid eile
 aig_an_ire-sa ag an bpointe seo
 aig_an_ire_sa ag an bpointe seo
 aig_an_ire_seo ag an bpointe seo
@@ -7690,13 +7694,17 @@ air_a'_char_as_lugha ar a laghad
 air_a'_char_as_motha ar a mhéad
 air_a'_chiad_as_lugha ar a laghad
 air_a'_chiad_dol-a-mach ar an gcéad dul síos
+air_a'_chorr ar an chuid eile
+air_a'_chòrr ar an chuid eile
 air_a_beulaibh os a comhair
 air_a_beò-ghlacadh gafa
 air_a_bheulaibh os a chomhair
 air_a_bheò-ghlacadh gafa
 air_a_bhrùthadh brúite
 air_a_brùthadh brúite
+air_a_chorr ar an chuid eile
 air_a_chur curtha
+air_a_chòrr ar an chuid eile
 air_a_cur curtha
 air_a_gealltainn geallta
 air_a_ghealltainn geallta
@@ -8324,6 +8332,13 @@ an_comhair_a_chùil ar gcúl
 an_comhair_an_cinn chun tosaigh
 an_comhair_an_cùil ar gcúl
 an_comhar_an_ceann ar a n-aghaidh
+an_corr an chuid eile
+an_corr tuilleadh
+an_corr_de an chuid eile de
+an_corr_den an chuid eile den
+an_corr_dhe an chuid eile de
+an_corr_dhen an chuid eile den
+an_corr_dheth an chuid eile di
 an_cuala ar chuala
 an_cèill i gcéill
 an_cèill in iúl
@@ -8336,6 +8351,7 @@ an_còrr_de an chuid eile de
 an_còrr_den an chuid eile den
 an_còrr_dhe an chuid eile de
 an_còrr_dhen an chuid eile den
+an_còrr_dheth an chuid eile di
 an_d'_fhuair an bhfuair
 an_d'_thàinig ar tháinig
 an_d'fhuair an bhfuair
@@ -15306,6 +15322,14 @@ chordadh_iad thaitneoidís
 chordadh_iad thaitnídís
 chordadh_tu thaitneofá
 chordaidh_sinn thaitneoimid
+chorr_'s bhreis is
+chorr_'s chorradh is
+chorr_agus bhreis is
+chorr_agus chorradh is
+chorr_air bhreis is
+chorr_air chorradh is
+chorr_is bhreis is
+chorr_is chorradh is
 chorra_uair chorruair
 chosg_iad chaitheadar
 chosg_iad chosnaíodar
@@ -16029,6 +16053,14 @@ chòrdadh_iad thaitneoidís
 chòrdadh_iad thaitnídís
 chòrdadh_tu thaitneofá
 chòrdaidh_sinn thaitneoimid
+chòrr_'s bhreis is
+chòrr_'s chorradh is
+chòrr_agus bhreis is
+chòrr_agus chorradh is
+chòrr_air bhreis is
+chòrr_air chorradh is
+chòrr_is bhreis is
+chòrr_is chorradh is
 chùb_iad chúbadar
 chùb_iad gcúbadar
 chùb_sinn chúbamar
@@ -16607,6 +16639,19 @@ cordadh_tu dtaitneofá
 cordaidh_sinn dtaitneoimid
 cordaidh_sinn taitneoimid
 corr'_uair corruair
+corr_'s breis is
+corr_'s corradh is
+corr_agus breis is
+corr_agus corradh is
+corr_air breis is
+corr_air corradh is
+corr_de chuid eile de
+corr_den chuid eile den
+corr_dhe chuid eile de
+corr_dhen chuid eile den
+corr_dheth chuid eile di
+corr_is breis is
+corr_is corradh is
 corr_uair corruair
 corra_bhliadhna roinnt blianta
 corra_cheist corrcheist
@@ -17337,12 +17382,19 @@ còrdadh_iad taitnídís
 còrdadh_tu dtaitneofá
 còrdaidh_sinn dtaitneoimid
 còrdaidh_sinn taitneoimid
+còrr_'s breis is
 còrr_'s corradh is
-còrr_'s thart ar
+còrr_agus breis is
+còrr_agus corradh is
+còrr_air breis is
 còrr_air corradh is
-còrr_air thart ar
+còrr_de chuid eile de
+còrr_den chuid eile den
+còrr_dhe chuid eile de
+còrr_dhen chuid eile den
+còrr_dheth chuid eile di
+còrr_is breis is
 còrr_is corradh is
-còrr_is thart ar
 cùbadh_iad cúbaidís
 cùbadh_iad gcúbaidís
 cùbadh_iad gcúbfaidís
@@ -48766,7 +48818,9 @@ sa_bhad láithreach
 sa_bhitheantas de ghnáth
 sa_chaidh seo caite
 sa_chiad_dol-a-mach ar an gcéad dul síos
+sa_chorr sa chuid eile
 sa_chumantas i gcoitinne
+sa_chòrr sa chuid eile
 sa_ghuth-thàmh de chogar
 sa_mhòr-chuid den chuid is mó
 sabaidicheadh_iad dtroidfidís
@@ -54386,6 +54440,10 @@ tromaichidh_sinn dtromóimid
 tromaichidh_sinn tromóimid
 trombon_dùrd dordtrombón
 tron_a' tríd an
+tron_a'_chorr tríd an chuid eile
+tron_a'_chòrr tríd an chuid eile
+tron_a_chorr tríd an chuid eile
+tron_a_chòrr tríd an chuid eile
 tron_am tríd an
 tron_an tríd an
 truailleadh_iad dtruailleoidís
