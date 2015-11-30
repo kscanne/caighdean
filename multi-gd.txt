@@ -8177,6 +8177,7 @@ am_Pàrtaidh_Làborach Páirtí an Lucht Oibre
 am_b'_urrainn arbh fhéidir
 am_b'urrainn arbh fhéidir
 am_badeigin áit éigin
+am_beir an mbéarfaidh
 am_bi an mbeidh
 am_bitheantas de ghnáth
 am_bliadhna i mbliana
@@ -8187,6 +8188,8 @@ am_bu_toigh ar mhaith
 am_faca an bhfaca
 am_fagas i bhfogas
 am_fagus i bhfogas
+am_faic an bhfeicfidh
+am_faigh an bhfaighidh
 am_falach i bhfolach
 am_faodainn an bhféadfainn
 am_faodte an bhféadfaí
@@ -8304,6 +8307,7 @@ an_Lùnasdal Lúnasa
 an_Nirribhidh an Iorua
 an_Roinn-Eorpa Roinn na hEorpa
 an_Sloibhinia an tSlóivéin
+an_abair an ndéarfaidh
 an_abhainn_Rhine an Réin
 an_aghaidh in aghaidh
 an_asgaidh in aisce
@@ -8360,6 +8364,7 @@ an_ceartuair ar ball
 an_ceartuair faoi láthair
 an_ceill i gcéill
 an_ceill in iúl
+an_cluinn an gcluinfidh
 an_co-bhoinn_ri le tacaíocht ó
 an_co-bhoinn_ris_a' le tacaíocht ón
 an_co-bhoinn_ris_an le tacaíocht ón
@@ -8430,6 +8435,7 @@ an_dràst' anois
 an_dràsta anois
 an_duigh inniu
 an_dè inné
+an_dèan an ndéanfaidh
 an_dèidh i ndiaidh
 an_dèidh_seo ina dhiaidh seo
 an_dèidh_sin ina dhiaidh sin
@@ -8470,6 +8476,7 @@ an_làthair i láthair
 an_lùib ceangailte le
 an_lùib ceangailte leis
 an_raoir aréir
+an_ruig an sroichfidh
 an_sac asma
 an_saoghal_a_chosnadh an domhan a ghnóthú
 an_sas gafa
@@ -8510,6 +8517,7 @@ an_t-Òg_mhìos Meitheamh
 an_t-Ògmhios Meitheamh
 an_t-Ògmhìos Meitheamh
 an_t-àite_far_am an áit ina
+an_tabhair an dtabharfaidh
 an_taca_le i gcomparáid le
 an_taca_ri i gcomparáid le
 an_taca_ri_a i gcomparáid lena
@@ -8526,11 +8534,14 @@ an_taca_riutha i gcomparáid leo
 an_taca_ruibh i gcomparáid leat
 an_taca_ruibh i gcomparáid libh
 an_taca_ruinn i gcomparáid linn
+an_tig an dtiocfaidh
+an_toir an dtabharfaidh
 an_toiseach ar dtús
 an_tubhairt an ndúirt
 an_tug ar thug
 an_tuirt an ndúirt
 an_tàinig ar tháinig
+an_tèid an rachaidh
 an_tòiseach ar dtús
 an_uiridh anuraidh
 an_uraidh anuraidh
@@ -14784,6 +14795,7 @@ cha_dhùisg ní mhúsclóidh
 cha_dhùraig ní leomhfaidh
 cha_do níor
 cha_do_rinn ní dhearna
+cha_dèan ní dhéanfaidh
 cha_ghabh ní ghabhfaidh
 cha_ghabh ní ghlacfaidh
 cha_ghail ní ghoilfidh
@@ -15426,7 +15438,9 @@ cha_stèidhich ní bhunóidh
 cha_stéidhich ní bhunóidh
 cha_stòir ní stórálfaidh
 cha_stòr ní stórálfaidh
+cha_tabhair ní thabharfaidh
 cha_thabhainn ní thairgfidh
+cha_thabhair ní thabharfaidh
 cha_thabhannaich ní amhastróidh
 cha_thachair ní tharlóidh
 cha_thachais ní thochasfaidh
@@ -15573,14 +15587,18 @@ cha_thèarainn ní thuirlingeoidh
 cha_thèarainn ní théarnóidh
 cha_thèarainn ní éalóidh
 cha_thèarainn ní ísleoidh
+cha_thèid ní rachaidh
 cha_thìodhlaic ní adhlacfaidh
 cha_thòbhaig ní tharraingeoidh
 cha_thòirich ní thóróidh
 cha_thòisich ní thosóidh
 cha_thòrr ní charnfaidh
 cha_thòrr ní thaiscfidh
+cha_tig ní thiocfaidh
+cha_toir ní thabharfaidh
 cha_tug níor thug
 cha_tàinig níor tháinig
+cha_tèid ní rachaidh
 cha_éigh ní bhéicfidh
 cha_éigh ní ghlaofaidh
 cha_éigh ní scairtfidh
@@ -15720,6 +15738,7 @@ champaicheadh_iad champálfaidís
 champaicheadh_tu champálfá
 champaichidh_sinn champálfaimid
 chan_abaich ní aibeoidh
+chan_abair ní déarfaidh
 chan_achdaich ní achtóidh
 chan_acraich ní fheisteoidh
 chan_adhartaich ní chothóidh
@@ -15828,7 +15847,9 @@ chan_fhadaich ní fhadóidh
 chan_fhadaidh ní adhanfaidh
 chan_fhadaidh ní fhadóidh
 chan_fhag ní fhágfaidh
+chan_fhaic ní fheicfidh
 chan_fhaidhlig ní chomhdóidh
+chan_fhaigh ní bhfaighidh
 chan_fhaighnich ní fhiafróidh
 chan_fhailc ní fholcfaidh
 chan_fhaillich ní theipfidh
@@ -18795,9 +18816,11 @@ càirichidh_sinn leagfaimid
 càirichidh_sinn ndeiseoimid
 càit'_a_bheil cá bhfuil
 càit'_an_deach cá ndeachaigh
+càit'_an_tèid cá rachaidh
 càit'_bheil cá bhfuil
 càit_a_bheil cá bhfuil
 càit_an_deach cá ndeachaigh
+càit_an_tèid cá rachaidh
 càit_bheil cá bhfuil
 càite_a_bheil cá bhfuil
 càite_an_deach cá ndeachaigh
@@ -41508,10 +41531,20 @@ gus_am chun an
 gus_am go
 gus_am_bi go mbeidh
 gus_am_biodh go mbeadh
+gus_am_faic go bhfeicfidh
+gus_am_faigh go bhfaighidh
+gus_am_faigh_sinn go bhfaighimid
 gus_an chun an
 gus_an go
+gus_an_deach go ndeachaigh
 gus_an_do gur
+gus_an_latha go dtí an lá
+gus_an_là go dtí an lá
 gus_an_robh go raibh
+gus_an_ruig go sroichfidh
+gus_an_tig go dtiocfaidh
+gus_an_tàinig gur tháinig
+gus_an_tèid go rachaidh
 gàirdicheadh_iad gairdídís
 gàirdicheadh_iad ngairdeoidís
 gàirdicheadh_iad ngairdídís
@@ -43468,6 +43501,7 @@ ma_thogras_sibh más mian libh
 ma_thogras_tu más mian leat
 ma_thà mar sin
 ma_tà mar sin
+mac_an_abair mac an daba
 mac_bràthar mac dearthár
 mac_peathar mac deirféar
 magadh_iad spochaidís
@@ -43684,6 +43718,7 @@ meòraicheadh_tu machnófá
 meòraicheadh_tu meabhrófá
 meòraichidh_sinn machnóimid
 meòraichidh_sinn meabhróimid
+mhac_an_abair mhac an daba
 mhadadh_ruadh mhadra rua
 mhag_iad spochadar
 mhag_sinn spochamar
