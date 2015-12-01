@@ -64,6 +64,15 @@
 's_math_dh'fhaoidte seans
 's_mathaid b'fhéidir
 's_t-fhoghar san fhómhar
+'s_urrainn is féidir
+'s_urrainn_dha is féidir leis
+'s_urrainn_dhaibh is féidir leo
+'s_urrainn_dhi is féidir léi
+'s_urrainn_dhomh is féidir liom
+'s_urrainn_dhuibh is féidir leat
+'s_urrainn_dhuibh is féidir libh
+'s_urrainn_dhuinn is féidir linn
+'s_urrainn_dhut is féidir leat
 's_urrainnear is féidir
 'sa_bhad ar an bpointe
 'sa_bhad láithreach
@@ -3942,6 +3951,9 @@ a_dh'fhioghairean d'fhíoracha
 a_dh'fhioghuir d'fhíor
 a_dh'fhioghuir d'fhíorach
 a_dh'fhioghuirean d'fhíoracha
+a_dh'fhiolain do chruimhe
+a_dh'fhiolan do chruimh
+a_dh'fhiolanan do chruimheanna
 a_dh'fhiolm do scannáin
 a_dh'fhiolm do scannán
 a_dh'fhiolmadh do scannánaíocht
@@ -3960,7 +3972,14 @@ a_dh'fhionnairidhean do thráthnónta
 a_dh'fhionnarachadh d'fhionnuarú
 a_dh'fhionnarachaidh d'fhionnuaraithe
 a_dh'fhionnarachd d'fhionnuaire
+a_dh'fhionnaradair d'fhuaraitheoir
+a_dh'fhionnaradair d'fhuaraitheora
+a_dh'fhionnaradair do chuisneoir
+a_dh'fhionnaradair do chuisneora
+a_dh'fhionnaradairean d'fhuaraitheoirí
+a_dh'fhionnaradairean do chuisneoirí
 a_dh'fhionnsgeul d'fhinscéal
+a_dh'fhionnsgeulan d'fhinscéalta
 a_dh'fhionnsgeòil d'fhinscéalta
 a_dh'fhionnsgeòil d'fhinscéil
 a_dh'fhios d'fhios
@@ -4727,7 +4746,14 @@ a_dh'fhìneagan d'fhíneoga
 a_dh'fhìnealtachd d'fhíneáltacht
 a_dh'fhìnealtachd d'fhíneáltachta
 a_dh'fhìneig d'fhíneoige
+a_dh'fhìogais d'fhige
+a_dh'fhìogaise d'fhige
+a_dh'fhìogaisean d'fhigí
 a_dh'fhìon d'fhíon
+a_dh'fhìon-dhearc d'fhíonchaor
+a_dh'fhìon-dhearcan d'fhíonchaor
+a_dh'fhìon-dhearcan d'fhíonchaora
+a_dh'fhìon-dheirc d'fhíonchaoire
 a_dh'fhìon-geur d'fhínéagar
 a_dh'fhìon-lios d'fhíonghort
 a_dh'fhìon-liosa d'fhíonghoirt
@@ -4737,6 +4763,9 @@ a_dh'fhìon-poirt do phórtfhíon
 a_dh'fhìona d'fhíona
 a_dh'fhìona-geur d'fhínéagair
 a_dh'fhìona-poirt do phórtfhíona
+a_dh'fhìonain d'fhíniúna
+a_dh'fhìonan d'fhíniúin
+a_dh'fhìonanan d'fhíniúnacha
 a_dh'fhìor-dhealbh do léaráid
 a_dh'fhìor-dhealbha do léaráide
 a_dh'fhìor-dhealbhan do léaráidí
@@ -8569,6 +8598,14 @@ an_urra_riut ag brath ort
 an_urra_riut freagrach asat
 an_urra_riutha ag brath orthu
 an_urra_riutha freagrach astu
+an_urrainn_dha an féidir leis
+an_urrainn_dhaibh an féidir leo
+an_urrainn_dhi an féidir léi
+an_urrainn_dhomh an féidir liom
+an_urrainn_dhuibh an féidir leat
+an_urrainn_dhuibh an féidir libh
+an_urrainn_dhuinn an féidir linn
+an_urrainn_dhut an féidir leat
 an_àird in airde
 an_àirde in airde
 an_àiteigin in áit éigin
@@ -9057,6 +9094,15 @@ as_moth is mó
 as_motha is mó
 as_t-Fhoghar san Fhómhar
 as_t-fhoghar san fhómhar
+as_urrainn is féidir
+as_urrainn_dha is féidir leis
+as_urrainn_dhaibh is féidir leo
+as_urrainn_dhi is féidir léi
+as_urrainn_dhomh is féidir liom
+as_urrainn_dhuibh is féidir leat
+as_urrainn_dhuibh is féidir libh
+as_urrainn_dhuinn is féidir linn
+as_urrainn_dhut is féidir leat
 as_urrainnear is féidir
 as_ùire is déanaí
 as_ùire is nuaí
@@ -22696,6 +22742,9 @@ de_dh'fhioghairean d'fhíoracha
 de_dh'fhioghuir d'fhíor
 de_dh'fhioghuir d'fhíorach
 de_dh'fhioghuirean d'fhíoracha
+de_dh'fhiolain de chruimhe
+de_dh'fhiolan de chruimh
+de_dh'fhiolanan de chruimheanna
 de_dh'fhiolm de scannáin
 de_dh'fhiolm de scannán
 de_dh'fhiolmadh de scannánaíocht
@@ -22714,7 +22763,14 @@ de_dh'fhionnairidhean de thráthnónta
 de_dh'fhionnarachadh d'fhionnuarú
 de_dh'fhionnarachaidh d'fhionnuaraithe
 de_dh'fhionnarachd d'fhionnuaire
+de_dh'fhionnaradair d'fhuaraitheoir
+de_dh'fhionnaradair d'fhuaraitheora
+de_dh'fhionnaradair de chuisneoir
+de_dh'fhionnaradair de chuisneora
+de_dh'fhionnaradairean d'fhuaraitheoirí
+de_dh'fhionnaradairean de chuisneoirí
 de_dh'fhionnsgeul d'fhinscéal
+de_dh'fhionnsgeulan d'fhinscéalta
 de_dh'fhionnsgeòil d'fhinscéalta
 de_dh'fhionnsgeòil d'fhinscéil
 de_dh'fhios d'fhios
@@ -23481,7 +23537,14 @@ de_dh'fhìneagan d'fhíneoga
 de_dh'fhìnealtachd d'fhíneáltacht
 de_dh'fhìnealtachd d'fhíneáltachta
 de_dh'fhìneig d'fhíneoige
+de_dh'fhìogais d'fhige
+de_dh'fhìogaise d'fhige
+de_dh'fhìogaisean d'fhigí
 de_dh'fhìon d'fhíon
+de_dh'fhìon-dhearc d'fhíonchaor
+de_dh'fhìon-dhearcan d'fhíonchaor
+de_dh'fhìon-dhearcan d'fhíonchaora
+de_dh'fhìon-dheirc d'fhíonchaoire
 de_dh'fhìon-geur d'fhínéagar
 de_dh'fhìon-lios d'fhíonghort
 de_dh'fhìon-liosa d'fhíonghoirt
@@ -23491,6 +23554,9 @@ de_dh'fhìon-poirt de phórtfhíon
 de_dh'fhìona d'fhíona
 de_dh'fhìona-geur d'fhínéagair
 de_dh'fhìona-poirt de phórtfhíona
+de_dh'fhìonain d'fhíniúna
+de_dh'fhìonan d'fhíniúin
+de_dh'fhìonanan d'fhíniúnacha
 de_dh'fhìor-dhealbh de léaráid
 de_dh'fhìor-dhealbha de léaráide
 de_dh'fhìor-dhealbhan de léaráidí
@@ -34337,6 +34403,9 @@ do_dh'fhioghairean d'fhíoracha
 do_dh'fhioghuir d'fhíor
 do_dh'fhioghuir d'fhíorach
 do_dh'fhioghuirean d'fhíoracha
+do_dh'fhiolain do chruimhe
+do_dh'fhiolan do chruimh
+do_dh'fhiolanan do chruimheanna
 do_dh'fhiolm do scannáin
 do_dh'fhiolm do scannán
 do_dh'fhiolmadh do scannánaíocht
@@ -34355,7 +34424,14 @@ do_dh'fhionnairidhean do thráthnónta
 do_dh'fhionnarachadh d'fhionnuarú
 do_dh'fhionnarachaidh d'fhionnuaraithe
 do_dh'fhionnarachd d'fhionnuaire
+do_dh'fhionnaradair d'fhuaraitheoir
+do_dh'fhionnaradair d'fhuaraitheora
+do_dh'fhionnaradair do chuisneoir
+do_dh'fhionnaradair do chuisneora
+do_dh'fhionnaradairean d'fhuaraitheoirí
+do_dh'fhionnaradairean do chuisneoirí
 do_dh'fhionnsgeul d'fhinscéal
+do_dh'fhionnsgeulan d'fhinscéalta
 do_dh'fhionnsgeòil d'fhinscéalta
 do_dh'fhionnsgeòil d'fhinscéil
 do_dh'fhios d'fhios
@@ -35123,7 +35199,14 @@ do_dh'fhìneagan d'fhíneoga
 do_dh'fhìnealtachd d'fhíneáltacht
 do_dh'fhìnealtachd d'fhíneáltachta
 do_dh'fhìneig d'fhíneoige
+do_dh'fhìogais d'fhige
+do_dh'fhìogaise d'fhige
+do_dh'fhìogaisean d'fhigí
 do_dh'fhìon d'fhíon
+do_dh'fhìon-dhearc d'fhíonchaor
+do_dh'fhìon-dhearcan d'fhíonchaor
+do_dh'fhìon-dhearcan d'fhíonchaora
+do_dh'fhìon-dheirc d'fhíonchaoire
 do_dh'fhìon-geur d'fhínéagar
 do_dh'fhìon-lios d'fhíonghort
 do_dh'fhìon-liosa d'fhíonghoirt
@@ -35133,6 +35216,9 @@ do_dh'fhìon-poirt do phórtfhíon
 do_dh'fhìona d'fhíona
 do_dh'fhìona-geur d'fhínéagair
 do_dh'fhìona-poirt do phórtfhíona
+do_dh'fhìonain d'fhíniúna
+do_dh'fhìonan d'fhíniúin
+do_dh'fhìonanan d'fhíniúnacha
 do_dh'fhìor-dhealbh do léaráid
 do_dh'fhìor-dhealbha do léaráide
 do_dh'fhìor-dhealbhan do léaráidí
@@ -38781,6 +38867,15 @@ far_an_do an áit inar
 far_an_do áit inar
 far_an_robh an áit ina raibh
 far_an_robh mar a raibh
+far_an_urrainn inar féidir
+far_an_urrainn_dha inar féidir leis
+far_an_urrainn_dhaibh inar féidir leo
+far_an_urrainn_dhi inar féidir léi
+far_an_urrainn_dhomh inar féidir liom
+far_an_urrainn_dhuibh inar féidir leat
+far_an_urrainn_dhuibh inar féidir libh
+far_an_urrainn_dhuinn inar féidir linn
+far_an_urrainn_dhut inar féidir leat
 far_loidhne as líne
 farpais_cheist tráth na gceist
 farraideadh_iad bhfiafraídís
@@ -41486,6 +41581,9 @@ gum_b'urrainn_dhuinn gurbh fhéidir linn
 gum_b'urrainn_dhut gurbh fhéidir leat
 gum_b'urrainnear gurbh fhéidir
 gum_bi go mbeidh
+gum_bu gur
+gum_bu gurbh
+gum_bu_h-olc_dhut caor thine ort
 gum_faodainn go bhféadfainn
 gum_faodte go bhféadfaí
 gum_feumadh go gcaithfeadh
@@ -41512,6 +41610,14 @@ gun_tur gan chiall
 gun_tùr gan chiall
 gun_urra anaithnid
 gun_urra gan ainm
+gun_urrainn_dha gur féidir leis
+gun_urrainn_dhaibh gur féidir leo
+gun_urrainn_dhi gur féidir léi
+gun_urrainn_dhomh gur féidir liom
+gun_urrainn_dhuibh gur féidir leat
+gun_urrainn_dhuibh gur féidir libh
+gun_urrainn_dhuinn gur féidir linn
+gun_urrainn_dhut gur féidir leat
 gur_e gurb é
 gur_esan gurb eisean
 gur_h-ann gur
@@ -41535,21 +41641,49 @@ gura_h-i gurb í
 gus_am chun an
 gus_am go
 gus_am_bi go mbeidh
+gus_am_bidh go mbeidh
 gus_am_biodh go mbeadh
+gus_am_bith go mbeidh
 gus_am_faic go bhfeicfidh
 gus_am_faigh go bhfaighidh
 gus_am_faigh_sinn go bhfaighimid
+gus_am_faod go bhféadfaidh
+gus_am_fosgail go n-osclóidh
+gus_am_fàs go bhfásfaidh
 gus_an chun an
 gus_an go
+gus_an_cluinn go gcloisfidh
+gus_an_cuid chun a gcuid
+gus_an_cuir go gcuirfidh
 gus_an_deach go ndeachaigh
 gus_an_do gur
+gus_an_dèan go ndéanfaidh
+gus_an_innis go n-inseoidh
 gus_an_latha go dtí an lá
 gus_an_là go dtí an lá
+gus_an_nochd go nochtfaidh
 gus_an_robh go raibh
 gus_an_ruig go sroichfidh
+gus_an_tabhair go dtabharfaidh
+gus_an_teid go rachaidh
 gus_an_tig go dtiocfaidh
+gus_an_till go bhfillfidh
+gus_an_toir go dtabharfaidh
+gus_an_toirt chun iad a thabhairt
+gus_an_toisich go dtosóidh
+gus_an_tuig go dtuigfidh
 gus_an_tàinig gur tháinig
 gus_an_tèid go rachaidh
+gus_an_tòisich go dtosóidh
+gus_an_urrainn ionas gur féidir
+gus_an_urrainn_dha ionas gur féidir leis
+gus_an_urrainn_dhaibh ionas gur féidir leo
+gus_an_urrainn_dhi ionas gur féidir léi
+gus_an_urrainn_dhomh ionas gur féidir liom
+gus_an_urrainn_dhuibh ionas gur féidir leat
+gus_an_urrainn_dhuibh ionas gur féidir libh
+gus_an_urrainn_dhuinn ionas gur féidir linn
+gus_an_urrainn_dhut ionas gur féidir leat
 gàirdicheadh_iad gairdídís
 gàirdicheadh_iad ngairdeoidís
 gàirdicheadh_iad ngairdídís
@@ -42103,6 +42237,7 @@ is_math_dh'fhaoidte seans
 is_mathaid b'fhéidir
 is_motha is mó
 is_truagh is trua
+is_urrainn is féidir
 is_urrainn_dha is féidir leis
 is_urrainn_dhaibh is féidir leo
 is_urrainn_dhi is féidir léi
@@ -43590,6 +43725,14 @@ martraicheadh_tu martrófá
 martraichidh_sinn martróimid
 mas_eadh más ea
 mas_fhìor mar dhea
+mas_urrainn_dha más féidir leis
+mas_urrainn_dhaibh más féidir leo
+mas_urrainn_dhi más féidir léi
+mas_urrainn_dhomh más féidir liom
+mas_urrainn_dhuibh más féidir leat
+mas_urrainn_dhuibh más féidir libh
+mas_urrainn_dhuinn más féidir linn
+mas_urrainn_dhut más féidir leat
 mas_urrainnear más féidir
 maslaicheadh_iad maslaídís
 maslaicheadh_iad maslóidís
@@ -45620,7 +45763,11 @@ mo_fhionnaidh m'fhionnaidh
 mo_fhionnarachadh m'fhionnuarú
 mo_fhionnarachaidh m'fhionnuaraithe
 mo_fhionnarachd m'fhionnuaire
+mo_fhionnaradair m'fhuaraitheoir
+mo_fhionnaradair m'fhuaraitheora
+mo_fhionnaradairean m'fhuaraitheoirí
 mo_fhionnsgeul m'fhinscéal
+mo_fhionnsgeulan m'fhinscéalta
 mo_fhionnsgeòil m'fhinscéalta
 mo_fhionnsgeòil m'fhinscéil
 mo_fhios m'fhios
@@ -46211,7 +46358,14 @@ mo_fhìneagan m'fhíneoga
 mo_fhìnealtachd m'fhíneáltacht
 mo_fhìnealtachd m'fhíneáltachta
 mo_fhìneig m'fhíneoige
+mo_fhìogais m'fhige
+mo_fhìogaise m'fhige
+mo_fhìogaisean m'fhigí
 mo_fhìon m'fhíon
+mo_fhìon-dhearc m'fhíonchaor
+mo_fhìon-dhearcan m'fhíonchaor
+mo_fhìon-dhearcan m'fhíonchaora
+mo_fhìon-dheirc m'fhíonchaoire
 mo_fhìon-geur m'fhínéagar
 mo_fhìon-lios m'fhíonghort
 mo_fhìon-liosa m'fhíonghoirt
@@ -46219,6 +46373,9 @@ mo_fhìon-liosan m'fhíonghoirt
 mo_fhìon-liosan m'fhíonghort
 mo_fhìona m'fhíona
 mo_fhìona-geur m'fhínéagair
+mo_fhìonain m'fhíniúna
+mo_fhìonan m'fhíniúin
+mo_fhìonanan m'fhíniúnacha
 mo_fhìor-uisge m'fhíoruisce
 mo_fhìor-uisgeachan m'fhíoruiscí
 mo_fhìos m'fhios
@@ -47919,6 +48076,14 @@ nach_do_dh' nár
 nach_do_rinn nach ndearna
 nach_eil nach bhfuil
 nach_maireann nach maireann
+nach_urrainn_dha nach féidir leis
+nach_urrainn_dhaibh nach féidir leo
+nach_urrainn_dhi nach féidir léi
+nach_urrainn_dhomh nach féidir liom
+nach_urrainn_dhuibh nach féidir leat
+nach_urrainn_dhuibh nach féidir libh
+nach_urrainn_dhuinn nach féidir linn
+nach_urrainn_dhut nach féidir leat
 nach_urrainnear nach féidir
 nach_urrainnear ní féidir
 nad_shuidhe i do shuí
