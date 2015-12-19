@@ -8,7 +8,6 @@
 'S_mathaid B'fhéidir
 'S_urrainnear Is féidir
 'g_a á
-Prògram_Choinnich Clár Choinnigh
 'm_fagas i bhfogas
 'm_fagus i bhfogas
 'n_a_dhiaigh ina dhiaidh
@@ -108,6 +107,8 @@ Bhreatainn_Bheag Bhriotáin
 Bhreatainn_Bhig Bhriotáin
 Bhreatainne_Bheag Bhriotáine
 Bhòrd_na_Gàidhlig Bhòrd na Gàidhlig
+Bodach_na_Nollaig Daidí na Nollag
+Bodach_na_Nollaige Daidí na Nollag
 Breatainn_Bheag Briotáin
 Breatainn_Bheag mBriotáin
 Breatainne_Bheag Briotáine
@@ -268,6 +269,7 @@ Prìomh_Lìog Príomhshraith
 Prìomh_Mhinistear Príomh-Aire
 Prìomh_Mhinistear bPríomh-Aire
 Prìomh_Thalla Príomh-Halla
+Prògram_Choinnich Clár Choinnigh
 Puerto_Rico Portó Ríce
 Pàdraig_Pearsach Pádraigh Mac Piarais
 Pàrtaidh_Làbarach_na_h-Alba Páirtí an Lucht Oibre in Albain
@@ -348,10 +350,13 @@ a'_bruidhinn ag caint
 a'_bruidhinn ag labhairt
 a'_chlann-nighean na cailíní
 a'_cur_adhart ag cur ar aghaidh
+a'_deasbad ag plé
+a'_deasbaid ag plé
 a'_dh'_aindeoin in ainneoin
 a'_dh'aindeoin in ainneoin
 a'_dèanamh_fiughair ag súil
 a'_falach i bhfolach
+a'_farpais ag coimhlint
 a'_feuchainn_ri ag iarraidh
 a'_feuchainn_ris ag iarraidh
 a'_fuireach ag fanacht
@@ -39647,6 +39652,7 @@ fluoiridicheadh_iad fluairídídís
 fluoiridicheadh_tu bhfluairídeofá
 fluoiridichidh_sinn bhfluairídeoimid
 fluoiridichidh_sinn fluairídeoimid
+fo'n_phrosbaig faoi mhionscrúdú
 fo_'ur_comhair os bhur gcomhair
 fo_a faoina
 fo_ar faoinár
@@ -39660,7 +39666,6 @@ fo_sgèith faoi cheannas
 fo_sgèith faoi scáth
 fo_shiùil faoi sheol
 fo_ur_comhair os bhur gcomhair
-fo'n_phrosbaig faoi mhionscrúdú
 fod_chomhair os do chomhair
 foghaineadh_iad bhfóirfidís
 foghaineadh_iad bhfóiridís
@@ -48141,6 +48146,7 @@ nan_Nua-Ealain na Nua-Ealaíon
 nan_Sami na Sámach
 nan_Sámi na Sámach
 nan_crùban ar a ngogaidí
+nan_daoine na ndaoine
 nan_dèidh ina ndiaidh
 nan_dùl na ndúl
 nan_naidheachdan an nuachta
