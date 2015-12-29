@@ -213,6 +213,12 @@ Maarle_Albinagh nAlbainis
 Maarle_Albinagh nAlbainise
 Mac_Cooil Mac Cumhaill
 May_Eo Maigh Eo
+Mean_Fouyir Meán Fómhair
+Mean_Souree Meitheamh
+Mean_Souree Meithimh
+Meanyn_Souree Meitheamh
+Meanyn_Souree Meithimh
+Meayll_ny_Treisht Rinn an Dóchais
 Miall_Noo Naomh Mícheál
 Mooir_Azov Muir Mheoid
 Mooir_Charibagh Muir Chairib
@@ -295,6 +301,10 @@ Turneyr_Theayagh tArd-Aighne
 Vaarle_Albinagh Albainis
 Vaarle_Albinagh Albainise
 Vay_Eo Mhaigh Eo
+Vean_Souree Mheitheamh
+Vean_Souree Mheithimh
+Veanyn_Souree Mheitheamh
+Veanyn_Souree Mheithimh
 Voidyn_Moirrey Mhaighdean Mhuire
 Vooir_Caribagh Mhuir Chairib
 Vooir_Hostyn Mhuir Thuaidh
@@ -1106,6 +1116,7 @@ ayns_glaare_e_eddin ina éadan
 ayns_glayst_ny_sooill i bhfaiteadh na súl
 ayns_keisht i gceist
 ayns_lhiastynys i bhfiacha
+ayns_marranys in iomrall
 ayns_meekey-sooilley i bhfaiteadh na súl
 ayns_mooar-chooid ar an mórchóir
 ayns_ny sna
@@ -4211,6 +4222,7 @@ cre_fa cén fáth
 cre_haghrys céard a tharlóidh
 cre_hon cén fáth
 cre_my_haghrys agus má tharlaíonn
+cre_t'eh_meanal céard atá i gceist leis
 cre_ta cé atá
 cre_ta céard atá
 cre_va cé a bhí
@@ -4715,9 +4727,13 @@ doadd_shin d'fhadaíomar
 doadd_shin lasamar
 doagh_mooynlee dabhach mhúnlaigh
 doagh_phedryl umar peitril
+doailuck_ad d'adhlacadar
+doailuck_shin d'adhlacamar
 doalan_slatt dallóg lataí
 doalsee_ad d'fhalsaíodar
 doalsee_shin d'fhalsaíomar
+doanluck_ad d'adhlacadar
+doanluck_shin d'adhlacamar
 doayr_ad d'fhabhraíodar
 doayr_shin d'fhabhraíomar
 dockle_ad d'fhoghraíodar
@@ -5141,6 +5157,7 @@ dt'eill_feeaih d'fhiafheoil
 dt'eill_feeaih d'fhiafheola
 dt'eill_lheiy laofheoil
 dt'eill_lheiy laofheola
+dt'eill_vart mairteoil
 dt'eill_vohlt caoireoil
 dt'eill_vohlt caoireola
 dt'eirinys_bainney déiríocht
@@ -5315,6 +5332,10 @@ dt'ishig_rollageagh réaltfhisic
 dt'ishig_rollageagh réaltfhisice
 dt'oain_golf galfchúrsa
 dt'oainyn_golf galfchúrsaí
+dt'oalley_feeaih d'fhiafheola
+dt'oalley_lheiy laofheola
+dt'oalley_vart mairteola
+dt'oalley_vohlt caoireola
 dt'ockle_meshtit d'anagraim
 dt'ockle_meshtit d'anagram
 dt'ockleyn_meshtit d'anagraim
@@ -5976,6 +5997,7 @@ eill_feeaih fhiafheoil
 eill_feeaih fhiafheola
 eill_lheiy laofheoil
 eill_lheiy laofheola
+eill_vart mhairteoil
 eill_vohlt chaoireoil
 eill_vohlt chaoireola
 eilley_yesheenagh pana capaill
@@ -6811,6 +6833,7 @@ feill_feeaih fiafheola
 feill_lheiy laofheoil
 feill_lheiy laofheola
 feill_neuhahllagh feoil thrua
+feill_vart mairteoil
 feill_vart_rostit mairteoil rósta
 feill_vart_sailjey mairteoil shaillte
 feill_vohlt caoireoil
@@ -7109,6 +7132,7 @@ fo_harey faoi ordú
 fo_lhiastynys i bhfiacha
 fo_loo faoi mhionn
 fo_loo faoi mhóid
+fo_marranys ag dul amú
 fo_ny_harrish faoi nó thairis
 fo_ordaag faoi shlat
 fo_smaght faoi smacht
@@ -7118,6 +7142,10 @@ fo_vrat_sniaghtee faoi bhrat sneachta
 foaddan_kereagh lasán céarach
 foain_golf galfchúrsa
 foainyn_golf galfchúrsaí
+foalley_feeaih fiafheola
+foalley_lheiy laofheola
+foalley_vart mairteola
+foalley_vohlt caoireola
 fockle_arrey focal faire
 fockle_co-rait focal comhfhuaimneach
 fockle_er_fockle focal ar fhocal
@@ -13465,6 +13493,7 @@ m'eill_feeaih m'fhiafheoil
 m'eill_feeaih m'fhiafheola
 m'eill_lheiy laofheoil
 m'eill_lheiy laofheola
+m'eill_vart mairteoil
 m'eill_vohlt caoireoil
 m'eill_vohlt caoireola
 m'eirinys_bainney déiríocht
@@ -13639,6 +13668,10 @@ m'ishig_rollageagh réaltfhisic
 m'ishig_rollageagh réaltfhisice
 m'oain_golf galfchúrsa
 m'oainyn_golf galfchúrsaí
+m'oalley_feeaih m'fhiafheola
+m'oalley_lheiy laofheola
+m'oalley_vart mairteola
+m'oalley_vohlt caoireola
 m'ockle_arrey m'fhocal faire
 m'ockle_meshtit m'anagraim
 m'ockle_meshtit m'anagram
@@ -13819,14 +13852,57 @@ manneeagh_oo bheannófá
 manneeagh_oo mbeannófá
 manneeagh_shin bheannóimis
 manneeagh_shin mbeannóimis
+maragh_ad maróidís
+maragh_ad mharóidís
+maragh_oo marófá
+maragh_oo mharófá
+maragh_shin maróimis
+maragh_shin mharóimis
 margey_doo margadh dubh
 marish_e lena
+markagh_ad marcálfaidís
+markagh_ad mharcálfaidís
+markagh_oo marcálfá
+markagh_oo mharcálfá
+markagh_shin marcálfaimis
+markagh_shin mharcálfaimis
+markeeagh_ad marcóidís
+markeeagh_ad mharcóidís
+markeeagh_oo marcófá
+markeeagh_oo mharcófá
+markeeagh_shin marcóimis
+markeeagh_shin mharcóimis
+markiagh_couçh marcach cinnireachta
+markiagh_er_mooin marcaíocht ar dhroim
+marragh_ad maróidís
+marragh_ad mharóidís
+marragh_oo marófá
+marragh_oo mharófá
+marragh_shin maróimis
+marragh_shin mharóimis
 marraghyn_barney spásbharraí
 marraghyn_bee sneaicbheáir
 marraghyn_bee sneaicbheár
+marranys_er dul amú air
+marranys_er dul amú ar
+marranys_erriu dul amú oraibh
+marranys_orrin dul amú orainn
+marranys_orroo dul amú orthu
+marranys_orrym dul amú orm
+marranys_ort dul amú ort
+marranys_urree dul amú uirthi
 marrey_barney spásbharra
 marrey_bee sneaicbheáir
 marrey_bee sneaicbheár
+marroo_mayrey marú máthar
+marroo_ny_hassoo leathmharbh
+martaragh_ad martróidís
+martaragh_ad mhartróidís
+martaragh_oo martrófá
+martaragh_oo mhartrófá
+martaragh_shin martróimis
+martaragh_shin mhartróimis
+martlan_ghailley cailleach ghoile
 mashtagh_ad bhaistfidís
 mashtagh_ad mbaistfidís
 mashtagh_oo bhaistfeá
@@ -13842,6 +13918,13 @@ mastagh_oo bhástálfá
 mastagh_oo mbástálfá
 mastagh_shin bhástálfaimis
 mastagh_shin mbástálfaimis
+maylartagh_ad malartóidís
+maylartagh_ad mhalartóidís
+maylartagh_oo malartófá
+maylartagh_oo mhalartófá
+maylartagh_shin malartóimis
+maylartagh_shin mhalartóimis
+maynagh_Albinagh céíle Dé
 mayrn_caggee gcafairr
 mayrn_caggee gcafarr
 mayrn_caggee gclogad
@@ -13850,6 +13933,15 @@ mayrnyn_caggee gcafairr
 mayrnyn_caggee gcafarr
 mayrnyn_caggee gclogad
 mayrnyn_caggee gclogaid
+meain_choodee miotal cumhdaigh
+meain_gheayil mianach guail
+meaineyder_geayil mianadóir guail
+mean_oie meán oíche
+mean_scoill meánscoil
+mean_scoill meánscoile
+mean_ynsagh meánoideachais
+mean_ynsagh meánoideachas
+meanyn_scoill meánscoileanna
 mee_brisht gconamair
 mee_brisht gconamar
 mee_cooag seamsóg
@@ -15890,6 +15982,18 @@ niuagh_shin ibhfimis
 niuagh_shin n-ibhfimis
 niuagh_shin n-ólfaimis
 niuagh_shin ólfaimis
+noailuckagh_ad adhlacfaidís
+noailuckagh_ad n-adhlacfaidís
+noailuckagh_oo adhlacfá
+noailuckagh_oo n-adhlacfá
+noailuckagh_shin adhlacfaimis
+noailuckagh_shin n-adhlacfaimis
+noanluckagh_ad adhlacfaidís
+noanluckagh_ad n-adhlacfaidís
+noanluckagh_oo adhlacfá
+noanluckagh_oo n-adhlacfá
+noanluckagh_shin adhlacfaimis
+noanluckagh_shin n-adhlacfaimis
 nod_ad an féidir leo
 nod_ee an féidir léi
 nod_eh an féidir leis
@@ -16238,7 +16342,7 @@ ny_s'lhuirey níos faide
 ny_s'liurey níos airde
 ny_s'liurey níos faide
 ny_s'loo níos lú
-ny_s'maynrey níos sonasaí
+ny_s'maynrey níos sásta
 ny_s'meeiney níos míne
 ny_s'melley níos moille
 ny_s'menkey níos minice
@@ -16404,8 +16508,19 @@ oaddagh_oo lasfá
 oaddagh_shin d'adhanfaimis
 oaddagh_shin d'fhadóimis
 oaddagh_shin lasfaimis
+oailuck_ad adhlacadar
+oailuck_ad n-adhlacadar
+oailuck_shin adhlacamar
+oailuck_shin n-adhlacamar
+oailuckagh_ad d'adhlacfaidís
+oailuckagh_oo d'adhlacfá
+oailuckagh_shin d'adhlacfaimis
 oain_golf ghalfchúrsa
 oainyn_golf ghalfchúrsaí
+oalley_feeaih fhiafheola
+oalley_lheiy laofheola
+oalley_vart mhairteola
+oalley_vohlt chaoireola
 oalsee_ad bhfalsaíodar
 oalsee_ad fhalsaíodar
 oalsee_shin bhfalsaíomar
@@ -16413,6 +16528,13 @@ oalsee_shin fhalsaíomar
 oalseeagh_ad d'fhalsóidís
 oalseeagh_oo d'fhalsófá
 oalseeagh_shin d'fhalsóimis
+oanluck_ad adhlacadar
+oanluck_ad n-adhlacadar
+oanluck_shin adhlacamar
+oanluck_shin n-adhlacamar
+oanluckagh_ad d'adhlacfaidís
+oanluckagh_oo d'adhlacfá
+oanluckagh_shin d'adhlacfaimis
 oayr_ad bhfabhraíodar
 oayr_ad fhabhraíodar
 oayr_shin bhfabhraíomar
@@ -16706,6 +16828,18 @@ s'loys_diu leomhann sibh
 s'loys_dooin leomhaimid
 s'loys_dou leomhaim
 s'loys_jee leomhann sí
+s'maynrey_eh is méanar dó
+s'maynrey_eshyn is méanar dó
+s'maynrey_shin is méanar dúinn
+s'maynrey_shiu is méanar daoibh
+s'maynrey_t'ad is méanar atá siad
+s'maynrey_t'eh is méanar atá sé
+s'maynrey_t'ou is méanar atá tú
+s'maynrey_ta is méanar atá
+s'maynrey_ta'n is méanar atá an
+s'maynrey_va is méanar a bhí
+s'maynrey_vees is méanar a bheidh
+s'maynrey_yn is méanar don
 s'treisht_lhiam tá súil agam
 scheimyn_aitt stiallchartúin
 scheimyn_aittey stiallchartúin
@@ -16804,11 +16938,13 @@ syns_yn san
 t'eddyr_ain atá eadrainn
 t'eddyr_eu atá eadraibh
 t'eddyr_oc atá eatarthu
+t'eh_meanal ciallaíonn sé
 t'er_dty_ruggey atá saolaithe
 t'er_dty_skyn atá os do chionn
 t'er_e_skyn atá os a chionn
 t'er_e_skyn atá os a cionn
 t'er_gerrey atá i gcóngar
+t'er_mayrn atá ar marthain
 t'er_my_ruggey atá saolaithe
 t'er_my_skyn atá os mo chionn
 t'er_n'aagail atá tar éis fágáil
@@ -16844,6 +16980,7 @@ t'er_nyn_skyn atá os a gcionn
 t'er_nyn_skyn atá os bhur gcionn
 t'er_nyn_skyn atá os ár gcionn
 t'er_skyn atá os cionn
+t'ou_meanal atá ar intinn agat
 ta'n_Flandyryn tá Flóndras
 ta'n_aacheoid tá na daitheacha
 ta'n_chied-vess tá na céadtorthaí
@@ -16853,12 +16990,14 @@ tarroo_deyill fándaol
 tarroo_deyl fándaol
 thie_baanrit teach gealt
 thie_cailleeyn_dooey clochar ban rialta
+tou_meanal atá ar intinn agat
 traa_correy tráth curtha síl
 traa_ta nuair atá
 trome_chooishagh tromchúiseach
 trome_cooishagh tromchúiseach
 trooid_as_trooid tríd is tríd
 trooid_lock faoi ghlas
+trooid_marranys trí dhearmad
 uaill_ad bhfuadar
 uaill_ad fhuadar
 uaill_shin bhfuamar
@@ -16899,6 +17038,7 @@ v'er_dty_skyn a bhí os do chionn
 v'er_e_skyn a bhí os a chionn
 v'er_e_skyn a bhí os a cionn
 v'er_gerrey a bhí i gcóngar
+v'er_mayrn a bhí ar marthain
 v'er_my_ruggey a bhí saolaithe
 v'er_my_skyn a bhí os mo chionn
 v'er_n'aagail a bhí tar éis fágáil
@@ -17120,24 +17260,52 @@ vanneeagh_ad bheannóidís
 vanneeagh_oo bheannófá
 vanneeagh_shin bheannóimis
 var_a_mish mise faoi dhuit
+var_ad maraíodar
+var_ad mharaíodar
 var_ennym bhforainm
 var_ennym leasainm
 var_folt mbréagfhoilt
 var_folt mbréagfholt
+var_shin maraíomar
+var_shin mharaíomar
 var_ushtey bhfionnuisce
 var_ushtey bhfíoruisce
+varagh_ad mharóidís
+varagh_oo mharófá
+varagh_shin mharóimis
+vark_ad marcáladar
+vark_ad mharcáladar
+vark_shin marcálamar
+vark_shin mharcálamar
 varkagh_ad bhfanfaidís
 varkagh_ad fhanfaidís
+varkagh_ad mharcálfaidís
 varkagh_oo bhfanfá
 varkagh_oo fhanfá
+varkagh_oo mharcálfá
 varkagh_shin bhfanfaimis
 varkagh_shin fhanfaimis
+varkagh_shin mharcálfaimis
+varkee_ad marcaíodar
+varkee_ad mharcaíodar
+varkee_shin marcaíomar
+varkee_shin mharcaíomar
 varkeeagh_ad bhfanfaidís
 varkeeagh_ad fhanfaidís
+varkeeagh_ad mharcóidís
 varkeeagh_oo bhfanfá
 varkeeagh_oo fhanfá
+varkeeagh_oo mharcófá
 varkeeagh_shin bhfanfaimis
 varkeeagh_shin fhanfaimis
+varkeeagh_shin mharcóimis
+varr_ad maraíodar
+varr_ad mharaíodar
+varr_shin maraíomar
+varr_shin mharaíomar
+varragh_ad mharóidís
+varragh_oo mharófá
+varragh_shin mharóimis
 varraghyn_barney spásbharraí
 varraghyn_bee shneaicbheáir
 varraghyn_bee shneaicbheár
@@ -17150,6 +17318,13 @@ varreeagh_shin mhairfimis
 varrey_barney spásbharra
 varrey_bee shneaicbheáir
 varrey_bee shneaicbheár
+vartar_ad martraíodar
+vartar_ad mhartraíodar
+vartar_shin martraíomar
+vartar_shin mhartraíomar
+vartaragh_ad mhartróidís
+vartaragh_oo mhartrófá
+vartaragh_shin mhartróimis
 varyn_folt mbréagfhoilt
 varyn_folt mbréagfholt
 vasht_ad bhaisteadar
@@ -17208,6 +17383,13 @@ vast_shin mbástálamar
 vastagh_ad bhástálfaidís
 vastagh_oo bhástálfá
 vastagh_shin bhástálfaimis
+vaylart_ad malartaíodar
+vaylart_ad mhalartaíodar
+vaylart_shin malartaíomar
+vaylart_shin mhalartaíomar
+vaylartagh_ad mhalartóidís
+vaylartagh_oo mhalartófá
+vaylartagh_shin mhalartóimis
 vayrn_caggee chafairr
 vayrn_caggee chafarr
 vayrn_caggee chlogad
@@ -17219,6 +17401,11 @@ vayrnyn_caggee chlogaid
 veagh_ad bheidís
 veagh_oo bheifeá
 veagh_shin bheimis
+vean_scoill mheánscoil
+vean_scoill mheánscoile
+vean_ynsagh mheánoideachais
+vean_ynsagh mheánoideachas
+veanyn_scoill mheánscoileanna
 veaynid_mooar bhfolúis
 veaynid_mooar bhfolús
 veayreeagh_ad bhfuaróidís
@@ -17302,6 +17489,7 @@ veill_feeaih bhfiafheoil
 veill_feeaih bhfiafheola
 veill_lheiy laofheoil
 veill_lheiy laofheola
+veill_vart mairteoil
 veill_vohlt gcaoireoil
 veill_vohlt gcaoireola
 veishteig_snaieagh shnáthphéist
@@ -17834,6 +18022,10 @@ voaillagh_oo bhuailfeá
 voaillagh_shin bhuailfimis
 voain_golf ngalfchúrsa
 voainyn_golf ngalfchúrsaí
+voalley_feeaih bhfiafheola
+voalley_lheiy laofheola
+voalley_vart mairteola
+voalley_vohlt gcaoireola
 voalseeagh_ad bhfalsóidís
 voalseeagh_ad fhalsóidís
 voalseeagh_oo bhfalsófá
