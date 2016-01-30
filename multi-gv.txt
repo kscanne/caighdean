@@ -165,6 +165,7 @@ Heer_Thai Théalainn
 Heer_Thai Théalainne
 Heihll_Heear Iarthair
 Heihll_Heear Iarthar
+Henn_Yernish Shean-Ghaeilge
 Hong_Kong Hong Cong
 Hop_tu_Naa Oíche Chinn Bhliana
 Hoshiaght_Arree Fheabhra
@@ -214,6 +215,7 @@ Keayn_ny_h-Arabaght Cuan na hAraibe
 Keeill_Chennee Cill Chainnigh
 Keeill_Darey Cill Dara
 Keeill_Mantan Cill Mhantáin
+Kione_Droghad Ceann Droichid
 Kione_Saile Ceann Sáile
 Laa'l_Moirrey_'Syn_Arree Lá Theachtaireacht an Aingil
 Laa'l_Moirrey_ny_Gainle Lá Fhéile Muire na gCoinneal
@@ -349,6 +351,7 @@ Seihll_Heear nIarthar
 Seihll_Heear tIarthar
 Shenn_Chonaant Sean-Tiomna
 Shenn_Ghuilley Seanbhuachaill
+Shenn_Yernish Sean-Ghaeilge
 Sheshaght_Lught_Traghtee Cumann Lucht Tráchtála
 Shey_Coonteeyn Sé Chontae
 Shiaghtyn_ny_Caisht Seachtain na Cásca
@@ -883,6 +886,10 @@ ard-voyll_shin n-ardmholamar
 ard-voyllagh_ad d'ardmholfaidís
 ard-voyllagh_oo d'ardmholfá
 ard-voyllagh_shin d'ardmholfaimis
+ard_ayraghyn ardaithreacha
+ard_ayraghyn cinn finí
+ard_choraa glór ard
+ard_choraa guth ard
 ard_gheurey dhúluachair
 ard_gheurey dhúluachra
 ard_gheurey dúluachair
@@ -891,10 +898,18 @@ ard_moirvaljagh mhórcheantair
 ard_moirvaljagh mhórcheantar
 ard_moirvaljagh mórcheantair
 ard_moirvaljagh mórcheantar
+ard_raad mhórbhealach
+ard_raad mhórbhealaigh
+ard_raad mórbhealach
+ard_raad mórbhealaigh
 ard_reiragh phríomhfheidhmeannach
 ard_reiragh phríomhfheidhmeannaigh
 ard_reiragh príomhfheidhmeannach
 ard_reiragh príomhfheidhmeannaigh
+ard_valley cathair
+ard_valley cathrach
+ard_valley chathair
+ard_valley chathrach
 ard_ynnydyn-soie príomhshuíocháin
 ardan_soie seastáin
 ardan_soie seastán
@@ -2897,9 +2912,14 @@ chelloor_shin gceiliúramar
 chellooragh_ad cheiliúrfaidís
 chellooragh_oo cheiliúrfá
 chellooragh_shin cheiliúrfaimis
+chenn_dooinney seanduine
+chenn_dooinney tseanduine
 chenn_earish seansaol
 chenn_earish tseansaoil
 chenn_earishyn seanlaethanta
+chenn_ghooinney seanduine
+chenn_ghooinney tseanduine
+chenn_ven tseanbhean
 chenn_villey seanchrann
 chere_ad chíoradar
 chere_ad gcíoradar
@@ -5987,11 +6007,24 @@ drogh_ghoo míchlú
 drogh_haghyrt taisme
 drogh_haghyrt timpiste
 drogh_haghyrt tubaiste
+drogh_hooill drochshúil
+drogh_hooill drochshúile
 drogh_hraghtey smuigléireacht
 drogh_hraghtey smuigléireachta
 drogh_naight drochscéala
 drogh_oor drochuair
 drogh_oor drochuaire
+drogh_spyrryd deamhain
+drogh_spyrryd deamhan
+drogh_spyrryd diabhail
+drogh_spyrryd diabhal
+drogh_spyrryd drochspiorad
+drogh_spyrryd drochspioraid
+drogh_spyrrydyn drochspioraid
+drogh_yannoo drochghnímh
+drogh_yannoo drochghníomh
+drogh_yannoo míghnímh
+drogh_yannoo míghníomh
 drogh_yien drochaoibh
 droghad_coshey droichead coisithe
 droghad_croghit droichead crochta
@@ -6137,8 +6170,12 @@ dt'ard_gheurey do dhúluachair
 dt'ard_gheurey do dhúluachra
 dt'ard_moirvaljagh do mhórcheantair
 dt'ard_moirvaljagh do mhórcheantar
+dt'ard_raad do mhórbhealach
+dt'ard_raad do mhórbhealaigh
 dt'ard_reiragh do phríomhfheidhmeannach
 dt'ard_reiragh do phríomhfheidhmeannaigh
+dt'ard_valley do chathair
+dt'ard_valley do chathrach
 dt'ardan_soie do sheastáin
 dt'ardan_soie do sheastán
 dt'ardanyn_soie do sheastáin
@@ -7202,6 +7239,7 @@ eer_aashagh an-éasca
 eer_aeg an-óg
 eer_anchasley an-difriúil
 eer_anchasley an-éagsúil
+eer_ard an-ard
 eer_beg fhíorbheag
 eer_beg fhíorbheaga
 eer_beg fhíorbheige
@@ -7424,6 +7462,7 @@ eoleeagh_shin d'éalóimis
 eoylley_ollee aoileach bó
 eoylley_varrey ghuanó
 eoylley_varrey guanó
+er'n_shenn_sleih ar na seandaoine
 er-be_dy mura
 er-be_dy murar
 er-be_dy_row mura raibh
@@ -8049,35 +8088,50 @@ feeaihyn_Loghlinagh réinfhianna
 feegan_coonlee hata tuí
 feegan_doo-oallee líon damháin alla
 feegan_y_doo-oallee líon damháin alla
+feer_aalin an-álainn
+feer_aalin fíorálainn
 feer_aashagh an-éasca
 feer_aashagh fíoréasca
 feer_aeg an-óg
+feer_agglagh fíoreaglach
+feer_anaasagh an-spéisiúil
+feer_anaasagh fíorspéisiúil
 feer_anchasley an-difriúil
 feer_anchasley an-éagsúil
+feer_ard an-ard
 feer_beg fíorbheag
 feer_beg fíorbheaga
 feer_beg fíorbheige
 feer_beg fíorbhig
-feer_booiagh fíorbhuíche
-feer_booiagh fíorbhuíoch
-feer_booiagh fíorbhuíocha
 feer_casley an-chosúil
+feer_chooie an-fheiliúnach
+feer_chorree an-fheargach
+feer_chreoi an-chrua
 feer_creoi an-chrua
 feer_cronnalagh an-suntasach
 feer_currymagh an-chúramach
 feer_doccar fíordheacair
 feer_doccar fíordheacra
+feer_doillee an-deacair
+feer_doillee an-doiligh
+feer_doillee rídheacair
 feer_doolagh an-díomách
 feer_faggys fíorghairid
+feer_feayr an-fhuar
+feer_foddey an-fhada
+feer_ghraihagh an-ghrámhar
 feer_goan fíorannaimh
 feer_goan fíorannaimhe
 feer_goan fíorannamh
 feer_goan fíorannamha
+feer_happee an-tapa
+feer_happee ríthapa
 feer_injil fíoríseal
 feer_injil fíorísil
 feer_injil fíorísle
 feer_jarrooagh an-dearfach
 feer_jesh an-deas
+feer_jymmoosagh an-fheargach
 feer_lag an-lag
 feer_lajer fíorláidir
 feer_lajer fíorláidre
@@ -8091,6 +8145,7 @@ feer_neugheyr an-saoire
 feer_neugheyr an-saor
 feer_neugheyr an-saora
 feer_neugheyr han-saor
+feer_niartal an-láidir
 feer_saasit an-sásta
 feer_saasit lánsásta
 feer_sassit an-sásta
@@ -8103,11 +8158,20 @@ feer_scanshoil ríthábhachtach
 feer_scanshoil ríthábhachtacha
 feer_scanshoil ríthábhachtaigh
 feer_scanshoil ríthábhachtaí
+feer_shenn an-aosta
+feer_skee an-tuirseach
 feer_symoil an-spéisiúil
 feer_symoil an-suimiúil
 feer_symoil fíorshuimiúil
 feer_symoil fíorshuimiúla
+feer_taitnyssagh an-taitneamhach
+feer_tappee an-tapa
+feer_tappee ríthapa
 feer_tarroogh an-ghnóthach
+feer_trimshagh an-bhrónach
+feer_trimshagh dobrónach
+feer_trome an-trom
+feer_vaynrey an-sásta
 feer_veg fíorbheag
 feer_veg fíorbheaga
 feer_veg fíorbheige
@@ -8116,6 +8180,9 @@ feer_vennick go mion minic
 feer_vie an-mhaith
 feer_vie fíormhaith
 feer_vie fíormhaithe
+feer_voal an-mhall
+feer_voghey an-luath
+feer_voghey an-mhoch
 feer_voght fíorbhocht
 feer_voght fíorbhochta
 feer_voght fíorbhoicht
@@ -8126,7 +8193,11 @@ feer_vooar ollmhóir
 feer_vooar ollmhóire
 feer_vooar ollmhór
 feer_vooar ollmhóra
+feer_whaagh an-aisteach
+feer_whaagh fíoraisteach
+feer_yindyssagh an-iontach
 feer_ymmydagh an-úsáideach
+feer_ymmydoil an-úsáideach
 feer_çheh an-te
 feer_çheorit an-teoranta
 feeu_baght fiú le rá
@@ -9793,10 +9864,22 @@ ghrogh_ghoo mhíchlú
 ghrogh_haghyrt thaisme
 ghrogh_haghyrt thimpiste
 ghrogh_haghyrt thubaiste
+ghrogh_hooill dhrochshúil
+ghrogh_hooill dhrochshúile
 ghrogh_hraghtey smuigléireacht
 ghrogh_hraghtey smuigléireachta
 ghrogh_oor dhrochuair
 ghrogh_oor dhrochuaire
+ghrogh_spyrryd dheamhain
+ghrogh_spyrryd dheamhan
+ghrogh_spyrryd dhiabhail
+ghrogh_spyrryd dhiabhal
+ghrogh_spyrryd dhrochspiorad
+ghrogh_spyrryd dhrochspioraid
+ghrogh_yannoo dhrochghnímh
+ghrogh_yannoo dhrochghníomh
+ghrogh_yannoo mhíghnímh
+ghrogh_yannoo mhíghníomh
 ghroghad_keesh dholadhroichead
 ghroghad_keesh dholadhroichid
 ghroghad_ushtey uisceriain
@@ -11934,8 +12017,12 @@ hard_gheurey dúluachair
 hard_gheurey dúluachra
 hard_moirvaljagh mórcheantair
 hard_moirvaljagh mórcheantar
+hard_raad mórbhealach
+hard_raad mórbhealaigh
 hard_reiragh príomhfheidhmeannach
 hard_reiragh príomhfheidhmeannaigh
+hard_valley cathair
+hard_valley cathrach
 hardan_soie seastáin
 hardan_soie seastán
 hardanyn_soie seastáin
@@ -12440,6 +12527,7 @@ hengey_ny_mayrey mháthairtheanga
 henn_dooinney sheanduine
 henn_earroo sheanuimhir
 henn_earroo sheanuimhreach
+henn_ghooinney sheanduine
 henn_ghuilleydys bhaitsiléireacht
 henn_ghuilleydys bhaitsiléireachta
 henn_hidoor sheansaighdiúir
@@ -12454,6 +12542,8 @@ henn_shenn_voir shin-seanmháthair
 henn_shenn_voir shin-seanmháthar
 henn_sidoor sheansaighdiúir
 henn_sidoor sheansaighdiúra
+henn_skeeal sheanscéal
+henn_skeeal sheanscéil
 henn_ven sheanbhean
 henn_ven sheanmhná
 henn_voidyn sheanmhaighdean
@@ -14580,6 +14670,7 @@ kiedyn_er_ny_gheddyn céadghinte
 kindagh_rish mar gheall ar
 kione_bugganeagh ceann púca
 kione_deilley ceann deile
+kione_droghad ceann droichid
 kione_eiyrt ceann leapa
 kione_harrish_shen dá ainneoin sin
 kione_jerree ceann cúrsa
@@ -14961,6 +15052,7 @@ lane_obbaltagh lánstaonaire
 lane_obbaltys lánstaonadh
 lane_obbaltys lánstaonta
 lane_sevreain faoi scaoll
+lane_shickyr lánchinnte
 lane_sleayst lán sluaiste
 lane_soo shúmhair
 lane_soo shúmhaire
@@ -14971,6 +15063,7 @@ lane_soo súmhaire
 lane_soo súmhar
 lane_soo súmhara
 lane_spein lán spúnóige
+lane_taitnys a lán taitnimh
 lane_troo fhormadach
 lane_troo fhormadacha
 lane_troo fhormadaigh
@@ -14984,6 +15077,7 @@ lane_troo éadmhair
 lane_troo éadmhaire
 lane_troo éadmhar
 lane_troo éadmhara
+lane_yindys uafás
 lanee_ad shlánaíodar
 lanee_ad slánaíodar
 lanee_shin shlánaíomar
@@ -15760,12 +15854,15 @@ lieh-vroieagh_oo chnagbhruithfeá
 lieh-vroieagh_oo gcnagbhruithfeá
 lieh-vroieagh_shin chnagbhruithfimis
 lieh-vroieagh_shin gcnagbhruithfimis
+lieh_cheead leathchéad
 lieh_chyagh leathchaoch
 lieh_chyagh leathchaocha
 lieh_chyagh leathchaoiche
 lieh_jerree leath deiridh
 lieh_laa_seyr leathlá saoire
 lieh_myr_lieh leath má leath
+lieh_oor leathuair
+lieh_oor leathuaire
 lieh_toshee leath tosaigh
 liehbage_chasherick leathóg Mhuire
 liehbage_vreck leathóg bhallach
@@ -16638,10 +16735,14 @@ m'ard_moirvaljagh mo mhórcheantair
 m'ard_moirvaljagh mo mhórcheantar
 m'ard_moirvaljagh mórcheantair
 m'ard_moirvaljagh mórcheantar
+m'ard_raad mo mhórbhealach
+m'ard_raad mo mhórbhealaigh
 m'ard_reiragh mo phríomhfheidhmeannach
 m'ard_reiragh mo phríomhfheidhmeannaigh
 m'ard_reiragh príomhfheidhmeannach
 m'ard_reiragh príomhfheidhmeannaigh
+m'ard_valley mo chathair
+m'ard_valley mo chathrach
 m'ardan_soie mo sheastáin
 m'ardan_soie mo sheastán
 m'ardan_soie seastáin
@@ -21880,8 +21981,12 @@ nard_gheurey ndúluachair
 nard_gheurey ndúluachra
 nard_moirvaljagh mórcheantair
 nard_moirvaljagh mórcheantar
+nard_raad mórbhealach
+nard_raad mórbhealaigh
 nard_reiragh bpríomhfheidhmeannach
 nard_reiragh bpríomhfheidhmeannaigh
+nard_valley gcathair
+nard_valley gcathrach
 nardan_soie seastáin
 nardan_soie seastán
 nardanyn_soie seastáin
@@ -23443,10 +23548,22 @@ nrogh_ghoo ndrochthuairisce
 nrogh_haghyrt dtaisme
 nrogh_haghyrt dtimpiste
 nrogh_haghyrt dtubaiste
+nrogh_hooill ndrochshúil
+nrogh_hooill ndrochshúile
 nrogh_hraghtey smuigléireacht
 nrogh_hraghtey smuigléireachta
 nrogh_oor ndrochuair
 nrogh_oor ndrochuaire
+nrogh_spyrryd ndeamhain
+nrogh_spyrryd ndeamhan
+nrogh_spyrryd ndiabhail
+nrogh_spyrryd ndiabhal
+nrogh_spyrryd ndrochspiorad
+nrogh_spyrryd ndrochspioraid
+nrogh_yannoo míghnímh
+nrogh_yannoo míghníomh
+nrogh_yannoo ndrochghnímh
+nrogh_yannoo ndrochghníomh
 nroghad_keesh ndoladhroichead
 nroghad_keesh ndoladhroichid
 nroghad_ushtey n-uisceriain
@@ -25772,12 +25889,22 @@ ro_aeg ró-óg
 ro_aeg ró-óga
 ro_aeg ró-óig
 ro_aeg ró-óige
+ro_anmagh ródhéanach
+ro_anmagh rómhall
 ro_ard ró-ard
 ro_co-chast róchasta
 ro_costalagh róchostasach
 ro_costalagh róchostasacha
 ro_costalagh róchostasaigh
 ro_costalagh róchostasaí
+ro_ghoillee ródheacair
+ro_ghoillee ródheacra
+ro_happee róthapa
+ro_harroogh róghnóthach
+ro_heh róthe
+ro_hrome róthroime
+ro_hrome róthrom
+ro_hrome róthroma
 ro_injil ró-íseal
 ro_injil ró-ísil
 ro_injil ró-ísle
@@ -25796,7 +25923,15 @@ ro_moal rómhaille
 ro_moal rómhall
 ro_moal rómhalla
 ro_neuchramp róshimplí
+ro_olk ró-oilc
+ro_olk ró-oilce
+ro_olk ró-olc
+ro_olk ró-olca
 ro_saasit róshásta
+ro_skee róthuirseach
+ro_skee róthuirseacha
+ro_skee róthuirsigh
+ro_skee róthuirsí
 ro_veg róbheag
 ro_veg róbheaga
 ro_veg róbhig
@@ -26933,6 +27068,10 @@ shelliu_veill íoc liopaí
 shellooder_thallooin úinéir talún
 shen-y_fa dá bharr sin
 shen-y_fa dá bhrí sin
+shenn_Cheltiee sean-Cheiltigh
+shenn_Vanninee sean-Mhanannaigh
+shenn_ayraghyn seanaithreacha
+shenn_chliaghtaghyn seanghnásanna
 shenn_dooinney seanduine
 shenn_dooinney tseanduine
 shenn_earishyn seanlaethanta
@@ -26940,6 +27079,9 @@ shenn_earroo seanuimhir
 shenn_earroo seanuimhreach
 shenn_earroo tseanuimhir
 shenn_eash seanaois
+shenn_eeasteyryn seaniascairí
+shenn_gheiney seandaoine
+shenn_ghooinney seanduine
 shenn_ghuilleydys baitsiléireacht
 shenn_ghuilleydys baitsiléireachta
 shenn_ghuilleydys mbaitsiléireacht
@@ -26947,9 +27089,12 @@ shenn_ghuilleydys mbaitsiléireachta
 shenn_hidoor seansaighdiúir
 shenn_hidoor seansaighdiúra
 shenn_hidoor tseansaighdiúra
+shenn_laghyn seanlaethanta
 shenn_phenshyn seanphinsean
 shenn_phenshyn seanphinsin
 shenn_phenshyn tseanphinsin
+shenn_reddyn seaniarsmaí
+shenn_reddyn seanrudaí
 shenn_shaner sin-seanathair
 shenn_shaner sin-seanathar
 shenn_shaner tsin-seanathar
@@ -26961,6 +27106,11 @@ shenn_shenn_voir sin-seanmháthar
 shenn_sidoor seansaighdiúir
 shenn_sidoor seansaighdiúra
 shenn_sidoor tseansaighdiúra
+shenn_skeeal seanscéal
+shenn_skeeal seanscéil
+shenn_skeealyn seanscéalta
+shenn_sleih seandaoine
+shenn_traaghyn seanlaethanta
 shenn_ven seanbhean
 shenn_ven seanmhná
 shenn_voidyn seanmhaighdean
@@ -32511,6 +32661,7 @@ yn_inneen-'sy-leigh_eck bean a mic
 yn_naa_laa an chéad lá eile
 yn_scaailley_ruy soiriáis
 yn_scailley_ruy soiriáis
+yn_shenn_sleih na seandaoine
 yn_ym-ysseraght na meáin
 yn_ym-ysseraght na meán
 yn_Çhaayr Chester
@@ -32638,6 +32789,7 @@ yystyn_poddash phorainséir
 Çheer_ny_Rhiney Tír na Réine
 Çheer_y_Sniaghtey an Ghraonlainn
 Çheer_y_Vagheragh an Ísiltír
+Çhenn_Yernish tSean-Ghaeilge
 Çheshaght_Ghailckagh Chumann Gaelach
 Çheshaght_Ghailckagh Cumann Gaelach
 Çhibbyrt_Aarey Tiobraid Árann
@@ -32702,8 +32854,14 @@ yystyn_poddash phorainséir
 çhengey_ny_mayrey máthairtheanga
 çhengey_veg teanga bheag
 çhengey_vio teanga bheo
+çhenn_dooinney seanduine
+çhenn_dooinney tseanduine
 çhenn_earishyn seanlaethanta
+çhenn_ghooinney seanduine
+çhenn_ghooinney tseanduine
 çhenn_shenn_voir tsin-seanmháthair
+çhenn_skeeal seanscéal
+çhenn_skeeal tseanscéil
 çhenn_ven tseanbhean
 çhenn_villey seanchrann
 çhenn_voidyn tseanmhaighdean
