@@ -4907,6 +4907,7 @@ da'n_Phartee_Obbraghys do Pháirtí an Lucht Oibre
 da'n_derrey_yeh don duine amháin
 da'n_ym-ysseraght do na meáin
 da_ooilley_sheelnaue don uile dhuine
+da_yn don
 daa-enmys_ad d'athsheoladar
 daa-enmys_shin d'athsheolamar
 daa-lheein_ad d'athlíonadar
@@ -7800,6 +7801,8 @@ er_shenn_screeuyn phailéagrafaí
 er_shlee ar shlí
 er_skyn os cionn
 er_son ar son
+er_son_dy de bhrí go
+er_son_dy toisc go
 er_son_dy_bragh go brách
 er_son_dy_bragh go deo
 er_son_dy_vel de bhrí go bhfuil
@@ -8725,6 +8728,15 @@ ga_dy cé gur
 ga_dy_row cé go raibh
 ga_dy_vel cé go bhfuil
 ga_dy_vol cé go bhfuil
+ga_t'ad cé go bhfuil siad
+ga_t'ee cé go bhfuil sí
+ga_t'eh cé go bhfuil sé
+ga_t'ou cé go bhfuil tú
+ga_t'uss cé go bhfuil tusa
+ga_ta cé go bhfuil
+ga_ta'd cé go bhfuil siad
+ga_ta'n cé go bhfuil an
+ga_tan cé go bhfuil an
 gaabylagh_ad cháblóidís
 gaabylagh_ad gcáblóidís
 gaabylagh_oo cháblófá
@@ -9087,6 +9099,8 @@ geckagh_oo chacfá
 geckagh_oo gcacfá
 geckagh_shin chacfaimis
 geckagh_shin gcacfaimis
+geddyn_baase ag fáil bháis
+geddyn_baase fáil bháis
 geeaylleeagh_ad chiallóidís
 geeaylleeagh_ad gciallóidís
 geeaylleeagh_oo chiallófá
@@ -18919,6 +18933,7 @@ my_Yuanyn_Haink_Noal m'inimirceach
 my_Yuanyn_Haink_Noal m'inimircigh
 my_Yupiter m'Iúpatair
 my_Yupiter m'Iúpatar
+my_aagys má fhágann
 my_chaartrey m'aithisithe
 my_chaartrey m'aithisiú
 my_chadjinaghey m'fhorleata
@@ -18999,6 +19014,7 @@ my_cheaynyn m'fharraigí
 my_cheayrt m'uair
 my_cheayrt m'uaire
 my_cheayrtyn m'uaireanta
+my_chenjallys mo chineáltas
 my_cheoieid m'fhiántais
 my_cheoieid m'fhiántas
 my_cherçheen m'ainniseoir
@@ -19089,6 +19105,7 @@ my_chleihyn m'fhálta
 my_chlinneyder m'éisteoir
 my_chlinneyder m'éisteora
 my_chlinneyderyn m'éisteoirí
+my_chlinnys má chloiseann
 my_chliogagh m'fheileastraim
 my_chliogagh m'fheileastram
 my_chloie m'imeartha
@@ -19172,6 +19189,7 @@ my_chooieid m'iomchuibheas
 my_chooieid m'iomchuibhis
 my_chooieid m'oiriúnacht
 my_chooieid m'oiriúnachta
+my_chooinys má chuimhníonn
 my_chooisheraght m'eachtraíocht
 my_chooisheraght m'eachtraíochta
 my_chooishyraght m'eachtraíocht
@@ -19197,6 +19215,7 @@ my_chorvaal m'easordaithe
 my_chorvaal m'easordú
 my_chosney m'fháil
 my_chosney m'fhála
+my_chosnys má ghnóthaíonn
 my_chour i mo chomhair
 my_choyrlaght m'inmholtacht
 my_choyrlaght m'inmholtachta
@@ -19213,6 +19232,8 @@ my_chrauee-oalsey m'fhimíneach
 my_chrauee-oalsey m'fhimínigh
 my_chrauee-oalsey m'éagráifeach
 my_chrauee-oalsey m'éagráifigh
+my_chredjagh dá gcreidfeadh
+my_chredjagh_oo dá gcreidfeá
 my_chredjaltys m'inchreidteacht
 my_chredjaltys m'inchreidteachta
 my_chreenaght m'eagna
@@ -19279,6 +19300,12 @@ my_chyrloghey m'ainéistéisiú
 my_dty_chione fút
 my_e_chione faoi
 my_e_kione fúithi
+my_eaddagh mo chuid éadaigh
+my_eadolys m'éad
+my_eaishtys má éisteann
+my_ee-ys má itheann
+my_eeys má itheann
+my_eulys m'fhearg
 my_ghaan_mooar m'eipic
 my_ghaan_mooar m'eipice
 my_ghaanyn_mooar m'eipicí
@@ -19413,10 +19440,12 @@ my_ghorley_brooinney m'íorpais
 my_ghorley_brooinney m'íorpaise
 my_ghorley_shymlee m'eitinn
 my_ghorley_shymlee m'eitinne
+my_ghorrys mo dhoras
 my_ghounsternee m'amhastrach
 my_ghounsternee m'amhastraí
 my_ghounstyrnee m'amhastrach
 my_ghounstyrnee m'amhastraí
+my_ghoys má ghabhann
 my_ghraih_firrinagh m'fhíorghrá
 my_ghraihoilaght m'áilleacht
 my_ghraihoilaght m'áilleachta
@@ -19538,6 +19567,7 @@ my_haghrys má tharlaíonn
 my_haghterys m'ionadaíocht
 my_haghterys m'ionadaíochta
 my_haghyn m'uachaisí
+my_haghyrys má tharlaíonn
 my_halkal m'fhálróid
 my_halkal m'fhálróide
 my_halkeyder m'fhámaire
@@ -19573,6 +19603,7 @@ my_harmoan m'armónach
 my_harmoan m'armónaigh
 my_harmoanyn m'armónach
 my_harmoanyn m'armónaigh
+my_harragh dá dtiocfadh
 my_hartys m'iatacht
 my_hartys m'iatachta
 my_hastaghyn m'airde
@@ -19654,6 +19685,7 @@ my_heer_injil m'ísealchríche
 my_heer_injil m'ísealchríoch
 my_heeryn_injil m'ísealchríoch
 my_heeryn_injil m'ísealchríocha
+my_heidys má shéideann
 my_helicopter m'ingearáin
 my_helicopter m'ingearán
 my_helicopteryn m'ingearáin
@@ -19825,6 +19857,7 @@ my_hirrey m'iarrata
 my_hirreyder m'iarrthóir
 my_hirreyder m'iarrthóra
 my_hirreyderyn m'iarrthóirí
+my_hirrys má lorgaíonn
 my_hirveishagh m'aire
 my_hirveishee m'airí
 my_ho-hoiggalys m'intuigtheacht
@@ -20009,6 +20042,8 @@ my_hreeuaghyn m'achrainn
 my_hreeuaghyn m'achrann
 my_hreeuailtys m'eascairdeas
 my_hreeuailtys m'eascairdis
+my_hreig-ys má thréigeann
+my_hreigys má thréigeann
 my_hreihid m'ainnise
 my_hreihid m'anró
 my_hreihys m'ainnise
@@ -20062,6 +20097,7 @@ my_hroggeyder_gollagagh m'fhorcardaitheoir
 my_hroggeyder_gollagagh m'fhorcardaitheora
 my_hroggeyderyn m'ardaitheoirí
 my_hroggeyderyn_gollagagh m'fhorcardaitheoirí
+my_hroggys má thógann
 my_hroialtys m'aimhleas
 my_hroialtys m'aimhleasa
 my_hroiddey m'fheannadh
@@ -20105,6 +20141,7 @@ my_huittymagh m'eipileipseach
 my_huittymagh m'eipileipsigh
 my_huittymee m'eipileipseach
 my_huittymee m'eipileipsigh
+my_huittys má thiteann
 my_hullad m'ulchabháin
 my_hullad m'ulchabhán
 my_hulladyn m'ulchabháin
@@ -20151,11 +20188,16 @@ my_hymn m'iomainn
 my_hymn m'iomann
 my_hymnyn m'iomainn
 my_hymnyn m'iomann
+my_hyndaa-ys má thiontaíonn
 my_hyndaader m'aistritheoir
 my_hyndaader m'aistritheora
 my_hyndaaderyn m'aistritheoirí
+my_hyndaays má thiontaíonn
 my_hyssop m'íosóip
 my_hyssop m'íosóipe
+my_inshys má insíonn
+my_iu-ys má ólann
+my_iuys má ólann
 my_laad m'ualach
 my_laad m'ualaigh
 my_laad_neose m'íoslódáil
@@ -20251,8 +20293,10 @@ my_leeu m'fhaobhraithe
 my_leeu m'fhaobhrú
 my_leh m'fhaillí
 my_lehyn m'fhaillíocha
+my_leigh mo dhlí
 my_leighder m'abhcóide
 my_leighderyn m'abhcóidí
+my_leigheas mo leigheas
 my_lhargagh m'fhána
 my_lhargee m'fhána
 my_lhargeeyn m'fhánaí
@@ -20288,6 +20332,7 @@ my_lhiastynys m'fhéich
 my_lhieggaghyn m'easanna
 my_lhieggey m'eas
 my_lhieggey m'easa
+my_lhigg-ys má ligeann
 my_lhiggaghyn_magh_ennal m'easanáluithe
 my_lhiggey_folley m'fholadóireacht
 my_lhiggey_folley m'fholadóireachta
@@ -20301,6 +20346,7 @@ my_lhiggeyderyn m'aimsitheoirí
 my_lhiggeyderyn_folley m'fholadóirí
 my_lhiggeydys m'aimsitheoireacht
 my_lhiggeydys m'aimsitheoireachta
+my_lhiggys má ligeann
 my_lhimmaghyn m'eisceachtaí
 my_lhimmey m'eisceacht
 my_lhimmey m'eisceachta
@@ -20356,6 +20402,7 @@ my_loayrtee m'urlabhraithe
 my_loayrtys m'óráid
 my_loayrtys m'óráide
 my_loayrtysyn m'óráidí
+my_loayrys má labhraíonn
 my_loddaghyn_rioee m'oighearshlaodanna
 my_loddey_rioee m'oighearshlaod
 my_loddey_rioee m'oighearshlaoda
@@ -20507,6 +20554,8 @@ my_noi-vaee m'antaibheathaigh
 my_nyn_gione fúibh
 my_nyn_gione fúinn
 my_nyn_gione fúthu
+my_obbys má dhiúltaíonn
+my_oddagh dá bhféadfadh
 my_oddys más féidir le
 my_oddys_ad más féidir leo
 my_oddys_ee más féidir léi
@@ -20776,6 +20825,7 @@ my_scapailtagh m'éalaithigh
 my_scapailtee m'éalaitheach
 my_scapailtee m'éalaithigh
 my_scapailyn m'éaluithe
+my_scarrys má scarann
 my_schlei m'éirim
 my_schlei m'éirime
 my_schleiyn m'éirimí
@@ -20812,6 +20862,7 @@ my_skimmee m'fhoirne
 my_skimmeeyn m'fhoirne
 my_skyoltaght m'iomarcaíocht
 my_skyoltaght m'iomarcaíochta
+my_skyrrys má shleamhnaíonn
 my_skyrtlagh m'urtlach
 my_skyrtlagh m'urtlaigh
 my_skyrtlee m'urtlach
@@ -20820,6 +20871,7 @@ my_smarage m'aibhleog
 my_smarage m'aibhleoige
 my_smarageyn m'aibhleog
 my_smarageyn m'aibhleoga
+my_smooinys má smaoiníonn
 my_spittal m'ospidéal
 my_spittal m'ospidéil
 my_spittalyn m'ospidéal
@@ -20881,6 +20933,7 @@ my_stooyn m'ábhair
 my_stooyn m'ábhar
 my_stooyn_feayree m'fhuartháin
 my_stooyn_feayree m'fhuarthán
+my_uirrys má fhanann
 my_vaagh m'ainmhí
 my_vaaghyn m'ainmhithe
 my_vaaigaght m'amscaíocht
@@ -20947,6 +21000,7 @@ my_varrinys m'aistear
 my_varrinys m'aistir
 my_varrinysyn m'aistear
 my_varrinysyn m'aistir
+my_varrys má mharaíonn
 my_vath m'fholcadáin
 my_vath m'fholcadán
 my_vathyn m'fholcadáin
@@ -20954,6 +21008,7 @@ my_vathyn m'fholcadán
 my_vaynrys m'áthais
 my_vaynrys m'áthas
 my_vea-feie m'fhiabheatha
+my_veagh dá mbeadh
 my_veaynushag m'fhéinics
 my_vediatur m'eadránaí
 my_vediatur m'idirghabhálaí
@@ -21038,6 +21093,7 @@ my_vennalt m'fholuain
 my_vennalt m'fholuana
 my_vennaylt m'fholuain
 my_vennaylt m'fholuana
+my_vennys má bhaineann
 my_ventyr m'amhantair
 my_ventyr m'amhantar
 my_ventyr m'fhiontair
@@ -21348,6 +21404,7 @@ my_wirran m'fhoirne
 my_wirranyn m'fhoirne
 my_wistad m'uirstéad
 my_wistad m'uirstéid
+my_woaillys má bhuaileann
 my_wynlass m'unlais
 my_wynlass m'unlas
 my_wynlassyn m'unlais
@@ -21412,6 +21469,7 @@ my_yeeagheyderyn m'fhéachadóirí
 my_yeeaghyn m'fhéachaint
 my_yeeaghyn m'fhéachana
 my_yeeaghynyn m'fhéachaintí
+my_yeeaghys má fhéachann
 my_yeebyrtagh m'eisreachtaí
 my_yeebyrtee m'eisreachtaithe
 my_yeeghyn-jalloo m'íol
@@ -21479,6 +21537,8 @@ my_yibbey_hiu m'fhuachtáin
 my_yibbey_hiu m'fhuachtán
 my_yien m'aoibhneas
 my_yien m'aoibhnis
+my_yinnagh dá ndéanfadh
+my_yinnagh_ad dá ndéanfaidís
 my_yiooldeyder m'easaontóir
 my_yiooldeyder m'easaontóra
 my_yiooldeyderyn m'easaontóirí
@@ -21577,6 +21637,7 @@ my_yurnahyn m'aistear
 my_yurnahyn m'aistir
 my_yymmoose m'fhearg
 my_yymmoose m'fheirge
+my_ênys má fhiafraíonn
 mychione_ain fúinn
 mychione_ayd fút
 mychione_aym fúm
@@ -22029,6 +22090,8 @@ nagh_nod_shiu nach féidir libh
 nagh_noddym nach féidir liom
 nagh_nodmayd nach féidir linn
 nagh_re nach
+nagh_re nár
+nagh_re nárbh
 nagh_ren nach ndearna
 nagh_row nach raibh
 nagh_vel nach bhfuil
@@ -28519,6 +28582,7 @@ son_dy toisc go
 son_dy toisc gur
 son_dy_bragh go brách
 son_dy_bragh go deo
+son_dy_chooilley ar son an uile
 son_dy_nee mar gur
 son_dy_vel de bhrí go bhfuil
 son_dy_vel toisc go bhfuil
