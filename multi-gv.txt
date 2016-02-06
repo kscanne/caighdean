@@ -1216,7 +1216,10 @@ awinyn_rioee oighearshruthanna
 ayn_rish_foddey ann le fada
 ayns_Arabia san Araib
 ayns_Asia san Áise
+ayns_Baarle i mBéarla
+ayns_Balley i mBaile
 ayns_Bretin sa Bhreatain Bheag
+ayns_Caarle i gContae
 ayns_Canada i gCeanada
 ayns_China sa tSín
 ayns_Cilicia sa tSiléis
@@ -1236,10 +1239,17 @@ ayns_Patagonia_ny i bPatagóin na
 ayns_Purt_Largey i bPort Láirge
 ayns_Samaria sa tSamáir
 ayns_Syria sa tSiria
+ayns_Yernish as Gaeilge
+ayns_Yernish i nGaeilge
 ayns_Zealan_Noa sa Nua-Shéalainn
+ayns_aggle faoi eagla
 ayns_ard-choraa in ard gutha
+ayns_cheer i dtír
 ayns_coardailys ar aon intinn
 ayns_coardailys ar aon tuairim
+ayns_daa in dhá
+ayns_dagh i ngach
+ayns_dy_chooilley i ngach uile
 ayns_dy_vel mar go bhfuil
 ayns_e ina
 ayns_eebyrtys ar díbirt
@@ -1270,6 +1280,11 @@ ayns_nyn in bhur
 ayns_nyn ina
 ayns_nyn inár
 ayns_oardagh in ord
+ayns_ooilley i ngach uile
+ayns_pooar i gcumhacht
+ayns_pooar i réim
+ayns_pryssoon i bpríosún
+ayns_shee faoi shíocháin
 ayns_shen ansin
 ayns_shid ansiúd
 ayns_shilley i bhfianaise
@@ -1279,6 +1294,8 @@ ayns_shilley'n i bhfianaise na
 ayns_shilley'n i láthair an
 ayns_shoh anseo
 ayns_shoh_wass abhus anseo
+ayns_thie i dteach
+ayns_troa i dtreo
 ayns_y sa
 ayns_y san
 ayns_y_Chanadey i gCeanada
@@ -1291,6 +1308,7 @@ ayns_yn san
 ayns_yn_Aidyn Áidin
 ayns_yn_Erin in Éirinn
 ayns_ynnyd in ionad
+ayns_çheer i dtír
 ayr_'sy_leigh athair céile
 ayr_bashtee athair baistí
 ayr_feyshtyney athair faoistine
@@ -2312,6 +2330,7 @@ caggey_terriu tarbhchomhraic
 caggeyder_terriu tarbhchomhraiceoir
 caghlaa_folley d'fhuilaistriú
 caghlaa_folley fuilaistriú
+caghlaa_speyr athrú aeráide
 caghlaader_eaddee trasfheisteoir
 caghlaader_eaddee trasfheisteora
 caghlaaderyn_eaddee trasfheisteoirí
@@ -2519,6 +2538,7 @@ cha_nailt ní áil leat
 cha_nee ní
 cha_nee_mooaraghey gan doicheall
 cha_nee_son_ny_share ní amhlaidh is fearr
+cha_neeagh ní fiú
 cha_neeu ní fiú
 cha_negin ní éigean
 cha_nel níl
@@ -2725,7 +2745,25 @@ chalmane_turtle fhearán
 chalmaneyn_turtle fhearáin
 chalmaneyn_turtle fhearán
 chamoo_ren agus ní dhearna
+chamoo_t'ad agus níl siad
+chamoo_t'ee agus níl sí
+chamoo_t'eh agus níl sé
+chamoo_t'ou agus níl tú
+chamoo_ta agus níl
+chamoo_ta'n agus níl an
+chamoo_ta_shin agus nílimid
+chamoo_te agus níl sé
+chamoo_v'ad agus ní raibh siad
+chamoo_v'ee agus ní raibh sí
+chamoo_v'eh agus ní raibh sé
+chamoo_v'ou agus ní raibh tú
 chamoo_va agus ní raibh
+chamoo_va'n agus ní raibh an
+chamoo_vee'm agus ní bheidh mé
+chamoo_veem agus ní bheidh mé
+chamoo_veem's agus ní bheidh mise
+chamoo_vees agus ní bheidh
+chamoo_vel agus níl
 champ_ad champáladar
 champ_ad gcampáladar
 champ_shin champálamar
@@ -5765,6 +5803,8 @@ doshiagh_jioarey sirriam
 doshiagh_joarrey sirriam
 doshil_ad d'osclaíodar
 doshil_shin d'osclaíomar
+doshl_ad d'osclaíodar
+doshl_shin d'osclaíomar
 dosnee_ad d'osnaíodar
 dosnee_shin d'osnaíomar
 doural_ad d'ofráladar
@@ -6964,6 +7004,10 @@ dy_voddym gur féidir liom
 dy_voddym's gur féidir liomsa
 dy_voddyms gur féidir liomsa
 dy_vodmayd gur féidir linn
+dy_voghe go bhfaigheadh
+dy_voghe_ad go bhfaighidís
+dy_voghe_oo go bhfaighfeá
+dy_voghe_shin go bhfaighimis
 dy_ynrick go hionraic
 dy_çhelleeragh láithreach
 dyeeal_ad ghreadadar
@@ -7125,6 +7169,7 @@ ec_keayrt láithreach
 ec_lieh-chroan i lár crainn
 ec_oirr_ny_marrey cois fharraige
 ec_y_jerrey faoi dheireadh
+ec_y_toshiaght ar dtús
 ec_y_traa ag an am
 edd_ard hata ard
 eddin_chleaynit éadan claon
@@ -8252,6 +8297,7 @@ feer_vooar ollmhór
 feer_vooar ollmhóra
 feer_whaagh an-aisteach
 feer_whaagh fíoraisteach
+feer_wooar fíormhór
 feer_yindyssagh an-iontach
 feer_ymmydagh an-úsáideach
 feer_ymmydoil an-úsáideach
@@ -14557,6 +14603,8 @@ joughyn_ghraih upaí
 joughyn_laanee d'éilicsrí
 joughyn_laanee héilicsrí
 joughyn_laanee éilicsrí
+jus'_nish anois beag
+jus_nish anois beag
 jymneeagh_ad dtiomnóidís
 jymneeagh_ad thiomnóidís
 jymneeagh_oo dtiomnófá
@@ -19277,6 +19325,9 @@ my_chummaltee m'áitritheoirí
 my_chummaltys m'fhorghabháil
 my_chummaltys m'fhorghabhála
 my_chummaltysyn m'fhorghabhálacha
+my_churmeyder m'fheidhm
+my_churmeyder m'fheidhme
+my_churmeyderyn m'fheidhmeanna
 my_chuttagh m'abhac
 my_chuttagh m'abhaic
 my_chuttee m'abhac
@@ -20483,10 +20534,14 @@ my_neen m'iníne
 my_neen m'iníon
 my_neenyn m'iníonacha
 my_ner faoi deara
+my_neu-chairys m'éagóir
+my_neu-chairys m'éagóra
 my_neuaashideyr m'ombudsmain
 my_neuaashideyr m'ombudsman
 my_neuaashideyryn m'ombudsmain
 my_neuaashideyryn m'ombudsman
+my_neuchairys m'éagóir
+my_neuchairys m'éagóra
 my_neuchaslid m'ilchineálacht
 my_neuchaslid m'ilchineálachta
 my_neuchaslid m'ilghnéitheacht
@@ -20787,6 +20842,8 @@ my_rouailtagh m'fhánaí
 my_rouailtee m'fhánaithe
 my_rouanys m'ainriantacht
 my_rouanys m'ainriantachta
+my_ruegey m'ionradh
+my_ruegey m'ionraidh
 my_ruegys m'ionradh
 my_ruegys m'ionraidh
 my_ruegysyn m'ionraí
@@ -21018,6 +21075,8 @@ my_vee-chairys m'éagóir
 my_vee-chairys m'éagóra
 my_vee-chairys m'éigeart
 my_vee-chairys m'éigirt
+my_vee-hreishteil m'éadóchais
+my_vee-hreishteil m'éadóchas
 my_vee-hushtagh m'ainbhiosáin
 my_vee-hushtagh m'ainbhiosán
 my_vee-hushtagh m'amadáin
@@ -21045,6 +21104,8 @@ my_veechairys m'éigeart
 my_veechairys m'éigirt
 my_veechoardailys m'aimhréiteach
 my_veechoardailys m'aimhréitigh
+my_veehreishteil m'éadóchais
+my_veehreishteil m'éadóchas
 my_veehushtagh m'ainbhiosáin
 my_veehushtagh m'ainbhiosán
 my_veehushtagh m'amadáin
@@ -21596,6 +21657,8 @@ my_yshoayllee m'fhiseolaí
 my_yshoaylleeaght m'fhiseolaíocht
 my_yshoaylleeaght m'fhiseolaíochta
 my_yshoaylleeyn m'fhiseolaithe
+my_yss m'fheasa
+my_yss m'fhios
 my_ysseraght m'fhiosracht
 my_ysseraght m'fhiosrachta
 my_ysseree m'fhaisnéis
@@ -22108,6 +22171,10 @@ nagh_voddym nach féidir liom
 nagh_voddym's nach féidir liomsa
 nagh_voddyms nach féidir liomsa
 nagh_vodmayd nach féidir linn
+nagh_voghe nach bhfaigheadh
+nagh_voghe_ad nach bhfaighidís
+nagh_voghe_oo nach bhfaighfeá
+nagh_voghe_shin nach bhfaighimis
 nagh_vol nach bhfuil
 nagh_yarg nach bhféadfadh
 nagh_yargym nach féidir liom
@@ -24963,6 +25030,13 @@ oshil_shin osclaíomar
 oshilagh_ad d'osclóidís
 oshilagh_oo d'osclófá
 oshilagh_shin d'osclóimis
+oshl_ad n-osclaíodar
+oshl_ad osclaíodar
+oshl_shin n-osclaíomar
+oshl_shin osclaíomar
+oshlagh_ad d'osclóidís
+oshlagh_oo d'osclófá
+oshlagh_shin d'osclóimis
 osnee_ad n-osnaíodar
 osnee_ad osnaíodar
 osnee_shin n-osnaíomar
@@ -25021,6 +25095,8 @@ padjer_voghree hiarmhéirí
 padjer_voghree iarmhéirí
 padjer_voghree t-iarmhéirí
 padjeryn_nuy_laa nóibhéiní
+pagh_ennagh duine éigin
+pagh_erbee duine ar bith
 pairk_aer aerpháirc
 pairk_aer aerpháirce
 pairk_aer d'aerpháirc
@@ -27390,6 +27466,7 @@ shelliu_veill íoc liopaí
 shellooder_thallooin úinéir talún
 shen-y_fa dá bharr sin
 shen-y_fa dá bhrí sin
+shen_y_raad ansiúd a
 shenn_Cheltiee sean-Cheiltigh
 shenn_Vanninee sean-Mhanannaigh
 shenn_ayraghyn seanaithreacha
@@ -27905,6 +27982,7 @@ skeiltagh_shin scoiltfimis
 skelf_coadee ráille cosanta
 skelf_laue lámhráille
 skelfyn_laue lámhráillí
+skell-linney_haghyrt léaslíne theagmhais
 skell_ad d'imíodar
 skell_ad dhrithlíodar
 skell_ad imíodar
@@ -28297,6 +28375,7 @@ smoo_cumhachtach is cumhachtaí
 smoo_deyr is daoire
 smoo_doillee is deacra
 smoo_earrooagh is líonmhaire
+smoo_ennoil is áille
 smoo_firrinagh is fírinní
 smoo_formoil is foirmiúla
 smoo_gaueagh is baolaí
@@ -29482,6 +29561,8 @@ ta'n_aacheoid tá na daitheacha
 ta'n_chied-vess tá na céadtorthaí
 ta'n_derrey_yeh tá an duine amháin
 ta'n_grenns tá na magairlí
+ta_fys tá a fhios
+ta_shen_y_raad is é sin an bealach
 ta_shin táimid
 taabyl_reiltagh tábla peiriadach
 taggad_ordaag tacóid ordóige
@@ -29828,6 +29909,7 @@ toyrt_booise buíochas
 toyrt_mow scrios
 toyrt_mow scriosadh
 toyrt_mow scriosta
+tra_ta nuair atá
 traa_arree aimsir an earraigh
 traa_cadlee am codlata
 traa_caffee sos caife
@@ -30179,6 +30261,7 @@ va'n_inneen-'sy-leigh_echey bhí bean a mhic
 va_ad bhíodar
 va_mee_ruggit rugadh mé
 va_oo_ruggit rugadh thú
+va_shen_y_raad ba é sin an bealach
 va_shin bhíomar
 vaagagh_ad bhfágfaidís
 vaagagh_ad fhágfaidís
@@ -31747,6 +31830,12 @@ voshilagh_oo n-osclófá
 voshilagh_oo osclófá
 voshilagh_shin n-osclóimis
 voshilagh_shin osclóimis
+voshlagh_ad n-osclóidís
+voshlagh_ad osclóidís
+voshlagh_oo n-osclófá
+voshlagh_oo osclófá
+voshlagh_shin n-osclóimis
+voshlagh_shin osclóimis
 vote_ad vótáladar
 vote_shin vótálamar
 voteagh_ad vótálfaidís
