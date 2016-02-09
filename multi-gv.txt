@@ -1252,6 +1252,7 @@ ayns_Zealan_Noa sa Nua-Shéalainn
 ayns_aggle faoi eagla
 ayns_ard-choraa in ard gutha
 ayns_cheer i dtír
+ayns_cheeraghyn i dtíortha
 ayns_coardailys ar aon intinn
 ayns_coardailys ar aon tuairim
 ayns_daa in dhá
@@ -1272,9 +1273,12 @@ ayns_feme_mooar_jeh'n ag teastáil go mór an
 ayns_feme_nish_jeh ag teastáil anois
 ayns_feme_nish_jeh'n ag teastáil anois an
 ayns_fenish i bhfianaise
+ayns_focklyn i bhfocail
+ayns_gagh i ngach
 ayns_gaue i mbaol
 ayns_glaare_e_eddin ina éadan
 ayns_glayst_ny_sooill i bhfaiteadh na súl
+ayns_jallooyn i bpictiúir
 ayns_keisht i gceist
 ayns_lhiastynys i bhfiacha
 ayns_marranys in iomrall
@@ -1317,6 +1321,7 @@ ayns_yn_Aidyn Áidin
 ayns_yn_Erin in Éirinn
 ayns_ynnyd in ionad
 ayns_çheer i dtír
+ayns_çheeraghyn i dtíortha
 ayr_'sy_leigh athair céile
 ayr_bashtee athair baistí
 ayr_feyshtyney athair faoistine
@@ -1441,6 +1446,7 @@ bardoonagh_oo maithfeá
 bardoonagh_oo mhaithfeá
 bardoonagh_shin maithfimis
 bardoonagh_shin mhaithfimis
+bare_dou b'fhearr liom
 bargane_soiagh léas
 bargane_soiagh léasa
 bargane_soiagh léis
@@ -2400,6 +2406,7 @@ cappan_queeyllagh molchaidhpe
 cappan_y_chree copóg an chroí
 cappan_y_druight bratóg Mhuire
 cappanyn_queeyllagh molchaidhpeanna
+car_y_vlein le linn na bliana
 carboan_monocseed aonocsaíd charbóin
 carbyd_bee carbad bia
 carbyd_clienney naíchóiste
@@ -2451,7 +2458,9 @@ cayrnyn_Alpagh d'alpchoirn
 cayrnyn_Alpagh d'alpchorn
 cayrnyn_Alpagh halpchoirn
 cayrnyn_Alpagh halpchorn
+ceau_fliaghey ag cur báistí
 ceau_niaghtee titim sneachta
+ceau_snaightey ag cur sneachta
 ceau_traa caitheamh aimsire
 ceaut_ec_yn_emshir síonchaite
 ch-cha_nel n-níl
@@ -2754,6 +2763,7 @@ chalmane_turtle fhearáin
 chalmane_turtle fhearán
 chalmaneyn_turtle fhearáin
 chalmaneyn_turtle fhearán
+chammah's_shen chomh maith leis sin
 chamoo_ren agus ní dhearna
 chamoo_t'ad agus níl siad
 chamoo_t'ee agus níl sí
@@ -4651,6 +4661,7 @@ cooid_chloaie crua-chré
 cooid_elley chuid eile
 cooid_elley cuid eile
 cooid_hallooin eastát réadach
+cooid_mooar cuid mhór
 cooid_phersoonagh maoin phearsanta
 cooid_seihlt maoin
 cooid_seihlt maoine
@@ -6192,7 +6203,6 @@ dt'Eash_Ooha do Chré-Umhaoise
 dt'Eash_Yiarn d'Iarannaois
 dt'Eash_Yiarn d'Iarannaoise
 dt'Eashyn_Chloaie do Chlochaoiseanna
-dt'Ennym d'Ainm
 dt'York_Noa do Nua-Eabhrac
 dt'aane_ushtey d'aelus
 dt'aane_ushtey d'aelusa
@@ -6836,6 +6846,7 @@ dy_b'loys_diu go leomhfadh sibh
 dy_b'loys_dooin go leomhfaimis
 dy_b'loys_dou go leomhfainn
 dy_b'loys_jee go leomhfadh sí
+dy_baase chun báis
 dy_baghtal go soiléir
 dy_baillee gur mhian léi
 dy_baillin gur mhian linn
@@ -6875,6 +6886,7 @@ dy_der go dtabharfaidh
 dy_der go gcuirfidh
 dy_doaltattym go tobann
 dy_donney go dona
+dy_dty do do
 dy_eash d'aois
 dy_feayr-chooishagh go fuarchúiseach
 dy_feer go fíor
@@ -6938,6 +6950,7 @@ dy_mie go maith
 dy_moal go mall
 dy_moghey go moch
 dy_mooar go mór
+dy_my do mo
 dy_naillee gur mian léi
 dy_naillee gur áil léi
 dy_naillin gur mian linn
@@ -7009,6 +7022,7 @@ dy_trean go tréan
 dy_trome go trom
 dy_tuittymagh de thaisme
 dy_valley abhaile
+dy_ve le bheith
 dy_ve_yn le bheith ina
 dy_vel go bhfuil
 dy_vel_fys go bhfuil a fhios
@@ -7675,6 +7689,7 @@ er_dty_chooylloo ar do chúl
 er_dty_eiyrts sa tóir ort
 er_dty_henney ó shin
 er_dty_hon ar do shon
+er_dty_hon's ar do shonsa
 er_dty_hons ar do shonsa
 er_dty_hoshiaght ar aghaidh
 er_dty_ruggey saolaithe
@@ -7710,6 +7725,7 @@ er_eeasaght ar iasacht
 er_eieagh ladhrálaí
 er_eiyrts sa tóir ar
 er_ennym ar ainm
+er_fastyr tráthnóna
 er_feai-ny-cruinney ar fud an domhain
 er_feaï-ny-cruinney ar fud an domhain
 er_feie ar feadh
@@ -7745,10 +7761,13 @@ er_gerrey_diu i ngar daoibh
 er_gerrey_dooin i ngar dúinn
 er_gerrey_dou i ngar dom
 er_gerrey_jee i ngar di
+er_gheddyn tar éis fáil
+er_gheddyn_baase tar éis bás a fháil
 er_ghlee faoi chlíth
 er_ghoaill tar éis gabháil
 er_gholl tar éis dul
 er_ghra tar éis rá
+er_ghraa tar éis rá
 er_gioaltee gheallbhróicéara
 er_gioaltee gheallbhróicéir
 er_gioaltee gheallearbóir
@@ -7807,6 +7826,7 @@ er_mooyn ar muin
 er_my_chooylloo ar mo chúl
 er_my_eiyrts sa tóir orm
 er_my_hon ar mo shon
+er_my_hon's ar mo shonsa
 er_my_hons ar mo shonsa
 er_my_hoshiaght ar aghaidh
 er_my_ruggey saolaithe
@@ -7841,20 +7861,27 @@ er_n'ynsaghey tar éis foghlaim
 er_naagail tar éis fágáil
 er_nakin tar éis feiceáil
 er_neunhee ar neamhní
+er_niee tar éis ní
 er_nonney nó
+er_ny_choyrt á chur
+er_ny_choyrt á thabhairt
 er_ny_ruggey saolaithe
 er_ny_ve tar éis a bheith
 er_ny_ve_cur-rish tar éis déanamh
 er_ny_ve_cur_rish tar éis déanamh
 er_nyannoo tar éis déanamh
 er_nyarrood tar éis dearmad a dhéanamh
+er_nyn_doshiaght ar aghaidh leo
 er_nyn_eiyrts sa tóir oraibh
 er_nyn_eiyrts sa tóir orainn
 er_nyn_eiyrts sa tóir orthu
 er_nyn_gooylloo ar a gcúl
+er_nyn_goyrt á dtabhairt
+er_nyn_goyrt á gcur
 er_nyn_goyrt-mow á scriosadh
 er_nyn_goyrt_mow á scriosadh
 er_nyn_hoshiaght ar aghaidh
+er_nyn_jaglym á dtionól
 er_nyn_meealloo os a gcomhair
 er_nyn_meealloo os bhur gcomhair
 er_nyn_meealloo os ár gcomhair
@@ -7863,6 +7890,8 @@ er_nyn_ruggey saolaithe
 er_nyn_skyn os a gcionn
 er_nyn_skyn os bhur gcionn
 er_nyn_skyn os ár gcionn
+er_nyn_son ar a son
+er_nyn_son ar bhur son
 er_nyn_son ar ár son
 er_oai ar aghaidh
 er_oaie ar aghaidh
@@ -7927,6 +7956,7 @@ er_vrishey tar éis briseadh
 er_y_cheayn ar an bhfarraige
 er_y_cheayn ar farraige
 er_y_chlag a chlog
+er_y_chooid_sloo ar a laghad
 er_y_chooyl ar an bpointe
 er_y_chooyl láithreach
 er_y_fa de bhrí
@@ -8479,6 +8509,7 @@ fer_gyn_poosey fear gan pósadh
 fer_gyn_çheer fear gan tír
 fer_jeh'n_theay pleibeach
 fer_jeh'n_theay pleibigh
+fer_jeh_ny ceann de na
 fer_jiass deisceartach
 fer_jiass deisceartaigh
 fer_keoie fear buile
@@ -8822,6 +8853,7 @@ fys_rolaue réamheolas
 ga-reih_ta cé go bhfuil
 ga_dy cé go
 ga_dy cé gur
+ga_dy_nod cé gur féidir le
 ga_dy_row cé go raibh
 ga_dy_vel cé go bhfuil
 ga_dy_vol cé go bhfuil
@@ -10891,9 +10923,143 @@ golaastey_cleragh gcliarcholáiste
 goll-fo_ny_greiney dul faoi na gréine
 goll_dy_lie dul a chodladh
 goll_eig fáil bháis
+goll_er_aarlaghey á n-ullmhú
+goll_er_aarlaghey á ullmhú
+goll_er_arraghey á aistriú
+goll_er_arraghey á haistriú
+goll_er_arraghey á n-aistriú
+goll_er_ash dul ar ais
+goll_er_ash dul siar
 goll_er_boayrd dul ar bord
+goll_er_brishey á bhriseadh
+goll_er_brishey á briseadh
+goll_er_brishey á mbriseadh
+goll_er_caghlaa á athrú
+goll_er_caghlaa á n-athrú
+goll_er_ceau á chaitheamh
+goll_er_clou á chur i gcló
+goll_er_clou á cur i gcló
+goll_er_clou á gcur i gcló
+goll_er_coayl á chailleadh
+goll_er_coayl á gcailleadh
+goll_er_coontey á chomhaireamh
+goll_er_coontey á comhaireamh
+goll_er_cosoylaghey á chur i gcomparáid
+goll_er_cosoylaghey á cur i gcomparáid
+goll_er_cosoylaghey á gcur i gcomparáid
+goll_er_coyrt á chur
+goll_er_coyrt á cur
+goll_er_coyrt á tabhairt
+goll_er_coyrt á thabhairt
+goll_er_craa dul ar crith
+goll_er_creck á dhíol
+goll_er_creck á ndíol
+goll_er_credjal á chreidiúint
+goll_er_credjal á creidiúint
+goll_er_creeley á chraoladh
+goll_er_creeley á craoladh
+goll_er_creeley á gcraoladh
+goll_er_croo á chruthú
+goll_er_croo á gcruthú
+goll_er_cummal á thionól
+goll_er_cur á chur
+goll_er_cur á dtabhairt
+goll_er_cur á gcur
+goll_er_cur á thabhairt
+goll_er_dooney á dhúnadh
+goll_er_dooney á dúnadh
+goll_er_dooney á ndúnadh
+goll_er_ee á ithe
+goll_er_ee á n-ithe
+goll_er_eeck á híoc
+goll_er_eeck á íoc
+goll_er_farrar ar an bhfara
+goll_er_fockley-magh á fhuaimniú
+goll_er_fockley_magh á fhuaimniú
+goll_er_fosley á hoscailt
+goll_er_fosley á oscailt
+goll_er_gra á rá
+goll_er_greinnaghey á spreagadh
+goll_er_insh á insint
 goll_er_jannoo á dhéanamh
+goll_er_jannoo á déanamh
+goll_er_kelloorey á ceiliúradh
+goll_er_kelloorey á cheiliúradh
+goll_er_kiaddey á chruthú
+goll_er_kiaddey á dhealbhú
+goll_er_kiaddey á gcruthú
+goll_er_kiaddey á ndealbhú
+goll_er_lannooney á phéireáil
+goll_er_leeideil á dtreorú
+goll_er_leeideil á threorú
+goll_er_leodaghey á laghdú
+goll_er_lhaih á léamh
+goll_er_lhiasaghey á leasú
+goll_er_livrey á bhfuascailt
+goll_er_livrey á fhuascailt
+goll_er_livrey á sholáthar
+goll_er_livrey á soláthar
+goll_er_loayrt á labhairt
+goll_er_lostey á dhó
+goll_er_lostey á dó
+goll_er_marroo á marú
+goll_er_marroo á mharú
 goll_er_mooin dul ar muin
+goll_er_oai dul ar aghaidh
+goll_er_oaie dul ar aghaidh
+goll_er_oanluckey á adhlacadh
+goll_er_oanluckey á hadhlacadh
+goll_er_oanluckey á n-adhlacadh
+goll_er_plooghey á bplúchadh
+goll_er_plooghey á phlúchadh
+goll_er_plooghey á plúchadh
+goll_er_pointeil á cheapadh
+goll_er_pointeil á gceapadh
+goll_er_reih á dtoghadh
+goll_er_reih á thoghadh
+goll_er_resooney á bplé
+goll_er_resooney á phlé
+goll_er_resooney á plé
+goll_er_ronsaghey á chuardach
+goll_er_ronsaghey á cuardach
+goll_er_scarrey á scaradh
+goll_er_screeu á scríobh
+goll_er_scrutaghey á scrúdú
+goll_er_sheeyney á shíneadh
+goll_er_sheeyney á síneadh
+goll_er_shickyraghey á chinntiú
+goll_er_shickyraghey á cinntiú
+goll_er_shickyraghey á deimhniú
+goll_er_shickyraghey á dheimhniú
+goll_er_shickyraghey á gcinntiú
+goll_er_shickyraghey á ndeimhniú
+goll_er_skeaylley á scaipeadh
+goll_er_skeaylley á scaoileadh
+goll_er_soilshaghey_magh á bhfoilsiú
+goll_er_soilshaghey_magh á fhoilsiú
+goll_er_stiurey á stiúradh
+goll_er_stroie á scriosadh
+goll_er_taghyrt ag tarlú
+goll_er_taishbyney á thaispeáint
+goll_er_tayrn á dtarraingt
+goll_er_tayrn á tarraingt
+goll_er_tayrn á tharraingt
+goll_er_troarey á saothrú
+goll_er_troarey á shaothrú
+goll_er_troggal á dtógáil
+goll_er_troggal á thógáil
+goll_er_yannoo á dhéanamh
+goll_er_yannoo á déanamh
+goll_er_ymmyd á n-úsáid
+goll_er_ymmyd á úsáid
+goll_er_ymmydey á n-úsáid
+goll_er_ymmydey á úsáid
+goll_er_ymmyrkey á hiompar
+goll_er_ymmyrkey á iompar
+goll_er_yn-filley á infhilleadh
+goll_er_yn-filley á n-infhilleadh
+goll_er_ynsaghey á mhúineadh
+goll_er_ynsaghey á múineadh
 goll_ergooyl dul ar gcúl
 goll_mow fáil bháis
 goll_neeal titim i bhfanntais
@@ -11905,6 +12071,8 @@ gys_Galilee don Ghailíl
 gys_ny go dtí na
 gys_shen ansin
 gys_shoh anseo
+gys_va go dtí go raibh
+gys_va'n go dtí go raibh an
 gys_y go dtí an
 gys_y_Vretin go dtí an Bhreatain Bheag
 gys_y_jerrey go dtí an deireadh
@@ -12229,20 +12397,29 @@ hardyn_moirvaljagh mórcheantair
 hardyn_moirvaljagh mórcheantar
 hardyn_reiragh príomhfheidhmeannach
 hardyn_reiragh príomhfheidhmeannaigh
+hare_ad bhfeabhsaíodar
+hare_ad d'fheabhsaíodar
 hare_ad d'ordaíodar
+hare_ad fheabhsaíodar
 hare_ad n-ordaíodar
 hare_ad ordaíodar
 hare_ad sháraíodar
 hare_ad sáraíodar
+hare_shin bhfeabhsaíomar
+hare_shin d'fheabhsaíomar
 hare_shin d'ordaíomar
+hare_shin fheabhsaíomar
 hare_shin n-ordaíomar
 hare_shin ordaíomar
 hare_shin sháraíomar
 hare_shin sáraíomar
+hareagh_ad d'fheabhsóidís
 hareagh_ad d'ordóidís
 hareagh_ad sháróidís
+hareagh_oo d'fheabhsófá
 hareagh_oo d'ordófá
 hareagh_oo shárófá
+hareagh_shin d'fheabhsóimis
 hareagh_shin d'ordóimis
 hareagh_shin sháróimis
 hargid_reill maoinlathais
@@ -13342,6 +13519,8 @@ hoillagh_ad thuillfidís
 hoillagh_oo thuillfeá
 hoillagh_shin thuillfimis
 hoilshaghaghyn_magh mhínithe
+hoilshaghey_magh fhoilsithe
+hoilshaghey_magh fhoilsiú
 hoilshaghey_magh fhógairt
 hoilshaghey_magh fhógartha
 hoilshaghey_magh mhíniú
@@ -16574,6 +16753,7 @@ luneagh_shin maslóimis
 luneagh_shin mhaslóimis
 luneagh_shin n-aithiseoimis
 lurg_earish tar éis tamaill
+lurg_eh_shen ina dhiaidh sin
 lurg_ooilley i ndeireadh na dála
 lurg_ooilley sa deireadh thiar
 lurg_shen ina dhiaidh sin
@@ -19737,7 +19917,11 @@ my_hanvaneys m'uafás
 my_hanvaneysyn m'ionaí
 my_hanvaneysyn m'uafáis
 my_hanvaneysyn m'uafás
+my_haraghey m'fheabhsú
 my_haraghyn m'orduithe
+my_hareaghaghyn m'fheabhsuithe
+my_hareaghey m'fheabhsaithe
+my_hareaghey m'fheabhsú
 my_harey m'ordaithe
 my_harey m'ordú
 my_harkyl m'fhiaile
@@ -20060,6 +20244,8 @@ my_hoilshaghey m'fhoilsithe
 my_hoilshaghey m'fhoilsiú
 my_hoilshaghey m'fhógairt
 my_hoilshaghey m'fhógartha
+my_hoilshaghey_magh m'fhoilsithe
+my_hoilshaghey_magh m'fhoilsiú
 my_hoilshaghey_magh m'fhógairt
 my_hoilshaghey_magh m'fhógartha
 my_hoilsheen m'fhógra
@@ -21884,6 +22070,8 @@ mynvrishagh_shin mhiondealóimis
 mynvrishagh_shin mionbhrisfimis
 mynvrishagh_shin miondealóimis
 myr_aile_er_y_clieau ina loscadh sléibhe
+myr_dy_cliaghtagh mar is gnáth
+myr_dy_cliaghtagh mar is iondúil
 myr_hannish de chogar
 myr_hannish i gcogar
 myr_oashagh mar is gnáth
@@ -21907,6 +22095,7 @@ myr_yein mar dhea
 myrane_lesh mar aon le
 myrane_lesh mar aon leis
 myrneen_mreih muirnín ban
+mysh_yn faoin
 naa-enmysagh_ad athsheolfaidís
 naa-enmysagh_ad n-athsheolfaidís
 naa-enmysagh_oo athsheolfá
@@ -22189,6 +22378,7 @@ nagh_beeu nárbh fhiú
 nagh_begin nárbh éigean
 nagh_bione nárbh aithnid
 nagh_bione nárbh eol
+nagh_by nár
 nagh_by-haittin nár mhaith
 nagh_bynney nár bhreá
 nagh_daink nár tháinig
@@ -24382,6 +24572,7 @@ ny_smoo_grianagh níos grianmhaire
 ny_smoo_grástúil níos grástúla
 ny_smoo_imlee níos umhaile
 ny_smoo_lajer níos láidre
+ny_smoo_leah níos luaithe
 ny_smoo_lhean níos leithne
 ny_smoo_lheeadagh níos forleithne
 ny_smoo_lhieenar níos flúirsí
@@ -25045,7 +25236,34 @@ ooilleeagh_shin d'olóimis
 ooilleeagh_shin d'ungfaimis
 ooilley'n_traa i rith an ama
 ooilley_dy_lieragh uile go léir
+ooilley_ny gach ceann de na
+ooilley_ny_dooyrt gach a ndúirt
+ooilley_ny_haink gach ar tháinig
+ooilley_ny_hie gach a ndeachaigh
+ooilley_ny_hug gach ar thug
+ooilley_ny_loayr gach a labhair
 ooilley_ny_ren gach a ndearna
+ooilley_ny_t'ad gach a bhfuil siad
+ooilley_ny_t'ayd gach a bhfuil agat
+ooilley_ny_t'aym gach a bhfuil agam
+ooilley_ny_t'ayndoo gach a bhfuil iontu
+ooilley_ny_t'ayns gach a bhfuil i
+ooilley_ny_t'echey gach a bhfuil aige
+ooilley_ny_t'eh gach a bhfuil sé
+ooilley_ny_t'er gach a bhfuil ar
+ooilley_ny_t'oc gach a bhfuil acu
+ooilley_ny_t'ou gach a bhfuil tú
+ooilley_ny_ta gach a bhfuil
+ooilley_ny_ta'n gach a bhfuil an
+ooilley_ny_v'ayd gach a raibh agat
+ooilley_ny_v'aym gach a raibh agam
+ooilley_ny_v'ayns gach a raibh i
+ooilley_ny_v'echey gach a raibh aige
+ooilley_ny_v'eck gach a raibh aici
+ooilley_ny_v'eh gach a raibh sé
+ooilley_ny_v'er gach a raibh ar
+ooilley_ny_va gach a raibh
+ooilley_ny_va'n gach a raibh an
 ooilley_sheelnaue an chine dhaonna
 ooilley_sheelnaue an uile dhuine
 ooilley_smaghtagh ollsmachtach
@@ -26385,6 +26603,7 @@ rish_nyn le bhur
 rish_nyn lena
 rish_nyn lenár
 rish_oirr_ny_marrey cois fharraige
+rish_y_cheilley lena chéile
 ritlag_dy_'er ghioblacháin
 ritlag_dy_'er ghioblachán
 ritlagyn_dy_'er ghioblacháin
@@ -26703,6 +26922,7 @@ rucksagh_shin mothallóimis
 rucksagh_shin stoithneoimis
 runt_mygeayrt mórthimpeall
 runt_mygeayrt timpeall
+ry_'akin le feiceáil
 ry_akin le feiceáil
 ry_cheilley le chéile
 ry_cheilley lena chéile
@@ -26710,15 +26930,20 @@ ry_chlashtyn le cloisteáil
 ry_chosh de chois
 ry_chreck ar díol
 ry_chreck le díol
+ry_clashtyn le cloisteáil
 ry_foddey le fada
+ry_geddyn le fáil
 ry_gheddyn ar fáil
 ry_gheddyn le fáil
+ry_ghra le rá
 ry_heet le teacht
 ry_hoi le haghaidh
 ry_hoi'n le haghaidh an
 ry_hoi'n le haghaidh na
 ry_hoiggal le tuiscint
+ry_hoï le haghaidh
 ry_laue in aice láimhe
+ry_lhaih le léamh
 ry_lhiattee i leataobh
 ry_yannoo le déanamh
 rybban_jiarg téip dhearg
@@ -27383,10 +27608,16 @@ shappyn_potecaree cógaslann
 shappyn_potecaree cógaslanna
 shappyn_potecaree gcógaslann
 shappyn_potecaree gcógaslanna
+shareagh_ad bhfeabhsóidís
+shareagh_ad fheabhsóidís
 shareagh_ad sháróidís
 shareagh_ad sáróidís
+shareagh_oo bhfeabhsófá
+shareagh_oo fheabhsófá
 shareagh_oo shárófá
 shareagh_oo sárófá
+shareagh_shin bhfeabhsóimis
+shareagh_shin fheabhsóimis
 shareagh_shin sháróimis
 shareagh_shin sáróimis
 sharkagh_greiney liamhán gréine
@@ -28501,6 +28732,7 @@ smoo_graysoil is grástúla
 smoo_grianagh is grianmhaire
 smoo_imlee is umhaile
 smoo_lajer is láidre
+smoo_leah is luaithe
 smoo_lhean is leithne
 smoo_lheeadagh is forleithne
 smoo_lhieenar is flúirsí
@@ -28675,10 +28907,16 @@ soiederyn_clou clóchuradóirí
 soiederyn_clou gclóchuradóirí
 soieyn_spyrrydagh séansanna
 soilshaghaghyn_magh mínithe
+soilshaghey_magh bhfoilsithe
+soilshaghey_magh bhfoilsiú
 soilshaghey_magh bhfógairt
 soilshaghey_magh bhfógartha
+soilshaghey_magh d'fhoilsithe
+soilshaghey_magh d'fhoilsiú
 soilshaghey_magh d'fhógairt
 soilshaghey_magh d'fhógartha
+soilshaghey_magh foilsithe
+soilshaghey_magh foilsiú
 soilshaghey_magh fógairt
 soilshaghey_magh fógartha
 soilshaghey_magh míniú
@@ -29625,6 +29863,8 @@ syns_yn sa
 syns_yn san
 t'ayns_feme_jeh atá ag teastáil
 t'ayns_feme_jeh'n atá ag teastáil an
+t'ayns_y atá sa
+t'ayns_y atá san
 t'eddyr_ain atá eadrainn
 t'eddyr_eu atá eadraibh
 t'eddyr_oc atá eatarthu
@@ -29646,9 +29886,12 @@ t'er_duittym atá tar éis titim
 t'er_e_skyn atá os a chionn
 t'er_e_skyn atá os a cionn
 t'er_gerrey atá i gcóngar
+t'er_gheddyn atá tar éis fáil
+t'er_gheddyn_baase atá tar éis bás a fháil
 t'er_ghoaill atá tar éis gabháil
 t'er_gholl atá tar éis dul
 t'er_ghra atá tar éis rá
+t'er_ghraa atá tar éis rá
 t'er_harey atá tar éis ordú
 t'er_hoilshaghey atá tar éis fógairt
 t'er_hoilshaghey atá tar éis taispeáint
@@ -29685,6 +29928,7 @@ t'er_n'ymmyrkey atá tar éis iompar
 t'er_n'ynsaghey atá tar éis foghlaim
 t'er_nakin atá tar éis feiceáil
 t'er_ny_ruggey atá saolaithe
+t'er_ny_ve atá tar éis a bheith
 t'er_nyannoo atá tar éis déanamh
 t'er_nyn_ruggey atá saolaithe
 t'er_nyn_skyn atá os a gcionn
@@ -29701,6 +29945,7 @@ ta'n_Flandyryn tá Flóndras
 ta'n_aacheoid tá na daitheacha
 ta'n_chied-vess tá na céadtorthaí
 ta'n_derrey_yeh tá an duine amháin
+ta'n_ghaa tá an dá
 ta'n_grenns tá na magairlí
 ta_fys tá a fhios
 ta_shen_y_raad is é sin an bealach
@@ -30228,6 +30473,8 @@ unjin_frangagh fionnchoill
 unjin_frangagh fionncholl
 unnaneys_aigney aontoilíocht
 unnaneys_aigney aontoilíochta
+unnaneys_thallooinagh sláine críche
+unnaneys_thallooinagh tsláine críche
 urlaghyn_convaartagh chondair
 urlaghyn_convaartagh chondar
 urlaghyn_convaartagh condair
@@ -30372,9 +30619,12 @@ v'er_duittym a bhí tar éis titim
 v'er_e_skyn a bhí os a chionn
 v'er_e_skyn a bhí os a cionn
 v'er_gerrey a bhí i gcóngar
+v'er_gheddyn a bhí tar éis fáil
+v'er_gheddyn_baase a bhí tar éis bás a fháil
 v'er_ghoaill a bhí tar éis gabháil
 v'er_gholl a bhí tar éis dul
 v'er_ghra a bhí tar éis rá
+v'er_ghraa a bhí tar éis rá
 v'er_harey a bhí tar éis ordú
 v'er_hoilshaghey a bhí tar éis fógairt
 v'er_hoilshaghey a bhí tar éis taispeáint
@@ -30412,6 +30662,7 @@ v'er_n'ynsaghey a bhí tar éis foghlaim
 v'er_naagail a bhí tar éis fágáil
 v'er_nakin a bhí tar éis feiceáil
 v'er_ny_ruggey a bhí saolaithe
+v'er_ny_ve a bhí tar éis a bheith
 v'er_nyannoo a bhí tar éis déanamh
 v'er_nyn_ruggey a bhí saolaithe
 v'er_nyn_skyn a bhí os a gcionn
@@ -30423,6 +30674,7 @@ v'er_vrishey a bhí tar éis briseadh
 va'n_derrey_yeh bhí an duine amháin
 va'n_inneen-'sy-leigh_echey bhí bean a mhic
 va_ad bhíodar
+va_fys bhí a fhios
 va_mee_ruggit rugadh mé
 va_oo_ruggit rugadh thú
 va_shen_y_raad ba é sin an bealach
@@ -31043,6 +31295,7 @@ veih_ad mheádar
 veih_cormee chóimheáchain
 veih_cormee chóimheáchan
 veih_e óna
+veih_jesh_dys_toshtal ó dheis go clé
 veih_nyn ó bhur
 veih_nyn óna
 veih_nyn ónár

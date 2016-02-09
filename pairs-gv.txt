@@ -1321,6 +1321,12 @@ Casla Casla
 Castle Castle
 Castletown Castletown
 Castro Castro
+Cataloanagh Catalónach
+Cataloanagh Catalónacha
+Cataloanagh Catalónaigh
+Cataloanee Catalónach
+Cataloanee Catalónaigh
+Cataloanee Catalónaí
 Catalonagh Catalónach
 Catalonagh Catalónacha
 Catalonagh Catalónaigh
@@ -1475,6 +1481,12 @@ Chashteelee Chaistíligh
 Chashteelee Chaistílí
 Chassaghstaan Chasacstáin
 Chassaghstaan Chasacstáine
+Chataloanagh Chatalónach
+Chataloanagh Chatalónacha
+Chataloanagh Chatalónaigh
+Chataloanee Chatalónach
+Chataloanee Chatalónaigh
+Chataloanee Chatalónaí
 Chatalonagh Chatalónach
 Chatalonagh Chatalónacha
 Chatalonagh Chatalónaigh
@@ -2817,6 +2829,10 @@ Gashteelee gCaistíleach
 Gashteelee gCaistíligh
 Gassaghstaan gCasacstáin
 Gassaghstaan gCasacstáine
+Gataloanagh gCatalónach
+Gataloanagh gCatalónaigh
+Gataloanee gCatalónach
+Gataloanee gCatalónaigh
 Gatalonagh gCatalónach
 Gatalonagh gCatalónaigh
 Gatalonee gCatalónach
@@ -8922,6 +8938,7 @@ aamaidyn adhmaid
 aanaghyn fhánaí
 aane ae
 aane t-ae
+aaney ae
 aaney fhána
 aaneyn aenna
 aaniartaghey athneartaithe
@@ -12039,6 +12056,11 @@ ardaneyn lochtáin
 ardaneyn lochtán
 ardanyn ardáin
 ardanyn ardán
+ardaspick ardeaspag
+ardaspick ardeaspaig
+ardaspick t-ardeaspag
+ardaspickyn ardeaspag
+ardaspickyn ardeaspaig
 ardcheim ardchéim
 ardcheim ardchéime
 ardcheimyn ardchéimeanna
@@ -17806,6 +17828,8 @@ breeu-raaidey bpríomhbhealaigh
 breeu-raaidyn bpríomhbhealaí
 breeu-valjyn bpríomhbhailte
 breeu-valley bpríomhbhaile
+breeuvaljyn bpríomhbhailte
+breeuvalley bpríomhbhaile
 breevaadjaghey bpríobháidiú
 breevaadjee bpríobháideofar
 breevaadjee bpríobháideoidh
@@ -21170,6 +21194,8 @@ chaghlaait athraithe
 chaghlaait chlaochlaithe
 chaghlaays athróidh
 chaghlaays chlaochlóidh
+chaghnoil teicniúil
+chaghnoil teicniúla
 chaghter teachtaire
 chaghteraght teachtaireacht
 chaghteraght teachtaireachta
@@ -22402,6 +22428,7 @@ cheer tír
 cheer tíre
 cheeragh tíreach
 cheeragh tírigh
+cheeraghyn tíortha
 cheeraghyn tíreach
 cheeraghyn tírigh
 cheeree tíreach
@@ -22962,6 +22989,7 @@ cheylit chaolaithe
 cheyljey choille
 cheyljyn choillte
 cheyll choill
+cheylley chaola
 cheylley choille
 cheyllid chaoile
 cheylliu cholpaí
@@ -39595,6 +39623,7 @@ dt'aamaidyn d'adhmad
 dt'aamaidyn d'adhmaid
 dt'aanaghyn d'fhánaí
 dt'aane d'ae
+dt'aaney d'ae
 dt'aaney d'fhána
 dt'aaneyn d'aenna
 dt'aaniartaghey d'athneartaithe
@@ -41049,6 +41078,10 @@ dt'ardaneyn do lochtáin
 dt'ardaneyn do lochtán
 dt'ardanyn d'ardáin
 dt'ardanyn d'ardán
+dt'ardaspick d'ardeaspag
+dt'ardaspick d'ardeaspaig
+dt'ardaspickyn d'ardeaspag
+dt'ardaspickyn d'ardeaspaig
 dt'ardcheim d'ardchéim
 dt'ardcheim d'ardchéime
 dt'ardcheimyn d'ardchéimeanna
@@ -44730,6 +44763,7 @@ dt'urley d'iolar
 dt'urnish d'fhoirnéis
 dt'urnish d'fhoirnéise
 dt'urnishyn d'fhoirnéisí
+dt'urraanium d'úráiniam
 dt'urraghyn d'eitrí
 dt'urraghyn d'fheirí
 dt'urraghys d'urrúsacht
@@ -45488,6 +45522,7 @@ dy dá
 dy go
 dy gur
 dy-aighoil go hádhúil
+dy-baase chun báis
 dy-bragh go brách
 dy-cheilley le chéile
 dy-chooilley gach uile
@@ -52177,6 +52212,7 @@ gaal-vroiee galbhruithfear
 gaal-vroiee galbhruithfidh
 gaal-vroieit galbhruite
 gaal-vroiemayd galbhruithfimid
+gaal-vroiet galbhruite
 gaal-vroieym galbhruithfidh mé
 gaalagh galach
 gaalagh galacha
@@ -53952,10 +53988,14 @@ geayr géire
 geayr haigéad
 geayr haigéid
 geayr t-aigéad
+geayragh géar
+geayragh géara
+geayragh géir
 geayrane gaothráin
 geayrane gaothrán
 geayraneyn gaothráin
 geayraneyn gaothrán
+geayree géire
 geayrt gcuairt
 geayrt gcuairte
 geayrt n-uair
@@ -55107,6 +55147,7 @@ ghaal-vroie-jee ghalbhruithigí
 ghaal-vroieagh ghalbhruithfeadh
 ghaal-vroiein ghalbhruithfinn
 ghaal-vroieit ghalbhruite
+ghaal-vroiet ghalbhruite
 ghaal-vroieys ghalbhruithfidh
 ghaalagh ghalach
 ghaalagh ghalacha
@@ -55768,6 +55809,7 @@ gheer dtír
 gheer dtíre
 gheeragh dtíreach
 gheeragh dtírigh
+gheeraghyn dtíortha
 gheeraghyn dtíreach
 gheeraghyn dtírigh
 gheeree dtíreach
@@ -67660,6 +67702,7 @@ haamaid hadhmaid
 haamaidyn hadhmad
 haamaidyn hadhmaid
 haane hae
+haaney hae
 haaneyn haenna
 haaniartaghey hathneartaithe
 haaniartaghey hathneartú
@@ -68328,6 +68371,8 @@ haghnoaylleeagh theicneolaíocha
 haghnoaylleeaght theicneolaíocht
 haghnoaylleeaght theicneolaíochta
 haghnoaylleeyn theicneolaithe
+haghnoil theicniúil
+haghnoil theicniúla
 haghnys sheachaint
 haghnys sheachana
 haghnys theicníocht
@@ -69540,6 +69585,7 @@ har-jee thagaigí
 harachnaid haraicnid
 harachnaid haraicnide
 harachnaidyn haraicnidí
+haraghey fheabhsú
 haraghey shárú
 haraghyn orduithe
 harantool tharantúla
@@ -69914,6 +69960,10 @@ hardaneyn lochtáin
 hardaneyn lochtán
 hardanyn hardáin
 hardanyn hardán
+hardaspick hardeaspag
+hardaspick hardeaspaig
+hardaspickyn hardeaspag
+hardaspickyn hardeaspaig
 hardcheim hardchéim
 hardcheim hardchéime
 hardcheimyn hardchéimeanna
@@ -69983,25 +70033,38 @@ hardyn limistéir
 hardyn shaird
 hardyn shard
 hardys hairde
+hare bhfeabhsaigh
+hare d'fheabhsaigh
 hare d'ordaigh
+hare fheabhsaigh
 hare n-ordaigh
 hare ordaigh
 hare sháraigh
 hare sáraigh
 hare tháir
 hare tháire
+hare-jee fheabhsaígí
 hare-jee ordaígí
 hare-jee sháraígí
+hareagh d'fheabhsódh
 hareagh d'ordódh
 hareagh sháródh
+hareaghaghyn fheabhsuithe
+hareaghaghyn sháruithe
+hareaghey fheabhsaithe
+hareaghey fheabhsú
 hareaghey sháraithe
 hareaghey shárú
 hareenaghyn hairéiní
 hareeney hairéine
+harein d'fheabhsóinn
 harein d'ordóinn
 harein sháróinn
+hareit fheabhsaithe
+hareit sháraithe
 harey ordaithe
 harey ordú
+hareys fheabhsóidh
 hareys ordóidh
 hareys sháróidh
 harg háirc
@@ -70061,6 +70124,7 @@ hargon hargóin
 hargon hargón
 haria háiria
 hariayn háirianna
+harit fheabhsaithe
 harit ordaithe
 harit sháraithe
 harjant sháirsint
@@ -72080,6 +72144,7 @@ heeraghey shíoraithe
 heeraghey shíorú
 heeraght shíoraíocht
 heeraght shíoraíochta
+heeraghyn thíortha
 heeraghyn thíreach
 heeraghyn thírigh
 heeree bhuanaigh
@@ -79674,6 +79739,7 @@ hurr bhfulaing
 hurr d'fhulaing
 hurr fhulaing
 hurr-jee fhulaingígí
+hurraanium húráiniam
 hurragh d'fhulaingeodh
 hurraghys hurrúsacht
 hurraghys hurrúsachta
@@ -82396,6 +82462,7 @@ jeeraghey díriú
 jeeraghey ndírithe
 jeeraght díríocht
 jeeraght díríochta
+jeeraghyn dtíortha
 jeeraghyn dtíreach
 jeeraghyn dtírigh
 jeeree dtíreach
@@ -84714,6 +84781,7 @@ keyljey coille
 keyljyn coillte
 keyll coill
 keyllagh nimfeach choille
+keylley caola
 keylley coille
 keyllid caoile
 keylliu colpaí
@@ -91242,6 +91310,9 @@ loshtey dó
 loshtey loiscthe
 loshtey loscadh
 loshtey ndó
+loshteyr loisceoir
+loshteyr loisceora
+loshteyryn loisceoirí
 loshtin dhófainn
 loshtin loiscfinn
 loshtin ndófainn
@@ -91337,6 +91408,9 @@ lostey ndóite
 losteyder loisceoir
 losteyder loisceora
 losteyderyn loisceoirí
+losteyr loisceoir
+losteyr loisceora
+losteyryn loisceoirí
 losteyrys choirloiscthe
 losteyrys choirloscadh
 losteyrys coirloiscthe
@@ -92679,6 +92753,7 @@ m'aamaidyn m'adhmad
 m'aamaidyn m'adhmaid
 m'aanaghyn m'fhánaí
 m'aane m'ae
+m'aaney m'ae
 m'aaney m'fhána
 m'aaneyn m'aenna
 m'aaniartaghey m'athneartaithe
@@ -94133,6 +94208,10 @@ m'ardaneyn mo lochtáin
 m'ardaneyn mo lochtán
 m'ardanyn m'ardáin
 m'ardanyn m'ardán
+m'ardaspick m'ardeaspag
+m'ardaspick m'ardeaspaig
+m'ardaspickyn m'ardeaspag
+m'ardaspickyn m'ardeaspaig
 m'ardcheim m'ardchéim
 m'ardcheim m'ardchéime
 m'ardcheimyn m'ardchéimeanna
@@ -97814,6 +97893,7 @@ m'urley m'iolar
 m'urnish m'fhoirnéis
 m'urnish m'fhoirnéise
 m'urnishyn m'fhoirnéisí
+m'urraanium m'úráiniam
 m'urraghyn m'eitrí
 m'urraghyn m'fheirí
 m'urraghys m'urrúsacht
@@ -105906,6 +105986,7 @@ myddage ngiodróige
 myddageyn ngiodróg
 myddageyn ngiodróga
 myechione faoi
+myekione faoi
 mygeart timpeall
 mygeayrt máguaird
 mygeayrt timpeall
@@ -106863,6 +106944,7 @@ naan ndán
 naanaght ndánacht
 naanaght ndánachta
 naane n-ae
+naaney n-ae
 naaneyn n-aenna
 naaniartaghey n-athneartaithe
 naaniartaghey n-athneartú
@@ -108583,6 +108665,10 @@ nardaneyn n-ardáin
 nardaneyn n-ardán
 nardanyn n-ardáin
 nardanyn n-ardán
+nardaspick n-ardeaspag
+nardaspick n-ardeaspaig
+nardaspickyn n-ardeaspag
+nardaspickyn n-ardeaspaig
 nardcheim n-ardchéim
 nardcheim n-ardchéime
 nardcheimyn n-ardchéimeanna
@@ -118512,6 +118598,7 @@ nurlee n-iolair
 nurlee n-iolar
 nurley n-iolair
 nurley n-iolar
+nurraanium n-úráiniam
 nurraghys n-urrúsacht
 nurraghys n-urrúsachta
 nurraghys n-árachais
@@ -124243,6 +124330,8 @@ phreeu-raaidey phríomhbhealaigh
 phreeu-raaidyn phríomhbhealaí
 phreeu-valjyn phríomhbhailte
 phreeu-valley phríomhbhaile
+phreeuvaljyn phríomhbhailte
+phreeuvalley phríomhbhaile
 phreevaadjagh phríobháideach
 phreevaadjagh phríobháideacha
 phreevaadjagh phríobháidigh
@@ -125825,6 +125914,8 @@ preeu-raaidey príomhbhealaigh
 preeu-raaidyn príomhbhealaí
 preeu-valjyn príomhbhailte
 preeu-valley príomhbhaile
+preeuvaljyn príomhbhailte
+preeuvalley príomhbhaile
 preevaadjagh príobháideach
 preevaadjagh príobháideacha
 preevaadjagh príobháidigh
@@ -128887,6 +128978,22 @@ reiltysyn thiarnais
 reiltysyn thiarnas
 reiltysyn tiarnais
 reiltysyn tiarnas
+reilys dtiarnais
+reilys dtiarnas
+reilys rialtais
+reilys rialtas
+reilys thiarnais
+reilys thiarnas
+reilys tiarnais
+reilys tiarnas
+reilysyn dtiarnais
+reilysyn dtiarnas
+reilysyn rialtais
+reilysyn rialtas
+reilysyn thiarnais
+reilysyn thiarnas
+reilysyn tiarnais
+reilysyn tiarnas
 rein banríon
 rein banríona
 rein bhanríon
@@ -134076,25 +134183,61 @@ shappeyder siopadóra
 shappeyderyn siopadóirí
 shappyn siopaí
 shar soir
+sharaghey bhfeabhsú
+sharaghey d'fheabhsú
+sharaghey feabhsú
 sharaghey sárú
+share bhfeabhsaigh
+share bhfeabhsófar
+share bhfeabhsóidh
+share feabhsaigh
+share fheabhsófar
+share fheabhsóidh
 share shárófar
 share sháróidh
 share sáraigh
 share sárófar
 share sáróidh
+share-jee bhfeabhsaígí
+share-jee feabhsaígí
 share-jee sáraígí
+shareagh bhfeabhsódh
+shareagh fheabhsódh
 shareagh sháródh
 shareagh sáródh
+shareaghaghyn bhfeabhsuithe
+shareaghaghyn d'fheabhsuithe
+shareaghaghyn feabhsuithe
+shareaghaghyn sáruithe
+shareaghey bhfeabhsaithe
+shareaghey bhfeabhsú
+shareaghey d'fheabhsaithe
+shareaghey d'fheabhsú
+shareaghey feabhsaithe
+shareaghey feabhsú
 shareaghey sáraithe
 shareaghey sárú
+sharee feabhsófar
+sharee feabhsóidh
 sharee sárófar
 sharee sáróidh
+sharein bhfeabhsóinn
+sharein fheabhsóinn
 sharein sháróinn
 sharein sáróinn
+shareit feabhsaithe
+shareit sáraithe
+sharemayd bhfeabhsóimid
+sharemayd feabhsóimid
+sharemayd fheabhsóimid
 sharemayd sháróimid
 sharemayd sáróimid
+shareym bhfeabhsóidh mé
+shareym feabhsóidh mé
+shareym fheabhsóidh mé
 shareym sháróidh mé
 shareym sáróidh mé
+sharit feabhsaithe
 sharit sáraithe
 sharkagh siorc
 sharkagh siorca
@@ -149778,6 +149921,8 @@ urleydee iolaraí
 urnish fhoirnéis
 urnish fhoirnéise
 urnishyn fhoirnéisí
+urraanium t-úráiniam
+urraanium úráiniam
 urraghyn eitrí
 urraghyn fheirí
 urraghys t-árachas
@@ -160777,10 +160922,14 @@ yeayr ghéar
 yeayr ghéara
 yeayr ghéir
 yeayr ghéire
+yeayragh ghéar
+yeayragh ghéara
+yeayragh ghéir
 yeayrane ghaothráin
 yeayrane ghaothrán
 yeayraneyn ghaothráin
 yeayraneyn ghaothrán
+yeayree ghéire
 yeayryn aigéad
 yeayryn aigéid
 yeaysh fhionnadh
@@ -164844,6 +164993,8 @@ zh zh
 çhaghnoaylleeaght teicneolaíocht
 çhaghnoaylleeaght teicneolaíochta
 çhaghnoaylleeyn teicneolaithe
+çhaghnoil teicniúil
+çhaghnoil teicniúla
 çhaghnys seachana
 çhaghnys teicníocht
 çhaghnys teicníochta
@@ -164946,6 +165097,7 @@ zh zh
 çhappal tsiopadóireacht
 çhappeyder siopadóir
 çhappeyder tsiopadóra
+çharaghey feabhsú
 çharaghey sárú
 çharaghey tsárú
 çharbaa scoite
@@ -164957,6 +165109,8 @@ zh zh
 çharbaait scoite
 çharbaamayd scoithfimid
 çharbaaym scoithfidh mé
+çhareaghey feabhsaithe
+çhareaghey feabhsú
 çhareaghey sárú
 çhareaghey tsáraithe
 çhareaghey tsárú
@@ -165241,6 +165395,7 @@ zh zh
 çheeraghey síorú
 çheeraghey tsíoraithe
 çheeraght tsíoraíocht
+çheeraghyn tíortha
 çheeraghyn tíreach
 çheeraghyn tírigh
 çheeree tíreach
