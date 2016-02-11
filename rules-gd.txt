@@ -25,6 +25,10 @@
 ^n-([AEIOUÁÉÍÓÚÀÈÌÒÙ])	n-\l$1	-1
 ^t([AEIOUÁÉÍÓÚÀÈÌÒÙSHF])	t-$1	-1
 ^t-([AEIOUÁÉÍÓÚÀÈÌÒÙSHF])	t-\l$1	-1
+# hand-in-hand with code for reading in multi-xx...
+# always adds a fully lowercased version to hash
+^(.*[A-ZÁÉÍÓÚÀÈÌÒÙÇ].*_.+)$	\L$1	-1
+^(.*_.*[A-ZÁÉÍÓÚÀÈÌÒÙÇ].+)$	\L$1	-1
 ^ard-	àrd-	2
 ^beo-	beò-	2
 ^clar-	clàr-	2

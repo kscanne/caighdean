@@ -22,6 +22,10 @@
 ^dh'([AEIOUÁÉÍÓÚÀÈÌÒÙF])	d'\l$1	-1
 ^h([AEIOUÁÉÍÓÚÀÈÌÒÙ])	h\l$1	-1
 ^m'([AEIOUÁÉÍÓÚÀÈÌÒÙF])	m'\l$1	-1
+# hand-in-hand with code for reading in multi-xx...
+# always adds a fully lowercased version to hash
+^(.*[A-ZÁÉÍÓÚÀÈÌÒÙÇ].*_.+)$	\L$1	-1
+^(.*_.*[A-ZÁÉÍÓÚÀÈÌÒÙÇ].+)$	\L$1	-1
 # h-Ellanyn -> hEllanyn
 ^h-	h	1
 # h'Inshey -> hInshey

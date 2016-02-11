@@ -320,7 +320,12 @@ open(MULTI, "<:utf8", "multi$extension.txt") or die "Could not open list of phra
 while (<MULTI>) {
 	chomp;
 	m/^([^ ]+) (.+)$/;
-	push @{$cands{$1}}, $2;
+	my $source = $1;
+	my $target = $2;
+	push @{$cands{$source}}, $target;
+	if ($source =~ m/\p{Lu}/) {
+		push @{$cands{lc($source)}}, lc($target);
+	}
 }
 close MULTI;
 
