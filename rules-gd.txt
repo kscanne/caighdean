@@ -48,6 +48,9 @@
 ^tri-	trì-	2
 ^ts	t-s	2
 ^ùr-	ur-	2
+^droch-(..)	droch_$1	1
+^sàr-(..)	sàr_$1	1
+^seann-(..)	seann_$1	1
 ^h([AEIOUÀÈÌÒÙÁÉÍÓÚaeiouàèìòùáéíóú]..)	h-$1	2
 # atharraichidhean -> atharrachaidhean
 ichidhean$	chaidhean	1
