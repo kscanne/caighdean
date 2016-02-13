@@ -1606,6 +1606,7 @@ a_dh'aithneachadh d'aithint
 a_dh'aithneachaidh d'aitheanta
 a_dh'aithreachais d'aithreachais
 a_dh'aithreachas d'aithreachas
+a_dh'aithrichean d'aithreacha
 a_dh'aithridh d'aithrí
 a_dh'aithridhe d'aithrí
 a_dh'aithris d'aithris
@@ -2101,6 +2102,7 @@ a_dh'apragod d'aibreog
 a_dh'apragodan d'aibreog
 a_dh'apragodan d'aibreoga
 a_dh'apragoid d'aibreoige
+a_dh'ar do dhár
 a_dh'aradair do thalmhaí
 a_dh'aradairean do thalmhaithe
 a_dh'arain d'aráin
@@ -13729,6 +13731,8 @@ bu_sùrdail b'fhuinniúla
 bu_sùrdaile b'fhuinniúla
 bu_thabhannaich b'amhastrach
 bu_thabhannaichte b'amhastraithe
+bu_thabhartas-bìdh b'abhlann
+bu_thabhartasan-bìdh b'abhlanna
 bu_thacharan b'iarlais
 bu_thacharanan b'iarlaisí
 bu_thachartas b'eachtra
@@ -15324,6 +15328,14 @@ chofhurtaicheadh_iad shólásaídís
 chofhurtaicheadh_iad shólásóidís
 chofhurtaicheadh_tu shólásófá
 chofhurtaichidh_sinn shólásóimid
+chog_iad dtroideadar
+chog_iad throideadar
+chog_sinn dtroideamar
+chog_sinn throideamar
+chogadh_iad throidfidís
+chogadh_iad throididís
+chogadh_tu throidfeá
+chogaidh_sinn throidfimid
 choilean_iad chomhlíonadar
 choilean_iad gcomhlíonadar
 choilean_sinn chomhlíonamar
@@ -16690,6 +16702,12 @@ cofhurtaicheadh_iad sólásaídís
 cofhurtaicheadh_iad sólásóidís
 cofhurtaicheadh_tu sólásófá
 cofhurtaichidh_sinn sólásóimid
+cogadh_iad dtroidfidís
+cogadh_iad dtroididís
+cogadh_iad troididís
+cogadh_tu dtroidfeá
+cogaidh_sinn dtroidfimid
+cogaidh_sinn troidfimid
 coileach_Frangach coileach francach
 coileanadh_iad comhlíonaidís
 coileanadh_iad gcomhlíonaidís
@@ -19006,6 +19024,7 @@ de_dh'aithneachadh d'aithint
 de_dh'aithneachaidh d'aitheanta
 de_dh'aithreachais d'aithreachais
 de_dh'aithreachas d'aithreachas
+de_dh'aithrichean d'aithreacha
 de_dh'aithridh d'aithrí
 de_dh'aithridhe d'aithrí
 de_dh'aithris d'aithris
@@ -19496,6 +19515,7 @@ de_dh'apragod d'aibreog
 de_dh'apragodan d'aibreog
 de_dh'apragodan d'aibreoga
 de_dh'apragoid d'aibreoige
+de_dh'ar de dhár
 de_dh'aradair de thalmhaí
 de_dh'aradairean de thalmhaithe
 de_dh'arain d'aráin
@@ -30713,6 +30733,7 @@ do_dh'aithneachadh d'aithint
 do_dh'aithneachaidh d'aitheanta
 do_dh'aithreachais d'aithreachais
 do_dh'aithreachas d'aithreachas
+do_dh'aithrichean d'aithreacha
 do_dh'aithridh d'aithrí
 do_dh'aithridhe d'aithrí
 do_dh'aithris d'aithris
@@ -31203,6 +31224,7 @@ do_dh'apragod d'aibreog
 do_dh'apragodan d'aibreog
 do_dh'apragodan d'aibreoga
 do_dh'apragoid d'aibreoige
+do_dh'ar do dhár
 do_dh'aradair do thalmhaí
 do_dh'aradairean do thalmhaithe
 do_dh'arain d'aráin
@@ -38647,6 +38669,7 @@ fèin_leasachaidh féinfhorbartha
 fèin_leasachaidh m'fhéinfhorbartha
 fìor-chorra_uair fíor-chorruair
 fìor_chorra_uair fíor-chorruair
+fìor_dhroch fíor-dhroch
 fìor_dhroch_bhuaidh fíor-dhrochthionchar
 fìor_mhath b'fhíormhaith
 fìor_mhath b'fhíormhaithe
@@ -46199,6 +46222,10 @@ mo_sùrdagan m'fholéimeanna
 mo_sùrdaig m'fholéime
 mo_thabhannaich m'amhastrach
 mo_thabhannaiche m'amhastraí
+mo_thabhartais-bhìdh m'abhlainne
+mo_thabhartas-bìdh m'abhlann
+mo_thabhartasan-bìdh m'abhlann
+mo_thabhartasan-bìdh m'abhlanna
 mo_thacharain m'iarlaise
 mo_thacharan m'iarlais
 mo_thacharanan m'iarlaisí
