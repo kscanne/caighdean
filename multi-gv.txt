@@ -7039,6 +7039,10 @@ dy_dunnal go dána
 dy_eaishtagh le héisteacht
 dy_eamagh le glaoch
 dy_eash d'aois
+dy_'eaysley le fuascailt
+dy_'eaysley le scaoileadh
+dy_'eaysley_eh é a fhuascailt
+dy_'eaysley_eh é a scaoileadh
 dy_eaysley le fuascailt
 dy_eaysley le scaoileadh
 dy_eaysley_eh é a fhuascailt
@@ -7363,6 +7367,10 @@ dy_v'er_ny_lhieeney le bheith á líonadh
 dy_v'er_ny_livrey le bheith á fhuascailt
 dy_v'er_ny_livrey le bheith á sheachadadh
 dy_v'er_ny_ockley-magh le bheith á fhógairt
+er_ny_ockley_magh á fhógairt
+er_ny_ockley-magh á fhógairt
+v'er_ny_ockley_magh a bhí á fhógairt
+v'er_ny_ockley-magh a bhí á fhógairt
 dy_v'er_ny_ockley_magh le bheith á fhógairt
 dy_v'er_ny_ruggey le bheith saolaithe
 dy_v'er_ny_scughey le bheith á aistriú
@@ -18943,8 +18951,12 @@ mashtagh_oo mbaistfeá
 mashtagh_shin bhaistfimis
 mashtagh_shin mbaistfimis
 mast'_ain inár measc
-mast'_eu ina measc
+mast'_ainyn inár meascsa
+mast'_eu in bhur measc
+mast'_euish in bhur meascsa
 mast'_oc ina measc
+mast'_ocsyn ina meascsa
+mast'_ocksyn ina meascsa
 mastagh_ad bhástálfaidís
 mastagh_ad mbástálfaidís
 mastagh_oo bhástálfá
@@ -25857,6 +25869,10 @@ ockleeagh_oo d'fhógrófá
 ockleeagh_shin d'fhoghróimis
 ockleeagh_shin d'fhuaimneoimis
 ockleeagh_shin d'fhógróimis
+'ockley_magh fhógairt
+'ockley_magh fhoilsiú
+ro_'oddey rófhada
+feer_'oddey an-fhada
 ockleyn_meshtit anagraim
 ockleyn_meshtit anagram
 ocsaidee_ad n-ocsaídíodar
@@ -29941,6 +29957,7 @@ son_t'ou óir tá tú
 son_ta óir tá
 son_ta'n óir tá an
 son_traa ar feadh tamaill
+son_v' óir bhí
 son_va óir bhí
 son_va'n óir bhí an
 son_wheesh_as de bhrí
@@ -31282,6 +31299,8 @@ tra_t'eh nuair atá sé
 tra_t'ou nuair atá tú
 tra_ta nuair atá
 tra_ta'n nuair atá an
+tra_v' nuair a bhí
+tra_v'eh nuair a bhí sé
 traa_arree aimsir an earraigh
 traa_cadlee am codlata
 traa_caffee sos caife
