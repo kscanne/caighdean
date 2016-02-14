@@ -26,6 +26,8 @@
 # always adds a fully lowercased version to hash
 ^(.*[A-ZÁÉÍÓÚÀÈÌÒÙÇ].*_.+)$	\L$1	-1
 ^(.+_.*[A-ZÁÉÍÓÚÀÈÌÒÙÇ].*)$	\L$1	-1
+# Hollanee -> hOllanee
+^H([aeiou])	h\u$1	1
 # h-Ellanyn -> hEllanyn
 ^h-	h	1
 # h'Inshey -> hInshey
