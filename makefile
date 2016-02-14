@@ -6,12 +6,12 @@
 # or visually with 
 # $ make surv
 # LHS = gold-standard, RHS = output of caighdeánaitheoir
-TESTPRE=testpre.txt
-TESTPOST=testpost.txt
-TESTGDGA=testpost-gd.txt
-TESTGD=testpre-gd.txt
-TESTGVGA=testpost-gv.txt
-TESTGV=testpre-gv.txt
+TESTPRE=eval/testpre.txt
+TESTPOST=eval/testpost.txt
+TESTGDGA=eval/testpost-gd.txt
+TESTGD=eval/testpre-gd.txt
+TESTGVGA=eval/testpost-gv.txt
+TESTGV=eval/testpre-gv.txt
 
 all: ok.txt
 
@@ -26,14 +26,17 @@ shuffle: FORCE
 baseline: FORCE
 	@perl compare.pl $(TESTPOST) $(TESTPRE)
 	@echo `cat unchanged.txt | wc -l` "out of" `cat $(TESTPRE) | wc -l` "unchanged"
+	@(cd eval; bash baseline.sh)
 
 baseline-gd: FORCE
 	@perl compare.pl $(TESTGDGA) $(TESTGD)
 	@echo `cat unchanged.txt | wc -l` "out of" `cat $(TESTGD) | wc -l` "unchanged"
+	@(cd eval; bash baseline.sh -d)
 
 baseline-gv: FORCE
-	@perl compare.pl $(TESTGDGA) $(TESTGD)
-	@echo `cat unchanged.txt | wc -l` "out of" `cat $(TESTGD) | wc -l` "unchanged"
+	@perl compare.pl $(TESTGVGA) $(TESTGV)
+	@echo `cat unchanged.txt | wc -l` "out of" `cat $(TESTGV) | wc -l` "unchanged"
+	@(cd eval; bash baseline.sh -x)
 
 # run pre-standardized text through the new code
 tokenized-output.txt: $(TESTPRE) tiomanai.sh nasc.pl caighdean.pl rules.txt clean.txt pairs.txt ngrams.txt alltokens.pl pairs-local.txt spurious.txt multi.txt
@@ -82,24 +85,31 @@ ok-gv.txt: nua-output-gv.txt $(TESTGVGA) compare.pl
 	mv unchanged.txt $@
 	git diff $@
 
-# TODO: Add an independent test of detokenizer; use generic
-# modern texts, not stuff from CCGB that may have already by detokenized once
-
 eid-output.txt: tokenized-output.txt
 	cat tokenized-output.txt | perl detokenize.pl > $@
 
 clean:
 	rm -f detokentest.txt unchanged.txt post-tokens.txt pre-tokens.txt tokenized-output.txt tokenized-output-gd.txt nua-output.txt nua-output-gd.txt cga-output.txt pre-surv.txt post-surv.txt tofix.txt survey.txt probsleft.txt tofixgram.txt eid-output.txt
 
-############## Build test sets from CCGG ###############
+############## Build test sets from parallel corpora ###############
+# should never need to run these again!
+#######################################
 
+# just LM019 has numbered lines
+ccnua-refresh: FORCE
+	find ${HOME}/gaeilge/caighdean/traenail -type f -name '*-b' | sed 's/-b$$//' | while read x; do paste $$x $$x-b | sed 's/^[^:]*: *//' | sed 's/\t[^:]*: */\t/'; done | shuf | tee pasted.txt | cut -f 1 > $(TESTPOST)
+	cat pasted.txt | cut -f 2 > $(TESTPRE)
+	rm -f pasted.txt
+
+# only directly-translated material
 ccgg-refresh: FORCE
-	find ${HOME}/gaeilge/ga2gd/ccgg -type f | egrep -v -- '-b$$' | egrep -v '/po-m[a-z][a-z]t$$' | while read x; do paste $$x $$x-b | sed 's/^[^:]*: *//' | sed 's/\t[^:]*: */\t/'; done | shuf | tee pasted.txt | cut -f 1 > $(TESTGDGA)
+	find ${HOME}/gaeilge/ga2gd/ccgg -type f | egrep -v -- '-b$$' | egrep '/(Aghaidh|AnGuth1|AnMaor|Bean|Briseadh|Ceacht|ceangalg|cluaisean|Coimhthioch|colmcille|Comhra|Ecstasy|Feoil|Healy|Hurlamaboc|LaNaSaboide|leathchead|MacM|maifia|Malairt|NaFocail|OsComhair|Punk|Ronan|Sean|slicholmcille|Somhairle|WP)$$' | while read x; do paste $$x $$x-b | sed 's/^[^:]*: *//' | sed 's/\t[^:]*: */\t/'; done | shuf | tee pasted.txt | cut -f 1 > $(TESTGDGA)
 	cat pasted.txt | cut -f 2 > $(TESTGD)
 	rm -f pasted.txt
 
+# only directly-translated material
 cc-refresh: FORCE
-	find ${HOME}/gaeilge/ga2gv/cc -type f | egrep -v -- '-b$$' | egrep -v 'ga2gv$$' | while read x; do paste $$x $$x-b | sed 's/^[^ ]*: *//' | sed 's/\t[^ ]*: */\t/'; done | shuf | head -n 5000 | tee pasted.txt | cut -f 1 > $(TESTGVGA)
+	find ${HOME}/gaeilge/ga2gv/cc -type f | egrep -v -- '-b$$' | egrep '/(AnBB|Ecstasy|Fainne|Healy|Paloma|Reics|Teifeach)$$' | while read x; do paste $$x $$x-b | sed 's/^[^ ]*: *//' | sed 's/\t[^ ]*: */\t/'; done | shuf | tee pasted.txt | cut -f 1 > $(TESTGVGA)
 	cat pasted.txt | cut -f 2 > $(TESTGV)
 	rm -f pasted.txt
 
@@ -131,23 +141,15 @@ maint/oov-gv.txt: maint/unknown-gv.txt $(GVCORPUS) alltokens.pl nasc.pl
 	tail $@
 
 # in testpost.txt; use this output to further standardize testpost.txt manually
-tofix.txt: FORCE
-	cat testpost.txt | sed "s/\([A-Za-z]\)’\([A-Za-zÁÉÍÓÚáéíóú]\)/\1'\2/g" | perl -I ${HOME}/gaeilge/gramadoir/gr/ga/Lingua-GA-Gramadoir/lib ${HOME}/gaeilge/gramadoir/gr/ga/Lingua-GA-Gramadoir/scripts/gram-ga.pl --ionchod=utf-8 --litriu | LC_ALL=C sort | LC_ALL=C uniq -c | LC_ALL=C sort -r -n > $@
-
 tofixgram.txt: FORCE
-	cat testpost.txt | sed "s/\([A-Za-z]\)’\([A-Za-zÁÉÍÓÚáéíóú]\)/\1'\2/g" | perl -I ${HOME}/gaeilge/gramadoir/gr/ga/Lingua-GA-Gramadoir/lib ${HOME}/gaeilge/gramadoir/gr/ga/Lingua-GA-Gramadoir/scripts/gram-ga.pl --ionchod=utf-8 --api | perl ${HOME}/gaeilge/gramadoir/gr/bin/api2old | egrep -o 'errortext="[^"]+"' | sed 's/^errortext="//' | sed 's/"$$//' | LC_ALL=C sort | LC_ALL=C uniq -c | LC_ALL=C sort -r -n > $@
+	cat $(TESTPOST) | commonerrs > $@
 
-# in nua-output.txt; use this to add to backend database: rules and pairs
-# nua-output.txt shouldn't contain word-internal unicode apostrophes
-survey.txt: nua-output.txt
-	cat nua-output.txt | perl -I ${HOME}/gaeilge/gramadoir/gr/ga/Lingua-GA-Gramadoir/lib ${HOME}/gaeilge/gramadoir/gr/ga/Lingua-GA-Gramadoir/scripts/gram-ga.pl --ionchod=utf-8 --litriu | LC_ALL=C sort | LC_ALL=C uniq -c | LC_ALL=C sort -r -n > $@
-
-# similar to survey, but catches context-sensitive non-standard bits too, 
-# like "go dtáinig", "i n-áit" and so on
+# grammar check standardizer output, to catch stuff
+# like "go dtáinig", "i n-áit" and so on that we didn't fix...
 # often these arise because they appear frequently in n-gram model -
 # add them to cleanup.sh in that dir
 probsleft.txt: nua-output.txt
-	cat nua-output.txt | perl -I ${HOME}/gaeilge/gramadoir/gr/ga/Lingua-GA-Gramadoir/lib ${HOME}/gaeilge/gramadoir/gr/ga/Lingua-GA-Gramadoir/scripts/gram-ga.pl --ionchod=utf-8 --api | perl ${HOME}/gaeilge/gramadoir/gr/bin/api2old | egrep -o 'errortext="[^"]+"' | sed 's/^errortext="//' | sed 's/"$$//' | LC_ALL=C sort | LC_ALL=C uniq -c | LC_ALL=C sort -r -n > $@
+	cat nua-output.txt | commonerrs > $@
 
 PUL.txt: FORCE
 	rm -f $@
@@ -160,6 +162,7 @@ GRAMADOIR=${HOME}/gaeilge/gramadoir/gr/ga
 CRUB=/usr/local/share/crubadan
 NGRAM=${HOME}/gaeilge/ngram
 GA2GD=${HOME}/gaeilge/ga2gd/ga2gd
+GA2GV=${HOME}/gaeilge/ga2gv/ga2gv
 
 # rules.txt currently locally modified - don't refresh from gramadoir!
 # do "make refresh" right after running "groom"
@@ -174,11 +177,19 @@ pairs.txt-refresh: $(GAELSPELL)/apost $(GAELSPELL)/athfhocail $(GAELSPELL)/earra
 	LC_ALL=C sort -u $(GAELSPELL)/apost $(GAELSPELL)/athfhocail $(GAELSPELL)/earraidi | sort -k1,1 > pairs.txt
 	chmod 444 pairs.txt
 
+# actually updates pairs-gd.txt and multi-gd.txt
+# the make target in $(GA2GD) copies pairs-gd.txt back here
+# but don't delete multi-gd.txt below: it just adds new pairs to what's here
 pairs-gd.txt-refresh: FORCE
 	rm -f pairs-gd.txt
 	(cd $(GA2GD); make pairs-gd.txt)
-	cp $(GA2GD)/pairs-gd.txt .
 	chmod 444 pairs-gd.txt
+
+# see comments above for gd
+pairs-gv.txt-refresh: FORCE
+	rm -f pairs-gv.txt
+	(cd $(GA2GV); make pairs-gv.txt)
+	chmod 444 pairs-gv.txt
 
 ngrams.txt-refresh: FORCE
 	rm -f ngrams.txt
