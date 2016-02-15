@@ -15,12 +15,8 @@ TESTGV=eval/testpre-gv.txt
 
 all: ok.txt
 
-# only if copyrighted material is added en masse
-shuffle: FORCE
-	paste $(TESTPRE) $(TESTPOST) | shuf | tee pasted.txt | cut -f 1 > newpre.txt
-	cat pasted.txt | cut -f 2 > $(TESTPOST)
-	mv -f newpre.txt $(TESTPRE)
-	rm -f pasted.txt
+test: FORCE
+	bash test/fulltest.sh -a
 
 # evaluate the algorithm that does nothing to the prestandard text!
 baseline: FORCE
@@ -88,8 +84,9 @@ ok-gv.txt: nua-output-gv.txt $(TESTGVGA) compare.pl
 eid-output.txt: tokenized-output.txt
 	cat tokenized-output.txt | perl detokenize.pl > $@
 
+# doesn't clean ngrams.txt or the *.db files!
 clean:
-	rm -f detokentest.txt unchanged.txt post-tokens.txt pre-tokens.txt tokenized-output.txt tokenized-output-gd.txt nua-output.txt nua-output-gd.txt cga-output.txt pre-surv.txt post-surv.txt tofix.txt survey.txt probsleft.txt tofixgram.txt eid-output.txt
+	rm -f detokentest.txt unchanged.txt post-tokens.txt pre-tokens.txt tokenized-output*.txt nua-output*.txt cga-output.txt pre-surv.txt post-surv.txt tofix.txt survey.txt probsleft.txt tofixgram.txt eid-output.txt maint/unknown*.txt maint/grammar*.txt
 
 ############## Build test sets from parallel corpora ###############
 # should never need to run these again!
@@ -113,6 +110,13 @@ cc-refresh: FORCE
 	cat pasted.txt | cut -f 2 > $(TESTGV)
 	rm -f pasted.txt
 
+# only if copyrighted material is added en masse
+shuffle: FORCE
+	paste $(TESTPRE) $(TESTPOST) | shuf | tee pasted.txt | cut -f 1 > newpre.txt
+	cat pasted.txt | cut -f 2 > $(TESTPOST)
+	mv -f newpre.txt $(TESTPRE)
+	rm -f pasted.txt
+
 ############## COMPARISON WITH RULE-BASED VERSION ONLY ###############
 
 cga-output.txt: tokenized-output.txt
@@ -123,6 +127,13 @@ cgaeval: cga-output.txt FORCE
 	echo `cat unchanged.txt | wc -l` "out of" `cat cga-output.txt | wc -l` "correct"
 
 ############## SURVEY OF UNKNOWN WORDS ###############
+SEANCHORPAS=${HOME}/seal/irishcompleted/prestandard/corpus.txt
+maint/unknown.txt: $(SEANCHORPAS) multi.txt pairs.txt pairs-local.txt rules.txt spurious.txt alltokens.pl nasc.pl tiomanai.sh
+	cat $(SEANCHORPAS) | bash tiomanai.sh -v | egrep '^UNKNOWN: ' | sed 's/^UNKNOWN: //' | egrep '[A-Za-zÁÉÍÓÚáéíóúÀÈÌÒÙàèìòù]' | sort | uniq -c | sort -r -n | sed 's/^ *//' > $@
+
+maint/oov.txt: maint/unknown.txt $(SEANCHORPAS) alltokens.pl nasc.pl
+	echo `date '+%Y-%m-%d %H:%M:%S'` `(cat maint/unknown.txt | sed 's/ .*//' | addem; echo '10000'; echo '*'; cat $(SEANCHORPAS) | perl alltokens.pl "-‐" "0-9’'#@" | perl nasc.pl | egrep -v '^[<\\]' | wc -l; echo '/'; echo 'p') | dc | sed 's/..$$/.&/'` >> $@
+	tail $@
 
 GDCORPUS=${HOME}/seal/idirlamha/gd/freq/corpus.txt
 maint/unknown-gd.txt: $(GDCORPUS) multi-gd.txt pairs-gd.txt pairs-local-gd.txt rules-gd.txt spurious-gd.txt alltokens.pl nasc.pl tiomanai.sh
@@ -140,20 +151,26 @@ maint/oov-gv.txt: maint/unknown-gv.txt $(GVCORPUS) alltokens.pl nasc.pl
 	echo `date '+%Y-%m-%d %H:%M:%S'` `(cat maint/unknown-gv.txt | sed 's/ .*//' | addem; echo '10000'; echo '*'; cat $(GVCORPUS) | perl alltokens.pl "-‐" "0-9’'#@" | perl nasc.pl -x | egrep -v '^[<\\]' | wc -l; echo '/'; echo 'p') | dc | sed 's/..$$/.&/'` >> $@
 	tail $@
 
-# in testpost.txt; use this output to further standardize testpost.txt manually
-tofixgram.txt: FORCE
-	cat $(TESTPOST) | commonerrs > $@
-
 # grammar check standardizer output, to catch stuff
 # like "go dtáinig", "i n-áit" and so on that we didn't fix...
 # often these arise because they appear frequently in n-gram model -
 # add them to cleanup.sh in that dir
-probsleft.txt: nua-output.txt
+# NB... doing this on parallel corpus, but could actually
+# run any texts at all (e.g. GDCORPUS, GVCORPUS above)
+# through and grammar check the output
+maint/grammar.txt: nua-output.txt
 	cat nua-output.txt | commonerrs > $@
 
-PUL.txt: FORCE
-	rm -f $@
-	find ${HOME}/gaeilge/diolaim/sean/ria -name '?M*' | egrep -v nua | xargs egrep -l '^<U.+(Athair Peadar|Rev. Peter)' | egrep -v '(LM17[345]|LM088)' | xargs cat | sed 's/<[^>]*>//g' > $@
+maint/grammar-gd.txt: nua-output-gd.txt
+	cat nua-output-gd.txt | commonerrs > $@
+
+maint/grammar-gv.txt: nua-output-gv.txt
+	cat nua-output-gv.txt | commonerrs > $@
+
+# in testpost.txt; use this output to further standardize testpost.txt manually
+# standardizer only... doesn't really make sense for gd2ga/gv2ga
+tofixgram.txt: FORCE
+	cat $(TESTPOST) | commonerrs > $@
 
 ############## TARGETS FOR MAINTAINER ONLY ! ###############
 GAELSPELL=${HOME}/gaeilge/ispell/ispell-gaeilge
