@@ -17,8 +17,8 @@ all: ok.txt
 
 ######################  TARGETS FOR TESTING   ###########################
 test: FORCE
+	bash test/qa.sh
 	bash test/fulltest.sh -a
-
 
 ###################### TARGETS FOR EVALUATION ###########################
 # evaluate the algorithm that does nothing to the prestandard text!
