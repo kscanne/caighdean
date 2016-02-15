@@ -26,5 +26,6 @@ TMPX=`mktemp`
 (cd ..; paste "eval/testpre${TEANGA}.txt" "eval/testpost${TEANGA}.txt" | shuf | head -n $SAMPSIZE | tee $TMPSPRIOC | cut -f 1 | bash tiomanai.sh $@ | sed 's/^.* => //' | perl detokenize.pl) > "$TMPX"
 sed -i "s/^.*\t//" $TMPSPRIOC
 echo `date '+%Y-%m-%d %H:%M:%S'` `bash eval.sh "$TMPX" "$TMPSPRIOC"` >> "wer${TEANGA}.txt"
+echo "WER:"
 tail -n 10 "wer${TEANGA}.txt"
 rm -f "$TMPSPRIOC" "$TMPX"
