@@ -15,9 +15,12 @@ TESTGV=eval/testpre-gv.txt
 
 all: ok.txt
 
+######################  TARGETS FOR TESTING   ###########################
 test: FORCE
 	bash test/fulltest.sh -a
 
+
+###################### TARGETS FOR EVALUATION ###########################
 # evaluate the algorithm that does nothing to the prestandard text!
 baseline: FORCE
 	@perl compare.pl $(TESTPOST) $(TESTPRE)
@@ -86,11 +89,11 @@ eid-output.txt: tokenized-output.txt
 
 # doesn't clean ngrams.txt or the *.db files!
 clean:
-	rm -f detokentest.txt unchanged.txt post-tokens.txt pre-tokens.txt tokenized-output*.txt nua-output*.txt cga-output.txt pre-surv.txt post-surv.txt tofix.txt survey.txt probsleft.txt tofixgram.txt eid-output.txt maint/unknown*.txt maint/grammar*.txt
+	rm -f detokentest.txt unchanged.txt post-tokens.txt pre-tokens.txt tokenized-output*.txt nua-output*.txt cga-output.txt pre-surv.txt post-surv.txt tofix.txt survey.txt probsleft.txt maint/tofixgram.txt eid-output.txt maint/unknown*.txt maint/grammar*.txt
 
 ############## Build test sets from parallel corpora ###############
-# should never need to run these again!
-#######################################
+#              should never need to run these again!               #
+####################################################################
 
 # just LM019 has numbered lines
 ccnua-refresh: FORCE
@@ -126,7 +129,7 @@ cgaeval: cga-output.txt FORCE
 	perl compare.pl $(TESTPOST) cga-output.txt
 	echo `cat unchanged.txt | wc -l` "out of" `cat cga-output.txt | wc -l` "correct"
 
-############## SURVEY OF UNKNOWN WORDS ###############
+############## MAINTENANCE TARGETS: SURVEY OF UNKNOWN WORDS, ETC #############
 SEANCHORPAS=${HOME}/seal/irishcompleted/prestandard/corpus.txt
 maint/unknown.txt: $(SEANCHORPAS) multi.txt pairs.txt pairs-local.txt rules.txt spurious.txt alltokens.pl nasc.pl tiomanai.sh
 	cat $(SEANCHORPAS) | bash tiomanai.sh -v | egrep '^UNKNOWN: ' | sed 's/^UNKNOWN: //' | egrep '[A-Za-zÁÉÍÓÚáéíóúÀÈÌÒÙàèìòù]' | sort | uniq -c | sort -r -n | sed 's/^ *//' > $@
@@ -169,7 +172,7 @@ maint/grammar-gv.txt: nua-output-gv.txt
 
 # in testpost.txt; use this output to further standardize testpost.txt manually
 # standardizer only... doesn't really make sense for gd2ga/gv2ga
-tofixgram.txt: FORCE
+maint/tofixgram.txt: FORCE
 	cat $(TESTPOST) | commonerrs > $@
 
 ############## TARGETS FOR MAINTAINER ONLY ! ###############
