@@ -1,3 +1,3 @@
 #!/bin/bash
-egrep -v '^[^ _]+(_[^ _]+)+ ([^_]*[^_ ])$' ../multi*.txt
-egrep -v '^[^ _]+ ([^ _]+)( [^ _]+)*$' ../pairs*.txt ../spurious*.txt
+FREAMH=${HOME}/seal/caighdean
+! egrep -v '^[^ _]+(_[^ _]+)+ ([^_]*[^_ ])$' ${FREAMH}/multi*.txt && ! egrep -v '^[^ _]+ ([^ _]+)( [^ _]+)*$' ${FREAMH}/pairs*.txt ${FREAMH}/spurious*.txt
