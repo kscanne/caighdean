@@ -194,7 +194,7 @@ GA2GV=${HOME}/gaeilge/ga2gv/ga2gv
 # do "make refresh" right after running "groom"
 refresh: clean.txt-refresh pairs.txt-refresh ngrams.txt-refresh alltokens.pl-refresh
 
-groom: pairs.txt-refresh clean.txt-refresh
+groom: pairs.txt-refresh clean.txt-refresh rules.txt-refresh
 
 # removed gaelu for RIA May 2014; doesn't make sense if trying to mimic
 # a human standardizing a pre-standard Irish book for example
