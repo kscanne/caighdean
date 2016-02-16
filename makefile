@@ -223,10 +223,10 @@ ngrams.txt-refresh: FORCE
 	cp -f $(NGRAM)/ga-model.txt ngrams.txt
 	chmod 444 ngrams.txt
 
-# run groom to rebuild gaelspell.txt if necessary
+# run groom to rebuild caighdean.txt if necessary
 clean.txt-refresh: FORCE
 	rm -f clean.txt
-	cat ${HOME}/gaeilge/ispell/ispell-gaeilge/gaelspell.txt | sort -u > clean.txt
+	cat $(GAELSPELL)/caighdean.txt | sort -u > clean.txt
 	chmod 444 clean.txt
 
 rules.txt-refresh: $(GRAMADOIR)/morph-ga.txt
