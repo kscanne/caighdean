@@ -12,11 +12,13 @@ binmode STDOUT, ":utf8";
 binmode STDERR, ":utf8";
 
 my $verbose = 0;
+my $unknowns = 0;
 my $extension = '';
 my $db = 1;
 
 for my $a (@ARGV) {
 	$verbose = 1 if ($a eq '-v');
+	$unknowns = 1 if ($a eq '-u');
 	$extension = '-gd' if ($a eq '-d');
 	$extension = '-gv' if ($a eq '-x');
 }
@@ -211,11 +213,13 @@ sub compute_log_prob_helper {
 
 # conditional probability P(X|Y) of seeing k-gram $X
 # (k generically == 1, but can be as big as biggest RHS in multi-xx)
-# given preceding j-gram $Y (j<=2, can be 0, generically == 2).
+# given preceding j-gram $Y (j is almost always == 2, except while
+# processing the first couple of words of input, can be 0 or 1!)
 # So "$Y $X" is what's in the source text...
 sub compute_log_prob {
 	(my $X, my $Y) = @_;
 	my $ans = 0;
+	$Y = '.' if ($Y eq '');
 	while ($X =~ m/([^ ]+)/g) {
 		my $w = $1;
 		my $ngram = extend_sentence($Y, $w);
@@ -400,7 +404,7 @@ sub flush_best_hypothesis {
 		}
 	}
 	print "FLUSH:\n" if ($verbose);
-	print hypothesis_pairs_string($hashref->{$bestkey});
+	print hypothesis_pairs_string($hashref->{$bestkey}) unless ($unknowns);
 	$hashref->{$bestkey} = {
 		'logprob' => 0.0,
 		'output' => [],
@@ -430,6 +434,7 @@ sub process_one_token {
 		$hashref->{$tok} = 0;
 		$unknown++;
 		print "UNKNOWN: $tok\n" if $verbose;
+		print "$tok\n" if $unknowns;
 	}
 
 	print "Input token = $tok\n" if $verbose;
@@ -440,14 +445,15 @@ sub process_one_token {
 			my @newoutput = @{$hypotheses{$two}->{'output'}};
 			push @newoutput, {'s' => $tok, 't' => $x};
 			my $tail = extend_sentence($two, $normalized_x);
+			my $candlogprob = compute_log_prob($normalized_x, $two);
 			my %newhyp = (
-				'logprob' => $hypotheses{$two}->{'logprob'} + compute_log_prob($normalized_x, $two) - $penalty*$hashref->{$x},
+				'logprob' => $hypotheses{$two}->{'logprob'} + $candlogprob - $penalty*$hashref->{$x},
 				'output' => \@newoutput,
 			);
 			if ($verbose) {
 				print "Created a new hypothesis (".$newhyp{'logprob'}."): ".hypothesis_output_string(\%newhyp)."\n";
 				print "Computed from logprob of best hypothesis with key $two: ".$hypotheses{$two}->{'logprob'}."\n";
-				print "Plus logprob of n-gram: $tail (".compute_log_prob($normalized_x, $two).")\n";
+				print "Plus logprob of n-gram: $tail ($candlogprob)\n";
 				print "Minus penalty $penalty times ".$hashref->{$x}."\n";
 			}
 			my $newtwo = last_two_words($tail);
@@ -513,8 +519,10 @@ flush_best_hypothesis(\%hypotheses);
 if ($verbose) {
 	print "Total tokens: $tokens\n";
 	print "Unknown tokens: $unknown\n";
-	my $frac = $unknown / (1.0 * $tokens);
-	print "Fraction unknown: $frac\n";
+	if ($tokens > 0) {
+		my $frac = $unknown / (1.0 * $tokens);
+		print "Fraction unknown: $frac\n";
+	}
 }
 
 exit 0;
