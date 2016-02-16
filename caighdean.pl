@@ -484,7 +484,8 @@ sub process_one_token {
 			print "Hypothesis with key '$two' (".$hypotheses{$two}->{'logprob'}."): ".hypothesis_output_string($hypotheses{$two})."\n";
 		}
 	}
-	delete $hashref->{$tok} if ($verbose and $unknown_p); # for eval purposes
+	# when evaluating, don't want to memoize the fake answer for unknown tokens
+	delete $hashref->{$tok} if (($verbose or $unknowns) and $unknown_p);
 }
 
 print "Ready.\n" if $verbose;
