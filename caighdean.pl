@@ -80,11 +80,16 @@ sub hypothesis_pairs_string {
 	return $ans;
 }
 
+# hard-coded N=3 here; "ngram" can come in either empty, a 1-gram, or 2-gram
+# this function tacks on $w at the end, but pushes off first word
+# in case $ngram starts out as a 2-gram
 sub shift_ngram {
 	(my $ngram, my $w) = @_;
-	return $w if ($ngram eq '');
-	$ngram =~ s/^[^ ]+ //;
-	return "$ngram $w";
+	my $ans = $ngram;
+	$ans .= ' ' unless ($ngram eq '');
+	$ans .= $w;
+	$ans =~ s/^[^ ]+ // if ($ngram =~ m/ /);
+	return $ans;
 }
 
 sub recapitalize {
@@ -175,9 +180,11 @@ sub ngram_preprocess {
 	return $w;
 }
 
-# takes an n-gram, say "X Y Z" as an arg, returns log P(Z | X Y)
-# recursive for unseen n-grams, n > 1 
 # only called for n <= maximum stored in the precomputed lang model (usually 3)
+# so generically, when called from compute_log_prob, we expect a string 
+# say "X Y Z" as an arg, returns log P(Z | X Y).
+# If arg is "X Y", we return P(Y | X), and for a word "X", P(X).
+# When an ngram was not seen in training, we back off (recursion here)
 sub compute_log_prob_helper {
 	(my $ngram) = @_;
 	my $ans;
@@ -202,20 +209,18 @@ sub compute_log_prob_helper {
 	return $ans;
 }
 
+# conditional probability P(X|Y) of seeing k-gram $X
+# (k generically == 1, but can be as big as biggest RHS in multi-xx)
+# given preceding j-gram $Y (j<=2, can be 0, generically == 2).
+# So "$Y $X" is what's in the source text...
 sub compute_log_prob {
-	(my $ngram) = @_;
+	(my $X, my $Y) = @_;
 	my $ans = 0;
-	if ($ngram =~ m/^([^ ]+ [^ ]+ [^ ]+) [^ ]/) {
-		my $initial = $1;
-		$ans += compute_log_prob_helper($initial);
-		$ngram =~ s/^[^ ]+ [^ ]+ [^ ]+ //;
-		while ($ngram =~ m/([^ ]+)/g) {
-			$initial = shift_ngram($initial, $1);
-			$ans += compute_log_prob_helper($initial);
-		}
-	}
-	else {
-		$ans = compute_log_prob_helper($ngram);
+	while ($X =~ m/([^ ]+)/g) {
+		my $w = $1;
+		my $ngram = extend_sentence($Y, $w);
+		$ans += compute_log_prob_helper($ngram);
+		$Y = shift_ngram($Y, $w);
 	}
 	return $ans;
 }
@@ -436,13 +441,13 @@ sub process_one_token {
 			push @newoutput, {'s' => $tok, 't' => $x};
 			my $tail = extend_sentence($two, $normalized_x);
 			my %newhyp = (
-				'logprob' => $hypotheses{$two}->{'logprob'} + compute_log_prob($tail) - $penalty*$hashref->{$x},
+				'logprob' => $hypotheses{$two}->{'logprob'} + compute_log_prob($normalized_x, $two) - $penalty*$hashref->{$x},
 				'output' => \@newoutput,
 			);
 			if ($verbose) {
 				print "Created a new hypothesis (".$newhyp{'logprob'}."): ".hypothesis_output_string(\%newhyp)."\n";
 				print "Computed from logprob of best hypothesis with key $two: ".$hypotheses{$two}->{'logprob'}."\n";
-				print "Plus logprob of n-gram: $tail (".compute_log_prob($tail).")\n";
+				print "Plus logprob of n-gram: $tail (".compute_log_prob($normalized_x, $two).")\n";
 				print "Minus penalty $penalty times ".$hashref->{$x}."\n";
 			}
 			my $newtwo = last_two_words($tail);
