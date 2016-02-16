@@ -84,6 +84,11 @@ ok-gv.txt: nua-output-gv.txt $(TESTGVGA) compare.pl
 	mv unchanged.txt $@
 	git diff $@
 
+speedeval: FORCE
+	bash eval/speedeval.sh
+	bash eval/speedeval.sh -d
+	bash eval/speedeval.sh -x
+
 eid-output.txt: tokenized-output.txt
 	cat tokenized-output.txt | perl detokenize.pl > $@
 
