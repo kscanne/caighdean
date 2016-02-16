@@ -1,4 +1,5 @@
 #!/bin/bash
+FREAMH=${HOME}/seal/caighdean
 SAMPSIZE=500
 if [ $# -ge 2 ]
 then
@@ -23,9 +24,10 @@ then
 fi
 TMPSPRIOC=`mktemp`
 TMPX=`mktemp`
-(cd ..; paste "eval/testpre${TEANGA}.txt" "eval/testpost${TEANGA}.txt" | shuf | head -n $SAMPSIZE | tee $TMPSPRIOC | cut -f 1 | bash tiomanai.sh $@ | sed 's/^.* => //' | perl detokenize.pl) > "$TMPX"
+cd ${FREAMH}
+paste "eval/testpre${TEANGA}.txt" "eval/testpost${TEANGA}.txt" | shuf | head -n $SAMPSIZE | tee $TMPSPRIOC | cut -f 1 | bash tiomanai.sh $@ | sed 's/^.* => //' | perl detokenize.pl > "$TMPX"
 sed -i "s/^.*\t//" $TMPSPRIOC
-echo `date '+%Y-%m-%d %H:%M:%S'` `bash eval.sh "$TMPX" "$TMPSPRIOC"` >> "wer${TEANGA}.txt"
+echo `date '+%Y-%m-%d %H:%M:%S'` `bash eval/eval.sh "$TMPX" "$TMPSPRIOC"` >> "eval/wer${TEANGA}.txt"
 echo "WER:"
-tail -n 10 "wer${TEANGA}.txt"
+tail -n 10 "eval/wer${TEANGA}.txt"
 rm -f "$TMPSPRIOC" "$TMPX"
