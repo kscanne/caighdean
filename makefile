@@ -135,7 +135,7 @@ cgaeval: cga-output.txt FORCE
 	echo `cat unchanged.txt | wc -l` "out of" `cat cga-output.txt | wc -l` "correct"
 
 ############## MAINTENANCE TARGETS: SURVEY OF UNKNOWN WORDS, ETC #############
-SEANCHORPAS=${HOME}/seal/irishcompleted/prestandard/corpus.txt
+SEANCHORPAS=${HOME}/gaeilge/caighdean/prestandard/corpus.txt
 maint/unknown.txt: $(SEANCHORPAS) multi.txt pairs.txt pairs-local.txt rules.txt spurious.txt alltokens.pl nasc.pl tiomanai.sh
 	cat $(SEANCHORPAS) | bash tiomanai.sh -u | egrep '[A-Za-zÁÉÍÓÚáéíóúÀÈÌÒÙàèìòù]' | sort | uniq -c | sort -r -n | sed 's/^ *//' > $@
 
@@ -182,6 +182,7 @@ maint/tofixgram.txt: FORCE
 
 ############## TARGETS FOR MAINTAINER ONLY ! ###############
 GAELSPELL=${HOME}/gaeilge/ispell/ispell-gaeilge
+PRESTD=${HOME}/gaeilge/caighdean/prestandard
 CRUBLOCAL=${HOME}/gaeilge/crubadan/crubadan
 GRAMADOIR=${HOME}/gaeilge/gramadoir/gr/ga
 CRUB=/usr/local/share/crubadan
@@ -197,9 +198,9 @@ groom: pairs.txt-refresh clean.txt-refresh
 
 # removed gaelu for RIA May 2014; doesn't make sense if trying to mimic
 # a human standardizing a pre-standard Irish book for example
-pairs.txt-refresh: $(GAELSPELL)/apost $(GAELSPELL)/athfhocail $(GAELSPELL)/earraidi
+pairs.txt-refresh: $(GAELSPELL)/apost $(GAELSPELL)/athfhocail $(GAELSPELL)/earraidi $(PRESTD)/immutable.txt
 	rm -f pairs.txt
-	LC_ALL=C sort -u $(GAELSPELL)/apost $(GAELSPELL)/athfhocail $(GAELSPELL)/earraidi | sort -k1,1 > pairs.txt
+	(cat $(PRESTD)/immutable.txt | sed 's/^.*$$/& &/'; cat $(GAELSPELL)/apost $(GAELSPELL)/athfhocail $(GAELSPELL)/earraidi) | LC_ALL=C sort -u | sort -k1,1 > pairs.txt
 	chmod 444 pairs.txt
 
 # actually updates pairs-gd.txt and multi-gd.txt
