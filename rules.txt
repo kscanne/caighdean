@@ -46,6 +46,7 @@
 (...)-sin$	$1_sin	1
 (...)-seo$	$1_seo	1
 e[oó]chad$	eoidh_mé	1
+([0-9])adh$	$1ú	1
 ^d'f([aeiouáéíóú])	d'fh$1	2
 u(i?[dg]h)	a$1	1
 i[dg]h(th?.)	i$1	1
@@ -294,6 +295,7 @@ uía	aío	1
 ^tt	dt	1
 mair$	mar	1
 iuc([^h])	ioc$1	1
+aé$	ae	1
 e[oó]cha(i?dh)$	eo$1	1
 ([^e])ócha(i?dh)$	$1ó$2	1
 e[oó]chaimi([ds])$	eoimi$1	1
