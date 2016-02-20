@@ -3,6 +3,8 @@ a_dh'obair ag obair
 a_dh'iarraidh ag iarraidh
 a_dh'áirneál a airneán
 a_dh'ól ag ól
+a_dh'iaraidh ag iarraidh
+a_d'iaraidh ag iarraidh
 a_dh'imtheacht ag imeacht
 a_dh'ithe ag ithe
 a_dh'innse ag insint
@@ -53,6 +55,7 @@ cia'r_bh'e cérbh é
 cia'r_bh'é cérbh é
 cia'r_bh'í cérbh í
 d'aon_úim d'aon oghaim
+dá_dtugtí dá dtabharfaí
 dá_mbíodh dá mbeadh
 dá_ríribh dáiríre
 de_'n den
@@ -76,6 +79,7 @@ do_chonac chonaic
 do_chromas chrom mé
 do_chuadhas chuaigh mé
 do_chualas chuala mé
+do_chuas chuaigh mé
 do_chuir chuir
 do_chuireas chuir mé
 do_dheineas rinne mé
@@ -106,19 +110,99 @@ do_thuig thuig
 do_thuigeas thuig mé
 do_thug thug
 do_thugas thug mé
+dhroch_aicme dhrochaicme
+dhroch_aigeanta dhrochaigeanta
+dhroch_aigne dhrochaigne
+dhroch_ainim dhrochainm
+dhroch_amhrais dhrochamhrais
+dhroch_amhras dhrochamhras
+dhroch_bheart dhrochbheart
+dhroch_bhéas dhrochbhéas
+dhroch_chómhairle dhroch-chomhairle
+dhroch_chómhluadar dhroch-chomhluadar
+dhroch_dhaoine dhrochdhaoine
+dhroch_dhuine dhrochdhuine
+dhroch_fhuadar dhrochfhuadar
+dhroch_ghnímh dhrochghnímh
+dhroch_ghníomh dhrochghníomh
+dhroch_ghníomhartha dhrochghníomhartha
+dhroch_íde dhrochíde
+dhroch_iontaoibh dhrochiontaoibh
+dhroch_mheas dhrochmheas
+dhroch_mhian dhrochmhian
+dhroch_mhúineadh dhrochmhúineadh
+dhroch_mhúinte dhrochmhúinte
+dhroch_nídh dhrochní
+dhroch_neithe dhrochnithe
+dhroch_obair dhrochobair
+dhroch_shampla dhrochshampla
+dhroch_shaoghal dhrochshaol
+dhroch_smuíneamh dhrochsmaoineamh
+dhroch_smuínte dhrochsmaointe
+dhroch_úsáid dhrochúsáid
+dhroch_úsáide dhrochúsáide
+droch_aicme drochaicme
+droch_aigeanta drochaigeanta
 droch_aigne drochaigne
+droch_ainim drochainm
+droch_amhrais drochamhrais
 droch_amhras drochamhras
 droch_bheart drochbheart
 droch_bhéas drochbhéas
+droch_chómhairle droch-chomhairle
+droch_chómhluadar droch-chomhluadar
 droch_dhaoine drochdhaoine
 droch_dhuine drochdhuine
 droch_fhuadar drochfhuadar
+droch_ghnímh drochghnímh
 droch_ghníomh drochghníomh
+droch_ghníomhartha drochghníomhartha
+droch_íde drochíde
+droch_iontaoibh drochiontaoibh
 droch_mheas drochmheas
 droch_mhian drochmhian
+droch_mhúineadh drochmhúineadh
+droch_mhúinte drochmhúinte
 droch_nídh drochní
+droch_neithe drochnithe
 droch_obair drochobair
 droch_shampla drochshampla
+droch_shaoghal drochshaol
+droch_smuíneamh drochsmaoineamh
+droch_smuínte drochsmaointe
+droch_úsáid drochúsáid
+droch_úsáide drochúsáide
+ndroch_aicme drochaicme
+ndroch_aigeanta ndrochaigeanta
+ndroch_aigne ndrochaigne
+ndroch_ainim ndrochainm
+ndroch_amhrais ndrochamhrais
+ndroch_amhras ndrochamhras
+ndroch_bheart ndrochbheart
+ndroch_bhéas ndrochbhéas
+ndroch_chómhairle ndroch-chomhairle
+ndroch_chómhluadar ndroch-chomhluadar
+ndroch_dhaoine ndrochdhaoine
+ndroch_dhuine ndrochdhuine
+ndroch_fhuadar ndrochfhuadar
+ndroch_ghnímh ndrochghnímh
+ndroch_ghníomh ndrochghníomh
+ndroch_ghníomhartha ndrochghníomhartha
+ndroch_íde ndrochíde
+ndroch_iontaoibh ndrochiontaoibh
+ndroch_mheas ndrochmheas
+ndroch_mhian ndrochmhian
+ndroch_mhúineadh ndrochmhúineadh
+ndroch_mhúinte ndrochmhúinte
+ndroch_nídh ndrochní
+ndroch_neithe ndrochnithe
+ndroch_obair ndrochobair
+ndroch_shampla ndrochshampla
+ndroch_shaoghal ndrochshaol
+ndroch_smuíneamh ndrochsmaoineamh
+ndroch_smuínte ndrochsmaointe
+ndroch_úsáid ndrochúsáid
+ndroch_úsáide ndrochúsáide
 fa_dtear faoi deara
 fá_n-a faoina
 faoi_n-a faoina
@@ -126,6 +210,7 @@ faoi_'n faoin
 Flann_Sionna Flann Sionna
 fríd_a trína
 fríd_ár trínár
+go_dé'n cad é an
 go_dtug gur thug
 go_ttug gur thug
 gur_bh gurbh
@@ -143,6 +228,9 @@ i_mbáraigh amárach
 i_n in
 i_n' ina
 i_n-a ina
+i_n-ao' in aon
+i_n-ao'-chor in aon chor
+i_n-ao'chor in aon chor
 i_n'aice ina aice
 i_n'aigne ina aigne
 i_n-allód anallód
@@ -152,6 +240,8 @@ i_ndá in dhá
 ins_an sa
 ins_an san
 ins_na sna
+le_haigh le haghaidh
+le_haigh' le haghaidh
 le_n-a lena
 má_'s más
 mac_a_samhail macasamhail
