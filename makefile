@@ -18,6 +18,7 @@ all: ok.txt
 ######################  TARGETS FOR TESTING   ###########################
 test: FORCE
 	bash test/qa.sh
+	bash test/tokentest.sh -a
 	bash test/fulltest.sh -a
 
 commitlog: FORCE
