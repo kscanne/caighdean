@@ -23,7 +23,7 @@ binmode STDERR, ":utf8";
 # (good way of cleaning corpus is to kill sentences with these!)
 my @fixed = (
 	qr/(?:https?|ftp):\/\/[A-Za-z0-9\/.:=_%?&~+;\$@\#()-]+[A-Za-z0-9\/=]/, # URLs
-	qr/[A-Za-z0-9._]+@[A-Za-z0-9.]+[A-Za-z0-9]/,   # emails
+	qr/[A-Za-z0-9][A-Za-z0-9._]*@[A-Za-z0-9.]+[A-Za-z0-9]/,   # emails
 	qr/&(amp|[lg]t|quot|#[0-9]+);/, # SGML entities
 	qr/<[\/]?[A-Za-z]([^>]+)?>/,             # markup
 	qr/[:;=]['’0o-]?[()\]\\{}|dpDP][)]*/,  # emoticons
