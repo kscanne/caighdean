@@ -28,7 +28,7 @@ my @fixed = (
 	qr/<[\/]?[A-Za-z]([^>]+)?>/,             # markup
 	qr/[:;=]['’0o-]?[()\]\\{}|dpDP][)]*/,  # emoticons
 	qr/[1-9][0-9]{0,2}(?:,[0-9]{3})+(?:\.[0-9]+)?/,  # numbers with commas in them
-	qr/[0-9]+(?:[:.][0-9]+)+/,  # numbers with commas in them
+	qr/(?<![,0-9])[0-9]+(?:[:.][0-9]+)+/,  # times: 6:45 11.30, IP addresses, etc.; negative lookbehind prevents this from breaking up token "5,000.00" found by previous regex
 );
 
 my $curr='';
