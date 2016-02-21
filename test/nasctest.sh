@@ -37,7 +37,7 @@ fi
 
 if [ "${1}" = "-r" ]
 then
-	generictest
+	generictest -r
 else
-	trivialtest '' '' && trivialtest '-gd' '-d' && trivialtest '-gv' '-x' && generictest
+	generictest -a && trivialtest '' '' && trivialtest '-gd' '-d' && trivialtest '-gv' '-x'
 fi
