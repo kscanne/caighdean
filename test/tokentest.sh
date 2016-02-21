@@ -1,7 +1,7 @@
 #!/bin/bash
 if [ $# -ne 1 ]
 then
-	echo "Usage: bash fulltest.sh [-a|-r]"
+	echo "Usage: bash tokentest.sh [-a|-r]"
 	echo "-a: Run all tests"
 	echo "-r: Reset test output"
 	exit 1
