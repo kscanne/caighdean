@@ -19,6 +19,7 @@ all: ok.txt
 test: FORCE
 	bash test/qa.sh
 	bash test/tokentest.sh -a
+	bash test/nasctest.sh -a
 	bash test/fulltest.sh -a
 
 commitlog: FORCE
