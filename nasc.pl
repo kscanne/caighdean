@@ -17,9 +17,13 @@ for my $a (@ARGV) {
 	$extension = '-gv' if ($a eq '-x');
 }
 
+# apostrophe norm. only relevant for STDIN: ASCII-only aposts in multi*
+# don't want to link "ana_\n_\n_mhór" of course
+# something like "ny_\n_sloo_\n_na" is more subtle; don't link for now
 sub normalize {
 	(my $w) = @_;
 	$w =~ s/[ʼ’]/'/g;
+	$w =~ s/_\\n_/_/;  # just first one for now; see comments above
 	return lc($w);
 }
 
@@ -46,6 +50,7 @@ sub look_for_multi {
 				shift @{$q};
 			}
 			$cand =~ s/^([BDMbdm]|[Dd]h)([ʼ’'])_/$1$2/i;
+			$cand =~ s/_\\n_(.+)$/_$1\n\\n/;
 			print "$cand\n";
 			return;
 		}
