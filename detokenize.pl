@@ -11,6 +11,7 @@ binmode STDERR, ":utf8";
 # set this flag true if no need for space before next token
 # For example, start of doc, left parens, brackets, or SGML markup tag
 my $suppress = 1;
+my $ascii_double_quote_parity = 0;
 while (<STDIN>) {
 	chomp;
 	my $s = $_;
@@ -26,10 +27,12 @@ while (<STDIN>) {
 			print "\n";
 		}
 		else {
-			unless ($suppress == 1 or $s =~ /^([.,\/;”:!?%})]|<[^>]+>)$/) {
-				print " ";
+			if ($s eq '"') {
+				$suppress = 1 if ($ascii_double_quote_parity==1);
+				$ascii_double_quote_parity = 1 - $ascii_double_quote_parity;
 			}
-			$suppress = ($s =~ /^([“\/\$(\[#{]|<[^>]+>)$/);
+			print " " unless ($suppress == 1 or $s =~ /^([.,\/;”:!?%})]|<[^>]+>)$/);
+			$suppress = (($s =~ /^([“\/\$(\[#{]|<[^>]+>)$/) or ($s eq '"' and $ascii_double_quote_parity==1));
 			print $s;
 		}
 	}
