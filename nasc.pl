@@ -37,6 +37,16 @@ while (<MULTI>) {
 }
 close MULTI;
 
+sub shift_and_print {
+	(my $q, my $cand, my $len) = @_;
+	for (0..($len-1)) {
+		shift @{$q};
+	}
+	$cand =~ s/^([BDMbdm]|[Dd]h)([ʼ’'])_/$1$2/i;
+	$cand =~ s/_\\n_(.+)$/_$1\n\\n/;
+	print "$cand\n";
+}
+
 # looks for longest multiword (only) at front of queue
 # prints and shifts words off if one is found
 sub look_for_multi {
@@ -46,13 +56,28 @@ sub look_for_multi {
 		my $cand = join('_', @$q[0..($len-1)]);
 		my $lccand = normalize($cand);
 		if (exists($phrases{$lccand}) or $lccand =~ m/^([bdm]|dh)'_[^_]+$/) {
-			for (0..($len-1)) {
-				shift @{$q};
-			}
-			$cand =~ s/^([BDMbdm]|[Dd]h)([ʼ’'])_/$1$2/i;
-			$cand =~ s/_\\n_(.+)$/_$1\n\\n/;
-			print "$cand\n";
+			shift_and_print($q, $cand, $len);
 			return;
+		}
+		else {
+			if ($lccand =~ m/^'/) {
+				$lccand =~ s/^'//;
+				if (exists($phrases{$lccand})) {
+					$cand =~ s/^([ʼ’'])//;
+					print "$1\n";
+					shift_and_print($q, $cand, $len);
+					return;
+				}
+			}
+			if ($lccand =~ m/'$/) {
+				$lccand =~ s/'$//;
+				if (exists($phrases{$lccand})) {
+					$cand =~ s/([ʼ’'])$//;
+					shift_and_print($q, $cand, $len);
+					print "$1\n";
+					return;
+				}
+			}
 		}
 	}
 	my $w = shift @{$q};
