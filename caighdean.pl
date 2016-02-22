@@ -169,6 +169,7 @@ sub irishlc {
 	(my $w) = @_;
 	return $w if ($w =~ /^[<\\]/);
 	$w =~ s/^([nt])([AEIOUÁÉÍÓÚ])/$1-$2/;
+	$w =~ s/ ([nt])([AEIOUÁÉÍÓÚ])/ $1-$2/g;
 	return lc($w);
 }
 
@@ -333,7 +334,7 @@ while (<MULTI>) {
 	my $target = $2;
 	push @{$cands{$source}}, $target;
 	if ($source =~ m/\p{Lu}/) {
-		push @{$cands{lc($source)}}, lc($target);
+		push @{$cands{lc($source)}}, irishlc($target);
 	}
 }
 close MULTI;
