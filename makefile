@@ -238,7 +238,7 @@ clean.txt-refresh: FORCE
 
 rules.txt-refresh: $(GRAMADOIR)/morph-ga.txt
 	rm -f rules.txt
-	cat $(GRAMADOIR)/morph-ga.txt | iconv -f iso-8859-1 -t utf8 | egrep -v '^#' | sed '/^\^h?an-(\[bcfgmp\]h/,/eachtar.freas/s/^/#/' | sed '/^(\.\[aouáóú/,/^(\[eiéí.*-ne/s/^/#/' | sed '/íní?/s/^/#/' | sed '/\[bdm\]/s/^/#/' | sed '/^\^do(/,/^\^h?in(\[\^/s/^/#/' | sed '/^fa\?ir/s/idh/idh_tú/' | sed '/^\^mb/r rules-local.txt' | sed 's/^\([^ \t]*\)[ \t]*\([^ \t]*\)[ \t]*\([^ \t]*\).*/\1\t\2\t\3/' > rules.txt
+	cat $(GRAMADOIR)/morph-ga.txt | iconv -f iso-8859-1 -t utf8 | sed '/^\^h?an-(\[bcfgmp\]h/,/eachtar.freas/s/^/#/' | sed '/^(\.\[aouáóú/,/^(\[eiéí.*-ne/s/^/#/' | sed '/íní?/s/^/#/' | sed '/\[bdm\]/s/^/#/' | sed '/^\^do(/,/^\^h?in(\[\^/s/^/#/' | sed '/^fa\?ir/s/idh/idh_tú/' | sed '/^\^mb/r rules-local.txt' | sed '/^[^#]/s/^\([^ \t]*\)[ \t]*\([^ \t]*\)[ \t]*\([^ \t]*\).*/\1\t\2\t\3/' > rules.txt
 	chmod 444 rules.txt
 
 alltokens.pl-refresh: $(CRUBLOCAL)/alltokens.pl
