@@ -1,4 +1,7 @@
 (...)-sin$	$1_sin	1
 (...)-seo$	$1_seo	1
-e[oó]chad$	eoidh_mé	1
+e[oó][cg]had$		eoidh_mé	1
+([^e])[oó][cg]had$	$1óidh_mé	1
+e[oó][cg]hadsa$		eoidh_mise	1
+([^e])[oó][cg]hadsa$	$1óidh_mise	1
 ([0-9])adh$	$1ú		1
