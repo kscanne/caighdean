@@ -2875,6 +2875,7 @@ amsgaidhe amscaí
 Amstardaim Amstardam
 Amsterdam Amstardam
 ámthach áfach
+amú' amú
 amudha amú
 amúgh amú
 amugha amú
@@ -3206,6 +3207,7 @@ annrianta ainrianta
 annróach anróiteach
 annródhach anróiteach
 anns sa
+annsa' sa
 annsain ansin
 annsan ansin
 annseir ionsar
@@ -4094,6 +4096,8 @@ astú fhostú
 astú fostú
 astúsan astusan
 a't agat
+at' atá
+at' i do
 áta atá
 Ataen Aithin
 atáid atá siad
@@ -20687,6 +20691,7 @@ b'úthairt b'únfairt
 b'uthbhairt b'únfairt
 butún botún
 ca cá
+'ca acu
 cábach cábógach
 cabachán cabaire
 cabadaíl cabaireacht
@@ -23043,6 +23048,7 @@ cérbh' cérbh
 ceremóinte seanmóra
 cés cé is
 cé's cé is
+'ch gach
 chá cha
 chabaí chabaire
 chábail chábla
@@ -30641,6 +30647,7 @@ chuifealán chomhthionól
 chuifealláin chomhthionóil
 chuifeallán chomhthionól
 chúig cúig
+chúig' chúige
 chuigan chuig an
 chúigeadh chúigiú
 chuigeal choigeal
@@ -40438,6 +40445,8 @@ day day
 d'bhúr de bhur
 dé cad é
 dé dia
+'dé cad é
+'Dé Cad é
 d'éabainít d'éabainnít
 d'éabainíte d'éabainníte
 d'eabair d'abair
@@ -46597,6 +46606,7 @@ dholldramáin dhalldramáin
 dholldramán dhalldramán
 dholuighe dholuí
 dhom dom
+dhom' do mo
 dhombuidheach dhiomaíoch
 dhombuidheacha dhiomaíocha
 dhombuidhí dhiomaíche
@@ -50797,6 +50807,7 @@ d'óstánach d'óstóirí
 d'óstánaigh d'óstóirí
 d'óstánaigh d'óstóra
 dot do do
+dot' do do
 doth daith
 dóth dóigh
 dotha daithe
@@ -66497,6 +66508,7 @@ gainiúil gainmheach
 gainmhe gaineamh
 gainmhe gainimh
 gainmhí gainmheach
+'gainn againn
 gainneach gainne
 gainneacht gainne
 gainnéad gainéad
@@ -74335,6 +74347,7 @@ geostaire giostaire
 gér cér
 get get
 geur-fhaobhrach géarfhaobhrach
+'gha á
 ghá á
 'ghá á
 ghabáil ghabháil
@@ -84262,6 +84275,7 @@ inrochtaine inrochtaineachta
 inrochtaine inrochtana
 ins sa
 insa sa
+insa' sa
 insamhail iontamhail
 insamhalta insamhlaithe
 insamhlacht iontamhlacht
@@ -85504,6 +85518,7 @@ irse irise
 irseacha irisí
 irteach isteach
 is agus
+'is fhios
 isan san
 isé is é
 isea is ea
@@ -85554,6 +85569,7 @@ istoidhche istoíche
 istoigh istigh
 istuigh istigh
 it i do
+it' i do
 italacach iodálach
 italicach iodálach
 iteachán eiteán
@@ -87762,6 +87778,7 @@ liaig liag
 liaigh lia
 Liaim Liam
 liaite liata
+'Liam Liam
 liamhain líomh
 liamhain líomhain
 liamháin leamháin
@@ -100666,6 +100683,7 @@ m'uidheacht m'uidhe
 m'uidheachta m'uidhe
 muidinne muidne
 muigh má
+'muigh amuigh
 Muigh Maigh
 muighe maí
 m'uighe m'uibhe
@@ -101307,6 +101325,7 @@ mútúil mótúil
 'n-a ina
 n-a a
 'Na Ina
+'N-a Ina
 ná nach
 'ná ná
 n-abadh n-aba
@@ -105513,6 +105532,7 @@ ndlúthachta ndlúthaithe
 ndlúthais ndlúis
 ndlúthas ndlús
 ndluthú ndlúthú
+ndó' ndóigh
 ndób ndóibeáil
 ndóba ndóibeála
 ndóbadar ndóibeáladar
@@ -111155,6 +111175,8 @@ n-iurradh n-earraí
 n-iurraidh n-earra
 n-iurraidh n-earraí
 nn ann
+'nn ann
+'nn i
 'nna ina
 no nó
 nó óir
@@ -111787,6 +111809,8 @@ n-uainítear n-uamtar
 n-uainítí n-uamtaí
 nuaíocht nuacht
 nuaíochta nuachta
+'nuair nuair
+'Nuair Nuair
 núair nuair
 n-uaireanna n-uaireanta
 n-uais núis
@@ -118530,6 +118554,7 @@ riothfadh rithfeadh
 riotsa leatsa
 rí-rá rírá
 ris leis
+'rís arís
 ríse raidhse
 rísiúil raidhsiúil
 rísiúla raidhsiúla
@@ -119430,6 +119455,7 @@ s' is
 'sa sa
 'sa' sa
 sa' sa
+'Sa Sa
 sá sáith
 sábáilte sábháilte
 sabbóid sabóid
@@ -119943,7 +119969,10 @@ sámsála salmaireachta
 samsálaí salmaire
 samsálaithe salmairí
 san sin
+'san sa
 'san san
+'San Sa
+'San San
 sanáireamh san áireamh
 sanais sanas
 sánais sámhnais
@@ -143472,6 +143501,8 @@ tuigbheáilt tuiscint
 tuigbheála tuisceana
 tuigbheálta tuisceana
 tuige cad chuige
+'tuige cad chuige
+'Tuige Cad chuige
 tuigean tuigeann
 tuigfadh dtuigfeadh
 tuigfeá thuigfeá
@@ -144787,6 +144818,7 @@ unúmhach ionúch
 upaidh upa
 uptha upa
 ur úr
+'ur bhur
 úr bhur
 úr iúr
 úr úir
