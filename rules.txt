@@ -347,7 +347,7 @@ anaibh$	anna	1
 aibh$	a	1
 aibh$	aí	1
 (..[^a])ibh$	$1í	1
-(.)eu	$1éa	1
+(.)[ée]u	$1éa	1
 tch	t	1
 i[dg]hea	ío	1
 i[dg]he	í	1
@@ -403,6 +403,7 @@ iuc([^h])	ioc$1	1
 aé	ae	1
 eu	éa	1
 ^dfh	d'fh	1
+^df([aeiouáéíóú])	d'fh$1	1
 [ií]ghean$	íonn	1
 i[uú]bha?l	iúl	1
 amaoid$	aimid	1

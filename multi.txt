@@ -15,6 +15,10 @@ a_dh'éirghe ag éirí
 a_dh'innsint ag insint
 a_dtáinig ar tháinig
 a_dtug ar thug
+à_los alos
+a_ndiu inniu
+a_n-diu inniu
+a_n-diú inniu
 ana_mhór an-mhór
 ana_láidir an-láidir
 ana_mhaith an-mhaith
@@ -30,6 +34,7 @@ ana_dhúil an-dúil
 an_dtáinig ar tháinig
 an_dtug ar thug
 an_gcuala ar chuala
+an_róighteach anróiteach
 ar_dtúis ar dtús
 ar_ttúis ar dtús
 ar_n-a_bhárach arna mhárach
@@ -42,6 +47,8 @@ b'_áil b'áil
 b'_éigean b'éigean
 b'_fhéidir b'fhéidir
 b'_fhiú b'fhiú
+cá_náit cén áit
+ca_náit cén áit
 cá'r_bh'as cárbh as
 cár_bh' cárbh
 cár_bh cárbh
@@ -63,13 +70,21 @@ cia'r_bh'í cérbh í
 d'aon_úim d'aon oghaim
 dá_dtugtí dá dtabharfaí
 dá_mbíodh dá mbeadh
+dá_réag dáréag
+dá_'réag dáréag
 dá_ríribh dáiríre
+da_ríribh dáiríre
+d'á_ríribh dáiríre
 de_'n den
 de_n-a dá
 de_níon d'iníon
 dh'_fhághail fháil
 dh'_fhéadfadh d'fhéadfadh
 dh'_innsint insint
+dhá_réag dháréag
+dhá_'réag dháréag
+dh'á_ríribh dáiríre
+dhá_ríribh dáiríre
 do_bhaineas bhain mé
 do_bhí a bhí
 do_bhí bhí
@@ -211,12 +226,16 @@ ndroch_smuínte ndrochsmaointe
 ndroch_úsáid ndrochúsáid
 ndroch_úsáide ndrochúsáide
 fa_dtear faoi deara
+fá_ndeára faoi deara
 fá_n-a faoina
 faoi_n-a faoina
 faoi_'n faoin
+fé_ndeára faoi deara
 Flann_Sionna Flann Sionna
 fríd_a trína
+fríd_a' tríd an
 fríd_ár trínár
+gá_hacú cé acu
 go_dé'n cad é an
 go_dtug gur thug
 go_hÉire go hÉirinn
@@ -242,15 +261,20 @@ i_n-a ina
 i_n'aghaidh ina aghaidh
 i_n'aice ina aice
 i_n'aigne ina aigne
+i_náirde in airde
 i_n-allód anallód
 in_allód anallód
 i_n-ao' in aon
+i_n-aon in aon
 i_n-ao'-chor in aon chor
 i_n-ao'chor in aon chor
 i_n-aochor in aon chor
 i_n'aonar ina aonar
-i n-aondtigh in éindí
+i_n-aondtigh in éindí
 i_ndá in dhá
+i_ndiu inniu
+i_ndiú inniu
+i_n-diu inniu
 i_n-éan-chor in aon chor
 i_n'fhéachaint ina fhéachaint
 i_n'fhear ina fhear
@@ -258,6 +282,8 @@ i_n'fhochair ina fhochair
 ins_an sa
 ins_an san
 ins_na sna
+ist_oidhche istoíche
+ist'_oidhche istoíche
 le_gréin le gréin
 le_haigh le haghaidh
 le_haigh' le haghaidh
@@ -295,6 +321,8 @@ nár_bh' nárbh
 nár_bhfearr nárbh fhearr
 ní_fhuil níl
 ní_fhuilim nílim
+ní_fhuilimse nílimse
+ní_fhuilim-se nílimse
 ní_fhuilimid nílimid
 níor_b'é níorbh é
 níor_b'í níorbh í
