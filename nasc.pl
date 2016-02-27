@@ -42,7 +42,7 @@ sub shift_and_print {
 	for (0..($len-1)) {
 		shift @{$q};
 	}
-	$cand =~ s/^([BDMbdm]|[Dd]h)([ʼ’'])_/$1$2/i;
+	$cand =~ s/^([BDMTbdmt]|[Dd]h)([ʼ’'])_/$1$2/i;
 	$cand =~ s/_\\n_(.+)$/_$1\n\\n/;
 	print "$cand\n";
 }
@@ -55,7 +55,7 @@ sub look_for_multi {
 	for (my $len=$tot; $len >= 2; $len--) {
 		my $cand = join('_', @$q[0..($len-1)]);
 		my $lccand = normalize($cand);
-		if (exists($phrases{$lccand}) or $lccand =~ m/^([bdm]|dh)'_[^_]+$/) {
+		if (exists($phrases{$lccand}) or $lccand =~ m/^([bdmt]|dh)'_[^_]+$/) {
 			shift_and_print($q, $cand, $len);
 			return;
 		}

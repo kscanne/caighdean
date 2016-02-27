@@ -283,6 +283,7 @@ i[dg]hth?(.)	it$1	1
 ^taidhbh	taibh	1
 # handled by more general sb rule below
 #^taisb		taisp	1	<.+>	<&>
+^t'([aeiouáéíóúf].)	d'$1	1
 ^teasb([^h])	taispe$1	1
 ^teint	tint	1
 ^tele([^aeiouáéíóú]+[eéií])	teili$1	1
