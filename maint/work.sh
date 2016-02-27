@@ -23,7 +23,7 @@ then
 		fi
 	fi
 fi
-BARR=20
+BARR=500
 cat unknown${TEANGA}.txt | sed 's/^[0-9]* //' | egrep '..' | egrep -v '_' | head -n ${BARR} | sort -u |
 while read x
 do
@@ -32,4 +32,4 @@ do
 	echo "-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-"
 	echo "Á LORG: $x"
 	$CLAR "$x"
-done
+done | more
