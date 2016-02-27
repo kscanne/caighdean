@@ -202,6 +202,8 @@ GA2GV=${HOME}/gaeilge/ga2gv/ga2gv
 refresh: clean.txt-refresh pairs.txt-refresh ngrams.txt-refresh alltokens.pl-refresh
 
 groom: pairs.txt-refresh clean.txt-refresh rules.txt-refresh
+	cat multi.txt | LC_ALL=C sort -u | LC_ALL=C sort -k1,1 > temp.txt
+	mv -f temp.txt multi.txt
 
 # removed gaelu for RIA May 2014; doesn't make sense if trying to mimic
 # a human standardizing a pre-standard Irish book for example
