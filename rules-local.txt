@@ -1,7 +1,46 @@
 (...)-sin$	$1_sin	1
 (...)-seo$	$1_seo	1
+# tsórt -> sórt, tsaghas -> saghas
+# also means we need to have forms like "tsaoghail", where we want to
+# preserve the initial t, in the IG db as alt
+^ts			s		1
+([0-9])adh$	$1ú		1
 e[oó][cg]had$		eoidh_mé	1
 ([^e])[oó][cg]had$	$1óidh_mé	1
 e[oó][cg]hadsa$		eoidh_mise	1
 ([^e])[oó][cg]hadsa$	$1óidh_mise	1
-([0-9])adh$	$1ú		1
+e[oó]chair$	eoidh_tú	1
+e[oó]chairse$	eoidh_tusa	1
+(..)eabhair$	$1_sibh	1
+(..[^e])abhair$	$1_sibh	1
+([^e])[oó]chair$	$1óidh_tú	1
+(..)fad-sa$		$1faidh_mise	1
+(..)fadsa$		$1faidh_mise	1
+(..)fad$		$1faidh_mé	1
+(..)fead-sa$		$1fidh_mise	1
+(..)feadsa$		$1fidh_mise	1
+(..)fead$		$1fidh_mé	1
+(..)fai[rs]$	$1faidh_tú	1
+(..)fi[rs]$	$1fidh_tú	1
+(..)fai[rs]se$	$1faidh_tusa	1
+(..)fi[rs]se$	$1fidh_tusa	1
+(...)óis$	$1óidh_tú	1
+(...)eois$	$1eoidh_tú	1
+(...)ód$	$1óidh_mé	1
+(...)eod$	$1eoidh_mé	1
+(...)óid$	$1óidh_siad	1
+(...)eoid$	$1eoidh_siad	1
+(..)ains$	$1ann_tú	1
+(..[^a])ins$	$1eann_tú	1
+(..)íns$	$1íonn_tú	1
+(..)[au]íd$	$1aíonn_siad	1
+(.[^f])eas$	$1_mé		1
+(..[^aeiouáéíóúf])as$	$1_mé		1
+(.[^f])eas-sa$	$1_mise		1
+(..[^aeiouáéíóúf])as-sa$	$1_mise		1
+álas$		áil_mé		1
+(...)íos$	$1igh_mé	1
+ígheas$		igh_mé		1
+(..[^f])ai[rs]$	$1_tú	1
+(..[^aeiouáéíóúf])i[rs]$	$1_tú	1
+(...)ís$	$1igh_tú	1
