@@ -8,7 +8,7 @@ the Twitter streams <http://borel.slu.edu/gd2ga> and
 <http://borel.slu.edu/gv2ga>.
 
 To use the API, simply make a HTTP POST request to the URL
-http://borel.slu.edu/cgi-bin/seirbhis2.cgi with two parameters:
+`http://borel.slu.edu/cgi-bin/seirbhis2.cgi` with two parameters:
 
 * `teacs`: The source text to be translated, UTF-8 encoded
 * `foinse`: The ISO 639-1 code of the source language ("gd" or "gv")
