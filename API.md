@@ -29,16 +29,16 @@ How you process the JSON depends on the application you have in mind.
 If you are only interested in the target language translation, you can
 simply extract the second element of each pair and concatenate them
 together (there is a very simple detokenizer included in this repo). 
-But since these language pairs are linguistically very close, in most
+But since the languages we support are linguistically very close, in most
 cases we expect it to be more interesting and useful to use the
-translations as _annotations_ of one kind or another, as was done
-with Intergaelic and the Twitter streams.
+translations as _annotations_ of one kind or another on the source text,
+as was done with Intergaelic and the Twitter streams.
 
 Having the full set of translation pairs may also make it easier to 
 carry over any markup from the source text to the target text.
 
 Details
-_______
+-------
 
 * Generally speaking, texts are tokenized into single words, but occasionally
 a translation pair will have more than one word on the source side, as
