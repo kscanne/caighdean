@@ -15,14 +15,17 @@ To use the API, simply make a HTTP POST request to the URL
 
 The response will be a JSON array of _translation pairs_.  For example,
 if the value of the `foinse` parameter is "gd" (Scottish Gaelic), and
-the value of the `teacs` parameter is the following string:
+the value of the `teacs` parameter is the following string (containing an embedded newline):
 
-> Agus thubhairt e, "Iongantach!" an dèidh sin.
+```
+Agus thubhairt e,
+"Iongantach!" an dèidh sin.
+```
 
 You should get the following response:
 
 ```json
-[["Agus","Agus"],["thubhairt","dúirt"],["e","sé"],[",",","],["\"","\""],["Iongantach","Iontach"],["!","!"],["\"","\""],["an dèidh sin","ina dhiaidh sin"],[".","."],["\\n","\\n"]]
+[["Agus","Agus"],["thubhairt","dúirt"],["e","sé"],[",",","],["\\n","\\n"],["\"","\""],["Iongantach","Iontach"],["!","!"],["\"","\""],["an dèidh sin","ina dhiaidh sin"],[".","."]]
 ```
 
 How you process the JSON depends on the application you have in mind.
