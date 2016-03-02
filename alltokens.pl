@@ -99,6 +99,7 @@ sub process_chunk {
 }
 
 while (<STDIN>) {
+	my $newline_p = /\n$/;
 	for my $patt (@fixed) {
 		s/($patt)/\n$1\n/sg;
 	}
@@ -114,6 +115,6 @@ while (<STDIN>) {
 		}
 		process_chunk($chunk) unless ($fixed_p);
 	}
-	print '\n'."\n";
+	print '\n'."\n" if $newline_p;
 }
 exit 0;
