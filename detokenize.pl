@@ -37,7 +37,9 @@ while (<STDIN>) {
 		}
 	}
 	else {
-		print " ^$s^ $t";
+		print " " unless ($suppress == 1);
+		print "^$s^ $t";
+		$suppress = 0;
 	}
 }
 
