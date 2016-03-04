@@ -75,9 +75,11 @@ sub hypothesis_pairs_string {
 	for my $hr (@{$hyp->{'output'}}) {
 		my $source = $hr->{'s'};
 		my $target = $hr->{'t'};
-		$target = irishlc($target) unless ($source =~ m/_/);
-		$target = recapitalize($target, cap_style($source));
-		$source =~ s/([A-Za-zÀÈÌÒÙàèìòùáéíóúÁÉÍÓÚ'])_/$1 /g unless ($source =~ m/^@/);
+		unless ($source eq $target) {
+			$target = irishlc($target) unless ($source =~ m/_/);
+			$target = recapitalize($target, cap_style($source));
+			$source =~ s/([A-Za-zÀÈÌÒÙàèìòùáéíóúÁÉÍÓÚïçÇ'])_/$1 /g;
+		}
 		$ans .= "$source => $target\n";
 	}
 	return $ans;
