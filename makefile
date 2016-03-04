@@ -22,6 +22,7 @@ test: FORCE
 	bash test/nasctest.sh -a
 	bash test/detokentest.sh
 	bash test/fulltest.sh -a
+	bash test/clienttest.sh
 
 commitlog: FORCE
 	git add maint/oov.txt maint/oov-gd.txt maint/oov-gv.txt eval/speedlog.txt eval/wer.txt eval/wer-gd.txt eval/wer-gv.txt
