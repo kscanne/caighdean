@@ -43,19 +43,14 @@ def main():
 	# if no -d/-x 
 	#usage()
 	#sys.exit(0)
-	sourcelang = ''
 	if len(sys.argv) != 2:
 		usage()
 		sys.exit(1)
-	if sys.argv[1] == '-d':
-		sourcelang='gd'
-	elif sys.argv[1] == '-x':
-		sourcelang='gv'
-	else:
+	if sys.argv[1] != 'gd' and sys.argv[1] != 'gv':
 		usage()
 		sys.exit(1)
 	slurped = sys.stdin.read()
-	pairs = make_request({'foinse': sourcelang, 'teacs': slurped})
+	pairs = make_request({'foinse': sys.argv[1], 'teacs': slurped})
 	for pair in pairs:
 		kprint(pair[0] + ' => ' + pair[1])
 
