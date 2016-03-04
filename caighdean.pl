@@ -499,7 +499,7 @@ while (<STDIN>) {
 		s/[ʼ’]/'/g;
 		s/‐/-/g;  # U+2010 to ASCII
 	}
-	if ($_ eq '\n' or /^<.*>$/) { # skip SGML markup, newlines
+	if ($_ eq '\n' or /[<>:@&;=,.]/) { # skip SGML markup, newlines, URLs, etc.
 		process_ignorable_token($_);
 	}
 	elsif (/^'/ or /'$/) {
