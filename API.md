@@ -3,9 +3,11 @@ Web API
 -------
 
 I am currently running the gd2ga and gv2ga translators as a web service
-which powers both the Intergaelic web site <http://intergaelic.com/> and
-the Twitter streams <http://borel.slu.edu/gd2ga> and
-<http://borel.slu.edu/gv2ga>.
+which powers several applications:
+
+* the Intergaelic web site <http://intergaelic.com/>
+* Twitter streams <http://borel.slu.edu/gd2ga> and <http://borel.slu.edu/gv2ga>
+* [Minority Translate](http://translate.keeleleek.ee/wiki/Esileht), a translation application for Wikipedia articles
 
 To use the API, simply make a HTTP POST request to the URL
 `http://borel.slu.edu/cgi-bin/seirbhis2.cgi` with two parameters:
