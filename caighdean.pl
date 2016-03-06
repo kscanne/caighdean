@@ -497,7 +497,7 @@ while (<STDIN>) {
 	chomp;
 	if (/[a-zA-ZáéíóúÁÉÍÓÚàèìòùÀÈÌÒÙ]/) {
 		s/[ʼ’]/'/g;
-		s/‐/-/g;  # U+2010 to ASCII
+		s/[‐‑]/-/g;  # U+2010, U+2011 to ASCII
 	}
 	if ($_ eq '\n' or /[<>:@&;=,.]/) { # skip SGML markup, newlines, URLs, etc.
 		process_ignorable_token($_);
