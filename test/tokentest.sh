@@ -12,7 +12,7 @@ TMPFILE=`mktemp`
 cd ${FREAMH}
 # first line tests clean handling non-UTF-8 input; should convert
 # bad characters to U+FFFD which gets treated as a token
-(echo "Caoimhín Pádraig Ó Scanaill" | iconv -f UTF-8 -t ISO-8859-1; cat test/tokentest-in.txt) | perl preproc.pl | perl alltokens.pl "-‐" "0-9ʼ’'#_@" > $TMPFILE
+(echo "Caoimhín Pádraig Ó Scanaill" | iconv -f UTF-8 -t ISO-8859-1; cat test/tokentest-in.txt) | perl preproc.pl | bash alltokens.sh > $TMPFILE
 if [ "${1}" = "-r" ]
 then
 	cp -f $TMPFILE test/tokentest-out.txt

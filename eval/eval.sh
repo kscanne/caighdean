@@ -7,8 +7,8 @@ FREAMH=${HOME}/seal/caighdean
 TMP1=`mktemp`
 TMP2=`mktemp`
 cd ${FREAMH}
-cat "${1}" | perl alltokens.pl "-‐" "0-9ʼ’'#@" | egrep -v '^(<[^>]+>|\\n)$' | egrep '[A-Za-záéíóúÁÉÍÓÚàèìòùÀÈÌÒÙ]' > $TMP1
-cat "${2}" | perl alltokens.pl "-‐" "0-9ʼ’'#@" | egrep -v '^(<[^>]+>|\\n)$' |
+cat "${1}" | bash alltokens.sh | egrep -v '^(<[^>]+>|\\n)$' | egrep '[A-Za-záéíóúÁÉÍÓÚàèìòùÀÈÌÒÙ]' > $TMP1
+cat "${2}" | bash alltokens.sh | egrep -v '^(<[^>]+>|\\n)$' |
  egrep '[A-Za-záéíóúÁÉÍÓÚàèìòùÀÈÌÒÙ]' > $TMP2
 perl eval/wer.pl "${TMP1}" "${TMP2}"
 rm -f $TMP1 $TMP2
