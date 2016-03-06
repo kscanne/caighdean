@@ -46,13 +46,13 @@ baseline-gv: FORCE
 	@(cd eval; bash baseline.sh -x)
 
 # run pre-standardized text through the new code
-tokenized-output.txt: $(TESTPRE) tiomanai.sh nasc.pl caighdean.pl rules.txt clean.txt pairs.txt ngrams.txt alltokens.pl pairs-local.txt spurious.txt multi.txt
+tokenized-output.txt: $(TESTPRE) tiomanai.sh nasc.pl caighdean.pl rules.txt clean.txt pairs.txt ngrams.txt alltokens.sh alltokens.pl pairs-local.txt spurious.txt multi.txt
 	cat $(TESTPRE) | bash tiomanai.sh > $@
 
-tokenized-output-gd.txt: $(TESTGD) tiomanai.sh nasc.pl caighdean.pl rules-gd.txt clean.txt pairs-gd.txt ngrams.txt alltokens.pl pairs-local-gd.txt spurious-gd.txt multi-gd.txt
+tokenized-output-gd.txt: $(TESTGD) tiomanai.sh nasc.pl caighdean.pl rules-gd.txt clean.txt pairs-gd.txt ngrams.txt alltokens.sh alltokens.pl pairs-local-gd.txt spurious-gd.txt multi-gd.txt
 	cat $(TESTGD) | bash tiomanai.sh -d > $@
 
-tokenized-output-gv.txt: $(TESTGV) tiomanai.sh nasc.pl caighdean.pl rules-gv.txt clean.txt pairs-gv.txt ngrams.txt alltokens.pl pairs-local-gv.txt spurious-gv.txt multi-gv.txt
+tokenized-output-gv.txt: $(TESTGV) tiomanai.sh nasc.pl caighdean.pl rules-gv.txt clean.txt pairs-gv.txt ngrams.txt alltokens.sh alltokens.pl pairs-local-gv.txt spurious-gv.txt multi-gv.txt
 	cat $(TESTGV) | bash tiomanai.sh -x > $@
 
 nua-output.txt: tokenized-output.txt detokenize.pl
@@ -144,27 +144,27 @@ cgaeval: cga-output.txt FORCE
 
 ############## MAINTENANCE TARGETS: SURVEY OF UNKNOWN WORDS, ETC #############
 SEANCHORPAS=${HOME}/gaeilge/caighdean/prestandard/corpus.txt
-maint/unknown.txt: $(SEANCHORPAS) multi.txt pairs.txt pairs-local.txt rules.txt spurious.txt alltokens.pl nasc.pl tiomanai.sh
+maint/unknown.txt: $(SEANCHORPAS) multi.txt pairs.txt pairs-local.txt rules.txt spurious.txt alltokens.sh alltokens.pl nasc.pl tiomanai.sh
 	cat $(SEANCHORPAS) | bash tiomanai.sh -u | egrep '[A-Za-zÁÉÍÓÚáéíóúÀÈÌÒÙàèìòù]' | sort | uniq -c | sort -r -n | sed 's/^ *//' > $@
 
-maint/oov.txt: maint/unknown.txt $(SEANCHORPAS) alltokens.pl nasc.pl
-	echo `date '+%Y-%m-%d %H:%M:%S'` `(cat maint/unknown.txt | sed 's/ .*//' | addem; echo '10000'; echo '*'; cat $(SEANCHORPAS) | perl alltokens.pl "-‐" "0-9’'#@" | perl nasc.pl | egrep -v '^[<\\]' | wc -l; echo '/'; echo 'p') | dc | sed 's/..$$/.&/'` >> $@
+maint/oov.txt: maint/unknown.txt $(SEANCHORPAS) alltokens.sh alltokens.pl nasc.pl
+	echo `date '+%Y-%m-%d %H:%M:%S'` `(cat maint/unknown.txt | sed 's/ .*//' | addem; echo '10000'; echo '*'; cat $(SEANCHORPAS) | bash alltokens.sh | perl nasc.pl | egrep -v '^[<\\]' | wc -l; echo '/'; echo 'p') | dc | sed 's/..$$/.&/'` >> $@
 	tail $@
 
 GDCORPUS=${HOME}/seal/idirlamha/gd/freq/corpus.txt
-maint/unknown-gd.txt: $(GDCORPUS) multi-gd.txt pairs-gd.txt pairs-local-gd.txt rules-gd.txt spurious-gd.txt alltokens.pl nasc.pl tiomanai.sh
+maint/unknown-gd.txt: $(GDCORPUS) multi-gd.txt pairs-gd.txt pairs-local-gd.txt rules-gd.txt spurious-gd.txt alltokens.sh alltokens.pl nasc.pl tiomanai.sh
 	cat $(GDCORPUS) | bash tiomanai.sh -d -u | egrep '[A-Za-zÁÉÍÓÚáéíóúÀÈÌÒÙàèìòù]' | sort | uniq -c | sort -r -n | sed 's/^ *//' > $@
 
-maint/oov-gd.txt: maint/unknown-gd.txt $(GDCORPUS) alltokens.pl nasc.pl
-	echo `date '+%Y-%m-%d %H:%M:%S'` `(cat maint/unknown-gd.txt | sed 's/ .*//' | addem; echo '10000'; echo '*'; cat $(GDCORPUS) | perl alltokens.pl "-‐" "0-9’'#@" | perl nasc.pl -d | egrep -v '^[<\\]' | wc -l; echo '/'; echo 'p') | dc | sed 's/..$$/.&/'` >> $@
+maint/oov-gd.txt: maint/unknown-gd.txt $(GDCORPUS) alltokens.sh alltokens.pl nasc.pl
+	echo `date '+%Y-%m-%d %H:%M:%S'` `(cat maint/unknown-gd.txt | sed 's/ .*//' | addem; echo '10000'; echo '*'; cat $(GDCORPUS) | bash alltokens.sh | perl nasc.pl -d | egrep -v '^[<\\]' | wc -l; echo '/'; echo 'p') | dc | sed 's/..$$/.&/'` >> $@
 	tail $@
 
 GVCORPUS=${HOME}/seal/idirlamha/gv/freq/corpus.txt
-maint/unknown-gv.txt: $(GVCORPUS) multi-gv.txt pairs-gv.txt pairs-local-gv.txt rules-gv.txt spurious-gv.txt alltokens.pl nasc.pl tiomanai.sh
+maint/unknown-gv.txt: $(GVCORPUS) multi-gv.txt pairs-gv.txt pairs-local-gv.txt rules-gv.txt spurious-gv.txt alltokens.sh alltokens.pl nasc.pl tiomanai.sh
 	cat $(GVCORPUS) | bash tiomanai.sh -x -u | egrep '[A-Za-zçÇÁÉÍÓÚáéíóúÀÈÌÒÙàèìòù]' | sort | uniq -c | sort -r -n | sed 's/^ *//' > $@
 
-maint/oov-gv.txt: maint/unknown-gv.txt $(GVCORPUS) alltokens.pl nasc.pl
-	echo `date '+%Y-%m-%d %H:%M:%S'` `(cat maint/unknown-gv.txt | sed 's/ .*//' | addem; echo '10000'; echo '*'; cat $(GVCORPUS) | perl alltokens.pl "-‐" "0-9’'#@" | perl nasc.pl -x | egrep -v '^[<\\]' | wc -l; echo '/'; echo 'p') | dc | sed 's/..$$/.&/'` >> $@
+maint/oov-gv.txt: maint/unknown-gv.txt $(GVCORPUS) alltokens.sh alltokens.pl nasc.pl
+	echo `date '+%Y-%m-%d %H:%M:%S'` `(cat maint/unknown-gv.txt | sed 's/ .*//' | addem; echo '10000'; echo '*'; cat $(GVCORPUS) | bash alltokens.sh | perl nasc.pl -x | egrep -v '^[<\\]' | wc -l; echo '/'; echo 'p') | dc | sed 's/..$$/.&/'` >> $@
 	tail $@
 
 # grammar check standardizer output, to catch stuff
