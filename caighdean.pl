@@ -499,7 +499,10 @@ while (<STDIN>) {
 		s/[ʼ’]/'/g;
 		s/[‐‑]/-/g;  # U+2010, U+2011 to ASCII
 	}
-	if ($_ eq '\n' or /[<>:@&;=,.]/) { # skip SGML markup, newlines, URLs, etc.
+	# skip SGML markup+newlines, only things to completely ignore in n-gram model
+	# can match other "special" tokens with [:@&;=,.] which should all
+	# remain unchanged, but are part of n-gram model
+	if ($_ eq '\n' or /^<.+>$/) {
 		process_ignorable_token($_);
 	}
 	elsif (/^'/ or /'$/) {
