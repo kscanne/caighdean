@@ -8,6 +8,25 @@
 'S_mathaid B'fhéidir
 'S_urrainnear Is féidir
 'g_a á
+'gan_ceangal á gceangal
+'gan_cleachdadh á n-úsáid
+'gan_cruthachadh á gcruthú
+'gan_cuideachadh á gcuidiú
+'gan_cumail á gcoinneáil
+'gan_cur á gcur
+'gan_dèanamh á ndéanamh
+'gan_dìon á gcosaint
+'gan_glacadh á nglacadh
+'gan_iarraidh á n-iarraidh
+'gan_leasachadh á bhforbairt
+'gan_reic á ndíol
+'gan_stiùireadh á mbainistiú
+'gan_taisbeanadh á dtaispeáint
+'gan_tarraing á dtarraingt
+'gan_teagasg á dteagasc
+'gan_togail á dtógáil
+'gan_toirt á dtabhairt
+'gan_tuigsinn á dtuiscint
 'm_fagas i bhfogas
 'm_fagus i bhfogas
 'n_a_dhiaigh ina dhiaidh
@@ -3324,6 +3343,8 @@ a_dh'fhalachanan d'fholacháin
 a_dh'fhalachanan d'fholachán
 a_dh'fhalachd d'fhala
 a_dh'fhalaich d'fholaigh
+a_dh'fhalamhachadh d'fholmhú
+a_dh'fhalamhachaidh d'fholmhaithe
 a_dh'fhalamhachd d'fhoilmhe
 a_dh'fhalamhachd d'fholúis
 a_dh'fhalamhachd d'fholús
@@ -20750,6 +20771,8 @@ de_dh'fhalachanan d'fholacháin
 de_dh'fhalachanan d'fholachán
 de_dh'fhalachd d'fhala
 de_dh'fhalaich d'fholaigh
+de_dh'fhalamhachadh d'fholmhú
+de_dh'fhalamhachaidh d'fholmhaithe
 de_dh'fhalamhachd d'fhoilmhe
 de_dh'fhalamhachd d'fholúis
 de_dh'fhalamhachd d'fholús
@@ -26599,6 +26622,14 @@ dh'fhalaicheadh_iad fholóidís
 dh'fhalaicheadh_tu bhfolófá
 dh'fhalaicheadh_tu d'fholófá
 dh'fhalaicheadh_tu fholófá
+dh'fhalamhaich_iad bhfolmhaíodar
+dh'fhalamhaich_iad d'fholmhaíodar
+dh'fhalamhaich_iad fholmhaíodar
+dh'fhalamhaich_sinn bhfolmhaíomar
+dh'fhalamhaich_sinn d'fholmhaíomar
+dh'fhalamhaich_sinn fholmhaíomar
+dh'fhalamhaicheadh_iad d'fholmhóidís
+dh'fhalamhaicheadh_tu d'fholmhófá
 dh'fhalbh_iad d'imíodar
 dh'fhalbh_iad imíodar
 dh'fhalbh_iad n-imíodar
@@ -32468,6 +32499,8 @@ do_dh'fhalachanan d'fholacháin
 do_dh'fhalachanan d'fholachán
 do_dh'fhalachd d'fhala
 do_dh'fhalaich d'fholaigh
+do_dh'fhalamhachadh d'fholmhú
+do_dh'fhalamhachaidh d'fholmhaithe
 do_dh'fhalamhachd d'fhoilmhe
 do_dh'fhalamhachd d'fholúis
 do_dh'fhalamhachd d'fholús
@@ -37569,6 +37602,12 @@ falaicheadh_iad folaídís
 falaicheadh_tu bhfolófá
 falaichidh_sinn bhfolóimid
 falaichidh_sinn folóimid
+falamhaicheadh_iad bhfolmhaídís
+falamhaicheadh_iad bhfolmhóidís
+falamhaicheadh_iad folmhaídís
+falamhaicheadh_tu bhfolmhófá
+falamhaichidh_sinn bhfolmhóimid
+falamhaichidh_sinn folmhóimid
 falbhadh_iad himídís
 falbhadh_iad imídís
 falbhadh_iad n-imeoidís
@@ -37838,6 +37877,10 @@ fhalaicheadh_iad fholaídís
 fhalaicheadh_iad fholóidís
 fhalaicheadh_tu fholófá
 fhalaichidh_sinn fholóimid
+fhalamhaicheadh_iad fholmhaídís
+fhalamhaicheadh_iad fholmhóidís
+fhalamhaicheadh_tu fholmhófá
+fhalamhaichidh_sinn fholmhóimid
 fhalbhadh_iad imeoidís
 fhalbhadh_iad imídís
 fhalbhadh_tu imeofá
@@ -44092,6 +44135,8 @@ mo_fhalachanan m'fholacháin
 mo_fhalachanan m'fholachán
 mo_fhalachd m'fhala
 mo_fhalaich m'fholaigh
+mo_fhalamhachadh m'fholmhú
+mo_fhalamhachaidh m'fholmhaithe
 mo_fhalamhachd m'fhoilmhe
 mo_fhalamhachd m'fholúis
 mo_fhalamhachd m'fholús
