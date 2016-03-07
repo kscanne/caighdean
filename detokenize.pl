@@ -19,7 +19,6 @@ while (<STDIN>) {
 	if (/ => /) {
 		$s =~ s/ =>.*$//;
 		$t =~ s/^.* => //;
-		$t =~ s/ /_/g;
 	}
 	if ($s eq $t) {
 		if ($s eq '\n') {
@@ -37,6 +36,7 @@ while (<STDIN>) {
 		}
 	}
 	else {
+		$t =~ s/ /_/g;
 		print " " unless ($suppress == 1);
 		print "^$s^ $t";
 		$suppress = 0;
