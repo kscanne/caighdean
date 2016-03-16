@@ -181,8 +181,11 @@ sub irishlc {
 sub ngram_preprocess {
 	(my $w) = @_;
 	$w = irishlc($w);
-	$w =~ s/^[0-9]+$/<NUM>/;
-	$w =~ s/^.{1001}.*$/<UNK>/;
+	$w =~ s/^[0-9][0-9,.:]*$/<NUM>/;
+	$w =~ s/^.{70}.*$/<LONG>/;
+	$w =~ s/^.+:\/\/.*$/<URI>/;
+	$w =~ s/^@[A-Za-z0-9_]+$/<USER>/;
+	$w =~ s/^[A-Za-z0-9].*@.+$/<EMAIL>/;
 	return $w;
 }
 
