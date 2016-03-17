@@ -388,7 +388,7 @@ sub flush_best_hypothesis {
 		}
 	}
 	print "FLUSH:\n" if ($verbose);
-	print hypothesis_pairs_string($hashref->{$bestkey}) unless ($unknowns);
+	print hypothesis_pairs_string($hashref->{$bestkey});
 	$hashref->{$bestkey} = {
 		'logprob' => 0.0,
 		'output' => [],
@@ -418,8 +418,12 @@ sub process_one_token {
 		$hashref->{$tok} = 0;
 		$unknown++;
 		print "UNKNOWN: $tok\n" if $verbose;
-		print "$tok\n" if $unknowns;
+		if ($unknowns) {
+			print "$tok\n";
+			delete $hashref->{$tok};
+		}
 	}
+	return if ($unknowns);
 
 	print "Input token = $tok\n" if $verbose;
 	for my $x (keys %{$hashref}) {
@@ -469,7 +473,7 @@ sub process_one_token {
 		}
 	}
 	# when evaluating, don't want to memoize the fake answer for unknown tokens
-	delete $hashref->{$tok} if (($verbose or $unknowns) and $unknown_p);
+	delete $hashref->{$tok} if ($verbose and $unknown_p);
 }
 
 print "Ready.\n" if $verbose;
@@ -502,7 +506,7 @@ while (<STDIN>) {
 	}
 }
 
-flush_best_hypothesis(\%hypotheses);
+flush_best_hypothesis(\%hypotheses) unless ($unknowns);
 
 if ($verbose) {
 	print "Total tokens: $tokens\n";
