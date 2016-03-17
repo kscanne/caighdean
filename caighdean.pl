@@ -4,8 +4,7 @@ use strict;
 use warnings;
 use utf8;
 use Memoize;
-use DB_File;
-use DBM_Filter;
+use Redis;
 
 binmode STDIN, ":utf8";
 binmode STDOUT, ":utf8";
@@ -14,7 +13,6 @@ binmode STDERR, ":utf8";
 my $verbose = 0;
 my $unknowns = 0;
 my $extension = '';
-my $db = 1;
 
 for my $a (@ARGV) {
 	$verbose = 1 if ($a eq '-v');
@@ -32,8 +30,7 @@ my $unknown = 0;
 my @rules;
 my %spurious;
 my %cands;
-my %prob;
-my %smooth;
+my $redis;
 
 sub max {
 	(my $a, my $b) = @_;
@@ -196,23 +193,22 @@ sub ngram_preprocess {
 # When an ngram was not seen in training, we back off (recursion here)
 sub compute_log_prob_helper {
 	(my $ngram) = @_;
-	my $ans;
-	if (exists($prob{$ngram})) {
-		$ans = $prob{$ngram};
-	}
-	else {
+	my $ans = $redis->get($ngram);
+	if (!defined($ans)) {
 		if ($ngram =~ m/ /) {  # n>1
 			my $start = $ngram;
 			$start =~ s/ [^ ]+$//;
 			my $tail = $ngram;
 			$tail =~ s/^[^ ]+ //;
 			$ans = compute_log_prob_helper($tail);
-			if (exists($smooth{$start})) {
-				$ans += $smooth{$start};
-			}
+			$redis->select(1);
+			my $smfactor = $redis->get($start);
+			$redis->select(0);
+			$ans += $smfactor if (defined($smfactor));
 		}
 		else {  # 1-gram
-			$ans = $prob{'<UNSEEN>'};
+			$ans = $redis->get('<UNSEEN>');
+			print STDERR "Warning: prob of unseen token not found in DB\n" unless (defined($ans));
 		}
 	}
 	return $ans;
@@ -357,27 +353,8 @@ while (<LOCALPAIRS>) {
 }
 close LOCALPAIRS;
 
-if ($db) {
-	my $dbp = tie %prob, "DB_File", "prob.db", O_RDONLY, 0644, $DB_HASH or die "Cannot open prob.db: $!\n";
-	$dbp->Filter_Push('utf8');
-
-	my $dbs = tie %smooth, "DB_File", "smooth.db", O_RDONLY, 0644, $DB_HASH or die "Cannot open smooth.db: $!\n";
-	$dbs->Filter_Push('utf8');
-
-	memoize('compute_log_prob');
-}
-else {
-	print "Loading n-gram language model...\n" if ($verbose);
-	open(NGRAMS, "<:utf8", 'ngrams.txt') or die "Could not open n-gram data file ngrams.txt: $!";
-	while (<NGRAMS>) {
-		chomp;
-		m/^(.+)\t(.+)\t(.+)$/;
-		$prob{$1} = $2;
-		$smooth{$1} = $3 unless ($3 == 0);
-	}
-	close NGRAMS;
-}
-
+$redis = Redis->new; # default is 127.0.0.1:6379
+memoize('compute_log_prob');
 memoize('all_matches');
 
 # Keys are strings containing last two processed words, whether
