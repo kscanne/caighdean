@@ -35,18 +35,15 @@ def make_request(param_dict):
 		return array_of_pairs
 	
 def usage():
-	kprint('Usage: python client.py [-d|-x]')
+	kprint('Usage: python client.py [ga|gd|gv]')
 
 # ok to just read in as byte streams for now; if we eventually want UTF-8,
 # can do sys.stdin = codecs.getreader('utf-8')(sys.stdin) 
 def main():
-	# if no -d/-x 
-	#usage()
-	#sys.exit(0)
 	if len(sys.argv) != 2:
 		usage()
 		sys.exit(1)
-	if sys.argv[1] != 'gd' and sys.argv[1] != 'gv':
+	if sys.argv[1] != 'ga' and sys.argv[1] != 'gd' and sys.argv[1] != 'gv':
 		usage()
 		sys.exit(1)
 	slurped = sys.stdin.read()

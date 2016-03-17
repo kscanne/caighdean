@@ -43,9 +43,9 @@ sub xlate {
 	return undef;
 }
 
-die "Usage: perl client.pl [gd|gv]" if (scalar @ARGV != 1);
+die "Usage: perl client.pl [ga|gd|gv]" if (scalar @ARGV != 1);
 my $foinse = $ARGV[0];
-die "Usage: perl client.pl [gd|gv]" unless ($foinse eq 'gd' or $foinse eq 'gv');
+die "Usage: perl client.pl [ga|gd|gv]" unless ($foinse =~ m/^g[adv]$/);
 
 my $slurp;
 while (<STDIN>) {

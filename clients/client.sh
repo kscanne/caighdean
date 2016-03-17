@@ -1,7 +1,7 @@
 #/bin/bash
 if [ $# -ne 1 ]
 then
-	echo "Usage: $ bash client.sh [gd|gv]\n"
+	echo "Usage: $ bash client.sh [ga|gd|gv]\n"
 	exit 1
 fi
 # the 'echo x' bit allows us to preserve a trailing newline in input
