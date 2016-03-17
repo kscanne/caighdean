@@ -57,6 +57,7 @@
 ^seann-(..)	seann_$1	1
 ^t'([aeiouáéíóúàèìòùf].)	d'$1	1
 ^h([AEIOUÀÈÌÒÙÁÉÍÓÚaeiouàèìòùáéíóú]..)	h-$1	2
+([^t])-san$	$1san	1
 # atharraichidhean -> atharrachaidhean
 ichidhean$	chaidhean	1
 # beannuichte -> beannaichte, òrduichibh -> òrdaichibh, shocruich -> shocraich
