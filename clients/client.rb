@@ -3,6 +3,7 @@ require 'uri'
 require 'rubygems'
 require 'json'
 
+# tested and works with Ruby 1.8.7 and 1.9.3
 if ARGV.length != 1
   $stderr.puts "Usage: ruby client.rb [ga|gd|gv]"
   exit(1)
