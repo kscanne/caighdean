@@ -7,7 +7,7 @@ FREAMH=${HOME}/seal/caighdean
 # fourth arg is source language code (ga, gd, or gv)
 testoneclient() {
 	cd ${FREAMH}
-	EXTENSION=`echo "${3}" | sed 's/^bash$/sh/; s/^perl$/pl/; s/^python$/py/'`
+	EXTENSION=`echo "${3}" | sed 's/^bash$/sh/; s/^perl$/pl/; s/^python$/py/; s/^ruby$/rb/'`
 	TMPFILE2=`mktemp`
 	cat "test/testin${1}.txt" | ${3} "clients/client.${EXTENSION}" ${4} > $TMPFILE2
 	diff -u "${2}" "${TMPFILE2}"
@@ -22,7 +22,7 @@ testonelang() {
 	cd ${FREAMH}
 	TMPFILE=`mktemp`
 	cat "test/testin${1}.txt" | bash tiomanai.sh ${2} > $TMPFILE
-	testoneclient "${1}" "$TMPFILE" 'bash' "${3}" && testoneclient "${1}" "$TMPFILE" 'perl' "${3}" && testoneclient "${1}" "$TMPFILE" 'python' "${3}"
+	testoneclient "${1}" "$TMPFILE" 'bash' "${3}" && testoneclient "${1}" "$TMPFILE" 'perl' "${3}" && testoneclient "${1}" "$TMPFILE" 'python' "${3}" && testoneclient "${1}" "$TMPFILE" 'ruby' "${3}"
 	eval "rm -f $TMPFILE; return $?"
 }
 
