@@ -2,18 +2,20 @@
 Web API
 -------
 
-I am currently running the gd2ga and gv2ga translators as a web service
-which powers several applications:
+I am currently running the Irish standardizer and the gd2ga and gv2ga
+translators as a web service which powers several applications:
 
 * the Intergaelic web site <http://intergaelic.com/>
 * Twitter streams <http://borel.slu.edu/gd2ga> and <http://borel.slu.edu/gv2ga>
 * [Minority Translate](http://translate.keeleleek.ee/wiki/Esileht), a translation application for Wikipedia articles
+* [Pootle](http://pootle.translatehouse.org/), web-based localization server
+* [Command line clients](https://github.com/kscanne/caighdean/tree/master/clients) in Perl, Python, Ruby, and more
 
 To use the API, simply make a HTTP POST request to the URL
 `http://borel.slu.edu/cgi-bin/seirbhis3.cgi` with two parameters:
 
 * `teacs`: The source text to be translated, UTF-8 encoded
-* `foinse`: The ISO 639-1 code of the source language ("gd" or "gv"). Currently, Irish (ga) is the only supported target language so it does not get specified as a parameter.
+* `foinse`: The ISO 639-1 code of the source language ("ga", "gd" or "gv"). Specifying source language "ga" invokes the Irish standardizer.  Currently, Irish (ga) is the only supported target language so it does not get specified as a parameter.
 
 The response will be a JSON array of _translation pairs_.  For example,
 if the value of the `foinse` parameter is "gd" (Scottish Gaelic), and
