@@ -1,8 +1,8 @@
 caighdean
 =========
 
-Ríomhchlár a dhéanann caighdeánú uathoibríoch ar théacsanna Gaeilge.
-
+Inneall aistriúcháin atá taobh thiar de Chaighdeánaitheoir na Gaeilge,
+agus aistritheoirí Gàidhlig/Gaelg → Gaeilge
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
