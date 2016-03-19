@@ -15,8 +15,53 @@
 
 void error(const char *msg) { perror(msg); exit(1); }
 
+/*
+   pass a pointer to first char *after* opening double quote,
+   and this returns pointer to char *after* closing double quote
+*/
+char* print_json_string(char* j) {
+    char buf[1024];
+    int i=0;
+    while (*j != '"') {
+        if (*j == '\\') j++;
+        buf[i]=*j;
+        i++; j++;
+    }
+    buf[i]='\0';
+    printf("%s", buf);
+    j++;
+    return j;
+} 
+
 void parse_json(char* j) {
-    printf("JSON: %s\n", j);
+    while (isspace(*j)) j++;
+    if (*j != '[') error("Malformed JSON.");
+    j++;
+    while (isspace(*j)) j++;
+    while (*j == '[') {
+        j++;
+        while (isspace(*j)) j++;
+        if (*j != '"') error("Malformed JSON.");
+        j++;
+        j = print_json_string(j);
+        printf(" => ");
+        while (isspace(*j)) j++;
+        if (*j != ',') error("Malformed JSON.");
+        j++;
+        while (isspace(*j)) j++;
+        if (*j != '"') error("Malformed JSON.");
+        j++;
+        j = print_json_string(j);
+        printf("\n");
+        while (isspace(*j)) j++;
+        if (*j != ']') error("Malformed JSON.");
+        j++;
+        while (isspace(*j)) j++;
+        if (*j == ']') break;
+        if (*j != ',') error("Malformed JSON.");
+        j++;
+        while (isspace(*j)) j++;
+    }
 }
 
 
