@@ -37,8 +37,7 @@ sub xlate {
 		}
 	}
 	else {
-		# timeout, or connection refused usually
-		print STDERR "Unable to connect with the server. Please try again later.\n";
+		print STDERR "There was a problem: ".$response->status_line."\n";
 	}
 	return undef;
 }
@@ -52,6 +51,7 @@ while (<STDIN>) {
 	$slurp .= $_;
 }
 
-print xlate($slurp, $foinse); 
+my $output = xlate($slurp, $foinse); 
+print $output if (defined($output));
 
 exit 0;
