@@ -353,7 +353,8 @@ while (<LOCALPAIRS>) {
 }
 close LOCALPAIRS;
 
-$redis = Redis->new; # default is 127.0.0.1:6379
+eval {$redis = Redis->new;}; # default is 127.0.0.1:6379
+die "Unable to connect to Redis server" if $@;
 memoize('compute_log_prob');
 memoize('all_matches');
 
