@@ -17,7 +17,7 @@ binmode STDERR, ":utf8";
 sub xlate {
 	(my $text, my $fns) = @_;
 	my $ua = LWP::UserAgent->new();
-	$ua->timeout(15);
+	$ua->timeout(30);
     my $r = POST('https://borel.slu.edu/cgi-bin/seirbhis3.cgi',
 				[ 'teacs' => $text, 'foinse' => $fns ]);
     my $response = $ua->request($r);
