@@ -200,7 +200,7 @@ GA2GV=${HOME}/gaeilge/ga2gv/ga2gv
 
 # rules.txt currently locally modified - don't refresh from gramadoir!
 # do "make refresh" right after running "groom"
-refresh: clean.txt-refresh pairs.txt-refresh ngrams.txt-refresh alltokens.pl-refresh
+refresh: clean.txt-refresh pairs.txt-refresh ngrams.txt-refresh alltokens.pl-refresh ngramify.pl-refresh
 
 groom: pairs.txt-refresh clean.txt-refresh rules.txt-refresh
 	cat multi.txt | LC_ALL=C sort -u | LC_ALL=C sort -k1,1 > temp.txt
@@ -248,6 +248,11 @@ alltokens.pl-refresh: $(CRUBLOCAL)/alltokens.pl
 	rm -f alltokens.pl
 	cp $(CRUBLOCAL)/alltokens.pl alltokens.pl
 	chmod 444 alltokens.pl
+
+ngramify.pl-refresh: $(CRUBLOCAL)/ngramify.pl
+	rm -f model/ngramify.pl
+	cp $(CRUBLOCAL)/ngramify.pl model/ngramify.pl
+	chmod 444 model/ngramify.pl
 
 # don't wipe rules.txt - locally modified
 maintainer-clean:
