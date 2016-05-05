@@ -20,13 +20,13 @@ training-1.txt : alltokens.txt
 	cat alltokens.txt | LC_ALL=C sort | LC_ALL=C uniq -c | LC_ALL=C sort -r -n | sed 's/^ *//' > $@
 
 training-2.txt : alltokens.txt
-	cat alltokens.txt | ngramify.pl 2 | LC_ALL=C sort | LC_ALL=C uniq -c | LC_ALL=C sort -r -n | sed 's/^ *//' > $@
+	cat alltokens.txt | perl ngramify.pl 2 | LC_ALL=C sort | LC_ALL=C uniq -c | LC_ALL=C sort -r -n | sed 's/^ *//' > $@
 
 training-3.txt : alltokens.txt
-	cat alltokens.txt | ngramify.pl 3 | LC_ALL=C sort | LC_ALL=C uniq -c | LC_ALL=C sort -r -n | sed 's/^ *//' > $@
+	cat alltokens.txt | perl ngramify.pl 3 | LC_ALL=C sort | LC_ALL=C uniq -c | LC_ALL=C sort -r -n | sed 's/^ *//' > $@
 
 training-4.txt : alltokens.txt
-	cat alltokens.txt | ngramify.pl 4 | LC_ALL=C sort | LC_ALL=C uniq -c | LC_ALL=C sort -r -n | sed 's/^ *//' > $@
+	cat alltokens.txt | perl ngramify.pl 4 | LC_ALL=C sort | LC_ALL=C uniq -c | LC_ALL=C sort -r -n | sed 's/^ *//' > $@
 
 # note we're not using caighdean tokenizer, QUITE ON PURPOSE
 # unicode apostrophes and hyphens already converted here,
@@ -39,7 +39,7 @@ training-4.txt : alltokens.txt
 # The normalizations to <URI>, etc. should stay in sync with
 # the ngram_preprocess function in seal/caighdean/caighdean.pl
 alltokens.txt: corpus.txt cleanup.sh $(CAIGHDEAN)/alltokens.pl
-	cat corpus.txt | bash cleanup.sh | perl $(CAIGHDEAN)/alltokens.pl "'-" "0-9#_@" | denoise.pl -v | perl tolow.pl | sed 's/^[0-9][0-9,.:]*$$/<NUM>/' | sed '/.\{70\}/s/.*/<LONG>/' | sed '/:\/\//s/^.*$$/<URI>/' | sed 's/^@[A-Za-z0-9_][A-Za-z0-9_]*$$/<USER>/' | sed 's/^[A-Za-z0-9].*@.*$$/<EMAIL>/' > $@
+	cat corpus.txt | bash cleanup.sh | perl $(CAIGHDEAN)/alltokens.pl "'-" "0-9#_@" | perl denoise.pl -v | perl tolow.pl | sed 's/^[0-9][0-9,.:]*$$/<NUM>/' | sed '/.\{70\}/s/.*/<LONG>/' | sed '/:\/\//s/^.*$$/<URI>/' | sed 's/^@[A-Za-z0-9_][A-Za-z0-9_]*$$/<USER>/' | sed 's/^[A-Za-z0-9].*@.*$$/<EMAIL>/' > $@
 
 
 #######################################
