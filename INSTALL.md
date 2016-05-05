@@ -15,27 +15,11 @@ If you would rather not mess with git, then you can simply
 [download a ZIP](https://github.com/kscanne/caighdean/archive/master.zip)
 containing all of the files in the repository.
 
-The one file _not_ contained in the repository is the raw statistical language model `ngrams.txt` (roughly speaking, this contains a table of probabilities of seeing an word in Irish if you know the previous two words).  It currently weighs in at about 500MB uncompressed, and is therefore much too big to maintain on github. It should be placed in the same directory as all of the other files in the repository.  Contact me directly if you need a copy of `ngrams.txt`.
+The one resource _not_ contained in the repository is the Irish n-gram language model (roughly speaking, this is a table of probabilities of seeing a word in Irish if you know the previous two words). These statistics need to be stored a Redis database that the standardizer will access at runtime.
 
-The default behavior of the standardizer is to read the statistical 
-language models from a database.  You will need to have `libdb` and the
-Perl modules `DB_File` and `DBM_Filter` installed for this to work.
-Once you have the repository files and `ngrams.txt`, run this command to 
-build the databases:
+If you have a reasonably large corpus of (more or less) standard Irish, you can build your own n-gram model using the scripts in the `model` subdirectory. Just place your corpus in a plain text file, UTF-8 encoded, one sentence per line, in the `model` directory. Then edit the two variables at the top of `model/makefile`; the first should point to your clone of the `caighdean` repo, and the second should be the filename of your corpus (do *not* use the default name `corpus.txt`). Then:
 
-	$ perl builddb.pl
+	$ cd model
+	$ make
 
-This will take a while to run.  When it finishes, you will have two new files named `prob.db` and `smooth.db`, and you are ready to [start standardizing text](https://github.com/kscanne/caighdean/blob/master/USAGE.md).
-
-If you do not have `libdb` installed, you can try having the standardizer
-read the language model `ngrams.txt` directly into RAM.   For this,
-just set the value of the `$db` flag in `caighdean.pl` to 0:
-
-	my $db = 0;
- 
-If you go this route, you will need to run the standardizer
-on a reasonably powerful computer with plenty of RAM.  On my Linux server
-with 12GB RAM and a pretty fast drive it takes about a minute and
-half to load the language models.  On a MacBook Pro with 8GB RAM it
-takes about 12 minutes.  Once the models are loaded, the actual
-standardization process is pretty fast; better than 200K words per minute on the Linux server.
+You will need the Redis Perl module, and the Redis server must be running on your machine for this to work.  This will take a while to run.  When it finishes, you will be ready to [start standardizing text](https://github.com/kscanne/caighdean/blob/master/USAGE.md).
