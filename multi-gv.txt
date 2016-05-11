@@ -1030,6 +1030,7 @@ arm_shin n-armálamar
 armagh_ad d'armálfaidís
 armagh_oo d'armálfá
 armagh_shin d'armálfaimis
+armailt_aeragh aerfhórsa
 armee_hassooagh ghnáthairm
 armee_hassooagh ghnátharm
 armee_hassooagh gnáthairm
@@ -1266,6 +1267,7 @@ ayns_Norlann san Iorua
 ayns_Norlynn san Iorua
 ayns_Patagonia sa Phatagóin
 ayns_Patagonia_ny i bPatagóin na
+ayns_Purt i bPort
 ayns_Purt_Largey i bPort Láirge
 ayns_Samaria sa tSamáir
 ayns_Sheen sa tSín
@@ -1280,6 +1282,8 @@ ayns_aght_ennagh ar chuma éigin
 ayns_aght_ennagh ar dhóigh éigin
 ayns_ard-choraa in ard gutha
 ayns_balley i mbaile
+ayns_bolg i mbolg
+ayns_carnyn i gcairn
 ayns_cheer i dtír
 ayns_cheeraghyn i dtíortha
 ayns_coardailys ar aon intinn
@@ -1288,6 +1292,7 @@ ayns_corp i gcorp
 ayns_coyrle i gcomhairle
 ayns_daa in dhá
 ayns_dagh i ngach
+ayns_dorrys i ndoras
 ayns_dy_chooilley i ngach uile
 ayns_dy_vel mar go bhfuil
 ayns_e ina
@@ -1343,6 +1348,7 @@ ayns_shilley'n i láthair an
 ayns_shoh anseo
 ayns_shoh_wass abhus anseo
 ayns_thie i dteach
+ayns_thie_thooit i dteach ceann tuí
 ayns_troa i dtreo
 ayns_y sa
 ayns_y san
@@ -1566,6 +1572,7 @@ bee_cooag seamsóige
 bee_cooag tseamsóg
 bee_fys beidh a fhios
 bee_mee_my beidh mé i mo
+bee_mish_my beidh mise i mo
 bee_muc_friogganagh bleachtán colgach
 bee_oo_dty beidh tú i do
 beeal_awiney béal abhann
@@ -2351,6 +2358,7 @@ c'raad_va'n cá raibh an
 c'ren_fa cén fáth
 c'ren_fa_ta cén fáth a bhfuil
 c'ren_fa_va cén fáth a raibh
+ca_vel cá bhfuil
 caair_hoccoil cathaoir bhog
 caair_hroailt cathaoir iompair
 caair_leaystagh cathaoir luascáin
@@ -2616,6 +2624,7 @@ cha_negin ní éigean
 cha_nel níl
 cha_nel_fys níl a fhios
 cha_nel_mee_my níl mé i mo
+cha_nel_mish_my níl mise i mo
 cha_nel_oo_dty níl tú i do
 cha_nel_shin nílimid
 cha_nhegin ní éigean
@@ -2639,6 +2648,9 @@ cha_nyrrys ní aon iontas
 cha_ren ní dhearna
 cha_row ní raibh
 cha_row_egin níorbh éigean
+cha_row_mee_my ní raibh mé i mo
+cha_row_mish_my ní raibh mise i mo
+cha_row_oo_dty ní raibh tú i do
 cha_s'aym níl a fhios agam
 cha_s'ayms níl a fhios agamsa
 cha_saym níl a fhios agam
@@ -3915,6 +3927,34 @@ chosnagh_shin bhuafaimis
 chosnagh_shin gheobhaimis
 chosnagh_shin ghnóthóimis
 chosnagh_shin theithfimis
+chosne_ad bhfuaireadar
+chosne_ad bhuadar
+chosne_ad dteitheadar
+chosne_ad fuaireadar
+chosne_ad ghnóthaíodar
+chosne_ad mbuadar
+chosne_ad ngnóthaíodar
+chosne_ad theitheadar
+chosne_shin bhfuaireamar
+chosne_shin bhuamar
+chosne_shin dteitheamar
+chosne_shin fuaireamar
+chosne_shin ghnóthaíomar
+chosne_shin mbuamar
+chosne_shin ngnóthaíomar
+chosne_shin theitheamar
+chosneagh_ad bhuafaidís
+chosneagh_ad gheobhaidís
+chosneagh_ad ghnóthóidís
+chosneagh_ad theithfidís
+chosneagh_oo bhuafá
+chosneagh_oo gheofá
+chosneagh_oo ghnóthófá
+chosneagh_oo theithfeá
+chosneagh_shin bhuafaimis
+chosneagh_shin gheobhaimis
+chosneagh_shin ghnóthóimis
+chosneagh_shin theithfimis
 chosnee_ad bhfuaireadar
 chosnee_ad bhuadar
 chosnee_ad dteitheadar
@@ -5474,6 +5514,8 @@ derragh_shin dtabharfaimis
 derragh_shin gcuirfimis
 derragh_shin thabharfaimis
 derrey'n_astyr go tráthnóna
+derrey_laa_e_vaaish go lá a bháis
+derrey_laa_nyn_maaish go lá a mbáis
 derrey_nish go dtí anois
 derrey_t'ee go dtí go bhfuil sí
 derrey_t'eh go dtí go bhfuil sé
@@ -7395,6 +7437,7 @@ dy_row_ee_ruggit gur rugadh í
 dy_row_eh_ruggit gur rugadh é
 dy_row_mee_my go raibh mé i mo
 dy_row_mee_ruggit gur rugadh mé
+dy_row_mish_my go raibh mise i mo
 dy_row_oo_dty go raibh tú i do
 dy_row_oo_ruggit gur rugadh thú
 dy_row_shin go rabhamar
@@ -7496,6 +7539,7 @@ dy_veeiteil_roosyn le casadh leosan
 dy_vel go bhfuil
 dy_vel_fys go bhfuil a fhios
 dy_vel_mee_my go bhfuil mé i mo
+dy_vel_mish_my go bhfuil mise i mo
 dy_vel_oo_dty go bhfuil tú i do
 dy_vel_shin go bhfuilimid
 dy_vel_shinyn go bhfuilimidne
@@ -8362,6 +8406,7 @@ er_keoie ghealt
 er_keoie gheilte
 er_kiaullee cheoltóir
 er_kiaullee cheoltóra
+er_laa_dy_row lá dá raibh
 er_leeideil tar éis treorú
 er_leeideil_ad tar éis iad a threorú
 er_leeideil_shiu tar éis sibh a threorú
@@ -8747,6 +8792,11 @@ er_vannaghey tar éis beannú
 er_vannaghey_eh tar éis é a bheannú
 er_varroo tar éis marú
 er_ve tar éis a bheith
+er_ve_er_n'akin tar éis a bheith á fheiceáil
+er_ve_er_ny tar éis a bheith á
+er_ve_er_nyn tar éis a bheith do bhur
+er_ve_er_nyn tar éis a bheith dár
+er_ve_er_nyn tar éis a bheith á
 er_voaddey tar éis lasadh
 er_vosley tar éis oscailt
 er_vreayll tar éis coinneáil
@@ -12219,6 +12269,30 @@ gosnagh_shin mbuafaimis
 gosnagh_shin ngeobhaimis
 gosnagh_shin ngnóthóimis
 gosnagh_shin theithfimis
+gosneagh_ad bhuafaidís
+gosneagh_ad dteithfidís
+gosneagh_ad gheobhaidís
+gosneagh_ad ghnóthóidís
+gosneagh_ad mbuafaidís
+gosneagh_ad ngeobhaidís
+gosneagh_ad ngnóthóidís
+gosneagh_ad theithfidís
+gosneagh_oo bhuafá
+gosneagh_oo dteithfeá
+gosneagh_oo gheofá
+gosneagh_oo ghnóthófá
+gosneagh_oo mbuafá
+gosneagh_oo ngeofá
+gosneagh_oo ngnóthófá
+gosneagh_oo theithfeá
+gosneagh_shin bhuafaimis
+gosneagh_shin dteithfimis
+gosneagh_shin gheobhaimis
+gosneagh_shin ghnóthóimis
+gosneagh_shin mbuafaimis
+gosneagh_shin ngeobhaimis
+gosneagh_shin ngnóthóimis
+gosneagh_shin theithfimis
 gosneeagh_ad bhuafaidís
 gosneeagh_ad dteithfidís
 gosneeagh_ad gheobhaidís
@@ -15653,6 +15727,7 @@ jebagh_shin dtairgfimis
 jebagh_shin n-ofrálfaimis
 jebagh_shin ofrálfaimis
 jebagh_shin thairgfimis
+jeeaghyn_braew ag féachaint go breá
 jeelagh_ad dtíleoidís
 jeelagh_ad thíleoidís
 jeelagh_oo dtíleofá
@@ -16204,6 +16279,7 @@ kyndee_aeg ógchiontóirí
 kynney_deiney cine daonna
 laa_ad smearadar
 laa_banshey lá bainise
+laa_dy_row lá dá raibh
 laa_jerinagh sprioclae
 laa_jerinagh sprioclá
 laa_mustyr lá mustair
@@ -21759,6 +21835,10 @@ my_lhuiridyn m'fhad
 my_lhuiridyn m'fhaid
 my_lhune_eddrym m'iarleann
 my_lhune_eddrym m'iarleanna
+my_lhurid m'fhad
+my_lhurid m'fhaid
+my_lhuridyn m'fhad
+my_lhuridyn m'fhaid
 my_liaghey m'fhearthainn
 my_liaghey m'fhearthainne
 my_liargagh m'fhána
@@ -23165,6 +23245,7 @@ myrane_lesh mar aon le
 myrane_lesh mar aon leis
 myrneen_mreih muirnín ban
 mysh_yn faoin
+na'_vel nach bhfuil
 naa-enmysagh_ad athsheolfaidís
 naa-enmysagh_ad n-athsheolfaidís
 naa-enmysagh_oo athsheolfá
@@ -23523,9 +23604,11 @@ nagh_re nárbh
 nagh_ren nach ndearna
 nagh_row nach raibh
 nagh_row_mee_my nach raibh mé i mo
+nagh_row_mish_my nach raibh mise i mo
 nagh_row_oo_dty nach raibh tú i do
 nagh_vel nach bhfuil
 nagh_vel_mee_my nach bhfuil mé i mo
+nagh_vel_mish_my nach bhfuil mise i mo
 nagh_vel_oo_dty nach bhfuil tú i do
 nagh_vel_shin nach bhfuilimid
 nagh_vod nach féidir
@@ -25465,6 +25548,7 @@ ny_mast_ocsyn ina meascsa
 ny_merriu na mairbh
 ny_merriu na marbh
 ny_neesht araon
+ny_niaghtyn an nuacht
 ny_quail ina treo
 ny_ren a ndearna
 ny_s' níos
@@ -25831,6 +25915,9 @@ nyn_oi inár n-aghaidh
 nyn_oï in bhur n-aghaidh
 nyn_oï ina n-aghaidh
 nyn_oï inár n-aghaidh
+nyn_shassoo in bhur seasamh
+nyn_shassoo ina seasamh
+nyn_shassoo inár seasamh
 nyn_soie in bhur suí
 nyn_soie ina suí
 nyn_soie inár suí
@@ -29014,9 +29101,11 @@ shenn_skeeal seanscéal
 shenn_skeeal seanscéil
 shenn_skeealyn seanscéalta
 shenn_sleih seandaoine
+shenn_thieyn_thooit seantithe ceann tuí
 shenn_traaghyn seanlaethanta
 shenn_ven seanbhean
 shenn_ven seanmhná
+shenn_voddey seanmhadra
 shenn_voidyn seanmhaighdean
 shenn_voidyn seanmhaighdine
 shenn_voir seanmháthair
@@ -31208,6 +31297,8 @@ ta_egin is éigean
 ta_fys tá a fhios
 ta_mee_my atá mé i mo
 ta_mee_my tá mé i mo
+ta_mish_my atá mise i mo
+ta_mish_my tá mise i mo
 ta_oo_dty atá tú i do
 ta_oo_dty tá tú i do
 ta_shen_y_raad is é sin an bealach
@@ -31362,6 +31453,9 @@ thie_tashtee iarsmalann
 thie_tashtee músaeim
 thie_tashtee músaem
 thie_tashtee stórchiste
+thie_thooit teach ceann tuí
+thie_thooit theach ceann tuí
+thie_thooit tí ceann tuí
 thie_veg teach beag
 thie_ym-reaghee teach imréitigh
 thieyn_arroo gráinseach
@@ -31424,6 +31518,7 @@ thieyn_tashtee iarsmalanna
 thieyn_tashtee músaeim
 thieyn_tashtee músaem
 thieyn_tashtee stórchistí
+thieyn_thooit tithe ceann tuí
 thollag_'aiyr dallóg fhraoigh
 thollag_'aiyr luch fhéir
 thollag_faiyr dallóg fhraoigh
@@ -31566,10 +31661,12 @@ tra_t'ou nuair atá tú
 tra_ta nuair atá
 tra_ta'n nuair atá an
 tra_ta_mee_my nuair atá mé i mo
+tra_ta_mish_my nuair atá mise i mo
 tra_ta_oo_dty nuair atá tú i do
 tra_v' nuair a bhí
 tra_v'eh nuair a bhí sé
 tra_va_mee_my nuair a bhí mé i mo
+tra_va_mish_my nuair a bhí mise i mo
 tra_va_oo_dty nuair a bhí tú i do
 traa_arree aimsir an earraigh
 traa_cadlee am codlata
@@ -32057,6 +32154,8 @@ va_fys bhí a fhios
 va_mee_my a bhí mé i mo
 va_mee_my bhí mé i mo
 va_mee_ruggit rugadh mé
+va_mish_my a bhí mise i mo
+va_mish_my bhí mise i mo
 va_oo_dty a bhí tú i do
 va_oo_dty bhí tú i do
 va_oo_ruggit rugadh thú
@@ -34106,6 +34205,8 @@ whiltagh_ad chuilteálfaidís
 whiltagh_oo chuilteálfá
 whiltagh_shin chuilteálfaimis
 winlass_cabbil unlas capaill
+woish_y ón
+woish_yn ón
 wynlass_cabbil unlas capaill
 y_'akin a fheiceáil
 y_Chanadey Ceanada
