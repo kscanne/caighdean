@@ -32,8 +32,10 @@ my $caps = 0;
 while (<STDIN>) {
 	chomp;
 	if ($_ eq '\n') {
-		print $curr if ($filter == ($punc/$tokens < 0.4 and $caps/$tokens < 0.4));
-		$tokens = 0;
+		if ($tokens > 0) {
+			print $curr if ($filter == ($punc/$tokens < 0.4 and $caps/$tokens < 0.4));
+			$tokens = 0;
+		}
 		$punc = 0;
 		$caps = 0;
 		$curr = '';
