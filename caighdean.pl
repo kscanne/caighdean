@@ -5,6 +5,7 @@ use warnings;
 use utf8;
 use Memoize;
 use Redis;
+use Encode qw(encode);
 
 binmode STDIN, ":utf8";
 binmode STDOUT, ":utf8";
@@ -193,7 +194,7 @@ sub ngram_preprocess {
 # When an ngram was not seen in training, we back off (recursion here)
 sub compute_log_prob_helper {
 	(my $ngram) = @_;
-	my $ans = $redis->get($ngram);
+	my $ans = $redis->get(encode('UTF-8', $ngram));
 	if (!defined($ans)) {
 		if ($ngram =~ m/ /) {  # n>1
 			my $start = $ngram;
@@ -202,7 +203,7 @@ sub compute_log_prob_helper {
 			$tail =~ s/^[^ ]+ //;
 			$ans = compute_log_prob_helper($tail);
 			$redis->select(1);
-			my $smfactor = $redis->get($start);
+			my $smfactor = $redis->get(encode('UTF-8', $start));
 			$redis->select(0);
 			$ans += $smfactor if (defined($smfactor));
 		}
