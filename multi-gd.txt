@@ -68,6 +68,9 @@
 'na_laighe ina luí
 'na_shuidhe ina shuí
 'na_suidhe ina suí
+'nan_aghaidh ina gcoinne
+'nan_aghaidh ina n-aghaidh
+'nan_aonar ina n-aonar
 'nan_crùban ar a ngogaidí
 'nan_deann ar lánluas
 'nan_deann go gasta
@@ -5825,6 +5828,9 @@ a_dh'obraichean-drùise do ghnéasoibrithe
 a_dh'ochanaich d'ochadh
 a_dh'ochanaiche d'ochaidh
 a_dh'ochd d'ocht
+a_dh'ochd-casach d'ochtapas
+a_dh'ochd-casaich d'ochtapais
+a_dh'ochd-casaich d'ochtapas
 a_dh'ochd-chasach d'ochtapas
 a_dh'ochd-chasaich d'ochtapais
 a_dh'ochd-chasaich d'ochtapas
@@ -8072,6 +8078,7 @@ air_an_liostadh liostaithe
 air_an_liubhairt soláthartha
 air_an_lorg aimsithe
 air_an_lorg ar an gcuardach
+air_an_làrach_nam_bonn ar an toirt
 air_an_lìbhrigeadh seachadta
 air_an_lìonadh líonta
 air_an_neartachadh neartaithe
@@ -8190,6 +8197,7 @@ air_iomadan ar seachrán
 air_leith ar leith
 air_leth ar leith
 air_loidhne ar líne
+air_làrach_nam_bonn ar an toirt
 air_m'fhàgail do m'fhágáil
 air_mhisg ar meisce
 air_mhuinntireas ar aimsir
@@ -8576,6 +8584,7 @@ an_co-bhoinn_ri le tacaíocht ó
 an_co-bhoinn_ris_a' le tacaíocht ón
 an_co-bhoinn_ris_an le tacaíocht ón
 an_co-bhoinn_ris_na le tacaíocht ó na
+an_coimeas i gcomparáid
 an_coimeas_le i gcomparáid le
 an_coimeas_ri i gcomparáid le
 an_coimeas_ribh i gcomparáid leat
@@ -8590,6 +8599,8 @@ an_coimeas_ruibh i gcomparáid leat
 an_coimeas_ruibh i gcomparáid libh
 an_coimeas_ruinn i gcomparáid linn
 an_cois cois
+an_coluadair i dteagmháil
+an_coluadair i gcomhar
 an_comhair i dtreo
 an_comhair_a_bheòil chun tosaigh
 an_comhair_a_chùil ar gcúl
@@ -8659,6 +8670,8 @@ an_déigh i ndiaidh
 an_déigh_seo ina dhiaidh seo
 an_déigh_sin ina dhiaidh sin
 an_dòchas ag súil
+an_dùil_gu ag ceapadh go
+an_dùil_gu ag smaoineamh go
 an_eadh an ea
 an_ear anoir
 an_ear thoir
@@ -8681,6 +8694,7 @@ an_luchd-phoileis na póilíní
 an_luchd-poileas na póilíní
 an_luib ceangailte le
 an_luib ceangailte leis
+an_làrach_nam_bonn ar an toirt
 an_làthair i láthair
 an_lùib ceangailte le
 an_lùib ceangailte leis
@@ -8789,6 +8803,7 @@ an_urrainn_dhut an féidir leat
 an_àird in airde
 an_àirde in airde
 an_àite an áit
+an_àite in áit
 an_àite na háite
 an_àiteigin in áit éigin
 an_àiteigin áit éigin
@@ -9014,6 +9029,7 @@ ann_an_dràst' ann anois
 ann_an_dràsta ann anois
 ann_an_dèidh i ndiaidh
 ann_an_grèin i ngrian
+ann_an_làrach_nam_bonn ar an toirt
 ann_an_seo anseo
 ann_an_sheo anseo
 ann_an_shin ansin
@@ -15476,6 +15492,7 @@ cho-òrdanaicheadh_iad chomhordaídís
 cho-òrdanaicheadh_iad chomhordóidís
 cho-òrdanaicheadh_tu chomhordófá
 cho-òrdanaichidh_sinn chomhordóimid
+cho_fad chomh fada
 cho_fharpais chomórtas
 cho_neartaich chóineartaigh
 cho_neartaich gcóineartaigh
@@ -17701,6 +17718,9 @@ cèiricheadh_iad gciarfaidís
 cèiricheadh_tu gciarfá
 cèirichidh_sinn ciarfaimid
 cèirichidh_sinn gciarfaimid
+cèis_an_dorais bhfráma an dorais
+cèis_an_dorais fhráma an dorais
+cèis_an_dorais fráma an dorais
 cìreadh_iad cíoraidís
 cìreadh_iad gcíoraidís
 cìreadh_iad gcíorfaidís
@@ -23376,6 +23396,9 @@ de_dh'obraichean-drùise de ghnéasoibrithe
 de_dh'ochanaich d'ochadh
 de_dh'ochanaiche d'ochaidh
 de_dh'ochd d'ocht
+de_dh'ochd-casach d'ochtapas
+de_dh'ochd-casaich d'ochtapais
+de_dh'ochd-casaich d'ochtapas
 de_dh'ochd-chasach d'ochtapas
 de_dh'ochd-chasaich d'ochtapais
 de_dh'ochd-chasaich d'ochtapas
@@ -35233,6 +35256,9 @@ do_dh'obraichean-drùise do ghnéasoibrithe
 do_dh'ochanaich d'ochadh
 do_dh'ochanaiche d'ochaidh
 do_dh'ochd d'ocht
+do_dh'ochd-casach d'ochtapas
+do_dh'ochd-casaich d'ochtapais
+do_dh'ochd-casaich d'ochtapas
 do_dh'ochd-chasach d'ochtapas
 do_dh'ochd-chasaich d'ochtapais
 do_dh'ochd-chasaich d'ochtapas
@@ -37411,6 +37437,7 @@ dàilichidh_sinn moilleoimid
 dè_'n cad é an
 dè_'n cén
 dè_cho cé chomh
+dè_cho_fad cé chomh fada
 dèanadh_iad déanaidís
 dèanadh_iad ndéanaidís
 dèanadh_iad ndéanfaidís
@@ -47415,6 +47442,9 @@ nan_Làboraich Pháirtí an Lucht Oibre
 nan_Nua-Ealain na Nua-Ealaíon
 nan_Sami na Sámach
 nan_Sámi na Sámach
+nan_aghaidh ina gcoinne
+nan_aghaidh ina n-aghaidh
+nan_aonar ina n-aonar
 nan_crùban ar a ngogaidí
 nan_daoine na ndaoine
 nan_dèidh ina ndiaidh
@@ -47447,6 +47477,7 @@ naomhaichidh_sinn coisricfimid
 naomhaichidh_sinn gcoisricfimid
 naomhaichidh_sinn naomhóimid
 nar_dèidh inár ndiaidh
+nas_fhaide níos faide
 nas_fhaisg_air níos gaire do
 nas_fhaisg_air_a níos gaire dá
 nas_fhaisg_air_a' níos gaire don
@@ -49570,7 +49601,13 @@ ri_fhaighinn le fáil
 ri_grèin le grian
 ri_linn de bharr
 ri_linn de bhrí
+ri_linn dá bharr
+ri_linn dá bhrí
+ri_linn in aimsir
+ri_linn le linn
+ri_linn lena linn
 ri_na leis na
+ri_seo leis seo
 ri_taobh le taobh
 ri_thighinn le teacht
 ri_Àstralia leis an Astráil
@@ -49782,6 +49819,7 @@ ron_a_seo roimhe seo
 ron_a_sin roimhe sin
 ron_am roimh an
 ron_an roimh an
+ron_sin roimhe sin
 rothaich_iad rolladar
 rothaich_sinn rollamar
 rothaicheadh_iad rollaidís
