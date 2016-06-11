@@ -3,7 +3,7 @@ FREAMH=${HOME}/seal/caighdean
 
 testone() {
 	TMPFILE=`mktemp`
-	(cd ..; cat "test/testin${2}.txt" | bash tiomanai.sh ${3} | sed 's/^.* => //' | perl detokenize.pl > $TMPFILE)
+	(cd ..; cat "test/testin${2}.txt" | bash tiomanai.sh ${3} | perl detokenize.pl -t > $TMPFILE)
 	if [ "${1}" = "-r" ]
 	then
 		cp -f $TMPFILE "testout${2}.txt"

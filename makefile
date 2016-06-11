@@ -56,13 +56,13 @@ tokenized-output-gv.txt: $(TESTGV) tiomanai.sh nasc.pl caighdean.pl rules-gv.txt
 	cat $(TESTGV) | bash tiomanai.sh -x > $@
 
 nua-output.txt: tokenized-output.txt detokenize.pl
-	cat tokenized-output.txt | sed 's/^.* => //' | perl detokenize.pl > $@
+	cat tokenized-output.txt | perl detokenize.pl -t > $@
 
 nua-output-gd.txt: tokenized-output-gd.txt detokenize.pl
-	cat tokenized-output-gd.txt | sed 's/^.* => //' | perl detokenize.pl > $@
+	cat tokenized-output-gd.txt | perl detokenize.pl -t > $@
 
 nua-output-gv.txt: tokenized-output-gv.txt detokenize.pl
-	cat tokenized-output-gv.txt | sed 's/^.* => //' | perl detokenize.pl > $@
+	cat tokenized-output-gv.txt | perl detokenize.pl -t > $@
 
 # doing full files is too slow
 surv: FORCE
@@ -98,7 +98,7 @@ speedeval: FORCE
 	bash eval/speedeval.sh -x
 
 eid-output.txt: tokenized-output.txt
-	cat tokenized-output.txt | perl detokenize.pl > $@
+	cat tokenized-output.txt | perl detokenize.pl -f > $@
 
 # doesn't clean ngrams.txt or the *.db files!
 clean:
