@@ -8,8 +8,8 @@ binmode STDIN, ":utf8";
 binmode STDOUT, ":utf8";
 binmode STDERR, ":utf8";
 
-if ($#ARGV != 0 or $ARGV[0] !~ m/^-[stfap]$/) {
-    die "Usage: $0 [-s|-t|-f|-a|-p]\n  -s: source language only\n  -t: target language only\n  -f: focloir.ie NEID output\n  -a: mouseover annotations in HTML\n  -p: parallel text in HTML";
+if ($#ARGV != 0 or $ARGV[0] !~ m/^-[stfapr]$/) {
+    die "Usage: $0 [-s|-t|-f|-a|-p|-r]\n  -s: source language only\n  -t: target language only\n  -f: focloir.ie NEID output\n  -a: mouseover annotations in HTML\n  -p: parallel text in HTML\n  -r: ruby text annotation";
 }
 
 # stuff for -p
@@ -25,6 +25,7 @@ my $dispatch = {
 	'-a' => sub { (my $s, my $t) = @_; return "<span class=\"tooltip\">$s<span>$t</span></span>"; },
 	'-p' => sub { (my $s, my $t) = @_; return "<label class=\"w$counter\">$s</label>"; },
 	'-p2' => sub { (my $s, my $t) = @_; return "<label class=\"w$counter\">$t</label>"; },
+	'-r' => sub { (my $s, my $t) = @_; return "<ruby><rb>$s</rb><rt>$t</rt></ruby>"; },
 };
 # set this flag true if no need for space before next token
 # For example, start of doc, left parens, brackets
