@@ -46,13 +46,13 @@ baseline-gv: FORCE
 	@(cd eval; bash baseline.sh -x)
 
 # run pre-standardized text through the new code
-tokenized-output.txt: $(TESTPRE) tiomanai.sh nasc.pl caighdean.pl rules.txt clean.txt pairs.txt ngrams.txt alltokens.sh alltokens.pl pairs-local.txt spurious.txt multi.txt
+tokenized-output.txt: $(TESTPRE) tiomanai.sh nasc.pl caighdean.pl rules.txt clean.txt pairs.txt alltokens.sh alltokens.pl pairs-local.txt spurious.txt multi.txt
 	cat $(TESTPRE) | bash tiomanai.sh > $@
 
-tokenized-output-gd.txt: $(TESTGD) tiomanai.sh nasc.pl caighdean.pl rules-gd.txt clean.txt pairs-gd.txt ngrams.txt alltokens.sh alltokens.pl pairs-local-gd.txt spurious-gd.txt multi-gd.txt
+tokenized-output-gd.txt: $(TESTGD) tiomanai.sh nasc.pl caighdean.pl rules-gd.txt clean.txt pairs-gd.txt alltokens.sh alltokens.pl pairs-local-gd.txt spurious-gd.txt multi-gd.txt
 	cat $(TESTGD) | bash tiomanai.sh -d > $@
 
-tokenized-output-gv.txt: $(TESTGV) tiomanai.sh nasc.pl caighdean.pl rules-gv.txt clean.txt pairs-gv.txt ngrams.txt alltokens.sh alltokens.pl pairs-local-gv.txt spurious-gv.txt multi-gv.txt
+tokenized-output-gv.txt: $(TESTGV) tiomanai.sh nasc.pl caighdean.pl rules-gv.txt clean.txt pairs-gv.txt alltokens.sh alltokens.pl pairs-local-gv.txt spurious-gv.txt multi-gv.txt
 	cat $(TESTGV) | bash tiomanai.sh -x > $@
 
 nua-output.txt: tokenized-output.txt detokenize.pl
@@ -100,7 +100,6 @@ speedeval: FORCE
 eid-output.txt: tokenized-output.txt
 	cat tokenized-output.txt | perl detokenize.pl -f > $@
 
-# doesn't clean ngrams.txt or the *.db files!
 clean:
 	rm -f detokentest.txt unchanged.txt post-tokens.txt pre-tokens.txt tokenized-output*.txt nua-output*.txt cga-output.txt pre-surv.txt post-surv.txt tofix.txt survey.txt probsleft.txt maint/tofixgram.txt eid-output.txt maint/unknown*.txt maint/grammar*.txt
 
@@ -194,13 +193,12 @@ PRESTD=${HOME}/gaeilge/caighdean/prestandard
 CRUBLOCAL=${HOME}/gaeilge/crubadan/crubadan
 GRAMADOIR=${HOME}/gaeilge/gramadoir/gr/ga
 CRUB=/usr/local/share/crubadan
-NGRAM=${HOME}/gaeilge/ngram
 GA2GD=${HOME}/gaeilge/ga2gd/ga2gd
 GA2GV=${HOME}/gaeilge/ga2gv/ga2gv
 
 # rules.txt currently locally modified - don't refresh from gramadoir!
 # do "make refresh" right after running "groom"
-refresh: clean.txt-refresh pairs.txt-refresh ngrams.txt-refresh alltokens.pl-refresh ngramify.pl-refresh
+refresh: clean.txt-refresh pairs.txt-refresh alltokens.pl-refresh ngramify.pl-refresh
 
 groom: pairs.txt-refresh clean.txt-refresh rules.txt-refresh
 	cat multi.txt | LC_ALL=C sort -u | LC_ALL=C sort -k1,1 > temp.txt
@@ -226,12 +224,6 @@ pairs-gv.txt-refresh: FORCE
 	rm -f pairs-gv.txt
 	(cd $(GA2GV); make pairs-gv.txt)
 	chmod 444 pairs-gv.txt
-
-ngrams.txt-refresh: FORCE
-	rm -f ngrams.txt
-	(cd $(NGRAM); make ga-model.txt)
-	cp -f $(NGRAM)/ga-model.txt ngrams.txt
-	chmod 444 ngrams.txt
 
 # run groom to rebuild caighdean.txt if necessary
 clean.txt-refresh: FORCE
