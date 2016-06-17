@@ -142,25 +142,26 @@ sub recapitalize {
 # 3rd bit: on if there are any caps after hyphens (ignore initial h-,n-,t-)
 # (only examples where it's mixed are like "Bhaile-an-Easa" - rare)
 # 4rd bit: on if all caps (at least 2) after initial eclipsis or whatever.  So:
-# 0 = fear, bean, droch-cheann
+# 0 = fear, bean, droch-cheann; ~90% of single word tokens in gd/gv/pre-std ga
 # 1 = bhFear, h-Árd-rí, 'Sé
 # 3 = Droch-chor, Fear, Bean
 # 4 = sean-Mháirtín
 # 5 = bhFíor-Ghaedhealtacht
 # 7 = Nua-Eabhrac, Ard-Easbog
-# 9 = gCNOC
+# 9 = gCNOC, h-AIMSIRE
 # 11 = FEAR 
-# 13 = h-AIMSIRE
+# 13 = mBÉAL-OIDEAS
 # 15 = SEAN-GHAEDHEAL
-# It's important that this be reasonable on pre-standard text, so that
+# It's important that this work reasonably on pre-standard text,
+# Gàidhlig, or Manx, so that, for example,
 # h-Éireann is a "regular" capitalized word even w/ hyphen
 sub cap_style {
 	(my $w) = @_;
 	my $ans = 0;
-	$ans += 1 if ($w =~ m/^'*(([bdm]'|[hnt]-?)[AEIOUÁÉÍÓÚÀÈÌÒÙ]|mB|gC|n[DG]|bhF|bP|tS|dT|\p{Lu})/);
+	$ans += 1 if ($w =~ m/^'*((([bdm]|dh)'|[hnt]-?)[AEIOUÁÉÍÓÚÀÈÌÒÙ]|mB|gC|n[DG]|bhF|bP|t-?S|dT|\p{Lu})/);
 	$ans += 2 if ($w =~ m/^\p{Lu}/);
 	$ans += 4 if ($w =~ m/^...*-\p{Lu}/);
-	$ans += 8 if ($w =~ m/^'*(([hnt]-?)[AEIOUÁÉÍÓÚÀÈÌÒÙ]|mB|gC|n[DG]|bhF|bP|tS|dT)?(\p{Lu}|['-])*$/ and $w =~ /\p{Lu}.*\p{Lu}/);
+	$ans += 8 if ($w =~ m/^'*(([hnt]-?)[AEIOUÁÉÍÓÚÀÈÌÒÙ]|mB|gC|n[DG]|bhF|bP|t-?S|dT)?(\p{Lu}|['-])*$/ and $w =~ /\p{Lu}.*\p{Lu}/);
 	return $ans;
 }
 
