@@ -73,7 +73,7 @@ sub hypothesis_pairs_string {
 		my $source = $hr->{'s'};
 		my $target = $hr->{'t'};
 		unless ($source eq $target) {
-			$target = irishlc($target) unless ($source =~ m/_/);
+			$target = irishlc($target) unless ($source =~ m/_/ or $target =~ m/ /);
 			$target = recapitalize($target, cap_style($source));
 			$source =~ s/([A-Za-zÀÈÌÒÙàèìòùáéíóúÁÉÍÓÚïçÇ'])_/$1 /g;
 		}
