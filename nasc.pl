@@ -10,6 +10,7 @@ binmode STDERR, ":utf8";
 
 my %phrases;
 my $maxwords = 0;
+my $shifted_nl = 0; # hacky global state
 my $extension = '';
 
 for my $a (@ARGV) {
@@ -37,13 +38,21 @@ while (<MULTI>) {
 }
 close MULTI;
 
+# $len >= 2 always
 sub shift_and_print {
 	(my $q, my $cand, my $len) = @_;
 	for (0..($len-1)) {
 		shift @{$q};
 	}
+	if ($shifted_nl) {
+		print "\\n\n";
+		$shifted_nl = 0;
+	}
 	$cand =~ s/^([BDMTbdmt]|[Dd]h)([ʼ’'])_/$1$2/i;
-	$cand =~ s/_\\n_(.+)$/_$1\n\\n/;
+	if ($cand =~ m/_\\n_./) {
+		$cand =~ s/_\\n_(.+)$/_$1/;
+		$shifted_nl = 1;
+	}
 	print "$cand\n";
 }
 
@@ -81,6 +90,10 @@ sub look_for_multi {
 		}
 	}
 	my $w = shift @{$q};
+	if ($shifted_nl and $w !~ /^[.,\/;”:!?%})]$/) {
+		print "\\n\n";
+		$shifted_nl = 0;
+	}
 	print "$w\n";
 }
 
@@ -93,5 +106,5 @@ while (<STDIN>) {
 while (scalar @queue > 0) {
 	look_for_multi(\@queue);
 }
-
+print "\\n\n" if ($shifted_nl);
 exit 0;
