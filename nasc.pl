@@ -90,7 +90,7 @@ sub look_for_multi {
 		}
 	}
 	my $w = shift @{$q};
-	if ($shifted_nl and $w !~ /^[.,\/;”:!?%})]$/) {
+	if ($shifted_nl and $w !~ /^([\/%]|\p{Term}|\p{Pf}|\p{Pe})$/) {
 		print "\\n\n";
 		$shifted_nl = 0;
 	}
