@@ -49,11 +49,11 @@ while (<STDIN>) {
 			$suppress = 1 if ($ascii_double_quote_parity==1);
 			$ascii_double_quote_parity = 1 - $ascii_double_quote_parity;
 		}
-		unless ($suppress == 1 or $s =~ /^([.,\/;”:!?%})]|<\/[^>]*>)$/) {
+		unless ($suppress == 1 or $s =~ /^([\/%]|\p{Term}|\p{Pf}|\p{Pe}|<\/[^>]*>)$/) {
 			print " ";
 			$rhs .= " ";
 		}
-		$suppress = (($s =~ /^([“\/\$(\[#{]|<[^\/>][^>]*>)$/) or ($s eq '"' and $ascii_double_quote_parity==1));
+		$suppress = (($s =~ /^([\/\$#]|\p{Ps}|\p{Pi}|<[^\/>][^>]*>)$/) or ($s eq '"' and $ascii_double_quote_parity==1));
 		if ($s eq $t) {
 			print $s;
 			$rhs .= $s;
