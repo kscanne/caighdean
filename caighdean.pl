@@ -494,33 +494,39 @@ sub process_one_token {
 	delete $hashref->{$tok} if ($verbose and $unknown_p);
 }
 
+sub normalize_apost_and_dash {
+	(my $w) = @_;
+	if ($w =~ m/[a-zA-ZáéíóúÁÉÍÓÚàèìòùÀÈÌÒÙ]/) {
+		$w =~ s/[ʼ’]/'/g;
+		$w =~ s/[‐‑]/-/g;  # U+2010, U+2011 to ASCII
+	}
+	return $w;
+}
+
 print "Ready.\n" if $verbose;
 while (<STDIN>) {
 	chomp;
-	if (/[a-zA-ZáéíóúÁÉÍÓÚàèìòùÀÈÌÒÙ]/) {
-		s/[ʼ’]/'/g;
-		s/[‐‑]/-/g;  # U+2010, U+2011 to ASCII
-	}
 	# skip SGML markup+newlines, only things to completely ignore in n-gram model
 	# can match other "special" tokens with [:@&;=,.] which should all
 	# remain unchanged, but are part of n-gram model
 	if ($_ eq '\n' or /^<.+>$/) {
 		process_ignorable_token($_);
 	}
-	elsif (/^'/ or /'$/) {
-		if (exists($cands{$_}) or /^'+$/ or
-			(/^'*[A-ZÁÉÍÓÚÀÈÌÒÙ]/ and exists($cands{lc($_)}))) {
-			process_one_token($_);
+	elsif (/^['ʼ’]/ or /['ʼ’]$/) {
+		my $w = normalize_apost_and_dash($_);
+		if (exists($cands{$w}) or m/^['ʼ’]+$/ or
+			($w =~ m/^'*[A-ZÁÉÍÓÚÀÈÌÒÙ]/ and exists($cands{lc($w)}))) {
+			process_one_token($w);
 		}
 		else {
-			m/^('*)(.*[^'])('*)$/;
+			m/^(['ʼ’]*)(.*[^'ʼ’])(['ʼ’]*)$/;
 			process_one_token($1) if ($1 ne '');
-			process_one_token($2) if ($2 ne '');
+			process_one_token(normalize_apost_and_dash($2)) if ($2 ne '');
 			process_one_token($3) if ($3 ne '');
 		}
 	}
 	else {
-		process_one_token($_);
+		process_one_token(normalize_apost_and_dash($_));
 	}
 }
 
