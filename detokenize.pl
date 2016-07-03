@@ -53,7 +53,7 @@ while (<STDIN>) {
 			print " ";
 			$rhs .= " ";
 		}
-		$suppress = (($s =~ /^([\/\$#]|\p{Ps}|\p{Pi}|<[^\/>][^>]*>)$/) or ($s eq '"' and $ascii_double_quote_parity==1));
+		$suppress = (($s =~ /^([\/#]|\p{Sc}|\p{Ps}|\p{Pi}|<[^\/>][^>]*>)$/) or ($s eq '"' and $ascii_double_quote_parity==1));
 		if ($s eq $t) {
 			print $s;
 			$rhs .= $s;
