@@ -12,15 +12,16 @@ binmode STDERR, ":utf8";
 
 my $verbose = 0;
 my $unknowns = 0;
+my $runtests = 0;
 my $extension = '';
 
 for my $a (@ARGV) {
 	$verbose = 1 if ($a eq '-v');
 	$unknowns = 1 if ($a eq '-u');
+	$runtests = 1 if ($a eq '-t');
 	$extension = '-gd' if ($a eq '-d');
 	$extension = '-gv' if ($a eq '-x');
 }
-
 
 my $maxdepth = 10;
 my $penalty = 2.9;
@@ -31,6 +32,24 @@ my @rules;
 my %spurious;
 my %cands;
 my $redis;
+
+# Keys are strings containing last two processed words, whether
+# flushed or not.  If we haven't flushed in a while, the key is usually
+# simply the last two words in the hypothesis.
+# We just need the last two since these are used to compute the
+# most likely *next* word, which only depends on the previous two.
+# The value corresponding to the two words is a hashref representing
+# the *best* hypothesis with the given two final words.
+# The hashref stores the running logprob of the hypothesis
+# and an array containing all of the standardizations in the hypothesis...
+# this could conceivably be quite long.
+# entries in the array are hashrefs that look like:
+# {'s' => 'bainríoghan', 't' => 'banríon'}
+my %hypotheses;
+$hypotheses{''} = {
+	'logprob' => 0.0,
+	'output' => [],
+}; 
 
 sub max {
 	(my $a, my $b) = @_;
@@ -308,96 +327,78 @@ sub all_matches {
 	return \%ans;
 }
 
-print "Loading rules file...\n" if $verbose;
-open(RULES, "<:utf8", "rules$extension.txt") or die "Could not open spelling rules file: $!";
-while (<RULES>) {
-	next if (/^#/);
-	chomp;
-	my %rule;
-	m/^(\S+)\t(\S+)\t([0-9-]+)$/;
-	$rule{'patt'} = qr/$1/;
-	$rule{'level'} = $3;
-	my $repl = $2;
-	$repl =~ s/(.+)/"$1"/;
-	$rule{'repl'} = $repl;
-	push @rules, \%rule;
-}
-close RULES;
-
-print "Loading spurious pairs...\n" if $verbose;
-open(SPURIOUS, "<:utf8", "spurious$extension.txt") or die "Could not open list of spurious pairs: $!";
-while (<SPURIOUS>) {
-	chomp;
-	$spurious{$_}++;
-}
-close SPURIOUS;
-
-print "Loading clean word list...\n" if $verbose;
-open(CLEAN, "<:utf8", "clean.txt") or die "Could not open clean wordlist: $!";
-while (<CLEAN>) {
-	chomp;
-	push @{$cands{$_}}, $_ unless (exists($spurious{"$_ $_"}));
-}
-close CLEAN;
-
-print "Loading list of pairs...\n" if $verbose;
-open(PAIRS, "<:utf8", "pairs$extension.txt") or die "Could not open list of pairs: $!";
-while (<PAIRS>) {
-	chomp;
-	next if exists($spurious{$_});
-	m/^([^ ]+) (.+)$/;
-	push @{$cands{$1}}, $2;
-}
-close PAIRS;
-
-print "Loading multi-word phrase pairs...\n" if $verbose;
-open(MULTI, "<:utf8", "multi$extension.txt") or die "Could not open list of phrases: $!";
-while (<MULTI>) {
-	chomp;
-	m/^([^ ]+) (.+)$/;
-	my $source = $1;
-	my $target = $2;
-	push @{$cands{$source}}, $target;
-	if ($source =~ m/\p{Lu}/) {
-		push @{$cands{lc($source)}}, irishlc($target);
+sub load_databases {
+	print "Loading rules file...\n" if $verbose;
+	open(RULES, "<:utf8", "rules$extension.txt") or die "Could not open spelling rules file: $!";
+	while (<RULES>) {
+		next if (/^#/);
+		chomp;
+		my %rule;
+		m/^(\S+)\t(\S+)\t([0-9-]+)$/;
+		$rule{'patt'} = qr/$1/;
+		$rule{'level'} = $3;
+		my $repl = $2;
+		$repl =~ s/(.+)/"$1"/;
+		$rule{'repl'} = $repl;
+		push @rules, \%rule;
 	}
-}
-close MULTI;
+	close RULES;
 
-print "Loading local pairs...\n" if $verbose;
-open(LOCALPAIRS, "<:utf8", "pairs-local$extension.txt") or die "Could not open list of local pairs: $!";
-while (<LOCALPAIRS>) {
-	chomp;
-	if (exists($spurious{$_})) {
-		print STDERR "Warning: pair \"$_\" is in pairs-local and spurious\n"; 	
+	print "Loading spurious pairs...\n" if $verbose;
+	open(SPURIOUS, "<:utf8", "spurious$extension.txt") or die "Could not open list of spurious pairs: $!";
+	while (<SPURIOUS>) {
+		chomp;
+		$spurious{$_}++;
 	}
-	m/^([^ ]+) (.+)$/;
-	push @{$cands{$1}}, $2;
+	close SPURIOUS;
+
+	print "Loading clean word list...\n" if $verbose;
+	open(CLEAN, "<:utf8", "clean.txt") or die "Could not open clean wordlist: $!";
+	while (<CLEAN>) {
+		chomp;
+		push @{$cands{$_}}, $_ unless (exists($spurious{"$_ $_"}));
+	}
+	close CLEAN;
+
+	print "Loading list of pairs...\n" if $verbose;
+	open(PAIRS, "<:utf8", "pairs$extension.txt") or die "Could not open list of pairs: $!";
+	while (<PAIRS>) {
+		chomp;
+		next if exists($spurious{$_});
+		m/^([^ ]+) (.+)$/;
+		push @{$cands{$1}}, $2;
+	}
+	close PAIRS;
+
+	print "Loading multi-word phrase pairs...\n" if $verbose;
+	open(MULTI, "<:utf8", "multi$extension.txt") or die "Could not open list of phrases: $!";
+	while (<MULTI>) {
+		chomp;
+		m/^([^ ]+) (.+)$/;
+		my $source = $1;
+		my $target = $2;
+		push @{$cands{$source}}, $target;
+		if ($source =~ m/\p{Lu}/) {
+			push @{$cands{lc($source)}}, irishlc($target);
+		}
+	}
+	close MULTI;
+
+	print "Loading local pairs...\n" if $verbose;
+	open(LOCALPAIRS, "<:utf8", "pairs-local$extension.txt") or die "Could not open list of local pairs: $!";
+	while (<LOCALPAIRS>) {
+		chomp;
+		if (exists($spurious{$_})) {
+			print STDERR "Warning: pair \"$_\" is in pairs-local and spurious\n"; 	
+		}
+		m/^([^ ]+) (.+)$/;
+		push @{$cands{$1}}, $2;
+	}
+	close LOCALPAIRS;
+
+	eval {$redis = Redis->new;}; # default is 127.0.0.1:6379
+	die "Unable to connect to Redis server" if $@;
 }
-close LOCALPAIRS;
-
-eval {$redis = Redis->new;}; # default is 127.0.0.1:6379
-die "Unable to connect to Redis server" if $@;
-memoize('compute_log_prob');
-memoize('all_matches');
-
-# Keys are strings containing last two processed words, whether
-# flushed or not.  If we haven't flushed in a while, the key is usually
-# simply the last two words in the hypothesis.
-# We just need the last two since these are used to compute the
-# most likely *next* word, which only depends on the previous two.
-# The value corresponding to the two words is a hashref representing
-# the *best* hypothesis with the given two final words.
-# The hashref stores the running logprob of the hypothesis
-# and an array containing all of the standardizations in the hypothesis...
-# this could conceivably be quite long.
-# entries in the array are hashrefs that look like:
-# {'s' => 'bainríoghan', 't' => 'banríon'}
-my %hypotheses;
-$hypotheses{''} = {
-	'logprob' => 0.0,
-	'output' => [],
-}; 
 
 # pass hashref in vs. using global %hypotheses
 sub flush_best_hypothesis {
@@ -509,42 +510,88 @@ sub normalize_apost_and_dash {
 	return $w;
 }
 
-print "Ready.\n" if $verbose;
-while (<STDIN>) {
-	chomp;
-	# skip SGML markup+newlines, only things to completely ignore in n-gram model
-	# can match other "special" tokens with [:@&;=,.] which should all
-	# remain unchanged, but are part of n-gram model
-	if ($_ eq '\n' or /^<.+>$/) {
-		process_ignorable_token($_);
-	}
-	elsif (/^['ʼ’]/ or /['ʼ’]$/) {
-		my $w = normalize_apost_and_dash($_);
-		if (exists($cands{$w}) or m/^['ʼ’]+$/ or
-			($w =~ m/^'*[A-ZÁÉÍÓÚÀÈÌÒÙ]/ and exists($cands{lc($w)}))) {
-			process_one_token($w);
+sub translate_stdin {
+	print "Ready.\n" if $verbose;
+	while (<STDIN>) {
+		chomp;
+		# skip SGML markup+newlines, only things to completely ignore in n-gram model
+		# can match other "special" tokens with [:@&;=,.] which should all
+		# remain unchanged, but are part of n-gram model
+		if ($_ eq '\n' or /^<.+>$/) {
+			process_ignorable_token($_);
+		}
+		elsif (/^['ʼ’]/ or /['ʼ’]$/) {
+			my $w = normalize_apost_and_dash($_);
+			if (exists($cands{$w}) or m/^['ʼ’]+$/ or
+				($w =~ m/^'*[A-ZÁÉÍÓÚÀÈÌÒÙ]/ and exists($cands{lc($w)}))) {
+				process_one_token($w);
+			}
+			else {
+				m/^(['ʼ’]*)(.*[^'ʼ’])(['ʼ’]*)$/;
+				process_one_token($1) if ($1 ne '');
+				process_one_token(normalize_apost_and_dash($2)) if ($2 ne '');
+				process_one_token($3) if ($3 ne '');
+			}
 		}
 		else {
-			m/^(['ʼ’]*)(.*[^'ʼ’])(['ʼ’]*)$/;
-			process_one_token($1) if ($1 ne '');
-			process_one_token(normalize_apost_and_dash($2)) if ($2 ne '');
-			process_one_token($3) if ($3 ne '');
+			process_one_token(normalize_apost_and_dash($_));
 		}
 	}
-	else {
-		process_one_token(normalize_apost_and_dash($_));
+
+	flush_best_hypothesis(\%hypotheses) unless ($unknowns);
+
+	if ($verbose) {
+		print "Total tokens: $tokens\n";
+		print "Unknown tokens: $unknown\n";
+		if ($tokens > 0) {
+			my $frac = $unknown / (1.0 * $tokens);
+			print "Fraction unknown: $frac\n";
+		}
 	}
 }
 
-flush_best_hypothesis(\%hypotheses) unless ($unknowns);
-
-if ($verbose) {
-	print "Total tokens: $tokens\n";
-	print "Unknown tokens: $unknown\n";
-	if ($tokens > 0) {
-		my $frac = $unknown / (1.0 * $tokens);
-		print "Fraction unknown: $frac\n";
+sub assert {
+	(my $bool_expr, my $number, my $comment) = @_;
+	if ($bool_expr) {
+		print "ok $number - $comment\n" if $verbose;
 	}
+	else {
+		print "not ok $number - $comment\n";
+	}
+	return $bool_expr;
+}
+
+sub run_unit_tests {
+	my $testnum = 1;
+	assert(irishtc('an',0) eq 'an',$testnum++,'irishtc of function word in camel case');
+	assert(irishtc('na',0) eq 'na',$testnum++,'irishtc of function word in camel case');
+	assert(irishtc('mbaile',0) eq 'mBaile',$testnum++,'irishtc of eclipsed word in camel case');
+	assert(irishtc('mbaile',1) eq 'mBaile',$testnum++,'irishtc of eclipsed word');
+	assert(irishtc('an',1) eq 'An',$testnum++,'irishtc of function word at start');
+	assert(irishtc('mccartney',1) eq 'McCartney',$testnum++,'irishtc of Mc surname');
+	assert(irishtc("o'reilly",1) eq "O'Reilly",$testnum++,'irishtc of O surname');
+	assert(irishtc('an bhean',1) eq 'An bhean',$testnum++,'irishtc of a typical MWE');
+	assert(irishtc('n-oileán',1) eq 'nOileán',$testnum++,'irishtc requiring dropped hyphen after n');
+	assert(irishtc('t-aire',1) eq 'tAire',$testnum++,'irishtc requiring dropped hyphen after t');
+	assert(irishtc('r-phost',1) eq 'R-phost',$testnum++,'irishtc where we do not drop hyphen');
+# extend_sentence
+# last_two_words
+# shift_ngram
+# recapitalize
+# cap_style
+# irishlc
+# ngram_preprocess
+# normalize_apost_and_dash
+}
+
+if ($runtests) {
+	run_unit_tests();
+}
+else {
+	memoize('compute_log_prob');
+	memoize('all_matches');
+	load_databases();
+	translate_stdin();
 }
 
 exit 0;

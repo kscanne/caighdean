@@ -17,6 +17,7 @@ all: ok.txt
 
 ######################  TARGETS FOR TESTING   ###########################
 test: FORCE
+	! perl caighdean.pl -t | egrep '^not ok'
 	bash test/qa.sh
 	bash test/tokentest.sh -a
 	bash test/nasctest.sh -a
