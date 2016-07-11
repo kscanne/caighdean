@@ -206,10 +206,11 @@ sub cap_style {
 	return $ans;
 }
 
-# same as gaeilge/crubadan/crubadan/tolow
+# same as model/tolow.pl
+# handles single words and multi-word expressions
 sub irishlc {
 	(my $w) = @_;
-	return $w if ($w =~ /^[<\\]/);
+	return $w if ($w =~ /^[<\\]/); # backslash for '\n' only
 	$w =~ s/^([nt])([AEIOUÁÉÍÓÚ])/$1-$2/;
 	$w =~ s/ ([nt])([AEIOUÁÉÍÓÚ])/ $1-$2/g;
 	return lc($w);
@@ -574,12 +575,21 @@ sub run_unit_tests {
 	assert(irishtc('n-oileán',1) eq 'nOileán',$testnum++,'irishtc requiring dropped hyphen after n');
 	assert(irishtc('t-aire',1) eq 'tAire',$testnum++,'irishtc requiring dropped hyphen after t');
 	assert(irishtc('r-phost',1) eq 'R-phost',$testnum++,'irishtc where we do not drop hyphen');
+	assert(irishlc('ABC') eq 'abc',$testnum++,'irishlc of all capital word');
+	assert(irishlc('Gaeilge') eq 'gaeilge',$testnum++,'irishlc of typical capitalized word');
+	assert(irishlc('bean') eq 'bean',$testnum++,'irishlc of already-lowercase word');
+	assert(irishlc('nOileán') eq 'n-oileán',$testnum++,'irishlc requiring inserted hyphen');
+	assert(irishlc('tAire') eq 't-aire',$testnum++,'irishlc requiring inserted hyphen after t');
+	assert(irishlc('<P>') eq '<P>',$testnum++,'irishlc should not lowercase markup');
+	assert(irishlc('<a href="http://example.com/Tfij45R">') eq '<a href="http://example.com/Tfij45R">',$testnum++,'irishlc should not lowercase any attributes either');
+	assert(irishlc('Cósta Ríce') eq 'cósta ríce',$testnum++,'irishlc of MWE');
+	assert(irishlc('Cré na nAspal') eq 'cré na n-aspal',$testnum++,'irishlc of MWE requiring inserted hyphen');
+	assert(irishlc('a Ċaoiṁín') eq 'a ċaoiṁín',$testnum++,'irishlc of dotted consonants');
 # extend_sentence
 # last_two_words
 # shift_ngram
 # recapitalize
 # cap_style
-# irishlc
 # ngram_preprocess
 # normalize_apost_and_dash
 }
