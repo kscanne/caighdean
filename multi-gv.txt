@@ -2,7 +2,11 @@
 'Sy_Vurmey I mBurma
 'Syn_Nerin In Éirinn
 'cha_nel 'níl
+'eaynid_mooar spáis amuigh
 'eaynid_mooar spás amuigh
+'eaynid_vooar spáis amuigh
+'eaynid_vooar spás amuigh
+'ine_Goal Fhine Gall
 'n_vooinjer-veggey na daoine maithe
 'n_vooinjer-veggey na ndaoine maithe
 'naght_myr mar a
@@ -45,6 +49,7 @@
 'syn_eill sa bheo
 'syn_oie san oíche
 'syn_ym-ysseraght sna meáin
+'ynneig_sodjey_magh sceall is faide amach
 Abbyrlhit_Sheeanagh_Eddyr-ashoonagh Aibítir Idirnáisiúnta Foghraíochta
 Adrian_Cain Adrian Cain
 Aer_Lingus Aer Lingus
@@ -1300,6 +1305,7 @@ awin_rioee oighearshrutha
 awin_rioee t-oighearshruth
 awinyn_rioee oighearshruthanna
 ayn_rish_foddey ann le fada
+ayns_'aigney ina aigne
 ayns_Arabia san Araib
 ayns_Asia san Áise
 ayns_Baarle i mBéarla
@@ -5463,6 +5469,7 @@ d'ockle_arrey d'fhocal faire
 da'n_Phartee_Obbraghys do Pháirtí an Lucht Oibre
 da'n_derrey_yeh don duine amháin
 da'n_ym-ysseraght do na meáin
+da_'aigney dá aigne
 da_e dá
 da_e dó a
 da_fer_erbee d'aon duine
@@ -8694,6 +8701,8 @@ er-y-fa_dy_vel de bharr go bhfuil
 er-y-fa_dy_vel de bhrí go bhfuil
 er-y-fa_shen dá bharr sin
 er-y-fa_shen dá bhrí sin
+er_'laare ar an urlár
+er_'laue ar a lámh
 er_'naght_cheddin ar an gcaoi chéanna
 er_'ra ag rá
 er_a_son ar a son
@@ -9758,6 +9767,7 @@ feed_vlein fiche bliain
 feegan_coonlee hata tuí
 feegan_doo-oallee líon damháin alla
 feegan_y_doo-oallee líon damháin alla
+feer_'aase fíorlag
 feer_'oddey an-fhada
 feer_aalin an-álainn
 feer_aalin fíorálainn
@@ -13696,6 +13706,8 @@ gustheeagh_shin sciúrsálfaimis
 gy_baase chun báis
 gy_bragh go brách
 gy_kione chun críche
+gyn_'ys gan fhios
+gyn_'yss gan fhios
 gyn_aggle gan eagla
 gyn_annym gan anam
 gyn_ardcheim gan dínit
@@ -13842,10 +13854,8 @@ gyn_yeearree gan iarraidh
 gyn_ynnyd gan ionad
 gyn_ynsaghey gan foghlaim
 gyn_ynsaghey gan léann
-gyn_yss gan fhios
-gyn_'yss gan fhios
 gyn_ys gan fhios
-gyn_'ys gan fhios
+gyn_yss gan fhios
 gyn_çheughey gan cheangal
 gyn_çhymmey gan trua
 gyndagh_aeg n-ógchiontóir
@@ -16626,6 +16636,7 @@ jeeryn_vooar mórthíortha
 jeh'n_Americkey de Mheiriceá
 jeh'n_Chreesteeaght den Eocairist
 jeh'n_vooinjer-veggey de na daoine maithe
+jeh_'aigney dá aigne
 jeh_'n den
 jeh_'n_vooinjer-veggey de na daoine maithe
 jeh_Cilicia den tSiléis
@@ -21812,6 +21823,9 @@ my_ghebejaght m'éadóchais
 my_ghebejaght m'éadóchas
 my_ghecree m'fhorógra
 my_ghecreeyn m'fhorógraí
+my_gheherree m'uileloiscthe
+my_gheherree m'uileloscadh
+my_gheherreeyn m'uileloiscthí
 my_ghlaare-eddin m'éadain
 my_ghlaare-eddin m'éadan
 my_ghlaare-eddinyn m'éadain
@@ -23337,6 +23351,7 @@ my_s'gooidsave mura miste
 my_s'laik más maith
 my_s'lhiass más gá
 my_s'lhiass más éigean
+my_s'liauyr más fada
 my_s'mian más mian
 my_s'mie más maith
 my_s'taittin más maith
@@ -23787,6 +23802,10 @@ my_volvane m'amadáin
 my_volvane m'amadán
 my_volvaneyn m'amadáin
 my_volvaneyn m'amadán
+my_volvaneys m'amadántacht
+my_volvaneys m'amadántachta
+my_volvanid m'amadántacht
+my_volvanid m'amadántachta
 my_vondeishaght m'fhóntachais
 my_vondeishaght m'fhóntachas
 my_vondeishaghys m'fhóntachais
@@ -24039,6 +24058,10 @@ my_yeelaadaghyn m'íoslódálacha
 my_yeelaadey m'íoslódáil
 my_yeelaadey m'íoslódála
 my_yei i mo dhiaidh
+my_yeianagh m'fhorásach
+my_yeianagh m'fhorásaigh
+my_yeianee m'fhorásach
+my_yeianee m'fhorásaigh
 my_yeih i mo dhiaidh
 my_yeill m'aire
 my_yeillyn m'airí
@@ -24128,10 +24151,16 @@ my_ynlannish m'Fhionlainnis
 my_ynlannish m'Fhionlainnise
 my_ynn m'fhinn
 my_ynn m'fhionn
+my_ynnag m'fhaoitín
+my_ynnagyn m'fhaoitíní
 my_ynneig m'fhaighneog
 my_ynneig m'fhaighneoige
+my_ynneig m'fhíneog
+my_ynneig m'fhíneoige
 my_ynneigyn m'fhaighneog
 my_ynneigyn m'fhaighneoga
+my_ynneigyn m'fhíneog
+my_ynneigyn m'fhíneoga
 my_ynneraght m'fhionnuaire
 my_ynney m'fhionnadh
 my_ynney m'fhionnaidh
@@ -26594,6 +26623,7 @@ ny-vud_eu in bhur measc
 ny-vud_oc ina measc
 ny-yei_shen ina dhiaidh sin
 ny-yei_shoh ina dhiaidh seo
+ny_'di ina aghaidh
 ny_Bahamaghyn na Bahámaí
 ny_Bengaal Bheangál
 ny_Bretnisheyryn lucht na Breatnaise
@@ -29105,6 +29135,7 @@ ritlagyn_dy_'er ghioblacháin
 ritlagyn_dy_'er ghioblachán
 riuish_ny-lomarcan libhse amháin
 riuish_ny_lomarcan libhse amháin
+ro_'eayr rófhuar
 ro_'oddey rófhada
 ro_aarloo róréidh
 ro_aashagh ró-éasca
@@ -29123,7 +29154,6 @@ ro_costalagh róchostasach
 ro_costalagh róchostasacha
 ro_costalagh róchostasaigh
 ro_costalagh róchostasaí
-ro_'eayr rófhuar
 ro_foddey rófhada
 ro_ghaaney ródhána
 ro_gherrid róghairid
