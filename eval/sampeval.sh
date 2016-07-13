@@ -25,7 +25,7 @@ fi
 TMPSPRIOC=`mktemp`
 TMPX=`mktemp`
 cd ${FREAMH}
-paste "eval/testpre${TEANGA}.txt" "eval/testpost${TEANGA}.txt" | shuf | head -n $SAMPSIZE | tee $TMPSPRIOC | cut -f 1 | bash tiomanai.sh $@ | sed 's/^.* => //' | perl detokenize.pl > "$TMPX"
+paste "eval/testpre${TEANGA}.txt" "eval/testpost${TEANGA}.txt" | shuf | head -n $SAMPSIZE | tee $TMPSPRIOC | cut -f 1 | bash tiomanai.sh $@ | perl detokenize.pl -t > "$TMPX"
 sed -i "s/^.*\t//" $TMPSPRIOC
 echo `date '+%Y-%m-%d %H:%M:%S'` `bash eval/eval.sh "$TMPX" "$TMPSPRIOC"` >> "eval/wer${TEANGA}.txt"
 echo "WER:"
