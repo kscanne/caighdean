@@ -1,3 +1,6 @@
+#BB_Bellag #BB_Bellag
+#SP_Outreach #SP_Outreach
+#SP_educ #SP_educ
 'Ille_Cuipt 'Ille Cuipt
 'S_eadh Is ea
 'S_feumar Ní foláir
@@ -288,6 +291,7 @@ Phrìomh_Ionad-Cluiche Phríomh-Staid
 Phrìomh_Mhinistear Phríomh-Aire
 Phrìomh_Mhinisteir Phríomh-Aire
 Phrìomh_Thalla Phríomh-Halla
+Plaid_Cymru Plaid Cymru
 Poblachd_Meadhan_Afraga Poblacht na hAfraice Láir
 Porto_Novo Porto-Novo
 Prìomh_Ghnìomhan Príomh-Ghníomhartha
@@ -330,6 +334,7 @@ Sierra_Nevada Sierra Nevada
 Sinn_Féin Sinn Féin
 Sri_Lanca Srí Lanca
 Sri_Lanka Srí Lanca
+Star_Trek Star Trek
 Sula_Sgeir Sùlaisgeir
 Taigh_Seinnse Teach Tábhairne
 Taigh_nan_Cumantan Teach na dTeachtaí
@@ -547,6 +552,8 @@ a_dh'Aimearaganach do Mheiriceánach
 a_dh'Aimearaganaich do Mheiriceánach
 a_dh'Aimearaganaich do Mheiriceánaigh
 a_dh'Aimeireaga do Mheiriceá
+a_dh'Aimeireagaidh do Mheiriceá
+a_dh'Aimeireagaidhe do Mheiriceá
 a_dh'Aimeireaganach do Mheiriceánach
 a_dh'Aimeireaganaich do Mheiriceánach
 a_dh'Aimeireaganaich do Mheiriceánaigh
@@ -2805,10 +2812,14 @@ a_dh'easbuig d'easpag
 a_dh'easbuige d'easpaig
 a_dh'easbuigean d'easpag
 a_dh'easbuigean d'easpaig
+a_dh'eascairdean do naimhde
+a_dh'eascaraid do namhaid
+a_dh'eascaraide do namhad
 a_dh'easchruthachd do theibíocht
 a_dh'easchruthachd do theibíochta
 a_dh'eascruthachd do theibíocht
 a_dh'eascruthachd do theibíochta
+a_dh'eascàirdean do naimhde
 a_dh'easgainn d'eascainne
 a_dh'easgainn-bhreac do loimpre
 a_dh'easgann d'eascann
@@ -3412,6 +3423,9 @@ a_dh'fhallais d'allais
 a_dh'fhallas d'allas
 a_dh'fhallsachd d'fhalsacht
 a_dh'fhallsachd d'fhalsachta
+a_dh'fhalluinn d'fhallaing
+a_dh'fhalluinne d'fhallainge
+a_dh'fhalluinnean d'fhallaingeacha
 a_dh'fhalluis d'allais
 a_dh'fhallus d'allas
 a_dh'fhalmadair do halmadóir
@@ -3458,6 +3472,8 @@ a_dh'fhantail d'fhanacht
 a_dh'fhantail d'fhanachta
 a_dh'fhantainn d'fhanacht
 a_dh'fhantainn d'fhanachta
+a_dh'fhantuinn d'fhanacht
+a_dh'fhantuinn d'fhanachta
 a_dh'fhaobhair d'fhaobhair
 a_dh'fhaobhar d'fhaobhar
 a_dh'fhaobharachadh d'fhaobhrú
@@ -6030,6 +6046,11 @@ a_dh'oisein do choirnéil
 a_dh'oisein do chúinne
 a_dh'oisinn do choirnéal
 a_dh'oisinn do chúinne
+a_dh'oisinne do choirnéil
+a_dh'oisinne do chúinne
+a_dh'oisinnean do choirnéal
+a_dh'oisinnean do choirnéil
+a_dh'oisinnean do chúinní
 a_dh'oismium d'oismiam
 a_dh'oisne do choirnéil
 a_dh'oisne do chúinne
@@ -6514,6 +6535,7 @@ a_dh'uiseig d'fhuiseoige
 a_dh'uisg d'uisce
 a_dh'uisg' d'uisce
 a_dh'uisge d'uisce
+a_dh'uisgeacha d'uiscí
 a_dh'uisgeachadh d'uisciú
 a_dh'uisgeachaidh d'uiscithe
 a_dh'uisgeachan d'uiscí
@@ -11255,6 +11277,8 @@ bu_bhan-òglach b'ionailt
 bu_bhan-òglaich b'ionailtí
 bu_bhangaid b'fhéasta
 bu_bhangaidean b'fhéastaí
+bu_bhanoglach b'ionailt
+bu_bhanoglaich b'ionailtí
 bu_bhaoghalta b'amaideach
 bu_bhaoghalta b'amaideacha
 bu_bhaoghalta b'amaidí
@@ -13513,6 +13537,8 @@ bu_pheilear b'urchar
 bu_pheilearan b'urchair
 bu_pheinnseanachadh b'aoisliúntas
 bu_philleadh b'fhilleadh
+bu_phillte b'fhillte
+bu_philltinn b'fhilleadh
 bu_phiorna b'eiteán
 bu_phiornachan b'eiteáin
 bu_phlaosgadh b'oscailt
@@ -13999,6 +14025,7 @@ bu_thigh-òsda b'óstán
 bu_thighean-òsda b'óstáin
 bu_thilleadh b'fhilleadh
 bu_thillte b'fhillte
+bu_thilltinn b'fhilleadh
 bu_thiodhlacadh b'adhlacadh
 bu_thiodhlaicte b'adhlactha
 bu_thionndadh b'iompú
@@ -14861,6 +14888,9 @@ chan_e_sin ní hé sin
 chan_eadh ní hea
 chan_eil ní bhíonn
 chan_eil níl
+chan_eil_a_beat níl sárú
+chan_eil_am_beat níl sárú
+chan_eil_beat níl sárú
 chan_eilear níltear
 chan_ell ní bhíonn
 chan_ell níl
@@ -18130,6 +18160,8 @@ de_dh'Aimearaganach de Mheiriceánach
 de_dh'Aimearaganaich de Mheiriceánach
 de_dh'Aimearaganaich de Mheiriceánaigh
 de_dh'Aimeireaga de Mheiriceá
+de_dh'Aimeireagaidh de Mheiriceá
+de_dh'Aimeireagaidhe de Mheiriceá
 de_dh'Aimeireaganach de Mheiriceánach
 de_dh'Aimeireaganaich de Mheiriceánach
 de_dh'Aimeireaganaich de Mheiriceánaigh
@@ -20375,10 +20407,14 @@ de_dh'easbuig d'easpag
 de_dh'easbuige d'easpaig
 de_dh'easbuigean d'easpag
 de_dh'easbuigean d'easpaig
+de_dh'eascairdean de naimhde
+de_dh'eascaraid de namhaid
+de_dh'eascaraide de namhad
 de_dh'easchruthachd de theibíocht
 de_dh'easchruthachd de theibíochta
 de_dh'eascruthachd de theibíocht
 de_dh'eascruthachd de theibíochta
+de_dh'eascàirdean de naimhde
 de_dh'easgainn d'eascainne
 de_dh'easgainn-bhreac de loimpre
 de_dh'easgann d'eascann
@@ -20982,6 +21018,9 @@ de_dh'fhallais d'allais
 de_dh'fhallas d'allas
 de_dh'fhallsachd d'fhalsacht
 de_dh'fhallsachd d'fhalsachta
+de_dh'fhalluinn d'fhallaing
+de_dh'fhalluinne d'fhallainge
+de_dh'fhalluinnean d'fhallaingeacha
 de_dh'fhalluis d'allais
 de_dh'fhallus d'allas
 de_dh'fhalmadair de halmadóir
@@ -21028,6 +21067,8 @@ de_dh'fhantail d'fhanacht
 de_dh'fhantail d'fhanachta
 de_dh'fhantainn d'fhanacht
 de_dh'fhantainn d'fhanachta
+de_dh'fhantuinn d'fhanacht
+de_dh'fhantuinn d'fhanachta
 de_dh'fhaobhair d'fhaobhair
 de_dh'fhaobhar d'fhaobhar
 de_dh'fhaobharachadh d'fhaobhrú
@@ -23600,6 +23641,11 @@ de_dh'oisein de choirnéil
 de_dh'oisein de chúinne
 de_dh'oisinn de choirnéal
 de_dh'oisinn de chúinne
+de_dh'oisinne de choirnéil
+de_dh'oisinne de chúinne
+de_dh'oisinnean de choirnéal
+de_dh'oisinnean de choirnéil
+de_dh'oisinnean de chúinní
 de_dh'oismium d'oismiam
 de_dh'oisne de choirnéil
 de_dh'oisne de chúinne
@@ -24084,6 +24130,7 @@ de_dh'uiseig d'fhuiseoige
 de_dh'uisg d'uisce
 de_dh'uisg' d'uisce
 de_dh'uisge d'uisce
+de_dh'uisgeacha d'uiscí
 de_dh'uisgeachadh d'uisciú
 de_dh'uisgeachaidh d'uiscithe
 de_dh'uisgeachan d'uiscí
@@ -29812,6 +29859,7 @@ do_Astrailia don Astráil
 do_Astralàisia don Astraláise
 do_Astràilia don Astráil
 do_Australia don Astráil
+do_Bhabilon don Bhablóin
 do_Boilibhia don Bholaiv
 do_Bosna don Bhoisnia
 do_Bosnia don Bhoisnia
@@ -29985,6 +30033,8 @@ do_dh'Aimearaganach do Mheiriceánach
 do_dh'Aimearaganaich do Mheiriceánach
 do_dh'Aimearaganaich do Mheiriceánaigh
 do_dh'Aimeireaga do Mheiriceá
+do_dh'Aimeireagaidh do Mheiriceá
+do_dh'Aimeireagaidhe do Mheiriceá
 do_dh'Aimeireaganach do Mheiriceánach
 do_dh'Aimeireaganaich do Mheiriceánach
 do_dh'Aimeireaganaich do Mheiriceánaigh
@@ -32235,10 +32285,14 @@ do_dh'easbuig d'easpag
 do_dh'easbuige d'easpaig
 do_dh'easbuigean d'easpag
 do_dh'easbuigean d'easpaig
+do_dh'eascairdean do naimhde
+do_dh'eascaraid do namhaid
+do_dh'eascaraide do namhad
 do_dh'easchruthachd do theibíocht
 do_dh'easchruthachd do theibíochta
 do_dh'eascruthachd do theibíocht
 do_dh'eascruthachd do theibíochta
+do_dh'eascàirdean do naimhde
 do_dh'easgainn d'eascainne
 do_dh'easgainn-bhreac do loimpre
 do_dh'easgann d'eascann
@@ -32841,6 +32895,9 @@ do_dh'fhallais d'allais
 do_dh'fhallas d'allas
 do_dh'fhallsachd d'fhalsacht
 do_dh'fhallsachd d'fhalsachta
+do_dh'fhalluinn d'fhallaing
+do_dh'fhalluinne d'fhallainge
+do_dh'fhalluinnean d'fhallaingeacha
 do_dh'fhalluis d'allais
 do_dh'fhallus d'allas
 do_dh'fhalmadair do halmadóir
@@ -32887,6 +32944,8 @@ do_dh'fhantail d'fhanacht
 do_dh'fhantail d'fhanachta
 do_dh'fhantainn d'fhanacht
 do_dh'fhantainn d'fhanachta
+do_dh'fhantuinn d'fhanacht
+do_dh'fhantuinn d'fhanachta
 do_dh'fhaobhair d'fhaobhair
 do_dh'fhaobhar d'fhaobhar
 do_dh'fhaobharachadh d'fhaobhrú
@@ -35460,6 +35519,11 @@ do_dh'oisein do choirnéil
 do_dh'oisein do chúinne
 do_dh'oisinn do choirnéal
 do_dh'oisinn do chúinne
+do_dh'oisinne do choirnéil
+do_dh'oisinne do chúinne
+do_dh'oisinnean do choirnéal
+do_dh'oisinnean do choirnéil
+do_dh'oisinnean do chúinní
 do_dh'oismium d'oismiam
 do_dh'oisne do choirnéil
 do_dh'oisne do chúinne
@@ -35944,6 +36008,7 @@ do_dh'uiseig d'fhuiseoige
 do_dh'uisg d'uisce
 do_dh'uisg' d'uisce
 do_dh'uisge d'uisce
+do_dh'uisgeacha d'uiscí
 do_dh'uisgeachadh d'uisciú
 do_dh'uisgeachaidh d'uiscithe
 do_dh'uisgeachan d'uiscí
@@ -43860,6 +43925,9 @@ mo_bhan-òglaich m'ionailte
 mo_bhan-òglaich m'ionailtí
 mo_bhangaid m'fhéasta
 mo_bhangaidean m'fhéastaí
+mo_bhanoglach m'ionailt
+mo_bhanoglaich m'ionailte
+mo_bhanoglaich m'ionailtí
 mo_bhard m'fhile
 mo_bhardachd m'fhilíocht
 mo_bhardachd m'fhilíochta
@@ -44588,6 +44656,9 @@ mo_fhallais m'allais
 mo_fhallas m'allas
 mo_fhallsachd m'fhalsacht
 mo_fhallsachd m'fhalsachta
+mo_fhalluinn m'fhallaing
+mo_fhalluinne m'fhallainge
+mo_fhalluinnean m'fhallaingeacha
 mo_fhalluis m'allais
 mo_fhallus m'allas
 mo_fhalmhachadh m'fholmhú
@@ -44618,6 +44689,8 @@ mo_fhantail m'fhanacht
 mo_fhantail m'fhanachta
 mo_fhantainn m'fhanacht
 mo_fhantainn m'fhanachta
+mo_fhantuinn m'fhanacht
+mo_fhantuinn m'fhanachta
 mo_fhaobhair m'fhaobhair
 mo_fhaobhar m'fhaobhar
 mo_fhaobharachadh m'fhaobhrú
@@ -46307,6 +46380,9 @@ mo_pheinnseanachadh m'aoisliúntas
 mo_pheinnseanachaidh m'aoisliúntais
 mo_philleadh m'fhilleadh
 mo_phillidh m'fhillidh
+mo_phillidh m'fhillte
+mo_philltinn m'fhilleadh
+mo_philltinn m'fhillidh
 mo_phiorna m'eiteáin
 mo_phiorna m'eiteán
 mo_phiornachan m'eiteáin
@@ -46896,6 +46972,8 @@ mo_thighean-òsda m'óstán
 mo_thilleadh m'fhilleadh
 mo_thillidh m'fhillidh
 mo_thillidh m'fhillte
+mo_thilltinn m'fhilleadh
+mo_thilltinn m'fhillidh
 mo_thiodhlacadh m'adhlacadh
 mo_thiodhlacaidh m'adhlactha
 mo_thionndadh m'iompú
@@ -47330,6 +47408,7 @@ na_h-ath_cheumannan na chéad chéimeanna eile
 na_h-ath_mhìos na chéad mhíosa eile
 na_h-ath_sheachdain na chéad seachtaine eile
 na_h-ath_ìre an chéad leibhéil eile
+na_h-ealain na healaíona
 na_h-inbhich na daoine fásta
 na_h-inbhich na ndaoine fásta
 na_h-oileanaich na mic léinn
@@ -47747,6 +47826,7 @@ o_Astrailia ón Astráil
 o_Astralàisia ón Astraláise
 o_Astràilia ón Astráil
 o_Australia ón Astráil
+o_Bhabilon ón mBablóin
 o_Boilibhia ón Bholaiv
 o_Bosna ón Bhoisnia
 o_Bosnia ón Bhoisnia
@@ -48141,6 +48221,18 @@ phicileadh_iad phicilfidís
 phicileadh_iad phicilidís
 phicileadh_tu phicilfeá
 phicilidh_sinn phicilfimid
+phill_iad bhfilleadar
+phill_iad d'fhilleadar
+phill_iad fhilleadar
+phill_sinn bhfilleamar
+phill_sinn d'fhilleamar
+phill_sinn fhilleamar
+philleadh_iad d'fhillfidís
+philleadh_iad fhillfidís
+philleadh_iad fhillidís
+philleadh_tu d'fhillfeá
+philleadh_tu fhillfeá
+phillidh_sinn fhillfimid
 phiobraich_iad bhroideadar
 phiobraich_iad bpriocadar
 phiobraich_iad mbroideadar
@@ -48640,6 +48732,12 @@ picileadh_iad picilidís
 picileadh_tu bpicilfeá
 picilidh_sinn bpicilfimid
 picilidh_sinn picilfimid
+pilleadh_iad bhfillfidís
+pilleadh_iad bhfillidís
+pilleadh_iad fillidís
+pilleadh_tu bhfillfeá
+pillidh_sinn bhfillfimid
+pillidh_sinn fillfimid
 piobraicheadh_iad bpriocaidís
 piobraicheadh_iad bpriocfaidís
 piobraicheadh_iad broididís
@@ -52371,6 +52469,8 @@ siubhlaidh_sinn dtaistileoimid
 siubhlaidh_sinn siúlfaimid
 siubhlaidh_sinn taistealóimid
 siubhlaidh_sinn taistileoimid
+siuthad_ort lean ort
+siuthad_thu lean ort
 siùbhladh_iad dtaistealaídís
 siùbhladh_iad dtaistealóidís
 siùbhladh_iad dtaistileoidís
