@@ -16,6 +16,7 @@
 'nn_ár inár
 Flann_Sionna Flann Sionna
 Helen_na_Gréige Héilin na Gréige
+Iúdás_Macabéus Iúdás Macabaech
 Ua_bhFáilí Uíbh Fhailí
 a_céad-luaidhtear céadluaite
 a_d'iaraidh ag iarraidh
@@ -34,6 +35,7 @@ a_dh'éisteacht ag éisteacht
 a_dh'ól ag ól
 a_dtug ar thug
 a_dtáinig ar tháinig
+a_n-aimhdheoin in ainneoin
 a_n-diu inniu
 a_n-diú inniu
 a_ndiu inniu
@@ -55,6 +57,8 @@ ana_mhaith an-mhaith
 ana_mhór an-mhór
 ana_naomhtha an-naofa
 ana_shaidhbhir an-saibhir
+ar'_bh' arbh
+ar_bh' arbh
 ar_dtúis ar dtús
 ar_n-a_bhárach arna mhárach
 ar_n-a_n-oirthear anóirthear
@@ -74,7 +78,6 @@ b'_éigean b'éigean
 bhí_'is bhí a fhios
 ca_náit cén áit
 cad_'tá cad atá
-cé_'tá cé atá
 chan_fhuilim nílim
 cia'r_bh' cérbh
 cia'r_bh'e cérbh é
@@ -92,6 +95,7 @@ cé_'r_bh' cérbh
 cé_'r_bh'e cérbh é
 cé_'r_bh'é cérbh é
 cé_'r_bh'í cérbh í
+cé_'tá cé atá
 cé_is_moite cé is moite
 cé_is_móite cé is moite
 cér_bh cérbh
@@ -178,6 +182,7 @@ do_léigheas léigh mé
 do_n don
 do_n-a dá
 do_níon d'iníon
+do_raghfá rachfá
 do_rinneas rinne mé
 do_ritheas rith mé
 do_sgríobhas scríobh mé
@@ -240,6 +245,7 @@ fá_ndeár faoi deara
 fá_ndeára faoi deara
 fé_ndeár faoi deara
 fé_ndeára faoi deara
+gCeanntar_gCumhang gCeantar Cúng
 go_dtug gur thug
 go_dtáinig gur tháinig
 go_dé'n cad é an
@@ -288,9 +294,12 @@ i_n-achrann in achrann
 i_n-aghaidh in aghaidh
 i_n-aice in aice
 i_n-aigne in aigne
+i_n-aimhdheoin in ainneoin
 i_n-aimhdheóin in ainneoin
 i_n-aimhréidh in aimhréidh
 i_n-aimsir in aimsir
+i_n-aindeoin in ainneoin
+i_n-aindeóin in ainneoin
 i_n-ainim in ainm
 i_n-ainm in ainm
 i_n-aisge in aisce
@@ -376,11 +385,13 @@ le_n' lena
 le_n'ithe lena ithe
 le_n'íoc lena íoc
 le_n-a lena
+les_an leis an
+les_gach le gach
 luighe_gaidhte luí gaidhte
 luí_gaidhte luí gaidhte
 mac_a_samhail macasamhail
-mar_dh'eadh mar dhea
 mar_'tá mar atá
+mar_dh'eadh mar dhea
 mb'_fhiú mb'fhiú
 mb'_fhéidir mb'fhéidir
 mb'_áil mb'áil
@@ -420,6 +431,7 @@ ndroch_smuínte ndrochsmaointe
 ndroch_íde ndrochíde
 ndroch_úsáid ndrochúsáid
 ndroch_úsáide ndrochúsáide
+nÚdarás_nÁitiúil nÚdarás Áitiúil
 ná_beadh nach mbeadh
 ná_beidh nach mbeidh
 ná_béadh nach mbeadh
@@ -441,6 +453,7 @@ nár_bh'fhéidir nárbh fhéidir
 nár_bh'é nárbh é
 nár_bhfada nárbh fhada
 nár_bhfearr nárbh fhearr
+nár_bhfoláir nárbh fholáir
 ní_fhuil níl
 ní_fhuilim nílim
 ní_fhuilim-se nílimse
@@ -457,8 +470,12 @@ níor_bh'é níorbh é
 níor_bhfada níorbh fhada
 níor_bhfearr níorbh fhearr
 níor_bhfhada níorbh fhada
+níor_bhfoláir níorbh fholáir
 níor_bhfuras níorbh fhurasta
 níor_bhfurasta níorbh fhurasta
+om_baiste ambaiste
+om_briathar dar mo bhriathar
+om_briathar dom briathar
 os_ceann os cionn
 ró_bheag róbheag
 ró_chruaidh róchrua
