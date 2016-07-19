@@ -77,14 +77,19 @@ corpus-pre.txt: corpus-pre-pre.txt
 corpus-pre-pre.txt: okdocs.txt
 	cat okdocs.txt | while read fn; do sed '1s/^/\n/' "$$fn"; done | abairti-dumb | tr "\000-\011" " " | tr "\013-\037" " " | egrep -v '[Ã¤¶�]' | egrep -v '.{500}' | egrep '.{20}' > $@
 
+# Filtering: (1) sites that make it into corpus some other way, e.g.
+# Indigenous Tweets, *.blogspot.*, Tuairisc, Wikipedia, etc.
+# and also anything pre-standard (CELT, corkirish, wikisource, etc.)
+# Stuff in latter category should be copied to diolaim/sean if possible...
 webonly.txt:
-	cat $(CRUB)/MANIFEST | sed '1d' | egrep -v '(indigenoustweets|wikipedia|ucc.ie/celt|celt.ucc.ie)' | sed 's@^[^ ]* @$(CRUB)/ciu/@' > $@
+	cat $(CRUB)/MANIFEST | sed '1d' | egrep -v '(blogspot.com|corkirish|indigenoustweets|smo.uhi.ac.uk|wikipedia|wikisource.org|ucc.ie/celt|celt.ucc.ie)' | sed 's@^[^ ]* @$(CRUB)/ciu/@' > $@
 	(cd ${HOME}/seal/irishcompleted/walescrawler; make > /dev/null 2>&1; cat okdocs.txt) >> $@
 	echo '/home/kps/seal/leipzig/gle_mixed_unique.txt' >> $@
 
-# leaving out $(DIOLAIM)/OF81 intentionally!
+# Adding OF81 back in 18 Jul 2016
+# IB-laighneach == t/OB36 == ria/AU021
 localonly.txt:
-	(find $(DIOLAIM)/l -type f | egrep -v '(Twitter|TA|Msg|OB28|OC67|OC75|OC88|OD03)'; find $(DIOLAIM)/n -type f; find $(DIOLAIM)/r -type f) > $@
+	(find $(DIOLAIM)/l -type f | egrep -v '(Twitter|TA|IB-laighneach)'; find $(DIOLAIM)/n $(DIOLAIM)/OF81 $(DIOLAIM)/r -type f) > $@
 
 okdocs.txt: webonly.txt localonly.txt
 	cat webonly.txt localonly.txt > $@
