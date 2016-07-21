@@ -23,7 +23,7 @@ then
 		fi
 	fi
 fi
-BARR=500
+BARR=200
 cat unknown${TEANGA}.txt | sed 's/^[0-9]* //' | egrep '..' | egrep -v '_' | head -n ${BARR} | sort -u |
 while read x
 do
