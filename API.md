@@ -60,6 +60,15 @@ aligns source to target in some way.
 single tokens, and passes them through unchanged.
 * The web service supports [CORS requests](http://enable-cors.org/).
 
+HTTP Response Codes
+-------------------
+
+* 200 (OK): Successful request
+* 400 (Bad Request): Missing parameter in request, unsupported source language, empty source text, source text not encoded as UTF-8, etc.
+* 403 (Forbidden): Request from unapproved IP address
+* 405 (Method Not Allowed): Only POST requests permitted
+* 413 (Payload Too Large): Request larger than 16k bytes
+* 500 (Internal Server Error): Translation server failed to process request
 
 Rate Limits
 -----------
