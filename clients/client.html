@@ -1,0 +1,78 @@
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Intergaelic HTML/JS Example</title>
+</head>
+<body>
+<form id="IGform">
+  <textarea rows="10" cols="40" id="sourcetext" name="teacs" wrap="virtual"></textarea>
+  <br/><br/>
+  <input type="submit" value="Submit"></input>
+  <input type="reset" value="Clear"></input>
+  <br/><br/>
+  Source language:<br/>
+  <input type="radio" name="foinse" value="gd" checked>Scottish Gaelic</input><br/>
+  <input type="radio" name="foinse" value="gv">Manx Gaelic</input><br/>
+  <input type="radio" name="foinse" value="ga">Pre-Standard Irish</input><br/>
+</form>
+<hr/>
+<div id="output"></div>
+<script>
+  window.addEventListener("load", function () {
+    var form = document.getElementById("IGform");
+    form.addEventListener("submit", function (event) {
+      event.preventDefault();
+      var XHR = new XMLHttpRequest();
+
+      XHR.onreadystatechange = function(event) {
+        if (XHR.readyState == XMLHttpRequest.DONE) {
+          if (XHR.status == 200) {
+            processPairs(JSON.parse(event.target.responseText));
+          }
+          else {
+            var div=document.getElementById("output");
+            div.innerHTML=XHR.status.toString()+': '+XHR.statusText;
+          }
+        }
+      };
+
+      XHR.open("POST", "http://borel.slu.edu/cgi-bin/seirbhis3.cgi");
+      XHR.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+      XHR.setRequestHeader('Accept','application/json');
+      var payload = '';
+      var radios = document.getElementsByName('foinse');
+      for (var i=0; i<radios.length; i++) {
+        if (radios[i].checked) {
+          payload = 'foinse='+radios[i].value+'&teacs=';
+          break;
+        }
+      }
+      payload += document.getElementById('sourcetext').value;
+      XHR.send(encodeURI(payload));
+      var div=document.getElementById("output");
+      div.innerHTML='<em>Translating...</em>'
+    });
+  });
+
+  function processPairs(arr) {
+    var div=document.getElementById("output");
+    var suppress = true;
+    div.innerHTML='';
+    for(var i=0; i<arr.length; i++) {
+      t=arr[i][1];
+      if (t=="\\n") {
+        div.innerHTML+='<br/>';
+        suppress = true;
+      }
+      else {
+        if (suppress==false && !t.match(/^[.,\/;”:!?%})]$/)) {
+          div.innerHTML+=" ";
+        }
+        suppress = (t.match(/^[“\/$(\[#{]$/)!==null);
+        div.innerHTML+=t;
+      }
+    }
+  }
+</script>
+</body>
+</html>
