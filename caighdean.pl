@@ -136,6 +136,14 @@ sub irishtc {
 	$w =~ s/^bp/bP/;
 	$w =~ s/^ts/tS/;
 	$w =~ s/^dt/dT/;
+	if ($w =~ m/^h([aeiouáéíóú].*)$/) {
+		if ($w =~ m/^h(aigh|allaí?|aló|avá.+|urá|uth)$/) {
+			$w =~ s/^h/H/;  # halla -> Halla
+		}
+		else {
+			$w =~ s/^h(.)/'h'.uc($1)/e;  # haimsire -> hAimsire
+		}
+	}
 	$w =~ s/^([nt])-([aeiouáéíóú])/$1.uc($2)/e;
 	unless ($w =~ /^[^ ]*\p{Lu}/) {  # if still no cap in first word...
 		$w =~ s/^(['-]*)(.)/$1.uc($2)/e;
