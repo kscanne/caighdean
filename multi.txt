@@ -18,6 +18,10 @@
 Flann_Sionna Flann Sionna
 Helen_na_Gréige Héilin na Gréige
 Iúdás_Macabéus Iúdás Macabaech
+Nua_Eabhrac Nua-Eabhrac
+Nua_Eabhroc Nua-Eabhrac
+Nuadh_Eabhrac Nua-Eabhrac
+Nuadh_Eabhroc Nua-Eabhrac
 Sinn_Féineach Sinn Féineach
 Ua_bhFáilí Uíbh Fhailí
 a_céad-luaidhtear céadluaite
@@ -41,12 +45,17 @@ a_dtáinigh ar tháinig
 a_n-aimhdheoin in ainneoin
 a_n-diu inniu
 a_n-diú inniu
+a_n-éinfheacht in éineacht
+a_naoinfheacht in éineacht
 a_ndiu inniu
+ag_fiuchaidh ag fiuchadh
 agus_'tá agus atá
+am_aghaidh i m'aghaidh
 an_dtug ar thug
 an_dtáinig ar tháinig
 an_dtáinigh ar tháinig
 an_gcuala ar chuala
+an_n-éinfheacht in éineacht
 an_róighteach anróiteach
 ana_bheag an-bheag
 ana_bhuidheach an-bhuíoch
@@ -65,6 +74,7 @@ ar'_bh' arbh
 ar_bh' arbh
 ar_bhudh arbh
 ar_dtúis ar dtús
+ar_fiuchaidh ar fiuchadh
 ar_fád ar fad
 ar_n'a arna
 ar_n-a_bhárach arna mhárach
@@ -99,6 +109,7 @@ cá'r_bh'as cárbh as
 cá_náit cén áit
 cár_bh cárbh
 cár_bh' cárbh
+cé'r_bh cérbh
 cé's_móite cé is moite
 cé_'n cén
 cé_'r_bh' cérbh
@@ -179,6 +190,7 @@ do_chuas chuaigh mé
 do_chuir chuir
 do_chuireas chuir mé
 do_chéill do chiall
+do_chídís d'fheicidís
 do_chífinn d'fheicfinn
 do_chíodh d'fheiceadh
 do_deineadh rinneadh
@@ -191,6 +203,7 @@ do_fuaras fuair mé
 do_ghabhas ghabh mé
 do_ghearras ghearr mé
 do_ghlacas ghlac mé
+do_ghnidh a dhéanann
 do_labhair labhair
 do_labhras labhair mé
 do_leanas lean mé
@@ -200,6 +213,8 @@ do_n don
 do_n-a dá
 do_níon d'iníon
 do_raghfá rachfá
+do_righneadh a rinneadh
+do_righneadh rinneadh
 do_rin a rinne
 do_rin rinne
 do_rin' a rinne
@@ -321,6 +336,7 @@ i_n'aice ina aice
 i_n'aigne ina aigne
 i_n'am in am
 i_n'aonar ina aonar
+i_n'athair ina athair
 i_n'fhear ina fhear
 i_n'fhochair ina fhochair
 i_n'fhéachaint ina fhéachaint
@@ -394,6 +410,7 @@ i_n-áiteacha in áiteanna
 i_n-áiteachaibh in áiteanna
 i_n-ár inár
 i_n-árd in ard
+i_n-éa'-chor in aon chor
 i_n-éadan in éadan
 i_n-éag in éag
 i_n-éan-chor in aon chor
@@ -407,6 +424,7 @@ i_n-úsáid in úsáid
 i_nAcaill in Acaill
 i_nEirinn in Éirinn
 i_nGaililí sa Ghailíl
+i_naoinfheacht in éineacht
 i_ndiu inniu
 i_ndiú inniu
 i_ndá in dhá
@@ -420,9 +438,11 @@ i_san san
 iar_n-a arna
 in_a ina
 in_allód anallód
+in_n-éinfheacht in éineacht
 ins_an sa
 ins_an san
 ins_na sna
+ionn_a ina
 ist'_oidhche istoíche
 ist_oidhche istoíche
 it'_aigne i d'aigne
@@ -439,6 +459,7 @@ le_n' lena
 le_n'a lena
 le_n'ais lena ais
 le_n'anam lena anam
+le_n'athair lena athair
 le_n'ithe lena ithe
 le_n'íoc lena íoc
 le_n'ól lena ól
@@ -512,6 +533,7 @@ ná_fuilim nach bhfuilim
 ná_fágfadh nach bhfágfadh
 ná_féadfadh nach bhféadfadh
 ná_féadfaidhe nach bhféadfaí
+ná_féadfaidís nach bhféadfaidís
 ná_féadfainn nach bhféadfainn
 ná_féadfaí nach bhféadfaí
 ná_féadfá nach bhféadfá
@@ -555,6 +577,7 @@ níor_bhfuras níorbh fhurasta
 níor_bhfurasta níorbh fhurasta
 níor_deineadh ní dhearnadh
 níor_déineadh ní dhearnadh
+om_baist ambaiste
 om_baiste ambaiste
 om_briathar dar mo bhriathar
 om_briathar dom briathar
@@ -610,4 +633,5 @@ táid_siad tá siad
 ó_Ghaililí ón Ghailíl
 ó_Shamaria ón tSamáir
 ó_n ón
+ó_n'athair óna athair
 ó_n-a óna

@@ -72,6 +72,7 @@ u(i?[dg]h)	a$1	1
 i[dg]h(th?ear)$	ítear	1
 i[dg]h(th?í)	ítí	1
 i[dg]hth?(.)	ith$1	1
+idhtheach	íoch	1
 i[dg]hth?(.)	it$1	1
 #######################
 #  rules-local.txt here...
@@ -286,6 +287,7 @@ e[oó]chairse$	eoidh_tusa	1
 #^pannc			panc		1	<.+>	<&>
 #^poinnt			point		1	<.+>	<&>
 ^pont	punt	1
+^primh	príomh	2
 ^prímh	príomh	1
 ^réidh	ré	1
 ^réimh	réamh	1
@@ -380,10 +382,13 @@ eamhla	iúla	1
 ([^e])amhla	$1úla	1
 adht([aá])	at$1	1
 aíle$	aíola	1
+idhibh$	í	1
+([ií])[dg]hthibh$	$1the	1
 aighibh$	aigh	1
 ([^a])ighibh$	$1igh	1
 eachaibh$	igh	1
 ([^e])achaibh$	$1aigh	1
+([^a])chaibh$	$1aigh	1
 anaibh$	anna	1
 ánaibh$	áin	1
 aibh$	a	1
