@@ -135,77 +135,77 @@ e[oó]chairse$	eoidh_tusa	1
 ^h-	h	1
 ^n-([AEIOUÁÉÍÓÚ])	n$1	1
 ^t-([AEIOUÁÉÍÓÚ])	t$1	1
-^h?aoin	aon	1
-^h?ana-	an-	1
+^(h?a)oin	$1on	1
+^(h?a)na-	$1n-	1
 #^[Áá]rd(-?..)	ard$1		1	<.+>	<&>
-^h?ath-?th	at	1
+^(h?a)th-?th	$1t	1
 ^bh'	b'	1
-^bain	ban	1
-^báin	bán	1
-^bairr	barr	1
-^baoith	baoth	1
-^beig	beag	1
-^béil	béal	1
-^bioth	bith	1
-^boig	bog	1
-^boinn	bonn	1
-^boirr	borr	1
+^(m?bh?)ain	$1an	1
+^(m?bh?)áin	$1án	1
+^(m?bh?)airr	$1arr	1
+^(m?bh?)aoith	$1aoth	1
+^(m?bh?)eig	$1eag	1
+^(m?bh?)éil	$1éal	1
+^(m?bh?)ioth	$1ith	1
+^(m?bh?)oig	$1og	1
+^(m?bh?)oinn	$1onn	1
+^(m?bh?)oirr	$1orr	1
 # handled by more general ll rule below
 #^bolls			bols		1	<.+>	<&>
-^buadh	bua	1
-^buain	buan	1
-^caim	cam	1
+^(m?bh?)uadh	bua	1
+^(m?bh?)uain	buan	1
+^(g?ch?)aim	$1am	1
 # handled by more general tht rule below
 #^caitht			cait		1	<.+>	<&>
-^caoimh	caomh	1
+^(g?ch?)aoimh	$1aomh	1
 # N.B. makes string longer
 #^ceathar			ceathair		1	<.+>	<&>
-^céid	céad	1
+^(g?ch?)éid	$1éad	1
 # N.B. makes string longer
 #^cinn			ceann		1	<.+>	<&>
-^ceinn	ceann	1
-^cionn	ceann	1
-^cláir	clár	1
-^claoidh	cloí	1
-^claoin	claon	1
-^coilg	colg	1
-^c[oó]imh-mh	cóimh	1
-^coimh	comh	1
-^cóimhmh	cóimh	1
-^cóimh([^eéií])	comh$1	1
+^(g?ch?)einn	$1eann	1
+^(g?ch?)ionn	$1eann	1
+^(g?ch?)láir	$1lár	1
+^(g?ch?)laoidh	$1loí	1
+^(g?ch?)laoin	$1laon	1
+^(g?ch?)oilg	$1olg	1
+^(g?ch?)[oó]imh-mh	$1óimh	1
+^(g?ch?)oimh	$1omh	1
+^(g?ch?)óimhmh	$1óimh	1
+^(g?ch?)óimh([^eéií])	$1omh$2	1
 # general ómh[^a] -> omh$1  rule below
 ^(g?ch?)ómha	$1omha	1
-^cómhmh	cómh	1
-^comh-(mh[aáoóuú])	có$1	1
-^comh-(mh[eéií])	cói$1	1
-^coimh-n	cóin	1
-^c[oó]mh-?(n[aáoóuú])	có$1	1
-^c[oó]mh-?(n[eéií])	cói$1	1
-^có-(..)	comh$1	1
-^có([bcdfgpt]h)	comh$1	1
-^c[ou]ir([pr])	cor$1	1
-^crainn	crann	1
-^crioth	crith	1
-^croim	crom	1
-^cruai?dh	crua	1
-^cúil	cúl	1
-^dá-	dé	1
-^daill	dall	1
-^daoir([^s])	daor	1
+^(g?ch?)ómhmh	$1ómh	1
+^(g?ch?)omh-(mh[aáoóuú])	$1ó$2	1
+^(g?ch?)omh-(mh[eéií])	$1ói$2	1
+^(g?ch?)oimh-n	$1óin	1
+^(g?ch?)[oó]mh-?(n[aáoóuú])	$1ó$2	1
+^(g?ch?)[oó]mh-?(n[eéií])	$1ói$2	1
+^(g?ch?)ó-(..)	$1omh$2	1
+^(g?ch?)ó([bcdfgpt]h)	$1omh$2	1
+^(g?ch?)[ou]ir([pr])	$1or$2	1
+^(g?ch?)rainn	$1rann	1
+^(g?ch?)rioth	$1rith	1
+^(g?ch?)roim	$1rom	1
+^(g?ch?)ruai?dh	$1rua	1
+^(g?ch?)úil	$1úl	1
+^(n?dh?)á-	$1é	1
+^(n?dh?)aill	$1all	1
+^(n?dh?)aoir([^s])	$1aor$2	1
 #  first spelling of dea- is from na Grianna
-^déagh-	dea-	1
-^de[áai]gh-	dea-	1
-^de[áai]gh([^-])	dea-$1	1
-^deir([bg])	dear$1	1
-^dío-	dí-	1
-^diubhr	diúr	1
-^dligh(i?)	dlí	1
-^doi-	do-	1
-^doinn	donn	1
-^droich	droch	1
-^druim	droim	1
-^duibh	dubh	1
-^dubh-	dú	1
+^(n?dh?)éagh-	$1ea-	1
+^(n?dh?)e[áai]gh-	$1ea-	1
+^(n?dh?)e[áai]gh([^-])	$1ea-$2	1
+^(n?dh?)eir([bg])	$1ear$2	1
+^(n?dh?)ío-	$1í-	1
+^(n?dh?)iubhr	$1iúr	1
+^(n?dh?)lighi?	$1lí	1
+^(n?dh?)oi-	$1o-	1
+^(n?dh?)oinn	$1onn	1
+^(n?dh?)roich	$1roch	1
+^(n?dh?)ruim	$1roim	1
+^(n?dh?)uibh	$1ubh	1
+^(n?dh?)ubh-	$1ú	1
 # handled by more general prefix+gc rule below
 #^éagc			éag		1	<.+>	<&>
 #^éigc			éig		1	<.+>	<&>
@@ -214,35 +214,37 @@ e[oó]chairse$	eoidh_tusa	1
 #^éidt			éid		1	<.+>	<&>
 # handled by more general ll rule below
 #^falls			fals		1	<.+>	<&>
-^fágbh	fág	1
-^h?eadar	idir	1
-^h?eidir	idir	1
-^fiadh	fia	1
-^fír-	fíor	1
-^flith	frith	1
-^frioth([^á])	frith$1	1
-^fó-	fo-	1
-^foir-	for-	1
-^fuair-	fuar-	1
+^eadar	idir	1
+^headar	hidir	1
+^eidir	idir	1
+^heidir	hidir	1
+^((bh)?fh?)ágbh	$1ág	1
+^((bh)?fh?)iadh	$1ia	1
+^((bh)?fh?)ír-	$1íor	1
+^((bh)?fh?)lith	$1rith	1
+^((bh)?fh?)rioth([^á])	$1rith$3	1
+^((bh)?fh?)ó-	$1o-	1
+^((bh)?fh?)oir-	$1or-	1
+^((bh)?fh?)uair-	$1uar-	1
 # N.B. makes string longer
 #^gamh			geamh		1	<.+>	<&>
 # N.B. makes string longer
-^girr	gearr	1
-^gairbh	garbh	1
-^géir	géar	1
-^gnáith	gnáth	1
-^gobh	gabh	1
+^(n?gh?)irr	$1earr	1
+^(n?gh?)airbh	$1arbh	1
+^(n?gh?)éir	$1éar	1
+^(n?gh?)náith	$1náth	1
+^(n?gh?)obh	$1abh	1
 ^héala([^aeiouáéíóú]+[eéií])	héili$1	1
 ^héala([^aeiouáéíóú]+[aáoóuú])	héilea$1	1
-^h?iair	iar	1
-^h?iarann	iarn	1
-^h?iodar	idir	1
-^h?iol([^ar])	il$1	1
-^h?iomshlá	iomlá	1
-^h?iom([^aálpr])	im$1	1
-^h?ion	in	1
+^(h?i)air	$1ar	1
+^(h?i)arann	$1arn	1
+^(h?i)odar	$1dir	1
+^(h?i)ol([^ar])	$1l$2	1
+^(h?i)omshlá	$1omlá	1
+^(h?i)om([^aálpr])	$1m$2	1
+^(h?i)on	$1n	1
 # handled by more general nn rule below
-#^h?ionn([rs])			ion$1		1	<.+>	<&>
+#^h?ionn([rs])			ion$2		1	<.+>	<&>
 ^([ls])áimh	$1ámh	1
 ^láin	lán	1
 # handled by more general sb rule below
@@ -259,36 +261,36 @@ e[oó]chairse$	eoidh_tusa	1
 ^lubh	luibh	1
 ^lui([mn])	loi$1	1
 ^lúith	lúth	1
-^maill	mall	1
-^maoil	maol	1
-^maoith([^n])	maoth$1	1
-^mairbh	marbh	1
+^(mh?)aill	$1all	1
+^(mh?)aoil	$1aol	1
+^(mh?)aoith([^n])	$1aoth$2	1
+^(mh?)airbh	$1arbh	1
 # only two math- words anyway?
 #^magh		math		1	<.+>	<&>
-^meadhón	meán	1
-^mean	meán	1
+^(mh?)eadhón	$1eán	1
+^(mh?)ean	$1eán	1
 ^mh'([aeiouáéíóú].)	m'$1	1
 # N.B. makes string longer
-^min-	mion-	1
-^mío-	mí-	1
-^mío([bcdfgmpst]h)	mí$1	1
+^(mh?)in-	$1ion-	1
+^(mh?)ío-	$1í-	1
+^(mh?)ío([bcdfgmpst]h)	$1í$2	1
 ^(mh?í)-([^aeiouáéíóú].)	$1$2	1
 # no midh- words anyway?
 #^miodh		midh		1	<.+>	<&>
-^móir	mór	1
+^(mh?)óir	$1ór	1
 ^naoimh	naomh	1
 ^neamh-([^m].)	neamh$1	1
 ^neimh(..)	neamh$1	1
 ^nea-mb	neamhbh	1
 ^nea-	neamh-	1
 ^nea([cdfgpt]h)	neamh$1	1
-^h?ói([gr])	ó$1	1
+^(h?ó)i([gr])	$1$2	1
 # handled by more general nn rule below
 #^pannc			panc		1	<.+>	<&>
 #^poinnt			point		1	<.+>	<&>
-^pont	punt	1
-^primh	príomh	2
-^prímh	príomh	1
+^(b?ph?)ont	$1unt	1
+^(b?ph?)rimh	$1ríomh	2
+^(b?ph?)rímh	$1ríomh	1
 ^réidh	ré	1
 ^réimh	réamh	1
 ^r[íi]o?gh([^n])	rí$1	1
@@ -298,51 +300,51 @@ e[oó]chairse$	eoidh_tusa	1
 ^roimh	réamh	1
 ^ruadh	rua	1
 ^rúin	rún	1
-^sáir	sár	1
-^saoghl	saol	1
-^saoibh	saobh	1
-^saoir-	saor-	1
+^(sh?)áir	$1ár	1
+^(sh?)aoghl	$1aol	1
+^(sh?)aoibh	$1aobh	1
+^(sh?)aoir-	$1aor-	1
 ^sclug	sclog	1
 ^scoith	scoth	1
-^seana-	sean-	1
-^sein-	sean-	1
-^siod	sead	1
-^síodh	sí	1
+^(sh?)eana-	$1ean-	1
+^(sh?)ein-	$1ean-	1
+^(sh?)iod	$1ead	1
+^(sh?)íodh	$1í	1
 # N.B. makes it longer
-^sír-	síor-	1
+^(sh?)ír-	$1íor-	1
 ^smúid	smúit	1
-^soi-	so-	1
+^(sh?)oi-	$1o-	1
 # handled by more general ll rule below
 #^soills			soils		1	<.+>	<&>
 # handled by more general nn rule below
 #^sonnr			sonr		1	<.+>	<&>
-^sr[áa]ic	srac	1
+^(sh?)r[áa]ic	$1rac	1
 # N.B. makes string longer
-^srang	sreang	1
-^sream	sram	1
+^(sh?)rang	$1reang	1
+^(sh?)ream	$1ram	1
 # N.B. makes string longer - risky, plus no "sruim-" words at all?
 #^srim			sruim		1	<.+>	<&>
 ^stáit	stát	1
-^taidhbh	taibh	1
+^(d?th?)aidhbh	$1aibh	1
 # handled by more general sb rule below
 #^taisb		taisp	1	<.+>	<&>
 ^t'([AEIOUÁÉÍÓÚaeiouáéíóú].|[Ff]h)	d'$1	1
-^teasb([^h])	taispe$1	1
-^teint	tint	1
-^tele([^aeiouáéíóú]+[eéií])	teili$1	1
-^tele([^aeiouáéíóú]+[aáoóuú])	teilea$1	1
-^tiom	tim	1
-^tiugh	tiú	1
+^(d?th?)easb([^h])	$1aispe$2	1
+^(d?th?)eint	$1int	1
+^(d?th?)ele([^aeiouáéíóú]+[eéií])	$1eili$2	1
+^(d?th?)ele([^aeiouáéíóú]+[aáoóuú])	$1eilea$2	1
+^(d?th?)iom	$1im	1
+^(d?th?)iugh	$1iú	1
 # risky
 #^tiúr	tabhar		1	<.+>	<&>
 # handled by more general rule below
 #^treabhth			treaf		1	<.+>	<&>
-^treas	tras	1
-^tréin	tréan	1
-^troim	trom	1
-^tuaith	tuath	1
-^h?uaith	uath	1
-^h?úir	úr	1
+^(d?th?)reas	$1ras	1
+^(d?th?)réin	$1réan	1
+^(d?th?)roim	$1rom	1
+^(d?th?)uaith	$1uath	1
+^(h?u)aith	$1ath	1
+^(h?ú)ir	$1r	1
 # End of Prefixes - Now general spelling reforms (but not from CO handbook)
 # Mostly based on corpus work...
 # deán for déan
