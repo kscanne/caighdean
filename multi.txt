@@ -184,6 +184,7 @@ do_bhuail bhuail
 do_bhuaileas bhuail mé
 do_bhí a bhí
 do_bhí bhí
+do_bhíobhar bhí sibh
 do_bhíodar bhíodar
 do_bhíodh bhíodh
 do_bhíos bhí mé
@@ -194,9 +195,15 @@ do_chaitheas chaith mé
 do_cheap a cheap
 do_cheap cheap
 do_cheapas cheap mé
+do_chonac a chonaic
 do_chonac chonaic
+do_chonaic a chonaic
 do_chonaic chonaic
+do_chonnaic a chonaic
 do_chonnaic chonaic
+do_chonnairc a chonaic
+do_chonnairc chonaic
+do_chonnarc a chonaic
 do_chonnarc chonaic
 do_chromas chrom mé
 do_chuadhas chuaigh mé
@@ -257,6 +264,8 @@ do_shíleas shíl mé
 do_sna do na
 do_tharla a tharla
 do_tharla tharla
+do_tharraing a tharraing
+do_tharraing tharraing
 do_thug a thug
 do_thug thug
 do_thugas thug mé
@@ -340,6 +349,7 @@ go_m-beannuighidh go mbeannaí
 go_mbeannaighidh go mbeannaí
 go_mbeannuighidh go mbeannaí
 go_mbfhearr gurbh fhearr
+go_mbia go mbeidh
 go_méadaighidh go méadaí
 go_méaduighidh go méadaí
 go_n-éirighidh go n-éirí
@@ -592,7 +602,13 @@ ná_feudfadh nach bhféadfadh
 ná_fuair nach bhfuair
 ná_fuil nach bhfuil
 ná_fuileam nach bhfuilimid
+ná_fuileann nach bhfuil
+ná_fuilid nach bhfuil siad
 ná_fuilim nach bhfuilim
+ná_fuilimid nach bhfuilimid
+ná_fuilimíd nach bhfuilimid
+ná_fuilir nach bhfuil tú
+ná_fuiltear nach bhfuiltear
 ná_fágfadh nach bhfágfadh
 ná_féadfadh nach bhféadfadh
 ná_féadfaidhe nach bhféadfaí
@@ -619,13 +635,18 @@ nár_bhfada nárbh fhada
 nár_bhfearr nárbh fhearr
 nár_bhfoláir nárbh fholáir
 nár_bhudh nárbh
+ní_bhia ní bheidh
 ní_dheineadh ní dhearnadh
 ní_dhéineadh ní dhearnadh
 ní_fhuil níl
+ní_fhuilid níl siad
 ní_fhuilim nílim
 ní_fhuilim-se nílimse
 ní_fhuilimid nílimid
 ní_fhuilimse nílimse
+ní_fhuilimíd nílimid
+ní_fhuilir níl tú
+ní_fhuiltear níltear
 níl_'is níl a fhios
 níor_b'é níorbh é
 níor_b'í níorbh í
