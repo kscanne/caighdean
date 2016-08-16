@@ -127,8 +127,8 @@ e[oó]chairse$	eoidh_tusa	1
 #############################################################################
 #   modernize prefixes (no need to trap mutated versions, stripped below
 #   full list from OD77 is in gaeilge/diolaim/x/OD77alt-prefixes
-^h?aith	ath	1
-^h?aird([^e])	ard$1	1
+^(h?a)ith	$1th	1
+^(h?a)ird([^e])	$1rd$1	1
 # handled by more general "nn" rule below
 #^h?anns			ans		1	<.+>	<&>
 ^dh'	d'	1
@@ -273,6 +273,7 @@ e[oó]chairse$	eoidh_tusa	1
 # N.B. makes string longer
 ^(mh?)in-	$1ion-	1
 ^(mh?)ío-	$1í-	1
+^(mh?)i-	$1í-	2
 ^(mh?)ío([bcdfgmpst]h)	$1í$2	1
 ^(mh?í)-([^aeiouáéíóú].)	$1$2	1
 # no midh- words anyway?
@@ -284,6 +285,7 @@ e[oó]chairse$	eoidh_tusa	1
 ^nea-mb	neamhbh	1
 ^nea-	neamh-	1
 ^nea([cdfgpt]h)	neamh$1	1
+^nuadh	nua	1
 ^(h?ó)i([gr])	$1$2	1
 # handled by more general nn rule below
 #^pannc			panc		1	<.+>	<&>
