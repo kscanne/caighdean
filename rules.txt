@@ -479,8 +479,11 @@ e[oó]ch(th)?aidhe$	eofaí	1
 ([^e])óch(th)?aidhe$	$1ófaí	1
 (ó|eo)char$	$1far	1
 (ó|eo)chthar$	$1far	1
+faidhear$	far	1
+fidhear$	fear	1
 [ií]ghean$	íonn	1
-amaoid$	aimid	1
+eamaoid$	imid	1
+([^e])amaoid$	$1aimid	1
 eamuid$	imid	1
 ([^e])amuid$	$1aimid	1
 eamaois$	imis	1
@@ -502,6 +505,8 @@ aighid$	aíonn	1
 ([^a])ighid$	$1íonn	1
 ighidh	í	1
 ighinn	ínn	1
+idíst$	idís	1
+imíst$	imis	1
 uigh'e$	aithe	1
 fiomuid$	fimid	1
 # fas/feas/óchas/ós/eos here are future relatives
@@ -531,6 +536,7 @@ feam$	fimid	1
 ^h([aeiouáéíóú].+fa?í)$	$1	1
 # leigiodh -> ligeadh, deiriodh -> deireadh, sgéithfiodh -> scéithfeadh
 iodh$	eadh	1
+iodar$	eadar	1
 #  Thugtaoi in MU44, e.g.
 taoi$	taí	1
 #  OS88 p.126  present direct relative
