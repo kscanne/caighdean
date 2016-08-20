@@ -52,6 +52,8 @@ a_ndiu inniu
 a_ngrádh i ngrá
 ad'_fhochair-se i d'fhochairse
 ag_fiuchaidh ag fiuchadh
+ag_iarraid ag iarraidh
+ag_iarraigh ag iarraidh
 agus_'tá agus atá
 air_bit ar bith
 air_d-tus ar dtús
@@ -91,6 +93,7 @@ ar_d-tus ar dtús
 ar_dtúis ar dtús
 ar_fiuchaidh ar fiuchadh
 ar_fád ar fad
+ar_isi ar sise
 ar_n'a arna
 ar_n-a_bhárach arna mhárach
 ar_n-a_n-oirthear anóirthear
@@ -98,6 +101,7 @@ ar_n-a_n-órtha anóirthear
 ar_n-a_n-órthar anóirthear
 ar_ttúis ar dtús
 ar_tús ar dtús
+ars'_isi ar sise
 arsa'_n arsan
 at'_aigne i d'aigne
 at'_amadán i d'amadán
@@ -249,6 +253,8 @@ do_dhéanaid a dhéanann siad
 do_dhéanaid déanann siad
 do_do_réir do do réir
 do_déineadh rinneadh
+do_frith fuarthas
+do_fríth fuarthas
 do_fuair a fuair
 do_fuair fuair
 do_fuaireas fuair mé
@@ -362,6 +368,9 @@ fé_dheoigh faoi dheoidh
 fé_ndeár faoi deara
 fé_ndeára faoi deara
 gCeanntar_gCumhang gCeantar Cúng
+ge_dtí go dtí
+ge_go cé go
+ge_gur cé gur
 go_dteacha go ndeachaigh
 go_dtug gur thug
 go_dtáinig gur tháinig
@@ -394,6 +403,8 @@ gur_bhféidir gurbh fhéidir
 gur_bhudh gurbh
 gur_deineadh go ndearnadh
 gur_déineadh go ndearnadh
+gur_frith go bhfuarthas
+gur_fríth go bhfuarthas
 gá_hacú cé acu
 h-ana_mhaith han-mhaith
 h-ana_mhór han-mhór
@@ -404,6 +415,7 @@ i_bhfos abhus
 i_bhfoscailt in oscailt
 i_bhfád i bhfad
 i_do_cheap i do cheap
+i_gclí i gclí
 i_mbáireach amárach
 i_mbárach amárach
 i_mbáraigh amárach
@@ -559,6 +571,7 @@ mar_'dheadh mar dhea
 mar_'tá mar atá
 mar_dh'eadh mar dhea
 mar_dheadh mar dhea
+mar_ghioll mar gheall
 mb'_fhiú mb'fhiú
 mb'_fhéidir mb'fhéidir
 mb'_áil mb'áil
@@ -579,6 +592,7 @@ nach_déanfá nach ndéanfá
 nach_faghainn nach bhfaighinn
 nach_fanfadh nach bhfanfadh
 nach_féadfadh nach bhféadfadh
+nach_géillfeadh nach ngéillfeadh
 nach_tógfadh nach dtógfadh
 ndroch_aicme drochaicme
 ndroch_aigeanta ndrochaigeanta
@@ -661,6 +675,7 @@ ná_féadfá nach bhféadfá
 ná_féadfí nach bhféadfaí
 ná_gearrfadh nach ngearrfadh
 ná_glacfadh nach nglacfadh
+ná_géillfeadh nach ngéillfeadh
 ná_pósfadh nach bpósfadh
 ná_raibh nach raibh
 ná_tabharfadh nach dtabharfadh
@@ -670,6 +685,7 @@ ná_tuigfeadh nach dtuigfeadh
 ná_tuitfeadh nach dtitfeadh
 ná_tógfadh nach dtógfadh
 nách_faghainn nach bhfaighinn
+nách_géillfeadh nach ngéillfeadh
 nár_bh nárbh
 nár_bh' nárbh
 nár_bh'fholáir nárbh fholáir
@@ -711,6 +727,8 @@ níor_bhfuras níorbh fhurasta
 níor_bhfurasta níorbh fhurasta
 níor_deineadh ní dhearnadh
 níor_déineadh ní dhearnadh
+níor_frith ní bhfuarthas
+níor_fríth ní bhfuarthas
 nísa_mhó níos mó
 om_baist ambaiste
 om_baiste ambaiste
