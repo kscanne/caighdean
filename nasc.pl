@@ -28,6 +28,35 @@ sub normalize {
 	return lc($w);
 }
 
+sub undo_poncanna {
+	(my $w) = @_;
+	if ($extension eq '') {
+		for ($w) {
+			s/ḃ/bh/g;
+			s/ċ/ch/g;
+			s/ḋ/dh/g;
+			s/ḟ/fh/g;
+			s/ġ/gh/g;
+			s/ṁ/mh/g;
+			s/ṗ/ph/g;
+			s/ṡ/sh/g;
+			s/ṫ/th/g;
+			s/Ḃ/Bh/g;
+			s/Ċ/Ch/g;
+			s/Ḋ/Dh/g;
+			s/Ḟ/Fh/g;
+			s/Ġ/Gh/g;
+			s/Ṁ/Mh/g;
+			s/Ṗ/Ph/g;
+			s/Ṡ/Sh/g;
+			s/Ṫ/Th/g;
+			s/([A-ZÁÉÍÓÚ]{2})h/$1H/g;
+			s/([A-ZÁÉÍÓÚ])h([A-ZÁÉÍÓÚ])/$1H$2/g;
+		}
+	}
+	return $w;
+}
+
 open(MULTI, "<:utf8", "multi$extension.txt") or die "Could not open list of phrases multi$extension.txt: $!";
 while (<MULTI>) {
 	chomp;
@@ -100,7 +129,7 @@ sub look_for_multi {
 my @queue;
 while (<STDIN>) {
 	chomp;
-	push @queue, $_;
+	push @queue, undo_poncanna($_);
 	look_for_multi(\@queue) if (scalar @queue > $maxwords);
 }
 while (scalar @queue > 0) {
