@@ -415,6 +415,9 @@ thch	ch	1
 tht	t	1
 ll([rst])	l$1	1
 nn([cdlrst])	n$1	1
+eamh[au]int$	iúint	1
+([^e])amh[au]int$	$1úint	1
+([^a])mh[au]int$	$1úint	1
 ghail$	aíl	1
 ghaile$	aíola	1
 ighil$	íl	1
