@@ -128,6 +128,7 @@ e[oó]chairse$	eoidh_tusa	1
 #   modernize prefixes (no need to trap mutated versions, stripped below
 #   full list from OD77 is in gaeilge/diolaim/x/OD77alt-prefixes
 ^(h?a)ith	$1th	1
+^d'aith	d'ath	1
 ^(h?a)ird([^e])	$1rd$1	1
 # handled by more general "nn" rule below
 #^h?anns			ans		1	<.+>	<&>
@@ -268,7 +269,7 @@ e[oó]chairse$	eoidh_tusa	1
 ^(mh?)airbh	$1arbh	1
 # only two math- words anyway?
 #^magh		math		1	<.+>	<&>
-^(mh?)eadhón	$1eán	1
+^(mh?)eadh[oó]n	$1eán	1
 ^(mh?)ean	$1eán	1
 ^mh'([aeiouáéíóú].)	m'$1	1
 # N.B. makes string longer
@@ -415,6 +416,7 @@ thch	ch	1
 tht	t	1
 ll([rst])	l$1	1
 nn([cdlrst])	n$1	1
+aogha(i?l)	ao$1	1
 eamh[au]int$	iúint	1
 ([^e])amh[au]int$	$1úint	1
 ([^a])mh[au]int$	$1úint	1
@@ -439,6 +441,7 @@ eoig$	eog	1
 lainn$	lann	1
 aisí$	ais	1
 dth([ea])$	dt$1	1
+i[uú]bhar	abhar	1
 # teilgioch -> teilgeach, réitioch -> réiteach
 ioch$	each	1
 # Fórsaíbh -> Fórsaí (dpl)
@@ -476,6 +479,8 @@ e[oó]chamaoid$	eoimid	1
 ([^e])óchamaoid$	$1óimid	1
 e[oó]chai(nn|dís)$	eoi$1	1
 ([^e])óchai(nn|dís)$	$1ói$2	1
+e[oó]chainnse$	eoinnse	1
+([^e])óchainnse$	$1óinnse	1
 e[oó]chthá$	eofá	1
 ([^e])óchthá$	$1ófá	1
 e[oó]ch(th)?aidhe$	eofaí	1
