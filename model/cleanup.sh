@@ -1,5 +1,6 @@
 #!/bin/bash
 sed "
+s/ ag siúil / ag siúl /gi
 s/ fá dear / faoi deara /gi
 s/\(^\| \)fá dtaobh /\1fá+dtaobh /gi
 s/\(^\| \)fá /\1faoi /gi
