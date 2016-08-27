@@ -132,7 +132,7 @@ e[oó]chairse$	eoidh_tusa	1
 ^(h?a)ird([^e])	$1rd$1	1
 # handled by more general "nn" rule below
 #^h?anns			ans		1	<.+>	<&>
-^dh'	d'	1
+^([dm])h'	$1'	1
 ^h-	h	1
 ^n-([AEIOUÁÉÍÓÚ])	n$1	1
 ^t-([AEIOUÁÉÍÓÚ])	t$1	1
