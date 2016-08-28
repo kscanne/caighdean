@@ -15,15 +15,20 @@
 'nn_gach i ngach
 'nn_ár inár
 'sé_r'd is éard
+Dhún_Gheanainn Dhún Geanainn
+Dún_Gheanainn Dún Geanainn
 Flann_Sionna Flann Sionna
 Helen_na_Gréige Héilin na Gréige
 Iúdás_Macabéus Iúdás Macabaech
+Mac_Furra Mac Furra
+Mhic_Furra Mhic Furra
 Nua_Eabhrac Nua-Eabhrac
 Nua_Eabhroc Nua-Eabhrac
 Nuadh_Eabhrac Nua-Eabhrac
 Nuadh_Eabhroc Nua-Eabhrac
 Sinn_Féineach Sinn Féineach
 Ua_bhFáilí Uíbh Fhailí
+a_bhfad i bhfad
 a_bhfadh i bhfad
 a_bhfasta i bhfostú
 a_céad-luaidhtear céadluaite
@@ -74,6 +79,8 @@ an_dtáinig ar tháinig
 an_dtáinigh ar tháinig
 an_gcuala ar chuala
 an_n-éinfheacht in éineacht
+an_ngeobhadh an bhfaigheadh
+an_ngeobhaidh an bhfaighidh
 an_róighteach anróiteach
 ana_bheag an-bheag
 ana_bhuidheach an-bhuíoch
@@ -95,6 +102,8 @@ ans_na sna
 anuair_do nuair a
 ar'_bh' arbh
 ar_bh' arbh
+ar_bhfada arbh fhada
+ar_bhféidir arbh fhéidir
 ar_bhit ar bith
 ar_bhudh arbh
 ar_bit ar bith
@@ -109,6 +118,9 @@ ar_n-a_bhárach arna mhárach
 ar_n-a_n-oirthear anóirthear
 ar_n-a_n-órtha anóirthear
 ar_n-a_n-órthar anóirthear
+ar_na_bhárach arna mhárach
+ar_ndóighe ar ndóigh
+ar_rinnis an ndearna tú
 ar_ttúis ar dtús
 ar_tús ar dtús
 ars'_isi ar sise
@@ -125,6 +137,8 @@ b'_fhiú b'fhiú
 b'_fhéidir b'fhéidir
 b'_áil b'áil
 b'_éigean b'éigean
+ba_h-é ba é
+ba_hé ba é
 ba_mho ba mhó
 bhí_'is bhí a fhios
 bud_mhaith ba mhaith
@@ -135,6 +149,7 @@ ca_mhead cá mhéad
 ca_náit cén áit
 cad_'tá cad atá
 cad_cuige cad chuige
+caidé_tá cad é atá
 ce_mhead cé mhéad
 chan_fhuilim nílim
 char_bhfada charbh fhada
@@ -153,6 +168,14 @@ créad_fár cén fáth ar
 cuid_do_na cuid de na
 cá'r_bh'as cárbh as
 cá_mhead cá mhéad
+cá_ngeobhad cá bhfaighidh mé
+cá_ngeobhadh cá bhfaigheadh
+cá_ngeobhadh-sa cá bhfaigheadhsa
+cá_ngeobhaidh cá bhfaighidh
+cá_ngeobhaimís cá bhfaighimis
+cá_ngeobhainn cá bhfaighinn
+cá_ngeobham cá bhfaighimid
+cá_ngeobhfar cá bhfaighfear
 cá_náit cén áit
 cár_bh cárbh
 cár_bh' cárbh
@@ -286,6 +309,7 @@ do_chífeá d'fheicfeá
 do_chífinn d'fheicfinn
 do_chífá d'fheicfeá
 do_chíodh d'fheiceadh
+do_chítí d'fheictí
 do_deineadh rinneadh
 do_deunfadh a dhéanfadh
 do_deunfadh dhéanfadh
@@ -355,6 +379,8 @@ do_thárla tharla
 do_thóg a thóg
 do_thóg thóg
 do_thógas thóg mé
+dob'_éidir b'fhéidir
+dob_éidir b'fhéidir
 don_Phersia don Pheirs
 dot'_ainm do d'ainm
 dot'_athair do d'athair
@@ -394,6 +420,10 @@ dá_'réag dáréag
 dá_dtugtí dá dtabharfaí
 dá_mbíodh dá mbeadh
 dá_mhead dá mhéad
+dá_ngeobhadh dá bhfaigheadh
+dá_ngeobhainn-se dá bhfaighinnse
+dá_ngeobhainnse dá bhfaighinnse
+dá_ngeobhtá go bhfaighfeá
 dá_réag dáréag
 dá_ríribh dáiríre
 dígh_céille díth céille
@@ -416,6 +446,7 @@ fá_n-a faoina
 fá_ndeár faoi deara
 fá_ndeára faoi deara
 fé_dheoigh faoi dheoidh
+fé_ndeara faoi deara
 fé_ndeár faoi deara
 fé_ndeára faoi deara
 gCeanntar_gCumhang gCeantar Cúng
@@ -428,12 +459,17 @@ go_Samaria go dtí an tSamáir
 go_deóigh go deo
 go_dteacha go ndeachaigh
 go_dtug gur thug
+go_dtáinic gur tháinig
 go_dtáinig gur tháinig
 go_dtáinigh gur tháinig
 go_dtánag gur tháinig mé
 go_dé'n cad é an
+go_gcuala gur chuala
+go_gcualaidh gur chuala
+go_gheobhaidh go bhfaighidh
 go_h-Arabia go dtí an Araib
 go_hÉire go hÉirinn
+go_m'fhéidir go mb'fhéidir
 go_m-beannuighidh go mbeannaí
 go_mbeannaighidh go mbeannaí
 go_mbeannuighidh go mbeannaí
@@ -445,7 +481,23 @@ go_n-éirighidh go n-éirí
 go_ndéana go ndéana
 go_ndéineadh go ndearnadh
 go_neartuighidh go neartaí
+go_ngeobhadh go bhfaigheadh
+go_ngeobhaidh go bhfaighidh
+go_ngeobhainn go bhfaighinn
+go_ngeobhair go bhfaighidh tú
+go_ngeobhamaois go bhfaighimis
+go_ngeobhamuid go bhfaighimid
+go_ngeobhfad go bhfaighidh mé
+go_ngeobhfar go bhfaighfear
+go_ngeobhfaí go bhfaighfí
+go_ngeobhthaide go bhfaighfí
+go_ngeobhthaidhe go bhfaighfí
+go_ngeobhthí go bhfaighfí
+go_rinne go ndearna
+go_rinneabhair go ndearna sibh
+go_rinneadh go ndearnadh
 go_ttug gur thug
+gor_bhfada gurbh fhada
 gur_ab gurb
 gur_b'é gurb é
 gur_bh gurbh
@@ -460,9 +512,13 @@ gur_bhfearr gurbh fhearr
 gur_bhféidir gurbh fhéidir
 gur_bhudh gurbh
 gur_deineadh go ndearnadh
+gur_dubhairt go ndúirt
 gur_déineadh go ndearnadh
 gur_frith go bhfuarthas
 gur_fríth go bhfuarthas
+gur_rinne go ndearna
+gur_rinneadh go ndearnadh
+gur_rinnis go ndearna tú
 gá_hacú cé acu
 h-ana_mhaith han-mhaith
 h-ana_mhór han-mhór
@@ -475,6 +531,7 @@ i_bhfos abhus
 i_bhfoscailt in oscailt
 i_bhfád i bhfad
 i_do_cheap i do cheap
+i_gcionn i gceann
 i_gclí i gclí
 i_ghainfhios i ngan fhios
 i_mBrazil sa Bhrasaíl
@@ -623,6 +680,15 @@ it'_inntinn i d'intinn
 le'n_a lena
 le'n_bhur le bhur
 le_Damascus leis an Damaisc
+le_cheile le chéile
+le_cheíle le chéile
+le_chur le cur
+le_dhul le dul
+le_fhagháil le fáil
+le_fheiceáil le feiceáil
+le_ghabhail le gabháil
+le_ghabháil le gabháil
+le_ghol le gol
 le_gréin le gréin
 le_haigh le haghaidh
 le_haigh' le haghaidh
@@ -635,6 +701,9 @@ le_n'ithe lena ithe
 le_n'íoc lena íoc
 le_n'ól lena ól
 le_n-a lena
+le_thabhairt le tabhairt
+le_theacht le teacht
+le_theinidh le tine
 les_an leis an
 les_gach le gach
 luighe_gaidhte luí gaidhte
@@ -649,9 +718,11 @@ mb'_fhiú mb'fhiú
 mb'_fhéidir mb'fhéidir
 mb'_áil mb'áil
 mb'_éigean mb'éigean
+mbudh_éidir mb'fhéidir
 mo_chéill mo chiall
 mo_níon m'iníon
 má_'s más
+nDún_Gheanainn nDún Geanainn
 nUdarás_nAitiúil nÚdarás Áitiúil
 na_Boers na Bóraigh
 na_Persia na Peirse
@@ -673,8 +744,14 @@ nach_fanfadh nach bhfanfadh
 nach_feacamair nach bhfacamar
 nach_féadfadh nach bhféadfadh
 nach_féadfaidhe nach bhféadfaí
+nach_gcuala nár chuala
+nach_gcualaidh nár chuala
 nach_géillfeadh nach ngéillfeadh
+nach_ngeobhadh nach bhfaigheadh
+nach_ngeobhaidh nach bhfaighidh
+nach_rinne nach ndearna
 nach_tógfadh nach dtógfadh
+nar_bhféidir nárbh fhéidir
 ndroch_aicme drochaicme
 ndroch_aigeanta ndrochaigeanta
 ndroch_aigne ndrochaigne
@@ -706,10 +783,13 @@ ndroch_smuínte ndrochsmaointe
 ndroch_íde ndrochíde
 ndroch_úsáid ndrochúsáid
 ndroch_úsáide ndrochúsáide
+nior_bhfada níorbh fhada
+nior_bhféidir níorbh fhéidir
 noch_a a
 noch_atá atá
 noch_do a
 noch_dobhí a bhí
+nochar_bhféidir nárbh fhéidir
 nÚdarás_nÁitiúil nÚdarás Áitiúil
 ná_bainfeadh nach mbainfeadh
 ná_beadh nach mbeadh
@@ -775,6 +855,7 @@ nách_féadfaidhe nach bhféadfaí
 nách_géillfeadh nach ngéillfeadh
 nár_bh nárbh
 nár_bh' nárbh
+nár_bh'fheárr nárbh fhearr
 nár_bh'fholáir nárbh fholáir
 nár_bh'fhéidir nárbh fhéidir
 nár_bh'é nárbh é
@@ -783,9 +864,14 @@ nár_bhfearr nárbh fhearr
 nár_bhfearra nárbh fhearr
 nár_bhfoláir nárbh fholáir
 nár_bhfuláir nárbh fholáir
+nár_bhféidir nárbh fhéidir
 nár_bhudh nárbh
 nár_dhéana nár dhéana
+nár_rinneadar nach ndearnadar
+nárbh_éidir nárbh fhéidir
 ní_bhia ní bheidh
+ní_chuala níor chuala
+ní_chualaidh níor chuala
 ní_dheineadh ní dhearnadh
 ní_dhéineadh ní dhearnadh
 ní_fhuil níl
@@ -798,7 +884,19 @@ ní_fhuilimíd nílimid
 ní_fhuilir níl tú
 ní_fhuiltear níltear
 ní_féadfaidhe ní fhéadfaí
+ní_gheobhadh ní bhfaigheadh
+ní_gheobhaidh ní bhfaighidh
+ní_gheobhaidís ní bhfaighidís
+ní_gheobhainn ní bhfaighinn
+ní_gheobhair ní bhfaighidh tú
+ní_gheobhfad ní bhfaighidh mé
+ní_gheobhfaidhe ní bhfaighfí
+ní_gheobhfá ní bhfaighfeá
+ní_gheofá ní bhfaighfeá
 ní_héidir ní féidir
+ní_rinne ní dhearna
+ní_rinneadh ní dhearnadh
+ní_rinneas ní dhearna mé
 ní_sa_mho níos mó
 nídh_budh_mho ní ba mhó
 níl_'is níl a fhios
@@ -808,7 +906,9 @@ níor_bh níorbh
 níor_bh' níorbh
 níor_bh'air níorbh air
 níor_bh'fhada níorbh fhada
+níor_bh'fhearr níorbh fhearr
 níor_bh'fhéidir níorbh fhéidir
+níor_bh'iongantas níorbh iontas
 níor_bh'é níorbh é
 níor_bhfada níorbh fhada
 níor_bhfearr níorbh fhearr
@@ -818,10 +918,14 @@ níor_bhfoláir níorbh fholáir
 níor_bhfuláir níorbh fholáir
 níor_bhfuras níorbh fhurasta
 níor_bhfurasta níorbh fhurasta
+níor_bhféidir níorbh fhéidir
 níor_deineadh ní dhearnadh
 níor_déineadh ní dhearnadh
 níor_frith ní bhfuarthas
 níor_fríth ní bhfuarthas
+níor_rinne ní dhearna
+níor_rinneadh ní dhearnadh
+níor_rinneamuir ní dhearnamar
 nísa_mho níos mó
 nísa_mhó níos mó
 om_baist ambaiste
@@ -853,6 +957,7 @@ sa_Ghaililí sa Ghailíl
 sa_chéill sa chiall
 sa_n-Arabia san Araib
 san_allód anallód
+sar_ar sular
 seacht_bhfearr seacht bhfearr
 shul_a sula
 shul_a_dtug sular thug
@@ -871,6 +976,8 @@ sul_ma sula
 sul_mar sular
 sul_má sula
 sul_már sular
+sula_ngeobhaidh sula bhfaighidh
+sula_rinne sula ndearna
 sé_r'd is éard
 t-ath_scrúdú t-athscrúdú
 thar_éis tar éis
@@ -880,12 +987,15 @@ trís_an tríd an
 trís_na trí na
 tá_'is tá a fhios
 táid_siad tá siad
+Áibh_Maria Áivé Máiria
 à_los alos
 ás_tá agus atá
 é_r'd is éard
+ó_'n-a óna
 ó_Ghaililí ón Ghailíl
 ó_Shamaria ón tSamáir
 ó_n ón
 ó_n'athair óna athair
 ó_n-a óna
 ón_bPersia ón bPeirs
+ós_coinne os coinne
