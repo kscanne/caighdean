@@ -138,8 +138,7 @@ sub irishtc {
 	$w =~ s/^dt/dT/;
 	if ($w =~ m/^h([aeiouáéíóú].*)$/) {
 		my $tail = $1;
-		my $possible_prefix_h = exists($cands{$tail}) or exists($cands{ucfirst($tail)});
-		if (!$possible_prefix_h or $w =~ m/^h(aigh|allaí?|aló|ata?í?|.)$/) {
+		if ((!exists($cands{$tail}) and !exists($cands{ucfirst($tail)})) or $w =~ m/^h(aigh|allaí?|aló|ata?í?|.)$/) {
 			$w =~ s/^h/H/;  # halla -> Halla
 		}
 		else {
