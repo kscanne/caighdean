@@ -14,6 +14,7 @@
 'nn_bhúr in bhur
 'nn_gach i ngach
 'nn_ár inár
+'san_mbioth ar bith
 'sé_r'd is éard
 Dhún_Gheanainn Dhún Geanainn
 Dún_Gheanainn Dún Geanainn
@@ -28,6 +29,7 @@ Nuadh_Eabhrac Nua-Eabhrac
 Nuadh_Eabhroc Nua-Eabhrac
 Sinn_Féineach Sinn Féineach
 Ua_bhFáilí Uíbh Fhailí
+Uí_Chonnachán Uí Chonnacháin
 a_bhfad i bhfad
 a_bhfadh i bhfad
 a_bhfasta i bhfostú
@@ -58,6 +60,7 @@ a_n-aimhdheoin in ainneoin
 a_n-diu inniu
 a_n-diú inniu
 a_n-éinfheacht in éineacht
+a_naimsir in aimsir
 a_naoinfheacht in éineacht
 a_ndiu inniu
 a_ngrádh i ngrá
@@ -65,7 +68,9 @@ ad'_fhochair-se i d'fhochairse
 ag_fiuchaidh ag fiuchadh
 ag_iarraid ag iarraidh
 ag_iarraigh ag iarraidh
+ag_scríobhadh ag scríobh
 agus_'tá agus atá
+air_bioth ar bith
 air_bit ar bith
 air_d-tus ar dtús
 am'_fhochair-se i m'fhochairse
@@ -73,15 +78,38 @@ am_aghaidh i m'aghaidh
 am_fhochair-se i m'fhochairse
 an_Arabia an Araib
 an_chead an chéad
+an_dtalamh an talamh
+an_dtaobh an taobh
+an_dteach an teach
+an_dteanga an teanga
+an_dteilifís an teilifís
+an_dteine an tine
+an_dteist an teist
+an_dtigh an teach
+an_dtine an tine
+an_dtobar an tobar
+an_dtraein an traein
+an_dtrá an trá
+an_dtráigh an trá
 an_dtug ar thug
 an_dtugabhar ar thug sibh
+an_dturas an turas
 an_dtáinig ar tháinig
 an_dtáinigh ar tháinig
+an_dtír an tír
 an_gcuala ar chuala
 an_n-éinfheacht in éineacht
+an_ndomhan an domhan
+an_ndoras an doras
+an_ndorus an doras
+an_nduine an duine
+an_neithe-se an ní seo
 an_ngeobhadh an bhfaigheadh
 an_ngeobhaidh an bhfaighidh
 an_róighteach anróiteach
+an_slighe an tslí
+an_slí an tslí
+an_slíghe an tslí
 ana_bheag an-bheag
 ana_bhuidheach an-bhuíoch
 ana_dhaingean an-daingean
@@ -198,7 +226,9 @@ cídh_go cé go
 cídh_gur cé gur
 cídh_nach cé nach
 d'aon_úim d'aon oghaim
+d'ar'_bh'ainm darbh ainm
 d'ear_is_barr d'fharasbarr
+d'á_mbí dá mbíonn
 d'á_ríribh dáiríre
 d'ár_bh'ainm darbh ainm
 d'é_do é a
@@ -328,16 +358,21 @@ do_fuaireas fuair mé
 do_fuaras fuair mé
 do_fágfaí d'fhágfaí
 do_féadfaidhe d'fhéadfaí
+do_gairfidhe a ghairfí
 do_ghabhas ghabh mé
 do_ghearras ghearr mé
 do_ghlacas ghlac mé
 do_ghnidh a dhéanann
+do_hadhnaiceadh a adhlacadh
 do_labhair a labhair
 do_labhair labhair
 do_labhras labhair mé
 do_leanas lean mé
+do_lingdís lingidís
 do_luigheas luigh mé
 do_léigheas léigh mé
+do_mharbhsad a mharaíodar
+do_mharbhsad mharaíodar
 do_n don
 do_n-a dá
 do_níon d'iníon
@@ -516,6 +551,7 @@ gur_dubhairt go ndúirt
 gur_déineadh go ndearnadh
 gur_frith go bhfuarthas
 gur_fríth go bhfuarthas
+gur_hadhnaiceadh gur adhlacadh
 gur_rinne go ndearna
 gur_rinneadh go ndearnadh
 gur_rinnis go ndearna tú
@@ -596,6 +632,7 @@ i_n-aonacht in éineacht
 i_n-aonchor in aon chor
 i_n-aondtigh in éindí
 i_n-aonfheacht in éineacht
+i_n-aonló in aon lá
 i_n-ar inar
 i_n-arm in arm
 i_n-arár inár
@@ -664,6 +701,7 @@ im'_fhochair-se i m'fhochairse
 in_Arabia san Araib
 in_a ina
 in_allód anallód
+in_ar' inar
 in_n-éinfheacht in éineacht
 ins_an sa
 ins_an san
@@ -680,6 +718,7 @@ it'_inntinn i d'intinn
 le'n_a lena
 le'n_bhur le bhur
 le_Damascus leis an Damaisc
+le_ar' lenar
 le_cheile le chéile
 le_cheíle le chéile
 le_chur le cur
@@ -701,6 +740,7 @@ le_n'ithe lena ithe
 le_n'íoc lena íoc
 le_n'ól lena ól
 le_n-a lena
+le_n-ar' lenar
 le_thabhairt le tabhairt
 le_theacht le teacht
 le_theinidh le tine
@@ -732,6 +772,7 @@ na_féachfadh nach bhféachfadh
 na_féadfadh nach bhféadfadh
 na_h-Arabia na hAraibe
 na_mBoers na mBórach
+na_neithe-se na nithe seo
 na_tógfadh nach dtógfadh
 nach_caithfeadh nach gcaithfeadh
 nach_deunfadh nach ndéanfadh
@@ -936,6 +977,7 @@ os_ceann os cionn
 re_n'ais lena ais
 re_n-a lena
 ro_chan a chan
+rém'_ais le m'ais
 ró_bheag róbheag
 ró_chruaidh róchrua
 ró_dheacair ródheacair
@@ -981,6 +1023,7 @@ sula_rinne sula ndearna
 sé_r'd is éard
 t-ath_scrúdú t-athscrúdú
 thar_éis tar éis
+tre_n-ar' trínar
 tré_Shamaria tríd an tSamáir
 trí_n-a trína
 trís_an tríd an
@@ -988,6 +1031,7 @@ trís_na trí na
 tá_'is tá a fhios
 táid_siad tá siad
 Áibh_Maria Áivé Máiria
+Ó_Connachán Ó Connacháin
 à_los alos
 ás_tá agus atá
 é_r'd is éard
