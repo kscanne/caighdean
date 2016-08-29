@@ -151,7 +151,7 @@ sub irishtc {
 	return $w;
 }
 
-sub recapitalize {
+sub recapitalize_one {
 	(my $w, my $n) = @_;
 	my $capital_p = $n % 2;
 	$n = int($n / 2);
@@ -186,6 +186,17 @@ sub recapitalize {
 	return $w;
 }
 
+sub recapitalize {
+	(my $w, my $n) = @_;
+	if ($n < 8) {
+		$w = recapitalize_one($w, $n);
+	}
+	else {
+		$w =~ s/([^ ]+)/recapitalize_one($1, $n)/eg;
+	}
+	return $w;
+}
+
 # 1st bit: on if "first" letter capitalized (ignoring eclipsis, etc.)
 # 2nd bit: on if the actual first letter is capitalized (Tacht but not tAcht)
 # 3rd bit: on if camel case; == cap after hyphen (except h-,n-,t-) *or* space
@@ -204,13 +215,22 @@ sub recapitalize {
 # It's important that this work reasonably on pre-standard text,
 # Gàidhlig, or Manx, so that, for example,
 # h-Éireann is a "regular" capitalized word even w/ hyphen
+# NB: input word can also be a MWE, with underscores in place of spaces!
 sub cap_style {
 	(my $w) = @_;
 	my $ans = 0;
-	$ans += 1 if ($w =~ m/^'*((([bdm]|dh)'|[hnt]-?)[AEIOUÁÉÍÓÚÀÈÌÒÙ]|mB|gC|n[DG]|bhF|bP|t-?S|dT|\p{Lu})/);
+	$ans += 1 if ($w =~ m/^'*((([bdm]|dh)'|[hnt]-?)[AEIOUÁÉÍÓÚÀÈÌÒÙ]|m-?B|g-?C|n-?[DG]|bh-?F|b-?P|t-?S|d-?T|\p{Lu})/);
 	$ans += 2 if ($w =~ m/^\p{Lu}/);
 	$ans += 4 if ($w =~ m/^...*[_-]\p{Lu}/);
-	$ans += 8 if ($w =~ m/^'*(([hnt]-?)[AEIOUÁÉÍÓÚÀÈÌÒÙ]|mB|gC|n[DG]|bhF|bP|t-?S|dT)?(\p{Lu}|['_-])*$/ and $w =~ /\p{Lu}.*\p{Lu}/);
+	my $allcap = 1;
+	while ($w =~ m/([^_]+)/g) {
+		my $chunk = $1;	# check each word in MWE
+		if ($chunk !~ m/^'*(([hnt]-?)[AEIOUÁÉÍÓÚÀÈÌÒÙ]|m-?B|g-?C|n-?[DG]|bh-?F|b-?P|t-?S|d-?T)?(\p{Lu}|['-])*$/) {
+			$allcap = 0;
+			last;
+		}
+	}
+	$ans += 8 if ($allcap and $w =~ /\p{Lu}.*\p{Lu}/);
 	return $ans;
 }
 
