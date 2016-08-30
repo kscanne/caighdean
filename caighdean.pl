@@ -640,18 +640,41 @@ sub run_unit_tests {
 	assert(prep_for_output("'sa","sa") eq "'sa => sa",$testnum++,'prep_for_output of non-trivial pair, lower to lower, initial apost (still cap_style==0)');
 	assert(prep_for_output("4adh","4ú") eq "4adh => 4ú",$testnum++,'prep_for_output of non-trivial pair, lower to lower, initial digit (still cap_style==0)');
 	assert(prep_for_output('mBolg','mbolg') eq 'mBolg => mBolg',$testnum++,'prep_for_output of non-trivial pair, mutated upper, lowercase target (cap_style==1)');
+	assert(prep_for_output("d'Abrán","d'Aibreán") eq "d'Abrán => d'Aibreán",$testnum++,"prep_for_output of non-trivial pair, d' + capital to same in target, compare D'imthigh below (cap_style==1)");
+	assert(prep_for_output("dh'Arm","d'arm") eq "dh'Arm => d'Arm",$testnum++,"prep_for_output of non-trivial pair, treat Gàidhlig dh' like d', m', etc. (cap_style==1)");
 	assert(prep_for_output('tAthair','t-athair') eq 'tAthair => tAthair',$testnum++,'prep_for_output of non-trivial pair, mutated upper, lowercase target requiring hyphen be dropped (cap_style==1)');
 	assert(prep_for_output('g-Craoibh','gcraobh') eq 'g-Craoibh => gCraobh',$testnum++,'prep_for_output of non-trivial pair, mutated upper with hyphen, lowercase target (cap_style==1)');
 	assert(prep_for_output('gConnradh','gConradh') eq 'gConnradh => gConradh',$testnum++,'prep_for_output of non-trivial pair, mutated upper in source and target (cap_style==1)');
+	assert(prep_for_output('h-Iùdhaich','Giúdaigh') eq 'h-Iùdhaich => Giúdaigh',$testnum++,'prep_for_output of non-trivial pair, mutated upper in source and capitalized target not needing mutation (cap_style==1)');
 	assert(prep_for_output("'Steach","isteach") eq "'Steach => Isteach",$testnum++,'prep_for_output of non-trivial pair, initial apost+upper in source to lowercase (still cap_style==1)');
 	assert(prep_for_output('Shiubhail','shiúil') eq 'Shiubhail => Shiúil',$testnum++,'prep_for_output of non-trivial pair, simple capital source, lower target (cap_style==3)');
-	assert(prep_for_output("D'imthigh","d'imigh") eq "D'imthigh => D'imigh",$testnum++,'prep_for_output of non-trivial pair, simple capital D+apost to lower (cap_style==3)');
+	assert(prep_for_output('Bhfuil','bhfuil') eq 'Bhfuil => bhFuil',$testnum++,'prep_for_output of non-trivial pair, bad capitalization of eclipsis in source, lower target (cap_style==3)');
+	assert(prep_for_output('Dtáinic','dtáinig') eq 'Dtáinic => dTáinig',$testnum++,'prep_for_output of non-trivial pair, bad capitalization of eclipsis in source, lower target (cap_style==3)');
+	assert(prep_for_output('House','house') eq 'House => House',$testnum++,'prep_for_output of non-trivial pair, simple capital H in source, lower target, hOuse would be bad (cap_style==3)');
+	assert(prep_for_output('Halla','halla') eq 'Halla => Halla',$testnum++,'prep_for_output of non-trivial pair, simple capital H in source, lower target, hAlla would be odd even though alla is an Ir. word (cap_style==3)');
+	assert(prep_for_output('Sìde','haimsire') eq 'Sìde => hAimsire',$testnum++,'prep_for_output of non-trivial pair, simple capital in source, h+lower in target which we recognize as Irish (cap_style==3)');
+	assert(prep_for_output('Nerin','hÉireann') eq 'Nerin => hÉireann',$testnum++,'prep_for_output of non-trivial pair, simple capital in source, h+capital in target which we want to keep (cap_style==3)');
+	assert(prep_for_output("D'imthigh","d'imigh") eq "D'imthigh => D'imigh",$testnum++,"prep_for_output of non-trivial pair, simple capital D' to lower, compare d'Abrán above (cap_style==3)");
 	assert(prep_for_output('Do_dhein','rinne') eq 'Do dhein => Rinne',$testnum++,'prep_for_output of non-trivial pair, simple capital multiword source, lower target (cap_style==3)');
 	assert(prep_for_output('Ghlanas-sa','ghlan mise') eq 'Ghlanas-sa => Ghlan mise',$testnum++,'prep_for_output of non-trivial pair, simple capital source, lowercase multiword target (cap_style==3)');
+	assert(prep_for_output('Didomhnaich','Dé Domhnaigh') eq 'Didomhnaich => Dé Domhnaigh',$testnum++,'prep_for_output of non-trivial pair, simple capital source, already capitalized multiword in target, bugfix 2016-06-17 (cap_style==3)');
 	assert(prep_for_output('I_n-aice','in aice') eq 'I n-aice => In aice',$testnum++,'prep_for_output of non-trivial pair, capital multiword source, lowercase multiword target (cap_style==3)');
 	assert(prep_for_output('Sasanaighibh','Sasanaigh') eq 'Sasanaighibh => Sasanaigh',$testnum++,'prep_for_output of non-trivial pair, simple capital source, target already capitalized (cap_style==3)');
+	assert(prep_for_output('hAon-Mhac','haonmhac') eq 'hAon-Mhac => hAonmhac',$testnum++,'prep_for_output of non-trivial pair, mutated camel case in source, lowercase target no hyphens (cap_style==5)');
+	assert(prep_for_output('hAon-Dhéag','haon déag') eq 'hAon-Dhéag => hAon Déag',$testnum++,'prep_for_output of non-trivial pair, mutated camel case in source, lowercase target multiword (cap_style==5)');
+	assert(prep_for_output('Sean-Nós','sean-nós') eq 'Sean-Nós => Sean-Nós',$testnum++,'prep_for_output of non-trivial pair, camel case hyphenated word in source, hyphenated word in target with pieces needing capitalization (cap_style==7)');
+	assert(prep_for_output('Mheadhon-Lae','mheán lae') eq 'Mheadhon-Lae => Mheán Lae',$testnum++,'prep_for_output of non-trivial pair, camel case multiword in source, target multiword (cap_style==7)');
+	assert(prep_for_output('Lhie_ny_Greiney','luí na gréine') eq 'Lhie ny Greiney => Luí na Gréine',$testnum++,'prep_for_output of non-trivial pair, camel case multiword in source, target multiword including article unchanged in titlecase (cap_style==7)');
+	assert(prep_for_output('hACHTANNA','hachtanna') eq 'hACHTANNA => hACHTANNA',$testnum++,'prep_for_output of non-trivial pair, source mutated allcaps, target mutated lowercase (cap_style==9)');
+	assert(prep_for_output('nIRISLEABHAR','n-irisleabhar') eq 'nIRISLEABHAR => nIRISLEABHAR',$testnum++,'prep_for_output of non-trivial pair, source mutated allcaps, target mutated lowercase with hyphen that we must drop (cap_style==9)');
 	assert(prep_for_output('NAOMHTHA','naofa') eq 'NAOMHTHA => NAOFA',$testnum++,'prep_for_output of non-trivial pair, source allcaps, target in lowercase (cap_style==11)');
+	assert(prep_for_output('GCONNTAE','gcontae') eq 'GCONNTAE => gCONTAE',$testnum++,'prep_for_output of non-trivial pair, source allcap including eclipsis, target lowercase (cap_style==11)');
 	assert(prep_for_output('SÉAGHAINÍN','Seáinín') eq 'SÉAGHAINÍN => SEÁINÍN',$testnum++,'prep_for_output of non-trivial pair, source allcaps, target already titlecase (cap_style==11)');
+	assert(prep_for_output('AN_nGEOBHADH','an bhfaigheadh') eq 'AN nGEOBHADH => AN bhFAIGHEADH',$testnum++,'prep_for_output of non-trivial pair, recognize source as allcaps despite eclipsis on subsequent word, multiword lowercase target (cap_style==11)');
+	assert(prep_for_output('gCRUADH-CHÁS','gcruachás') eq 'gCRUADH-CHÁS => gCRUACHÁS',$testnum++,'prep_for_output of non-trivial pair, source mutated allcap, hyphenated, target lowercase (cap_style==13)');
+	assert(prep_for_output('tSEAN-AIMSIR','tseanaimsir') eq 'tSEAN-AIMSIR => tSEANAIMSIR',$testnum++,'prep_for_output of non-trivial pair, source mutated allcap, hyphenated, target lowercase (cap_style==13)');
+	assert(prep_for_output('SO-BHLASTA','so-bhlasta') eq 'SO-BHLASTA => SO-BHLASTA',$testnum++,'prep_for_output of non-trivial pair, source allcap with hyphen, target lowercase with hyphen (cap_style==15)');
+	assert(prep_for_output('BPRIMH-CHISTE','bpríomhchiste') eq 'BPRIMH-CHISTE => bPRÍOMHCHISTE',$testnum++,'prep_for_output of non-trivial pair, source allcap including eclipsis and hyphen, target lowercase (cap_style==15)');
 
 
 # extend_sentence
@@ -662,6 +685,7 @@ sub run_unit_tests {
 }
 
 if ($runtests) {
+	load_databases(); # needed to test recapitalizaton of h+vowel
 	run_unit_tests();
 }
 else {
