@@ -90,19 +90,28 @@ sub hypothesis_output_string {
 # Tha => Tá
 # mi => mé
 # ...
+sub prep_for_output {
+	(my $s, my $t) = @_;
+	if ($verbose) {
+		print "PREP: s=$s,t=$t,out=";
+	}
+	unless ($s eq $t) {
+		$t = irishlc($t) unless ($s =~ m/_/ or $t =~ m/ /);
+		$t = recapitalize($t, cap_style($s));
+		$s =~ s/([A-Za-zÀÈÌÒÙàèìòùáéíóúÁÉÍÓÚïçÇ'])_/$1 /g;
+	}
+	if ($verbose) {
+		print $s.' => '.$t."\n";
+	}
+	return $s.' => '.$t;
+}
+
 # Argument is a hypothesis (so a hashref with 'logprob' and 'output' keys)
 sub hypothesis_pairs_string {
 	(my $hyp) = @_;
 	my $ans = '';
 	for my $hr (@{$hyp->{'output'}}) {
-		my $source = $hr->{'s'};
-		my $target = $hr->{'t'};
-		unless ($source eq $target) {
-			$target = irishlc($target) unless ($source =~ m/_/ or $target =~ m/ /);
-			$target = recapitalize($target, cap_style($source));
-			$source =~ s/([A-Za-zÀÈÌÒÙàèìòùáéíóúÁÉÍÓÚïçÇ'])_/$1 /g;
-		}
-		$ans .= "$source => $target\n";
+		$ans .= prep_for_output($hr->{'s'}, $hr->{'t'})."\n";
 	}
 	return $ans;
 }
