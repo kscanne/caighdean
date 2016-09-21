@@ -188,6 +188,9 @@ maint/grammar-gv.txt: nua-output-gv.txt
 maint/tofixgram.txt: FORCE
 	cat $(TESTPOST) | commonerrs > $@
 
+maint/modern-unknown.txt: FORCE
+	cat model/corpus.txt | randomize | head -n 1000000 | bash tiomanai.sh -u | egrep '[A-Za-zÁÉÍÓÚáéíóú]' | egrep -v '[@#]' | egrep -v '://' | sort | uniq -c | sort -r -n | sed 's/^ *//' > $@
+
 ############## TARGETS FOR MAINTAINER ONLY ! ###############
 GAELSPELL=${HOME}/gaeilge/ispell/ispell-gaeilge
 PRESTD=${HOME}/gaeilge/caighdean/prestandard
