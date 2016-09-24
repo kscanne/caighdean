@@ -1,4 +1,3 @@
-CAIGHDEAN=${HOME}/seal/caighdean
 CORPUS=corpus.txt
 # The code in this directory is designed to set up the Redis database
 # that stores the Irish language n-gram model used by caighdean
@@ -35,12 +34,12 @@ training-4.txt : alltokens.txt
 # also note that since we're trying to build a STANDARD language model
 # we don't even bother tokenizing leading/trailing apostrophes
 # we DO want to keep the range of characters roughly in parallel with
-# what's in seal/caighdean/alltokens.sh
+# what's in caighdean/alltokens.sh
 # Markup has been killed already so no need for special catch-all tag
 # The normalizations to <URI>, etc. should stay in sync with
-# the ngram_preprocess function in seal/caighdean/caighdean.pl
-alltokens.txt: $(CORPUS) cleanup.sh $(CAIGHDEAN)/alltokens.pl
-	cat $(CORPUS) | bash cleanup.sh | perl $(CAIGHDEAN)/alltokens.pl "'-" "0-9#_@" | perl denoise.pl -v | perl tolow.pl | sed 's/^[0-9][0-9,.:]*$$/<NUM>/' | sed '/.\{70\}/s/.*/<LONG>/' | sed '/:\/\//s/^.*$$/<URI>/' | sed 's/^@[A-Za-z0-9_][A-Za-z0-9_]*$$/<USER>/' | sed 's/^[A-Za-z0-9].*@.*$$/<EMAIL>/' > $@
+# the ngram_preprocess function in caighdean/caighdean.pl
+alltokens.txt: $(CORPUS) cleanup.sh ../alltokens.pl
+	cat $(CORPUS) | bash cleanup.sh | perl ../alltokens.pl "'-" "0-9#_@" | perl denoise.pl -v | perl tolow.pl | sed 's/^[0-9][0-9,.:]*$$/<NUM>/' | sed '/.\{70\}/s/.*/<LONG>/' | sed '/:\/\//s/^.*$$/<URI>/' | sed 's/^@[A-Za-z0-9_][A-Za-z0-9_]*$$/<USER>/' | sed 's/^[A-Za-z0-9].*@.*$$/<EMAIL>/' > $@
 
 
 #######################################
