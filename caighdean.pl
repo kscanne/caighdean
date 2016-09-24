@@ -4,6 +4,7 @@ use strict;
 use warnings;
 use utf8;
 use Memoize;
+use Storable;
 use Redis;
 
 binmode STDIN, ":utf8";
@@ -30,7 +31,7 @@ my $unknown = 0;
 
 my @rules;
 my %spurious;
-my %cands;
+my $candsref;
 my $redis;
 
 # Keys are strings containing last two processed words, whether
@@ -141,7 +142,7 @@ sub irishtc {
 	$w =~ s/^dt/dT/;
 	if ($w =~ m/^h([aeiouáéíóú].*)$/) {
 		my $tail = $1;
-		if ((!exists($cands{$tail}) and !exists($cands{ucfirst($tail)})) or $w =~ m/^h(aigh|allaí?|aló|ata?í?|údaí|ur|.)$/) {
+		if ((!exists($candsref->{$tail}) and !exists($candsref->{ucfirst($tail)})) or $w =~ m/^h(aigh|allaí?|aló|ata?í?|údaí|ur|.)$/) {
 			$w =~ s/^h/H/;  # halla -> Halla
 		}
 		else {
@@ -315,8 +316,8 @@ sub all_matches {
 	(my $w, my $count) = @_;
 	my %ans;
 	return \%ans if ($count > $maxdepth);
-	if (exists($cands{$w})) {
-		for my $std (@{$cands{$w}}) {
+	if (exists($candsref->{$w})) {
+		for my $std (@{$candsref->{$w}}) {
 			if ($std eq $w) {
 				$ans{$std} = $count;
 			}
@@ -385,49 +386,7 @@ sub load_databases {
 	}
 	close SPURIOUS;
 
-	print "Loading clean word list...\n" if $verbose;
-	open(CLEAN, "<:utf8", "clean.txt") or die "Could not open clean wordlist: $!";
-	while (<CLEAN>) {
-		chomp;
-		push @{$cands{$_}}, $_ unless (exists($spurious{"$_ $_"}));
-	}
-	close CLEAN;
-
-	print "Loading list of pairs...\n" if $verbose;
-	open(PAIRS, "<:utf8", "pairs$extension.txt") or die "Could not open list of pairs: $!";
-	while (<PAIRS>) {
-		chomp;
-		next if exists($spurious{$_});
-		m/^([^ ]+) (.+)$/;
-		push @{$cands{$1}}, $2;
-	}
-	close PAIRS;
-
-	print "Loading multi-word phrase pairs...\n" if $verbose;
-	open(MULTI, "<:utf8", "multi$extension.txt") or die "Could not open list of phrases: $!";
-	while (<MULTI>) {
-		chomp;
-		m/^([^ ]+) (.+)$/;
-		my $source = $1;
-		my $target = $2;
-		push @{$cands{$source}}, $target;
-		if ($source =~ m/\p{Lu}/) {
-			push @{$cands{lc($source)}}, irishlc($target);
-		}
-	}
-	close MULTI;
-
-	print "Loading local pairs...\n" if $verbose;
-	open(LOCALPAIRS, "<:utf8", "pairs-local$extension.txt") or die "Could not open list of local pairs: $!";
-	while (<LOCALPAIRS>) {
-		chomp;
-		if (exists($spurious{$_})) {
-			print STDERR "Warning: pair \"$_\" is in pairs-local and spurious\n"; 	
-		}
-		m/^([^ ]+) (.+)$/;
-		push @{$cands{$1}}, $2;
-	}
-	close LOCALPAIRS;
+	$candsref = retrieve("cands$extension.hash");
 
 	eval {$redis = Redis->new;}; # default is 127.0.0.1:6379
 	die "Unable to connect to Redis server" if $@;
@@ -470,7 +429,7 @@ sub process_one_token {
 	my $hashref = all_matches($tok, 0);
 	my $unknown_p = (scalar keys %{$hashref} == 0);
 
-	# if there were no matches in %cands, and none computed
+	# if there were no matches in %{$candsref}, and none computed
 	# by applying rules, then leave the token unchanged
 	if ($unknown_p) {
 		$hashref->{$tok} = 0;
@@ -555,8 +514,8 @@ sub translate_stdin {
 		}
 		elsif (/^['ʼ’]/ or /['ʼ’]$/) {
 			my $w = normalize_apost_and_dash($_);
-			if (exists($cands{$w}) or m/^['ʼ’]+$/ or
-				($w =~ m/^'*[A-ZÁÉÍÓÚÀÈÌÒÙ]/ and exists($cands{lc($w)}))) {
+			if (exists($candsref->{$w}) or m/^['ʼ’]+$/ or
+				($w =~ m/^'*[A-ZÁÉÍÓÚÀÈÌÒÙ]/ and exists($candsref->{lc($w)}))) {
 				process_one_token($w);
 			}
 			else {
