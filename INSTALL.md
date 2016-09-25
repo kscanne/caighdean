@@ -15,6 +15,10 @@ If you would rather not mess with git, then you can simply
 [download a ZIP](https://github.com/kscanne/caighdean/archive/master.zip)
 containing all of the files in the repository.
 
+After downloading or cloning, you should run:
+
+	$ make install
+
 The one resource _not_ contained in the repository is the Irish n-gram language model (roughly speaking, this is a table of probabilities of seeing a word in Irish if you know the previous two words). These statistics need to be stored a [Redis database](http://redis.io/) that the standardizer will access at runtime.
 
 If you have a reasonably large corpus of (more or less) standard Irish, you can build your own n-gram model using the scripts in the `model` subdirectory. Just place your corpus in a plain text file, UTF-8 encoded, one sentence per line, in the `model` directory. Then edit the variable at the top of `model/makefile` to point to the file containing your corpus (do *not* use the default filename `corpus.txt`). Then:
