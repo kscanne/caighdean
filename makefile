@@ -15,6 +15,17 @@ TESTGV=eval/testpre-gv.txt
 
 all: ok.txt
 
+install: cands.hash cands-gd.hash cands-gv.hash
+
+cands.hash: spurious.txt clean.txt pairs.txt pairs-local.txt multi.txt
+	perl hashbuild.pl
+
+cands-gd.hash: spurious-gd.txt clean.txt pairs-gd.txt pairs-local-gd.txt multi-gd.txt
+	perl hashbuild.pl -d
+
+cands-gv.hash: spurious-gv.txt clean.txt pairs-gv.txt pairs-local-gv.txt multi-gv.txt
+	perl hashbuild.pl -x
+
 ######################  TARGETS FOR TESTING   ###########################
 test: FORCE
 	! perl caighdean.pl -t | egrep '^not ok'
@@ -102,7 +113,7 @@ eid-output.txt: tokenized-output.txt
 	cat tokenized-output.txt | perl detokenize.pl -f > $@
 
 clean:
-	rm -f detokentest.txt unchanged.txt post-tokens.txt pre-tokens.txt tokenized-output*.txt nua-output*.txt cga-output.txt pre-surv.txt post-surv.txt tofix.txt survey.txt probsleft.txt maint/tofixgram.txt eid-output.txt maint/unknown*.txt maint/grammar*.txt
+	rm -f *.hash detokentest.txt unchanged.txt post-tokens.txt pre-tokens.txt tokenized-output*.txt nua-output*.txt cga-output.txt pre-surv.txt post-surv.txt tofix.txt survey.txt probsleft.txt maint/tofixgram.txt eid-output.txt maint/unknown*.txt maint/grammar*.txt
 
 ############## Build test sets from parallel corpora ###############
 #              should never need to run these again!               #
