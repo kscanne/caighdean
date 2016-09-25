@@ -218,9 +218,11 @@ GA2GV=${HOME}/gaeilge/ga2gv/ga2gv
 # do "make refresh" right after running "groom"
 refresh: clean.txt-refresh pairs.txt-refresh alltokens.pl-refresh ngramify.pl-refresh
 
+# make groom called in ~/clar/script/groom, which is called from "cdup"
 groom: pairs.txt-refresh clean.txt-refresh rules.txt-refresh
 	cat multi.txt | LC_ALL=C sort -u | LC_ALL=C sort -k1,1 > temp.txt
 	mv -f temp.txt multi.txt
+	make cands.hash
 
 # removed gaelu for RIA May 2014; doesn't make sense if trying to mimic
 # a human standardizing a pre-standard Irish book for example
