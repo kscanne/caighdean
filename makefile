@@ -112,8 +112,11 @@ speedeval: FORCE
 eid-output.txt: tokenized-output.txt
 	cat tokenized-output.txt | perl detokenize.pl -f > $@
 
+# running this *and* make clean in model/ returns to a clean clone of the repo
+# *except* for the files eval/testp*.txt which are not tracked so we never
+# clean them up here or anywhere else (i.e. this target is perfectly safe)
 clean:
-	rm -f *.hash detokentest.txt unchanged.txt post-tokens.txt pre-tokens.txt tokenized-output*.txt nua-output*.txt cga-output.txt pre-surv.txt post-surv.txt tofix.txt survey.txt probsleft.txt maint/tofixgram.txt eid-output.txt maint/unknown*.txt maint/grammar*.txt
+	rm -f *.hash unchanged.txt post-tokens.txt pre-tokens.txt tokenized-output*.txt nua-output*.txt cga-output.txt pre-surv.txt post-surv.txt eid-output.txt maint/tofixgram.txt maint/modern-unknown.txt maint/unknown*.txt maint/grammar*.txt clients/client
 
 ############## Build test sets from parallel corpora ###############
 #              should never need to run these again!               #

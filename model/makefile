@@ -94,4 +94,4 @@ okdocs.txt: webonly.txt localonly.txt
 	cat webonly.txt localonly.txt > $@
 
 clean:
-	rm -f okdocs.txt corpus.txt alltokens.txt corpus-pre.txt corpus-pre-pre.txt training*.txt webonly.txt cleaner.txt localonly.txt
+	rm -f okdocs.txt corpus.txt alltokens.txt corpus-pre.txt corpus-pre-pre.txt training*.txt webonly.txt localonly.txt
