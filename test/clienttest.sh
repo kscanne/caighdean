@@ -1,5 +1,5 @@
 #!/bin/bash
-FREAMH=${HOME}/seal/caighdean
+FREAMH="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/.."
 
 # first arg is file extension for test file
 # second arg is tmp filename containing (precomputed) tiomanai.sh output

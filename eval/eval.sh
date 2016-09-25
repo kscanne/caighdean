@@ -3,7 +3,7 @@ then
 	echo "Usage: bash eval.sh FILE1 FILE2"
 	exit 1
 fi
-FREAMH=${HOME}/seal/caighdean
+FREAMH="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/.."
 TMP1=`mktemp`
 TMP2=`mktemp`
 cd ${FREAMH}

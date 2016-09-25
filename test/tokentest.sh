@@ -7,7 +7,7 @@ then
 	exit 1
 fi
 
-FREAMH=${HOME}/seal/caighdean
+FREAMH="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/.."
 TMPFILE=`mktemp`
 cd ${FREAMH}
 # first line tests clean handling non-UTF-8 input; should convert

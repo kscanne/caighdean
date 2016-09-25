@@ -1,5 +1,5 @@
 #!/bin/bash
-FREAMH=${HOME}/seal/caighdean
+FREAMH="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/.."
 SAMPSIZE=500
 if [ $# -ge 2 ]
 then

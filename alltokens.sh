@@ -4,5 +4,5 @@
 # If we do change the characters below, should also keep
 # the stuff in gaeilge/ngram in sync!
 # don't use ${HOME} since web service uses this
-FREAMH=/home/kps/seal/caighdean
+FREAMH="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 perl ${FREAMH}/alltokens.pl "-‑‐" "0-9ʼ’'#_@"

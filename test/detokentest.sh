@@ -1,5 +1,5 @@
 #!/bin/bash
-FREAMH=${HOME}/seal/caighdean
+FREAMH="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/.."
 TMPFILE=`mktemp`
 TMPFILE2=`mktemp`
 TMPFILE3=`mktemp`
