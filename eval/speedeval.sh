@@ -1,7 +1,7 @@
 #!/bin/bash
 # first thousand sentences in each test file, for consistency,
 # and since content doesn't really matter
-FREAMH=${HOME}/seal/caighdean
+FREAMH="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/.."
 SAMPSIZE=1000
 if [ $# -ge 2 ]
 then
