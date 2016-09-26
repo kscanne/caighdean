@@ -2806,6 +2806,7 @@ cha_der ní thabharfaidh
 cha_dod níor fhéad
 cha_dreggyr níor fhreagair
 cha_dreih ní oth
+cha_duirree níor fhan
 cha_gooin ní cuimhin
 cha_jarg ní fhéadfadh
 cha_jargym ní féidir liom
@@ -5170,6 +5171,10 @@ coyryn_rioee cuisneoirí
 cr_ash ar ais
 craa_laue croitheadh láimhe
 craa_thallooin crith talún
+craad_t'ee cá bhfuil sí
+craad_t'eh cá bhfuil sé
+craad_ta cá bhfuil
+craad_ta'n cá bhfuil an
 crackan_feeaihee craiceann fia
 crackan_keyrragh craiceann caorach
 crackan_maghouin craiceann béir
@@ -7460,6 +7465,7 @@ dy_bailloo gur mhian leo
 dy_baillt gur mhian leat
 dy_baillym gur mhian liom
 dy_ballish gur mhian leis
+dy_bannee go mbeannaí
 dy_bare gurbh fhearr
 dy_beagh_ad dá mbeidís
 dy_beagh_ad go mbeidís
@@ -9917,6 +9923,7 @@ feer_veg fíorbheag
 feer_veg fíorbheaga
 feer_veg fíorbheige
 feer_veg fíorbhig
+feer_veggan fíorbheagán
 feer_vennick go mion minic
 feer_vhioyral fhíorláidir
 feer_vie an-mhaith
@@ -9944,6 +9951,7 @@ feer_whaagh an-aisteach
 feer_whaagh fíoraisteach
 feer_woirit fíorbhuartha
 feer_wooar fíormhór
+feer_wooiagh fíorshásta
 feer_wooisal an-bhuíoch
 feer_wooisal fíorbhuíoch
 feer_yindyssagh an-iontach
@@ -10332,15 +10340,26 @@ fockleyn_meshtit hanagram
 fockleyr_beg foclóir beag
 fod_mayd is féidir linn
 fod_oo is féidir leat
+fodd'_ad is féidir leo
+fodd'_ee is féidir léi
+fodd'_eh is féidir leis
+fodd'_mayd is féidir linn
+fodd'_oo is féidir leat
+fodd'_s'foalsey i bhfad níos bréagaí
+fodd'_shiu is féidir libh
+fodd'_veih i bhfad ó
+fodd's_gerrit i bhfad agus i ngearr
 foddee_ad is féidir leo
 foddee_ee is féidir léi
 foddee_eh is féidir leis
+foddee_mayd is féidir linn
 foddee_oo is féidir leat
 foddee_shiu is féidir libh
 foddey_'sy_yioin i bhfad siar
 foddey_'sy_yioin i gcéin
 foddey_'sy_yoin i bhfad siar
 foddey_'sy_yoin i gcéin
+foddey_as_gerrit i bhfad agus i ngearr
 foddey_er-dy-henney fada ó shin
 foddey_er-dy-henney fadó
 foddey_farraghtyn seasmhach
@@ -10353,6 +10372,7 @@ foddey_s'berchee i bhfad níos saibhre
 foddey_s'berçhee i bhfad níos saibhre
 foddey_s'creeney i bhfad níos críonna
 foddey_s'cronnal i bhfad níos soiléire
+foddey_s'foalsey i bhfad níos bréagaí
 foddey_s'kiaralee i bhfad níos díograisí
 foddey_s'ooasle i bhfad níos uaisle
 foddey_s'pooaral i bhfad níos cumhachtaí
@@ -10369,6 +10389,7 @@ foddey_sloo i bhfad níos lú
 foddey_smessey i bhfad níos measa
 foddey_smoo i bhfad níos mó
 foddey_sodjey i bhfad níos faide
+foddey_veih i bhfad ó
 foddey_veih_my_cheilley i bhfad óna chéile
 fogrey_draamey fógra dráma
 fogrey_jerree fógra deiridh
@@ -16593,6 +16614,7 @@ jean_airhey buíán
 jean_shin dhéanfaimid
 jean_shin déanfaimid
 jean_shin ndéanfaimid
+jean_soiagh'_jeh tabhair ómós do
 jean_soiaghey_jeh tabhair ómós do
 jean_soiaghey_jeh'n tabhair ómós don
 jean_uss déan
@@ -23547,6 +23569,7 @@ my_vaaigaght m'amscaíocht
 my_vaaigaght m'amscaíochta
 my_vaaigaght m'úspántacht
 my_vaaigaght m'úspántachta
+my_vaanal m'ionsú
 my_vaane_rioee m'íoglú
 my_vaaneyn_rioee m'íoglúnna
 my_vaanreydagh m'fhanaiceach
