@@ -4984,6 +4984,12 @@ a_dh'fhìor-àireamhan do réaduimhreacha
 a_dh'fhìor-àireimh do réaduimhreach
 a_dh'fhìos d'fhios
 a_dh'fhìosa d'fheasa
+a_dh'fhìosrachadh d'fhaisnéis
+a_dh'fhìosrachadh d'fhiosrú
+a_dh'fhìosrachaidh d'fhaisnéise
+a_dh'fhìosrachaidh d'fhiosrú
+a_dh'fhìosrachaidhean d'fhaisnéisí
+a_dh'fhìosrachaidhean d'fhiosruithe
 a_dh'fhìr d'fhear
 a_dh'fhìr d'fhir
 a_dh'fhìr do cheann
@@ -8838,6 +8844,7 @@ an_t-Ògmhios Meitheamh
 an_t-Ògmhìos Meitheamh
 an_t-àite_far_am an áit ina
 an_tabhair an dtabharfaidh
+an_tabhartais-pheacaidh na híobartha peaca
 an_taca_le i gcomparáid le
 an_taca_ri i gcomparáid le
 an_taca_ri_a i gcomparáid lena
@@ -8937,6 +8944,7 @@ ann_am i
 ann_am in
 ann_am_Belarus sa Bhealarúis
 ann_am_Bermuda i mBeirmiúda
+ann_am_Bet-el i mBéitéil
 ann_am_Betlehem i mBeithil
 ann_am_Beul-Feirste i mBéal Feirste
 ann_am_Boilibhia sa Bholaiv
@@ -9020,6 +9028,7 @@ ann_an_Croatia sa Chróit
 ann_an_Croàisia sa Chróit
 ann_an_Cròthais sa Chróit
 ann_an_Cìorgastan sa Chirgeastáin
+ann_an_Damascus sa Damaisc
 ann_an_Dùthaich_nan_Tàidh sa Téalainn
 ann_an_Eastoinia san Eastóin
 ann_an_Eastòinia san Eastóin
@@ -9742,6 +9751,7 @@ beachdaicheadh_iad smaoineoidís
 beachdaicheadh_iad smaoinídís
 beachdaicheadh_tu smaoineofá
 beachdaichidh_sinn smaoineoimid
+beag_air_bheag beagán ar bheagán
 beag_chuid mionlach
 beag_feum beag úsáid
 beag_feuma gan mhaith
@@ -11719,6 +11729,12 @@ bu_chrasgach b'fhiarthrasna
 bu_chrasgaiche b'fhiarthrasna
 bu_chreag b'aill
 bu_chreagan b'aillte
+bu_chreanach b'fhulangaí
+bu_chreanaich b'fhulangaithe
+bu_chreanaiche b'fhulangaí
+bu_chreanaichean b'fhulangaithe
+bu_chreineach b'fhulangaí
+bu_chreinich b'fhulangaithe
 bu_chrodh b'eallach
 bu_chrosgach b'fhiarthrasna
 bu_chrosgaiche b'fhiarthrasna
@@ -13384,6 +13400,8 @@ bu_mhaiseach b'álainn
 bu_mhaisiche b'áille
 bu_mhang b'oisín
 bu_mhangan b'oisíní
+bu_mhanifesto b'fhorógra
+bu_mhanifestothan b'fhorógraí
 bu_mhaoil b'éadan
 bu_mhaoilean b'éadain
 bu_mhaoineachas b'airgeadas
@@ -14445,6 +14463,7 @@ bùthtean_obrach gceardlanna
 c'ar_son cad chuige
 c'ar_son cén fáth
 ca'_bheil cá bhfuil
+ca'_il cá bhfuil
 ca_bheil cá bhfuil
 cacadh_iad cacaidís
 cacadh_iad gcacaidís
@@ -16101,6 +16120,22 @@ chriomadh_iad chreimfidís
 chriomadh_iad chreimidís
 chriomadh_tu chreimfeá
 chriomaidh_sinn chreimfimid
+chriothnaich_iad chreathnaíodar
+chriothnaich_iad chritheadar
+chriothnaich_iad gcreathnaíodar
+chriothnaich_iad gcritheadar
+chriothnaich_sinn chreathnaíomar
+chriothnaich_sinn chritheamar
+chriothnaich_sinn gcreathnaíomar
+chriothnaich_sinn gcritheamar
+chriothnaicheadh_iad chreathnaídís
+chriothnaicheadh_iad chreathnóidís
+chriothnaicheadh_iad chrithfidís
+chriothnaicheadh_iad chrithidís
+chriothnaicheadh_tu chreathnófá
+chriothnaicheadh_tu chrithfeá
+chriothnaichidh_sinn chreathnóimid
+chriothnaichidh_sinn chrithfimid
 chrith_iad chritheadar
 chrith_iad gcritheadar
 chrith_sinn chritheamar
@@ -17426,6 +17461,18 @@ criomadh_iad gcreimidís
 criomadh_tu gcreimfeá
 criomaidh_sinn creimfimid
 criomaidh_sinn gcreimfimid
+criothnaicheadh_iad creathnaídís
+criothnaicheadh_iad crithidís
+criothnaicheadh_iad gcreathnaídís
+criothnaicheadh_iad gcreathnóidís
+criothnaicheadh_iad gcrithfidís
+criothnaicheadh_iad gcrithidís
+criothnaicheadh_tu gcreathnófá
+criothnaicheadh_tu gcrithfeá
+criothnaichidh_sinn creathnóimid
+criothnaichidh_sinn crithfimid
+criothnaichidh_sinn gcreathnóimid
+criothnaichidh_sinn gcrithfimid
 critheadh_iad crithidís
 critheadh_iad gcrithfidís
 critheadh_iad gcrithidís
@@ -17836,6 +17883,7 @@ cutadh_iad nglanfaidís
 cutadh_tu nglanfá
 cutaidh_sinn glanfaimid
 cutaidh_sinn nglanfaimid
+cà'_il cá bhfuil
 cà_bheil cá bhfuil
 càil_a_dh'fhios tuairim ar bith
 càil_a_dh'fhios'am tuairim ar bith agam
@@ -17925,6 +17973,7 @@ cò_latha_brèith breithlá
 cò_là_breith breithlá
 cò_là_brèith breithlá
 cò_sam_bith cibé duine
+cò_th' cé atá
 cò_tha cé atá
 cò_às cad as
 còig_deicheadan caoga bliain
@@ -18033,6 +18082,7 @@ còrr_dheth chuid eile di
 còrr_is breis is
 còrr_is corradh is
 có_dhiù ar aon nós
+có_th' cé atá
 cùbadh_iad cúbaidís
 cùbadh_iad gcúbaidís
 cùbadh_iad gcúbfaidís
@@ -18052,7 +18102,27 @@ cùram_cloinne cùram clainne
 cùrsa_bogaidh tumchúrsa
 cùrsaichean_bogaidh tumchúrsaí
 d'Ard_Righ d'ardrí
+d'_a_ionnsaidh chuige
+d'_a_ionnsaidh-san chuigesean
+d'_a_ionnsaigh chuige
+d'_a_ionnsaigh-san chuigesean
+d'_a_ionnsuidh chuige
+d'_a_ionnsuidh-san chuigesean
+d'_a_ionnsuigh chuige
+d'_a_ionnsuigh-san chuigesean
+d'_an_ionnsaidh chucu
+d'_an_ionnsaidh-san chucusan
+d'_an_ionnsaigh chucu
+d'_an_ionnsaigh-san chucusan
+d'_an_ionnsuidh chucu
+d'_an_ionnsuidh-san chucusan
+d'_an_ionnsuigh chucu
+d'_an_ionnsuigh-san chucusan
 d'_chraiceann do chraiceann
+d'_rinn_iad dhearnadar
+d'_rinn_iad ndearnadar
+d'_rinn_sinn dhearnamar
+d'_rinn_sinn ndearnamar
 d'a_ionnsaidh chuige
 d'a_ionnsaidh-san chuigesean
 d'a_ionnsaigh chuige
@@ -22717,6 +22787,12 @@ de_dh'fhìor-àireamhan de réaduimhreacha
 de_dh'fhìor-àireimh de réaduimhreach
 de_dh'fhìos d'fhios
 de_dh'fhìosa d'fheasa
+de_dh'fhìosrachadh d'fhaisnéis
+de_dh'fhìosrachadh d'fhiosrú
+de_dh'fhìosrachaidh d'fhaisnéise
+de_dh'fhìosrachaidh d'fhiosrú
+de_dh'fhìosrachaidhean d'fhaisnéisí
+de_dh'fhìosrachaidhean d'fhiosruithe
 de_dh'fhìr d'fhear
 de_dh'fhìr d'fhir
 de_dh'fhìr de cheann
@@ -34657,6 +34733,12 @@ do_dh'fhìor-àireamhan do réaduimhreacha
 do_dh'fhìor-àireimh do réaduimhreach
 do_dh'fhìos d'fhios
 do_dh'fhìosa d'fheasa
+do_dh'fhìosrachadh d'fhaisnéis
+do_dh'fhìosrachadh d'fhiosrú
+do_dh'fhìosrachaidh d'fhaisnéise
+do_dh'fhìosrachaidh d'fhiosrú
+do_dh'fhìosrachaidhean d'fhaisnéisí
+do_dh'fhìosrachaidhean d'fhiosruithe
 do_dh'fhìr d'fhear
 do_dh'fhìr d'fhir
 do_dh'fhìr do cheann
@@ -37777,6 +37859,7 @@ dè_'n cad é an
 dè_'n cén
 dè_cho cé chomh
 dè_cho_fad cé chomh fada
+dè_th' cad é atá
 dèanadh_iad déanaidís
 dèanadh_iad ndéanaidís
 dèanadh_iad ndéanfaidís
@@ -37789,6 +37872,7 @@ dèiligeadh_tu ndéileálfá
 dèiligidh_sinn déileálfaimid
 dèiligidh_sinn ndéileálfaimid
 dé_cho cé chomh
+dé_th' cad é atá
 dì-chuimhnicheadh_iad dearmadaidís
 dì-chuimhnicheadh_iad ndearmadaidís
 dì-chuimhnicheadh_iad ndearmadfaidís
@@ -40962,6 +41046,7 @@ gu_Croatia go dtí an Chróit
 gu_Croàisia go dtí an Chróit
 gu_Cròthais go dtí an Chróit
 gu_Cìorgastan go dtí an Chirgeastáin
+gu_Damascus go dtí an Damaisc
 gu_Eastoinia go dtí an Eastóin
 gu_Eastòinia go dtí an Eastóin
 gu_Estòinia go dtí an Eastóin
@@ -44640,7 +44725,15 @@ mo_chothroman-obrach m'fholúntais
 mo_chothroman-obrach m'fholúntas
 mo_chreag m'aill
 mo_chreagan m'aillte
+mo_chreanach m'fhulangaí
+mo_chreanaich m'fhulangaithe
+mo_chreanaich m'fhulangaí
+mo_chreanaiche m'fhulangaí
+mo_chreanaichean m'fhulangaithe
 mo_chreige m'aille
+mo_chreineach m'fhulangaí
+mo_chreinich m'fhulangaithe
+mo_chreinich m'fhulangaí
 mo_chrodh m'eallach
 mo_chruidh m'eallaigh
 mo_chuain m'aigéin
@@ -46027,6 +46120,12 @@ mo_fhìor-uisge m'fhíoruisce
 mo_fhìor-uisgeachan m'fhíoruiscí
 mo_fhìos m'fhios
 mo_fhìosa m'fheasa
+mo_fhìosrachadh m'fhaisnéis
+mo_fhìosrachadh m'fhiosrú
+mo_fhìosrachaidh m'fhaisnéise
+mo_fhìosrachaidh m'fhiosrú
+mo_fhìosrachaidhean m'fhaisnéisí
+mo_fhìosrachaidhean m'fhiosruithe
 mo_fhìr m'fhear
 mo_fhìr m'fhir
 mo_fhìrean m'fhíréan
@@ -46441,6 +46540,8 @@ mo_mhadaidhean-allaidh m'fhaolchúnna
 mo_mhainge m'oisín
 mo_mhang m'oisín
 mo_mhangan m'oisíní
+mo_mhanifesto m'fhorógra
+mo_mhanifestothan m'fhorógraí
 mo_mhaoil m'éadain
 mo_mhaoil m'éadan
 mo_mhaoilean m'éadain
@@ -47743,6 +47844,7 @@ na_shuidhe ina shuí
 na_stàite an stáit
 na_suidhe ina suí
 na_teagamhan an t-amhras
+na_th' a bhfuil
 na_àite ina háit
 na_àite ina áit
 nach_b'_e nárbh é
@@ -47840,7 +47942,9 @@ nan_Innseachan na hIndia
 nan_Komi na gCoimithe
 nan_Luchd-Obrach an Lucht Oibre
 nan_Luchd_Obrach an Lucht Oibre
+nan_Làbarach Pháirtí an Lucht Oibre
 nan_Làbaraich Pháirtí an Lucht Oibre
+nan_Làborach Pháirtí an Lucht Oibre
 nan_Làboraich Pháirtí an Lucht Oibre
 nan_Nua-Ealain na Nua-Ealaíon
 nan_Sami na Sámach
