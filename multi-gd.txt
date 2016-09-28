@@ -338,6 +338,7 @@ Pàdraig_Pearsach Pádraigh Mac Piarais
 Pàrtaidh_Làbarach_na_h-Alba Páirtí an Lucht Oibre in Albain
 Pàrtaidh_Làborach_na_h-Alba Páirtí an Lucht Oibre in Albain
 Ridire_Chiiirn Ridire Choirn
+Ridirean_Teampallach Teamplóirí
 Roinn_Eorpa Roinn na hEorpa
 Roinn_Eòrpa Eoraip
 Rùnaire_a'_Chaibineit Rúnaí Comh-aireachta
@@ -940,6 +941,7 @@ a_dh'_aindheoin in ainneoin
 a_dh'_aithgearr go luath
 a_dh'_aithghearr go luath
 a_dh'_fhaodas a fhéadfaidh
+a_dh'_fheumas a chaithfidh
 a_dh'_ionnsaidh chun
 a_dh'_ionnsaigh chun
 a_dh'_ionnsuidh chun
@@ -3092,6 +3094,9 @@ a_dh'eolais d'eolais
 a_dh'eolas d'eolas
 a_dh'eorna d'eorna
 a_dh'eoroipium d'eoraipiam
+a_dh'ephah d'éafá
+a_dh'ephod d'éafód
+a_dh'ephod d'éafóid
 a_dh'eu-cneasdachd do chruálacht
 a_dh'eu-cneasdachd do chruálachta
 a_dh'eu-cneastachd do chruálacht
@@ -5006,6 +5011,8 @@ a_dh'fhìr d'fhir
 a_dh'fhìr do cheann
 a_dh'fhìr do chinn
 a_dh'fhìrean d'fhíréan
+a_dh'fhìreana d'fhíréan
+a_dh'fhìreana d'fhíréin
 a_dh'fhìreanachadh d'fhíréanú
 a_dh'fhìreanachaidh d'fhíréanaithe
 a_dh'fhìreanan d'fhíréan
@@ -6103,6 +6110,9 @@ a_dh'oirfideas d'oirfide
 a_dh'oirfideis d'oirfide
 a_dh'oirfidich d'oirfideach
 a_dh'oirfidich d'oirfidigh
+a_dh'oirleach d'orlach
+a_dh'oirlich d'orlaigh
+a_dh'oirlich d'orlaí
 a_dh'oirp d'iarracht
 a_dh'oirpe d'iarrachta
 a_dh'oirpean d'iarrachtaí
@@ -7830,7 +7840,9 @@ a_th'agad-sa atá agatsa
 a_th'agaibh atá agaibh
 a_th'agaibh atá agat
 a_th'againn atá againn
+a_th'againne atá againne
 a_th'agam atá agam
+a_th'agamsa atá agamsa
 a_th'aig atá ag
 a_th'aige atá aige
 a_th'air atá ar
@@ -8852,6 +8864,7 @@ an_t-Sultainn Meán Fómhair
 an_t-Sìn an tSín
 an_t-aite_far_a_bheil an áit ina bhfuil
 an_t-seachdain-sa an tseachtain seo
+an_t-sean_bhliadhna an tseanbhliain
 an_t-slde an aimsir
 an_t-Òg_Mhios Meitheamh
 an_t-Òg_Mhìos Meitheamh
@@ -9180,6 +9193,8 @@ anns_An san
 anns_Na sna
 anns_a' sa
 anns_a' san
+anns_a'Ghaidhlig sa Ghàidhlig
+anns_a'Ghàidhlig sa Ghàidhlig
 anns_a'_Bheiniseala i Veiniséala
 anns_a'_Bheurla_Gallda san Albainis
 anns_a'_Bheurla_Gallta san Albainis
@@ -9260,6 +9275,7 @@ anns_an_Ògmhios i Meitheamh
 anns_an_Ògmhìos i Meitheamh
 anns_gach i ngach
 anns_na sna
+anns_na_Labaraich i bPáirtí an Lucht Oibre
 anns_na_Laboraich i bPáirtí an Lucht Oibre
 anns_na_Làbaraich i bPáirtí an Lucht Oibre
 anns_na_Làboraich i bPáirtí an Lucht Oibre
@@ -10377,6 +10393,7 @@ bho_chionn_fhada i bhfad ó shin
 bho_chionn_ghoirid le déanaí
 bho_chionn_goirid le déanaí
 bho_chàch ón chuid eile
+bho_na_Labaraich ó Pháirtí an Lucht Oibre
 bho_na_Laboraich ó Pháirtí an Lucht Oibre
 bho_na_Làbaraich ó Pháirtí an Lucht Oibre
 bho_na_Làboraich ó Pháirtí an Lucht Oibre
@@ -11930,6 +11947,7 @@ bu_dhleastanach b'umhal
 bu_dhleastanach b'umhla
 bu_dhleastanaiche b'umhaile
 bu_dhol-a-mach b'iompar
+bu_dhol-às b'éalú
 bu_dhonn-òir b'órdhoinne
 bu_dhonn-òir b'órdhonn
 bu_dhonn-òir b'órdhonna
@@ -13645,6 +13663,7 @@ bu_neònach b'aite
 bu_neònaiche b'aistí
 bu_neònaiche b'aite
 bu_nighean b'iníon
+bu_nigheana b'iníonacha
 bu_nigheanan b'iníonacha
 bu_nigheann b'iníon
 bu_nigheannan b'iníonacha
@@ -15087,6 +15106,7 @@ chan_eil níl
 chan_eil_a_beat níl sárú
 chan_eil_am_beat níl sárú
 chan_eil_beat níl sárú
+chan_eil_clue níl cliú
 chan_eil_e_gu_diofar is cuma
 chan_eilear níltear
 chan_ell ní bhíonn
@@ -16235,6 +16255,14 @@ chruadhaicheadh_iad chruaidís
 chruadhaicheadh_tu chruafá
 chruadhaichidh_sinn chruafaimid
 chruaidh_càs chruachás
+chruaidhich_iad chruadar
+chruaidhich_iad gcruadar
+chruaidhich_sinn chruamar
+chruaidhich_sinn gcruamar
+chruaidhicheadh_iad chruafaidís
+chruaidhicheadh_iad chruaidís
+chruaidhicheadh_tu chruafá
+chruaidhichidh_sinn chruafaimid
 chruinnich_iad chruinníodar
 chruinnich_iad gcruinníodar
 chruinnich_sinn chruinníomar
@@ -17565,6 +17593,12 @@ cruadhaichidh_sinn gcruafaimid
 cruaidh_chàs cruachás
 cruaidh_chàs gcruachás
 cruaidh_càs cruachás
+cruaidhicheadh_iad cruaidís
+cruaidhicheadh_iad gcruafaidís
+cruaidhicheadh_iad gcruaidís
+cruaidhicheadh_tu gcruafá
+cruaidhichidh_sinn cruafaimid
+cruaidhichidh_sinn gcruafaimid
 cruinnicheadh_iad cruinnídís
 cruinnicheadh_iad gcruinneoidís
 cruinnicheadh_iad gcruinnídís
@@ -20929,6 +20963,9 @@ de_dh'eolais d'eolais
 de_dh'eolas d'eolas
 de_dh'eorna d'eorna
 de_dh'eoroipium d'eoraipiam
+de_dh'ephah d'éafá
+de_dh'ephod d'éafód
+de_dh'ephod d'éafóid
 de_dh'eu-cneasdachd de chruálacht
 de_dh'eu-cneasdachd de chruálachta
 de_dh'eu-cneastachd de chruálacht
@@ -22845,6 +22882,8 @@ de_dh'fhìr d'fhir
 de_dh'fhìr de cheann
 de_dh'fhìr de chinn
 de_dh'fhìrean d'fhíréan
+de_dh'fhìreana d'fhíréan
+de_dh'fhìreana d'fhíréin
 de_dh'fhìreanachadh d'fhíréanú
 de_dh'fhìreanachaidh d'fhíréanaithe
 de_dh'fhìreanan d'fhíréan
@@ -23940,6 +23979,9 @@ de_dh'oirfideas d'oirfide
 de_dh'oirfideis d'oirfide
 de_dh'oirfidich d'oirfideach
 de_dh'oirfidich d'oirfidigh
+de_dh'oirleach d'orlach
+de_dh'oirlich d'orlaigh
+de_dh'oirlich d'orlaí
 de_dh'oirp d'iarracht
 de_dh'oirpe d'iarrachta
 de_dh'oirpean d'iarrachtaí
@@ -27473,6 +27515,14 @@ dh'fheuchadh_iad fhéachfaidís
 dh'fheuchadh_tu bhféachfá
 dh'fheuchadh_tu d'fhéachfá
 dh'fheuchadh_tu fhéachfá
+dh'fheud_iad bhféadadar
+dh'fheud_iad d'fhéadadar
+dh'fheud_iad fhéadadar
+dh'fheud_sinn bhféadamar
+dh'fheud_sinn d'fhéadamar
+dh'fheud_sinn fhéadamar
+dh'fheudadh_iad d'fhéadfaidís
+dh'fheudadh_tu d'fhéadfá
 dh'fheum_iad chaitheadar
 dh'fheum_iad gcaitheadar
 dh'fheum_sinn chaitheamar
@@ -32875,6 +32925,9 @@ do_dh'eolais d'eolais
 do_dh'eolas d'eolas
 do_dh'eorna d'eorna
 do_dh'eoroipium d'eoraipiam
+do_dh'ephah d'éafá
+do_dh'ephod d'éafód
+do_dh'ephod d'éafóid
 do_dh'eu-cneasdachd do chruálacht
 do_dh'eu-cneasdachd do chruálachta
 do_dh'eu-cneastachd do chruálacht
@@ -34791,6 +34844,8 @@ do_dh'fhìr d'fhir
 do_dh'fhìr do cheann
 do_dh'fhìr do chinn
 do_dh'fhìrean d'fhíréan
+do_dh'fhìreana d'fhíréan
+do_dh'fhìreana d'fhíréin
 do_dh'fhìreanachadh d'fhíréanú
 do_dh'fhìreanachaidh d'fhíréanaithe
 do_dh'fhìreanan d'fhíréan
@@ -35886,6 +35941,9 @@ do_dh'oirfideas d'oirfide
 do_dh'oirfideis d'oirfide
 do_dh'oirfidich d'oirfideach
 do_dh'oirfidich d'oirfidigh
+do_dh'oirleach d'orlach
+do_dh'oirlich d'orlaigh
+do_dh'oirlich d'orlaí
 do_dh'oirp d'iarracht
 do_dh'oirpe d'iarrachta
 do_dh'oirpean d'iarrachtaí
@@ -38660,6 +38718,12 @@ feuchaidh_sinn bhféachfaimid
 feuchaidh_sinn féachfaimid
 feuchainn_ri ag iarraidh
 feuchainn_ris ag iarraidh
+feudadh_iad bhféadaidís
+feudadh_iad bhféadfaidís
+feudadh_iad féadaidís
+feudadh_tu bhféadfá
+feudaidh_sinn bhféadfaimid
+feudaidh_sinn féadfaimid
 feumach_air i gceal
 feumach_air in uireasa
 feumachd_air i gceal
@@ -38833,6 +38897,10 @@ fheuchadh_iad fhéachaidís
 fheuchadh_iad fhéachfaidís
 fheuchadh_tu fhéachfá
 fheuchaidh_sinn fhéachfaimid
+fheudadh_iad fhéadaidís
+fheudadh_iad fhéadfaidís
+fheudadh_tu fhéadfá
+fheudaidh_sinn fhéadfaimid
 fheumadh_iad chaithfidís
 fheumadh_iad chaithidís
 fheumadh_tu chaithfeá
@@ -43447,6 +43515,7 @@ mar_bu_thrice de ghnáth
 mar_bu_trice de ghnáth
 mar_deidhinn fúinn
 mar_is_trice de ghnáth
+mar_th'againne mar atá againne
 mar_thà cheana
 marbhadh_iad maraídís
 marbhadh_iad maróidís
@@ -44958,6 +45027,7 @@ mo_dhiobhairt m'urlacain
 mo_dhiobhairt m'urlacan
 mo_dhol-a-mach m'iompair
 mo_dhol-a-mach m'iompar
+mo_dhol-às m'éalú
 mo_dhonnalaich m'uallfartach
 mo_dhonnalaich m'uallfartaí
 mo_dhragh m'imní
@@ -46207,6 +46277,8 @@ mo_fhìosrachaidhean m'fhiosruithe
 mo_fhìr m'fhear
 mo_fhìr m'fhir
 mo_fhìrean m'fhíréan
+mo_fhìreana m'fhíréan
+mo_fhìreana m'fhíréin
 mo_fhìreanachadh m'fhíréanú
 mo_fhìreanachaidh m'fhíréanaithe
 mo_fhìreanan m'fhíréan
@@ -46812,6 +46884,7 @@ mo_neo-loisgear m'aispeist
 mo_neo-loisgeir m'aispeiste
 mo_nighean m'iníon
 mo_nigheana a iníonacha
+mo_nigheana m'iníonacha
 mo_nigheanan m'iníonacha
 mo_nigheann m'iníon
 mo_nigheannan m'iníonacha
@@ -47668,6 +47741,7 @@ mothaicheadh_iad mothaídís
 mothaicheadh_iad mothóidís
 mothaicheadh_tu mothófá
 mothaichidh_sinn mothóimid
+mu'n_cuairt_orm i mo timpeall
 mu_'m_dheidhinn fúm
 mu_'n_deidhinn fúthu
 mu_a_deidhin fúithi
@@ -47880,6 +47954,7 @@ na_Cumantan na Teachtaí
 na_Dùthchannan_Céin Gnóthaí Eachtracha
 na_Gàidhlig na Gàidhlig
 na_Komi na Coimithe
+na_Labaraich Páirtí an Lucht Oibre
 na_Laboraich Páirtí an Lucht Oibre
 na_Làbaraich Páirtí an Lucht Oibre
 na_Làboraich Páirtí an Lucht Oibre
@@ -48041,6 +48116,7 @@ nan_Eilean na nOileán
 nan_Eileanan na nOileán
 nan_Innseachan na hIndia
 nan_Komi na gCoimithe
+nan_Labaraich Pháirtí an Lucht Oibre
 nan_Laboraich Pháirtí an Lucht Oibre
 nan_Luchd-Obrach an Lucht Oibre
 nan_Luchd_Obrach an Lucht Oibre
@@ -50342,6 +50418,12 @@ ris_a_bheil lena bhfuil
 ris_an_canar ar a dtugtar
 ris_an_cante ar a dtugtar
 ris_gach le gach
+ro-òrdaich_iad réamhordaíodar
+ro-òrdaich_sinn réamhordaíomar
+ro-òrdaicheadh_iad réamhordaídís
+ro-òrdaicheadh_iad réamhordóidís
+ro-òrdaicheadh_tu réamhordófá
+ro-òrdaichidh_sinn réamhordóimid
 ro_a roimh a
 ro_anmoch ródhéanach
 ro_bheag róbheag
@@ -54078,6 +54160,8 @@ t-Seann_Tiomnadh tSean-Tiomna
 t-an_sac t-asma
 t-iasg_geal faoitín
 t-inneal_tomhais_aimsir t-anaróideach
+t-sean_nòs sean-nós
+t-sean_nós sean-nós
 t-seann_Ghàidheal Sean-Ghael
 t-seann_Ghàidheal tSean-Ghaeil
 t-seann_Ghàidhealtachd tsean-Ghaeltacht
