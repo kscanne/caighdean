@@ -52,6 +52,7 @@
 'gan_togail á dtógáil
 'gan_toirt á dtabhairt
 'gan_tuigsinn á dtuiscint
+'m_dhèidh i mo dhiaidh
 'm_fagas i bhfogas
 'm_fagus i bhfogas
 'n_a_dhiaigh ina dhiaidh
@@ -102,6 +103,8 @@
 'nan_crùban ar a ngogaidí
 'nan_deann ar lánluas
 'nan_deann go gasta
+'s_a_gabhas agus is féidir
+'s_a_ghabhas agus is féidir
 's_an_t-fhoghar san fhómhar
 's_coingeis_dhomh is cuma liom
 's_eadh is ea
@@ -110,6 +113,7 @@
 's_fheàirrde is fearrde
 's_fhiach is fiú
 's_fiach is fiú
+'s_gabhas agus is féidir
 's_gann is ar éigean
 's_math_dh'fhaodte seans
 's_math_dh'fhaoidte seans
@@ -127,6 +131,8 @@
 's_urrainnear is féidir
 'sa_bhad ar an bpointe
 'sa_bhad láithreach
+'sa_gabhas agus is féidir
+'sa_ghabhas agus is féidir
 'sa_tha is atá
 'san_t-seadh sa chiall
 Abhainn_Niger Abhainn na Nígire
@@ -361,10 +367,12 @@ Shealainn_Nuadh Nua-Shéalainne
 Sheann_Lochlannais Shean-Lochlainnis
 Sheann_Lochlannais Shean-Lochlainnise
 Shinn_Féin Shinn Féin
+Shrath_Àrdail Shrath Àrdail
 Siarra_Leòmhann Siarra Leon
 Sierra_Leone Siarra Leon
 Sierra_Nevada Sierra Nevada
 Sinn_Féin Sinn Féin
+Srath_Àrdail Srath Àrdail
 Sri_Lanca Srí Lanca
 Sri_Lanka Srí Lanca
 Star_Trek Star Trek
@@ -424,6 +432,7 @@ a'_deasbaid ag plé
 a'_dh'_aindeoin in ainneoin
 a'_dh'aindeoin in ainneoin
 a'_dèanamh_fiughair ag súil
+a'_dèanamh_fiùghair ag súil
 a'_falach i bhfolach
 a'_farpais ag coimhlint
 a'_feuchainn_ri ag iarraidh
@@ -449,6 +458,9 @@ a'_phàrtaidh_Làboraich Páirtí an Lucht Oibre
 a'_tadhal_air ag tabhairt cuairte ar
 a'_tadhal_oirnn ag tabhairt cuairte orainn
 a'_tadhal_orra ag tabhairt cuairte orthu
+a'dèanamh_fiùghair ag súil
+a'feuchainn_ri ag iarraidh
+a'feuchainn_ris ag iarraidh
 a'gabhail_pàirt ag glacadh páirte
 a's_a'_spot ar an toirt
 a's_a'_spot láithreach
@@ -683,6 +695,7 @@ a_dh'Argentina d'Airgintín
 a_dh'Argentina d'Airgintíne
 a_dh'Arm d'Arm
 a_dh'Arme d'Airm
+a_dh'Asia d'Áise
 a_dh'Astràilia don Astráil
 a_dh'Astràilianach d'Astrálach
 a_dh'Astràilianaich d'Astrálach
@@ -703,6 +716,9 @@ a_dh'Eabhraidhich d'Iosraeilíteach
 a_dh'Eabhraidhich d'Iosraeilítigh
 a_dh'Eabhrais d'Eabhrais
 a_dh'Eabhrais d'Eabhraise
+a_dh'Eabhruidheach d'Iosraeilíteach
+a_dh'Eabhruidhich d'Iosraeilíteach
+a_dh'Eabhruidhich d'Iosraeilítigh
 a_dh'Eacuador d'Eacuadór
 a_dh'Eacuadorach d'Eacuadórach
 a_dh'Eacuadoraich d'Eacuadórach
@@ -2768,6 +2784,9 @@ a_dh'eangachan d'eangacha
 a_dh'eangaich d'eangaí
 a_dh'eanraich d'anraith
 a_dh'eanraiche d'anraith
+a_dh'eapasod d'eipeasóid
+a_dh'eapasodan d'eipeasóidí
+a_dh'eapasoid d'eipeasóide
 a_dh'ear d'oirthear
 a_dh'ear-dheas d'oirdheisceart
 a_dh'ear-dheas d'oirdheiscirt
@@ -2857,6 +2876,9 @@ a_dh'easbaloide d'aspalóide
 a_dh'easbhaidh d'easpa
 a_dh'easbhaidhe d'easpa
 a_dh'easbhaidhean d'easpaí
+a_dh'easbhuidh d'easpa
+a_dh'easbhuidhe d'easpa
+a_dh'easbhuidhean d'easpaí
 a_dh'easbuig d'easpag
 a_dh'easbuige d'easpaig
 a_dh'easbuigean d'easpag
@@ -3837,6 +3859,7 @@ a_dh'fhear do cheann
 a_dh'fhear-aithris d'iriseoir
 a_dh'fhear-ceàird do cheardaí
 a_dh'fhear-chungaidh do phoitigéir
+a_dh'fhear-cogaidh do shaighdiúir
 a_dh'fhear-cruidh d'aoire
 a_dh'fhear-cuideachaidh do chuiditheoir
 a_dh'fhear-cùirn d'eisreachtaí
@@ -3858,6 +3881,7 @@ a_dh'fhear-reul do réalteolaí
 a_dh'fhear-reul do spásaire
 a_dh'fhear-riaghlaidh do mhaor
 a_dh'fhear-saoraidh do shlánaitheoir
+a_dh'fhear-seallaidh d'fháidh
 a_dh'fhear-seòlaidh do threoraí
 a_dh'fhear-stiùiridh do stiúrthóir
 a_dh'fhear-teagaisg do mhúinteoir
@@ -4220,6 +4244,8 @@ a_dh'fhir-aithris d'iriseoirí
 a_dh'fhir-aithris d'iriseora
 a_dh'fhir-ceàird do cheardaithe
 a_dh'fhir-ceàird do cheardaí
+a_dh'fhir-chogaidh do shaighdiúirí
+a_dh'fhir-chogaidh do shaighdiúra
 a_dh'fhir-chungaidh do phoitigéara
 a_dh'fhir-chungaidh do phoitigéirí
 a_dh'fhir-cruidh d'aoire
@@ -4266,6 +4292,8 @@ a_dh'fhir-saoraidh do shlánaitheoirí
 a_dh'fhir-saoraidh do shlánaitheora
 a_dh'fhir-seòlaidh do threoraithe
 a_dh'fhir-seòlaidh do threoraí
+a_dh'fhir-sheallaidh d'fháidh
+a_dh'fhir-sheallaidh d'fháithe
 a_dh'fhir-stiùiridh do stiúrthóirí
 a_dh'fhir-stiùiridh do stiúrthóra
 a_dh'fhir-teagaisg do mhúinteoirí
@@ -6944,6 +6972,8 @@ a_dh'àird d'aird
 a_dh'àird d'ard
 a_dh'àirde d'aird
 a_dh'àirde d'airde
+a_dh'àirdeachadh d'ardú
+a_dh'àirdeachaidh d'ardaithe
 a_dh'àirdeachd d'airde
 a_dh'àirdean d'airde
 a_dh'àirdean d'ard
@@ -8639,6 +8669,7 @@ an_Afraga an Afraic
 an_Astràilia an Astráil
 an_Colosseum an Colasaem
 an_Comann_Iosaid Cumann Íosa
+an_Comh an Comh
 an_Cuan_Sèimh an tAigéan Ciúin
 an_Cèitean Bealtaine
 an_Dubhlachd Nollaig
@@ -8653,6 +8684,7 @@ an_Nirribhidh an Iorua
 an_Phersia an Pheirs
 an_Roinn-Eorpa Roinn na hEorpa
 an_Sloibhinia an tSlóivéin
+an_a_dhèidh ina dhiaidh
 an_abair an ndéarfaidh
 an_abhainn_Rhine an Réin
 an_aghaidh in aghaidh
@@ -8678,6 +8710,7 @@ an_ath-sheachdain an chéad seachtain eile
 an_ath-sheachdainn an chéad seachtain eile
 an_ath-thuras an chéad uair eile
 an_ath-ìre an chéad chéim eile
+an_ath_Dhisathairne an Satharn dár gcionn
 an_ath_bhliadhna an chéad bhliain eile
 an_ath_cheum an chéad chéim eile
 an_ath_choinneamh an chéad chruinniú eile
@@ -9344,6 +9377,7 @@ aotromaicheadh_tu n-éadromófá
 aotromaicheadh_tu éadromófá
 aotromaichidh_sinn n-éadromóimid
 aotromaichidh_sinn éadromóimid
+ar_Dé-ne ár nDé
 ar_adhart ar aghaidh
 arbhartaicheadh_iad choigisteoidís
 arbhartaicheadh_iad choigistídís
@@ -9826,6 +9860,8 @@ beartaicheadh_iad úmaidís
 beartaicheadh_tu n-úmfá
 beartaichidh_sinn n-úmfaimid
 beartaichidh_sinn úmfaimid
+beat_air sárú ar
+beat_orra sárú orthu
 beathaicheadh_iad beathaídís
 beathaicheadh_iad cothaídís
 beathaicheadh_iad gcothaídís
@@ -14902,6 +14938,7 @@ cha_d'fhuaradh ní bhfuarthas
 cha_deach ní dheachaigh
 cha_deacha ní dheachaigh
 cha_dearg_mi_air níl mé in ann dó
+cha_dig ní thiocfaidh
 cha_do níor
 cha_do_rinn ní dhearna
 cha_leig_mi_a_leas ní gá dom
@@ -18569,6 +18606,7 @@ de_dh'Argentina d'Airgintín
 de_dh'Argentina d'Airgintíne
 de_dh'Arm d'Arm
 de_dh'Arme d'Airm
+de_dh'Asia d'Áise
 de_dh'Astràilia den Astráil
 de_dh'Astràilianach d'Astrálach
 de_dh'Astràilianaich d'Astrálach
@@ -18589,6 +18627,9 @@ de_dh'Eabhraidhich d'Iosraeilíteach
 de_dh'Eabhraidhich d'Iosraeilítigh
 de_dh'Eabhrais d'Eabhrais
 de_dh'Eabhrais d'Eabhraise
+de_dh'Eabhruidheach d'Iosraeilíteach
+de_dh'Eabhruidhich d'Iosraeilíteach
+de_dh'Eabhruidhich d'Iosraeilítigh
 de_dh'Eacuador d'Eacuadór
 de_dh'Eacuadorach d'Eacuadórach
 de_dh'Eacuadoraich d'Eacuadórach
@@ -20637,6 +20678,9 @@ de_dh'eangachan d'eangacha
 de_dh'eangaich d'eangaí
 de_dh'eanraich d'anraith
 de_dh'eanraiche d'anraith
+de_dh'eapasod d'eipeasóid
+de_dh'eapasodan d'eipeasóidí
+de_dh'eapasoid d'eipeasóide
 de_dh'ear d'oirthear
 de_dh'ear-dheas d'oirdheisceart
 de_dh'ear-dheas d'oirdheiscirt
@@ -20726,6 +20770,9 @@ de_dh'easbaloide d'aspalóide
 de_dh'easbhaidh d'easpa
 de_dh'easbhaidhe d'easpa
 de_dh'easbhaidhean d'easpaí
+de_dh'easbhuidh d'easpa
+de_dh'easbhuidhe d'easpa
+de_dh'easbhuidhean d'easpaí
 de_dh'easbuig d'easpag
 de_dh'easbuige d'easpaig
 de_dh'easbuigean d'easpag
@@ -21706,6 +21753,7 @@ de_dh'fhear de cheann
 de_dh'fhear-aithris d'iriseoir
 de_dh'fhear-ceàird de cheardaí
 de_dh'fhear-chungaidh de phoitigéir
+de_dh'fhear-cogaidh de shaighdiúir
 de_dh'fhear-cruidh d'aoire
 de_dh'fhear-cuideachaidh de chuiditheoir
 de_dh'fhear-cùirn d'eisreachtaí
@@ -21727,6 +21775,7 @@ de_dh'fhear-reul de réalteolaí
 de_dh'fhear-reul de spásaire
 de_dh'fhear-riaghlaidh de mhaor
 de_dh'fhear-saoraidh de shlánaitheoir
+de_dh'fhear-seallaidh d'fháidh
 de_dh'fhear-seòlaidh de threoraí
 de_dh'fhear-stiùiridh de stiúrthóir
 de_dh'fhear-teagaisg de mhúinteoir
@@ -22091,6 +22140,8 @@ de_dh'fhir-aithris d'iriseoirí
 de_dh'fhir-aithris d'iriseora
 de_dh'fhir-ceàird de cheardaithe
 de_dh'fhir-ceàird de cheardaí
+de_dh'fhir-chogaidh de shaighdiúirí
+de_dh'fhir-chogaidh de shaighdiúra
 de_dh'fhir-chungaidh de phoitigéara
 de_dh'fhir-chungaidh de phoitigéirí
 de_dh'fhir-cruidh d'aoire
@@ -22137,6 +22188,8 @@ de_dh'fhir-saoraidh de shlánaitheoirí
 de_dh'fhir-saoraidh de shlánaitheora
 de_dh'fhir-seòlaidh de threoraithe
 de_dh'fhir-seòlaidh de threoraí
+de_dh'fhir-sheallaidh d'fháidh
+de_dh'fhir-sheallaidh d'fháithe
 de_dh'fhir-stiùiridh de stiúrthóirí
 de_dh'fhir-stiùiridh de stiúrthóra
 de_dh'fhir-teagaisg de mhúinteoirí
@@ -24813,6 +24866,8 @@ de_dh'àird d'aird
 de_dh'àird d'ard
 de_dh'àirde d'aird
 de_dh'àirde d'airde
+de_dh'àirdeachadh d'ardú
+de_dh'àirdeachaidh d'ardaithe
 de_dh'àirdeachd d'airde
 de_dh'àirdean d'airde
 de_dh'àirdean d'ard
@@ -27743,6 +27798,8 @@ dh'fhoghlaimeadh_iad fhoghlaimeoidís
 dh'fhoghlaimeadh_tu bhfoghlaimeofá
 dh'fhoghlaimeadh_tu d'fhoghlaimeofá
 dh'fhoghlaimeadh_tu fhoghlaimeofá
+dh'fhoghnadh_iad d'fhóirfidís
+dh'fhoghnadh_tu d'fhóirfeá
 dh'fhoighnich_iad bhfiafraíodar
 dh'fhoighnich_iad d'fhiafraíodar
 dh'fhoighnich_iad fhiafraíodar
@@ -28087,6 +28144,8 @@ dh'fhògaireadh_iad dhíbreoidís
 dh'fhògaireadh_iad ndíbreoidís
 dh'fhògaireadh_tu dhíbreofá
 dh'fhògaireadh_tu ndíbreofá
+dh'fhòghnadh_iad d'fhóirfidís
+dh'fhòghnadh_tu d'fhóirfeá
 dh'fhòirneartaich_iad chloíodar
 dh'fhòirneartaich_iad choisceadar
 dh'fhòirneartaich_iad gcloíodar
@@ -28704,6 +28763,22 @@ dh'àicheidheadh_iad shéanfaidís
 dh'àicheidheadh_iad séanfaidís
 dh'àicheidheadh_tu shéanfá
 dh'àicheidheadh_tu séanfá
+dh'àireamh_iad d'áiríodar
+dh'àireamh_iad n-áiríodar
+dh'àireamh_iad áiríodar
+dh'àireamh_sinn d'áiríomar
+dh'àireamh_sinn n-áiríomar
+dh'àireamh_sinn áiríomar
+dh'àirmheadh_iad d'áireoidís
+dh'àirmheadh_tu d'áireofá
+dh'àirmhich_iad d'áiríodar
+dh'àirmhich_iad n-áiríodar
+dh'àirmhich_iad áiríodar
+dh'àirmhich_sinn d'áiríomar
+dh'àirmhich_sinn n-áiríomar
+dh'àirmhich_sinn áiríomar
+dh'àirmhicheadh_iad d'áireoidís
+dh'àirmhicheadh_tu d'áireofá
 dh'àithn_iad d'ordaíodar
 dh'àithn_iad n-ordaíodar
 dh'àithn_iad ordaíodar
@@ -29598,6 +29673,20 @@ dhlùth-cheangaileadh_iad dhlúthcheanglaídís
 dhlùth-cheangaileadh_iad dhlúthcheanglóidís
 dhlùth-cheangaileadh_tu dhlúthcheanglófá
 dhlùth-cheangailidh_sinn dhlúthcheanglóimid
+dhlùth-lean_iad chloíodar
+dhlùth-lean_iad gcloíodar
+dhlùth-lean_iad leanadar
+dhlùth-lean_sinn chloíomar
+dhlùth-lean_sinn gcloíomar
+dhlùth-lean_sinn leanamar
+dhlùth-leanadh_iad chloídís
+dhlùth-leanadh_iad chloífidís
+dhlùth-leanadh_iad leanaidís
+dhlùth-leanadh_iad leanfaidís
+dhlùth-leanadh_tu chloífeá
+dhlùth-leanadh_tu leanfá
+dhlùth-leanaidh_sinn chloífimid
+dhlùth-leanaidh_sinn leanfaimid
 dhlùthaich_iad dhlúthaíodar
 dhlùthaich_iad ndlúthaíodar
 dhlùthaich_sinn dhlúthaíomar
@@ -30225,6 +30314,16 @@ dlùth-cheangaileadh_iad ndlúthcheanglóidís
 dlùth-cheangaileadh_tu ndlúthcheanglófá
 dlùth-cheangailidh_sinn dlúthcheanglóimid
 dlùth-cheangailidh_sinn ndlúthcheanglóimid
+dlùth-leanadh_iad cloídís
+dlùth-leanadh_iad gcloídís
+dlùth-leanadh_iad gcloífidís
+dlùth-leanadh_iad leanaidís
+dlùth-leanadh_iad leanfaidís
+dlùth-leanadh_tu gcloífeá
+dlùth-leanadh_tu leanfá
+dlùth-leanaidh_sinn cloífimid
+dlùth-leanaidh_sinn gcloífimid
+dlùth-leanaidh_sinn leanfaimid
 dlùth_cheangailte dlúthcheangailte
 dlùth_cheangal dlúthcheangal
 dlùth_cheangal ndlúthcheangal
@@ -30313,6 +30412,7 @@ do_Malaidhsea don Mhalaeisia
 do_Malaidhsia don Mhalaeisia
 do_Malaysia don Mhalaeisia
 do_Malàbhaidh don Mhaláiv
+do_Mhacedonia go dtí an Mhacadóin
 do_Moratain don Mháratáin
 do_Moratainia don Mháratáin
 do_Moratàinea don Mháratáin
@@ -30527,6 +30627,7 @@ do_dh'Argentina d'Airgintín
 do_dh'Argentina d'Airgintíne
 do_dh'Arm d'Arm
 do_dh'Arme d'Airm
+do_dh'Asia d'Áise
 do_dh'Astràilia don Astráil
 do_dh'Astràilianach d'Astrálach
 do_dh'Astràilianaich d'Astrálach
@@ -30547,6 +30648,9 @@ do_dh'Eabhraidhich d'Iosraeilíteach
 do_dh'Eabhraidhich d'Iosraeilítigh
 do_dh'Eabhrais d'Eabhrais
 do_dh'Eabhrais d'Eabhraise
+do_dh'Eabhruidheach d'Iosraeilíteach
+do_dh'Eabhruidhich d'Iosraeilíteach
+do_dh'Eabhruidhich d'Iosraeilítigh
 do_dh'Eacuador d'Eacuadór
 do_dh'Eacuadorach d'Eacuadórach
 do_dh'Eacuadoraich d'Eacuadórach
@@ -32599,6 +32703,9 @@ do_dh'eangachan d'eangacha
 do_dh'eangaich d'eangaí
 do_dh'eanraich d'anraith
 do_dh'eanraiche d'anraith
+do_dh'eapasod d'eipeasóid
+do_dh'eapasodan d'eipeasóidí
+do_dh'eapasoid d'eipeasóide
 do_dh'ear d'oirthear
 do_dh'ear-dheas d'oirdheisceart
 do_dh'ear-dheas d'oirdheiscirt
@@ -32688,6 +32795,9 @@ do_dh'easbaloide d'aspalóide
 do_dh'easbhaidh d'easpa
 do_dh'easbhaidhe d'easpa
 do_dh'easbhaidhean d'easpaí
+do_dh'easbhuidh d'easpa
+do_dh'easbhuidhe d'easpa
+do_dh'easbhuidhean d'easpaí
 do_dh'easbuig d'easpag
 do_dh'easbuige d'easpaig
 do_dh'easbuigean d'easpag
@@ -33667,6 +33777,7 @@ do_dh'fhear do cheann
 do_dh'fhear-aithris d'iriseoir
 do_dh'fhear-ceàird do cheardaí
 do_dh'fhear-chungaidh do phoitigéir
+do_dh'fhear-cogaidh do shaighdiúir
 do_dh'fhear-cruidh d'aoire
 do_dh'fhear-cuideachaidh do chuiditheoir
 do_dh'fhear-cùirn d'eisreachtaí
@@ -33688,6 +33799,7 @@ do_dh'fhear-reul do réalteolaí
 do_dh'fhear-reul do spásaire
 do_dh'fhear-riaghlaidh do mhaor
 do_dh'fhear-saoraidh do shlánaitheoir
+do_dh'fhear-seallaidh d'fháidh
 do_dh'fhear-seòlaidh do threoraí
 do_dh'fhear-stiùiridh do stiúrthóir
 do_dh'fhear-teagaisg do mhúinteoir
@@ -34052,6 +34164,8 @@ do_dh'fhir-aithris d'iriseoirí
 do_dh'fhir-aithris d'iriseora
 do_dh'fhir-ceàird do cheardaithe
 do_dh'fhir-ceàird do cheardaí
+do_dh'fhir-chogaidh do shaighdiúirí
+do_dh'fhir-chogaidh do shaighdiúra
 do_dh'fhir-chungaidh do phoitigéara
 do_dh'fhir-chungaidh do phoitigéirí
 do_dh'fhir-cruidh d'aoire
@@ -34098,6 +34212,8 @@ do_dh'fhir-saoraidh do shlánaitheoirí
 do_dh'fhir-saoraidh do shlánaitheora
 do_dh'fhir-seòlaidh do threoraithe
 do_dh'fhir-seòlaidh do threoraí
+do_dh'fhir-sheallaidh d'fháidh
+do_dh'fhir-sheallaidh d'fháithe
 do_dh'fhir-stiùiridh do stiúrthóirí
 do_dh'fhir-stiùiridh do stiúrthóra
 do_dh'fhir-teagaisg do mhúinteoirí
@@ -36775,6 +36891,8 @@ do_dh'àird d'aird
 do_dh'àird d'ard
 do_dh'àirde d'aird
 do_dh'àirde d'airde
+do_dh'àirdeachadh d'ardú
+do_dh'àirdeachaidh d'ardaithe
 do_dh'àirdeachd d'airde
 do_dh'àirdean d'airde
 do_dh'àirdean d'ard
@@ -39011,6 +39129,10 @@ fhoghlaimeadh_iad fhoghlaimeoidís
 fhoghlaimeadh_iad fhoghlaimídís
 fhoghlaimeadh_tu fhoghlaimeofá
 fhoghlaimidh_sinn fhoghlaimeoimid
+fhoghnadh_iad fhóirfidís
+fhoghnadh_iad fhóiridís
+fhoghnadh_tu fhóirfeá
+fhoghnaidh_sinn fhóirfimid
 fhoighnicheadh_iad fhiafraídís
 fhoighnicheadh_iad fhiafróidís
 fhoighnicheadh_tu fhiafrófá
@@ -39264,6 +39386,10 @@ fhògaireadh_iad dhíbreoidís
 fhògaireadh_iad dhíbrídís
 fhògaireadh_tu dhíbreofá
 fhògairidh_sinn dhíbreoimid
+fhòghnadh_iad fhóirfidís
+fhòghnadh_iad fhóiridís
+fhòghnadh_tu fhóirfeá
+fhòghnaidh_sinn fhóirfimid
 fhòirneartaicheadh_iad chloídís
 fhòirneartaicheadh_iad chloífidís
 fhòirneartaicheadh_iad choiscfidís
@@ -39431,6 +39557,12 @@ foghlam_ciùird ceardoideachais
 foghlam_ciùird ceardoideachas
 foghlam_ciùird gceardoideachais
 foghlam_ciùird gceardoideachas
+foghnadh_iad bhfóirfidís
+foghnadh_iad bhfóiridís
+foghnadh_iad fóiridís
+foghnadh_tu bhfóirfeá
+foghnaidh_sinn bhfóirfimid
+foghnaidh_sinn fóirfimid
 foighnicheadh_iad bhfiafraídís
 foighnicheadh_iad bhfiafróidís
 foighnicheadh_iad fiafraídís
@@ -39726,6 +39858,12 @@ fògaireadh_iad ndíbrídís
 fògaireadh_tu ndíbreofá
 fògairidh_sinn díbreoimid
 fògairidh_sinn ndíbreoimid
+fòghnadh_iad bhfóirfidís
+fòghnadh_iad bhfóiridís
+fòghnadh_iad fóiridís
+fòghnadh_tu bhfóirfeá
+fòghnaidh_sinn bhfóirfimid
+fòghnaidh_sinn fóirfimid
 fòirneartaicheadh_iad cloídís
 fòirneartaicheadh_iad coiscidís
 fòirneartaicheadh_iad gcloídís
@@ -41386,6 +41524,7 @@ gun_chinnt go sealadach
 gun_d'thàinig gur tháinig
 gun_dail gan mhoill
 gun_dail láithreach
+gun_dig go dtiocfaidh
 gun_do gur
 gun_do_rinn go ndearna
 gun_doubt gan dabht
@@ -41676,6 +41815,8 @@ h-urracha_mòra boic mhóra
 h-urrachan_mòra boic mhóra
 h-urramaicheadh_iad hurramaídís
 h-àicheidheadh_iad séanaidís
+h-àirmheadh_iad háirídís
+h-àirmhicheadh_iad háirídís
 h-àithneadh_iad hordaídís
 h-àiticheadh_iad háitídís
 h-àraicheadh_iad tógaidís
@@ -41717,7 +41858,12 @@ h-ùmhlaicheadh_iad humhlaídís
 h-ùr-fhàsadh_iad péacaidís
 h-ùraicheadh_iad hathnuaidís
 h-ùraicheadh_iad nuashonraídís
+hi_ri_rì hí rí rí
+hi_rì hí rí
 hip_hop hip hap
+ho_rì hó rí
+hì_rì hí rí
+hì_rì_rì hí rí rí
 i_a'_fuireach sí ina cónaí
 i_a'fuireach sí ina cónaí
 i_nEirinn in Éirinn
@@ -42010,6 +42156,8 @@ irioslaicheadh_tu n-uirísleofá
 irioslaicheadh_tu uirísleofá
 irioslaichidh_sinn n-uirísleoimid
 irioslaichidh_sinn uirísleoimid
+is_a_gabhas agus is féidir
+is_a_ghabhas agus is féidir
 is_an-aoibhinn is mairg
 is_coireach_gu an chúis go
 is_coireach_gum_bi an chúis go mbeidh
@@ -43449,6 +43597,7 @@ ma_tà mar sin
 mac_an_abair mac an daba
 mac_bràthar mac dearthár
 mac_peathar mac deirféar
+madainn_Dhòmhnaich maidin Domhnaigh
 magadh_iad spochaidís
 magadh_iad spochfaidís
 magadh_tu spochfá
@@ -43514,6 +43663,7 @@ mar_as_trice de ghnáth
 mar_bu_thrice de ghnáth
 mar_bu_trice de ghnáth
 mar_deidhinn fúinn
+mar_dèidhinn fúinn
 mar_is_trice de ghnáth
 mar_th'againne mar atá againne
 mar_thà cheana
@@ -45433,6 +45583,7 @@ mo_fhear-ealain m'ealaíontóir
 mo_fhear-labhairt m'urlabhraí
 mo_fhear-lagh m'aturnae
 mo_fhear-lagha m'aturnae
+mo_fhear-seallaidh m'fháidh
 mo_fhearachais m'fhearúlachta
 mo_fhearachas m'fhearúlacht
 mo_fhearaibh m'fhear
@@ -45681,6 +45832,8 @@ mo_fhir-lagh m'aturnae
 mo_fhir-lagh m'aturnaetha
 mo_fhir-lagha m'aturnae
 mo_fhir-lagha m'aturnaetha
+mo_fhir-sheallaidh m'fháidh
+mo_fhir-sheallaidh m'fháithe
 mo_fhiread m'fhiréad
 mo_fhirean m'fhíréan
 mo_fhireanan m'fhíréan
@@ -47751,6 +47904,7 @@ mu_a_dheidhinn faoi
 mu_an_deidhinn fúthu
 mu_ar_deidhin fúinn
 mu_ar_deidhinn fúinn
+mu_ar_dèidhinn fúinn
 mu_choinneamh in aghaidh
 mu_choinneamh os comhair
 mu_chuairt timpeall
@@ -47780,6 +47934,8 @@ mu_seach i ndiaidh a chéile
 mu_sgaoil amach
 mu_sgaoil saor
 mu_thimcheall timpeall
+mu_thiomchioll timpeall
+mu_thrath cheana
 mu_thràth cheana
 mu_thuaiream tuairim is
 mu_thuath sa tuaisceart
@@ -47806,6 +47962,7 @@ mun_cuairt_air ina thimpeall
 mun_cuairt_air_a' timpeall an
 mun_cuairt_air_am timpeall an
 mun_cuairt_air_an timpeall an
+mun_cuairt_air_an_cùlaobh timpeall a gcúil
 mun_cuairt_air_na timpeall na
 mun_cuairt_oirbh in bhur dtimpeall
 mun_cuairt_oirnn inár dtimpeall
@@ -47817,6 +47974,7 @@ mun_deidhinn fúthu
 mun_dheidhin fúthu
 mun_dheidhinn fúthu
 mun_do faoinar
+mun_dèidhinn fúthu
 mun_ear san oirthear
 mun_iar san iarthar
 mun_is faoinar
@@ -47921,6 +48079,8 @@ mòraicheadh_tu méadófá
 mòraicheadh_tu mórfá
 mòraichidh_sinn méadóimid
 mòraichidh_sinn mórfaimid
+mù_thrath cheana
+mù_thràth cheana
 mùchadh_iad múchaidís
 mùchadh_iad múchfaidís
 mùchadh_tu múchfá
@@ -47962,6 +48122,7 @@ na_Roinn-Eorpa Roinn na hEorpa
 na_Roinne-Eòrpa na hEorpa
 na_Sami na Sámach
 na_Sami na Sámaigh
+na_Sultaine Mheán Fómhair
 na_Sàmi na Sámach
 na_Sàmi na Sámaigh
 na_Sámi na Sámach
@@ -47993,6 +48154,8 @@ na_dèidh ina diaidh
 na_dèigh ina diaidh
 na_dòchasan an dóchas
 na_fhàsach_Sahara an tSahára
+na_fir-chlis an chaor aduaidh
+na_fir-chlis na gealáin thuaidh
 na_grèin na gréine
 na_h-Aimearagan na Críocha Mheiriceá
 na_h-Innseachan an India
@@ -48010,6 +48173,7 @@ na_h-inbhich na daoine fásta
 na_h-inbhich na ndaoine fásta
 na_h-oileanaich na mic léinn
 na_h-uile gach uile
+na_lads na leaids
 na_laighe ina luí
 na_naidheachdan an nuacht
 na_pàrtaidhean_Làbarach páirtithe an Lucht Oibre
@@ -48107,6 +48271,8 @@ nam_b'urrainn_dhut dá mb'fhéidir leat
 nam_ban na mban
 nam_beann na sléibhte
 nam_bu dá mba
+nam_dhèidh i mo dhiaidh
+nam_dhéidh i mo dhiaidh
 nam_meadhanan na meán
 nam_pàipearan na bpáipéar
 nam_shuidhe i mo shuí
@@ -48179,6 +48345,7 @@ nas_fhaisg_ort níos gaire duit
 nas_fhaisge níos cóngaraí
 nas_miosa níos measa
 nas_motha níos mó
+nas_mù níos mó
 nas_them níos fearr
 nas_ùire níos déanaí
 nas_ùire níos nuaí
@@ -48491,6 +48658,7 @@ o_Malaidhsea ón Mhalaeisia
 o_Malaidhsia ón Mhalaeisia
 o_Malaysia ón Mhalaeisia
 o_Malàbhaidh ón Mhaláiv
+o_Mhacedonia ón Macadóin
 o_Moratain ón Mháratáin
 o_Moratainia ón Mháratáin
 o_Moratàinea ón Mháratáin
@@ -48613,6 +48781,7 @@ oidhche_Ardaoin oíche Dhéardaoin
 oidhche_Challain oíche Chaille
 oidhche_Challainn oíche Chaille
 oidhche_Chiadain oíche Chéadaoin
+oidhche_Dhòmhnaich oíche Dhomhnaigh
 oidhche_Haoine oíche Aoine
 oidhche_Luain oíche Luain
 oidhche_Shathairne oíche Shathairn
@@ -50326,6 +50495,10 @@ riaghaileadh_iad rialaídís
 riaghaileadh_iad rialóidís
 riaghaileadh_tu rialófá
 riaghailidh_sinn rialóimid
+riaghladh_iad rialaídís
+riaghladh_iad rialóidís
+riaghladh_tu rialófá
+riaghlaidh_sinn rialóimid
 riamh_roimhe riamh
 riamh_roimhid riamh
 rianaich_iad bhainistíodar
@@ -50767,6 +50940,8 @@ sa_chiad_dol-a-mach ar an gcéad dul síos
 sa_chorr sa chuid eile
 sa_chumantas i gcoitinne
 sa_chòrr sa chuid eile
+sa_gabhas agus is féidir
+sa_ghabhas agus is féidir
 sa_ghuth-thàmh de chogar
 sa_mhòr-chuid den chuid is mó
 sa_tha is atá
@@ -50880,6 +51055,10 @@ saoileadh_iad sílfidís
 saoileadh_iad sílidís
 saoileadh_tu sílfeá
 saoilidh_sinn sílfimid
+saoithricheadh_iad saothraídís
+saoithricheadh_iad saothróidís
+saoithricheadh_tu saothrófá
+saoithrichidh_sinn saothróimid
 saor_an-asgaidh saor in aisce
 saor_làithean laethanta saoire
 saor_làithean saoire
@@ -51786,6 +51965,14 @@ shaoileadh_iad shílfidís
 shaoileadh_iad shílidís
 shaoileadh_tu shílfeá
 shaoilidh_sinn shílfimid
+shaoithrich_iad saothraíodar
+shaoithrich_iad shaothraíodar
+shaoithrich_sinn saothraíomar
+shaoithrich_sinn shaothraíomar
+shaoithricheadh_iad shaothraídís
+shaoithricheadh_iad shaothróidís
+shaoithricheadh_tu shaothrófá
+shaoithrichidh_sinn shaothróimid
 shaor_iad saoradar
 shaor_iad shaoradar
 shaor_sinn saoramar
@@ -56492,6 +56679,7 @@ troideadh_iad troididís
 troideadh_tu dtroidfeá
 troididh_sinn dtroidfimid
 troididh_sinn troidfimid
+troimh_Mhacedonia tríd an Macadóin
 troimh_chèile trína chéile
 troimhe_chèile trína chéile
 tromaicheadh_iad dtromaídís
@@ -57073,6 +57261,22 @@ woo_hoo wúhú
 àireamh_shluaigh dhaonáireamh
 àireamh_sluaigh daonáireamh
 àireamh_sluaigh dhaonáireamh
+àirmheadh_iad n-áireoidís
+àirmheadh_iad n-áirídís
+àirmheadh_iad áireoidís
+àirmheadh_iad áirídís
+àirmheadh_tu n-áireofá
+àirmheadh_tu áireofá
+àirmhicheadh_iad n-áireoidís
+àirmhicheadh_iad n-áirídís
+àirmhicheadh_iad áireoidís
+àirmhicheadh_iad áirídís
+àirmhicheadh_tu n-áireofá
+àirmhicheadh_tu áireofá
+àirmhichidh_sinn n-áireoimid
+àirmhichidh_sinn áireoimid
+àirmhidh_sinn n-áireoimid
+àirmhidh_sinn áireoimid
 àite_breith áit bhreithe
 àite_còmhnaidh áit chónaithe
 àite_falaich áit fholaigh
