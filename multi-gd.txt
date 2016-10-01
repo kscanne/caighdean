@@ -13280,6 +13280,8 @@ bu_ghnìomhaichte b'fheidhmeacha
 bu_ghnìomhaichte b'fheidhmí
 bu_ghobhair_fhiadhaich b'fhiaghabhair
 bu_ghobhar_fhiadhaich b'fhiaghabhar
+bu_ghobhlan-gaoithe b'fháinleog
+bu_ghobhlanan-gaoithe b'fháinleoga
 bu_ghoil b'fhiuchadh
 bu_ghoilte b'fhiuchta
 bu_ghoireas b'acmhainn
@@ -13520,6 +13522,9 @@ bu_mhiorailtiche b'iontaí
 bu_mhiorbhaileach b'iontach
 bu_mhiorbhaileach b'iontacha
 bu_mhiorbhailiche b'iontaí
+bu_mhiorbhailleach b'iontach
+bu_mhiorbhailleach b'iontacha
+bu_mhiorbhailliche b'iontaí
 bu_mhiorbhuileach b'iontach
 bu_mhiorbhuileach b'iontacha
 bu_mhiorbhuiliche b'iontaí
@@ -14240,6 +14245,9 @@ bu_thionnsgalachd b'fhiontraíocht
 bu_thlachdmhoire b'aoibhne
 bu_thlachdmhor b'aoibhinn
 bu_thlachdmhor b'aoibhne
+bu_thlachdmhòire b'aoibhne
+bu_thlachdmhòr b'aoibhinn
+bu_thlachdmhòr b'aoibhne
 bu_thobhta b'fhothrach
 bu_thobhtag b'iothlainn
 bu_thobhtagan b'iothlainneacha
@@ -46622,6 +46630,10 @@ mo_ghnìomhaichean m'fheidhmeannaigh
 mo_ghobhair_fhiadhaich m'fhiaghabhair
 mo_ghobhair_fhiadhaich m'fhiaghabhar
 mo_ghobhar_fhiadhaich m'fhiaghabhar
+mo_ghobhlain-ghaoithe m'fháinleoige
+mo_ghobhlan-gaoithe m'fháinleog
+mo_ghobhlanan-gaoithe m'fháinleog
+mo_ghobhlanan-gaoithe m'fháinleoga
 mo_ghoil m'fhiuchadh
 mo_ghoil m'fhiuchta
 mo_ghoireas m'acmhainn
@@ -47916,11 +47928,14 @@ mu_dheidheinn faoi
 mu_dheidhin faoi
 mu_dheidhinn faoi
 mu_dheidhinn-san faoisean
+mu_dheidhinn_an faoin
 mu_dheireadh deireanach
 mu_dheireadh faoi dheireadh
 mu_dheireadh_thall faoi dheireadh
 mu_dhèidhinn faoi
+mu_dhèidhinn_an faoin
 mu_dhéidhinn faoi
+mu_dhéidhinn_an faoin
 mu_do_dheidhin fút
 mu_do_dheidhinn fút
 mu_dèidhinn fúithi
