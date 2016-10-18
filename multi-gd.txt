@@ -518,6 +518,7 @@ a_b'_urrainn_dhuibh ab fhéidir libh
 a_b'_urrainn_dhuinn ab fhéidir linn
 a_b'_urrainn_dhut ab fhéidir leat
 a_b'fhasa ab fhusa
+a_b'fheàrr ab fhearr
 a_b'urrainn ab fhéidir
 a_b'urrainn_dha ab fhéidir leis
 a_b'urrainn_dhaibh ab fhéidir leo
@@ -7946,6 +7947,7 @@ a_thaobh i dtaobh
 a_thaobheigin éigin
 a_thathar atáthar
 a_thuilleadh_air mar aon le
+a_thuilleadh_air mar aon leis
 a_tuath ó thuaidh
 abaicheadh_iad aibeoidís
 abaicheadh_iad aibídís
@@ -8493,6 +8495,7 @@ air_teireachdainn caite
 air_thoiseach chun tosaigh
 air_thuaiream randamach
 air_thuaiream randamacha
+air_thàillibh de bharr
 air_tilleadh tar éis filleadh
 air_tilleadh_gu tar éis filleadh ar
 air_togail ar thógáil
@@ -15917,6 +15920,7 @@ cho-òrdanaicheadh_iad chomhordóidís
 cho-òrdanaicheadh_tu chomhordófá
 cho-òrdanaichidh_sinn chomhordóimid
 cho_fad chomh fada
+cho_faisg_air chomh gar sin do
 cho_fharpais chomórtas
 cho_neartaich chóineartaigh
 cho_neartaich gcóineartaigh
@@ -40309,6 +40313,7 @@ gearraidh_sinn ngearrfaimid
 ged_a cé go
 ged_a cé gur
 ged_a_bha cé go raibh
+ged_a_chaidh cé go ndeachaigh
 ged_a_tha cé go bhfuil
 ged_a_tha_doubt_agam cé go bhfuil amhras orm
 ged_cha_do cé nár
@@ -48381,6 +48386,7 @@ na_Sàmi na Sámach
 na_Sàmi na Sámaigh
 na_Sámi na Sámach
 na_Sámi na Sámaigh
+na_b'_fhaide ní b'fhaide
 na_b'fhaide ní b'fhaide
 na_b'fhasa ní b'fhusa
 na_b'fhearr ní b'fhearr
@@ -48537,6 +48543,7 @@ nam_b'urrainn_dhuinn dá mb'fhéidir linn
 nam_b'urrainn_dhut dá mb'fhéidir leat
 nam_ban na mban
 nam_beann na sléibhte
+nam_beatha ina mbeatha
 nam_bhalach i mo bhuachaill
 nam_bhalach i mo ghasúr
 nam_bhall i mo bhall
@@ -48546,7 +48553,12 @@ nam_bheachd-sa i mo thuairimse
 nam_bheachdsa i mo thuairimse
 nam_bheatha i mo bheatha
 nam_bheatha i mo shaol
+nam_briathran na bhfocal
+nam_briathran na mbriathra
 nam_bu dá mba
+nam_buill ina mbaill
+nam_bàtaichean na mbád
+nam_bùithtean-obrach na gceardlann
 nam_chadal i mo chodladh
 nam_cheann i mo cheann
 nam_chridhe i mo chroí
@@ -48554,26 +48566,39 @@ nam_chuimhne i mo chuimhne
 nam_dhèidh i mo dhiaidh
 nam_dhéidh i mo dhiaidh
 nam_dhùisg i mo dhúiseacht
+nam_faclan ina bhfocail
+nam_faclan na bhfocal
+nam_farpaisean na gcomórtas
+nam_feachdan na bhfórsaí
+nam_feachdan na n-arm
 nam_fhear i m'fhear
+nam_filmichean na scannán
 nam_inntinn i m'intinn
 nam_leabaidh i mo leaba
 nam_làimh i mo lámh
 nam_meadhanan na meán
 nam_measg ina measc
 nam_oileanach i mo mhac léinn
+nam_prògraman na bhfeidhmchlár
+nam_prògraman na gclár
+nam_pròiseactan na dtionscadal
 nam_pàipearan na bpáipéar
+nam_pàipearan-naidheachd na nuachtán
 nam_shuidhe i mo shuí
 nam_theaghlach i mo theaghlach
 nam_thidsear i mo mhúinteoir
 nam_òige i m'óige
+nan_Crìochan na dTeorainneacha
 nan_Cumantan na dTeachtaí
 nan_Dùthchannan_Céin Gnóthaí Eachtracha
 nan_Eilean na nOileán
 nan_Eileanan na nOileán
+nan_Gaidheil na nGael
 nan_Innseachan na hIndia
 nan_Komi na gCoimithe
 nan_Labaraich Pháirtí an Lucht Oibre
 nan_Laboraich Pháirtí an Lucht Oibre
+nan_Leabhraichean na Leabhar
 nan_Luchd-Obrach an Lucht Oibre
 nan_Luchd_Obrach an Lucht Oibre
 nan_Làbarach Pháirtí an Lucht Oibre
@@ -48582,30 +48607,64 @@ nan_Làborach Pháirtí an Lucht Oibre
 nan_Làboraich Pháirtí an Lucht Oibre
 nan_Nua-Ealain na Nua-Ealaíon
 nan_Sami na Sámach
+nan_Stàitean na Stát
 nan_Sàmi na Sámach
 nan_Sámi na Sámach
 nan_aghaidh ina gcoinne
 nan_aghaidh ina n-aghaidh
 nan_aonar ina n-aonar
 nan_caorach na gcaorach
+nan_ceanglaichean na gceangal
+nan_ceanglaichean na nasc
+nan_clachan na gcloch
+nan_craobhan na gcrann
 nan_crùban ar a ngogaidí
+nan_cuantan na bhfarraigí
+nan_cuantan na n-aigéan
+nan_cuileanan na gcoileán
+nan_cuspairean na gcuspóirí
+nan_cuspairean na n-ábhar
 nan_daoine na ndaoine
+nan_dealbhan na bpictiúr
+nan_dealbhan na ngrianghraf
+nan_dreuchdan na bpost
+nan_dreuchdan na ngairmeacha
+nan_duilleagan na leathanach
+nan_duilleagan na nduilleog
 nan_dèidh ina ndiaidh
 nan_dùl na ndúl
 nan_eilean na n-oileán
 nan_eun na n-éan
+nan_eòin na n-éan
+nan_goireasan na n-acmhainní
+nan_goireasan na n-uirlisí
+nan_ionadan ina ionaid
+nan_ionadan na n-ionad
+nan_leabhraichean na leabhar
+nan_lùib san áireamh
 nan_naidheachdan an nuachta
 nan_oileanach na mac léinn
+nan_rathaidean na mbóithre
 nan_robh dá mbeadh
 nan_robh_mi dá mbeinn
 nan_robh_sinn dá mbeimis
+nan_rocaidean na roicéad
+nan_sagartan ina sagairt
+nan_sagartan na sagart
 nan_seasamh ina seasamh
+nan_sgìrean na bparóistí
+nan_sgìrean na gceantar
 nan_speur an aeir
 nan_speur na spéartha
+nan_stuthan na n-ábhar
 nan_suidhe ina suí
+nan_sùilean na súl
 nan_tonn na dtonn
 nan_tonn na dtonnta
 nan_tàmh ina gcónaí
+nan_àrainnean ina ngnáthóga
+nan_àrainnean na ngnáthóg
+nan_ùghdarrasan na n-údarás
 naoi_deug naoi déag
 naomhaich_iad choisriceadar
 naomhaich_iad gcoisriceadar
@@ -50906,6 +50965,7 @@ riomhaireadh_iad ríomhfaidís
 riomhaireadh_tu ríomhfá
 riomhairidh_sinn ríomhfaimid
 ris_a_bheil lena bhfuil
+ris_am_bi lena mbeidh
 ris_an_canar ar a dtugtar
 ris_an_cante ar a dtugtar
 ris_gach le gach
