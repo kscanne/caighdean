@@ -6822,6 +6822,9 @@ a_dh'ungachadh d'ungadh
 a_dh'ungachaidh d'ungtha
 a_dh'ungadh d'ungadh
 a_dh'ungaidh d'ungtha
+a_dh'unndais d'unlas
+a_dh'unndaise d'unlais
+a_dh'unndaisean d'unlais
 a_dh'unnsa d'unsa
 a_dh'unnsachan d'unsaí
 a_dh'upraid do chlampar
@@ -8644,6 +8647,7 @@ air_gabhail tar éis gabháil
 air_gabhail tar éis glacadh
 air_gleus i gcóir
 air_gleus in eagar
+air_gluasad ar ghluaiseacht
 air_gluasad tar éis bogadh
 air_iarraidh ag iarraidh
 air_iasad ar cíos
@@ -12058,6 +12062,7 @@ bu_bhòidhchead b'áilleacht
 bu_bhòidheach b'áille
 bu_bhòidheach b'álainn
 bu_bhòidheachd b'áilleacht
+bu_bhòidhiche b'áille
 bu_bhòrd-fuaim b'fhuaimchlár
 bu_bhùird-fhuaim b'fhuaimchláir
 bu_bhùrn b'uisce
@@ -25151,6 +25156,9 @@ de_dh'ungachadh d'ungadh
 de_dh'ungachaidh d'ungtha
 de_dh'ungadh d'ungadh
 de_dh'ungaidh d'ungtha
+de_dh'unndais d'unlas
+de_dh'unndaise d'unlais
+de_dh'unndaisean d'unlais
 de_dh'unnsa d'unsa
 de_dh'unnsachan d'unsaí
 de_dh'upraid de chlampar
@@ -37305,6 +37313,9 @@ do_dh'ungachadh d'ungadh
 do_dh'ungachaidh d'ungtha
 do_dh'ungadh d'ungadh
 do_dh'ungaidh d'ungtha
+do_dh'unndais d'unlas
+do_dh'unndaise d'unlais
+do_dh'unndaisean d'unlais
 do_dh'unnsa d'unsa
 do_dh'unnsachan d'unsaí
 do_dh'upraid do chlampar
@@ -40738,6 +40749,7 @@ ge_b'oil_leis in ainneoin é
 ge_be cibé
 ge_bith is cuma
 ge_brith is cuma
+ge_bu cé gur
 ge_ta áfach
 gealag_bhuidhe siscín
 gealagan_bhuidhe siscíní
@@ -49119,6 +49131,7 @@ nam_b'urrainn_dhut dá mb'fhéidir leat
 nam_ban na mban
 nam_beann na sléibhte
 nam_beatha ina mbeatha
+nam_beòil ina mbéal
 nam_bhalach i mo bhuachaill
 nam_bhalach i mo ghasúr
 nam_bhall i mo bhall
@@ -49162,19 +49175,31 @@ nam_fir ina bhfir
 nam_fir na bhfear
 nam_fireannach na bhfear
 nam_flùraichean na mbláthanna
+nam_foillseachaidhean na bhfoilseachán
+nam_fògarraich ina dteifigh
+nam_fògarraich ina ndeoraithe
+nam_fògarraich na dteifeach
+nam_fògarraich na ndeoraithe
 nam_ghàirdeanan i mo lámha
 nam_inntinn i m'intinn
 nam_leabaidh i mo leaba
 nam_làimh i mo lámh
+nam_maragan na maróg
 nam_meadhanan na meán
+nam_mearachdan na mbotún
+nam_mearachdan na meancóg
 nam_measg ina measc
 nam_milleanan na milliún
 nam_mnathan ina mná
 nam_mnathan na mban
 nam_mnàthan ina mná
 nam_mnàthan na mban
+nam_monaidhean na móinteán
+nam_monaidhean na sléibhte
 nam_oileanach i mo mhac léinn
 nam_peathraichean na ndeirfiúracha
+nam_planaidean na bpláinéad
+nam_prionnsabalan na bprionsabal
 nam_prìosanaich ina bpríosúnaigh
 nam_prògraman na bhfeidhmchlár
 nam_prògraman na gclár
@@ -49230,8 +49255,12 @@ nan_aonadan ina n-aonaid
 nan_aonadan na n-aonad
 nan_aonar ina n-aonar
 nan_armailtean na n-arm
+nan_caileagan ina gcailíní
+nan_caileagan na gcailíní
 nan_caorach na gcaorach
 nan_caractaran na gcarachtar
+nan_carbad na gcarbad
+nan_carbad na gcarranna
 nan_carbadan na gcarbad
 nan_carbadan na gcarranna
 nan_ceanglaichean na gceangal
@@ -49243,6 +49272,8 @@ nan_cinnidhean na náisiún
 nan_clachan na gcloch
 nan_cluasan ina gcluasa
 nan_cluasan na gcluas
+nan_clàran ina gcláir
+nan_clàran na gclár
 nan_comharraidhean ina gcomharthaí
 nan_corragan na méar
 nan_cosgaisean na gcostas
@@ -49257,8 +49288,11 @@ nan_cuantan na bhfarraigí
 nan_cuantan na n-aigéan
 nan_cuileanan na gcoileán
 nan_cunntasan na gcuntas
+nan_curaidhean ina gcuraidh
+nan_curaidhean na gcuradh
 nan_cuspairean na gcuspóirí
 nan_cuspairean na n-ábhar
+nan_còdan na gcód
 nan_còirichean na gceart
 nan_còisirean na gcór
 nan_còraichean na gceart
@@ -49274,19 +49308,24 @@ nan_duilleagan na leathanach
 nan_duilleagan na nduilleog
 nan_dèidh ina ndiaidh
 nan_dùl na ndúl
+nan_eathraichean na mbád
 nan_eich na gcapall
 nan_eilean na n-oileán
 nan_eun na n-éan
 nan_eòin na n-éan
+nan_geugan na ngéag
 nan_ginealaichean na nglún
 nan_goireasan na n-acmhainní
 nan_goireasan na n-uirlisí
+nan_ialtagan ina n-ialtóga
+nan_ialtagan na n-ialtóg
 nan_innealan na n-inneall
 nan_innealan na ngléasanna
 nan_iolairean na n-iolar
 nan_iomairtean na bhfeachtas
 nan_ionadan ina ionaid
 nan_ionadan na n-ionad
+nan_laoidhean na n-iomann
 nan_leabhraichean na leabhar
 nan_leas-oifigearan na leasoifigeach
 nan_lotaichean na ngabháltas
@@ -49327,6 +49366,7 @@ nan_sochairean na sochar
 nan_speur an aeir
 nan_speur na spéartha
 nan_staitean na stát
+nan_structairean na struchtúr
 nan_stuthan na n-ábhar
 nan_stàitean na stát
 nan_stèiseanan na stáisiún
@@ -49778,7 +49818,9 @@ o_chionn ó
 o_chionn_'s cionn is
 o_chionn_beagan_bhliadhnaichean le blianta beaga anuas
 o_chionn_fada i bhfad ó shin
+o_chionn_fada le tamall fada
 o_chionn_fhada i bhfad ó shin
+o_chionn_fhada le tamall fada
 o_chionn_ghoirid le déanaí
 o_chionn_goirid le déanaí
 o_chionn_greis le déanaí
