@@ -178,7 +178,12 @@ sub recapitalize_one {
 		}
 	}
 	if ($camelcase) {
-		$w =~ s/([ -])([^ -]*)/$1.irishtc($2,0)/eg;
+		if ($w =~ m/ /) {
+			$w =~ s/ ([^ ]+)/" ".irishtc($1,0)/eg;
+		}
+		else {
+			$w =~ s/-([^-]+)/"-".irishtc($1,0)/eg;
+		}
 	}
 	if ($allcaps) {
 		if ($w =~ m/\p{Ll}.*\p{Lu}/) {
