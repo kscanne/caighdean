@@ -1,13 +1,4 @@
 'Ille_Cuipt 'Ille Cuipt
-'S_eadh Is ea
-'S_feumar Ní foláir
-'S_fheairrde Is fearrde
-'S_fheàirrde Is fearrde
-'S_fhiach Is fiú
-'S_fiach Is fiú
-'S_gann Is ar éigean
-'S_mathaid B'fhéidir
-'S_urrainnear Is féidir
 'ad_dhèidh i do dhiaidh
 'ad_dhéidh i do dhiaidh
 'ad_ionnsaidh chugat
@@ -153,6 +144,10 @@
 's_a_ghabhas agus is féidir
 's_an_t-fhoghar san fhómhar
 's_coingeis_dhomh is cuma liom
+'s_dòch' b'fhéidir
+'s_dòch' is dócha
+'s_dòcha b'fhéidir
+'s_dòcha is dócha
 's_eadh is ea
 's_feumar ní foláir
 's_fhada is fada
@@ -480,6 +475,7 @@ a'_chànain an teanga
 a'_chànain na teanga
 a'_chànan an teanga
 a'_chànan na teanga
+a'_cuir ag cur
 a'_cur_adhart ag cur ar aghaidh
 a'_còrdadh ag taitneamh
 a'_deasbad ag plé
@@ -9954,6 +9950,7 @@ as_an_aonais ina éagmais
 as_an_rian as a meabhair
 as_aonais gan
 as_ar_rian as ár meabhair
+as_bith is cuma
 as_blàithe is teo
 as_cionn os cionn
 as_coireach_gu an chúis go
@@ -9976,6 +9973,17 @@ as_do_dheidh i do dhiaidh
 as_do_dhèidh i do dhiaidh
 as_do_dhéidh i do dhiaidh
 as_do_rian as do mheabhair
+as_docha_le is fearr le
+as_docha_le_a is fearr lena
+as_docha_leam is fearr liom
+as_docha_leamsa is fearr liomsa
+as_docha_leat is fearr leat
+as_docha_leatha is fearr léi
+as_docha_leibh is fearr libh
+as_docha_leinn is fearr linn
+as_docha_leo is fearr leo
+as_docha_leotha is fearr leo
+as_docha_lium is fearr liom
 as_dèidh i ndiaidh
 as_dèidh tar éis
 as_dèigh i ndiaidh
@@ -11843,6 +11851,8 @@ bristeadh_iad mbrisidís
 bristeadh_tu mbrisfeá
 bristidh_sinn brisfimid
 bristidh_sinn mbrisfimid
+brith_dè is cuma cad é
+brith_dé is cuma cad é
 brodadh_iad broididís
 brodadh_iad mbroidfidís
 brodadh_iad mbroididís
@@ -12608,6 +12618,17 @@ bu_dhìth-chuimhne b'aimnéise
 bu_dhìth-càile b'anoireicse
 bu_dhùthchail b'intíre
 bu_dhùthchaile b'intíre
+bu_docha_le b'fhearr le
+bu_docha_le_a b'fhearr lena
+bu_docha_leam b'fhearr liom
+bu_docha_leamsa b'fhearr liomsa
+bu_docha_leat b'fhearr leat
+bu_docha_leatha b'fhearr léi
+bu_docha_leibh b'fhearr libh
+bu_docha_leinn b'fhearr linn
+bu_docha_leo b'fhearr leo
+bu_docha_leotha b'fhearr leo
+bu_docha_lium b'fhearr liom
 bu_fhabhra b'fhabhra
 bu_fhabhran b'fhabhraí
 bu_fhabht b'fhabht
@@ -13882,6 +13903,12 @@ bu_ghorach b'áiféiseach
 bu_ghorach b'áiféiseacha
 bu_ghoraiche b'amaidí
 bu_ghoraiche b'áiféisí
+bu_ghorrach b'amaideach
+bu_ghorrach b'amaideacha
+bu_ghorrach b'áiféiseach
+bu_ghorrach b'áiféiseacha
+bu_ghorraiche b'amaidí
+bu_ghorraiche b'áiféisí
 bu_ghrabhataidh b'imtharraingt
 bu_ghribheag b'fhuadar
 bu_ghrifeag b'fhuadar
@@ -13920,6 +13947,12 @@ bu_ghòrach b'áiféiseacha
 bu_ghòrachd b'amaideacht
 bu_ghòraiche b'amaidí
 bu_ghòraiche b'áiféisí
+bu_ghòrrach b'amaideach
+bu_ghòrrach b'amaideacha
+bu_ghòrrach b'áiféiseach
+bu_ghòrrach b'áiféiseacha
+bu_ghòrraiche b'amaidí
+bu_ghòrraiche b'áiféisí
 bu_haidhp b'áibhéil
 bu_hamag b'ámóg
 bu_hamagan b'ámóga
@@ -17471,6 +17504,10 @@ cinneadh_iad fásaidís
 cinneadh_tu bhfásfá
 cinnidh_sinn bhfásfaimid
 cinnidh_sinn fásfaimid
+ciod_air_bith pé ar bith
+ciod_air_bith_a cibé rud a
+ciod_air_bith_a_th' cibé rud atá
+ciod_air_bith_a_tha cibé rud atá
 ciontaicheadh_iad ciontaídís
 ciontaicheadh_iad gciontaídís
 ciontaicheadh_iad gciontóidís
@@ -38613,12 +38650,14 @@ do_Àstralia don Astráil
 docha_le fearr le
 docha_le_a fearr lena
 docha_leam fearr liom
+docha_leamsa fearr liomsa
 docha_leat fearr leat
 docha_leatha fearr léi
 docha_leibh fearr libh
 docha_leinn fearr linn
 docha_leo fearr leo
 docha_leotha fearr leo
+docha_lium fearr liom
 dochainneadh_iad dochraídís
 dochainneadh_iad ndochraídís
 dochainneadh_iad ndochróidís
@@ -40798,6 +40837,7 @@ fùcadh_tu n-úcfá
 fùcaidh_sinn n-úcfaimid
 fùcaidh_sinn úcfaimid
 g'_eil go bhfuil
+g'e_brith is cuma
 ga_brith is cuma
 ga_cleachdadh á húsáid
 ga_ionnsaidh chuige
@@ -40905,6 +40945,7 @@ gaoir_troimhe crith tríd
 gaoir_troimhpe crith tríthi
 gaoir_tromham crith tríom
 gaoth_a_tuath gaoth aduaidh
+gar_bith is cuma
 garadh_iad goraidís
 garadh_iad ngoraidís
 garadh_iad ngorfaidís
@@ -40923,15 +40964,21 @@ gathaicheadh_tu radófá
 gathaichidh_sinn gathóimid
 gathaichidh_sinn ngathóimid
 gathaichidh_sinn radóimid
+ge_'s_bith is cuma
+ge_'s_bith_a cibé rud a
 ge_air_bith cibé scéal é
 ge_b'_e cibé
+ge_b'_e_'s_bith is cuma
 ge_b'_oil_le d'ainneoin
 ge_b'_oil_le in ainneoin
 ge_b'_oil_leis d'ainneoin
 ge_b'_oil_leis d'ainneoin é
 ge_b'_oil_leis in ainneoin
 ge_b'_oil_leis in ainneoin é
+ge_b'_rith is cuma
+ge_b'_è cibé
 ge_b'e cibé
+ge_b'e_'s_bith is cuma
 ge_b'oil_le d'ainneoin
 ge_b'oil_le in ainneoin
 ge_b'oil_leis d'ainneoin
@@ -40940,6 +40987,7 @@ ge_b'oil_leis in ainneoin
 ge_b'oil_leis in ainneoin é
 ge_be cibé
 ge_bith is cuma
+ge_brig is cuma
 ge_brith is cuma
 ge_bu cé gur
 ge_ta áfach
@@ -42494,6 +42542,10 @@ gun_urrainn_dhuibh gur féidir leat
 gun_urrainn_dhuibh gur féidir libh
 gun_urrainn_dhuinn gur féidir linn
 gun_urrainn_dhut gur féidir leat
+gur_dòch' go mb'fhéidir
+gur_dòch' gur dócha
+gur_dòcha go mb'fhéidir
+gur_dòcha gur dócha
 gur_e gurb é
 gur_esan gurb eisean
 gur_fuathach gur fuath
@@ -43115,6 +43167,10 @@ is_coireach_nach_eil an chúis nach bhfuil
 is_coireach_ri is cúis le
 is_coireach_ris is cúis leis
 is_coltach is dócha
+is_dòch' b'fhéidir
+is_dòch' is dócha
+is_dòcha b'fhéidir
+is_dòcha is dócha
 is_feumar ní foláir
 is_fheairrde is fearrde
 is_fheàirrde is fearrde
@@ -58937,6 +58993,7 @@ woo_hoo wúhú
 às_aonais gan
 às_ar_dèidh inár ndiaidh
 às_ar_rian as ár meabhair
+às_bith is cuma
 às_deaghaidh i ndiaidh
 às_deaghaidh tar éis
 às_deidh i ndiaidh
