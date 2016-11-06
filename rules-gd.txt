@@ -19,6 +19,7 @@
 ^([A-ZÁÉÍÓÚÀÈÌÒÙ])	\l$1	-1
 ^d'([AEIOUÁÉÍÓÚÀÈÌÒÙF])	d'\l$1	-1
 ^dh'([AEIOUÁÉÍÓÚÀÈÌÒÙF])	d'\l$1	-1
+# NB we *insert* hyphens here to search for gd form...
 ^h([AEIOUÁÉÍÓÚÀÈÌÒÙ])	h-$1	-1
 ^h-([AEIOUÁÉÍÓÚÀÈÌÒÙ])	h-\l$1	-1
 ^m'([AEIOUÁÉÍÓÚÀÈÌÒÙF])	m'\l$1	-1
@@ -95,6 +96,8 @@ sd	st	1
 Í	Ì	1
 Ó	Ò	1
 Ú	Ù	1
+# don't do this with initial h- n- t- etc.; see cap rules above
+(..)-	$1	1
 #######################################################
 # ansin iarracht ar fhocal sa sprioctheanga a aimsiú...
 #######################################################
