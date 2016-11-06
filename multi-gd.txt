@@ -555,6 +555,7 @@ a_b'urrainn_dhut ab fhéidir leat
 a_bh'ann a bhí ann
 a_bh'ann_an a bhí i
 a_bh'ann_an a bhí in
+a_bha_am_beachd a bhí ag brath ar
 a_bharrachd sa bhreis
 a_bharrachd_air chomh maith le
 a_bharrachd_air chomh maith leis
@@ -8043,6 +8044,7 @@ a_th'orm atá orm
 a_th'ort atá ort
 a_tha atá
 a_tha' atá
+a_tha_am_beachd atá ag brath ar
 a_tha_dhìth atá de dhíth
 a_tha_fios atá a fhios
 a_tha_sinn atáimid
@@ -9381,6 +9383,7 @@ an_t-Sultain Meán Fómhair
 an_t-Sultainn Meán Fómhair
 an_t-Sìn an tSín
 an_t-aite_far_a_bheil an áit ina bhfuil
+an_t-ap an aip
 an_t-seachdain-sa an tseachtain seo
 an_t-sean_bhliadhna an tseanbhliain
 an_t-slde an aimsir
@@ -9943,10 +9946,14 @@ as_a_dhèidh ina dhiaidh
 as_a_dhéidh ina dhiaidh
 as_a_dèidh ina diaidh
 as_a_h-aonais ina héagmais
+as_a_rian as a meabhair
+as_a_rian as a mheabhair
 as_a_seo as seo
 as_a_sin as sin
 as_an_aonais ina éagmais
+as_an_rian as a meabhair
 as_aonais gan
+as_ar_rian as ár meabhair
 as_blàithe is teo
 as_cionn os cionn
 as_coireach_gu an chúis go
@@ -9968,6 +9975,7 @@ as_deoghaidh tar éis
 as_do_dheidh i do dhiaidh
 as_do_dhèidh i do dhiaidh
 as_do_dhéidh i do dhiaidh
+as_do_rian as do mheabhair
 as_dèidh i ndiaidh
 as_dèidh tar éis
 as_dèigh i ndiaidh
@@ -9996,6 +10004,7 @@ as_miosa is measa
 as_mo_dheidh i mo dhiaidh
 as_mo_dhèidh i mo dhiaidh
 as_mo_dhéidh i mo dhiaidh
+as_mo_rian as mo mheabhair
 as_moth is mó
 as_motha is mó
 as_t-Fhoghar san Fhómhar
@@ -10457,13 +10466,21 @@ bh'anns_an bhí san
 bh'anns_na bhí sna
 bha_dùil_ri bhíothas ag súil le
 bha_dùil_ris bhíothas ag súil leis
+bha_e_am_beachd bhí sé ag brath ar
+bha_e_am_beachd_gur bhí sé den tuairim gurb
+bha_e_am_beachd_nach bhí sé den tuairim nach
 bha_e_coma ba chuma leis
 bha_e_follaiseach ba léir
 bha_fios bhí a fhios
 bha_i_coma ba chuma léi
 bha_iad bhíodar
+bha_iad_am_beachd bhí siad ag brath ar
+bha_iad_am_beachd_gur bhí siad den tuairim gur
 bha_iad_coma ba chuma leo
 bha_leisg ba leasc
+bha_mi_am_beachd bhí mé ag brath ar
+bha_mi_am_beachd_gun bhí mé den tuairim go
+bha_mi_am_beachd_gur bhí mé den tuairim gur
 bha_mi_coma ba chuma liom
 bha_mise_coma ba chuma liomsa
 bha_sibh_coma ba chuma libh
@@ -10640,6 +10657,10 @@ bheathaicheadh_tu chothófá
 bheathaichidh_sinn bheathóimid
 bheathaichidh_sinn chothóimid
 bheil_fios bhfuil a fhios
+bheil_sibh_am_beachd bhfuil sibh ag brath ar
+bheil_sibh_am_beachd_gum bhfuil sibh den tuairim go
+bheil_thu_am_beachd bhfuil tú ag brath ar
+bheil_thu_am_beachd_gun bhfuil tú den tuairim go
 bheir_sinn dtabharfaimid
 bheir_sinn tabharfaimid
 bheir_sinn thabharfaimid
@@ -15610,6 +15631,7 @@ chaidleadh_iad chodlaídís
 chaidleadh_iad chodlóidís
 chaidleadh_tu chodlófá
 chaidlidh_sinn chodlóimid
+chaill_i_h-eòl chaill sí a slí
 chaill_iad chailleadar
 chaill_iad gcailleadar
 chaill_sinn chailleamar
@@ -38588,6 +38610,15 @@ do_rinneadh ndearnadh
 do_rèir dá réir sin
 do_réir dá réir sin
 do_Àstralia don Astráil
+docha_le fearr le
+docha_le_a fearr lena
+docha_leam fearr liom
+docha_leat fearr leat
+docha_leatha fearr léi
+docha_leibh fearr libh
+docha_leinn fearr linn
+docha_leo fearr leo
+docha_leotha fearr leo
 dochainneadh_iad dochraídís
 dochainneadh_iad ndochraídís
 dochainneadh_iad ndochróidís
@@ -52063,6 +52094,7 @@ ro_throm róthrom
 ro_àrd ró-ard
 ro_ìosal ró-íseal
 robh_fios raibh a fhios
+robh_mi_am_beachd raibh mé ag brath ar
 roc_iad rocadar
 roc_sinn rocamar
 rocadh_iad rocaidís
@@ -56438,21 +56470,34 @@ tha_dhìth tá de dhíth
 tha_doubt_agam tá amhras orm
 tha_dùil_ri táthar ag súil le
 tha_dùil_ris táthar ag súil leis
+tha_e_am_beachd tá sé ag brath ar
+tha_e_am_beachd_gu tá sé den tuairim go
 tha_e_coma is cuma leis
 tha_e_follaiseach is léir
 tha_e_làn_thìde tá sé thar am
 tha_fios tá a fhios
 tha_i_coma is cuma léi
+tha_iad_am_beachd tá siad ag brath ar
 tha_iad_coma is cuma leo
 tha_làn_thìde tá sé thar am
+tha_mi_am_beachd tá mé ag brath ar
+tha_mi_am_beachd_gu tá mé den tuairim go
+tha_mi_am_beachd_gur tá mé den tuairim gur
 tha_mi_coingeis is cuma liom
 tha_mi_coma is cuma liom
 tha_mi_duilich tá brón orm
 tha_mise_coma is cuma liomsa
+tha_sibh_am_beachd tá sibh ag brath ar
 tha_sibh_coma is cuma libh
 tha_sinn táimid
+tha_sinn_am_beachd táimid ag brath ar
+tha_sinn_am_beachd_gu táimid den tuairim go
+tha_sinn_am_beachd_gum táimid den tuairim go
 tha_sinn_coma is cuma linn
 tha_sinn_duilich tá brón orainn
+tha_thu_am_beachd tá tú ag brath ar
+tha_thu_am_beachd_gu tá tú den tuairim go
+tha_thu_am_beachd_gum tá tú den tuairim go
 tha_thu_coma is cuma leat
 thabhainn_iad dtairgeadar
 thabhainn_iad thairgeadar
@@ -58132,6 +58177,7 @@ tomhaiseadh_iad tomhaisidís
 tomhaiseadh_tu dtomhaisfeá
 tomhaisidh_sinn dtomhaisfimid
 tomhaisidh_sinn tomhaisfimid
+torr_nas i bhfad níos
 traisgeadh_iad dtroiscfidís
 traisgeadh_iad dtroiscidís
 traisgeadh_iad troiscidís
@@ -58489,6 +58535,7 @@ tòisicheadh_iad tosaídís
 tòisicheadh_tu dtosófá
 tòisichidh_sinn dtosóimid
 tòisichidh_sinn tosóimid
+tòrr_nas i bhfad níos
 tòrradh_iad carnaidís
 tòrradh_iad dtaiscfidís
 tòrradh_iad dtaiscidís
@@ -58880,12 +58927,16 @@ woo_hoo wúhú
 às_a_dhéidh ina dhiaidh
 às_a_dèidh ina diaidh
 às_a_h-aonais ina héagmais
+às_a_rian as a meabhair
+às_a_rian as a mheabhair
 às_a_seo as seo
 às_a_sin as sin
 às_an_aonais ina éagmais
+às_an_rian as a meabhair
 às_an_t-sealladh as radharc
 às_aonais gan
 às_ar_dèidh inár ndiaidh
+às_ar_rian as ár meabhair
 às_deaghaidh i ndiaidh
 às_deaghaidh tar éis
 às_deidh i ndiaidh
@@ -58895,6 +58946,7 @@ woo_hoo wúhú
 às_do_dheidh i do dhiaidh
 às_do_dhèidh i do dhiaidh
 às_do_dhéidh i do dhiaidh
+às_do_rian as do mheabhair
 às_dèidh i ndiaidh
 às_dèidh tar éis
 às_dèigh i ndiaidh
@@ -58909,6 +58961,7 @@ woo_hoo wúhú
 às_mo_dheidh i mo dhiaidh
 às_mo_dhèidh i mo dhiaidh
 às_mo_dhéidh i mo dhiaidh
+às_mo_rian as mo mheabhair
 às_ùr as an nua
 às_ùr in athuair
 ás_a_h-aonais ina héagmais
