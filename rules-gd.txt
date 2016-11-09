@@ -79,6 +79,10 @@ te$	ta	1
 sb	sp	1
 # aosda->aosta
 sd	st	1
+# sagartaibh => sagartan
+(..)aibh$	$1an	1
+# chàirdibh => chàirdean
+(.[^aeiou])ibh$	$1ean	1
 # sc->sg is the other rule of this kind, but moves away from ga so think twice
 # Decided to include the following rules here vs. the opposite rules
 # in the section below because we're much more likely to "find" the
