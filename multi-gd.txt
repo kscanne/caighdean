@@ -80,6 +80,7 @@
 'n_dùil_gur ag smaoineamh gurb
 'n_dùil_ri ag súil le
 'n_dùil_ris ag súil leis
+'n_gnìomh i ngníomh
 'n_impis ar tí
 'n_uiridh anuraidh
 'n_uraidh anuraidh
@@ -468,6 +469,7 @@ a'_Phàrtaidh_Làbarach Páirtí an Lucht Oibre
 a'_Phàrtaidh_Làborach Páirtí an Lucht Oibre
 a'_Swastika an Svaistice
 a'_Swastika na Svaistice
+a'_bhos abhus
 a'_bhèan-uiridh arú anuraidh
 a'_bhòn-dè arú inné
 a'_bhòn-raoir arú aréir
@@ -580,6 +582,7 @@ a_bharrachd_orra sa mhullach orthu
 a_bharrachd_ort chomh maith leat
 a_bharrachd_ort sa mhullach ort
 a_bheil an bhfuil
+a_bhi a bheith
 a_bhos abhus
 a_bhàn aníos
 a_bhàn síos
@@ -1028,6 +1031,7 @@ a_dh'_aithgearr go luath
 a_dh'_aithghearr go luath
 a_dh'_fhaodas a fhéadfaidh
 a_dh'_fheumas a chaithfidh
+a_dh'_innse_na_fìrinn leis an bhfírinne a rá
 a_dh'_ionnsaidh chun
 a_dh'_ionnsaigh chun
 a_dh'_ionnsuidh chun
@@ -1319,7 +1323,9 @@ a_dh'adhbrainn do rúitín
 a_dh'adhbrann do rúitín
 a_dh'adhbrannan do rúitíní
 a_dh'adhlacadh d'adhlacadh
+a_dh'adhlacadhaidhean d'adhlacthaí
 a_dh'adhlacaidh d'adhlactha
+a_dh'adhlacaidhean d'adhlacthaí
 a_dh'adhlacair d'adhlacóir
 a_dh'adhlacair d'adhlacóra
 a_dh'adhlacairean d'adhlacóirí
@@ -5625,6 +5631,7 @@ a_dh'innse a d'inis
 a_dh'innse d'inse
 a_dh'innse d'insint
 a_dh'innse d'insinte
+a_dh'innse_na_fìrinn leis an bhfírinne a rá
 a_dh'innseadh d'insint
 a_dh'innseag d'insín
 a_dh'innseagan d'insíní
@@ -6084,6 +6091,7 @@ a_dh'iurpais d'íorpais
 a_dh'iurpaise d'íorpaise
 a_dh'iutharna d'ifreann
 a_dh'iutharna d'ifrinn
+a_dh'iòga d'ióga
 a_dh'iòga do gheoga
 a_dh'iùil do threorach
 a_dh'iùil-tharraing do mhaighnéadas
@@ -6734,6 +6742,7 @@ a_dh'uidhir d'uimhreach
 a_dh'uige d'uige
 a_dh'uighe d'uibhe
 a_dh'uighean d'uibheacha
+a_dh'uigheann d'uibheacha
 a_dh'uilbheist d'ollphéist
 a_dh'uilbheiste d'ollphéiste
 a_dh'uilbheistean d'ollphéisteanna
@@ -8316,6 +8325,7 @@ air_a_dèanamh déanta
 air_a_dèanamh_de déanta as
 air_a_dòigh sona sásta
 air_a_dòigh_glan ar mhuin na muice
+air_a_dùnadh dúnta
 air_a_eadar-theangachadh aistrithe
 air_a_faicinn feicthe
 air_a_fighe fite
@@ -8331,6 +8341,7 @@ air_a_ghealltainn geallta
 air_a_ghlasadh faoi ghlas
 air_a_glacadh glactha
 air_a_glasadh faoi ghlas
+air_a_goirteachadh gortaithe
 air_a_h-ais ar ais
 air_a_h-èideadh gléasta
 air_a_h-éideadh gléasta
@@ -8341,6 +8352,8 @@ air_a_leantainn_leis agus ina dhiaidh sin
 air_a_leasachadh forbartha
 air_a_leasachadh_le forbartha ag
 air_a_leigeil ligthe
+air_a_leigheas leigheasta
+air_a_leigheas_le leigheasta ag
 air_a_leudachadh leathnaithe
 air_a_leughadh léite
 air_a_leughadh_le léite ag
@@ -8361,6 +8374,8 @@ air_a_nochdadh nochta
 air_a_nochdadh_gu tar éis tabhairt le fios go
 air_a_nochdadh_gum tar éis tabhairt le fios go
 air_a_nochdadh_gun tar éis tabhairt le fios go
+air_a_nàireachadh náirithe
+air_a_nàrachadh náirithe
 air_a_reic díolta
 air_a_reubadh réabtha
 air_a_riaghladh rialaithe
@@ -8380,6 +8395,7 @@ air_a_seo air seo
 air_a_sgaoileadh scaipthe
 air_a_sgaoileadh scaoilte
 air_a_sgapadh scaipthe
+air_a_sgaradh scartha
 air_a_sgeadachadh maisithe
 air_a_sgriobhadh scríofa
 air_a_sgriobhadh_le scríofa ag
@@ -8404,12 +8420,14 @@ air_a_sàilleabh dá barr
 air_a_sàilleamh dá barr
 air_a_sàilleibh dá barr
 air_a_sàillibh dá barr
+air_a_tabhairt tugtha
 air_a_taghadh roghnaithe
 air_a_taghadh tofa
 air_a_tarraing tarraingthe
 air_a_tarraing_le tarraingthe ag
 air_a_teagasg múinte
 air_a_teagasg_le múinte ag
+air_a_thabhairt tugtha
 air_a_tharsainn ar fiar
 air_a_tharsainn ar fiarlaoid
 air_a_thighinn tagtha
@@ -8521,6 +8539,7 @@ air_an_cruinneachadh cnuasaithe
 air_an_cruthachadh cruthaithe
 air_an_crìochnachadh críochnaithe
 air_an_cuairteachadh timpeallaithe
+air_an_cuimhneachadh coinnithe i gcuimhne
 air_an_cuir ar an gcuirfidh
 air_an_cuir curtha
 air_an_cumail coinnithe
@@ -8532,12 +8551,15 @@ air_an_còmhdachadh clúdaithe
 air_an_daingneachadh daingnithe
 air_an_dealbhachadh deartha
 air_an_dealbhadh deartha
+air_an_deanamh déanta
 air_an_dearbhadh dearbhaithe
 air_an_deasachadh ullmhaithe
 air_an_dhèanamh déanta
 air_an_do ar ar
 air_an_do_rinn ar a ndearna
+air_an_druideadh druidte
 air_an_dèanamh déanta
+air_an_dùnadh dúnta
 air_an_eadar-theangachadh aistrithe
 air_an_fhàire ar fhíor na spéire
 air_an_gabhail glactha
@@ -8594,6 +8616,7 @@ air_an_riaghladh rialaithe
 air_an_riochdachadh ionadaithe
 air_an_robh ar a raibh
 air_an_ruith rite
+air_an_sanasachadh fógartha
 air_an_saoradh saortha
 air_an_seo air seo
 air_an_seòrsachadh aicmithe
@@ -8631,6 +8654,8 @@ air_an_taghadh roghnaithe
 air_an_taghadh tofa
 air_an_taisbeanadh ar taispeáint
 air_an_tarraing tarraingthe
+air_an_tasgadh ar an taisce
+air_an_tasgadh taiscthe
 air_an_teagasg múinte
 air_an_tilgeadh caite
 air_an_tilgeadh teilgthe
@@ -8824,6 +8849,7 @@ air_mo_bheulaibh os mo chomhair
 air_mo_dhòigh sona sásta
 air_mo_dhòigh_glan ar mhuin na muice
 air_mo_lathadh préachta
+air_mo_nàrachadh náirithe
 air_moladh ar mholadh
 air_moladh tar éis moladh
 air_mothachadh tar éis mothú
@@ -9772,6 +9798,7 @@ ann_an_dràsd' ann anois
 ann_an_dràsda ann anois
 ann_an_dràst' ann anois
 ann_an_dràsta ann anois
+ann_an_dà in dhá
 ann_an_dèidh i ndiaidh
 ann_an_grèin i ngrian
 ann_an_làrach_nam_bonn ar an toirt
@@ -10563,6 +10590,7 @@ bha_e_am_beachd_gur bhí sé den tuairim gurb
 bha_e_am_beachd_nach bhí sé den tuairim nach
 bha_e_coma ba chuma leis
 bha_e_follaiseach ba léir
+bha_e_math bhí sé go maith
 bha_fios bhí a fhios
 bha_i_coma ba chuma léi
 bha_iad bhíodar
@@ -10828,6 +10856,7 @@ bhinndicheadh_iad théachtaidís
 bhinndicheadh_iad théachtfaidís
 bhinndicheadh_tu théachtfá
 bhinndichidh_sinn théachtfaimid
+bhiodh_e_math bheadh sé go maith
 bhiodh_iad beidís
 bhiodh_iad bheidís
 bhiodh_tu beifeá
@@ -11664,6 +11693,7 @@ biathadh_iad mbeathóidís
 biathadh_tu mbeathófá
 biathaidh_sinn beathóimid
 biathaidh_sinn mbeathóimid
+bidh_e_math beidh sé go maith
 binndicheadh_iad dtéachtaidís
 binndicheadh_iad dtéachtfaidís
 binndicheadh_iad téachtaidís
@@ -14659,6 +14689,7 @@ bu_shaidheansan b'eolaíochtaí
 bu_shamhlachadh b'insamhladh
 bu_shamhlaichte b'insamhailte
 bu_shanas b'fhógra
+bu_shanasachadh b'fhógairt
 bu_shanasachadh b'fhógraíocht
 bu_shanasachd b'fhógraíocht
 bu_shanasaichte b'fhógartha
@@ -14951,6 +14982,7 @@ bu_thilleadh b'fhilleadh
 bu_thillte b'fhillte
 bu_thilltinn b'fhilleadh
 bu_thiodhlacadh b'adhlacadh
+bu_thiodhlacaidhean b'adhlacthaí
 bu_thiodhlaicte b'adhlactha
 bu_thionndadh b'iompú
 bu_thionndaidhte b'iompaithe
@@ -15652,6 +15684,7 @@ cha_b'urrainnear níorbh fhéidir
 cha_bhi ní bheidh
 cha_bhith ní bheidh
 cha_bu níor
+cha_bu_choir níor chóir
 cha_bu_toigh níor mhaith
 cha_chuala níor chuala
 cha_d' níor
@@ -15874,6 +15907,7 @@ chan_eil_clue níl cliú
 chan_eil_dùil_ri níltear ag súil le
 chan_eil_dùil_ris níltear ag súil leis
 chan_eil_e_gu_diofar is cuma
+chan_eil_e_math níl sé go maith
 chan_eilear níltear
 chan_ell ní bhíonn
 chan_ell níl
@@ -19925,7 +19959,9 @@ de_dh'adhbrainn de rúitín
 de_dh'adhbrann de rúitín
 de_dh'adhbrannan de rúitíní
 de_dh'adhlacadh d'adhlacadh
+de_dh'adhlacadhaidhean d'adhlacthaí
 de_dh'adhlacaidh d'adhlactha
+de_dh'adhlacaidhean d'adhlacthaí
 de_dh'adhlacair d'adhlacóir
 de_dh'adhlacair d'adhlacóra
 de_dh'adhlacairean d'adhlacóirí
@@ -24673,6 +24709,7 @@ de_dh'iurpais d'íorpais
 de_dh'iurpaise d'íorpaise
 de_dh'iutharna d'ifreann
 de_dh'iutharna d'ifrinn
+de_dh'iòga d'ióga
 de_dh'iòga de gheoga
 de_dh'iùil de threorach
 de_dh'iùil-tharraing de mhaighnéadas
@@ -25324,6 +25361,7 @@ de_dh'uidhir d'uimhreach
 de_dh'uige d'uige
 de_dh'uighe d'uibhe
 de_dh'uighean d'uibheacha
+de_dh'uigheann d'uibheacha
 de_dh'uilbheist d'ollphéist
 de_dh'uilbheiste d'ollphéiste
 de_dh'uilbheistean d'ollphéisteanna
@@ -32123,7 +32161,9 @@ do_dh'adhbrainn do rúitín
 do_dh'adhbrann do rúitín
 do_dh'adhbrannan do rúitíní
 do_dh'adhlacadh d'adhlacadh
+do_dh'adhlacadhaidhean d'adhlacthaí
 do_dh'adhlacaidh d'adhlactha
+do_dh'adhlacaidhean d'adhlacthaí
 do_dh'adhlacair d'adhlacóir
 do_dh'adhlacair d'adhlacóra
 do_dh'adhlacairean d'adhlacóirí
@@ -36871,6 +36911,7 @@ do_dh'iurpais d'íorpais
 do_dh'iurpaise d'íorpaise
 do_dh'iutharna d'ifreann
 do_dh'iutharna d'ifrinn
+do_dh'iòga d'ióga
 do_dh'iòga do gheoga
 do_dh'iùil do threorach
 do_dh'iùil-tharraing do mhaighnéadas
@@ -37522,6 +37563,7 @@ do_dh'uidhir d'uimhreach
 do_dh'uige d'uige
 do_dh'uighe d'uibhe
 do_dh'uighean d'uibheacha
+do_dh'uigheann d'uibheacha
 do_dh'uilbheist d'ollphéist
 do_dh'uilbheiste d'ollphéiste
 do_dh'uilbheistean d'ollphéisteanna
@@ -39364,8 +39406,10 @@ dùraigeadh_iad leomhaidís
 dùraigeadh_iad leomhfaidís
 dùraigeadh_tu leomhfá
 dùraigidh_sinn leomhfaimid
+e'n_aghaidh sé in aghaidh
 e_a'_fuireach sé ina chónaí
 e_a'fuireach sé ina chónaí
+e_air_mo_nàrachadh sé do mo náiriú
 eabaireadh_iad lodraídís
 eabaireadh_iad lodróidís
 eabaireadh_tu lodrófá
@@ -42731,6 +42775,7 @@ gus_an_cluinn go gcloisfidh
 gus_an_cuid chun a gcuid
 gus_an_cuir go gcuirfidh
 gus_an_deach go ndeachaigh
+gus_an_diugh go dtí an lá inniu
 gus_an_do gur
 gus_an_dèan go ndéanfaidh
 gus_an_innis go n-inseoidh
@@ -44837,6 +44882,7 @@ maothaichidh_sinn maothóimid
 mar_'s_trice de ghnáth
 mar_a_chanas mar a deir
 mar_an_ceudna mar an gcéanna
+mar_an_ciadna mar an gcéanna
 mar_as_trice de ghnáth
 mar_bu_thrice de ghnáth
 mar_bu_trice de ghnáth
@@ -48586,7 +48632,9 @@ mo_shamhlachadh m'insamhladh
 mo_shamhlachaidh m'insamhalta
 mo_shanais m'fhógra
 mo_shanas m'fhógra
+mo_shanasachadh m'fhógairt
 mo_shanasachadh m'fhógraíocht
+mo_shanasachaidh m'fhógartha
 mo_shanasachaidh m'fhógraíochta
 mo_shanasachd m'fhógraíocht
 mo_shanasachd m'fhógraíochta
@@ -48954,6 +49002,7 @@ mo_thilltinn m'fhilleadh
 mo_thilltinn m'fhillidh
 mo_thiodhlacadh m'adhlacadh
 mo_thiodhlacaidh m'adhlactha
+mo_thiodhlacaidhean m'adhlacthaí
 mo_thionndadh m'iompú
 mo_thionndaidh m'iompaithe
 mo_thionnsgalachd m'fhiontraíocht
@@ -49196,6 +49245,7 @@ mu_mo_dheidhinn fúm
 mu_mo_dheidhinn-sa fúmsa
 mu_mo_thimcheall i mo thimpeall
 mu_na_b' faoinarbh
+mu_na_bha faoina raibh
 mu_na_bhios faoina mbíonn
 mu_na_tha faoina bhfuil
 mu_seach i ndiaidh a chéile
@@ -49544,6 +49594,7 @@ nach_do_dh' nár
 nach_do_rinn nach ndearna
 nach_ei nach bhfuil
 nach_eil nach bhfuil
+nach_eil_e_math nach bhfuil sé go maith
 nach_maireann nach maireann
 nach_urrainn_dha nach féidir leis
 nach_urrainn_dhaibh nach féidir leo
@@ -52121,6 +52172,7 @@ ri_Yugoslavia leis an Iúgslaiv
 ri_Zimbabwe leis an tSiombáib
 ri_a lena
 ri_ar lenár
+ri_bhi le bheith
 ri_cheil le chéile
 ri_cheil' le chéile
 ri_cheile le chéile
@@ -52610,6 +52662,7 @@ sa_Bheurla_Ghallta san Albainis
 sa_Chuan_Siar san Aigéan Atlantach
 sa_Rhine sa Réin
 sa_Shìona sa tSín
+sa_bha is a bhí
 sa_bhad ar an bpointe
 sa_bhad ar an toirt
 sa_bhad láithreach
@@ -56711,6 +56764,7 @@ tha_e_am_beachd_gu tá sé den tuairim go
 tha_e_coma is cuma leis
 tha_e_follaiseach is léir
 tha_e_làn_thìde tá sé thar am
+tha_e_math tá sé go maith
 tha_fios tá a fhios
 tha_i_coma is cuma léi
 tha_iad_am_beachd tá siad ag brath ar
