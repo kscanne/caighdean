@@ -91,7 +91,7 @@ localonly.txt:
 	(find $(DIOLAIM)/l -type f | egrep -v '(Twitter|TA|IB-laighneach)'; find $(DIOLAIM)/n $(DIOLAIM)/OF81 $(DIOLAIM)/r -type f) > $@
 
 okdocs.txt: webonly.txt localonly.txt
-	cat webonly.txt localonly.txt > $@
+	cat webonly.txt localonly.txt | sed '/\.swp$$/d' > $@
 
 clean:
 	rm -f okdocs.txt corpus.txt alltokens.txt corpus-pre.txt corpus-pre-pre.txt training*.txt webonly.txt localonly.txt
