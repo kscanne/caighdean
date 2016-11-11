@@ -65,6 +65,7 @@
 ^droch-(..)	droch_$1	1
 ^sàr-(..)	sàr_$1	1
 ^seann-(..)	seann_$1	1
+^a'(...)	a'_$1	1
 ^t'([aeiouáéíóúàèìòùf].)	d'$1	1
 ^h([AEIOUÀÈÌÒÙÁÉÍÓÚaeiouàèìòùáéíóú]..)	h-$1	2
 ([^t])-san$	$1san	1
