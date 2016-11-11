@@ -17873,6 +17873,8 @@ braaroilid bráithriúlachta
 braase bpráta
 braaseyn bprátaí
 braasyn bprátaí
+brabbag goradh
+brabbag gortha
 brabbanagh d'fhionnáin
 brabbanagh d'fhionnán
 brabbanagh fionnáin
@@ -43854,6 +43856,11 @@ dt'entreil d'iontrála
 dt'entreilaght d'inrochtaineacht
 dt'entreilaght d'inrochtaineachta
 dt'entreilyn d'iontrálacha
+dt'entreilys d'iontráil
+dt'entreilys d'iontrála
+dt'entreilys do rochtain
+dt'entreilys do rochtana
+dt'entreilysyn d'iontrálacha
 dt'eoghaig d'fhaocha
 dt'eoghaig d'fhaochan
 dt'eoghaigyn d'fhaochain
@@ -43936,6 +43943,8 @@ dt'er-reill d'uachtarán
 dt'er-reill do cheannaire
 dt'er-reill do sheanóir
 dt'er-reill do sheanóra
+dt'er-thammag do bhastaird
+dt'er-thammag do bhastard
 dt'er-toshee do cheannródaí
 dt'er-ynsee do mhúinteoir
 dt'er-ynsee do mhúinteora
@@ -44484,6 +44493,8 @@ dt'ir-reill d'uachtaráin
 dt'ir-reill d'uachtarán
 dt'ir-reill do cheannairí
 dt'ir-reill do sheanóirí
+dt'ir-thammag do bhastaird
+dt'ir-thammag do bhastard
 dt'ir-toshee do cheannródaithe
 dt'ir-vaghee d'áitritheoirí
 dt'ir-vooinjerey do dhaoir
@@ -44690,6 +44701,7 @@ dt'oaieys d'éithigh
 dt'oaieysyn d'éitheach
 dt'oaieysyn d'éithigh
 dt'oaighyn d'uaigheanna
+dt'oailuckaghyn d'adhlacthaí
 dt'oailuckey d'adhlacadh
 dt'oailuckey d'adhlactha
 dt'oain d'fhaiche
@@ -44762,6 +44774,7 @@ dt'oalysyn d'orthaí
 dt'oaner d'úinéara
 dt'oaner d'úinéir
 dt'oaneryn d'úinéirí
+dt'oanluckaghyn d'adhlacthaí
 dt'oanluckey d'adhlacadh
 dt'oanluckey d'adhlactha
 dt'oanluckeyr d'adhlacóir
@@ -49031,7 +49044,13 @@ entreilit iontráilte
 entreilmayd iontrálfaimid
 entreilym iontrálfaidh mé
 entreilyn iontrálacha
+entreilys bealach isteach
+entreilys iontráil
+entreilys iontrála
 entreilys iontrálfaidh
+entreilys rochtain
+entreilys rochtana
+entreilysyn iontrálacha
 enys fhiafróidh
 eoghaig fhaocha
 eoghaig fhaochan
@@ -49210,6 +49229,8 @@ er-son ar son
 er-sooyl ar siúl
 er-sooyl chun siúil
 er-sooyl imithe
+er-thammag bhastaird
+er-thammag bhastard
 er-toshee cheannródaí
 er-troailt i dtinneas clainne
 er-troggloo thraochta
@@ -51277,6 +51298,8 @@ fer-reill tseanóra
 fer-reill uachtaráin
 fer-reill uachtarán
 fer-seyr fear saor
+fer-thammag bastaird
+fer-thammag bastard
 fer-thie fear tí
 fer-toshee ceannródaí
 fer-towsee fear tomhais
@@ -51628,6 +51651,8 @@ fir-reill huachtarán
 fir-reill seanóirí
 fir-reill uachtaráin
 fir-reill uachtarán
+fir-thammag bastaird
+fir-thammag bastard
 fir-toshee ceannródaithe
 fir-vaghee háitritheoirí
 fir-vaghee áitritheoirí
@@ -75350,6 +75375,14 @@ hennskyl sheanascail
 hennskyl sheanascal
 hennskylyn sheanascail
 hennskylyn sheanascal
+henntag shornóg
+henntag shornóige
+henntag thinteog
+henntag thinteoige
+henntagyn shornóg
+henntagyn shornóga
+henntagyn thinteog
+henntagyn thinteoga
 hennym hainm
 hennym-boayl logainm
 hennym-chlaare hainmchláir
@@ -75412,6 +75445,11 @@ hentreilaght hinrochtaineacht
 hentreilaght hinrochtaineachta
 hentreilit hiontráilte
 hentreilyn hiontrálacha
+hentreilys hiontráil
+hentreilys hiontrála
+hentreilys rochtain
+hentreilys rochtana
+hentreilysyn hiontrálacha
 hentyn bhothanna
 hentyn phubaill
 hentyn phuball
@@ -77306,6 +77344,7 @@ hoailtee phiteog
 hoailtee phiteoga
 hoailuck hadhlaic
 hoailuck-jee hadhlacaigí
+hoailuckaghyn hadhlacthaí
 hoailuckey hadhlacadh
 hoailuckey hadhlactha
 hoailuckit hadhlactha
@@ -77371,6 +77410,7 @@ hoaner húinéir
 hoaneryn húinéirí
 hoanluck hadhlaic
 hoanluck-jee hadhlacaigí
+hoanluckaghyn hadhlacthaí
 hoanluckey hadhlacadh
 hoanluckey hadhlactha
 hoanluckeyr hadhlacóir
@@ -83724,6 +83764,8 @@ ir-reill cheannairí
 ir-reill sheanóirí
 ir-reill uachtaráin
 ir-reill uachtarán
+ir-thammag bhastaird
+ir-thammag bhastard
 ir-toshee cheannródaithe
 ir-vaghee áitritheoirí
 ir-vooinjerey dhaoir
@@ -85256,6 +85298,14 @@ jennid n-anachaine
 jennid n-anró
 jennidyn n-anachana
 jennoilys dtréine
+jenntag dtinteog
+jenntag dtinteoige
+jenntag sornóg
+jenntag sornóige
+jenntagyn dtinteog
+jenntagyn dtinteoga
+jenntagyn sornóg
+jenntagyn sornóga
 jenshyn ceadharlach
 jenshyn ceadharlaigh
 jent splaince
@@ -98477,6 +98527,11 @@ m'entreil m'iontrála
 m'entreilaght m'inrochtaineacht
 m'entreilaght m'inrochtaineachta
 m'entreilyn m'iontrálacha
+m'entreilys m'iontráil
+m'entreilys m'iontrála
+m'entreilys mo rochtain
+m'entreilys mo rochtana
+m'entreilysyn m'iontrálacha
 m'eoghaig m'fhaocha
 m'eoghaig m'fhaochan
 m'eoghaigyn m'fhaochain
@@ -98559,6 +98614,8 @@ m'er-reill m'uachtarán
 m'er-reill mo cheannaire
 m'er-reill mo sheanóir
 m'er-reill mo sheanóra
+m'er-thammag mo bhastaird
+m'er-thammag mo bhastard
 m'er-toshee mo cheannródaí
 m'er-ynsee mo mhúinteoir
 m'er-ynsee mo mhúinteora
@@ -99107,6 +99164,8 @@ m'ir-reill m'uachtaráin
 m'ir-reill m'uachtarán
 m'ir-reill mo cheannairí
 m'ir-reill mo sheanóirí
+m'ir-thammag mo bhastaird
+m'ir-thammag mo bhastard
 m'ir-toshee mo cheannródaithe
 m'ir-vaghee m'áitritheoirí
 m'ir-vooinjerey mo dhaoir
@@ -99313,6 +99372,7 @@ m'oaieys m'éithigh
 m'oaieysyn m'éitheach
 m'oaieysyn m'éithigh
 m'oaighyn m'uaigheanna
+m'oailuckaghyn m'adhlacthaí
 m'oailuckey m'adhlacadh
 m'oailuckey m'adhlactha
 m'oain m'fhaiche
@@ -99385,6 +99445,7 @@ m'oalysyn m'orthaí
 m'oaner m'úinéara
 m'oaner m'úinéir
 m'oaneryn m'úinéirí
+m'oanluckaghyn m'adhlacthaí
 m'oanluckey m'adhlacadh
 m'oanluckey m'adhlactha
 m'oanluckeyr m'adhlacóir
@@ -107319,6 +107380,8 @@ mraaraghyn ndeartháireacha
 mraarey ndearthár
 mraaroilid mbráithriúlacht
 mraaroilid mbráithriúlachta
+mrabbag ngoradh
+mrabbag ngortha
 mrabbanagh bhfionnáin
 mrabbanagh bhfionnán
 mracelet mbráisléad
@@ -113495,6 +113558,11 @@ nentreilmayd n-iontrálfaimid
 nentreilym iontrálfaidh mé
 nentreilym n-iontrálfaidh mé
 nentreilyn n-iontrálacha
+nentreilys n-iontráil
+nentreilys n-iontrála
+nentreilys rochtain
+nentreilys rochtana
+nentreilysyn n-iontrálacha
 neoin neoin
 neoin neon
 neose anuas
@@ -118811,6 +118879,7 @@ noailuck adhlacfaidh
 noailuck n-adhlacfaidh
 noailuckagh adhlacfadh
 noailuckagh n-adhlacfadh
+noailuckaghyn n-adhlacthaí
 noailuckey n-adhlacadh
 noailuckey n-adhlactha
 noailuckin adhlacfainn
@@ -118894,6 +118963,7 @@ noanluck adhlacfaidh
 noanluck n-adhlacfaidh
 noanluckagh adhlacfadh
 noanluckagh n-adhlacfadh
+noanluckaghyn n-adhlacthaí
 noanluckey n-adhlacadh
 noanluckey n-adhlactha
 noanluckeyr n-adhlacóir
@@ -122204,6 +122274,7 @@ oailuck n-adhlaic
 oailuck-jee adhlacaigí
 oailuck-jee n-adhlacaigí
 oailuckagh d'adhlacfadh
+oailuckaghyn adhlacthaí
 oailuckee adhlacfaidh
 oailuckey adhlacadh
 oailuckey adhlactha
@@ -122327,6 +122398,7 @@ oanluck n-adhlaic
 oanluck-jee adhlacaigí
 oanluck-jee n-adhlacaigí
 oanluckagh d'adhlacfadh
+oanluckaghyn adhlacthaí
 oanluckee adhlacfaidh
 oanluckey adhlacadh
 oanluckey adhlactha
@@ -157383,6 +157455,8 @@ ver-reill n-uachtaráin
 ver-reill n-uachtarán
 ver-reill seanóir
 ver-reill seanóra
+ver-thammag mbastaird
+ver-thammag mbastard
 ver-toshee gceannródaí
 ver-ynsee múinteoir
 ver-ynsee múinteora
@@ -158314,6 +158388,8 @@ vir-reill gceannairí
 vir-reill n-uachtaráin
 vir-reill n-uachtarán
 vir-reill seanóirí
+vir-thammag mbastaird
+vir-thammag mbastard
 vir-toshee gceannródaithe
 vir-vaghee n-áitritheoirí
 vir-vooinjerey ndaoir
@@ -161230,6 +161306,8 @@ vraaroilid bhráithriúlachta
 vraaue leid
 vraaue leide
 vraaueyn leideanna
+vrabbag ghoradh
+vrabbag ghortha
 vrabbanagh fhionnáin
 vrabbanagh fhionnán
 vracelet bhráisléad
@@ -169327,6 +169405,15 @@ zh zh
 çhennoilys tréine
 çhennskyl seanascal
 çhennskyl tseanascail
+çhenntag sornóg
+çhenntag sornóige
+çhenntag tinteog
+çhenntag tinteoige
+çhenntag tsornóg
+çhenntagyn sornóg
+çhenntagyn sornóga
+çhenntagyn tinteog
+çhenntagyn tinteoga
 çhent splaince
 çhent splanc
 çhent-jee splancaigí
