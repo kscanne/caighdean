@@ -101,6 +101,7 @@ sd	st	1
 Ó	Ò	1
 Ú	Ù	1
 # don't do this with initial h- n- t- etc.; see cap rules above
+# (also a potential infinite loop b/c of ts->t-s rule above)
 (..)-	$1	1
 #######################################################
 # ansin iarracht ar fhocal sa sprioctheanga a aimsiú...
@@ -134,9 +135,13 @@ iche$	í	1
 eil$	iúil	1
 # gineadair->gineadóir, glacadair->glacadóir, leantair->leantóir
 air$	óir	1
-^co-	comh	1
-^deagh-	dea-	1
-^mì-	mí-	1
+# not ^àrd => ard since we go in opposite direction above
+# similarly, don't bother with làn-, mì-, mòr-, prìomh-, etc. here
+^(ch?)o-	$1omh	1
+^(dh?)eagh-	$1ea-	1
+^eadar-	idir	1
+^leth-	leath	1
+#^(mh?)ì-	$1í-	1
 ^neo-	neamh-	1
 ^ro-mh	réamh-mh	1
 ^ro-([^m])	réamh$1	1
@@ -150,4 +155,3 @@ air$	óir	1
 #Ì	Í	1
 #Ò	Ó	1
 #Ù	Ú	1
-# strip hyphens (but not after 1st letter else infinite loop (ts->t-s above)
