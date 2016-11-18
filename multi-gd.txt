@@ -7,6 +7,7 @@
 'ad_ionnsaigh-sa chugatsa
 'ad_ionnsuidh chugat
 'ad_ionnsuidh-sa chugatsa
+'ad_ionnsuidh-se chugatsa
 'ad_ionnsuigh chugat
 'ad_ionnsuigh-sa chugatsa
 'am_aghaidh i m'aghaidh
@@ -20,6 +21,7 @@
 'am_ionnsuidh-sa chugamsa
 'am_ionnsuigh chugam
 'am_ionnsuigh-sa chugamsa
+'at_ionnsuidh-sa chugatsa
 'g_a á
 'ga_ionnsaidh chuige
 'ga_ionnsaigh chuige
@@ -109,6 +111,8 @@
 'nad_chomain_airson faoi chomaoin agat as
 'nad_dhèidh i do dhiaidh
 'nad_dhéidh i do dhiaidh
+'nad_ionnsuidh chugat
+'nad_ionnsuidh-sa chugatsa
 'nam_aghaidh i m'aghaidh
 'nam_aonar i m'aonar
 'nam_bhalach i mo bhuachaill
@@ -411,16 +415,22 @@ San_Fran_Siosgo San Francisco
 Santa_Fe Santa Fe
 Sante_Fe Sante Fe
 Saudi_Arabia an Araib Shádach
+Sealain_Nuadh Nua-Shéalainne
 Sealainn_Nuadh Nua-Shéalainn
 Sealainn_Nuadh Nua-Shéalainne
+Sealan_Nuadh Nua-Shéalainn
+Sealann_Nuadh Nua-Shéalainn
 Seann_Lochlannais Sean-Lochlainnis
 Seann_Lochlannais Sean-Lochlainnise
 Seann_Tiomnadh Sean-Tiomna
 Sgioba_Olympic Foireann Oilimpeach
 Shabhal_Mor_Ostaig Shabhal Mòr Ostaig
 Shabhal_Mòr_Ostaig Shabhal Mòr Ostaig
+Shealain_Nuadh Nua-Shéalainne
 Shealainn_Nuadh Nua-Shéalainn
 Shealainn_Nuadh Nua-Shéalainne
+Shealan_Nuadh Nua-Shéalainn
+Shealann_Nuadh Nua-Shéalainn
 Sheann_Lochlannais Shean-Lochlainnis
 Sheann_Lochlannais Shean-Lochlainnise
 Shinn_Féin Shinn Féin
@@ -504,6 +514,7 @@ a'_falach i bhfolach
 a'_farpais ag coimhlint
 a'_feuchainn_ri ag iarraidh
 a'_feuchainn_ris ag iarraidh
+a'_fosgladh ag oscailt
 a'_fuireach ag fanacht
 a'_fuireach ina chónaí
 a'_fàs ag fás
@@ -527,6 +538,8 @@ a'_seo anseo
 a'_steach isteach
 a'_tadhal ag tabhairt cuairte
 a'_tuigsinn ag tuiscint
+a'd_ionnsuidh chugat
+a'd_ionnsuidh-sa chugatsa
 a'dèanamh_fiùghair ag súil
 a'feuchainn_ri ag iarraidh
 a'feuchainn_ris ag iarraidh
@@ -4751,6 +4764,7 @@ a_dh'fhuaime d'fhuaime
 a_dh'fhuaimealais d'fhuaimfhoclaíochta
 a_dh'fhuaimealas d'fhuaimfhoclaíocht
 a_dh'fhuaimean d'fhuaimeanna
+a_dh'fhuaimeannan d'fhuaimeanna
 a_dh'fhuaimneachadh d'fhuaimniú
 a_dh'fhuaimneachaidh d'fhuaimnithe
 a_dh'fhuaimnean d'fhuaimeanna
@@ -8052,6 +8066,7 @@ a_luaidh a stór
 a_m'_eudail a chroí
 a_m'_eudail a stóirín
 a_m'_eudail a thaisce
+a_m'ionnsuidh-sa chugamsa
 a_mach amach
 a_measg i measc
 a_mhain amháin
@@ -8728,6 +8743,7 @@ air_ar_beulaibh os ár gcomhair
 air_ar_dèanamh déanta
 air_ar_dòigh sona sásta
 air_ar_dòigh_glan ar mhuin na muice
+air_ar_tilgeadh caite
 air_ath-leasachadh ar leasú
 air_atharrachadh athraithe
 air_atharrachadh tar éis athrú
@@ -8771,6 +8787,13 @@ air_chor's ionas
 air_chor's sa chaoi
 air_chor_'s ionas
 air_chor_'s sa chaoi
+air_chor_agus ar choinníoll
+air_chor_air_bith ar chor ar bith
+air_chor_as ar choinníoll
+air_chor_gam ar choinníoll go
+air_chor_gun ar choinníoll go
+air_chor_is ar choinníoll
+air_chor_sam_bith ar chor ar bith
 air_choreigin éigin
 air_chumha ar chuntar
 air_chuthach ar buile
@@ -9039,6 +9062,10 @@ airson_a_bhith_beò chun maireachtáil
 airson_a_dhol ag iarraidh dul
 airson_a_dhol chun dul
 airson_an_uair_mu_dheireadh den uair dheireanach
+airson_atharrachadh ag iarraidh athrú
+airson_atharrachadh chun athrú
+airson_beachdachadh ag iarraidh smaoineamh
+airson_beachdachadh chun smaoineamh
 airson_beagan_laithean ar feadh cúpla lá
 airson_beagan_là ar feadh cúpla lá
 airson_beagan_làithean ar feadh cúpla lá
@@ -9153,10 +9180,13 @@ airson_innse chun insint
 airson_iomadh_bliadhna ar feadh iomaí bliain
 airson_ionnsachadh ag iarraidh foghlaim
 airson_ionnsachadh chun foghlaim
+airson_ithe ag iarraidh ithe
+airson_ithe chun ithe
 airson_laithean ar feadh laethanta
 airson_latha ar feadh lae
 airson_leantainn ag iarraidh leanúint
 airson_leantainn chun leanúint
+airson_leudachadh chun leathnú
 airson_leughadh ag iarraidh léamh
 airson_leughadh chun léamh
 airson_là ar feadh lae
@@ -9174,6 +9204,10 @@ airson_nach_do_dh' chun nár
 airson_nach_do_dh' toisc nár
 airson_nach_do_rinn chun nach ndearna
 airson_nach_do_rinn toisc nach ndearna
+airson_obrachadh ag iarraidh oibriú
+airson_obrachadh chun oibriú
+airson_sabaid ag iarraidh troid
+airson_sabaid chun troid
 airson_seachd_bliadhna ar feadh seacht mbliana
 airson_seachdain ar feadh seachtaine
 airson_seachdainn ar feadh seachtaine
@@ -9182,6 +9216,8 @@ airson_sealltainn chun taispeáint
 airson_sgrìobhadh ag iarraidh scríobh
 airson_sgrìobhadh chun scríobh
 airson_sgrìobhadh le haghaidh scríobh
+airson_sgrùdadh ag iarraidh scrúdú
+airson_sgrùdadh chun scrúdú
 airson_sia_bliadhna ar feadh sé bliana
 airson_sia_latha ar feadh sé lá
 airson_sia_miosan ar feadh sé mhí
@@ -9392,7 +9428,11 @@ am_fianais i bhfianaise
 am_fogas i bhfogas
 am_follais go follasach
 am_follais go soiléir
+am_gu_am am go ham
+am_ionnsaidh chugam
+am_ionnsaigh chugam
 am_ionnsaigh-sa chugamsa
+am_ionnsuidh chugam
 am_meadhan i lár
 am_measg i measc
 am_miosad in olcas
@@ -18173,6 +18213,8 @@ co-chorpaicheadh_iad gcorpróidís
 co-chorpaicheadh_tu gcorprófá
 co-chorpaichidh_sinn corpróimid
 co-chorpaichidh_sinn gcorpróimid
+co-chothromach_chuairteil siméadracht rothlach
+co-chothromachd_chuairteil siméadracht rothlach
 co-chruinnicheadh_iad comhchruinnídís
 co-chruinnicheadh_iad gcomhchruinneoidís
 co-chruinnicheadh_iad gcomhchruinnídís
@@ -19336,6 +19378,7 @@ d'_rinn_sinn dhearnamar
 d'_rinn_sinn ndearnamar
 d'_ur_n-ionnsuidh chugaibh
 d'_ur_n-ionnsuidh-ne chugaibhse
+d'a_h-ionnsuidh chuici
 d'a_ionnsaidh chuige
 d'a_ionnsaidh-san chuigesean
 d'a_ionnsaigh chuige
@@ -19344,6 +19387,7 @@ d'a_ionnsuidh chuige
 d'a_ionnsuidh-san chuigesean
 d'a_ionnsuigh chuige
 d'a_ionnsuigh-san chuigesean
+d'am_ionnsuidh chugam
 d'an_goirear ar a dtugtar
 d'an_ionnsaidh chucu
 d'an_ionnsaidh-san chucusan
@@ -19363,11 +19407,17 @@ d'rinn_iad dhearnadar
 d'rinn_iad ndearnadar
 d'rinn_sinn dhearnamar
 d'rinn_sinn ndearnamar
+d'ur_ionnsuidh chugaibh
 d'ur_n-ionnsuidh chugaibh
 d'ur_n-ionnsuidh-ne chugaibhse
 d'èisg_geal d'fhaoitín
 d'èisg_geal d'fhaoitíní
+da_'n_ionnsaidh chucu
+da_'n_ionnsaidh-san chucusan
+da_'n_ionnsuidh-san chucusan
 da_a dá
+da_h-ionnsuidh chuici
+da_ionnsuidh chuige
 da_reir dá réir sin
 da_rireabh dáiríre
 da_rireamh dáiríre
@@ -23673,6 +23723,7 @@ de_dh'fhuaime d'fhuaime
 de_dh'fhuaimealais d'fhuaimfhoclaíochta
 de_dh'fhuaimealas d'fhuaimfhoclaíocht
 de_dh'fhuaimean d'fhuaimeanna
+de_dh'fhuaimeannan d'fhuaimeanna
 de_dh'fhuaimneachadh d'fhuaimniú
 de_dh'fhuaimneachaidh d'fhuaimnithe
 de_dh'fhuaimnean d'fhuaimeanna
@@ -30454,6 +30505,7 @@ dh'ùraicheadh_tu n-athnuafá
 dh'ùraicheadh_tu nuashonrófá
 dha_a dá
 dha_ar dár
+dha_ionnsuidh chuige
 dha_reir dá réir sin
 dha_rireabh dáiríre
 dha_rireamh dáiríre
@@ -30486,10 +30538,13 @@ dhalladh_iad dhallaidís
 dhalladh_iad dhallfaidís
 dhalladh_tu dhallfá
 dhallaidh_sinn dhallfaimid
+dham_ionnsaidh chugam
+dham_ionnsaigh chugam
 dhan_Comann_Iosaid do Chumann Íosa
 dhan_a' don
 dhan_am don
 dhan_an don
+dhan_ionnsaidh don ionsaí
 dhan_t-Sultain de Mheán Fómhair
 dhan_t-Sultainn de Mheán Fómhair
 dhanns_iad dhamhsaíodar
@@ -31665,6 +31720,10 @@ dlùthaicheadh_iad ndlúthóidís
 dlùthaicheadh_tu ndlúthófá
 dlùthaichidh_sinn dlúthóimid
 dlùthaichidh_sinn ndlúthóimid
+do_'n_ionnsaidh-san chucusan
+do_'n_ionnsuidh chucu
+do_'n_ionnsuidh-san chucusan
+do_'ur_ionnsuidh chugaibh
 do_'ur_n-ionnsuidh chugaibh
 do_'ur_n-ionnsuidh-se chugaibhse
 do_Afganastan don Afganastáin
@@ -35918,6 +35977,7 @@ do_dh'fhuaime d'fhuaime
 do_dh'fhuaimealais d'fhuaimfhoclaíochta
 do_dh'fhuaimealas d'fhuaimfhoclaíocht
 do_dh'fhuaimean d'fhuaimeanna
+do_dh'fhuaimeannan d'fhuaimeanna
 do_dh'fhuaimneachadh d'fhuaimniú
 do_dh'fhuaimneachaidh d'fhuaimnithe
 do_dh'fhuaimnean d'fhuaimeanna
@@ -39239,6 +39299,8 @@ don_Phartaidh_Làborach do Pháirtí an Lucht Oibre
 don_a' don
 don_am don
 don_an don
+don_ionnsaidh chucu
+don_ionnsaidh-san chucusan
 don_phartaidh_Làbarach do Pháirtí an Lucht Oibre
 don_phartaidh_Làborach do Pháirtí an Lucht Oibre
 dortadh_iad doirtidís
@@ -41427,6 +41489,7 @@ fùcadh_tu n-úcfá
 fùcaidh_sinn n-úcfaimid
 fùcaidh_sinn úcfaimid
 g'_eil go bhfuil
+g'a_ionnsuidh chuige
 g'e_brith is cuma
 ga_brith is cuma
 ga_chuir á chur
@@ -41488,6 +41551,7 @@ gabhail_pàirt glacadh páirte
 gach_duine gach duine
 gach_neach_di-beathte fáilte roimh chách
 gach_neach_làn_di-beathte fáilte roimh chách
+gad_ionnsuidh chugat
 gaileadh_iad goilidís
 gaileadh_iad ngoilfidís
 gaileadh_iad ngoilidís
@@ -41517,22 +41581,39 @@ galar_neasgaideach eachma
 galar_neasgaideach heachma
 galar_neasgaideach m'eachma
 galar_neasgaideach n-eachma
+gam_aithneachadh do m'aithint
 gam_chluinntinn do mo chloisteáil
 gam_chreidsinn do mo chreidiúint
 gam_chuir do mo chur
 gam_chuir_drol do mo chur le báiní
 gam_chumail do mo choinneáil
 gam_chur do mo chur
+gam_cuideachadh cabhrú liom
+gam_cuideachadh do mo chuidiú
 gam_dhèanamh do mo dhéanamh
 gam_dhùsgadh do mo dhúiseacht
 gam_dhùsgadh do mo mhúscailt
 gam_fhaicinn do m'fheiceáil
 gam_fhàgail do m'fhágáil
+gam_fhàilteachadh do m'fháiltiú
 gam_ghabhail do mo ghabháil
 gam_ghabhail do mo ghlacadh
 gam_ghairm do mo ghairm
+gam_iarraidh do m'iarraidh
+gam_iarraidh-sa do m'iarraidhse
+gam_ionndrainn do mo chronú
+gam_ionnsaidh chugam
+gam_ionnsaigh chugam
+gam_ionnsuidh chugam
+gam_leantainn do mo leanúint
+gam_lorg do mo lorg
+gam_mharbhadh do mo mharú
+gam_riochdachadh do m'ionadú
 gam_shireadh do mo lorg
+gam_stiùireadh do mo stiúradh
 gam_tharraing do mo tharraingt
+gam_thathaich do mo thaibhsiú
+gam_thathaich do mo thaithí
 gam_theagasg do mo mhúineadh
 gam_theagasg do mo theagasc
 gam_thoirt do mo thabhairt
@@ -41549,6 +41630,8 @@ gan_dèanamh á ndéanamh
 gan_dìon á gcosaint
 gan_glacadh á nglacadh
 gan_iarraidh á n-iarraidh
+gan_ionnsaidh chucu
+gan_ionnsuidh chucu
 gan_leasachadh á bhforbairt
 gan_reic á ndíol
 gan_stiùireadh á mbainistiú
@@ -41701,6 +41784,7 @@ geimhlicheadh_iad ngeimhlídís
 geimhlicheadh_tu ngeimhleofá
 geimhlichidh_sinn geimhleoimid
 geimhlichidh_sinn ngeimhleoimid
+get_tà áfach
 geumadh_iad géimidís
 geumadh_iad ngéimfidís
 geumadh_iad ngéimidís
@@ -42862,6 +42946,7 @@ grìosaichidh_sinn gríosóimid
 grìosaichidh_sinn impeoimid
 grìosaichidh_sinn n-impeoimid
 grìosaichidh_sinn ngríosóimid
+gu'm_ionnsuidh chugam
 gu'n_d'thàinig gur tháinig
 gu-n_do gur
 gu_Afganastan go dtí an Afganastáin
@@ -43100,6 +43185,7 @@ gum_b'_urrainn_dhuibh gurbh fhéidir leat
 gum_b'_urrainn_dhuibh gurbh fhéidir libh
 gum_b'_urrainn_dhuinn gurbh fhéidir linn
 gum_b'_urrainn_dhut gurbh fhéidir leat
+gum_b'ann gur
 gum_b'e gurbh é
 gum_b'esan gurbh eisean
 gum_b'i gurbh í
@@ -43918,6 +44004,9 @@ lathaidh_sinn bpréachfaimid
 lathaidh_sinn phréachfaimid
 lathaidh_sinn préachfaimid
 le_'m_fuathach ar fuath leo
+le_'n lena
+le_'n_cuid lena gcuid
+le_'n_uile le hiomlán a
 le_Afganastan leis an Afganastáin
 le_Afghanistan leis an Afganastáin
 le_Afraca leis an Afraic
@@ -47807,6 +47896,7 @@ mo_fhuaime m'fhuaime
 mo_fhuaimealais m'fhuaimfhoclaíochta
 mo_fhuaimealas m'fhuaimfhoclaíocht
 mo_fhuaimean m'fhuaimeanna
+mo_fhuaimeannan m'fhuaimeanna
 mo_fhuaimneachadh m'fhuaimniú
 mo_fhuaimneachaidh m'fhuaimnithe
 mo_fhuaimnean m'fhuaimeanna
@@ -49764,6 +49854,7 @@ mun_is faoinarb
 mur_a mura
 mur_a_rinn mura ndearna
 mur_deidhinn fúibh
+mura_b'e murab é
 murtadh_iad dúnmharaídís
 murtadh_iad ndúnmharaídís
 murtadh_iad ndúnmharóidís
@@ -50182,6 +50273,7 @@ nam_fògarraich na dteifeach
 nam_fògarraich na ndeoraithe
 nam_ghàirdeanan i mo lámha
 nam_inntinn i m'intinn
+nam_ionnsaigh chugam
 nam_leabaidh i mo leaba
 nam_làimh i mo lámh
 nam_làmhan i mo lámha
@@ -56582,6 +56674,8 @@ sùisteadh_tu súisteálfá
 sùistidh_sinn súisteálfaimid
 sùrdagan_breac léimneoir breacbhallach
 t-Sealainn_Nuadh Nua-Shéalainn
+t-Sealan_Nuadh Nua-Shéalainn
+t-Sealann_Nuadh Nua-Shéalainn
 t-Seann_Tiomnadh Sean-Tiomna
 t-Seann_Tiomnadh tSean-Tiomna
 t-an_sac t-asma
