@@ -489,6 +489,7 @@ a'_Phàrtaidh_Làbarach Páirtí an Lucht Oibre
 a'_Phàrtaidh_Làborach Páirtí an Lucht Oibre
 a'_Swastika an Svaistice
 a'_Swastika na Svaistice
+a'_bhon-uiridh arú anuraidh
 a'_bhos abhus
 a'_bhèan-uiridh arú anuraidh
 a'_bhòn-dè arú inné
@@ -613,6 +614,7 @@ a_bharrachd_ort sa mhullach ort
 a_bheil an bhfuil
 a_bhi a bheith
 a_bhiod a bheadh
+a_bhon-uiridh arú anuraidh
 a_bhos abhus
 a_bhàn aníos
 a_bhàn síos
@@ -8651,6 +8653,7 @@ air_an_aithneachadh aitheanta
 air_an_allaban ar seachrán
 air_an_aon_reir ar aon chéim
 air_an_aon_rèir ar aon chéim
+air_an_ath_dheireadh-sheachdain an deireadh seachtaine seo chugainn
 air_an_ath_mhios an mhí seo chugainn
 air_an_ath_mhìos an mhí seo chugainn
 air_an_atharrachadh ar an athrú
@@ -8862,6 +8865,7 @@ air_chall caillte
 air_chluainidh ar pinsean
 air_choiregin éigin
 air_choireigin éigin
+air_choireiginn éigin
 air_chois ar bun
 air_chois ar cois
 air_chois ar siúl
@@ -8988,6 +8992,8 @@ air_ithe tar éis ithe
 air_leasachadh ar fhorbairt
 air_leith ar leith
 air_leth ar leith
+air_leth_phris ar leathphraghas
+air_leth_phrìs ar leathphraghas
 air_leughadh tar éis léamh
 air_loidhne ar líne
 air_lorg ag lorg
@@ -9699,6 +9705,7 @@ an_ath_Dhisathairne an Satharn dár gcionn
 an_ath_bhliadhna an chéad bhliain eile
 an_ath_cheum an chéad chéim eile
 an_ath_choinneamh an chéad chruinniú eile
+an_ath_dheireadh-sheachdain an deireadh seachtaine seo chugainn
 an_ath_dhoras bhéal dorais
 an_ath_dhoras béal dorais
 an_ath_earrann an chéad chuid eile
@@ -10101,6 +10108,7 @@ ann_an_Asarbaidean san Asarbaiseáin
 ann_an_Astrailia san Astráil
 ann_an_Astralàisia san Astraláise
 ann_an_Astràilia san Astráil
+ann_an_Astràilia-a-Deas san Astráil Theas
 ann_an_Australia san Astráil
 ann_an_Cambodia sa Chambóid
 ann_an_Cambuidea sa Chambóid
@@ -12659,6 +12667,7 @@ bu_bheulaobh b'aghaidh
 bu_bheusalachd b'eitic
 bu_bheò-chreutair b'ainmhí
 bu_bheò-chreutairean b'ainmhithe
+bu_bheò-iarraidh b'ardmhian
 bu_bhialaobh b'aghaidh
 bu_bhiastag b'fheithid
 bu_bhiastagan b'fheithidí
@@ -12978,6 +12987,8 @@ bu_chosnaiche b'fhostaí
 bu_chosnaichean b'fhostaithe
 bu_chothrom-obrach b'fholúntas
 bu_chothroman-obrach b'fholúntais
+bu_chrainn-ola b'ológa
+bu_chrann-ola b'ológ
 bu_chrasgach b'fhiarthrasna
 bu_chrasgaiche b'fhiarthrasna
 bu_chreag b'aill
@@ -16131,6 +16142,8 @@ cha_b'_fhiach níorbh fhiú
 cha_b'_i níorbh í
 cha_b'_iad níorbh iad
 cha_b'_iadsan níorbh iadsan
+cha_b'_ionann níorbh ionann
+cha_b'_ionnan níorbh ionann
 cha_b'_ise níorbh ise
 cha_b'_urrainn níorbh fhéidir
 cha_b'_urrainn_dha níorbh fhéidir leis
@@ -16148,6 +16161,8 @@ cha_b'fhiach níorbh fhiú
 cha_b'i níorbh í
 cha_b'iad níorbh iad
 cha_b'iadsan níorbh iadsan
+cha_b'ionann níorbh ionann
+cha_b'ionnan níorbh ionann
 cha_b'ise níorbh ise
 cha_b'urrainn níorbh fhéidir
 cha_b'urrainn_dha níorbh fhéidir leis
@@ -16369,6 +16384,7 @@ champaicheadh_tu champálfá
 champaichidh_sinn champálfaimid
 chan_ann ní
 chan_e ní
+chan_eH níl
 chan_e_a' ní hé an
 chan_e_am ní hé an
 chan_e_an ní hé an
@@ -19690,6 +19706,7 @@ de_Croatia den Chróit
 de_Croàisia den Chróit
 de_Cròthais den Chróit
 de_Cìorgastan den Chirgeastáin
+de_Dhamascus den Damaisc
 de_Eastoinia den Eastóin
 de_Eastòinia den Eastóin
 de_Estòinia den Eastóin
@@ -27328,6 +27345,7 @@ deagh_cothrom deis iontach
 deagh_dhachaigh baile deas
 deagh_dhealbh pictiúr maith
 deagh_dheasbad díospóireacht mhaith
+deagh_dheireadh-sheachdain deireadh seachtaine maith
 deagh_dhileag mún maith
 deagh_dhreach cuma bhreá
 deagh_dhuine dea-dhuine
@@ -27576,6 +27594,7 @@ deanadh_tu ndéanfá
 deanaidh_sinn déanfaimid
 deanaidh_sinn ndéanfaimid
 deanamh_deiseil_airson déanamh réidh do
+deanamh_fiughar súil
 deann_ruith ráib
 dearbh_latha lá céanna
 dearbh_mhòmaid nóiméad
@@ -27728,6 +27747,7 @@ deàlraicheadh_tu ndealrófá
 deàlraichidh_sinn dealróimid
 deàlraichidh_sinn lonróimid
 deàlraichidh_sinn ndealróimid
+deànamh_fiughar súil
 deàrrsadh_iad dealraídís
 deàrrsadh_iad lonraídís
 deàrrsadh_iad lonróidís
@@ -32001,6 +32021,7 @@ do_Croatia don Chróit
 do_Croàisia don Chróit
 do_Cròthais don Chróit
 do_Cìorgastan don Chirgeastáin
+do_Dhamascus go dtí an Damaisc
 do_Eastoinia don Eastóin
 do_Eastòinia don Eastóin
 do_Estòinia don Eastóin
@@ -32105,6 +32126,10 @@ do_ar dár
 do_bhrìgh de bhrí
 do_bhur_n-ionnsuidh chugaibh
 do_chàch don chuid eile
+do_d'_athair do d'athair
+do_d'_mhàthair do do mháthair
+do_d'athair do d'athair
+do_d'mhàthair do do mháthair
 do_dh'Abchais d'Abcáise
 do_dh'Abchas d'Abcáis
 do_dh'Abchasach d'Abcásach
@@ -39548,6 +39573,8 @@ do_rinneadh dhearnadh
 do_rinneadh ndearnadh
 do_rèir dá réir sin
 do_réir dá réir sin
+do_t'_athair do d'athair
+do_t'athair do d'athair
 do_Àstralia don Astráil
 docha_le fearr le
 docha_le_a fearr lena
@@ -39934,6 +39961,7 @@ dèanadh_iad ndéanfaidís
 dèanadh_tu ndéanfá
 dèanamh_deiseil_airson déanamh réidh do
 dèanamh_fiughair ag súil
+dèanamh_fiughar súil
 dèiligeadh_iad déileálaidís
 dèiligeadh_iad ndéileálaidís
 dèiligeadh_iad ndéileálfaidís
@@ -46750,6 +46778,8 @@ mo_bheusalachd m'eitic
 mo_bheusalachd m'eitice
 mo_bheò-chreutair m'ainmhí
 mo_bheò-chreutairean m'ainmhithe
+mo_bheò-iarraidh m'ardmhian
+mo_bheò-iarraidh m'ardmhéine
 mo_bhialaobh m'aghaidh
 mo_bhialaobh m'aghaidhe
 mo_bhiastag m'fheithid
@@ -47121,6 +47151,9 @@ mo_chothroim-obrach m'fholúntais
 mo_chothrom-obrach m'fholúntas
 mo_chothroman-obrach m'fholúntais
 mo_chothroman-obrach m'fholúntas
+mo_chrainn-ola m'ológa
+mo_chrainn-ola m'olóige
+mo_chrann-ola m'ológ
 mo_chreag m'aill
 mo_chreagan m'aillte
 mo_chreanach m'fhulangaí
@@ -50457,6 +50490,8 @@ nach_b'_e nárbh é
 nach_b'_i nárbh í
 nach_b'_iad nárbh iad
 nach_b'_iadsan nárbh iadsan
+nach_b'_ionann nárbh ionann
+nach_b'_ionnan nárbh ionann
 nach_b'_ise nárbh ise
 nach_b'_urrainn níorbh fhéidir
 nach_b'_urrainn_dha níorbh fhéidir leis
@@ -50471,6 +50506,8 @@ nach_b'e nárbh é
 nach_b'i nárbh í
 nach_b'iad nárbh iad
 nach_b'iadsan nárbh iadsan
+nach_b'ionann nárbh ionann
+nach_b'ionnan nárbh ionann
 nach_b'ise nárbh ise
 nach_b'urrainn níorbh fhéidir
 nach_b'urrainn_dha níorbh fhéidir leis
@@ -51234,6 +51271,7 @@ o_Croatia ón Chróit
 o_Croàisia ón Chróit
 o_Cròthais ón Chróit
 o_Cìorgastan ón Chirgeastáin
+o_Dhamascus ón Damaisc
 o_Eastoinia ón Eastóin
 o_Eastòinia ón Eastóin
 o_Estòinia ón Eastóin
@@ -56018,6 +56056,7 @@ sleuchdadh_iad sléachtaidís
 sleuchdadh_iad sléachtfaidís
 sleuchdadh_tu sléachtfá
 sleuchdaidh_sinn sléachtfaimid
+sliabh_nan_crann-ola cnoc na n-ológ
 slisnicheadh_iad gearraidís
 slisnicheadh_iad ngearraidís
 slisnicheadh_iad ngearrfaidís
@@ -57541,11 +57580,36 @@ taomadh_iad taomaidís
 taomadh_tu dtaomfá
 taomaidh_sinn dtaomfaimid
 taomaidh_sinn taomfaimid
+tapa_leat go raibh maith agat
+tapa_leat-sa go raibh maith agatsa
+tapa_leat-sa_airson go raibh maith agatsa as
+tapa_leat_airson go raibh maith agat as
+tapa_leat_son go raibh maith agat as
+tapa_leats' go raibh maith agatsa
+tapa_leats'_airson go raibh maith agatsa as
+tapa_leatsa go raibh maith agatsa
+tapa_leatsa_airson go raibh maith agatsa as
+tapa_leibh go raibh maith agaibh
+tapa_leibh go raibh maith agat
+tapa_leibh_airson go raibh maith agaibh as
+tapa_leibh_airson go raibh maith agat as
+tapa_leibh_son go raibh maith agaibh as
+tapa_leibh_son go raibh maith agat as
+tapa_leibhse go raibh maith agaibhse
+tapa_leibhse go raibh maith agatsa
+tapa_leibhse_airson go raibh maith agaibhse as
+tapa_leibhse_airson go raibh maith agatsa as
+tapa_libh go raibh maith agaibh
+tapa_libh go raibh maith agat
+tapa_libh_airson go raibh maith agaibh as
+tapa_libh_airson go raibh maith agat as
 tapadh_leat go raibh maith agat
 tapadh_leat-sa go raibh maith agatsa
 tapadh_leat-sa_airson go raibh maith agatsa as
 tapadh_leat_airson go raibh maith agat as
 tapadh_leat_son go raibh maith agat as
+tapadh_leats' go raibh maith agatsa
+tapadh_leats'_airson go raibh maith agatsa as
 tapadh_leatsa go raibh maith agatsa
 tapadh_leatsa_airson go raibh maith agatsa as
 tapadh_leibh go raibh maith agaibh
