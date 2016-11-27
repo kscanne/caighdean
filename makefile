@@ -248,7 +248,7 @@ pairs-gv.txt-refresh: FORCE
 # run groom to rebuild caighdean.txt if necessary
 clean.txt-refresh: FORCE
 	rm -f clean.txt
-	cat $(GAELSPELL)/caighdean.txt $(GAELSPELL)/uimhreacha | sort -u > clean.txt
+	cp -f $(GAELSPELL)/caighdean.txt clean.txt
 	chmod 444 clean.txt
 
 rules.txt-refresh: $(GRAMADOIR)/morph-ga.txt
