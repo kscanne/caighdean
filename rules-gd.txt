@@ -108,6 +108,9 @@ sd	st	1
 # ansin iarracht ar fhocal sa sprioctheanga a aimsiú...
 #######################################################
 ^([0-9]+0)e?an$	$1í	1
+^([1-9][0-9]*)a?mh$	$1ú	1
+^t-([1-9][0-9]*)a?mh$	$1ú	1
+^0([0-9])mh$	$1ú	1
 # creuchd->créacht, deug->déag, sgeul->scéal
 eu	éa	1
 # ceòl->ceol, beò->beo, beòir->beoir, eòlas->eolas
