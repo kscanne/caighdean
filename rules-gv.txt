@@ -112,5 +112,7 @@ ssyn$	syn	1
 # ansin iarracht ar fhocal sa sprioctheanga a aimsiú...
 # turas góidrisc den chuid is mó! 
 #######################################################
+^([0-9]+0)yn$	$1í	1
+^([1-9][0-9]*)oo$	$1ú	1
 agh$	ach	1
 aghd$	acht	1
