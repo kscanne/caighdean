@@ -308,6 +308,9 @@ Dùthaich_nan_Tàidh an Téalainn
 Eabhraig_Nuadh Nua-Eabhrac
 Eadar_lìon Idirlíon
 Eag_Sgoiltean éiceascoileanna
+Ear_Chèin Chianoirthir
+Ear_Chèin Cianoirthear
+Ear_Chèin gCianoirthear
 Ear_Thuath Oirthuaisceart
 Ear_Thuath Thoir Thuaidh
 Earra_Ghaidheal Earra-Ghàidheal
@@ -699,7 +702,9 @@ a_dh'Aibisinianaich d'Aibisínigh
 a_dh'Aidmheint d'Aidbhint
 a_dh'Aidmheint d'Aidbhinte
 a_dh'Aifreann d'Aifreann
+a_dh'Aifreannan d'Aifrinn
 a_dh'Aifrinn d'Aifrinn
+a_dh'Aifrinne d'Aifrinn
 a_dh'Aifrinnean d'Aifreann
 a_dh'Aifrinnean d'Aifrinn
 a_dh'Aigeann d'Aigéan
@@ -4116,6 +4121,8 @@ a_dh'fhearais-bhogha do bhoghdóireachta
 a_dh'fhearais-fheise do homaighnéasachta
 a_dh'fhearalachd d'fhearúlacht
 a_dh'fhearalachd d'fhearúlachta
+a_dh'fhearalais d'fhearúlachta
+a_dh'fhearalas d'fhearúlacht
 a_dh'fhearan d'fheairín
 a_dh'fhearanan d'fheairíní
 a_dh'fhearann d'fhearann
@@ -8474,6 +8481,7 @@ air_a_chumail_dìomhair coinnithe faoi rún
 air_a_chur curtha
 air_a_chòrr ar an chuid eile
 air_a_cleachdadh úsáidte
+air_a_coileanadh comhlíonta
 air_a_comharrachadh ceiliúrtha
 air_a_comharrachadh marcáilte
 air_a_cruthachadh cruthaithe
@@ -8528,6 +8536,7 @@ air_a_lìbhrigeadh seachadta
 air_a_lìbhrigeadh_le seachadta ag
 air_a_lìonadh líonta
 air_a_lìonadh_le líonta ag
+air_a_lùghdachadh laghdaithe
 air_a_mhaoineachadh maoinithe
 air_a_mhaoineachadh_le maoinithe ag
 air_a_mhilleadh millte
@@ -8695,6 +8704,7 @@ air_an_ath_mhios an mhí seo chugainn
 air_an_ath_mhìos an mhí seo chugainn
 air_an_atharrachadh ar an athrú
 air_an_atharrachadh athraithe
+air_an_caill caillte
 air_an_caitheadh caite
 air_an_call caillte
 air_an_ceangal ceangailte
@@ -8855,6 +8865,7 @@ air_an_tàladh meallta
 air_an_tòiseachadh tosaithe
 air_an_tòiseachadh_le tosaithe ag
 air_an_ullachadh ullmhaithe
+air_an_ùr-bhreith nuabheirthe
 air_aontachadh tar éis aontú
 air_ar_beulaibh os ár gcomhair
 air_ar_dèanamh déanta
@@ -9191,6 +9202,7 @@ air_èirigh tar éis éirí
 air_èisteachd ar éisteacht
 air_èisteachd tar éis éisteacht
 air_éirigh tar éis éirí
+air_ùr-bhreith nuabheirthe
 air_ùrachadh ar athnuachan
 air_ùrachadh ar nuashonrú
 air_ùrachadh athnuaite
@@ -10304,10 +10316,12 @@ ann_an_Àstralia san Astráil
 ann_an_Èirinn in Éirinn
 ann_an_òrdugh in ord
 anno_Domini anno Domini
+anns_'na sna
 anns_A' sa
 anns_A' san
 anns_An sa
 anns_An san
+anns_An_Gaidheal in An Gael
 anns_Na sna
 anns_a' sa
 anns_a' san
@@ -15143,9 +15157,11 @@ bu_rìomhaiche b'áille
 bu_ròidean-iarainn b'iarnróid
 bu_ròidean-iarrainn b'iarnróid
 bu_ròidean-iaruinn b'iarnróid
+bu_ròlaist b'abhóg
 bu_ròlaist b'áibhéil
 bu_ròlaisteach b'áibhéalach
 bu_ròlaisteach b'áibhéalacha
+bu_ròlaistean b'abhóga
 bu_ròlaistiche b'áibhéalaí
 bu_rùmail b'fhairsing
 bu_rùmail b'fhairsinge
@@ -15477,6 +15493,7 @@ bu_thar-chur b'idirbheart
 bu_thar-lùbadh b'fhorluí
 bu_tharrsainn b'éalú
 bu_theachd-a-steach b'ioncam
+bu_theachda-steach b'ioncam
 bu_theachdail b'fháistineach
 bu_theachdail b'fháistineacha
 bu_theachdaile b'fháistiní
@@ -16307,6 +16324,12 @@ chagradh_iad chograídís
 chagradh_iad chogróidís
 chagradh_tu chogrófá
 chagraidh_sinn chogróimid
+chaidh_a_chruthachadh cruthaíodh
+chaidh_a_chruthachadh_le cruthaíodh ag
+chaidh_a_chruthachadh_leis cruthaíodh ag
+chaidh_a_chumail eagraíodh
+chaidh_a_chumail reáchtáladh
+chaidh_a_chumail tionóladh
 chaidh_a_chur cuireadh
 chaidh_a_chur_air_bhog lainseáladh
 chaidh_a_chur_air_dòigh eagraíodh
@@ -16314,16 +16337,31 @@ chaidh_a_chur_an_dreuchd ceapadh
 chaidh_a_chur_an_gniomh cuireadh i bhfeidhm
 chaidh_a_chur_an_gniomh cuireadh i ngníomh
 chaidh_a_dhèanamh rinneadh
+chaidh_a_mharbhadh maraíodh
+chaidh_a_mharbhadh_le maraíodh ag
+chaidh_a_mharbhadh_leis maraíodh ag
 chaidh_a_sgrìobhadh scríobhadh
 chaidh_a_sgrìobhadh_le scríobhadh ag
 chaidh_a_sgrìobhadh_leis scríobhadh ag
 chaidh_a_stèidheachadh bunaíodh
+chaidh_a_thaghadh roghnaíodh
+chaidh_a_thaghadh toghadh
 chaidh_a_thogail tógáladh
+chaidh_a_thoirt tugadh
+chaidh_a_thoirt_gu_buil cuireadh i bhfeidhm
+chaidh_a_thoirt_iomradh_air rinneadh tagairt do
+chaidh_a_thoirt_seachad cuireadh ar fáil
+chaidh_ainmeachadh ainmníodh
+chaidh_ainmeachadh_le ainmníodh ag
+chaidh_ainmeachadh_leis ainmníodh ag
+chaidh_an_thogail tógáladh
+chaidh_aontachadh aontaíodh
 chaidh_fhoillseachadh foilsíodh
 chaidh_iad chuadar
 chaidh_iad dtéadar
 chaidh_iad gcuadar
 chaidh_iad théadar
+chaidh_innse insíodh
 chaidh_sinn chuamar
 chaidh_sinn dtéamar
 chaidh_sinn gcuamar
@@ -19514,8 +19552,10 @@ còmhdaichidh_sinn gclúdóimid
 còmhdaichidh_sinn gcumhdóimid
 còmhdhail_phoblach iompar poiblí
 còmhla_le in éineacht le
+còmhla_le in éineacht leis
 còmhla_le_na in éineacht leis na
 còmhla_ri in éineacht le
+còmhla_ri in éineacht leis
 còmhla_ri_a in éineacht lena
 còmhla_ri_ar in éineacht lenár
 còmhla_ri_na in éineacht leis na
@@ -19913,7 +19953,9 @@ de_dh'Aibisinianaich d'Aibisínigh
 de_dh'Aidmheint d'Aidbhint
 de_dh'Aidmheint d'Aidbhinte
 de_dh'Aifreann d'Aifreann
+de_dh'Aifreannan d'Aifrinn
 de_dh'Aifrinn d'Aifrinn
+de_dh'Aifrinne d'Aifrinn
 de_dh'Aifrinnean d'Aifreann
 de_dh'Aifrinnean d'Aifrinn
 de_dh'Aigeann d'Aigéan
@@ -23312,6 +23354,8 @@ de_dh'fhearais-bhogha de bhoghdóireachta
 de_dh'fhearais-fheise de homaighnéasachta
 de_dh'fhearalachd d'fhearúlacht
 de_dh'fhearalachd d'fhearúlachta
+de_dh'fhearalais d'fhearúlachta
+de_dh'fhearalas d'fhearúlacht
 de_dh'fhearan d'fheairín
 de_dh'fhearanan d'fheairíní
 de_dh'fhearann d'fhearann
@@ -30892,6 +30936,7 @@ dhan_a' don
 dhan_am don
 dhan_an don
 dhan_ionnsaidh don ionsaí
+dhan_phròiseact don tionscadal
 dhan_t-Sultain de Mheán Fómhair
 dhan_t-Sultainn de Mheán Fómhair
 dhanns_iad dhamhsaíodar
@@ -32265,7 +32310,9 @@ do_dh'Aibisinianaich d'Aibisínigh
 do_dh'Aidmheint d'Aidbhint
 do_dh'Aidmheint d'Aidbhinte
 do_dh'Aifreann d'Aifreann
+do_dh'Aifreannan d'Aifrinn
 do_dh'Aifrinn d'Aifrinn
+do_dh'Aifrinne d'Aifrinn
 do_dh'Aifrinnean d'Aifreann
 do_dh'Aifrinnean d'Aifrinn
 do_dh'Aigeann d'Aigéan
@@ -35670,6 +35717,8 @@ do_dh'fhearais-bhogha do bhoghdóireachta
 do_dh'fhearais-fheise do homaighnéasachta
 do_dh'fhearalachd d'fhearúlacht
 do_dh'fhearalachd d'fhearúlachta
+do_dh'fhearalais d'fhearúlachta
+do_dh'fhearalas d'fhearúlacht
 do_dh'fhearan d'fheairín
 do_dh'fhearanan d'fheairíní
 do_dh'fhearann d'fhearann
@@ -39740,6 +39789,7 @@ don_Phartaidh_Làborach do Pháirtí an Lucht Oibre
 don_a' don
 don_am don
 don_an don
+don_fheadhainn don dream
 don_ionnsaidh chucu
 don_ionnsaidh-san chucusan
 don_phartaidh_Làbarach do Pháirtí an Lucht Oibre
@@ -47897,6 +47947,8 @@ mo_fhearainn m'fhearainn
 mo_fhearais m'ealaíne
 mo_fhearalachd m'fhearúlacht
 mo_fhearalachd m'fhearúlachta
+mo_fhearalais m'fhearúlachta
+mo_fhearalas m'fhearúlacht
 mo_fhearan m'fheairín
 mo_fhearanan m'fheairíní
 mo_fhearann m'fhearann
@@ -49637,8 +49689,11 @@ mo_ròidean-iarrainn m'iarnród
 mo_ròidean-iarrainn m'iarnróid
 mo_ròidean-iaruinn m'iarnród
 mo_ròidean-iaruinn m'iarnróid
+mo_ròlaist m'abhóg
 mo_ròlaist m'áibhéil
+mo_ròlaiste m'abhóige
 mo_ròlaiste m'áibhéile
+mo_ròlaistean m'abhóga
 mo_rùmbaill m'eireabaill
 mo_rùmball m'eireaball
 mo_rùmballan m'eireabaill
@@ -50019,6 +50074,8 @@ mo_thar-lùbaidh m'fhorluí
 mo_tharrsainn m'éalú
 mo_theachd-a-steach m'ioncaim
 mo_theachd-a-steach m'ioncam
+mo_theachda-steach m'ioncaim
+mo_theachda-steach m'ioncam
 mo_theagaimh m'amhrais
 mo_theagamh m'amhras
 mo_thearnadh m'éalú
@@ -50853,6 +50910,7 @@ nam_shùilean i mo shúile
 nam_theaghlach i mo theaghlach
 nam_thidsear i mo mhúinteoir
 nam_òige i m'óige
+nan_Abstol na nAspal
 nan_Albannaich ina nAlbanaigh
 nan_Albannaich na nAlbanach
 nan_Asiriach na nAisiriach
@@ -59422,6 +59480,10 @@ thèarainnidh_sinn thuirlingeoimid
 thèarainnidh_sinn théarnóimid
 thèarainnidh_sinn éalóimid
 thèarainnidh_sinn ísleoimid
+thèid_a_chumail eagrófar
+thèid_a_chumail reáchtálófar
+thèid_a_chumail thionólfar
+thèid_a_chumail tionólfar
 thèid_sinn dtéifimid
 thèid_sinn rachaimid
 thèid_sinn théifimid
@@ -59858,6 +59920,7 @@ tron_am tríd an
 tron_an tríd an
 tron_chorr tríd an chuid eile
 tron_chòrr tríd an chuid eile
+tron_phròiseact tríd an tionscadal
 truailleadh_iad dtruailleoidís
 truailleadh_iad dtruaillídís
 truailleadh_iad truaillídís
