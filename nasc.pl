@@ -77,7 +77,7 @@ sub shift_and_print {
 		print "\\n\n";
 		$shifted_nl = 0;
 	}
-	$cand =~ s/^([BDMTbdmt]|[Dd]h)([ʼ’'])_/$1$2/i;
+	$cand =~ s/^([BDMTbdmt]|[Dd]h)([ʼ’'])_([^_]+)$/$1$2$3/i;
 	if ($cand =~ m/_\\n_./) {
 		$cand =~ s/_\\n_(.+)$/_$1/;
 		$shifted_nl = 1;
