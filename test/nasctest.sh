@@ -23,7 +23,7 @@ trivialtest() {
 	cat multi${1}.txt | sed 's/ .*//' | sed "s/^\([BDMbdm]\|[Dd]h\)'_/\1'/" > $TMPFILE
 	# without inserted commas, possible for MWEs to "interfere"
 	# e.g. "ny_slooid ny_slooid_ny" => "ny_slooid_ny slooid ny"
-	cat multi${1}.txt | sed 's/ .*/\n,/' | tr "\n" " " | tr '_' ' ' | bash alltokens.sh | perl nasc.pl ${2} | egrep -v '^,$' | diff -u - $TMPFILE
+	cat multi${1}.txt | sed 's/ .*/\n,/' | tr "\n" " " | tr '_' ' ' | bash alltokens.sh | perl nasc.pl ${2} | egrep -v '^,$' | diff -u $TMPFILE -
 	eval "rm -f $TMPFILE; return $?"
 }
 
