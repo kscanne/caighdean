@@ -6341,6 +6341,7 @@ a_dh'oidhch d'oíche
 a_dh'oidhch' d'oíche
 a_dh'oidhche d'oíche
 a_dh'oidhchean d'oícheanta
+a_dh'oidhcheanan d'oícheanta
 a_dh'oidhcheannan d'oícheanta
 a_dh'oidhearp d'iarracht
 a_dh'oidhearpan d'iarrachtaí
@@ -6348,6 +6349,9 @@ a_dh'oidheirp d'iarrachta
 a_dh'oidhirp d'iarracht
 a_dh'oidhirpe d'iarrachta
 a_dh'oidhirpean d'iarrachtaí
+a_dh'oidhrip d'iarracht
+a_dh'oidhripe d'iarrachta
+a_dh'oidhripean d'iarrachtaí
 a_dh'oifig d'oifig
 a_dh'oifige d'oifige
 a_dh'oifigeach d'oifigeach
@@ -14888,6 +14892,7 @@ bu_mhòr-chuisle b'artaire
 bu_mhòr-chuislean b'artairí
 bu_mhòr-ghil b'altán
 bu_mhòr-ghilean b'altáin
+bu_mhòr-ghàirdeachas b'ardáthas
 bu_mhòr-thraoidhtearachd b'ardtréas
 bu_mhòrchuid b'fhormhór
 bu_mhór-chuid b'fhormhór
@@ -15386,7 +15391,9 @@ bu_spleadhach b'fhinscéalacha
 bu_spleadhaiche b'fhinscéalaí
 bu_sponsaireachd b'urraíocht
 bu_sporghail b'útamáil
+bu_spreidh b'eallach
 bu_sprèidh b'eallach
+bu_spréidh b'eallach
 bu_spàl-ite b'eiteán
 bu_spàlan-ite b'eiteáin
 bu_spàrdan b'fhara
@@ -25599,6 +25606,7 @@ de_dh'oidhch d'oíche
 de_dh'oidhch' d'oíche
 de_dh'oidhche d'oíche
 de_dh'oidhchean d'oícheanta
+de_dh'oidhcheanan d'oícheanta
 de_dh'oidhcheannan d'oícheanta
 de_dh'oidhearp d'iarracht
 de_dh'oidhearpan d'iarrachtaí
@@ -25606,6 +25614,9 @@ de_dh'oidheirp d'iarrachta
 de_dh'oidhirp d'iarracht
 de_dh'oidhirpe d'iarrachta
 de_dh'oidhirpean d'iarrachtaí
+de_dh'oidhrip d'iarracht
+de_dh'oidhripe d'iarrachta
+de_dh'oidhripean d'iarrachtaí
 de_dh'oifig d'oifig
 de_dh'oifige d'oifige
 de_dh'oifigeach d'oifigeach
@@ -32239,6 +32250,7 @@ do_Malaidhsia don Mhalaeisia
 do_Malaysia don Mhalaeisia
 do_Malàbhaidh don Mhaláiv
 do_Mhacedonia go dtí an Mhacadóin
+do_Mhedia go dtí an Mhéide
 do_Moratain don Mháratáin
 do_Moratainia don Mháratáin
 do_Moratàinea don Mháratáin
@@ -37972,6 +37984,7 @@ do_dh'oidhch d'oíche
 do_dh'oidhch' d'oíche
 do_dh'oidhche d'oíche
 do_dh'oidhchean d'oícheanta
+do_dh'oidhcheanan d'oícheanta
 do_dh'oidhcheannan d'oícheanta
 do_dh'oidhearp d'iarracht
 do_dh'oidhearpan d'iarrachtaí
@@ -37979,6 +37992,9 @@ do_dh'oidheirp d'iarrachta
 do_dh'oidhirp d'iarracht
 do_dh'oidhirpe d'iarrachta
 do_dh'oidhirpean d'iarrachtaí
+do_dh'oidhrip d'iarracht
+do_dh'oidhripe d'iarrachta
+do_dh'oidhripean d'iarrachtaí
 do_dh'oifig d'oifig
 do_dh'oifige d'oifige
 do_dh'oifigeach d'oifigeach
@@ -49360,6 +49376,8 @@ mo_mhòr-ghil m'altán
 mo_mhòr-ghile m'altáin
 mo_mhòr-ghilean m'altáin
 mo_mhòr-ghilean m'altán
+mo_mhòr-ghàirdeachais m'ardáthais
+mo_mhòr-ghàirdeachas m'ardáthas
 mo_mhòr-thraoidhtearachd m'ardtréas
 mo_mhòr-thraoidhtearachd m'ardtréasa
 mo_mhòrchodach m'fhormhóir
@@ -49925,8 +49943,12 @@ mo_sponsaireachd m'urraíocht
 mo_sponsaireachd m'urraíochta
 mo_sporghail m'útamáil
 mo_sporghail m'útamála
+mo_spreidh m'eallach
+mo_spreidhe m'eallaigh
 mo_sprèidh m'eallach
 mo_sprèidhe m'eallaigh
+mo_spréidh m'eallach
+mo_spréidhe m'eallaigh
 mo_spàil-ite m'eiteáin
 mo_spàl-ite m'eiteán
 mo_spàlan-ite m'eiteáin
@@ -57442,6 +57464,9 @@ t-Ath_Leathann tÁth Leathan
 t-Sealainn_Nuadh Nua-Shéalainn
 t-Sealan_Nuadh Nua-Shéalainn
 t-Sealann_Nuadh Nua-Shéalainn
+t-Sean_Bhean tSeanbhean
+t-Sean_Ghreugais tSean-Ghréigis
+t-Sean_Ghàidhlig tSean-Ghàidhlig
 t-Seann_Tiomnadh Sean-Tiomna
 t-Seann_Tiomnadh tSean-Tiomna
 t-an_sac t-asma
@@ -57795,6 +57820,12 @@ tairgeadh_iad tairgidís
 tairgeadh_tu dtairgfeá
 tairgidh_sinn dtairgfimid
 tairgidh_sinn tairgfimid
+tairngeadh_iad dtarraingeoidís
+tairngeadh_iad dtarraingídís
+tairngeadh_iad tarraingídís
+tairngeadh_tu dtarraingeofá
+tairngidh_sinn dtarraingeoimid
+tairngidh_sinn tarraingeoimid
 taisbeanadh_iad dtaispeánaidís
 taisbeanadh_iad dtaispeánfaidís
 taisbeanadh_iad taispeánaidís
@@ -58368,6 +58399,10 @@ thairis_orm tharam
 thairis_orra tharstu
 thairis_orrasan tharstusan
 thairis_ort tharat
+thairngeadh_iad tharraingeoidís
+thairngeadh_iad tharraingídís
+thairngeadh_tu tharraingeofá
+thairngidh_sinn tharraingeoimid
 thaisbean_iad dtaispeánadar
 thaisbean_iad thaispeánadar
 thaisbean_sinn dtaispeánamar
@@ -59402,6 +59437,10 @@ thàinig_iad dtángadar
 thàinig_iad thángadar
 thàinig_sinn dtángamar
 thàinig_sinn thángamar
+thàirngeadh_iad tharraingeoidís
+thàirngeadh_iad tharraingídís
+thàirngeadh_tu tharraingeofá
+thàirngidh_sinn tharraingeoimid
 thàlaidh_iad mealladar
 thàlaidh_iad mhealladar
 thàlaidh_sinn meallamar
@@ -60148,6 +60187,12 @@ tumaidh_sinn dtumfaimid
 tumaidh_sinn tumfaimid
 turas_latha turas lae
 turas_sgoile turas scoile
+tàirngeadh_iad dtarraingeoidís
+tàirngeadh_iad dtarraingídís
+tàirngeadh_iad tarraingídís
+tàirngeadh_tu dtarraingeofá
+tàirngidh_sinn dtarraingeoimid
+tàirngidh_sinn tarraingeoimid
 tàlaidheadh_iad meallaidís
 tàlaidheadh_iad meallfaidís
 tàlaidheadh_tu meallfá
