@@ -96,7 +96,7 @@ sub prep_for_output {
 	unless ($s eq $t) {
 		$t = irishlc($t) unless ($s =~ m/_/ or $t =~ m/ /);
 		$t = recapitalize($t, cap_style($s));
-		$s =~ s/([A-Za-zÀÈÌÒÙàèìòùáéíóúÁÉÍÓÚïçÇ'])_/$1 /g;
+		$s =~ s/([A-Za-zÀÈÌÒÙàèìòùáéíóúÁÉÍÓÚïçÇ'])_/$1 /g unless ($t =~ m/_/);
 	}
 	return $s.' => '.$t;
 }
