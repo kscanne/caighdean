@@ -123,6 +123,7 @@ Curtan_Yiarn Cuirtín Iarainn
 Daayt-linney_Eddyrashoonagh Dátlíne Idirnáisiúnta
 Dhalloo_Sooloo Súlúlainn
 Dhalloo_Sooloo Súlúlainne
+Dong_Hoi Dong Hoi
 Doon_Edin Dún Éideann
 Doon_ny_Ghoal Dún na nGall
 Doonaght_Kingeesh Domhnach Cincíse
@@ -368,6 +369,7 @@ Raad_Mooar_Ree_Gorree Bealach na Bó Finne
 Ree_Adha Rí Artúr
 Reeriaght_Unnaneyssit Ríocht Aontaithe
 Rheynn_Hwoaie Rinn Thuaidh
+Rhine_Hwoaie-Westfalen Réin-Westfalen Thuaidh
 Rinn_Vooar Líonán Mór
 Rollage_ny_Twoaie an Réalta Thuaidh
 Rollage_y_Voddee Réalta an Mhadra
@@ -9131,6 +9133,7 @@ er_neunhee ar neamhní
 er_ngeddin_baase tar éis bás a fháil
 er_ngeddyn tar éis fáil
 er_ngeddyn_baase tar éis bás a fháil
+er_ngholl tar éis imeacht
 er_ngialdyn tar éis gealladh
 er_ngoaill tar éis gabháil
 er_ngoaill_toshiaght tar éis tosú
@@ -17923,6 +17926,8 @@ lhee_neughruggagh fhisiteiripigh
 lhee_neughruggagh fisiteiripeach
 lhee_neughruggagh fisiteiripigh
 lheead_meir leithead méire
+lheeahidyn_glooie slam-mhúscáin
+lheeahidyn_glooiey slam-mhúscáin
 lheeyn_baagh dtréidlianna
 lheeyn_baagh thréidlianna
 lheeyn_baagh tréidlianna
@@ -19007,6 +19012,12 @@ lus_ny_meisht ghafann
 lus_ny_meisht ngafainne
 lus_ny_meisht ngafann
 lus_ny_merriu lus caisil
+lus_ny_minnag caisearbháin
+lus_ny_minnag caisearbhán
+lus_ny_minnag chaisearbháin
+lus_ny_minnag chaisearbhán
+lus_ny_minnag gcaisearbháin
+lus_ny_minnag gcaisearbhán
 lus_ny_moaley lus na meala
 lus_ny_ray luanlus
 lus_ny_ray lus na míosa
@@ -19115,6 +19126,9 @@ lus_yn_dorrysh gcleimeatais
 lus_yn_dorrysh gcleimeatas
 lus_yn_eiyrtys drúchtín móna
 lus_yn_voalley lus an bhalla
+lussyn_ny_minnag caisearbháin
+lussyn_ny_minnag chaisearbháin
+lussyn_ny_minnag gcaisearbháin
 lusyn_Cholum cholaimbíní
 lusyn_Cholum colaimbíní
 lusyn_Cholum gcolaimbíní
@@ -21522,6 +21536,11 @@ my_chainle_gheirrey m'fháideog
 my_chainle_gheirrey m'fháideoige
 my_chainleyn_gheirrey m'fháideog
 my_chainleyn_gheirrey m'fháideoga
+my_chaireyder m'úinéara
+my_chaireyder m'úinéir
+my_chaireyderyn m'úinéirí
+my_chaireydys m'úinéireacht
+my_chaireydys m'úinéireachta
 my_chairys m'fhíréantacht
 my_chairys m'fhíréantachta
 my_chairys m'ionracais
@@ -23415,6 +23434,9 @@ my_reiragh m'fheidhmeannaigh
 my_reiree m'fheidhmeannach
 my_reiree m'fheidhmeannaigh
 my_rheamyssaght m'fhairsinge
+my_rheynnag m'earnáil
+my_rheynnag m'earnála
+my_rheynnagyn m'earnálacha
 my_rheynnoilid m'inroinnteacht
 my_rheynnoilid m'inroinnteachta
 my_rhumbyl m'fháithim
@@ -25472,6 +25494,26 @@ neuchoardagh_oo n-easaontófá
 neuchoardagh_shin d'easaontóimis
 neuchoardagh_shin easaontóimis
 neuchoardagh_shin n-easaontóimis
+neulhig_ad choisceadar
+neulhig_ad dtoirmisceadar
+neulhig_ad gcoisceadar
+neulhig_ad thoirmisceadar
+neulhig_shin choisceamar
+neulhig_shin dtoirmisceamar
+neulhig_shin gcoisceamar
+neulhig_shin thoirmisceamar
+neulhigagh_ad choiscfidís
+neulhigagh_ad dtoirmiscfidís
+neulhigagh_ad gcoiscfidís
+neulhigagh_ad thoirmiscfidís
+neulhigagh_oo choiscfeá
+neulhigagh_oo dtoirmiscfeá
+neulhigagh_oo gcoiscfeá
+neulhigagh_oo thoirmiscfeá
+neulhigagh_shin choiscfimis
+neulhigagh_shin dtoirmiscfimis
+neulhigagh_shin gcoiscfimis
+neulhigagh_shin thoirmiscfimis
 neunhee_ad neamhníodar
 neunhee_shin neamhníomar
 neunheeagh_ad neamhneoidís
@@ -26823,6 +26865,7 @@ ny_Bretnisheyryn lucht na Breatnaise
 ny_Canaaniteyn na Canánaigh
 ny_Canaaniteyn na gCanánach
 ny_Canadey Cheanada
+ny_Coagaash Cugais
 ny_Egyptianee na hÉigiptigh
 ny_Egyptianee na nÉigipteach
 ny_Flandyryn Flóndras
@@ -33090,6 +33133,7 @@ t'er_n'yiooldey atá tar éis diúltú
 t'er_n'ymmyrkey atá tar éis iompar
 t'er_n'ynsaghey atá tar éis foghlaim
 t'er_nakin atá tar éis feiceáil
+t'er_ngholl atá tar éis imeacht
 t'er_ngoll atá tar éis dul
 t'er_nirree atá tar éis éirí
 t'er_nirree-magh atá tar éis éirí amach
@@ -37133,6 +37177,7 @@ yn_Channon an tSionainn
 yn_Cheshaght_Ghailckagh an Cumann Gaelach
 yn_Chiarn_dy_heshaght-flaunyss Tiarna na Slua
 yn_Chissyl an tSicil
+yn_Choagaash Cugas
 yn_Choobey Cúba
 yn_Choowait Chuáit
 yn_Choowait Cuáit
