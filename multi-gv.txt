@@ -923,6 +923,11 @@ ann_shin fheannamar
 annagh_ad d'fheannfaidís
 annagh_oo d'fheannfá
 annagh_shin d'fheannfaimis
+annoonee_ad lagaíodar
+annoonee_shin lagaíomar
+annooneeagh_ad lagóidís
+annooneeagh_oo lagófá
+annooneeagh_shin lagóimis
 anoayllagh_rish gan taithí ar
 ansoor_ad bhfreagraíodar
 ansoor_ad fhreagraíodar
@@ -5689,6 +5694,8 @@ danneeagh_oo bhfanfá
 danneeagh_oo fhanfá
 danneeagh_shin bhfanfaimis
 danneeagh_shin fhanfaimis
+dannoonee_ad lagaíodar
+dannoonee_shin lagaíomar
 dansoor_ad d'fhreagraíodar
 dansoor_shin d'fhreagraíomar
 dard-voyl_ad d'ardmholadar
@@ -6935,6 +6942,8 @@ dt'eaysley_laue do lámhscaoileadh
 dt'eaysley_laue do lámhscaoilte
 dt'eddyr_laare d'idirurláir
 dt'eddyr_laare d'idirurlár
+dt'eddyr_voggl d'Idirlín
+dt'eddyr_voggl d'Idirlíon
 dt'eddyryn_laare d'idirurláir
 dt'eddyryn_laare d'idirurlár
 dt'edjag_veg do phéacáin
@@ -8327,6 +8336,7 @@ ec_keayrt láithreach
 ec_lieh-chroan i lár crainn
 ec_oirr_ny_marrey cois fharraige
 ec_y_jerrey faoi dheireadh
+ec_y_taa ag an am
 ec_y_toshiaght ar dtús
 ec_y_traa ag an am
 ec_y_vean-oie ar an meán oíche
@@ -8376,6 +8386,9 @@ eddyr_linnaghyn_jeeragh dronlínigh
 eddyr_linnaghyn_jeeragh dronlíní
 eddyr_oc eatarthu
 eddyr_shin eadrainn
+eddyr_voggl Idirlín
+eddyr_voggl Idirlíon
+eddyr_voggl tIdirlíon
 eddyr_voggyl Idirlíon
 eddyr_voggyl tIdirlíon
 eddyr_y_daa_lhing idir an dá linn
@@ -9136,6 +9149,7 @@ er_ngeddyn_baase tar éis bás a fháil
 er_ngholl tar éis imeacht
 er_ngialdyn tar éis gealladh
 er_ngoaill tar éis gabháil
+er_ngoaill_toshaight tar éis tosú
 er_ngoaill_toshiaght tar éis tosú
 er_ngoll tar éis dul
 er_ngoll_dy_lhie tar éis dul a luí
@@ -9486,6 +9500,8 @@ er_y_hoshiaght ar aghaidh
 er_y_oyr de bharr
 er_y_oyr de bhrí
 er_y_scooyr ar na cannaí
+er_y_skyn os a chionn
+er_y_skyn os a cionn
 er_y_traa ar an am
 er_y_traie ar an trá
 er_y_twoaie ar an taobh thuaidh
@@ -12607,6 +12623,8 @@ goaill_taitnys baint taitneamh
 goaill_taitnys_ayns baint taitneamh as
 goaill_taitnyss baint taitneamh
 goaill_taitnyss_ayns baint taitneamh
+goaill_toshaight ag tosú
+goaill_toshaight tosú
 goaill_toshiaght ag tosú
 goaill_toshiaght tosú
 goaill_y_scooyr dul ar meisce
@@ -14573,6 +14591,8 @@ hebbagh_shin thairgfimis
 heddyr_laare hidirurláir
 heddyr_laare hidirurlár
 heddyr_linnaghyn_jeeragh dronlíneach
+heddyr_voggl hIdirlín
+heddyr_voggl hIdirlíon
 heddyryn_laare hidirurláir
 heddyryn_laare hidirurlár
 hee_ad sciáladar
@@ -19474,6 +19494,8 @@ m'eaysley_laue mo lámhscaoileadh
 m'eaysley_laue mo lámhscaoilte
 m'eddyr_laare m'idirurláir
 m'eddyr_laare m'idirurlár
+m'eddyr_voggl m'Idirlín
+m'eddyr_voggl m'Idirlíon
 m'eddyryn_laare m'idirurláir
 m'eddyryn_laare m'idirurlár
 m'edjag_veg mo phéacáin
@@ -22317,6 +22339,8 @@ my_heear laistiar
 my_heear m'iarthair
 my_heear m'iarthar
 my_heear siar
+my_heear-hwoaie m'iarthuaisceart
+my_heear-hwoaie m'iarthuaiscirt
 my_heear_hwoaie m'iarthuaisceart
 my_heear_hwoaie m'iarthuaiscirt
 my_heer-ard m'ard
@@ -25018,6 +25042,9 @@ nanereeagh_shin aonróimis
 nanereeagh_shin n-aonróimis
 nanlheiltys_lhiannooagh bpolaimiailíteas
 nanlheiltys_lhiannooagh bpolaimiailítis
+nannooneeagh_ad lagóidís
+nannooneeagh_oo lagófá
+nannooneeagh_shin lagóimis
 nansooragh_ad bhfreagróidís
 nansooragh_ad fhreagróidís
 nansooragh_oo bhfreagrófá
@@ -25328,6 +25355,8 @@ neddyr-scarragh_shin idirdhealóimis
 neddyr-scarragh_shin n-idirdhealóimis
 neddyr_laare n-idirurláir
 neddyr_laare n-idirurlár
+neddyr_voggl nIdirlín
+neddyr_voggl nIdirlíon
 neddyreeagh_ad malartóidís
 neddyreeagh_ad mhalartóidís
 neddyreeagh_oo malartófá
@@ -33235,6 +33264,7 @@ ta_shin táimid
 ta_shin_baghey atáimid inár gcónaí
 ta_shin_baghey táimid inár gcónaí
 ta_shin_er_chummal táimid inár gcónaí
+taa_mee tá mé
 taabyl_reiltagh tábla peiriadach
 taggad_ordaag tacóid ordóige
 taggad_vrooee smeachstoda
@@ -34130,6 +34160,8 @@ v'er_varroo a bhí tar éis marú
 v'er_vosley a bhí tar éis oscailt
 v'er_vreayll a bhí tar éis coinneáil
 v'er_vrishey a bhí tar éis briseadh
+v'er_y_skyn a bhí os a chionn
+v'er_y_skyn a bhí os a cionn
 v'er_yannoo a bhí tar éis déanamh
 v'er_yialdyn a bhí tar éis gealladh
 v'ou_baghey a bhí tú i do chónaí
@@ -35038,6 +35070,9 @@ ver_meanagh n-idirghabhálaí
 ver_mee_mow scriosfaidh mé
 ver_moandagh stadaire
 ver_mow scriosfar
+ver_nyn_skyn a bhí os a gcionn
+ver_nyn_skyn a bhí os bhur gcionn
+ver_nyn_skyn a bhí os ár gcionn
 ver_obbee n-asarlaí
 ver_obbee ndraíodóir
 ver_obbee ndraíodóra
