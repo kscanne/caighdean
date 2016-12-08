@@ -149,6 +149,7 @@
 'nan_aghaidh ina n-aghaidh
 'nan_ainglean ina n-aingil
 'nan_aonar ina n-aonar
+'nan_cadal ina gcodladh
 'nan_cinn ina gceann
 'nan_crùban ar a ngogaidí
 'nan_deann ar lánluas
@@ -1126,6 +1127,7 @@ a_dh'abhag do bhrocaire
 a_dh'abhagan do bhrocairí
 a_dh'abhaig do bhrocaire
 a_dh'abhainn d'abhainn
+a_dh'abhainn-deighe d'oighearshruth
 a_dh'abhainne d'abhann
 a_dh'abhaist do ghnáth
 a_dh'abhaiste do ghnáith
@@ -1445,8 +1447,10 @@ a_dh'aibheiseachd d'áibhéil
 a_dh'aibheiseachd d'áibhéile
 a_dh'aibheisean d'aibhéisí
 a_dh'aibhne d'abhann
+a_dh'aibhne-deighe d'oighearshrutha
 a_dh'aibhneachan d'aibhneacha
 a_dh'aibhnichean d'aibhneacha
+a_dh'aibhnichean-deighe d'oighearshruthanna
 a_dh'aibhseachadh d'áibhliú
 a_dh'aibhseachadh d'áibhéil
 a_dh'aibhseachaidh d'áibhlithe
@@ -3149,6 +3153,8 @@ a_dh'eigheachd do bhéicíola
 a_dh'eighean-shruth d'oighearshruthanna
 a_dh'eighich d'éimh
 a_dh'eighich do bhéicíola
+a_dh'eighr-shruth d'oighearshruth
+a_dh'eighr-shrutha d'oighearshrutha
 a_dh'eighre d'oighear
 a_dh'eighre d'oighir
 a_dh'eighreachadh d'oighriú
@@ -8261,6 +8267,7 @@ a_thaobh i dtaobh
 a_thaobheigin éigin
 a_thathar atáthar
 a_thathas atáthar
+a_thug_seachad a chuir ar fáil
 a_thuilleadh_air mar aon le
 a_thuilleadh_air mar aon leis
 a_thuilleadh_air_a_bhith mar aon le bheith
@@ -8463,6 +8470,7 @@ air_a'_bhlàir_a-muigh amuigh
 air_a'_bhlàr amuigh
 air_a'_bhlàr-a-muigh amuigh faoin spéir
 air_a'_bhlàr_a-muigh amuigh
+air_a'_bhruaich ar an bhruach
 air_a'_char_as_lugha ar a laghad
 air_a'_char_as_motha ar a mhéad
 air_a'_chiad_as_lugha ar a laghad
@@ -8480,6 +8488,7 @@ air_a_bheò-ghlacadh gafa
 air_a_bhiathadh beathaithe
 air_a_bhith ar a bheith
 air_a_bhith tar éis a bheith
+air_a_bhrosnachadh spreagtha
 air_a_bhrùthadh brúite
 air_a_bruidhinn á labhairt
 air_a_bruidhinn_le á labhairt ag
@@ -8552,6 +8561,7 @@ air_a_lìonadh_le líonta ag
 air_a_lùghdachadh laghdaithe
 air_a_mhaoineachadh maoinithe
 air_a_mhaoineachadh_le maoinithe ag
+air_a_mhealladh meallta
 air_a_mhilleadh millte
 air_a_mhilleadh_le millte ag
 air_a_milleadh millte
@@ -9872,6 +9882,18 @@ an_d'thàinig ar tháinig
 an_da-rìribh i ndáiríre
 an_de inné
 an_deach an ndeachaigh
+an_deach_a_chleachdadh ar úsáideadh
+an_deach_a_chur ar cuireadh
+an_deach_a_dhèanamh an ndearnadh
+an_deach_a_thogail ar tógadh
+an_deach_a_togail ar tógadh í
+an_deach_an_cur ar cuireadh iad
+an_deach_an_togail ar tógadh iad
+an_deach_bruidhinn ar labhraíodh
+an_deach_fhoillseachadh ar foilsíodh
+an_deach_iarraidh ar iarradh
+an_deach_innse ar insíodh
+an_deach_mo_thogail ar tógadh mé
 an_deagh_àm tráthúil
 an_deaghaidh i ndiaidh
 an_deaghaidh tar éis
@@ -9947,6 +9969,9 @@ an_eisimeil_nan ag brath ar na
 an_eisimeil_ri ag brath ar
 an_eisimeil_ris ag brath ar
 an_fheadhainn an dream
+an_gnìomh an gníomh
+an_gnìomh i bhfeidhm
+an_gnìomh i ngníomh
 an_iar aniar
 an_iar siar
 an_iar thiar
@@ -10229,6 +10254,7 @@ ann_an_Libiria sa Libéir
 ann_an_Libèir sa Libéir
 ann_an_Libèiria sa Libéir
 ann_an_Libéir sa Libéir
+ann_an_Linn_an_Umha sa Chré-umhaois
 ann_an_Liotuàinia sa Liotuáin
 ann_an_Lituàinia sa Liotuáin
 ann_an_Naimibia sa Namaib
@@ -10296,6 +10322,7 @@ ann_an_co-bhoinn_ri le tacaíocht ó
 ann_an_co-bhoinn_ris_a' le tacaíocht ón
 ann_an_co-bhoinn_ris_an le tacaíocht ón
 ann_an_co-bhoinn_ris_na le tacaíocht ó na
+ann_an_da-rìribh i ndáiríre
 ann_an_deagh_àm tráthúil
 ann_an_deataich i ndeatach
 ann_an_drasd ann anois
@@ -10407,6 +10434,16 @@ anns_an_ath_sheachdain sa chéad seachtain eile
 anns_an_ath_thuras sa chéad uair eile
 anns_an_ath_ìre sa chéad chéim eile
 anns_an_cluinn a gcluinfidh
+anns_an_deach_a_chleachdadh inar úsáideadh
+anns_an_deach_a_chur inar cuireadh
+anns_an_deach_a_dhèanamh ina ndearnadh
+anns_an_deach_a_thogail inar tógadh
+anns_an_deach_a_togail inar tógadh í
+anns_an_deach_an_cur inar cuireadh iad
+anns_an_deach_an_togail inar tógadh iad
+anns_an_deach_bruidhinn inar labhraíodh
+anns_an_deach_fhoillseachadh inar foilsíodh
+anns_an_deach_mo_thogail inar tógadh mé
 anns_an_do inar
 anns_an_dèan ina ndéanfaidh
 anns_an_eadar-ama idir an dá linn
@@ -13040,6 +13077,7 @@ bu_choireach_gu an chúis go
 bu_choireach_gum_bi an chúis go mbeidh
 bu_choireach_gun an chúis gur
 bu_choireach_gun_d' an chúis gur
+bu_choireach_gun_deach_fhoillseachadh an chúis gur foilsíodh
 bu_choireach_gun_do an chúis gur
 bu_choireach_gur an chúis gur
 bu_choireach_nach_eil an chúis nach bhfuil
@@ -16279,6 +16317,19 @@ cha_d'fhuair ní bhfuair
 cha_d'fhuaireadh ní bhfuarthas
 cha_d'fhuaradh ní bhfuarthas
 cha_deach ní dheachaigh
+cha_deach_a_chleachdadh níor úsáideadh
+cha_deach_a_chur níor cuireadh
+cha_deach_a_dhèanamh ní dhearnadh
+cha_deach_a_thogail níor tógadh
+cha_deach_a_togail níor tógadh í
+cha_deach_an_cur níor cuireadh iad
+cha_deach_an_togail níor tógadh iad
+cha_deach_bruidhinn níor labhraíodh
+cha_deach_fhoillseachadh níor foilsíodh
+cha_deach_gabhail níor glacadh
+cha_deach_iarraidh níor iarradh
+cha_deach_innse níor insíodh
+cha_deach_mo_thogail níor tógadh mé
 cha_deacha ní dheachaigh
 cha_dearg_mi_air níl mé in ann dó
 cha_dig ní thiocfaidh
@@ -16362,6 +16413,10 @@ chaidh_a_chur_air_dòigh eagraíodh
 chaidh_a_chur_an_dreuchd ceapadh
 chaidh_a_chur_an_gniomh cuireadh i bhfeidhm
 chaidh_a_chur_an_gniomh cuireadh i ngníomh
+chaidh_a_dhealbhadh dearadh
+chaidh_a_dhealbhadh deilbhíodh
+chaidh_a_dhealbhadh_le dearadh ag
+chaidh_a_dhealbhadh_le deilbhíodh ag
 chaidh_a_dhèanamh rinneadh
 chaidh_a_leasachadh feabhsaíodh
 chaidh_a_leasachadh forbraíodh
@@ -16379,18 +16434,26 @@ chaidh_a_sgrìobhadh_leis scríobhadh ag
 chaidh_a_stèidheachadh bunaíodh
 chaidh_a_thaghadh roghnaíodh
 chaidh_a_thaghadh toghadh
-chaidh_a_thogail tógáladh
+chaidh_a_thogail tógadh
 chaidh_a_thoirt tugadh
 chaidh_a_thoirt_gu_buil cuireadh i bhfeidhm
 chaidh_a_thoirt_iomradh_air rinneadh tagairt do
 chaidh_a_thoirt_seachad cuireadh ar fáil
-chaidh_a_togail tógáladh
+chaidh_a_togail tógadh
 chaidh_ainmeachadh ainmníodh
 chaidh_ainmeachadh_le ainmníodh ag
 chaidh_ainmeachadh_leis ainmníodh ag
-chaidh_an_thogail tógáladh
+chaidh_an_thogail tógadh
+chaidh_an_toirt tugadh iad
+chaidh_an_toirt_seachad cuireadh ar fáil iad
 chaidh_aontachadh aontaíodh
+chaidh_atharrachadh athraíodh
 chaidh_fhoillseachadh foilsíodh
+chaidh_fhosgladh osclaíodh
+chaidh_fhosgladh_le osclaíodh ag
+chaidh_fhosgladh_leis osclaíodh ag
+chaidh_fhàgail fágadh
+chaidh_fhàgail_le fágadh ag
 chaidh_iad chuadar
 chaidh_iad dtéadar
 chaidh_iad gcuadar
@@ -19469,6 +19532,7 @@ càit'_bheil cá bhfuil
 càit_a_bheil cá bhfuil
 càit_am_bheil cá bhfuil
 càit_an_deach cá ndeachaigh
+càit_an_deach_a_dhèanamh cá ndearnadh
 càit_an_tèid cá rachaidh
 càit_bheil cá bhfuil
 càite_a_bheil cá bhfuil
@@ -19508,6 +19572,7 @@ cèirichidh_sinn gciarfaimid
 cèis_an_dorais bhfráma an dorais
 cèis_an_dorais fhráma an dorais
 cèis_an_dorais fráma an dorais
+cé_nach_deach_gabhail cé nár glacadh
 cìreadh_iad cíoraidís
 cìreadh_iad gcíoraidís
 cìreadh_iad gcíorfaidís
@@ -20410,6 +20475,7 @@ de_dh'abhag de bhrocaire
 de_dh'abhagan de bhrocairí
 de_dh'abhaig de bhrocaire
 de_dh'abhainn d'abhainn
+de_dh'abhainn-deighe d'oighearshruth
 de_dh'abhainne d'abhann
 de_dh'abhaist de ghnáth
 de_dh'abhaiste de ghnáith
@@ -20729,8 +20795,10 @@ de_dh'aibheiseachd d'áibhéil
 de_dh'aibheiseachd d'áibhéile
 de_dh'aibheisean d'aibhéisí
 de_dh'aibhne d'abhann
+de_dh'aibhne-deighe d'oighearshrutha
 de_dh'aibhneachan d'aibhneacha
 de_dh'aibhnichean d'aibhneacha
+de_dh'aibhnichean-deighe d'oighearshruthanna
 de_dh'aibhseachadh d'áibhliú
 de_dh'aibhseachadh d'áibhéil
 de_dh'aibhseachaidh d'áibhlithe
@@ -22423,6 +22491,8 @@ de_dh'eigheachd de bhéicíola
 de_dh'eighean-shruth d'oighearshruthanna
 de_dh'eighich d'éimh
 de_dh'eighich de bhéicíola
+de_dh'eighr-shruth d'oighearshruth
+de_dh'eighr-shrutha d'oighearshrutha
 de_dh'eighre d'oighear
 de_dh'eighre d'oighir
 de_dh'eighreachadh d'oighriú
@@ -27750,17 +27820,29 @@ dealbh_cluich ndráma
 dealbh_cluiche dráma
 dealbhadh_coimhearsnachd pleanáil phobail
 dealbhadh_iad dearaidís
+dealbhadh_iad deilbhídís
 dealbhadh_iad ndearaidís
 dealbhadh_iad ndearfaidís
+dealbhadh_iad ndeilbheoidís
+dealbhadh_iad ndeilbhídís
 dealbhadh_tu ndearfá
+dealbhadh_tu ndeilbheofá
 dealbhaicheadh_iad dearaidís
+dealbhaicheadh_iad deilbhídís
 dealbhaicheadh_iad ndearaidís
 dealbhaicheadh_iad ndearfaidís
+dealbhaicheadh_iad ndeilbheoidís
+dealbhaicheadh_iad ndeilbhídís
 dealbhaicheadh_tu ndearfá
+dealbhaicheadh_tu ndeilbheofá
 dealbhaichidh_sinn dearfaimid
+dealbhaichidh_sinn deilbheoimid
 dealbhaichidh_sinn ndearfaimid
+dealbhaichidh_sinn ndeilbheoimid
 dealbhaidh_sinn dearfaimid
+dealbhaidh_sinn deilbheoimid
 dealbhaidh_sinn ndearfaimid
+dealbhaidh_sinn ndeilbheoimid
 dealbhan_camara grianghraf
 dealbhan_camara grianghraif
 dealbhan_camara ngrianghraf
@@ -31153,21 +31235,37 @@ dhealanaicheadh_tu leictreofá
 dhealanaichidh_sinn leictreoimid
 dhealbh_chluiche dhráma
 dhealbh_iad dhearadar
+dhealbh_iad dheilbhíodar
 dhealbh_iad ndearadar
+dhealbh_iad ndeilbhíodar
 dhealbh_sinn dhearamar
+dhealbh_sinn dheilbhíomar
 dhealbh_sinn ndearamar
+dhealbh_sinn ndeilbhíomar
 dhealbhadh_iad dhearaidís
 dhealbhadh_iad dhearfaidís
+dhealbhadh_iad dheilbheoidís
+dhealbhadh_iad dheilbhídís
 dhealbhadh_tu dhearfá
+dhealbhadh_tu dheilbheofá
 dhealbhaich_iad dhearadar
+dhealbhaich_iad dheilbhíodar
 dhealbhaich_iad ndearadar
+dhealbhaich_iad ndeilbhíodar
 dhealbhaich_sinn dhearamar
+dhealbhaich_sinn dheilbhíomar
 dhealbhaich_sinn ndearamar
+dhealbhaich_sinn ndeilbhíomar
 dhealbhaicheadh_iad dhearaidís
 dhealbhaicheadh_iad dhearfaidís
+dhealbhaicheadh_iad dheilbheoidís
+dhealbhaicheadh_iad dheilbhídís
 dhealbhaicheadh_tu dhearfá
+dhealbhaicheadh_tu dheilbheofá
 dhealbhaichidh_sinn dhearfaimid
+dhealbhaichidh_sinn dheilbheoimid
 dhealbhaidh_sinn dhearfaimid
+dhealbhaidh_sinn dheilbheoimid
 dhealbhan_camara ghrianghraf
 dhealbhan_camara ghrianghraif
 dhean_iad rinneadar
@@ -32788,6 +32886,7 @@ do_dh'abhag do bhrocaire
 do_dh'abhagan do bhrocairí
 do_dh'abhaig do bhrocaire
 do_dh'abhainn d'abhainn
+do_dh'abhainn-deighe d'oighearshruth
 do_dh'abhainne d'abhann
 do_dh'abhaist do ghnáth
 do_dh'abhaiste do ghnáith
@@ -33107,8 +33206,10 @@ do_dh'aibheiseachd d'áibhéil
 do_dh'aibheiseachd d'áibhéile
 do_dh'aibheisean d'aibhéisí
 do_dh'aibhne d'abhann
+do_dh'aibhne-deighe d'oighearshrutha
 do_dh'aibhneachan d'aibhneacha
 do_dh'aibhnichean d'aibhneacha
+do_dh'aibhnichean-deighe d'oighearshruthanna
 do_dh'aibhseachadh d'áibhliú
 do_dh'aibhseachadh d'áibhéil
 do_dh'aibhseachaidh d'áibhlithe
@@ -34801,6 +34902,8 @@ do_dh'eigheachd do bhéicíola
 do_dh'eighean-shruth d'oighearshruthanna
 do_dh'eighich d'éimh
 do_dh'eighich do bhéicíola
+do_dh'eighr-shruth d'oighearshruth
+do_dh'eighr-shrutha d'oighearshrutha
 do_dh'eighre d'oighear
 do_dh'eighre d'oighir
 do_dh'eighreachadh d'oighriú
@@ -40672,6 +40775,7 @@ fad_ùine fadtréimhse
 fad_ùine fadtéarmach
 fad_ùine fhadtéarmach
 fada_an_comain faoi chomaoin mhór
+fada_nas i bhfad níos
 fadaicheadh_iad bhfadaídís
 fadaicheadh_iad bhfadóidís
 fadaicheadh_iad fadaídís
@@ -40901,6 +41005,7 @@ feadadh_iad feadaidís
 feadadh_tu bhfeadfá
 feadaidh_sinn bhfeadfaimid
 feadaidh_sinn feadfaimid
+feadh_an_t-saoghail ar fud an domhain
 fealla_dha greann
 fealla_dha magadh
 fealla_dha súgradh
@@ -42343,6 +42448,13 @@ ged_cha_robh cé nach raibh
 ged_is cé gur
 ged_is cé gurb
 ged_nach cé nach
+ged_nach_deach_a_chleachdadh cé nár úsáideadh
+ged_nach_deach_a_chur cé nár cuireadh
+ged_nach_deach_a_dhèanamh cé nach ndearnadh
+ged_nach_deach_an_cur cé nár cuireadh iad
+ged_nach_deach_an_togail cé nár tógadh iad
+ged_nach_deach_bruidhinn cé nár labhraíodh
+ged_nach_deach_fhoillseachadh cé nár foilsíodh
 ged_nach_do cé nár
 ged_robh cé go raibh
 ged_ta áfach
@@ -43526,6 +43638,8 @@ grìosaichidh_sinn gríosóimid
 grìosaichidh_sinn impeoimid
 grìosaichidh_sinn n-impeoimid
 grìosaichidh_sinn ngríosóimid
+gu'm_bu gur
+gu'm_bu gurbh
 gu'm_ionnsuidh chugam
 gu'n_d'thàinig gur tháinig
 gu-n_do gur
@@ -43803,9 +43917,23 @@ gun_choimeas gan sárú
 gun_d'thàinig gur tháinig
 gun_dail gan mhoill
 gun_dail láithreach
+gun_deach_a_chleachdadh gur úsáideadh
+gun_deach_a_chur gur cuireadh
+gun_deach_a_dhèanamh go ndearnadh
+gun_deach_a_thogail gur tógadh
+gun_deach_a_togail gur tógadh í
+gun_deach_an_cur gur cuireadh iad
+gun_deach_an_togail gur tógadh iad
+gun_deach_bruidhinn gur labhraíodh
+gun_deach_fhoillseachadh gur foilsíodh
+gun_deach_gabhail gur glacadh
+gun_deach_iarraidh gur iarradh
+gun_deach_innse gur insíodh
+gun_deach_mo_thogail gur tógadh mé
 gun_dig go dtiocfaidh
 gun_do gur
 gun_do_rinn go ndearna
+gun_do_rinneadh go ndearnadh
 gun_doubt gan dabht
 gun_dàil gan mhoill
 gun_dàil láithreach
@@ -50511,6 +50639,18 @@ mur_a_rinn mura ndearna
 mur_deidhinn fúibh
 mur_h-ann mura
 mura_b'e murab é
+mura_deach_a_chleachdadh murar úsáideadh
+mura_deach_a_chur murar cuireadh
+mura_deach_a_dhèanamh mura ndearnadh
+mura_deach_a_thogail murar tógadh
+mura_deach_a_togail murar tógadh í
+mura_deach_an_cur murar cuireadh iad
+mura_deach_an_togail murar tógadh iad
+mura_deach_bruidhinn murar labhraíodh
+mura_deach_fhoillseachadh murar foilsíodh
+mura_deach_iarraidh murar iarradh
+mura_deach_innse murar insíodh
+mura_deach_mo_thogail murar tógadh mé
 mura_h-ann mura
 murtadh_iad dúnmharaídís
 murtadh_iad ndúnmharaídís
@@ -50523,6 +50663,16 @@ mus_an sular
 mus_an_do sular
 mus_an_do_dh' sular
 mus_deach sula ndeachaigh
+mus_deach_a_chleachdadh sular úsáideadh
+mus_deach_a_chur sular cuireadh
+mus_deach_a_dhèanamh sula ndearnadh
+mus_deach_a_thogail sular tógadh
+mus_deach_a_togail sular tógadh í
+mus_deach_an_cur sular cuireadh iad
+mus_deach_an_togail sular tógadh iad
+mus_deach_bruidhinn sular labhraíodh
+mus_deach_fhoillseachadh sular foilsíodh
+mus_deach_mo_thogail sular tógadh mé
 mus_do sular
 mus_tàinig sular tháinig
 màbadh_iad cáinidís
@@ -50696,6 +50846,7 @@ na_chois lena chois
 na_chomain faoi chomaoin aige
 na_chomain_airson faoi chomaoin aige as
 na_chrùban ar a ghogaide
+na_chuir ar chuir
 na_craoibhe an chrainn
 na_crùban ar a gogaide
 na_càisge na Cásca
@@ -50774,6 +50925,7 @@ na_th' a bhfuil
 na_tha a bhfuil
 na_tha ná atá
 na_thug ar thug
+na_thèid_a_dhèanamh a ndéanfar
 na_tobrach an tobair
 na_videos na físeáin
 na_àite ina háit
@@ -50815,6 +50967,19 @@ nach_bi nach mbeidh
 nach_bu nár
 nach_d'_thug nár thug
 nach_d'thug nár thug
+nach_deach_a_chleachdadh nár úsáideadh
+nach_deach_a_chur nár cuireadh
+nach_deach_a_dhèanamh nach ndearnadh
+nach_deach_a_thogail nár tógadh
+nach_deach_a_togail nár tógadh í
+nach_deach_an_cur nár cuireadh iad
+nach_deach_an_togail nár tógadh iad
+nach_deach_bruidhinn nár labhraíodh
+nach_deach_fhoillseachadh nár foilsíodh
+nach_deach_gabhail nár glacadh
+nach_deach_iarraidh nár iarradh
+nach_deach_innse nár insíodh
+nach_deach_mo_thogail nár tógadh mé
 nach_do nár
 nach_do_dh' nár
 nach_do_rinn nach ndearna
@@ -51037,6 +51202,7 @@ nan_aonadan ina n-aonaid
 nan_aonadan na n-aonad
 nan_aonar ina n-aonar
 nan_armailtean na n-arm
+nan_cadal ina gcodladh
 nan_caileagan ina gcailíní
 nan_caileagan na gcailíní
 nan_caorach na gcaorach
@@ -51092,6 +51258,7 @@ nan_curaidhean ina gcuraidh
 nan_curaidhean na gcuradh
 nan_cuspairean na gcuspóirí
 nan_cuspairean na n-ábhar
+nan_cànanan na dteangacha
 nan_còdan na gcód
 nan_còirichean na gceart
 nan_còisirean na gcór
@@ -51137,6 +51304,7 @@ nan_iolairean na n-iolar
 nan_iomairtean na bhfeachtas
 nan_ionadan ina ionaid
 nan_ionadan na n-ionad
+nan_ionnsaighean na n-ionsaithe
 nan_laoidhean na n-iomann
 nan_leabhraichean na leabhar
 nan_leas-oifigearan na leasoifigeach
@@ -51225,6 +51393,7 @@ nan_ìomhaighean na n-íomhánna
 nan_ìomhaighean na ndealbh
 nan_ìrean na gcéimeanna
 nan_ìrean na leibhéal
+nan_òrain ina n-amhráin
 nan_òrain na n-amhrán
 nan_òrduighean na n-orduithe
 nan_ùbhlan na n-úll
@@ -51528,6 +51697,7 @@ nì_h-ann ní
 nì_sinn dhéanfaimid
 nì_sinn déanfaimid
 nì_sinn ndéanfaimid
+o_'n ón
 o_Afganastan ón Afganastáin
 o_Afghanistan ón Afganastáin
 o_Afraca ón Afraic
@@ -53577,6 +53747,8 @@ ris_a_bheil lena bhfuil
 ris_am_bi lena mbeidh
 ris_an_canar ar a dtugtar
 ris_an_cante ar a dtugtar
+ris_an_deach_bruidhinn lenar labhraíodh
+ris_an_deach_gabhail lenar glacadh
 ris_gach le gach
 ris_na_tha lena bhfuil
 ro-òrdaich_iad réamhordaíodar
@@ -54021,6 +54193,16 @@ san_ath_rud sa chéad rud eile
 san_ath_sheachdain sa chéad seachtain eile
 san_ath_thuras sa chéad uair eile
 san_ath_ìre sa chéad chéim eile
+san_deach_a_chleachdadh inar úsáideadh
+san_deach_a_chur inar cuireadh
+san_deach_a_dhèanamh ina ndearnadh
+san_deach_a_thogail inar tógadh
+san_deach_a_togail inar tógadh í
+san_deach_an_cur inar cuireadh iad
+san_deach_an_togail inar tógadh iad
+san_deach_bruidhinn inar labhraíodh
+san_deach_fhoillseachadh inar foilsíodh
+san_deach_mo_thogail inar tógadh mé
 san_do inar
 san_eadar-ama idir an dá linn
 san_eadar-àm idir an dá linn
@@ -59587,7 +59769,9 @@ thèid_a_chur cuirfear
 thèid_a_chur_air_bhog lainseálfar
 thèid_a_chur_an_gnìomh chuirfear i bhfeidhm
 thèid_a_chur_an_gnìomh chuirfear i ngníomh
+thèid_a_dhèanamh dhéanfar
 thèid_iarraidh iarrfar
+thèid_innse inseofar
 thèid_sinn dtéifimid
 thèid_sinn rachaimid
 thèid_sinn théifimid
