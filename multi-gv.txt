@@ -471,6 +471,8 @@ Yuanyn_Haink_Noal inimircigh
 Yuanyn_Haink_Noal n-inimirceach
 Yuanyn_Haink_Noal n-inimircigh
 Zealan_Noa an Nua-Shéalainn
+a_._m_._s srl
+a_._r_._e srl
 aa-enmys_ad athsheoladar
 aa-enmys_ad n-athsheoladar
 aa-enmys_shin athsheolamar
@@ -11010,6 +11012,7 @@ geynnagh_garroo ngarbhógach
 geynnagh_garroo ngarbhógaí
 geyreyder_gailley géarú goile
 ghaa_ghless-hooilley dhéshúiligh
+ghaa_wheesh dhá oiread
 ghaag_ad ghágadar
 ghaag_ad ngágadar
 ghaag_shin ghágamar
@@ -15487,6 +15490,8 @@ hogheragh_oo thochraisfeá
 hogheragh_shin thochraisfimis
 hoght_ad dtachtadar
 hoght_ad thachtadar
+hoght_cheead ocht gcéad
+hoght_keead ocht gcéad
 hoght_lhiatteeagh hochtagánach
 hoght_lhiatteeagh ochtagánach
 hoght_lhiatteeagh ochtagánacha
@@ -15494,6 +15499,7 @@ hoght_lhiatteeagh ochtagánaigh
 hoght_lhiatteeagh ochtagánaí
 hoght_shin dtachtamar
 hoght_shin thachtamar
+hoght_thousaneyn ocht míle
 hoghtagh_ad thachtfaidís
 hoghtagh_oo thachtfá
 hoghtagh_shin thachtfaimis
@@ -16835,7 +16841,14 @@ jeh_yn de an
 jeh_yn den
 jeh_yoin d'aon ghnó
 jeh_yoin d'aon turas
+jeih_bleeantyn deich mbliana
+jeih_blein deich mbliana
+jeih_cubityn deich mbanlámh
+jeih_mic deich mac
+jeih_peeshyn deich bpíosa
 jeih_puint deich bpunt
+jeih_shekelyn deich seiceal
+jeih_thousaneyn deich míle
 jeihoo_as_kiare_feed nóchadú
 jeihoo_as_tree_feed seachtódú
 jeihoo_as_tree_feed tseachtódú
@@ -17164,7 +17177,15 @@ kiarailyn_rolaue hullmhúcháin
 kiarailyn_rolaue hullmhúchán
 kiarailyn_rolaue ullmhúcháin
 kiarailyn_rolaue ullmhúchán
+kiare_cassyn ceithre chos
+kiare_corneilyn ceithre chúinne
+kiare_cretooryn ceithre chréatúr
+kiare_cubityn ceithre bhanlámh
 kiare_feed ceithre fichid
+kiare_keayrtyn ceithre huaire
+kiare_laghyn ceithre lá
+kiare_thousane ceithre mhíle
+kiare_thousaneyn ceithre mhíle
 kiareyder_shirveish_eddyr-voggyl soláthraí seirbhísí idirlín
 kiark_cholgagh cearc cholgach
 kiark_freoaie cearc fhraoigh
@@ -25075,6 +25096,8 @@ nansooragh_oo bhfreagrófá
 nansooragh_oo fhreagrófá
 nansooragh_shin bhfreagróimis
 nansooragh_shin fhreagróimis
+naoi_cheead naoi gcéad
+naoi_keead naoi gcéad
 napaghyn_jiarg n-órang-útain
 napaghyn_jiarg n-órang-útan
 napey_jiarg n-órang-útain
@@ -29119,10 +29142,17 @@ queeyl_vrash roth breise
 queeylleeagh_ad rothlóidís
 queeylleeagh_oo rothlófá
 queeylleeagh_shin rothlóimis
+queig_bleeantyn cúig bliana
+queig_bwilleenyn cúig bhuilín
 queig_cheead cúig chéad
+queig_cubityn cúig bhanlámh
 queig_dy cúig
 queig_dy cúigear
+queig_keead cúig chéad
+queig_minnidyn cúig nóiméad
 queig_puint cúig phunt
+queig_thousane cúig mhíle
+queig_thousaneyn cúig mhíle
 quiggal_ny_ben-shee coigeal na mban sí
 quiltagh_ad chuilteálfaidís
 quiltagh_ad gcuilteálfaidís
@@ -29593,8 +29623,10 @@ reiragh_oo riarfá
 reiragh_shin riarfaimis
 ren_ad a rinneadar
 ren_ad rinneadar
+ren_cheet a tháinig
 ren_shin rinneamar
 ren_soaiagh_jeh a ghlac leis
+ren_çheet a tháinig
 rere_ad riaradar
 rere_shen dá réir sin
 rere_shin riaramar
@@ -31109,6 +31141,11 @@ sheshaghyn_brastyl gcomhscoláirí
 sheshey_brastyl comhscoláire
 sheshey_brastyl gcomhscoláire
 sheshey_brastyl páirtí ranga
+shey_cubityn sé bhanlámh
+shey_mee sé mhí
+shey_meeghyn sé mhí
+shey_thousane sé mhíle
+shey_thousaneyn sé mhíle
 sheyginagh_ad chúlchoimhéadfaidís
 sheyginagh_ad gcúlchoimhéadfaidís
 sheyginagh_oo chúlchoimhéadfá
@@ -31116,7 +31153,12 @@ sheyginagh_oo gcúlchoimhéadfá
 sheyginagh_shin chúlchoimhéadfaimis
 sheyginagh_shin gcúlchoimhéadfaimis
 shiaght-feed_as_jeih céad go leith
+shiaght_bleeantyn seacht mbliana
+shiaght_cheead seacht gcéad
 shiaght_filley faoi sheacht
+shiaght_keayrtyn seacht n-uaire
+shiaght_laghyn seacht lá
+shiaght_thousaneyn seacht míle
 shiaghtyn_jiu seachtain ó inniu
 shiar_hwoaie d'oirthuaisceart
 shiar_hwoaie d'oirthuaiscirt
@@ -33750,6 +33792,7 @@ traa_ta nuair atá
 traa_tey am tae
 traen_cooid traein earraí
 trass_keayrt tríú huair
+tree_bleeantyn trí bliana
 tree_cassagh tríchosach
 tree_cassagh tríchosacha
 tree_cassagh tríchosaigh
@@ -33759,6 +33802,10 @@ tree_feed trí fichid
 tree_filley trífhillte
 tree_illit trífhillte
 tree_keayrtyn trí huaire
+tree_laghyn trí lá
+tree_lioaryn trí leabhar
+tree_mec trí mhac
+tree_meeghyn trí mhí
 tree_pingyn trí pingine
 treeal_jannoo_eh chun é a dhéanamh
 treiney_vraag tairne bróige
