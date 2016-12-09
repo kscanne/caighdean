@@ -16244,8 +16244,16 @@ ceistichidh_sinn ceisteoimid
 ceistichidh_sinn gceisteoimid
 ceithir_deicheadan daichead bliain
 ceithir_deug ceathair déag
+ceithir_làithean ceithre lá
+ceithir_mìle ceithre mhíle
+ceithir_mìosan ceithre mhí
 ceithir_ranna_ruadh ceithre hairde
 ceithir_ranna_ruadha ceithre hairde
+ceithir_seachdainean ceithre seachtaine
+ceithir_tursan ceithre huaire
+ceithir_tursan ceithre thuras
+ceithir_uairean a ceathair a chlog
+ceithir_uairean ceithre huaire
 ceumnaicheadh_iad céimnídís
 ceumnaicheadh_iad gcéimneoidís
 ceumnaicheadh_iad gcéimnídís
@@ -19612,8 +19620,13 @@ cò_às_a_tha_iad cad as dóibh
 cò_às_a_tha_sibh cad as daoibh
 cò_às_a_tha_thu cad as duit
 cò_às_a_thàinig cá as ar tháinig
+còig_ceud cúig chéad
 còig_deicheadan caoga bliain
 còig_deug cúig déag
+còig_mionaidean cúig nóiméad
+còig_mìle cúig mhíle
+còig_uairean a cúig a chlog
+còig_uairean cúig huaire
 còir_bhòtaidh ceart vótála
 còiricheadh_iad cóirídís
 còiricheadh_iad gcóireoidís
@@ -27938,6 +27951,10 @@ deataicheadh_iad ngalóidís
 deataicheadh_tu ngalófá
 deataichidh_sinn galóimid
 deataichidh_sinn ngalóimid
+deich_bliadhna deich mbliana
+deich_mionaidean deich nóiméad
+deich_uairean a deich a chlog
+deich_uairean deich n-uaire
 deifricheadh_iad deifrídís
 deifricheadh_iad ndeifreoidís
 deifricheadh_iad ndeifrídís
@@ -31866,9 +31883,11 @@ dhuisgeadh_tu dhúiseofá
 dhuisgeadh_tu mhúsclófá
 dhuisgidh_sinn dhúiseoimid
 dhuisgidh_sinn mhúsclóimid
+dhà_bhliadhna dhá bhliain
 dhà_chànanach dhátheangach
 dhà_chànanach dhátheangacha
 dhà_dheug dó dhéag
+dhà_fhichead daichead
 dhà_rireabh dáiríre
 dhà_rireamh dáiríre
 dhà_riribh dáiríre
@@ -40264,9 +40283,11 @@ duisgidh_sinn dúiseoimid
 duisgidh_sinn músclóimid
 duisgidh_sinn ndúiseoimid
 dur_n-ionnsaigh chugaibh
+dà_bhliadhna dhá bhliain
 dà_chànanach dátheangach
 dà_drireabh dáiríre
 dà_fhichead daichead
+dà_mhìos dhá mhí
 dà_rireabh dáiríre
 dà_rireamh dáiríre
 dà_rìreabh dáiríre
@@ -46055,6 +46076,7 @@ m'innealan_tomhais_aimsir m'anaróidigh
 m'inneil_tomhais_aimsir m'anaróidigh
 m'èisg_geal m'fhaoitín
 m'èisg_geal m'fhaoitíní
+m_._e_. m.sh.
 ma_'s más
 ma_deidhin fúithi
 ma_deidhinn fúithi
@@ -51400,7 +51422,12 @@ nan_ùbhlan na n-úll
 nan_ùghdaran ina n-údair
 nan_ùghdaran na n-údar
 nan_ùghdarrasan na n-údarás
+naoi_bliadhna naoi mbliana
+naoi_ceud naoi gcéad
 naoi_deug naoi déag
+naoi_mìosan naoi mí
+naoi_uairean a naoi a chlog
+naoi_uairean naoi n-uaire
 naomhaich_iad choisriceadar
 naomhaich_iad gcoisriceadar
 naomhaich_iad naomhaíodar
@@ -51888,7 +51915,11 @@ obraicheadh_tu n-oibreofá
 obraicheadh_tu oibreofá
 obraichidh_sinn n-oibreoimid
 obraichidh_sinn oibreoimid
+ochd_bliadhna ocht mbliana
+ochd_ceud ocht gcéad
 ochd_deug ocht déag
+ochd_uairean a hocht a chlog
+ochd_uairean ocht n-uaire
 oibricheadh_iad n-oibreoidís
 oibricheadh_iad n-oibrídís
 oibricheadh_iad oibreoidís
@@ -54291,7 +54322,19 @@ seachaineadh_iad seachnaídís
 seachaineadh_iad seachnóidís
 seachaineadh_tu seachnófá
 seachainidh_sinn seachnóimid
+seachd_bliadhna seacht mbliana
+seachd_ceud seacht gcéad
 seachd_deug seacht déag
+seachd_diasan seacht ndiasa
+seachd_làithean seacht lá
+seachd_searbh dubh dóite
+seachd_searbh tinn tuirseach
+seachd_searbh_sgith dubh dóite
+seachd_searbh_sgith tinn tuirseach
+seachd_searbh_sgìth dubh dóite
+seachd_searbh_sgìth tinn tuirseach
+seachd_uairean a seacht a chlog
+seachd_uairean seacht n-uaire
 seachdain_sa seachtain seo
 seachdain_sa_chaidh seachtain seo caite
 sealbhaicheadh_iad sealbhaídís
@@ -56394,7 +56437,12 @@ shùisteadh_iad shúisteálaidís
 shùisteadh_iad shúisteálfaidís
 shùisteadh_tu shúisteálfá
 shùistidh_sinn shúisteálfaimid
+sia_ceud sé chéad
 sia_deug sé déag
+sia_mìosan sé mhí
+sia_seachdainean sé seachtaine
+sia_uairean a sé a chlog
+sia_uairean sé huaire
 siabadh_iad caithidís
 siabadh_iad gcaithfidís
 siabadh_iad gcaithidís
@@ -60280,10 +60328,20 @@ tréigeadh_iad tréigidís
 tréigeadh_tu dtréigfeá
 tréigidh_sinn dtréigfimid
 tréigidh_sinn tréigfimid
+trì_bliadhnaichean trí bliana
 trì_chànanach trítheangach
 trì_chànanach trítheangacha
 trì_deicheadan tríocha bliain
 trì_deug trí déag
+trì_leabhraichean trí leabhar
+trì_làithean trí lá
+trì_mìle trí mhíle
+trì_mìosan trí mhí
+trì_seachdainean trí seachtaine
+trì_tursan trí huaire
+trì_tursan trí thuras
+trì_uairean a trí a chlog
+trì_uairean trí huaire
 tuaileasaicheadh_iad clúmhillidís
 tuaileasaicheadh_iad gclúmhillfidís
 tuaileasaicheadh_iad gclúmhillidís
