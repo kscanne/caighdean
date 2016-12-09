@@ -164,6 +164,18 @@
 's_a_gabhas agus is féidir
 's_a_ghabhas agus is féidir
 's_an_t-fhoghar san fhómhar
+'s_ann is
+'s_ann is ann
+'s_ann_a'_seo is anseo
+'s_ann_a'_sin is ansin
+'s_ann_a_seo is anseo
+'s_ann_a_sin is ansin
+'s_ann_am is i
+'s_ann_am is in
+'s_ann_an is i
+'s_ann_an is in
+'s_ann_an_seo is anseo
+'s_ann_an_sin is ansin
 's_coingeis_dhomh is cuma liom
 's_dòch' b'fhéidir
 's_dòch' is dócha
@@ -255,6 +267,7 @@ Cailleannaich_Nuadha Nua-Chaladónaigh
 Cailleannaiche_Nuadha Nua-Chaladónaí
 Cait_Cheallais Cait Chláracha
 Cal_Mac Cal Mac
+Calum_Cille Colm Cille
 Calum_a'_Chal Calum a' Chal
 Cape_Verde Rinn Verde
 Cat_Cheallais Cat Clárach
@@ -373,6 +386,7 @@ Loch_Nis Loch Nis
 Luchd_Ionnsachaidh Lucht Foghlamtha
 Là_Fhéill Lá Fhéile
 Là_Luain Dé Luain
+Làbaraich_na_h-Alba Páirtí an Lucht Oibre in Albain
 MIME_type cineál MIME
 MacGill_Eain MacGill-Eain
 Mac_Talla Macalla
@@ -554,6 +568,7 @@ a'_rithist arís
 a'_seo anseo
 a'_steach isteach
 a'_tadhal ag tabhairt cuairte
+a'_tha atá
 a'_tuigsinn ag tuiscint
 a'd_ionnsuidh chugat
 a'd_ionnsuidh-sa chugatsa
@@ -996,6 +1011,7 @@ a_dh'Israeleach d'Iosraelach
 a_dh'Israelich d'Iosraelaigh
 a_dh'Itioipe d'Aetóipe
 a_dh'Itiop d'Aetóip
+a_dh'Iubile d'iubhaile
 a_dh'Iuchair d'Iúil
 a_dh'Iuchar d'Iúil
 a_dh'Iudhach do Ghiúdach
@@ -1054,6 +1070,7 @@ a_dh'Ugandaich d'Ugandaigh
 a_dh'Ugràin d'Úcráin
 a_dh'Ugràine d'Úcráine
 a_dh'Uibhist d'Uibhist
+a_dh'Uibhist go hUibhist
 a_dh'Uilt d'Ailt
 a_dh'Ungair d'Ungáir
 a_dh'Ungair d'Ungáire
@@ -1083,6 +1100,7 @@ a_dh'_aithghearr go luath
 a_dh'_fhaodas a fhéadfaidh
 a_dh'_fheumas a chaithfidh
 a_dh'_innse_na_fìrinn leis an bhfírinne a rá
+a_dh'_iomadh den uile
 a_dh'_ionnsaidh chun
 a_dh'_ionnsaigh chun
 a_dh'_ionnsuidh chun
@@ -2139,6 +2157,7 @@ a_dh'analaisean d'anailísí
 a_dh'anam d'anam
 a_dh'anama d'anama
 a_dh'anaman d'anamacha
+a_dh'anamannan d'anamacha
 a_dh'anann d'anann
 a_dh'anarag d'anarac
 a_dh'anaragan d'anarac
@@ -2925,8 +2944,10 @@ a_dh'ealdhainean d'ealaíona
 a_dh'ealla d'amhairc
 a_dh'ealla d'amharc
 a_dh'eallach d'ualach
+a_dh'eallachan d'ualaí
 a_dh'eallaich d'ualaigh
 a_dh'eallaich d'ualaí
+a_dh'eallaichean d'ualaí
 a_dh'ealt d'ealta
 a_dh'ealta d'ealta
 a_dh'ealtainn d'ealta
@@ -3315,6 +3336,10 @@ a_dh'eu-comais d'éagumais
 a_dh'eu-comas d'éagumas
 a_dh'eu-dòchais d'éadóchais
 a_dh'eu-dòchas d'éadóchas
+a_dh'eubhadh do bhéiceadh
+a_dh'eubhadh do scairteadh
+a_dh'eubhaidh do bhéicthe
+a_dh'eubhaidh do scairte
 a_dh'eucail d'éagruas
 a_dh'eucailean d'éagruais
 a_dh'eucailean d'éagruas
@@ -4379,6 +4404,7 @@ a_dh'fhilm do scannáin
 a_dh'fhilm do scannán
 a_dh'fhilmadh do scannánaíocht
 a_dh'fhilmadh do scannánú
+a_dh'fhilmaichean do scannáin
 a_dh'fhilmaidh do scannánaithe
 a_dh'fhilmaidh do scannánaíochta
 a_dh'fhilmeadair do scannánóir
@@ -4868,6 +4894,8 @@ a_dh'fhuar-chràbhaiche d'fhimíneach
 a_dh'fhuar-chràbhaiche d'fhimínigh
 a_dh'fhuar-chràbhaichean d'fhimíneach
 a_dh'fhuar-chràbhaichean d'fhimínigh
+a_dh'fhuar-lite d'fhuarleite
+a_dh'fhuar-lite d'fhuarleitean
 a_dh'fhuarachadh d'fhuarú
 a_dh'fhuarachaidh d'fhuaraithe
 a_dh'fhuarachd d'fhuaraíocht
@@ -4875,6 +4903,8 @@ a_dh'fhuarachd d'fhuaraíochta
 a_dh'fhuaradair do chuisneoir
 a_dh'fhuaradair do chuisneora
 a_dh'fhuaradairean do chuisneoirí
+a_dh'fhuarag d'fhuarleite
+a_dh'fhuaraig d'fhuarleitean
 a_dh'fhuarain d'fhuaráin
 a_dh'fhuarain do thobair
 a_dh'fhuaran d'fhuarán
@@ -4921,13 +4951,22 @@ a_dh'fhuincseanan d'fheidhmeanna
 a_dh'fhuincsein d'fheidhme
 a_dh'fhuine d'fhuineadh
 a_dh'fhuine d'fhuinidh
+a_dh'fhuineadair d'fhuinteoir
+a_dh'fhuineadair d'fhuinteora
+a_dh'fhuineadair do bháicéara
+a_dh'fhuineadair do bháicéir
+a_dh'fhuineadairean d'fhuinteoirí
+a_dh'fhuineadairean do bháicéirí
 a_dh'fhuineadh d'fhuineadh
 a_dh'fhuinidh d'fhuinte
 a_dh'fhuinn d'fhoinn
 a_dh'fhuinn d'fhonn
 a_dh'fhuinneadair d'fhuinteoir
 a_dh'fhuinneadair d'fhuinteora
+a_dh'fhuinneadair do bháicéara
+a_dh'fhuinneadair do bháicéir
 a_dh'fhuinneadairean d'fhuinteoirí
+a_dh'fhuinneadairean do bháicéirí
 a_dh'fhuireach d'fhanacht
 a_dh'fhuireach d'fhuireach
 a_dh'fhuireachd d'fhanacht
@@ -5883,6 +5922,7 @@ a_dh'iomadachd d'éagsúlachta
 a_dh'iomadalachd d'iomadúlacht
 a_dh'iomadalachd d'iomadúlachta
 a_dh'iomadan d'iolraithe
+a_dh'iomadh den uile
 a_dh'iomagain d'imní
 a_dh'iomagaine d'imní
 a_dh'iomaguin d'imní
@@ -6228,6 +6268,9 @@ a_dh'iutharna d'ifreann
 a_dh'iutharna d'ifrinn
 a_dh'iòga d'ióga
 a_dh'iòga do gheoga
+a_dh'iùbailidh d'iubhaile
+a_dh'iùbailidhe d'iubhaile
+a_dh'iùbailidhean d'iubhailí
 a_dh'iùil do threorach
 a_dh'iùil-tharraing do mhaighnéadas
 a_dh'iùil-tharrainge do mhaighnéadais
@@ -6983,6 +7026,7 @@ a_dh'uiseig d'fhuiseoige
 a_dh'uisg d'uisce
 a_dh'uisg' d'uisce
 a_dh'uisge d'uisce
+a_dh'uisge-beatha d'uisce beatha
 a_dh'uisgeacha d'uiscí
 a_dh'uisgeachadh d'uisciú
 a_dh'uisgeachaidh d'uiscithe
@@ -7636,12 +7680,16 @@ a_dh'èibheach d'éamh
 a_dh'èibheach do bhéiceadh
 a_dh'èibheach do bhéicíl
 a_dh'èibheach do scairteadh
+a_dh'èibheadh do bhéiceadh
+a_dh'èibheadh do scairteadh
 a_dh'èibheall d'aibhleog
 a_dh'èibheall do sméaróid
 a_dh'èibhich d'éimh
 a_dh'èibhich do bhéicthe
 a_dh'èibhich do bhéicíola
 a_dh'èibhich do scairte
+a_dh'èibhidh do bhéicthe
+a_dh'èibhidh do scairte
 a_dh'èibhle d'aibhleoige
 a_dh'èibhle do sméaróide
 a_dh'èibhleag d'aibhleog
@@ -8531,6 +8579,7 @@ air_a_gabhail_os_làimh glactha
 air_a_gealltainn geallta
 air_a_gearradh gearrtha
 air_a_ghealltainn geallta
+air_a_ghlacadh glactha
 air_a_ghlasadh faoi ghlas
 air_a_glacadh glactha
 air_a_glasadh faoi ghlas
@@ -8730,6 +8779,7 @@ air_an_atharrachadh athraithe
 air_an_caill caillte
 air_an_caitheadh caite
 air_an_call caillte
+air_an_casan ar a gcosa
 air_an_ceangal ceangailte
 air_an_claoidh cloíte
 air_an_cleachdadh úsáidte
@@ -9030,6 +9080,7 @@ air_fhoillseachadh_le foilsithe ag
 air_fhàgail fágtha
 air_fiosrachadh ar eolas
 air_fiosrachadh ar fhaisnéis
+air_flod ar snámh
 air_foghlam ar fhoghlaim
 air_foghlam ar oideachas
 air_foghlam tar éis foghlaim
@@ -9623,6 +9674,7 @@ am_bu_toigh ar mhaith
 am_dhèidh i mo dhiaidh
 am_dhéidh i mo dhiaidh
 am_faca an bhfaca
+am_facaidh an bhfaca
 am_fagas i bhfogas
 am_fagus i bhfogas
 am_faic an bhfeicfidh
@@ -9644,6 +9696,7 @@ am_ionnsaidh chugam
 am_ionnsaigh chugam
 am_ionnsaigh-sa chugamsa
 am_ionnsuidh chugam
+am_mach amach
 am_meadhan i lár
 am_measg i measc
 am_miosad in olcas
@@ -9754,6 +9807,12 @@ an_a_dhèidh ina dhiaidh
 an_abair an ndéarfaidh
 an_abhainn_Rhine an Réin
 an_aghaidh in aghaidh
+an_ann an
+an_ann_Alba in Albain
+an_ann_Dun i nDún
+an_ann_Glaschu i nGlaschú
+an_ann_Inbhir_Nis in Inbhir Nis
+an_ann_Èirinn in Éirinn
 an_asgaidh in aisce
 an_ath-bhliadhna an chéad bhliain eile
 an_ath-cheum an chéad chéim eile
@@ -16268,10 +16327,14 @@ ceusaidh_sinn céasfaimid
 ceusaidh_sinn gcéasfaimid
 ceòl_jazz snagcheol
 ceòl_rock rac-cheol
+cha'n_'eil níl
+cha'n_ann ní
 cha-n_'eil ní bhíonn
 cha-n_'eil níl
 cha-n_eil ní bhíonn
 cha-n_eil níl
+cha_b'_ann níor
+cha_b'_ann níorbh
 cha_b'_e níorbh é
 cha_b'_fhada níorbh fhada
 cha_b'_fhiach níorbh fhiú
@@ -16290,6 +16353,8 @@ cha_b'_urrainn_dhuibh níorbh fhéidir leat
 cha_b'_urrainn_dhuibh níorbh fhéidir libh
 cha_b'_urrainn_dhuinn níorbh fhéidir linn
 cha_b'_urrainn_dhut níorbh fhéidir leat
+cha_b'ann níor
+cha_b'ann níorbh
 cha_b'e níorbh é
 cha_b'fhada níorbh fhada
 cha_b'fhasa níorbh fhusa
@@ -16592,6 +16657,16 @@ champaicheadh_iad champálfaidís
 champaicheadh_tu champálfá
 champaichidh_sinn champálfaimid
 chan_ann ní
+chan_ann_a'_seo ní anseo
+chan_ann_a'_sin ní ansin
+chan_ann_a_seo ní anseo
+chan_ann_a_sin ní ansin
+chan_ann_am ní i
+chan_ann_am ní in
+chan_ann_an ní i
+chan_ann_an ní in
+chan_ann_an_seo ní anseo
+chan_ann_an_sin ní ansin
 chan_e ní
 chan_eH níl
 chan_e_a' ní hé an
@@ -16616,6 +16691,7 @@ chan_eil_e_math níl sé go maith
 chan_eilear níltear
 chan_ell ní bhíonn
 chan_ell níl
+chan_facaidh ní fhaca
 chan_fhac ní fhaca
 chan_fhaca ní fhaca
 chan_fhaigh ní bhfaighidh
@@ -20365,6 +20441,7 @@ de_dh'Israeleach d'Iosraelach
 de_dh'Israelich d'Iosraelaigh
 de_dh'Itioipe d'Aetóipe
 de_dh'Itiop d'Aetóip
+de_dh'Iubile d'iubhaile
 de_dh'Iuchair d'Iúil
 de_dh'Iuchar d'Iúil
 de_dh'Iudhach de Ghiúdach
@@ -20446,6 +20523,7 @@ de_dh'Usbagaich d'Úisbéiceastánaigh
 de_dh'Usbagais d'Úisbéicis
 de_dh'Usbagais d'Úisbéicise
 de_dh'_inbhich de dhaoine fásta
+de_dh'_iomadh den uile
 de_dh'_oileanach de mhac léinn
 de_dh'_oileanaich de mhic léinn
 de_dh'ab d'ab
@@ -21495,6 +21573,7 @@ de_dh'analaisean d'anailísí
 de_dh'anam d'anam
 de_dh'anama d'anama
 de_dh'anaman d'anamacha
+de_dh'anamannan d'anamacha
 de_dh'anann d'anann
 de_dh'anarag d'anarac
 de_dh'anaragan d'anarac
@@ -22276,8 +22355,10 @@ de_dh'ealdhainean d'ealaíona
 de_dh'ealla d'amhairc
 de_dh'ealla d'amharc
 de_dh'eallach d'ualach
+de_dh'eallachan d'ualaí
 de_dh'eallaich d'ualaigh
 de_dh'eallaich d'ualaí
+de_dh'eallaichean d'ualaí
 de_dh'ealt d'ealta
 de_dh'ealta d'ealta
 de_dh'ealtainn d'ealta
@@ -22666,6 +22747,10 @@ de_dh'eu-comais d'éagumais
 de_dh'eu-comas d'éagumas
 de_dh'eu-dòchais d'éadóchais
 de_dh'eu-dòchas d'éadóchas
+de_dh'eubhadh de bhéiceadh
+de_dh'eubhadh de scairteadh
+de_dh'eubhaidh de bhéicthe
+de_dh'eubhaidh de scairte
 de_dh'eucail d'éagruas
 de_dh'eucailean d'éagruais
 de_dh'eucailean d'éagruas
@@ -23730,6 +23815,7 @@ de_dh'fhilm de scannáin
 de_dh'fhilm de scannán
 de_dh'fhilmadh de scannánaíocht
 de_dh'fhilmadh de scannánú
+de_dh'fhilmaichean de scannáin
 de_dh'fhilmaidh de scannánaithe
 de_dh'fhilmaidh de scannánaíochta
 de_dh'fhilmeadair de scannánóir
@@ -24219,6 +24305,8 @@ de_dh'fhuar-chràbhaiche d'fhimíneach
 de_dh'fhuar-chràbhaiche d'fhimínigh
 de_dh'fhuar-chràbhaichean d'fhimíneach
 de_dh'fhuar-chràbhaichean d'fhimínigh
+de_dh'fhuar-lite d'fhuarleite
+de_dh'fhuar-lite d'fhuarleitean
 de_dh'fhuarachadh d'fhuarú
 de_dh'fhuarachaidh d'fhuaraithe
 de_dh'fhuarachd d'fhuaraíocht
@@ -24226,6 +24314,8 @@ de_dh'fhuarachd d'fhuaraíochta
 de_dh'fhuaradair de chuisneoir
 de_dh'fhuaradair de chuisneora
 de_dh'fhuaradairean de chuisneoirí
+de_dh'fhuarag d'fhuarleite
+de_dh'fhuaraig d'fhuarleitean
 de_dh'fhuarain d'fhuaráin
 de_dh'fhuarain de thobair
 de_dh'fhuaran d'fhuarán
@@ -24272,13 +24362,22 @@ de_dh'fhuincseanan d'fheidhmeanna
 de_dh'fhuincsein d'fheidhme
 de_dh'fhuine d'fhuineadh
 de_dh'fhuine d'fhuinidh
+de_dh'fhuineadair d'fhuinteoir
+de_dh'fhuineadair d'fhuinteora
+de_dh'fhuineadair de bháicéara
+de_dh'fhuineadair de bháicéir
+de_dh'fhuineadairean d'fhuinteoirí
+de_dh'fhuineadairean de bháicéirí
 de_dh'fhuineadh d'fhuineadh
 de_dh'fhuinidh d'fhuinte
 de_dh'fhuinn d'fhoinn
 de_dh'fhuinn d'fhonn
 de_dh'fhuinneadair d'fhuinteoir
 de_dh'fhuinneadair d'fhuinteora
+de_dh'fhuinneadair de bháicéara
+de_dh'fhuinneadair de bháicéir
 de_dh'fhuinneadairean d'fhuinteoirí
+de_dh'fhuinneadairean de bháicéirí
 de_dh'fhuireach d'fhanacht
 de_dh'fhuireach d'fhuireach
 de_dh'fhuireachd d'fhanacht
@@ -25234,6 +25333,7 @@ de_dh'iomadalachd d'iomadúlacht
 de_dh'iomadalachd d'iomadúlachta
 de_dh'iomadan d'iolraithe
 de_dh'iomadh d'iomaí
+de_dh'iomadh den uile
 de_dh'iomagain d'imní
 de_dh'iomagaine d'imní
 de_dh'iomaguin d'imní
@@ -25571,6 +25671,9 @@ de_dh'iutharna d'ifreann
 de_dh'iutharna d'ifrinn
 de_dh'iòga d'ióga
 de_dh'iòga de gheoga
+de_dh'iùbailidh d'iubhaile
+de_dh'iùbailidhe d'iubhaile
+de_dh'iùbailidhean d'iubhailí
 de_dh'iùil de threorach
 de_dh'iùil-tharraing de mhaighnéadas
 de_dh'iùil-tharrainge de mhaighnéadais
@@ -26327,6 +26430,7 @@ de_dh'uiseig d'fhuiseoige
 de_dh'uisg d'uisce
 de_dh'uisg' d'uisce
 de_dh'uisge d'uisce
+de_dh'uisge-beatha d'uisce beatha
 de_dh'uisgeacha d'uiscí
 de_dh'uisgeachadh d'uisciú
 de_dh'uisgeachaidh d'uiscithe
@@ -26979,12 +27083,16 @@ de_dh'èibheach d'éamh
 de_dh'èibheach de bhéiceadh
 de_dh'èibheach de bhéicíl
 de_dh'èibheach de scairteadh
+de_dh'èibheadh de bhéiceadh
+de_dh'èibheadh de scairteadh
 de_dh'èibheall d'aibhleog
 de_dh'èibheall de sméaróid
 de_dh'èibhich d'éimh
 de_dh'èibhich de bhéicthe
 de_dh'èibhich de bhéicíola
 de_dh'èibhich de scairte
+de_dh'èibhidh de bhéicthe
+de_dh'èibhidh de scairte
 de_dh'èibhle d'aibhleoige
 de_dh'èibhle de sméaróide
 de_dh'èibhleag d'aibhleog
@@ -27631,6 +27739,8 @@ deagh_dhòigh bealach maith
 deagh_dhùrachd dea-ghuí
 deagh_dhùrachd dea-mhéine
 deagh_dhùrachd ndea-ghuí
+deagh_eiseimpleir dea-shampla
+deagh_eiseimpleir ndea-shampla
 deagh_eisimpleir dea-shampla
 deagh_eisimpleir ndea-shampla
 deagh_eisimpleirean dea-shamplaí
@@ -29034,6 +29144,30 @@ dh'eisteadh_iad éistfidís
 dh'eisteadh_tu d'éistfeá
 dh'eisteadh_tu n-éistfeá
 dh'eisteadh_tu éistfeá
+dh'eubh_iad bhéiceadar
+dh'eubh_iad d'éadar
+dh'eubh_iad ghlaodar
+dh'eubh_iad mbéiceadar
+dh'eubh_iad n-éadar
+dh'eubh_iad nglaodar
+dh'eubh_iad scairteadar
+dh'eubh_iad éadar
+dh'eubh_sinn bhéiceamar
+dh'eubh_sinn d'éamar
+dh'eubh_sinn ghlaomar
+dh'eubh_sinn mbéiceamar
+dh'eubh_sinn n-éamar
+dh'eubh_sinn nglaomar
+dh'eubh_sinn scairteamar
+dh'eubh_sinn éamar
+dh'eubhadh_iad bhéicfidís
+dh'eubhadh_iad d'éifidís
+dh'eubhadh_iad ghlaofaidís
+dh'eubhadh_iad scairtfidís
+dh'eubhadh_tu bhéicfeá
+dh'eubhadh_tu d'éifeá
+dh'eubhadh_tu ghlaofá
+dh'eubhadh_tu scairtfeá
 dh'eucoirich_iad d'éagóiríodar
 dh'eucoirich_iad n-éagóiríodar
 dh'eucoirich_iad éagóiríodar
@@ -31171,6 +31305,7 @@ dheagh_chuimhne dhea-chuimhne
 dheagh_dhuine dhea-dhuine
 dheagh_dhurachd dhea-ghuí
 dheagh_dhùrachd dhea-ghuí
+dheagh_eiseimpleir dhea-shampla
 dheagh_eisimpleir dhea-shampla
 dheagh_fhacal dhea-fhocail
 dheagh_fhacal dhea-fhocal
@@ -32286,6 +32421,7 @@ dlùthaicheadh_iad ndlúthóidís
 dlùthaicheadh_tu ndlúthófá
 dlùthaichidh_sinn dlúthóimid
 dlùthaichidh_sinn ndlúthóimid
+do_'n don
 do_'n_ionnsaidh-san chucusan
 do_'n_ionnsuidh chucu
 do_'n_ionnsuidh-san chucusan
@@ -32779,6 +32915,7 @@ do_dh'Israeleach d'Iosraelach
 do_dh'Israelich d'Iosraelaigh
 do_dh'Itioipe d'Aetóipe
 do_dh'Itiop d'Aetóip
+do_dh'Iubile d'iubhaile
 do_dh'Iuchair d'Iúil
 do_dh'Iuchar d'Iúil
 do_dh'Iudhach do Ghiúdach
@@ -33912,6 +34049,7 @@ do_dh'analaisean d'anailísí
 do_dh'anam d'anam
 do_dh'anama d'anama
 do_dh'anaman d'anamacha
+do_dh'anamannan d'anamacha
 do_dh'anann d'anann
 do_dh'anarag d'anarac
 do_dh'anaragan d'anarac
@@ -34693,8 +34831,10 @@ do_dh'ealdhainean d'ealaíona
 do_dh'ealla d'amhairc
 do_dh'ealla d'amharc
 do_dh'eallach d'ualach
+do_dh'eallachan d'ualaí
 do_dh'eallaich d'ualaigh
 do_dh'eallaich d'ualaí
+do_dh'eallaichean d'ualaí
 do_dh'ealt d'ealta
 do_dh'ealta d'ealta
 do_dh'ealtainn d'ealta
@@ -35083,6 +35223,10 @@ do_dh'eu-comais d'éagumais
 do_dh'eu-comas d'éagumas
 do_dh'eu-dòchais d'éadóchais
 do_dh'eu-dòchas d'éadóchas
+do_dh'eubhadh do bhéiceadh
+do_dh'eubhadh do scairteadh
+do_dh'eubhaidh do bhéicthe
+do_dh'eubhaidh do scairte
 do_dh'eucail d'éagruas
 do_dh'eucailean d'éagruais
 do_dh'eucailean d'éagruas
@@ -36146,6 +36290,7 @@ do_dh'fhilm do scannáin
 do_dh'fhilm do scannán
 do_dh'fhilmadh do scannánaíocht
 do_dh'fhilmadh do scannánú
+do_dh'fhilmaichean do scannáin
 do_dh'fhilmaidh do scannánaithe
 do_dh'fhilmaidh do scannánaíochta
 do_dh'fhilmeadair do scannánóir
@@ -36635,6 +36780,8 @@ do_dh'fhuar-chràbhaiche d'fhimíneach
 do_dh'fhuar-chràbhaiche d'fhimínigh
 do_dh'fhuar-chràbhaichean d'fhimíneach
 do_dh'fhuar-chràbhaichean d'fhimínigh
+do_dh'fhuar-lite d'fhuarleite
+do_dh'fhuar-lite d'fhuarleitean
 do_dh'fhuarachadh d'fhuarú
 do_dh'fhuarachaidh d'fhuaraithe
 do_dh'fhuarachd d'fhuaraíocht
@@ -36642,6 +36789,8 @@ do_dh'fhuarachd d'fhuaraíochta
 do_dh'fhuaradair do chuisneoir
 do_dh'fhuaradair do chuisneora
 do_dh'fhuaradairean do chuisneoirí
+do_dh'fhuarag d'fhuarleite
+do_dh'fhuaraig d'fhuarleitean
 do_dh'fhuarain d'fhuaráin
 do_dh'fhuarain do thobair
 do_dh'fhuaran d'fhuarán
@@ -36688,13 +36837,22 @@ do_dh'fhuincseanan d'fheidhmeanna
 do_dh'fhuincsein d'fheidhme
 do_dh'fhuine d'fhuineadh
 do_dh'fhuine d'fhuinidh
+do_dh'fhuineadair d'fhuinteoir
+do_dh'fhuineadair d'fhuinteora
+do_dh'fhuineadair do bháicéara
+do_dh'fhuineadair do bháicéir
+do_dh'fhuineadairean d'fhuinteoirí
+do_dh'fhuineadairean do bháicéirí
 do_dh'fhuineadh d'fhuineadh
 do_dh'fhuinidh d'fhuinte
 do_dh'fhuinn d'fhoinn
 do_dh'fhuinn d'fhonn
 do_dh'fhuinneadair d'fhuinteoir
 do_dh'fhuinneadair d'fhuinteora
+do_dh'fhuinneadair do bháicéara
+do_dh'fhuinneadair do bháicéir
 do_dh'fhuinneadairean d'fhuinteoirí
+do_dh'fhuinneadairean do bháicéirí
 do_dh'fhuireach d'fhanacht
 do_dh'fhuireach d'fhuireach
 do_dh'fhuireachd d'fhanacht
@@ -37651,6 +37809,7 @@ do_dh'iomadalachd d'iomadúlacht
 do_dh'iomadalachd d'iomadúlachta
 do_dh'iomadan d'iolraithe
 do_dh'iomadh d'iomaí
+do_dh'iomadh do mhórán
 do_dh'iomagain d'imní
 do_dh'iomagaine d'imní
 do_dh'iomaguin d'imní
@@ -37988,6 +38147,9 @@ do_dh'iutharna d'ifreann
 do_dh'iutharna d'ifrinn
 do_dh'iòga d'ióga
 do_dh'iòga do gheoga
+do_dh'iùbailidh d'iubhaile
+do_dh'iùbailidhe d'iubhaile
+do_dh'iùbailidhean d'iubhailí
 do_dh'iùil do threorach
 do_dh'iùil-tharraing do mhaighnéadas
 do_dh'iùil-tharrainge do mhaighnéadais
@@ -39396,12 +39558,16 @@ do_dh'èibheach d'éamh
 do_dh'èibheach do bhéiceadh
 do_dh'èibheach do bhéicíl
 do_dh'èibheach do scairteadh
+do_dh'èibheadh do bhéiceadh
+do_dh'èibheadh do scairteadh
 do_dh'èibheall d'aibhleog
 do_dh'èibheall do sméaróid
 do_dh'èibhich d'éimh
 do_dh'èibhich do bhéicthe
 do_dh'èibhich do bhéicíola
 do_dh'èibhich do scairte
+do_dh'èibhidh do bhéicthe
+do_dh'èibhidh do scairte
 do_dh'èibhle d'aibhleoige
 do_dh'èibhle do sméaróide
 do_dh'èibhleag d'aibhleog
@@ -40716,6 +40882,38 @@ eisteadh_tu n-éistfeá
 eisteadh_tu éistfeá
 eistidh_sinn n-éistfimid
 eistidh_sinn éistfimid
+eubhadh_iad bhéicfidís
+eubhadh_iad bhéicidís
+eubhadh_iad béicidís
+eubhadh_iad ghlaofaidís
+eubhadh_iad ghlaoidís
+eubhadh_iad glaoidís
+eubhadh_iad mbéicfidís
+eubhadh_iad mbéicidís
+eubhadh_iad n-éidís
+eubhadh_iad n-éifidís
+eubhadh_iad nglaofaidís
+eubhadh_iad nglaoidís
+eubhadh_iad scairtfidís
+eubhadh_iad scairtidís
+eubhadh_iad éidís
+eubhadh_iad éifidís
+eubhadh_tu bhéicfeá
+eubhadh_tu ghlaofá
+eubhadh_tu mbéicfeá
+eubhadh_tu n-éifeá
+eubhadh_tu nglaofá
+eubhadh_tu scairtfeá
+eubhadh_tu éifeá
+eubhaidh_sinn bhéicfimid
+eubhaidh_sinn béicfimid
+eubhaidh_sinn ghlaofaimid
+eubhaidh_sinn glaofaimid
+eubhaidh_sinn mbéicfimid
+eubhaidh_sinn n-éifimid
+eubhaidh_sinn nglaofaimid
+eubhaidh_sinn scairtfimid
+eubhaidh_sinn éifimid
 eucoiricheadh_iad n-éagóireoidís
 eucoiricheadh_iad n-éagóirídís
 eucoiricheadh_iad éagóireoidís
@@ -42184,6 +42382,7 @@ fùcadh_iad úcaidís
 fùcadh_tu n-úcfá
 fùcaidh_sinn n-úcfaimid
 fùcaidh_sinn úcfaimid
+g'_am_fàgail do m'fhágáil
 g'_eil go bhfuil
 g'a_ionnsuidh chuige
 g'e_brith is cuma
@@ -42468,7 +42667,25 @@ ged_cha_do cé nár
 ged_cha_robh cé nach raibh
 ged_is cé gur
 ged_is cé gurb
+ged_is_ann cé gur
+ged_is_ann cé gur ann
+ged_is_ann_am cé gur i
+ged_is_ann_am cé gur in
+ged_is_ann_an cé gur i
+ged_is_ann_an cé gur in
 ged_nach cé nach
+ged_nach_ann cé nach
+ged_nach_ann cé nach ann
+ged_nach_ann_a'_seo cé nach anseo
+ged_nach_ann_a'_sin cé nach ansin
+ged_nach_ann_a_seo cé nach anseo
+ged_nach_ann_a_sin cé nach ansin
+ged_nach_ann_am cé nach i
+ged_nach_ann_am cé nach in
+ged_nach_ann_an cé nach i
+ged_nach_ann_an cé nach in
+ged_nach_ann_an_seo cé nach anseo
+ged_nach_ann_an_sin cé nach ansin
 ged_nach_deach_a_chleachdadh cé nár úsáideadh
 ged_nach_deach_a_chur cé nár cuireadh
 ged_nach_deach_a_dhèanamh cé nach ndearnadh
@@ -43831,6 +44048,7 @@ gu_feumte go gcaithfí
 gu_fortanach ar an dea-uair
 gu_h-aon-ghuthach d'aon ghuth
 gu_h-aon_ghuthach d'aon ghuth
+gu_h-aona-ghuthach d'aon ghuth
 gu_h-aona_ghuthach d'aon ghuth
 gu_h-àrsaideach ar dtús
 gu_inbhe go hinmhe
@@ -43984,6 +44202,18 @@ gun_urrainn_dhuibh gur féidir leat
 gun_urrainn_dhuibh gur féidir libh
 gun_urrainn_dhuinn gur féidir linn
 gun_urrainn_dhut gur féidir leat
+gur_ann gur
+gur_ann gur ann
+gur_ann_a'_seo gur anseo
+gur_ann_a'_sin gur ansin
+gur_ann_a_seo gur anseo
+gur_ann_a_sin gur ansin
+gur_ann_am gur i
+gur_ann_am gur in
+gur_ann_an gur i
+gur_ann_an gur in
+gur_ann_an_seo gur anseo
+gur_ann_an_sin gur ansin
 gur_dòch' go mb'fhéidir
 gur_dòch' gur dócha
 gur_dòcha go mb'fhéidir
@@ -44195,6 +44425,10 @@ h-eireadh_iad héirídís
 h-eiridnicheadh_iad muirnídís
 h-eisdeadh_iad héistidís
 h-eisteadh_iad héistidís
+h-eubhadh_iad béicidís
+h-eubhadh_iad glaoidís
+h-eubhadh_iad héidís
+h-eubhadh_iad scairtidís
 h-eucoiricheadh_iad héagóirídís
 h-eucoricheadh_iad héagóirídís
 h-eugadh_iad héagaidís
@@ -44603,6 +44837,18 @@ irioslaichidh_sinn uirísleoimid
 is_a_gabhas agus is féidir
 is_a_ghabhas agus is féidir
 is_an-aoibhinn is mairg
+is_ann is
+is_ann is ann
+is_ann_a'_seo is anseo
+is_ann_a'_sin is ansin
+is_ann_a_seo is anseo
+is_ann_a_sin is ansin
+is_ann_am is i
+is_ann_am is in
+is_ann_an is i
+is_ann_an is in
+is_ann_an_seo is anseo
+is_ann_an_sin is ansin
 is_coireach_airson is cúis le
 is_coireach_airson is cúis leis
 is_coireach_gu an chúis go
@@ -46078,6 +46324,17 @@ m'èisg_geal m'fhaoitín
 m'èisg_geal m'fhaoitíní
 m_._e_. m.sh.
 ma_'s más
+ma_'s_ann más
+ma_'s_ann_a'_seo más anseo
+ma_'s_ann_a'_sin más ansin
+ma_'s_ann_a_seo más anseo
+ma_'s_ann_a_sin más ansin
+ma_'s_ann_am más i
+ma_'s_ann_am más in
+ma_'s_ann_an más i
+ma_'s_ann_an más in
+ma_'s_ann_an_seo más anseo
+ma_'s_ann_an_sin más ansin
 ma_deidhin fúithi
 ma_deidhinn fúithi
 ma_dh'fhaodhte b'fhéidir
@@ -46190,6 +46447,17 @@ martraicheadh_iad martraídís
 martraicheadh_iad martróidís
 martraicheadh_tu martrófá
 martraichidh_sinn martróimid
+mas_ann más
+mas_ann_a'_seo más anseo
+mas_ann_a'_sin más ansin
+mas_ann_a_seo más anseo
+mas_ann_a_sin más ansin
+mas_ann_am más i
+mas_ann_am más in
+mas_ann_an más i
+mas_ann_an más in
+mas_ann_an_seo más anseo
+mas_ann_an_sin más ansin
 mas_eadh más ea
 mas_fhìor mar dhea
 mas_urrainn_dha más féidir leis
@@ -48702,10 +48970,14 @@ mo_fhuar-chràbhaiche m'fhimíneach
 mo_fhuar-chràbhaiche m'fhimínigh
 mo_fhuar-chràbhaichean m'fhimíneach
 mo_fhuar-chràbhaichean m'fhimínigh
+mo_fhuar-lite m'fhuarleite
+mo_fhuar-lite m'fhuarleitean
 mo_fhuarachadh m'fhuarú
 mo_fhuarachaidh m'fhuaraithe
 mo_fhuarachd m'fhuaraíocht
 mo_fhuarachd m'fhuaraíochta
+mo_fhuarag m'fhuarleite
+mo_fhuaraig m'fhuarleitean
 mo_fhuarain m'fhuaráin
 mo_fhuaran m'fhuarán
 mo_fhuaranan m'fhuaráin
@@ -48740,6 +49012,9 @@ mo_fhuincseanan m'fheidhmeanna
 mo_fhuincsein m'fheidhme
 mo_fhuine m'fhuineadh
 mo_fhuine m'fhuinidh
+mo_fhuineadair m'fhuinteoir
+mo_fhuineadair m'fhuinteora
+mo_fhuineadairean m'fhuinteoirí
 mo_fhuineadh m'fhuineadh
 mo_fhuinidh m'fhuinte
 mo_fhuinn m'fhoinn
@@ -50580,6 +50855,7 @@ mu_dheireadh deireanach
 mu_dheireadh faoi dheireadh
 mu_dheireadh_thall faoi dheireadh
 mu_dhèidhinn faoi
+mu_dhèidhinn_a' faoin
 mu_dhèidhinn_an faoin
 mu_dhèidhinn_nam i dtaobh na
 mu_dhèidhinn_nan i dtaobh na
@@ -50658,6 +50934,9 @@ mun_is faoinar
 mun_is faoinarb
 mur_a mura
 mur_a_rinn mura ndearna
+mur_am_bi mura mbeidh
+mur_am_facaidh mura bhfaca
+mur_ann mura
 mur_deidhinn fúibh
 mur_h-ann mura
 mura_b'e murab é
@@ -50695,7 +50974,9 @@ mus_deach_an_togail sular tógadh iad
 mus_deach_bruidhinn sular labhraíodh
 mus_deach_fhoillseachadh sular foilsíodh
 mus_deach_mo_thogail sular tógadh mé
+mus_dig sula dtiocfaidh
 mus_do sular
+mus_do_rinn sula ndearna
 mus_tàinig sular tháinig
 màbadh_iad cáinidís
 màbadh_iad gcáinfidís
@@ -50952,6 +51233,18 @@ na_tobrach an tobair
 na_videos na físeáin
 na_àite ina háit
 na_àite ina áit
+nach_ann nach
+nach_ann nach ann
+nach_ann_a'_seo nach anseo
+nach_ann_a'_sin nach ansin
+nach_ann_a_seo nach anseo
+nach_ann_a_sin nach ansin
+nach_ann_am nach i
+nach_ann_am nach in
+nach_ann_an nach i
+nach_ann_an nach in
+nach_ann_an_seo nach anseo
+nach_ann_an_sin nach ansin
 nach_b'_e nárbh é
 nach_b'_i nárbh í
 nach_b'_iad nárbh iad
@@ -51010,6 +51303,7 @@ nach_eil nach bhfuil
 nach_eil_e_math nach bhfuil sé go maith
 nach_h-ann nach
 nach_maireann nach maireann
+nach_tug nár thug
 nach_urrainn_dha nach féidir leis
 nach_urrainn_dhaibh nach féidir leo
 nach_urrainn_dhi nach féidir léi
@@ -51194,6 +51488,7 @@ nan_Gàidheal na nGael
 nan_Gàidheil na nGael
 nan_Hibheach na Hiveach
 nan_Innseachan na hIndia
+nan_Inuit na nIonúiteach
 nan_Iùdhaich na nGiúdach
 nan_Komi na gCoimithe
 nan_Labaraich Pháirtí an Lucht Oibre
@@ -51469,6 +51764,7 @@ nas_miosa níos measa
 nas_miosa_na níos measa ná
 nas_motha níos mó
 nas_mò níos mó
+nas_mòtha níos mó
 nas_mù níos mó
 nas_teotha níos teo
 nas_them níos fearr
@@ -51656,6 +51952,8 @@ neo_shoirbheachail mhírathúil
 neo_shoirbheachail mhírathúla
 neo_shoirbheachail mírathúil
 neo_shoirbheachail mírathúla
+ni's_motha níos mó
+ni's_mò níos mó
 nigh_iad níodar
 nigh_sinn níomar
 nigheadh_iad nídís
@@ -54142,6 +54440,7 @@ sa_ghabhas agus is féidir
 sa_ghuth-thàmh de chogar
 sa_mhadainn ar maidin
 sa_mhòr-chuid den chuid is mó
+sa_phròiseict sa tionscadal
 sa_tha is atá
 sabaidicheadh_iad dtroidfidís
 sabaidicheadh_iad dtroididís
@@ -54224,6 +54523,7 @@ san_ath_rud sa chéad rud eile
 san_ath_sheachdain sa chéad seachtain eile
 san_ath_thuras sa chéad uair eile
 san_ath_ìre sa chéad chéim eile
+san_da-rìreabh i ndáiríre
 san_deach_a_chleachdadh inar úsáideadh
 san_deach_a_chur inar cuireadh
 san_deach_a_dhèanamh ina ndearnadh
@@ -60184,6 +60484,7 @@ trasgaireadh_tu dtreascrófá
 trasgairidh_sinn dtreascróimid
 trasgairidh_sinn treascróimid
 trast_air trasna
+tre_am_bheil trína bhfuil
 tre_ar trínár
 treabhadh_iad dtreabhaidís
 treabhadh_iad dtreabhfaidís
