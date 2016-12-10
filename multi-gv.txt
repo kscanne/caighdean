@@ -1,6 +1,3 @@
-'Sy_Vietnam I Vítneam
-'Sy_Vurmey I mBurma
-'Syn_Nerin In Éirinn
 'cha_nel 'níl
 'eaynid_mooar spáis amuigh
 'eaynid_mooar spás amuigh
@@ -2593,6 +2590,13 @@ c'raad_v'eh cá raibh sé
 c'raad_v'ou cá raibh tú
 c'raad_va cá raibh
 c'raad_va'n cá raibh an
+c'red_t'eh céard atá sé
+c'red_t'ou céard atá tú
+c'red_ta céard atá
+c'red_ta'n céard atá an
+c'red_v'eh céard a bhí sé
+c'red_va céard a bhí
+c'red_va'n céard a bhí an
 c'ren_fa cén fáth
 c'ren_fa_ta cén fáth a bhfuil
 c'ren_fa_va cén fáth a raibh
@@ -3275,6 +3279,13 @@ cheau_shin gcaitheamar
 cheauagh_ad chaithfidís
 cheauagh_oo chaithfeá
 cheauagh_shin chaithfimis
+cheauee_ad chaitheadar
+cheauee_ad gcaitheadar
+cheauee_shin chaitheamar
+cheauee_shin gcaitheamar
+cheaueeagh_ad chaithfidís
+cheaueeagh_oo chaithfeá
+cheaueeagh_shin chaithfimis
 cheaut_ec_yn_emshir shíonchaite
 cheayll_ad chualadar
 cheayll_shin chualamar
@@ -8164,6 +8175,7 @@ dy_yiarey le gearradh
 dy_ymmyrkey le hiompar
 dy_ymmyrkey_feanish fianaise a dhéanamh
 dy_yn den
+dy_ynnydagh go háitiúil
 dy_ynrick go hionraic
 dy_ynsagh le foghlaim
 dy_ynsagh le múineadh
@@ -10872,6 +10884,12 @@ geauagh_oo chaithfeá
 geauagh_oo gcaithfeá
 geauagh_shin chaithfimis
 geauagh_shin gcaithfimis
+geaueeagh_ad chaithfidís
+geaueeagh_ad gcaithfidís
+geaueeagh_oo chaithfeá
+geaueeagh_oo gcaithfeá
+geaueeagh_shin chaithfimis
+geaueeagh_shin gcaithfimis
 geay-ghreienyn_maidjey gaothuirlis adhmaid
 geay_chassee camghaoithe
 geay_chassee camghaoth
@@ -23264,6 +23282,8 @@ my_neuchliaghtys m'ainchleachtadh
 my_neuchoardail m'easaontaithe
 my_neuchoardail m'easaontú
 my_neuchoardailyn m'easaontuithe
+my_neuchoardailys m'easaontais
+my_neuchoardailys m'easaontas
 my_neuchooinaghtyn m'aimnéise
 my_neufys m'ainbheasa
 my_neufys m'ainbhios
@@ -26989,6 +27009,8 @@ ny_Wiggynnee na hUigingigh
 ny_Wiggynnee na nUigingeach
 ny_Yernee na hÉireannaigh
 ny_Yernee na nÉireannach
+ny_aghtyn na bealaí
+ny_aghtyn na mbealaí
 ny_ainleyn na haingil
 ny_ainleyn na n-aingeal
 ny_annalyn na hannála
@@ -27058,6 +27080,10 @@ ny_buird na gclár
 ny_buird na mbord
 ny_by_loo ní ba lú
 ny_by_niessey ní ba neasa
+ny_cabbaneyn na bothanna
+ny_cabbaneyn na cábáin
+ny_cabbaneyn na gcábán
+ny_cabbaneyn na mbothanna
 ny_cabbil na capaill
 ny_cabbil na gcapall
 ny_cadley ina chodladh
@@ -27073,6 +27099,8 @@ ny_chour ina chomhair
 ny_chrooban ina chúb
 ny_claghyn na clocha
 ny_claghyn na gcloch
+ny_cleayshyn na cluasa
+ny_cleayshyn na gcluas
 ny_cloughyn an tlú
 ny_cour ina comhair
 ny_craueyn na cnámha
@@ -27089,6 +27117,8 @@ ny_deiney na daoine
 ny_deiney na ndaoine
 ny_dew na daimh
 ny_dew na ndamh
+ny_doail na daill
+ny_doail na ndall
 ny_drogh-yantee na coirpigh
 ny_drogh-yantee na gcoirpeach
 ny_duillagyn na duilleoga
@@ -27103,11 +27133,17 @@ ny_eirinee na bhfeirmeoirí
 ny_eirinee na feirmeoirí
 ny_ellanyn na hoileáin
 ny_ellanyn na n-oileán
+ny_fainee na carbaid
+ny_fainee na carráistí
+ny_fainee na gcarbad
+ny_fainee na gcarráistí
 ny_fegooish ina héagmais
 ny_fir na bhfear
 ny_fir na fir
 ny_fir-oik na hoifigigh
 ny_fir-oik na n-oifigeach
+ny_fir-reill na ceannairí
+ny_fir-reill na gceannairí
 ny_fir_oik na hoifigigh
 ny_fir_oik na n-oifigeach
 ny_flaunyssee na slua
@@ -27158,6 +27194,8 @@ ny_karracteyryn na gcarachtar
 ny_keayrtyn uaireanta
 ny_kialteenyn na heaglaisí
 ny_kialteenyn na n-eaglaisí
+ny_kianglaghyn na ceangail
+ny_kianglaghyn na gceangal
 ny_kiarkyn na cearca
 ny_kiarkyn na gcearc
 ny_kirp na coirp
@@ -27173,6 +27211,8 @@ ny_lhongyn na long
 ny_lhongyn na longa
 ny_lioaryn na leabhair
 ny_lioaryn na leabhar
+ny_lionyn na leoin
+ny_lionyn na leon
 ny_lomarcan ina aonar
 ny_lomarcan ina haonar
 ny_lurg ina dhiaidh
@@ -27243,6 +27283,8 @@ ny_raaidyn na bóithre
 ny_raaidyn na mbealaí
 ny_raaidyn na mbóithre
 ny_ren a ndearna
+ny_rheynnyn na rann
+ny_rheynnyn na ranna
 ny_riftanyn na bithiúnaigh
 ny_riftanyn na mbithiúnach
 ny_s' níos
@@ -33777,6 +33819,7 @@ traa_caggee aimsir chogaidh
 traa_cloie am spraoi
 traa_correy tráth curtha síl
 traa_dy_hraa am go ham
+traa_dy_row tráth dá raibh
 traa_ennagh am éigin
 traa_erbee am ar bith
 traa_giare tamaillín
@@ -34180,6 +34223,8 @@ v'er_hurranse a bhí tar éis fulaingt
 v'er_hyndaa a bhí tar éis iompú
 v'er_hyndaa a bhí tar éis tiontú
 v'er_jeet a bhí tar éis teacht
+v'er_jyndaa a bhí tar éis iompú
+v'er_jyndaa a bhí tar éis tiontú
 v'er_lhiasaghey a bhí tar éis leasú
 v'er_lhieeney a bhí tar éis líonadh
 v'er_loayrt a bhí tar éis labhairt

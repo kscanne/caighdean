@@ -3930,6 +3930,8 @@ Natsee Naitsí
 Natseeagh Naitsíche
 Natseeagh Naitsíoch
 Natseeagh Naitsíocha
+Natseeaghys Naitseachais
+Natseeaghys Naitseachas
 Natseeyn Naitsithe
 Natseeys Naitseachais
 Natseeys Naitseachas
@@ -11933,6 +11935,9 @@ bangan géige
 banganyn beangáin
 banganyn craobhacha
 banganyn géaga
+banglanagh beangánach
+banglanagh beangánacha
+banglanagh beangánaigh
 banglane beangáin
 banglane beangán
 banglane craobh
@@ -11947,6 +11952,7 @@ banglaneagh géagach
 banglaneagh géagacha
 banglaneagh géagaigh
 banglaneagh géagaí
+banglanee beangánaí
 banglaneyn beangáin
 banglaneyn craobhacha
 banglaneyn géaga
@@ -16186,8 +16192,8 @@ brookal bpóirseála
 broomayd brúfaimid
 brooym brúfaidh mé
 brooyn brúnna
-bropane bpropáin
-bropane bpropán
+bropane bprópáin
+bropane bprópán
 brose bpróis
 brose bprós
 broselyte n-iompaitheach
@@ -18364,7 +18370,13 @@ ceau caithimh
 ceau gcaith
 ceau-jee caithigí
 ceau-jee gcaithigí
+ceauee caith
 ceauee caithfidh
+ceauee gcaith
+ceauee-jee caithigí
+ceauee-jee gcaithigí
+ceaueemayd caithfimid
+ceaueeym caithfidh mé
 ceaueyder caiteoir
 ceaueyder caiteora
 ceaueyderyn caiteoirí
@@ -19757,6 +19769,11 @@ cheau chaithimh
 cheau gcaith
 cheau-jee chaithigí
 cheauagh chaithfeadh
+cheauee chaith
+cheauee gcaith
+cheauee-jee chaithigí
+cheaueeagh chaithfeadh
+cheaueein chaithfinn
 cheaueyder chaiteoir
 cheaueyder chaiteora
 cheaueyderyn chaiteoirí
@@ -33275,6 +33292,9 @@ dip dipe
 diploamagh dioplómaitiúil
 diploamagh dioplómaitiúla
 diploamee dioplómaitiúla
+diplomagh dioplómaitiúil
+diplomagh dioplómaitiúla
+diplomee dioplómaitiúla
 dipyn dipeanna
 dirk duirc
 dirk duirce
@@ -34541,6 +34561,10 @@ dowse dtomhais
 dowse dtomhaisfidh
 dowse dtomhas
 dowse thomhaisfidh
+dowse-oaylleaght gcéimseata
+dowse-oaylleaght gcéimseatan
+dowse-oaylleaght ngeoiméadracht
+dowse-oaylleaght ngeoiméadrachta
 dowse-oaylleeaght gcéimseata
 dowse-oaylleeaght gcéimseatan
 dowse-oaylleeaght ngeoiméadracht
@@ -34623,6 +34647,11 @@ draaghan gcluana
 draaghanyn gcluainte
 draaght dtrácht
 draaght dtráchta
+draaghtys dtráchtais
+draaghtys dtráchtas
+draaghtys dtráchtálachais
+draaghtys dtráchtálachas
+draaghtysyn dtráchtais
 draaghyn dtráthanna
 draaghyn n-amanna
 draaie dtrá
@@ -50662,6 +50691,16 @@ geau gcaithfidh
 geau gcaithimh
 geauagh chaithfeadh
 geauagh gcaithfeadh
+geauee chaithfidh
+geauee gcaithfidh
+geaueeagh chaithfeadh
+geaueeagh gcaithfeadh
+geaueein chaithfinn
+geaueein gcaithfinn
+geaueemayd chaithfimid
+geaueemayd gcaithfimid
+geaueeym chaithfidh mé
+geaueeym gcaithfidh mé
 geaueyder gcaiteoir
 geaueyder gcaiteora
 geaueyderyn gcaiteoirí
@@ -52842,6 +52881,9 @@ ghip dhipe
 ghiploamagh dhioplómaitiúil
 ghiploamagh dhioplómaitiúla
 ghiploamee dhioplómaitiúla
+ghiplomagh dhioplómaitiúil
+ghiplomagh dhioplómaitiúla
+ghiplomee dhioplómaitiúla
 ghipyn dhipeanna
 ghirk dhuirc
 ghirk dhuirce
@@ -73628,6 +73670,10 @@ howse dtomhais
 howse thomhais
 howse thomhas
 howse-jee thomhaisigí
+howse-oaylleaght chéimseata
+howse-oaylleaght chéimseatan
+howse-oaylleaght gheoiméadracht
+howse-oaylleaght gheoiméadrachta
 howse-oaylleeagh chéimseatúil
 howse-oaylleeagh chéimseatúla
 howse-oaylleeagh gheoiméadrach
@@ -73769,6 +73815,11 @@ hraaghan chluana
 hraaghanyn chluainte
 hraaght thrácht
 hraaght thráchta
+hraaghtys thráchtais
+hraaghtys thráchtas
+hraaghtys thráchtálachais
+hraaghtys thráchtálachas
+hraaghtysyn thráchtais
 hraaghyn amanna
 hraaghyn thráthanna
 hraaid shráid
@@ -75616,6 +75667,7 @@ hunnane haoin
 hunnane haon
 hunnaneagh haonadach
 hunnaneagh huatha
+hunnaneyit haontaithe
 hunnaneyn cinn
 hunnaneyn haonta
 hunnaneys haontacht
@@ -106053,6 +106105,15 @@ neuchoardailyn d'easaontuithe
 neuchoardailyn easaontuithe
 neuchoardailyn heasaontuithe
 neuchoardailyn n-easaontuithe
+neuchoardailys d'easaontais
+neuchoardailys d'easaontas
+neuchoardailys easaontais
+neuchoardailys easaontas
+neuchoardailys heasaontais
+neuchoardailys heasaontas
+neuchoardailys n-easaontais
+neuchoardailys n-easaontas
+neuchoardailys t-easaontas
 neuchoardee easaontóidh
 neuchoardin d'easaontóinn
 neuchoardin easaontóinn
@@ -118911,8 +118972,8 @@ phrooshagh phrúiseach
 phrooshagh phrúiseacha
 phrooshagh phrúisigh
 phrooshee phrúisí
-phropane phropáin
-phropane phropán
+phropane phrópáin
+phropane phrópán
 phrose phróis
 phrose phrós
 phroselyte iompaitheach
@@ -120479,8 +120540,8 @@ prooshagh prúiseach
 prooshagh prúiseacha
 prooshagh prúisigh
 prooshee prúisí
-propane propáin
-propane propán
+propane própáin
+propane própán
 proportion proportion
 prose próis
 prose prós
@@ -122446,6 +122507,10 @@ reayrtagh radharcach
 reayrtagh radharcacha
 reayrtagh radharcaigh
 reayrtee radharcaí
+reayrtoil radharcach
+reayrtoil radharcacha
+reayrtoil radharcaigh
+reayrtoil radharcaí
 reayrtyn radhairc
 reayrtys radhairc
 reayrtys radharc
@@ -136698,6 +136763,9 @@ stiur stiúrach
 stiur stiúrfaidh
 stiur-jee stiúraigí
 stiuragh stiúrfadh
+stiuredyaght stiúrthóireacht
+stiuredyaght stiúrthóireachta
+stiuredyaghtyn stiúrthóireachtaí
 stiuree stiúrfaidh
 stiuree stiúrtha
 stiurey stiúradh
@@ -141013,6 +141081,10 @@ towse tomhais
 towse tomhas
 towse-jee dtomhaisigí
 towse-jee tomhaisigí
+towse-oaylleaght céimseata
+towse-oaylleaght céimseatan
+towse-oaylleaght geoiméadracht
+towse-oaylleaght geoiméadrachta
 towse-oaylleeagh céimseatúil
 towse-oaylleeagh céimseatúla
 towse-oaylleeagh geoiméadrach
@@ -141142,6 +141214,11 @@ traaghan cluana
 traaghanyn cluainte
 traaght trácht
 traaght tráchta
+traaghtys tráchtais
+traaghtys tráchtas
+traaghtys tráchtálachais
+traaghtys tráchtálachas
+traaghtysyn tráchtais
 traaghyn amanna
 traaghyn d'amanna
 traaghyn hamanna
@@ -143215,6 +143292,7 @@ unnaneagh aonadacha
 unnaneagh aonadaigh
 unnaneagh aonadaí
 unnaneagh uatha
+unnaneyit aontaithe
 unnaneyn aonta
 unnaneyn chinn
 unnaneyn cinn
@@ -144458,6 +144536,9 @@ vanganaish mhangainéise
 vanganyn bheangáin
 vanganyn chraobhacha
 vanganyn ghéaga
+vanglanagh bheangánach
+vanglanagh bheangánacha
+vanglanagh bheangánaigh
 vanglane bheangáin
 vanglane bheangán
 vanglane chraobh
@@ -144472,6 +144553,7 @@ vanglaneagh ghéagach
 vanglaneagh ghéagacha
 vanglaneagh ghéagaigh
 vanglaneagh ghéagaí
+vanglanee bheangánaí
 vanglaneyn bheangáin
 vanglaneyn chraobhacha
 vanglaneyn ghéaga
