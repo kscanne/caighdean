@@ -17,6 +17,7 @@
 'sy_Cheayn_Sheear san Aigéan Atlantach
 'sy_Chissyl sa tSicil
 'sy_Choobey i gCúba
+'sy_Choose_Verçhagh i gCósta Ríce
 'sy_Phobblaght_Check i bPoblacht na Seice
 'sy_Phobblaght_Çheck i bPoblacht na Seice
 'sy_Vietnam i Vítneam
@@ -1358,6 +1359,7 @@ ayns_Yernish as Gaeilge
 ayns_Yernish i nGaeilge
 ayns_Zealan_Noa sa Nua-Shéalainn
 ayns_aggle faoi eagla
+ayns_aght i mbealach
 ayns_aght_ennagh ar bhealach éigin
 ayns_aght_ennagh ar chuma éigin
 ayns_aght_ennagh ar dhóigh éigin
@@ -1373,6 +1375,7 @@ ayns_carn i gcarn
 ayns_carnyn i gcairn
 ayns_cheer i dtír
 ayns_cheeraghyn i dtíortha
+ayns_chengey i dteanga
 ayns_chiamble i dteampall
 ayns_coardailys ar aon intinn
 ayns_coardailys ar aon tuairim
@@ -1473,6 +1476,7 @@ ayns_ynnyd in áit
 ayns_Çheer_ny_nAeg i dTír na nÓg
 ayns_çheer i dtír
 ayns_çheeraghyn i dtíortha
+ayns_çhengey i dteanga
 ayr_'sy_leigh athair céile
 ayr_bashtee athair baistí
 ayr_feyshtyney athair faoistine
@@ -5169,6 +5173,7 @@ cosoylit_rish i gcomparáid leis
 costys_ymmyrkee costas iompair
 cowraghey_magh taispeáint
 cowraghey_magh thaispeáint
+cowraghyn_aaraa comharthaí athfhriotail
 cowraghyn_post postmharcanna
 cowrey_breinney comhartha broinne
 cowrey_danjeyr comhartha guaise
@@ -5448,6 +5453,7 @@ cryss_çheh teochreasa
 cryss_çheh teochrios
 cryssyn_çheh teochriosanna
 cubbyl_dy cúpla
+cubbyl_jeh cúpla
 cudjal_beg bod
 cudjal_beg boid
 cudjalyn_beg bod
@@ -9797,6 +9803,7 @@ faiyr_vollagh garbhfhéir
 faiyryn_hoggyl seagalach
 faiyryn_hoggyl seagalacha
 fakin_ad iad a fheiceáil
+fakin_ad á bhfeiceáil
 fakin_eh á fheiceáil
 fakin_eh_hene é féin a fheiceáil
 fakin_nyn_hene iad féin a fheiceáil
@@ -16802,6 +16809,7 @@ jeh_Damascus den Damaisc
 jeh_Ethiopia den Aetóip
 jeh_Norlann den Iorua
 jeh_Norlynn den Iorua
+jeh_Tyre den Tuír
 jeh_beggan_scansh gan tábhacht
 jeh_chash aimhleasta
 jeh_chash haimhleasta
@@ -17937,6 +17945,7 @@ lepard_sniaghtee liopard sneachta
 lepardyn_shelg shíotaí
 lepardyn_shelg síotaí
 lesh_aggle le heagla
+lesh_airh le hór
 lesh_ard-choraa in ard a gutha
 lesh_ard-choraa in ard gutha
 lesh_co-earrooder le ríomhaire
@@ -23446,6 +23455,9 @@ my_phurt-aer m'aerfort
 my_phurtey-aer m'aerfoirt
 my_phurtyn-aer m'aerfoirt
 my_phurtyn-aer m'aerfort
+my_phuttag m'fheolamáin
+my_phuttag m'fheolamán
+my_phuttagyn m'fheolamáin
 my_phylum m'fhíleam
 my_phylum m'fhílim
 my_physhoonys_pronnag m'ispíneachais
@@ -23942,6 +23954,7 @@ my_ventyryn m'fhiontair
 my_ventyryn m'fhiontar
 my_ver má chuireann
 my_ver má thugann
+my_ver-ym má chuirim
 my_verreman m'adhastair
 my_verreman m'adhastar
 my_verremanyn m'adhastair
@@ -26270,6 +26283,7 @@ ngyrnagh_oo dhrannfá
 ngyrnagh_oo ndrannfá
 ngyrnagh_shin dhrannfaimis
 ngyrnagh_shin ndrannfaimis
+niar_yiass oirdheisceart
 niarragh_ad déarfaidís
 niarragh_ad ndéarfaidís
 niarragh_oo déarfá
@@ -26955,8 +26969,14 @@ ny-vud_oc ina measc
 ny-yei_shen ina dhiaidh sin
 ny-yei_shoh ina dhiaidh seo
 ny_'di ina aghaidh
+ny_Albinee na hAlbanaigh
+ny_Albinee na nAlbanach
+ny_Assyrianee na hAisiriaigh
+ny_Assyrianee na nAisiriach
 ny_Bahamaghyn na Bahámaí
 ny_Bengaal Bheangál
+ny_Bretnee na Breatnaigh
+ny_Bretnee na mBreatnach
 ny_Bretnisheyryn lucht na Breatnaise
 ny_Canaaniteyn na Canánaigh
 ny_Canaaniteyn na gCanánach
@@ -26971,6 +26991,10 @@ ny_Germaanee na Gearmánaigh
 ny_Germaanee na nGearmánach
 ny_Geyrragh na gCaorach
 ny_Guatemaley Ghuatamala
+ny_Hebrewnee na Giúdaigh
+ny_Hebrewnee na hEabhraigh
+ny_Hebrewnee na nEabhrach
+ny_Hebrewnee na nGiúdach
 ny_Hewnyn na Giúdaigh
 ny_Hewnyn na nGiúdach
 ny_Hondooraghyn Hondúras
@@ -27050,6 +27074,11 @@ ny_bee ná bí
 ny_bee ná bíodh
 ny_bee-jee ná bígí
 ny_bee_shiu ná bígí
+ny_beishtyn na beithígh
+ny_beishtyn na hainmhithe
+ny_beishtyn na mbeithíoch
+ny_beishtyn na n-ainmhithe
+ny_beishtyn_geuagh daitheacha fiacaile
 ny_beiyn na beithígh
 ny_beiyn na hainmhithe
 ny_beiyn na mbeithíoch
@@ -27080,6 +27109,8 @@ ny_buird na gclár
 ny_buird na mbord
 ny_by_loo ní ba lú
 ny_by_niessey ní ba neasa
+ny_caaigyn na cága
+ny_caaigyn na gcág
 ny_cabbaneyn na bothanna
 ny_cabbaneyn na cábáin
 ny_cabbaneyn na gcábán
@@ -27088,6 +27119,8 @@ ny_cabbil na capaill
 ny_cabbil na gcapall
 ny_cadley ina chodladh
 ny_cadley ina codladh
+ny_captanyn na captaein
+ny_captanyn na gcaptaen
 ny_cassyn na cosa
 ny_cassyn na gcos
 ny_cheayrtyn anois agus arís
@@ -27113,6 +27146,8 @@ ny_crink na cnoic
 ny_crink na gcnoc
 ny_croink na cnoic
 ny_croink na gcnoc
+ny_cruink na cnoic
+ny_cruink na gcnoc
 ny_deiney na daoine
 ny_deiney na ndaoine
 ny_dew na daimh
@@ -27125,6 +27160,8 @@ ny_duillagyn na duilleoga
 ny_duillagyn na leathanach
 ny_duillagyn na leathanaigh
 ny_duillagyn na nduilleog
+ny_eayin na huain
+ny_eayin na n-uan
 ny_eeasteyryn na hiascairí
 ny_eeasteyryn na n-iascairí
 ny_eeastyn na héisc
@@ -27198,6 +27235,8 @@ ny_kianglaghyn na ceangail
 ny_kianglaghyn na gceangal
 ny_kiarkyn na cearca
 ny_kiarkyn na gcearc
+ny_king na cinn
+ny_king na gceann
 ny_kirp na coirp
 ny_kirp na gcorp
 ny_kirree na caoirigh
@@ -27205,6 +27244,8 @@ ny_kirree na gcaorach
 ny_laare an urláir
 ny_laueyn na lámh
 ny_laueyn na lámha
+ny_lessoonyn na ceachtanna
+ny_lessoonyn na gceachtanna
 ny_lhie ina luí
 ny_lhig_ad ná lig iad
 ny_lhongyn na long
@@ -27215,6 +27256,8 @@ ny_lionyn na leoin
 ny_lionyn na leon
 ny_lomarcan ina aonar
 ny_lomarcan ina haonar
+ny_looghyn na cuaillí
+ny_looghyn na gcuaillí
 ny_lurg ina dhiaidh
 ny_lurg ina diaidh
 ny_lurg-syn ina dhiaidh sin
@@ -27225,6 +27268,10 @@ ny_magheryn na machairí
 ny_magheryn na ngort
 ny_magheryn na páirceanna
 ny_magheryn na réimsí
+ny_markee na marcach
+ny_markee na marcaigh
+ny_masoonee na máisiúin
+ny_masoonee na máisiún
 ny_mast'_ain inár measc
 ny_mast'_eu in bhur measc
 ny_mast'_oc ina measc
@@ -27278,6 +27325,8 @@ ny_paitchyn na páistí
 ny_pillaryn na colúin
 ny_pillaryn na gcolún
 ny_quail ina treo
+ny_raaghyn na bhfocal
+ny_raaghyn na focail
 ny_raaidyn na bealaí
 ny_raaidyn na bóithre
 ny_raaidyn na mbealaí
@@ -27438,6 +27487,8 @@ ny_sassey níos éasca
 ny_screbbyn na bithiúnaigh
 ny_screbbyn na mbithiúnach
 ny_screeney níos críonna
+ny_scriptyryn na scrioptúir
+ny_scriptyryn na scrioptúr
 ny_share níos fearr
 ny_sharvaantyn na searbhóntaí
 ny_sharvaantyn na seirbhíseach
@@ -27447,6 +27498,8 @@ ny_shassoo ina seasamh
 ny_shee na sióg
 ny_shee na sióga
 ny_shee na síochána
+ny_sheeanyn na bhfuaimeanna
+ny_sheeanyn na fuaimeanna
 ny_sheelogheyn_eu bhur sliocht
 ny_sheelogheyn_oc a sliocht
 ny_sheelogheyn_ocsyn a sliochtsa
@@ -27556,8 +27609,18 @@ ny_soie ina suí
 ny_soie_cosaayl ina suí ar a gogaide
 ny_sooillyn na súile
 ny_sooillyn na súl
+ny_spyrrydyn na spiorad
+ny_spyrrydyn na spioraid
+ny_steatyn na heastáit
+ny_steatyn na n-eastát
+ny_steatyn na stáit
+ny_steatyn na stát
 ny_strimmey níos troime
+ny_strooanyn na srutháin
+ny_strooanyn na sruthán
 ny_stroshey níos treise
+ny_surransee na hothair
+ny_surransee na n-othar
 ny_syrdjey níos airde
 ny_syrjey níos airde
 ny_t'ayd a bhfuil agat
@@ -27570,7 +27633,12 @@ ny_thammagyn na toir
 ny_thieyn na dtithe
 ny_thieyn na tithe
 ny_tost ina tost
+ny_treanee na gaiscígh
+ny_treanee na laochra
+ny_treanee na ngaiscíoch
 ny_trooid tríthi
+ny_tuill na bpoll
+ny_tuill na poill
 ny_ushlagh ina leacht
 ny_ushtaghyn na huiscí
 ny_ushtaghyn na n-uiscí
@@ -27595,6 +27663,8 @@ ny_yei_shen ina dhiaidh sin
 ny_yei_y_cheilley i ndiaidh a chéile
 ny_yeih mar sin féin
 ny_yeï ina dhiaidh
+ny_yindyssyn na hiontais
+ny_yindyssyn na n-iontas
 ny_ynnydyn na hionaid
 ny_ynnydyn na n-ionad
 ny_çheeraghyn na dtíortha
@@ -29812,6 +29882,8 @@ ro_veg róbhige
 ro_vennick rómhinic
 ro_vie rómhaith
 ro_vie rómhaithe
+ro_villish rómhilis
+ro_villish rómhilse
 ro_vooar rómhóir
 ro_vooar rómhóire
 ro_vooar rómhór
@@ -29874,6 +29946,7 @@ roish_my sular
 roish_my_daag sular fhág
 roish_my_daink sular tháinig
 roish_my_row sula raibh
+roish_my_ta sula bhfuil
 roish_my_va sula raibh
 roish_my_vees sula mbeidh
 roish_my_vow sula bhfaighidh
@@ -32413,6 +32486,7 @@ son_y_fa de bhrí gur
 son_y_fa_dy de bhrí go
 son_y_fa_dy de bhrí gur
 son_y_pobble ar son an phobail
+son_y_veishtyn as an tinneas fiacaile
 son_yn ar son an
 son_yn ar son na
 son_yn den
@@ -33225,6 +33299,7 @@ t'ad_baghey tá siad ina gcónaí
 t'ayns_Egypt atá san Éigipt
 t'ayns_feme_jeh atá ag teastáil
 t'ayns_feme_jeh'n atá ag teastáil an
+t'ayns_ny atá sna
 t'ayns_shen atá ansin
 t'ayns_shoh atá anseo
 t'ayns_y atá sa
@@ -36563,6 +36638,8 @@ y_Cheayn_Sheear an tAigéan Atlantach
 y_Chiarn_dy_heshaght-flaunyss Tiarna na Slua
 y_Chissyl an tSicil
 y_Choobey Cúba
+y_Choose_Berçhagh Cósta Ríce
+y_Choose_Verçhagh Cósta Ríce
 y_Choowait Chuáit
 y_Choowait Cuáit
 y_Clyst_Iuaagagh an Cósta Eabhair
@@ -37406,6 +37483,7 @@ yn_Chiarn_dy_heshaght-flaunyss Tiarna na Slua
 yn_Chissyl an tSicil
 yn_Choagaash Cugas
 yn_Choobey Cúba
+yn_Choose_Berçhagh Cósta Ríce
 yn_Choowait Chuáit
 yn_Choowait Cuáit
 yn_Chruinnaght an tOireachtas
@@ -37689,7 +37767,9 @@ yystyn_poddash phorainséir
 çhellvane_shooylagh fón póca
 çhellveeish_chullyr teilifís dhaite
 çhemmit_liorish teorainn ar theorainn le
+çhemmit_liorish teorainn ar theorainn leis
 çhemmit_rish teorainn ar theorainn le
+çhemmit_rish teorainn ar theorainn leis
 çhengaghyn_brynneragh milteangacha
 çhengaghyn_ny_mayrey máthairtheangacha
 çhengey_brynneragh milteanga
