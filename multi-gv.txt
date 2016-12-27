@@ -390,6 +390,7 @@ Seihll_Heear hIarthar
 Seihll_Heear nIarthair
 Seihll_Heear nIarthar
 Seihll_Heear tIarthar
+Sheenish_Vandarin Mandairínis
 Shenn_Chonaant Sean-Tiomna
 Shenn_Ghuilley Seanbhuachaill
 Shenn_Yernish Sean-Ghaeilge
@@ -3819,6 +3820,8 @@ chloieder_obo óbóra
 chloiederyn_greienyn ionstraimithe
 chloiederyn_obo óbóirí
 chloieyn_kiaullee mhéaldrámaí
+chlooie_ny_gayt chaitín
+chlooieyn_ny_gayt chaitíní
 chlose_cooyl chúlchlóis
 chlose_cooyl chúlchlós
 chloseyn_cooyl chúlchlóis
@@ -5036,6 +5039,8 @@ cloiederyn_obo hóbóirí
 cloiederyn_obo óbóirí
 cloieyn_kiaullee méaldrámaí
 clooid_jyst éadach soitheach
+clooie_ny_gayt caitín
+clooieyn_ny_gayt caitíní
 close_cooyl clós cúil
 close_cooyl cúlchlóis
 close_cooyl cúlchlós
@@ -7717,6 +7722,7 @@ dy_ghoaill_taitnys le taitneamh a bhaint
 dy_ghoaill_taitnys_ayns le taitneamh a bhaint as
 dy_ghoaill_taitnyss le taitneamh a bhaint
 dy_ghoaill_taitnyss_ayns le taitneamh a bhaint as
+dy_ghoaill_toshiack le tosú
 dy_ghoaill_toshiaght le tosú
 dy_ghoaill_ymmyd déanamh úsáide
 dy_ghoaill_ymmyd le déanamh úsáide
@@ -8165,6 +8171,8 @@ dy_vriwnys le breithniú
 dy_vuill d'áiteanna
 dy_woalley le bualadh
 dy_yannoo le déanamh
+dy_yannoo'n le déanamh an
+dy_yannoo'n le déanamh na
 dy_yannoo_eh é a dhéanamh
 dy_yannoo_shoh é seo a dhéanamh
 dy_yannoo_veg faic a dhéanamh
@@ -9536,6 +9544,7 @@ er_y_traa ar an am
 er_y_traie ar an trá
 er_y_twoaie ar an taobh thuaidh
 er_y_twoaie sa tuaisceart
+er_y_veealloo os a chomhair
 er_y_voghree ar maidin
 er_y_voghrey ar maidin
 er_y_voghrey_shoh ar an maidin seo
@@ -11585,6 +11594,7 @@ ghow_ad_taitnys bhain siad taitneamh
 ghow_ad_taitnys_ayns bhain siad taitneamh as
 ghow_ad_taitnyss bhain siad taitneamh
 ghow_ad_taitnyss_ayns bhain siad taitneamh as
+ghow_ad_toshiack thosaíodar
 ghow_ad_toshiaght thosaíodar
 ghow_ee_taitnys bhain sí taitneamh
 ghow_ee_taitnys_ayns bhain sí taitneamh as
@@ -11596,6 +11606,8 @@ ghow_eh_taitnys bhain sé taitneamh
 ghow_eh_taitnys_ayns bhain sé taitneamh as
 ghow_eh_taitnyss bhain sé taitneamh
 ghow_eh_taitnyss_ayns bhain sé taitneamh as
+ghow_eh_toshiack a thosaigh sé
+ghow_eh_toshiack thosaigh sé
 ghow_eh_toshiaght a thosaigh sé
 ghow_eh_toshiaght thosaigh sé
 ghow_mee_ram_taitnys bhain mé an-taitneamh
@@ -12500,6 +12512,8 @@ glonney_chrystal gloine chriostail
 glonney_ghaait gloine dhaite
 glonney_vooadee gloine formhéadúcháin
 glooid_traaght plódú tráchta
+glooie_ny_gayt gcaitín
+glooieyn_ny_gayt gcaitíní
 glose_cooyl gcúlchlóis
 glose_cooyl gcúlchlós
 gloseyn_cooyl gcúlchlóis
@@ -21622,6 +21636,8 @@ my_chaghlaa m'athrú
 my_chaghlaa_folley m'fhuilaistriú
 my_chaghlaaghyn m'athruithe
 my_chaghlaayn_folley m'fhuilaistrithe
+my_chaghlaays m'éagsúlacht
+my_chaghlaays m'éagsúlachta
 my_chahngyr m'ailse
 my_chahngyryn m'ailsí
 my_chainle_eayil m'aolchoinneal
@@ -28130,6 +28146,7 @@ oghyr_reeoil caibheáir
 oghyr_reeoil caibheár
 oghyr_reeoil chaibheáir
 oghyr_reeoil chaibheár
+oi_vey oi vey
 oie_Jecrean oíche Chéadaoin
 oie_Jedoonee oíche Dhomhnaigh
 oie_Jeheiney oíche Aoine
@@ -33344,6 +33361,7 @@ t'er_dty atá ar do
 t'er_dty atá do do
 t'er_dty_ruggey atá saolaithe
 t'er_dty_skyn atá os do chionn
+t'er_dty_veealloo atá os do chomhair
 t'er_duittym atá tar éis titim
 t'er_e_skyn atá os a chionn
 t'er_e_skyn atá os a cionn
@@ -34278,6 +34296,7 @@ v'er_dty_skyn a bhí os do chionn
 v'er_duittym a bhí tar éis titim
 v'er_e_skyn a bhí os a chionn
 v'er_e_skyn a bhí os a cionn
+v'er_e_veealloo a bhí os a chomhair
 v'er_gerrey a bhí i gcóngar
 v'er_gheayrtey a bhí tar éis doirteadh
 v'er_gheddyn a bhí tar éis fáil
