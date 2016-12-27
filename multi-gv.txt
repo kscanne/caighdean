@@ -367,7 +367,9 @@ Purt_le_Moirrey Port le Muire
 Queiggey_Mooan Cúige Mumhan
 Raad_Mooar_Ree_Gorree Bealach na Bó Finne
 Ree_Adha Rí Artúr
+Reereeaght_Unnanyssit Ríocht Aontaithe
 Reeriaght_Unnaneyssit Ríocht Aontaithe
+Reeriaght_Unnanyssit Ríocht Aontaithe
 Rheynn_Hwoaie Rinn Thuaidh
 Rhine_Hwoaie-Westfalen Réin-Westfalen Thuaidh
 Rinn_Vooar Líonán Mór
@@ -2921,6 +2923,7 @@ cha_nodmayd ní féidir linn
 cha_nyrrys ní aon iontas
 cha_ren ní dhearna
 cha_ren_mee_likal_eh níor bhain mé taitneamh as
+cha_ron ní raibh
 cha_row ní raibh
 cha_row_egin níorbh éigean
 cha_row_fys nach raibh a fhios
@@ -7986,6 +7989,9 @@ dy_rea go réidh
 dy_reaghey le heagrú
 dy_reaghey le réiteach
 dy_reaghey le socrú
+dy_reaghey'n le heagrú an
+dy_reaghey'n le réiteach an
+dy_reaghey'n le socrú an
 dy_reayll le coimeád
 dy_reayll le coinneáil
 dy_reayll_rick le súil a choinneáil
@@ -8000,6 +8006,7 @@ dy_reuyrey le rómhar
 dy_rio d'oighear
 dy_rio de reo
 dy_roie le rith
+dy_ron go raibh
 dy_ronsaghey le cuardach
 dy_ronsaghey le ransú
 dy_roshtyn le sroicheadh
@@ -12974,6 +12981,8 @@ goll_rish cosúil le
 goll_rish cosúil leis
 goll_seose ag dul suas
 goll_seose dul suas
+goll_shagh dul thart
+goll_shagh-ym dul tharam
 goll_sheese ag dul síos
 goll_sheese dul síos
 goll_sheese_lhargagh dul síos le fána
@@ -14663,6 +14672,8 @@ heean_ad shéanadar
 heean_ad séanadar
 heean_kereen foitheach
 heean_kereen foithigh
+heean_mooie fhoghair
+heean_mooie fhoghar
 heean_ny_h-oie hulchabháin
 heean_ny_h-oie hulchabhán
 heean_raip traonach
@@ -14698,6 +14709,7 @@ heeaneeagh_shin bheannóimis
 heeaneeagh_shin shéanfaimis
 heeanyn_kereen foitheach
 heeanyn_kereen foithigh
+heeanyn_mooie fhoghair
 heeanyn_ny_h-oie hulchabháin
 heeanyn_ny_h-oie hulchabhán
 heeanyn_raip traonach
@@ -14991,11 +15003,14 @@ heshaght_chaggee arm
 heshaght_chaggee armshlua
 heshaght_cho-obbragh chomharchumainn
 heshaght_cho-obbragh chomharchumann
+heshaght_dellal chomhlacht
+heshaght_dellal chomhlachta
 heshaght_urryssaght chara-chumainn
 heshaght_urryssaght chara-chumann
 heshaghtyn_chaggee airm
 heshaghtyn_chaggee arm
 heshaghtyn_chaggee armshluaite
+heshaghtyn_dellal chomhlachtaí
 heshaghyn_brastyl chomhscoláirí
 heshey_brastyl chomhscoláire
 heshvean_trimmid mheáchanláir
@@ -16845,6 +16860,7 @@ jeh_e_yoin_hene as a stuaim féin
 jeh_elley ceann eile
 jeh_elley duine eile
 jeh_fockle d'fhocal
+jeh_goll_er_shual de chúis dlí
 jeh_my_yioin as mo stuaim
 jeh_my_yoin as mo stuaim
 jeh_my_yoin as mo stuaim féin
@@ -17224,6 +17240,7 @@ kiare_cubityn ceithre bhanlámh
 kiare_feed ceithre fichid
 kiare_keayrtyn ceithre huaire
 kiare_laghyn ceithre lá
+kiare_square cearnógach
 kiare_thousane ceithre mhíle
 kiare_thousaneyn ceithre mhíle
 kiareyder_shirveish_eddyr-voggyl soláthraí seirbhísí idirlín
@@ -21147,6 +21164,12 @@ mollagyn_aeragh balún
 mollagyn_aeragh mbalúin
 mollagyn_aeragh mbalún
 mollee_dooblit ndébhealaí
+moltagh_ad bholtálfaidís
+moltagh_ad mboltálfaidís
+moltagh_oo bholtálfá
+moltagh_oo mboltálfá
+moltagh_shin bholtálfaimis
+moltagh_shin mboltálfaimis
 monney_share i bhfad níos fearr
 monney_shinney i bhfad níos sine
 monney_smessey i bhfad níos measa
@@ -22336,6 +22359,8 @@ my_hareaghey m'fheabhsaithe
 my_hareaghey m'fheabhsú
 my_harey m'ordaithe
 my_harey m'ordú
+my_harkil m'fhiaile
+my_harkilyn m'fhiailí
 my_harkyl m'fhiaile
 my_harkyl-nieu m'fhiailicíd
 my_harkyl-nieu m'fhiailicíde
@@ -22401,6 +22426,8 @@ my_heean m'fhuaim
 my_heean m'fhuaime
 my_heean-oaylleeaght m'fhuaimeolaíocht
 my_heean-oaylleeaght m'fhuaimeolaíochta
+my_heean_mooie m'fhoghair
+my_heean_mooie m'fhoghar
 my_heeanaght m'fhoghraíocht
 my_heeanaght m'fhoghraíochta
 my_heeanaghteyr m'fhoghraí
@@ -22423,6 +22450,7 @@ my_heeaney m'fhuaime
 my_heeaney m'fhuaimnithe
 my_heeaney m'fhuaimniú
 my_heeanyn m'fhuaimeanna
+my_heeanyn_mooie m'fhoghair
 my_heear laistiar
 my_heear m'iarthair
 my_heear m'iarthar
@@ -22895,6 +22923,8 @@ my_hrumpetyn m'adharc
 my_hrumpetyn m'adharca
 my_hrusley m'útamáil
 my_hrusley m'útamála
+my_hual m'agairt
+my_hual m'agartha
 my_hualtagh m'abhcóide
 my_hualtagh m'ionchúisitheoir
 my_hualtagh m'ionchúisitheora
@@ -25027,6 +25057,7 @@ nagh_re nach
 nagh_re nár
 nagh_re nárbh
 nagh_ren nach ndearna
+nagh_ron nach raibh
 nagh_row nach raibh
 nagh_row_fys nach raibh a fhios
 nagh_row_mee_my nach raibh mé i mo
@@ -29753,6 +29784,7 @@ reiragh_shin riarfaimis
 ren_ad a rinneadar
 ren_ad rinneadar
 ren_cheet a tháinig
+ren_eh_shual chuir sé dlí ar
 ren_shin rinneamar
 ren_soaiagh_jeh a ghlac leis
 ren_çheet a tháinig
@@ -30090,6 +30122,7 @@ rooishtagh_shin chreachfaimis
 rooishtagh_shin gcreachfaimis
 rooishtagh_shin nochtfaimis
 rooishtagh_shin rúiscfimis
+room_y_yien-feeyney seomra na fleá fíona
 roost_ad chreachadar
 roost_ad gcreachadar
 roost_ad nochtadar
@@ -30963,6 +30996,12 @@ shee_bannee_mee dar m'fhocal
 sheeagh_ad sciálfaidís
 sheeagh_oo sciálfá
 sheeagh_shin sciálfaimis
+sheean_mooie bhfoghair
+sheean_mooie bhfoghar
+sheean_mooie d'fhoghair
+sheean_mooie d'fhoghar
+sheean_mooie foghair
+sheean_mooie foghar
 sheeanagh_ad bheannóidís
 sheeanagh_ad mbeannóidís
 sheeanagh_ad shéanfaidís
@@ -31005,6 +31044,9 @@ sheeaneeagh_shin bheannóimis
 sheeaneeagh_shin mbeannóimis
 sheeaneeagh_shin shéanfaimis
 sheeaneeagh_shin séanfaimis
+sheeanyn_mooie bhfoghair
+sheeanyn_mooie d'fhoghair
+sheeanyn_mooie foghair
 sheear_hwoaie d'iarthuaisceart
 sheear_hwoaie d'iarthuaiscirt
 sheear_hwoaie hiarthuaisceart
@@ -31250,6 +31292,10 @@ sheshaght_cho-obbragh comharchumainn
 sheshaght_cho-obbragh comharchumann
 sheshaght_cho-obbragh gcomharchumainn
 sheshaght_cho-obbragh gcomharchumann
+sheshaght_dellal comhlacht
+sheshaght_dellal comhlachta
+sheshaght_dellal gcomhlacht
+sheshaght_dellal gcomhlachta
 sheshaght_urryssaght cara-chumainn
 sheshaght_urryssaght cara-chumann
 sheshaght_urryssaght gcara-chumainn
@@ -31268,6 +31314,8 @@ sheshaghtyn_chaggee harmshluaite
 sheshaghtyn_chaggee n-airm
 sheshaghtyn_chaggee n-arm
 sheshaghtyn_chaggee n-armshluaite
+sheshaghtyn_dellal comhlachtaí
+sheshaghtyn_dellal gcomhlachtaí
 sheshaghyn_brastyl comhscoláirí
 sheshaghyn_brastyl gcomhscoláirí
 sheshey_brastyl comhscoláire
@@ -36047,6 +36095,13 @@ volmeeagh_oo bhfolmhófá
 volmeeagh_oo fholmhófá
 volmeeagh_shin bhfolmhóimis
 volmeeagh_shin fholmhóimis
+volt_ad bholtáladar
+volt_ad mboltáladar
+volt_shin bholtálamar
+volt_shin mboltálamar
+voltagh_ad bholtálfaidís
+voltagh_oo bholtálfá
+voltagh_shin bholtálfaimis
 vondeeagh_ad chruthóidís
 vondeeagh_ad gcruthóidís
 vondeeagh_oo chruthófá
@@ -37537,6 +37592,7 @@ yn_Phobblaght_Çheck Poblacht na Seice
 yn_RY an RO
 yn_Sheen an tSín
 yn_Sparta Sparta
+yn_Syrian an tArámach
 yn_Tahiti Taihítí
 yn_Tansibar Sainsibeár
 yn_Togo Tóga
@@ -37746,6 +37802,8 @@ yystyn_poddash phorainséir
 çhamyr_vee bialann
 çhamyr_yaaghee múchlann
 çhaslagh_lheeannagh cuise
+çheean_mooie foghair
+çheean_mooie foghar
 çheeanane_gheyre agúid
 çheeanane_liauyr cuairín
 çheear_hwoaie iarthuaiscirt
@@ -37819,6 +37877,7 @@ yystyn_poddash phorainséir
 çheshaght_chaggee t-arm
 çheshaght_chaggee t-armshlua
 çheshaght_cho-obbragh comharchumann
+çheshaght_dellal comhlacht
 çheshaght_urryssaght cara-chumann
 çheshvean_trimmid meáchanláir
 çheshvean_trimmid meáchanlár
