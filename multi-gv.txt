@@ -116,6 +116,7 @@ Coontae_yn_Chlaair Contae an Chláir
 Coose_Berçhagh Cósta Ríce
 Crea_ny_Hostyllyn Cré na nAspal
 Creestee_Raueagh Caitliceach Rómhánach
+Crogheydyssyn_Crooin Spleáchríocha na Corónach
 Crosh_yn_Jiass Cros an Deiscirt
 Cryss_yn_Antarctagh Ciorcal Antartach
 Cryss_yn_Arctagh an Ciorcal Artach
@@ -202,6 +203,7 @@ Jecrean_yn_Vrah Céadaoin an Bhraith
 Jee_bannee_mee a thiarcais
 Jee_bannee_mee ar m'anam
 Jee_bannee_mee dar m'fhocal
+Jee_d'Israel Dia Iosrael
 Jeer_Swassee Suasalainn
 Jeer_Swassee Suasalainne
 Jeer_Thai dTéalainn
@@ -457,6 +459,7 @@ Vretin_Vooar Bhreatain Mhór
 Vretin_Vooar na Breataine Móire
 Vretyn_Veg Bhreatain Bheag
 Vretyn_Vooar Bhreatain Mhór
+Yee_d'Israel Dhia Iosrael
 Yernish_Veanagh Meán-Ghaeilge
 Yernish_Veanagh Mheán-Ghaeilge
 Yerraghyn_Geuree Eanáirí
@@ -955,6 +958,8 @@ ar_folt bhréagfholt
 ar_ushtey fhionnuisce
 ar_ushtey fhíoruisce
 arbyl_shynnee eireaball sionnaigh
+ard-chlagh_chorneilagh chloch chúinne
+ard-chlagh_chorneilagh cloch chúinne
 ard-raad_mooar mhórbhealach
 ard-raad_mooar mhórbhealaigh
 ard-raad_mooar mórbhealach
@@ -1327,6 +1332,7 @@ ay_ns i
 ay_ns in
 ayn_rish_foddey ann le fada
 ayns_'aigney ina aigne
+ayns_Afghanistan san Afganastáin
 ayns_Arabia san Araib
 ayns_Asia san Áise
 ayns_Baarle i mBéarla
@@ -2776,6 +2782,7 @@ cayrnyn_Alpagh d'alpchorn
 cayrnyn_Alpagh halpchoirn
 cayrnyn_Alpagh halpchorn
 ceau_fliaghey ag cur báistí
+ceau_fliaghtey ag cur báistí
 ceau_niaghtee titim sneachta
 ceau_shilley caitheamh súil
 ceau_snaightey ag cur sneachta
@@ -2832,6 +2839,7 @@ cha_by-haittin níor bhreá
 cha_by-haittin níor mhaith
 cha_by-haittyn níor bhreá
 cha_by-haittyn níor mhaith
+cha_by-laik níor mhaith
 cha_by-vian níor mhian
 cha_by_haittin níor bhreá
 cha_by_haittin níor mhaith
@@ -2848,6 +2856,7 @@ cha_dreggyr níor fhreagair
 cha_dreih ní oth
 cha_duirree níor fhan
 cha_gooin ní cuimhin
+cha_gredjym ní chreidim
 cha_jarg ní fhéadfadh
 cha_jargym ní féidir liom
 cha_jean_uss ná déan
@@ -3491,6 +3500,34 @@ chiaddagh_shin cheapfaimis
 chiaddagh_shin chruthóimis
 chiaddagh_shin dhealbhóimis
 chiaddagh_shin dhearfaimis
+chiaddee_ad cheapadar
+chiaddee_ad chruthaíodar
+chiaddee_ad dhealbhaíodar
+chiaddee_ad dhearadar
+chiaddee_ad gceapadar
+chiaddee_ad gcruthaíodar
+chiaddee_ad ndealbhaíodar
+chiaddee_ad ndearadar
+chiaddee_shin cheapamar
+chiaddee_shin chruthaíomar
+chiaddee_shin dhealbhaíomar
+chiaddee_shin dhearamar
+chiaddee_shin gceapamar
+chiaddee_shin gcruthaíomar
+chiaddee_shin ndealbhaíomar
+chiaddee_shin ndearamar
+chiaddeeagh_ad cheapfaidís
+chiaddeeagh_ad chruthóidís
+chiaddeeagh_ad dhealbhóidís
+chiaddeeagh_ad dhearfaidís
+chiaddeeagh_oo cheapfá
+chiaddeeagh_oo chruthófá
+chiaddeeagh_oo dhealbhófá
+chiaddeeagh_oo dhearfá
+chiaddeeagh_shin cheapfaimis
+chiaddeeagh_shin chruthóimis
+chiaddeeagh_shin dhealbhóimis
+chiaddeeagh_shin dhearfaimis
 chianglaghyn_craue bhallnaisc
 chianglaghyn_craue bhallnasc
 chiangle_ad cheanglaíodar
@@ -4054,6 +4091,7 @@ choeagh_ad chaoinfidís
 choeagh_oo chaoinfeá
 choeagh_shin chaoinfimis
 chohirr_eh_sy chuaigh sé sa chomórtas
+choirrey_aileagh-loshtee foirnéise ag spréacharnach le lasair
 cholaastaghyn_cleragh chliarcholáistí
 cholaastey_cleragh chliarcholáiste
 chombaase_ad dtimpeallaíodar
@@ -4153,6 +4191,13 @@ chooinee_shin gcuimhníomar
 chooineeagh_ad chuimhneoidís
 chooineeagh_oo chuimhneofá
 chooineeagh_shin chuimhneoimis
+chooinnee_ad chuimhníodar
+chooinnee_ad gcuimhníodar
+chooinnee_shin chuimhníomar
+chooinnee_shin gcuimhníomar
+chooinneeagh_ad chuimhneoidís
+chooinneeagh_oo chuimhneofá
+chooinneeagh_shin chuimhneoimis
 choonree_ad chonraíodar
 choonree_ad gconraíodar
 choonree_ad malartaíodar
@@ -5090,6 +5135,7 @@ coayl_chooinaght haimnéise
 cochasley_rish cosúil le
 cochast_feeit_ry-cheilley fite fuaite
 cochionneeaght_sleab trádáil daor
+coirrey_aileagh-loshtee foirnéise ag spréacharnach le lasair
 colaastaghyn_cleragh cliarcholáistí
 colaastey_cleragh cliarcholáiste
 colloo_boalley piléar balla
@@ -8852,6 +8898,7 @@ er_be_dy_row mura raibh
 er_be_dy_vel mura bhfuil
 er_bee ar bith
 er_beealloo os comhair
+er_board ar bord
 er_broogh ar bhruach
 er_cabbagh stadaire
 er_casherickey tar éis coisreacan
@@ -12157,6 +12204,30 @@ giaddagh_shin gceapfaimis
 giaddagh_shin gcruthóimis
 giaddagh_shin ndealbhóimis
 giaddagh_shin ndearfaimis
+giaddeeagh_ad cheapfaidís
+giaddeeagh_ad chruthóidís
+giaddeeagh_ad dhealbhóidís
+giaddeeagh_ad dhearfaidís
+giaddeeagh_ad gceapfaidís
+giaddeeagh_ad gcruthóidís
+giaddeeagh_ad ndealbhóidís
+giaddeeagh_ad ndearfaidís
+giaddeeagh_oo cheapfá
+giaddeeagh_oo chruthófá
+giaddeeagh_oo dhealbhófá
+giaddeeagh_oo dhearfá
+giaddeeagh_oo gceapfá
+giaddeeagh_oo gcruthófá
+giaddeeagh_oo ndealbhófá
+giaddeeagh_oo ndearfá
+giaddeeagh_shin cheapfaimis
+giaddeeagh_shin chruthóimis
+giaddeeagh_shin dhealbhóimis
+giaddeeagh_shin dhearfaimis
+giaddeeagh_shin gceapfaimis
+giaddeeagh_shin gcruthóimis
+giaddeeagh_shin ndealbhóimis
+giaddeeagh_shin ndearfaimis
 gianglaghyn_craue mballnaisc
 gianglaghyn_craue mballnasc
 giangleagh_ad cheanglóidís
@@ -12720,6 +12791,8 @@ goan_cooid gannchuid
 goan_dy_argid gann ar airgead
 goan_foshlee réamhfhocail
 goan_foshlee réamhfhocal
+goan_foslee brollach
+goan_foslee réamhrá
 goan_mollaghtagh blaisféim
 goan_mollaghtagh blaisféime
 goan_mollaghtagh diamhasla
@@ -13105,6 +13178,12 @@ gooineeagh_oo chuimhneofá
 gooineeagh_oo gcuimhneofá
 gooineeagh_shin chuimhneoimis
 gooineeagh_shin gcuimhneoimis
+gooinneeagh_ad chuimhneoidís
+gooinneeagh_ad gcuimhneoidís
+gooinneeagh_oo chuimhneofá
+gooinneeagh_oo gcuimhneofá
+gooinneeagh_shin chuimhneoimis
+gooinneeagh_shin gcuimhneoimis
 goonreeagh_ad chonróidís
 goonreeagh_ad gconróidís
 goonreeagh_ad malartóidís
@@ -18489,9 +18568,12 @@ lhune_eddrym leann éadrom
 lhune_eddrym n-iarleann
 lhune_eddrym n-iarleanna
 lhune_eddrym t-iarleann
+lhune_freillagh lágair
+lhune_freillagh lágar
 lhune_jinshar leann sinséir
 lhune_ooyl leann úll
 lhune_sharroo leann searbh
+lhuneyn_freillagh lágair
 lhunn_ad lainseáladar
 lhunn_shin lainseálamar
 lhunnagh_ad lainseálfaidís
@@ -21288,6 +21370,12 @@ mrackagh_oo bhreacfá
 mrackagh_oo mbreacfá
 mrackagh_shin bhreacfaimis
 mrackagh_shin mbreacfaimis
+mraghagh_ad bhrachfaidís
+mraghagh_ad mbrachfaidís
+mraghagh_oo bhrachfá
+mraghagh_oo mbrachfá
+mraghagh_shin bhrachfaimis
+mraghagh_shin mbrachfaimis
 mrahagh_ad bhraithfidís
 mrahagh_ad mbraithfidís
 mrahagh_oo bhraithfeá
@@ -21669,6 +21757,7 @@ my_chaghlaa m'athraithe
 my_chaghlaa m'athrú
 my_chaghlaa_folley m'fhuilaistriú
 my_chaghlaaghyn m'athruithe
+my_chaghlaayn m'athruithe
 my_chaghlaayn_folley m'fhuilaistrithe
 my_chaghlaays m'éagsúlacht
 my_chaghlaays m'éagsúlachta
@@ -22019,6 +22108,9 @@ my_chuishleeyn m'fhéitheacha
 my_chuishlin m'fhéith
 my_chuishlin m'fhéithe
 my_chuishlinyn m'fhéitheacha
+my_chummal-rea m'árasáin
+my_chummal-rea m'árasán
+my_chummallyn-rea m'árasáin
 my_chummaltagh m'áitritheoir
 my_chummaltagh m'áitritheora
 my_chummaltee m'áitritheoirí
@@ -24224,6 +24316,12 @@ my_vreneen m'adaimh
 my_vreneen m'adamh
 my_vreneenyn m'adaimh
 my_vreneenyn m'adamh
+my_vrenneein m'adaimh
+my_vrenneein m'adamh
+my_vrenneeinyn m'adaimh
+my_vrenneen m'adaimh
+my_vrenneen m'adamh
+my_vrenneenyn m'adaimh
 my_vriaght m'fhiafraí
 my_vriaght m'fhiosraithe
 my_vriaght m'fhiosrú
@@ -24990,6 +25088,7 @@ nagh_bione nárbh aithnid
 nagh_bione nárbh eol
 nagh_by nár
 nagh_by-haittin nár mhaith
+nagh_by-laik nár mhaith
 nagh_bynney nár bhreá
 nagh_daink nár tháinig
 nagh_daittin nár thaitin
@@ -33574,6 +33673,7 @@ t'ou_paa tá tart ort
 t'ou_paagh tá tart ort
 t'ou_uss atá tusa
 t'ou_uss tá tusa
+ta'n_Dein tá An Daingean
 ta'n_Flandyryn tá Flóndras
 ta'n_aacheoid tá na daitheacha
 ta'n_chied-vess tá na céadtorthaí
@@ -36257,6 +36357,13 @@ vrack_shin mbreacamar
 vrackagh_ad bhreacfaidís
 vrackagh_oo bhreacfá
 vrackagh_shin bhreacfaimis
+vragh_ad bhrachadar
+vragh_ad mbrachadar
+vragh_shin bhrachamar
+vragh_shin mbrachamar
+vraghagh_ad bhrachfaidís
+vraghagh_oo bhrachfá
+vraghagh_shin bhrachfaimis
 vrah_ad bhraitheadar
 vrah_ad mbraitheadar
 vrah_shin bhraitheamar
@@ -36745,6 +36852,7 @@ y_Choowait Cuáit
 y_Clyst_Iuaagagh an Cósta Eabhair
 y_Clyst_Iuaagagh an gCósta Eabhair
 y_Coose_Berçhagh Cósta Ríce
+y_Dein an Daingin
 y_Douvyr Dhobhair
 y_Douvyr Dobhar
 y_Flandyryn Flóndras
