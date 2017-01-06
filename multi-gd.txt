@@ -363,6 +363,7 @@ Hong_Kong Hong Cong
 Horo_Gheallaidh Horo Gheallaidh
 Iar_Thuath Iarthuaisceart
 Inbhir_Nis Inbhir Nis
+Inbhir_Nìs Inbhir Nis
 Innis_Tìleach Íoslannach
 Innis_Tìleach Íoslannacha
 Innse_Gall Inse Gall
@@ -6568,6 +6569,8 @@ a_dh'oilthigh d'ollscoil
 a_dh'oilthigh d'ollscoile
 a_dh'oilthighe d'ollscoile
 a_dh'oilthighean d'ollscoileanna
+a_dh'oinisg d'oinisc
+a_dh'oinisge d'oinisce
 a_dh'oir d'fhóir
 a_dh'oirceadail d'fhoirceadail
 a_dh'oirceadal d'fhoirceadal
@@ -6678,6 +6681,8 @@ a_dh'onghail do challán
 a_dh'onghail do chlampar
 a_dh'onghaile do challáin
 a_dh'onghaile do chlampair
+a_dh'onics d'oinisc
+a_dh'onics d'oinisce
 a_dh'onnchoin d'onchon
 a_dh'onnchon d'onchú
 a_dh'onnchonan d'onchoin
@@ -10683,6 +10688,8 @@ anns_an_fharsaingeachd go ginearálta
 anns_an_gabh ina ngabhfaidh
 anns_an_gabh ina nglacfaidh
 anns_an_iar_na in iarthar na
+anns_an_naidheachd sa nuacht
+anns_an_nàidheachd sa nuacht
 anns_an_robh ina raibh
 anns_an_spot ar an toirt
 anns_an_spot láithreach
@@ -15087,6 +15094,7 @@ bu_lèine-aifrinn b'ailb
 bu_lèintean-aifrinn b'ailbeanna
 bu_lèireas b'infheictheacht
 bu_lìnn b'aois
+bu_lìon-obair b'fhíolagrán
 bu_lìrean b'alga
 bu_lùdag b'inse
 bu_lùdagan b'insí
@@ -26224,6 +26232,8 @@ de_dh'oilthigh d'ollscoil
 de_dh'oilthigh d'ollscoile
 de_dh'oilthighe d'ollscoile
 de_dh'oilthighean d'ollscoileanna
+de_dh'oinisg d'oinisc
+de_dh'oinisge d'oinisce
 de_dh'oir d'fhóir
 de_dh'oirceadail d'fhoirceadail
 de_dh'oirceadal d'fhoirceadal
@@ -26334,6 +26344,8 @@ de_dh'onghail de challán
 de_dh'onghail de chlampar
 de_dh'onghaile de challáin
 de_dh'onghaile de chlampair
+de_dh'onics d'oinisc
+de_dh'onics d'oinisce
 de_dh'onnchoin d'onchon
 de_dh'onnchon d'onchú
 de_dh'onnchonan d'onchoin
@@ -28184,6 +28196,7 @@ deagh_naidheachd dea-scéil
 deagh_naidheachd ndea-scéal
 deagh_naidheachd ndea-scéil
 deagh_nàbaidh comharsa mhaith
+deagh_nàidheachd dea-scéal
 deagh_obair dea-obair
 deagh_obair dea-oibre
 deagh_obair ndea-obair
@@ -38805,6 +38818,8 @@ do_dh'oilthigh d'ollscoil
 do_dh'oilthigh d'ollscoile
 do_dh'oilthighe d'ollscoile
 do_dh'oilthighean d'ollscoileanna
+do_dh'oinisg d'oinisc
+do_dh'oinisge d'oinisce
 do_dh'oir d'fhóir
 do_dh'oirceadail d'fhoirceadail
 do_dh'oirceadal d'fhoirceadal
@@ -38915,6 +38930,8 @@ do_dh'onghail do challán
 do_dh'onghail do chlampar
 do_dh'onghaile do challáin
 do_dh'onghaile do chlampair
+do_dh'onics d'oinisc
+do_dh'onics d'oinisce
 do_dh'onnchoin d'onchon
 do_dh'onnchon d'onchú
 do_dh'onnchonan d'onchoin
@@ -44547,6 +44564,7 @@ gu_inbhe go hinmhe
 gu_lear go leor
 gu_leith go leith
 gu_leth go leith
+gu_leìr go léir
 gu_leòr go leor
 gu_lèir go léir
 gu_mì-fhortanach faraor
@@ -47000,6 +47018,7 @@ meadhan_oidhche meán oíche
 meal_a_naidheachd comhghairdeas
 meal_an_naidheachd comhghairdeas
 meal_do_naidheachd comhghairdeas
+meal_do_nàidheachd comhghairdeas
 meal_is_ceith go maire is go gcaithe tú
 meal_ur_naidheachd comhghairdeas
 meala_naidheachd comhghairdeas
@@ -47013,6 +47032,7 @@ mealadh_iad ngráidís
 mealadh_tu n-adharfá
 mealadh_tu ngráfá
 mealaibh_ur_naidheachd comhghairdeas
+mealaibh_ur_nàidheachd comhghairdeas
 mealaidh_sinn adharfaimid
 mealaidh_sinn gráfaimid
 mealaidh_sinn n-adharfaimid
@@ -50229,6 +50249,8 @@ mo_lèireas m'infheictheacht
 mo_lèireis m'infheictheachta
 mo_lìnn m'aois
 mo_lìnne m'aoise
+mo_lìon-obair m'fhíolagrán
+mo_lìon-oibre m'fhíolagráin
 mo_lìrean m'alga
 mo_lìrein m'alga
 mo_lùdag m'inse
@@ -51354,6 +51376,7 @@ mothaicheadh_iad mothóidís
 mothaicheadh_tu mothófá
 mothaichidh_sinn mothóimid
 mu'n_cuairt_orm i mo timpeall
+mu'r_deidhinn fúibh
 mu_'m_dheidhinn fúm
 mu_'n_deidhinn fúthu
 mu_a faoina
@@ -51660,6 +51683,7 @@ na_Labaraich Páirtí an Lucht Oibre
 na_Laboraich Páirtí an Lucht Oibre
 na_Làbaraich Páirtí an Lucht Oibre
 na_Làboraich Páirtí an Lucht Oibre
+na_Mòr-bheinne an Mhórshléibhe
 na_Roinn-Eorpa Roinn na hEorpa
 na_Roinn-Eòrpa Roinn na hEorpa
 na_Roinn_Eòrpa na hEorpa
