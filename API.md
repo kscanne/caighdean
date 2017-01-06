@@ -6,6 +6,7 @@ I am currently running the Irish standardizer and the gd2ga and gv2ga
 translators as a web service which powers several applications:
 
 * the Intergaelic web site <http://intergaelic.com/>
+* the Pota Focal interface to the standardizer <http://www.potafocal.com/cai/>
 * Twitter streams <http://borel.slu.edu/gd2ga> and <http://borel.slu.edu/gv2ga>
 * [Minority Translate](http://translate.keeleleek.ee/wiki/Esileht), a translation application for Wikipedia articles
 * [Pootle](http://pootle.translatehouse.org/), web-based localization server
