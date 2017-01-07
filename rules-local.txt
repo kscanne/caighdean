@@ -1,5 +1,6 @@
 (...)-sin$	$1_sin	1
 (...)-se?o$	$1_seo	1
+^(ao|é[ai])n-(...)	aon_$2	1
 # tsórt -> sórt, tsaghas -> saghas
 # also means we need to have forms like "tsaoghail", where we want to
 # preserve the initial t, in the IG db as alt

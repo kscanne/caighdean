@@ -78,6 +78,7 @@ i[dg]hth?(.)	it$1	1
 #  rules-local.txt here...
 (...)-sin$	$1_sin	1
 (...)-se?o$	$1_seo	1
+^(ao|é[ai])n-(...)	aon_$2	1
 # tsórt -> sórt, tsaghas -> saghas
 # also means we need to have forms like "tsaoghail", where we want to
 # preserve the initial t, in the IG db as alt
@@ -297,6 +298,7 @@ e[oó]chairse$	eoidh_tusa	1
 ^(b?ph?)rímh	$1ríomh	1
 ^réidh	ré	1
 ^réimh	réamh	1
+^riaghal	rial	1
 ^r[íi]o?gh([^n])	rí$1	1
 ^ro-	ró-	1
 ^rói-	ró-	1
@@ -387,6 +389,7 @@ eamhla	iúla	1
 ([^e])amh[au]il$	$1úil	1
 ([^e])amhla	$1úla	1
 adht([aá])	at$1	1
+iomh$	eamh	1
 aíle$	aíola	1
 idhibh$	í	1
 ([ií])[dg]hthibh$	$1the	1
