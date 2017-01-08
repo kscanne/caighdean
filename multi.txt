@@ -60,6 +60,7 @@ a_dtánag ar tháinig mé
 a_fágfaí a d'fhágfaí
 a_féadfaí a d'fhéadfaí
 a_ghainfhios i ngan fhios
+a_los as los
 a_n-aimhdheoin in ainneoin
 a_n-diu inniu
 a_n-diú inniu
@@ -344,6 +345,7 @@ do_chífinn d'fheicfinn
 do_chífá d'fheicfeá
 do_chíodh d'fheiceadh
 do_chítí d'fheictí
+do_cuireadh cuireadh
 do_deineadh rinneadh
 do_deunfadh a dhéanfadh
 do_deunfadh dhéanfadh
@@ -476,6 +478,8 @@ faoi_dheoigh faoi dheoidh
 faoi_do_réir faoi do réir
 faoi_n'asgaill faoina ascaill
 faoi_n-a faoina
+froma_ar_aghaig cruthúnas díreach
+froma_ar_gcúlaibh cruthúnas indíreach
 fríd_a trína
 fríd_a' tríd an
 fríd_ár trínár
@@ -552,6 +556,7 @@ gur_bhfada gurbh fhada
 gur_bhfearr gurbh fhearr
 gur_bhféidir gurbh fhéidir
 gur_bhudh gurbh
+gur_cómha gur comhionann
 gur_deineadh go ndearnadh
 gur_dubhairt go ndúirt
 gur_déineadh go ndearnadh
@@ -564,6 +569,7 @@ gur_rinnis go ndearna tú
 gá_hacú cé acu
 h-ana_mhaith han-mhaith
 h-ana_mhór han-mhór
+heó_láir lárphointe
 hurla_harla hurlamaboc
 i_Samaria sa tSamáir
 i_Samaría sa tSamáir
@@ -721,6 +727,9 @@ ins_an san
 ins_na sna
 ionn_a ina
 ionn_a_nam ina n-am
+is_cómha is comhionann
+is_nea-chómha is neamhionann
+is_neachómha is neamhionann
 ist'_oidhche istoíche
 ist_oidhche istoíche
 it'_aigne i d'aigne
@@ -777,6 +786,7 @@ mbudh_éidir mb'fhéidir
 mo_chéill mo chiall
 mo_níon m'iníon
 má_'s más
+más_nea-chómha más neamhionann
 nDún_Gheanainn nDún Geanainn
 nUdarás_nAitiúil nÚdarás Áitiúil
 na_Boers na Bóraigh
@@ -786,6 +796,7 @@ na_feuchfadh nach bhféachfadh
 na_féachfadh nach bhféachfadh
 na_féadfadh nach bhféadfadh
 na_h-Arabia na hAraibe
+na_háine an chiorcail
 na_mBoers na mBórach
 na_neithe-se na nithe seo
 na_tógfadh nach dtógfadh
@@ -1058,7 +1069,7 @@ tá_'is tá a fhios
 táid_siad tá siad
 Áibh_Maria Áivé Máiria
 Ó_Connachán Ó Connacháin
-à_los alos
+à_los as los
 ás_tá agus atá
 é_r'd is éard
 ó_'n-a óna
