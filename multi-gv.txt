@@ -126,6 +126,7 @@ Dhalloo_Sooloo Súlúlainn
 Dhalloo_Sooloo Súlúlainne
 Dong_Hoi Dong Hoi
 Doon_Edin Dún Éideann
+Doon_Jialgan Dún Dealgan
 Doon_ny_Ghoal Dún na nGall
 Doonaght_Kingeesh Domhnach Cincíse
 Doonaght_Trinaid Domhnach na Tríonóide
@@ -174,6 +175,7 @@ Gammanyn_Olympagh Cluichí Oilimpeacha
 Gaoth_Dobhair Gaoth Dobhair
 Garey_Eden Gairdín Éidin
 Ghlion_Faba Ghlion Faba
+Ghoon_Jialgan Dhún Dealgan
 Ghoon_ny_Ghoal Dhún na nGall
 Ghuilley_Drid Ghiolla
 Giau_Vooar_ny_Pershey Murascaill na Peirse
@@ -1581,6 +1583,12 @@ bacyn_aer haerbhaic
 badjer_nuy_laa nóibhéine
 badjer_voghree n-iarmhéirí
 badjeryn_nuy_laa nóibhéiní
+baggagh_ad bpacálfaidís
+baggagh_ad phacálfaidís
+baggagh_oo bpacálfá
+baggagh_oo phacálfá
+baggagh_shin bpacálfaimis
+baggagh_shin phacálfaimis
 baght_y_gheddyn spléachadh a fháil
 baght_y_ghoaill_jeh breathú air
 baght_y_ghoaill_jeh breathú ar
@@ -7888,6 +7896,7 @@ dy_irree le héirí
 dy_irree-magh le héirí amach
 dy_iu ag ól
 dy_iu le hól
+dy_jarro go deimhin
 dy_jarroo go deimhin
 dy_jean_uss go ndéanfaidh tusa
 dy_jeanmayd go ndéanfaimid
@@ -9525,6 +9534,7 @@ er_shee shíochánaí
 er_shen air sin
 er_shenn_screeuyn phailéagrafaí
 er_shlee ar shlí
+er_signal tar éis síniú
 er_skeayley tar éis scaipeadh
 er_skeayley tar éis scaoileadh
 er_skyn os cionn
@@ -9649,6 +9659,8 @@ er_yn_aght_shoh sa chaoi seo
 er_yn_chied_cheayrt den chéad uair
 er_yn_or de bharr
 er_yn_or de bhrí
+er_yn_ore de bharr
+er_yn_ore de bhrí
 er_yn_oyr de bharr
 er_yn_oyr de bhrí
 er_yn_scooyr ar na cannaí
@@ -19215,6 +19227,7 @@ lus_ny_h-ashlish crobh fola
 lus_ny_h-ashlish geiréiniam
 lus_ny_h-ashlish gheiréiniam
 lus_ny_h-ashlish ngeiréiniam
+lus_ny_kee duilleog Bhríde
 lus_ny_keeyrey cháithluibh
 lus_ny_keeyrey cháithluibhe
 lus_ny_keeyrey cáithluibh
@@ -21887,6 +21900,8 @@ my_chiarailyn_ro-laue m'ullmhúcháin
 my_chiarailyn_ro-laue m'ullmhúchán
 my_chiarailyn_rolaue m'ullmhúcháin
 my_chiarailyn_rolaue m'ullmhúchán
+my_chiarailys m'oirchill
+my_chiarailys m'oirchille
 my_chiartaghaghyn m'ullmhuithe
 my_chiartaghey m'ullmhaithe
 my_chiartaghey m'ullmhú
@@ -27190,6 +27205,7 @@ ny_Flandyryn Flóndras
 ny_Germaanee na Gearmánaigh
 ny_Germaanee na nGearmánach
 ny_Geyrragh na gCaorach
+ny_Goal na nGall
 ny_Guatemaley Ghuatamala
 ny_Hebrewnee na Giúdaigh
 ny_Hebrewnee na hEabhraigh
@@ -28858,6 +28874,13 @@ phabyryn_naight nuachtán
 phadjer_nuy_laa nóibhéine
 phadjer_voghree iarmhéirí
 phadjeryn_nuy_laa nóibhéiní
+phagg_ad bpacáladar
+phagg_ad phacáladar
+phagg_shin bpacálamar
+phagg_shin phacálamar
+phaggagh_ad phacálfaidís
+phaggagh_oo phacálfá
+phaggagh_shin phacálfaimis
 phairk_ad bpáirceáladar
 phairk_ad pháirceáladar
 phairk_aer aerpháirc
@@ -29408,6 +29431,7 @@ preabanyn_caggee d'aimfitéatar
 preabanyn_caggee haimfitéatair
 preabanyn_caggee haimfitéatar
 press_feeyney cantaoir fíona
+problem_erbee fadhb ar bith
 pronney_shehghyn seitheadóireacht
 pronney_shehghyn seitheadóireachta
 pronney_shehghyn tseitheadóireacht
@@ -34240,6 +34264,10 @@ turranse_foddey fadfhulaingt
 turranse_foddey fadfhulaingthe
 turrys_ayn_as_er_ash turas fillte
 turrysagh_iu raimleálaí óil
+twoaiagh_jeh eolach air
+twoaiagh_jeh eolach ar
+twoaiagh_jeh feasach air
+twoaiagh_jeh feasach ar
 twoaie_vooar tuaisceart mór
 uaill_ad bhfuadar
 uaill_ad fhuadar
