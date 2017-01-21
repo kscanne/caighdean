@@ -159,6 +159,7 @@ Ellan_ny_Frastyl Oileán na Deascabhála
 Ellan_ny_Trinaid Oileán na Tríonóide
 Ellan_y_Chaisht Oileán na Cásca
 Ellanyn_Vooir_Eeaght Oileáin Mhuir nIocht
+Emhain_Macha Eamhain Mhacha
 Ew_rouaillagh Giúdach fáin
 Failt_yn_Ainle Fáilte an Aingil
 Far-Ligganagh_Marrey Turtar Bréige
@@ -192,6 +193,7 @@ Heer_Thai Théalainn
 Heer_Thai Théalainne
 Heihll_Heear Iarthair
 Heihll_Heear Iarthar
+Helena_Noo San Héilin
 Henn_Yernish Shean-Ghaeilge
 Hong_Kong Hong Cong
 Hop_tu_Naa Oíche Chinn Bhliana
@@ -1382,6 +1384,7 @@ ayns_baarney i mbearna
 ayns_balley i mbaile
 ayns_balley_beg_cheerey i sráidbhaile
 ayns_balley_beg_çheerey i sráidbhaile
+ayns_beggan_d'ocklyn i mbeagán focal
 ayns_boghtynid i mbochtaineacht
 ayns_boirey i dtrioblóid
 ayns_bolg i mbolg
@@ -3830,6 +3833,13 @@ chliweyn_cam shimeatáir
 chliweyn_cam shimeatár
 chliweyn_keyl ráipéar
 chliweyn_keyl ráipéir
+chloag_ad cheileadar
+chloag_ad gceileadar
+chloag_shin cheileamar
+chloag_shin gceileamar
+chloagagh_ad cheilfidís
+chloagagh_oo cheilfeá
+chloagagh_shin cheilfimis
 chloh_ad chluicheadar
 chloh_ad gcluicheadar
 chloh_mooar bhréidín
@@ -5173,6 +5183,7 @@ coodagh_keeagh cíochbhirt
 coodagh_pillagh clúdach piliúir
 coodagh_taaishnys taiseagáin
 coodagh_taaishnys taiseagán
+coodaghyn_sooilley áiseanna amhairc
 coodee_keeagh cíochbheart
 coodee_keeagh cíochbhirt
 coodee_taaishnys taiseagáin
@@ -5195,6 +5206,7 @@ cooidyn_seihlt maoine
 cooidyn_vog bogearraí
 cooinaghtyn_keead_blein comóradh céad bliain
 cooish_leigh cúis dlí
+coonaghyn_sooilley áiseanna amhairc
 cooney_taaueid cúnamh dífhostaíochta
 coontey'n_pobble daonáireamh
 coontey_monney_jee ag tabhairt mórán airde di
@@ -12565,6 +12577,12 @@ gliweyn_cam simeatáir
 gliweyn_cam simeatár
 gliweyn_keyl ráipéar
 gliweyn_keyl ráipéir
+gloagagh_ad cheilfidís
+gloagagh_ad gceilfidís
+gloagagh_oo cheilfeá
+gloagagh_oo gceilfeá
+gloagagh_shin cheilfimis
+gloagagh_shin gceilfimis
 gloh_mooar mbréidín
 glohagh_ad chluichfidís
 glohagh_ad gcluichfidís
@@ -21846,6 +21864,7 @@ my_cherçheen m'ainniseoir
 my_cherçheen m'ainniseora
 my_cherçheenyn m'ainniseoirí
 my_cherçheenys m'ainnise
+my_cherçheenysyn m'ainnisí
 my_chesteyder m'iomrascálaí
 my_chesteyderyn m'iomrascálaithe
 my_chey m'uachtair
@@ -22020,6 +22039,10 @@ my_chontoyrtys m'eachtra
 my_chontoyrtyssyn m'eachtraí
 my_chontoyrys m'eachtra
 my_chontoyrysyn m'eachtraí
+my_choodagh m'fhillteáin
+my_choodagh m'fhillteán
+my_choodaghyn m'fhillteáin
+my_choodee m'fhillteáin
 my_chooid_share mo dhícheall
 my_chooieid m'iomchuibheas
 my_chooieid m'iomchuibhis
@@ -22614,6 +22637,12 @@ my_hene-reill m'fhéinriail
 my_hene-reill m'fhéinrialach
 my_hene-reiltys m'fhéinrialtais
 my_hene-reiltys m'fhéinrialtas
+my_hene-varroo m'fhéinmharaithe
+my_hene-varroo m'fhéinmharú
+my_hene-varrooder m'fhéinmharfóir
+my_hene-varrooder m'fhéinmharfóra
+my_hene-varrooderyn m'fhéinmharfóirí
+my_hene-verriu m'fhéinmharuithe
 my_hene-ynsagh m'fhéinteagaisc
 my_hene-ynsagh m'fhéinteagasc
 my_hengleyrys m'aighneas
@@ -22950,8 +22979,10 @@ my_hreig-ys má thréigeann
 my_hreigys má thréigeann
 my_hreihid m'ainnise
 my_hreihid m'anró
+my_hreihidyn m'ainnisí
 my_hreihys m'ainnise
 my_hreihys m'anró
+my_hreihysyn m'ainnisí
 my_hreir m'iall
 my_hreir m'éille
 my_hreiryn m'iallacha
@@ -23395,6 +23426,7 @@ my_lutçhey m'útamála
 my_lutçhynagh m'útamálaí
 my_lutçhynee m'útamálaithe
 my_my_chione fúm
+my_nagh_vel mura bhfuil
 my_naim m'uncail
 my_naimyn m'uncailí
 my_nane m'aoin
@@ -27253,6 +27285,8 @@ ny_beiyn na mbeithíoch
 ny_beiyn na n-ainmhithe
 ny_biljyn na crainn
 ny_biljyn na gcrann
+ny_bioee na beo
+ny_bioee na mbeo
 ny_blaaghyn na bláthanna
 ny_blaaghyn na mbláthanna
 ny_boayllyn na háiteanna
@@ -27353,6 +27387,7 @@ ny_fir-reill na ceannairí
 ny_fir-reill na gceannairí
 ny_fir_oik na hoifigigh
 ny_fir_oik na n-oifigeach
+ny_flaunysee na slua
 ny_flaunyssee na slua
 ny_focklyn na bhfocal
 ny_focklyn na focail
@@ -33686,6 +33721,7 @@ ta_fys tá a fhios
 ta_jerkit a bhfuiltear ag súil leis
 ta_mee_baghey atá mé i mo chónaí
 ta_mee_baghey tá mé i mo chónaí
+ta_mee_cummal tá mé i mo chónaí
 ta_mee_my atá mé i mo
 ta_mee_my tá mé i mo
 ta_mish_my atá mise i mo
@@ -33697,6 +33733,7 @@ ta_shin atáimid
 ta_shin táimid
 ta_shin_baghey atáimid inár gcónaí
 ta_shin_baghey táimid inár gcónaí
+ta_shin_cummal táimid inár gcónaí
 ta_shin_er_chummal táimid inár gcónaí
 taa_mee tá mé
 taabyl_reiltagh tábla peiriadach
@@ -33937,6 +33974,7 @@ thollog_faiyr dallóg fhraoigh
 thollog_faiyr luch fhéir
 thombaacaghyn_frangagh peatúiniacha
 thombaacey_frangagh peatúinia
+thousaneyn_d'ocklyn na mílte focal
 three_feed trí fichid
 thunnag_hwoaie gaduail
 thunnag_hwoaie gadual
