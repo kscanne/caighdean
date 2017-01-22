@@ -582,6 +582,7 @@ a'_gabhal_aite ag tarlú
 a'_gabhal_pàirt ag glacadh páirte
 a'_gabhal_àite ag tarlú
 a'_mealtainn ag baint sult as
+a'_mhàireach amárach
 a'_màireach amárach
 a'_nisd anois
 a'_nisde anois
@@ -848,6 +849,7 @@ a_dh'Arabais d'Araibis
 a_dh'Arabais d'Araibise
 a_dh'Arctaig d'Artach
 a_dh'Arctaig d'Artaigh
+a_dh'Ard-Chomhairle d'Ard-Chomhairle
 a_dh'Ard-Righ d'ardrí
 a_dh'Ard-Righe d'ardrí
 a_dh'Ard-Righrean d'ardríthe
@@ -5660,6 +5662,9 @@ a_dh'iarrtais d'iarratais
 a_dh'iarrtas d'iarratas
 a_dh'iarrtasan d'iarratais
 a_dh'iarrtasan d'iarratas
+a_dh'iarrtuis d'iarratais
+a_dh'iarrtus d'iarratas
+a_dh'iarrtusan d'iarratais
 a_dh'iarruidh d'iarraidh
 a_dh'iarruidh d'iarrata
 a_dh'iarsmadh d'iarsma
@@ -6455,6 +6460,11 @@ a_dh'ofraile d'ofrála
 a_dh'ofrailean d'ofrálacha
 a_dh'ogalachd d'óigeantacht
 a_dh'ogalachd d'óigeantachta
+a_dh'oganach d'ógánach
+a_dh'oganach do leanbh
+a_dh'oganaich d'ógánaigh
+a_dh'oganaich do leanaí
+a_dh'oganaich do linbh
 a_dh'ogha do gharleanbh
 a_dh'ogha do gharlinbh
 a_dh'oghaichean do gharleanaí
@@ -7337,6 +7347,7 @@ a_dh'Àrainneach d'Árannach
 a_dh'Àrainnich d'Árannach
 a_dh'Àrainnich d'Árannaigh
 a_dh'Àrd d'Ard
+a_dh'Àrd-Chomhairle d'Ard-Chomhairle
 a_dh'Àrd-Easbaig d'Ard-Easpag
 a_dh'Àrd-Easbaige d'Ard-Easpaig
 a_dh'Àrd-Easbaigean d'Ard-Easpag
@@ -8376,6 +8387,7 @@ a_mach amach
 a_measg i measc
 a_mhain amháin
 a_mhàin amháin
+a_mhàireach amárach
 a_muigh amuigh
 a_màireach amárach
 a_nall anall
@@ -9860,6 +9872,8 @@ am_meadhan i lár
 am_measg i measc
 am_miosad in olcas
 am_màireach amárach
+am_mìos-sa an mhí seo
+am_mìos-sa_chaidh an mhí seo caite
 amaileadh_iad bacaidís
 amaileadh_iad bhacaidís
 amaileadh_iad bhacfaidís
@@ -20567,6 +20581,7 @@ de_dh'Arabais d'Araibis
 de_dh'Arabais d'Araibise
 de_dh'Arctaig d'Artach
 de_dh'Arctaig d'Artaigh
+de_dh'Ard-Chomhairle d'Ard-Chomhairle
 de_dh'Ard-Righ d'ardrí
 de_dh'Ard-Righe d'ardrí
 de_dh'Ard-Righrean d'ardríthe
@@ -25359,6 +25374,9 @@ de_dh'iarrtais d'iarratais
 de_dh'iarrtas d'iarratas
 de_dh'iarrtasan d'iarratais
 de_dh'iarrtasan d'iarratas
+de_dh'iarrtuis d'iarratais
+de_dh'iarrtus d'iarratas
+de_dh'iarrtusan d'iarratais
 de_dh'iarruidh d'iarraidh
 de_dh'iarruidh d'iarrata
 de_dh'iarsmadh d'iarsma
@@ -26145,6 +26163,11 @@ de_dh'ofraile d'ofrála
 de_dh'ofrailean d'ofrálacha
 de_dh'ogalachd d'óigeantacht
 de_dh'ogalachd d'óigeantachta
+de_dh'oganach d'ógánach
+de_dh'oganach de leanbh
+de_dh'oganaich d'ógánaigh
+de_dh'oganaich de leanaí
+de_dh'oganaich de linbh
 de_dh'ogha de gharleanbh
 de_dh'ogha de gharlinbh
 de_dh'oghaichean de gharleanaí
@@ -27029,6 +27052,7 @@ de_dh'Àrainneach d'Árannach
 de_dh'Àrainnich d'Árannach
 de_dh'Àrainnich d'Árannaigh
 de_dh'Àrd d'Ard
+de_dh'Àrd-Chomhairle d'Ard-Chomhairle
 de_dh'Àrd-Easbaig d'Ard-Easpag
 de_dh'Àrd-Easbaige d'Ard-Easpaig
 de_dh'Àrd-Easbaigean d'Ard-Easpag
@@ -33153,6 +33177,7 @@ do_dh'Arabais d'Araibis
 do_dh'Arabais d'Araibise
 do_dh'Arctaig d'Artach
 do_dh'Arctaig d'Artaigh
+do_dh'Ard-Chomhairle d'Ard-Chomhairle
 do_dh'Ard-Righ d'ardrí
 do_dh'Ard-Righe d'ardrí
 do_dh'Ard-Righrean d'ardríthe
@@ -37950,6 +37975,9 @@ do_dh'iarrtais d'iarratais
 do_dh'iarrtas d'iarratas
 do_dh'iarrtasan d'iarratais
 do_dh'iarrtasan d'iarratas
+do_dh'iarrtuis d'iarratais
+do_dh'iarrtus d'iarratas
+do_dh'iarrtusan d'iarratais
 do_dh'iarruidh d'iarraidh
 do_dh'iarruidh d'iarrata
 do_dh'iarsmadh d'iarsma
@@ -38737,6 +38765,11 @@ do_dh'ofraile d'ofrála
 do_dh'ofrailean d'ofrálacha
 do_dh'ogalachd d'óigeantacht
 do_dh'ogalachd d'óigeantachta
+do_dh'oganach d'ógánach
+do_dh'oganach do leanbh
+do_dh'oganaich d'ógánaigh
+do_dh'oganaich do leanaí
+do_dh'oganaich do linbh
 do_dh'ogha do gharleanbh
 do_dh'ogha do gharlinbh
 do_dh'oghaichean do gharleanaí
@@ -39620,6 +39653,7 @@ do_dh'Àrainneach d'Árannach
 do_dh'Àrainnich d'Árannach
 do_dh'Àrainnich d'Árannaigh
 do_dh'Àrd d'Ard
+do_dh'Àrd-Chomhairle d'Ard-Chomhairle
 do_dh'Àrd-Easbaig d'Ard-Easpag
 do_dh'Àrd-Easbaige d'Ard-Easpaig
 do_dh'Àrd-Easbaigean d'Ard-Easpag
@@ -45467,6 +45501,7 @@ ithidh_sinn n-íosfaimid
 ithidh_sinn íosfaimid
 keen_air tógtha le
 keen_air tógtha leis
+la_'r_na_mhàireach lá arna mhárach
 labhair_iad labhraíodar
 labhair_sinn labhraíomar
 labhaireadh_iad labhraídís
@@ -46630,6 +46665,7 @@ luthasaichidh_sinn ceadóimid
 luthasaichidh_sinn cheadóimid
 luthasaichidh_sinn gceadóimid
 luthasaichidh_sinn ligfimid
+là_'r_na_mhàireach lá arna mhárach
 là_'san_do lá ar
 là_san_do lá ar
 làidrich_iad láidríodar
@@ -46695,6 +46731,7 @@ làn_fhiosrachaidh gcinntiú
 làn_thaic lántacaíocht
 làn_thìde lánaimseartha
 làn_ùine lánaimseartha
+làr_na_mhàireach lá arna mhárach
 làrach_lin shuíomh
 làrach_lin suíomh
 làrach_lìn shuíomh
@@ -51839,7 +51876,9 @@ na_fir-chlis na gealáin thuaidh
 na_gilean na haltáin
 na_grèin na gréine
 na_h-Aimearagan na Críocha Mheiriceá
+na_h-Aisearan na cuaillí naofa
 na_h-Eileanan_Fàclannach Oileáin Fháclainne
+na_h-Iebusaich na Iabúsaigh
 na_h-Innseachan an India
 na_h-aon_amasan na haidhmeanna céanna
 na_h-aon_amasan na spriocanna céanna
@@ -51880,6 +51919,7 @@ na_leanas seo a leanas
 na_lùib ina measc
 na_lùib ina seilbh
 na_lùib san áireamh
+na_mìos-sa na míosa
 na_naidheachdan an nuacht
 na_prothaidean an brabús
 na_prothaidean an mbrabús
@@ -52166,6 +52206,7 @@ nan_Gàidheal na nGael
 nan_Gàidheal's na nGael's
 nan_Gàidheil na nGael
 nan_Hibheach na Hiveach
+nan_Iebusach na nIabúsach
 nan_Innseachan na hIndia
 nan_Inuit na nIonúiteach
 nan_Iùdhaich na nGiúdach
@@ -52917,6 +52958,7 @@ oidhche_Haoine oíche Aoine
 oidhche_Luain oíche Luain
 oidhche_Shathairne oíche Shathairn
 oidhche_h-Aoine oíche Aoine
+oidhche_mhàireach oíche amárach
 oifigear_riaghlaidh oifigeach ceannais
 oillticheadh_iad scanraídís
 oillticheadh_iad scanróidís
