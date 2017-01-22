@@ -367,6 +367,8 @@ Inbhir_Nis Inbhir Nis
 Inbhir_Nìs Inbhir Nis
 Innis_Tìleach Íoslannach
 Innis_Tìleach Íoslannacha
+Innis_Tìlis Íoslainnis
+Innise_Tìlis Íoslainnise
 Innse_Gall Inse Gall
 Iomairt_Cholm_Cille Iomairt Cholm Cille
 Iomairt_na_Gàidhealtachd's Fiontar na Gaeltachta is
@@ -1008,6 +1010,8 @@ a_dh'Innis d'Inis
 a_dh'Innis-Tìleach d'Íoslannach
 a_dh'Innis-Tìlich d'Íoslannach
 a_dh'Innis-Tìlich d'Íoslannaigh
+a_dh'Innis_Tìlis d'Íoslainnis
+a_dh'Innise_Tìlis d'Íoslainnise
 a_dh'Innseanach d'Indiach
 a_dh'Innseanaich d'Indiach
 a_dh'Innseanaich d'Indiaigh
@@ -6488,6 +6492,8 @@ a_dh'oibrichean d'oibreacha
 a_dh'oibrichean d'oibrithe
 a_dh'oibrichean do phoist
 a_dh'oibrichean do phost
+a_dh'oichdhe d'oíche
+a_dh'oichdheannan d'oícheanta
 a_dh'oidche d'oíche
 a_dh'oidcheannan d'oícheanta
 a_dh'oide d'oide
@@ -7580,10 +7586,15 @@ a_dh'àmhainnean d'oighinn
 a_dh'àmhghair d'angair
 a_dh'àmhghair do bhuartha
 a_dh'àmhghair do chráiteachta
+a_dh'àmhghair do thrioblóide
+a_dh'àmhghairean do bhuarthaí
+a_dh'àmhghairean do thrioblóidí
 a_dh'àmhghar d'angar
 a_dh'àmhghar do bhuairt
 a_dh'àmhghar do chráiteacht
+a_dh'àmhghar do thrioblóid
 a_dh'àmhgharan do bhuarthaí
+a_dh'àmhgharan do thrioblóidí
 a_dh'àmhuinn d'oigheann
 a_dh'àmhuinn d'oighinn
 a_dh'àmhuinnean d'oigheann
@@ -8254,6 +8265,9 @@ a_dh'ùidhe do spéise
 a_dh'ùidhean d'airde
 a_dh'ùidhean do shuimeanna
 a_dh'ùidhean do spéiseanna
+a_dh'ùin' do thamaill
+a_dh'ùin' do thamall
+a_dh'ùin' do thréimhse
 a_dh'ùine do thamaill
 a_dh'ùine do thamall
 a_dh'ùine do thréimhse
@@ -8402,6 +8416,7 @@ a_null anonn
 a_nunn anonn
 a_nìos aníos
 a_raoir aréir
+a_reinn a rinne
 a_reir de réir
 a_riabh riamh
 a_riamh riamh
@@ -9458,8 +9473,14 @@ air_ùrachadh tar éis athnuachan
 air_ùrachadh tar éis nuashonrú
 airgead_beò airgead beo
 airidh_air i dteideal
+airson's_gu chun go
+airson's_gum chun go
+airson's_gum_bi chun go mbeidh
+airson's_gun chun go
+airson's_gun_do chun gur
 airson_'s_gu chun go
 airson_'s_gum chun go
+airson_'s_gum_bi chun go mbeidh
 airson_'s_gun chun go
 airson_'s_gun_do chun gur
 airson_'s_gun_do_rinn chun go ndearna
@@ -11199,6 +11220,7 @@ athchuingichidh_sinn achaineoimid
 athchuingichidh_sinn impeoimid
 athchuingichidh_sinn n-achaineoimid
 athchuingichidh_sinn n-impeoimid
+b'Innis_Tìlis b'Íoslainnis
 b'aisigte_air_ais b'aisíoctha
 b'an_sac b'asma
 b'ath-fhuaimneach_a comhchordaí
@@ -20170,6 +20192,8 @@ cùram_cloinne cùram clainne
 cùrsa_bogaidh tumchúrsa
 cùrsaichean_bogaidh tumchúrsaí
 d'Ard_Righ d'ardrí
+d'Innis_Tìlis d'Íoslainnis
+d'Innise_Tìlis d'Íoslainnise
 d'_a_ionnsaidh chuige
 d'_a_ionnsaidh-san chuigesean
 d'_a_ionnsaigh chuige
@@ -20741,6 +20765,8 @@ de_dh'Innis d'Inis
 de_dh'Innis-Tìleach d'Íoslannach
 de_dh'Innis-Tìlich d'Íoslannach
 de_dh'Innis-Tìlich d'Íoslannaigh
+de_dh'Innis_Tìlis d'Íoslainnis
+de_dh'Innise_Tìlis d'Íoslainnise
 de_dh'Innseanach d'Indiach
 de_dh'Innseanaich d'Indiach
 de_dh'Innseanaich d'Indiaigh
@@ -26191,6 +26217,8 @@ de_dh'oibrichean d'oibreacha
 de_dh'oibrichean d'oibrithe
 de_dh'oibrichean de phoist
 de_dh'oibrichean de phost
+de_dh'oichdhe d'oíche
+de_dh'oichdheannan d'oícheanta
 de_dh'oidche d'oíche
 de_dh'oidcheannan d'oícheanta
 de_dh'oide d'oide
@@ -27285,10 +27313,15 @@ de_dh'àmhainnean d'oighinn
 de_dh'àmhghair d'angair
 de_dh'àmhghair de bhuartha
 de_dh'àmhghair de chráiteachta
+de_dh'àmhghair de thrioblóide
+de_dh'àmhghairean de bhuarthaí
+de_dh'àmhghairean de thrioblóidí
 de_dh'àmhghar d'angar
 de_dh'àmhghar de bhuairt
 de_dh'àmhghar de chráiteacht
+de_dh'àmhghar de thrioblóid
 de_dh'àmhgharan de bhuarthaí
+de_dh'àmhgharan de thrioblóidí
 de_dh'àmhuinn d'oigheann
 de_dh'àmhuinn d'oighinn
 de_dh'àmhuinnean d'oigheann
@@ -27959,6 +27992,9 @@ de_dh'ùidhe de spéise
 de_dh'ùidhean d'airde
 de_dh'ùidhean de shuimeanna
 de_dh'ùidhean de spéiseanna
+de_dh'ùin' de thamaill
+de_dh'ùin' de thamall
+de_dh'ùin' de thréimhse
 de_dh'ùine de thamaill
 de_dh'ùine de thamall
 de_dh'ùine de thréimhse
@@ -28626,6 +28662,8 @@ deònaicheadh_iad ndeonóidís
 deònaicheadh_tu ndeonófá
 deònaichidh_sinn deonóimid
 deònaichidh_sinn ndeonóimid
+dh'Innis_Tìlis d'Íoslainnis
+dh'Innise_Tìlis d'Íoslainnise
 dh'abaich_iad aibíodar
 dh'abaich_iad d'aibíodar
 dh'abaich_iad n-aibíodar
@@ -33340,6 +33378,8 @@ do_dh'Innis d'Inis
 do_dh'Innis-Tìleach d'Íoslannach
 do_dh'Innis-Tìlich d'Íoslannach
 do_dh'Innis-Tìlich d'Íoslannaigh
+do_dh'Innis_Tìlis d'Íoslainnis
+do_dh'Innise_Tìlis d'Íoslainnise
 do_dh'Innseanach d'Indiach
 do_dh'Innseanaich d'Indiach
 do_dh'Innseanaich d'Indiaigh
@@ -38793,6 +38833,8 @@ do_dh'oibrichean d'oibreacha
 do_dh'oibrichean d'oibrithe
 do_dh'oibrichean do phoist
 do_dh'oibrichean do phost
+do_dh'oichdhe d'oíche
+do_dh'oichdheannan d'oícheanta
 do_dh'oidche d'oíche
 do_dh'oidcheannan d'oícheanta
 do_dh'oide d'oide
@@ -39885,10 +39927,15 @@ do_dh'àmhainnean d'oighinn
 do_dh'àmhghair d'angair
 do_dh'àmhghair do bhuartha
 do_dh'àmhghair do chráiteachta
+do_dh'àmhghair do thrioblóide
+do_dh'àmhghairean do bhuarthaí
+do_dh'àmhghairean do thrioblóidí
 do_dh'àmhghar d'angar
 do_dh'àmhghar do bhuairt
 do_dh'àmhghar do chráiteacht
+do_dh'àmhghar do thrioblóid
 do_dh'àmhgharan do bhuarthaí
+do_dh'àmhgharan do thrioblóidí
 do_dh'àmhuinn d'oigheann
 do_dh'àmhuinn d'oighinn
 do_dh'àmhuinnean d'oigheann
@@ -40559,6 +40606,9 @@ do_dh'ùidhe do spéise
 do_dh'ùidhean d'airde
 do_dh'ùidhean do shuimeanna
 do_dh'ùidhean do spéiseanna
+do_dh'ùin' do thamaill
+do_dh'ùin' do thamall
+do_dh'ùin' do thréimhse
 do_dh'ùine do thamaill
 do_dh'ùine do thamall
 do_dh'ùine do thréimhse
@@ -42580,6 +42630,8 @@ fo_gheasaibh faoi gheasa
 fo_làimh_easpaig faoi lámh easpaig
 fo_na_b' faoinarbh
 fo_phrosbaig faoi mhionscrúdú
+fo_phràmh faoi bhrón
+fo_phràmh i dtámh
 fo_sgèith faoi cheannas
 fo_sgèith faoi scáth
 fo_shiùil faoi sheol
@@ -44126,6 +44178,7 @@ glasadh_iad nglasálfaidís
 glasadh_tu nglasálfá
 glasaidh_sinn glasálfaimid
 glasaidh_sinn nglasálfaimid
+gle_bhath an-mhaith
 gle_bheag an-bheag
 gle_fheumail an-úsáideach
 gle_fhreagarrach an-oiriúnach
@@ -44925,6 +44978,8 @@ gìosgaidh_sinn díoscfaimid
 gìosgaidh_sinn ndíoscfaimid
 gìosgan_fhiacal díoscán fiacla
 gìosgan_fhiacall díoscán fiacla
+h-Innis_Tìlis hÍoslainnis
+h-Innise_Tìlis hÍoslainnise
 h-abaicheadh_iad haibídís
 h-abradh_iad habraidís
 h-achdaicheadh_iad hachtaídís
@@ -46908,6 +46963,8 @@ lùthaigidh_sinn ceadóimid
 lùthaigidh_sinn cheadóimid
 lùthaigidh_sinn gceadóimid
 lùthaigidh_sinn ligfimid
+m'Innis_Tìlis m'Íoslainnis
+m'Innise_Tìlis m'Íoslainnise
 m'a_deidhin fúithi
 m'a_deidhinn fúithi
 m'a_dheidhin faoi
@@ -46965,10 +47022,12 @@ ma_thogras_sibh más mian libh
 ma_thogras_tu más mian leat
 ma_thà mar sin
 ma_tà mar sin
+mac_Neir mac Néar
 mac_an_abair mac an daba
 mac_bràthar mac dearthár
 mac_peathar mac deirféar
 madainn_Dhòmhnaich maidin Domhnaigh
+madainn_bhath maidin mhaith
 magadh_iad spochaidís
 magadh_iad spochfaidís
 magadh_tu spochfá
@@ -51761,6 +51820,8 @@ mùthadh_iad n-athróidís
 mùthadh_tu n-athrófá
 mùthaidh_sinn athróimid
 mùthaidh_sinn n-athróimid
+n-Innis_Tìlis nÍoslainnis
+n-Innise_Tìlis nÍoslainnise
 n-an_sac n-asma
 n-iasg_geal bhfaoitín
 n-inneal_tomhais_aimsir n-anaróideach
