@@ -379,6 +379,9 @@ sg	sc	1
 sb	sp	1
 sd	st	1
 dn	nn	1
+aoí	aoi	1
+íng	ing	1
+ngc	nc	1
 é(ir[ld])	e$1	1
 á(i?r[dlnr])	a$1	1
 ó(i?r[dlnr])	o$1	1
@@ -553,6 +556,7 @@ taoi$	taí	1
 #  OS88 p.126  present direct relative
 anns$	ann	1
 íonns$	íonn	1
+uíon$	aíonn	1
 #  corpus; now handled above
 # th(eá|ear)$		t$1		1	<V.*>	<&>
 #  now handled by more general -amuid rules above
