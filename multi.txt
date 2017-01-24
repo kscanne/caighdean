@@ -137,6 +137,7 @@ anuair_do nuair a
 ar'_bh' arbh
 ar_bh' arbh
 ar_bhfada arbh fhada
+ar_bhfearrde arbh fhearrde
 ar_bhféidir arbh fhéidir
 ar_bhit ar bith
 ar_bhudh arbh
@@ -245,6 +246,7 @@ dar_gcionn dár gcionn
 dar_neoin ar ndóigh
 dar_nóin ar ndóigh
 de_'n den
+de_lis de lis
 de_n-a dá
 de_níon d'iníon
 dh'á_ríribh dáiríre
@@ -281,6 +283,7 @@ dhroch_úsáid dhrochúsáid
 dhroch_úsáide dhrochúsáide
 dhá_'réag dháréag
 dhá_réag dháréag
+dhá_ríre dáiríre
 dhá_ríribh dáiríre
 do_'n don
 do_Dhamascus don Damaisc
@@ -467,6 +470,7 @@ dá_ngeobhainn-se dá bhfaighinnse
 dá_ngeobhainnse dá bhfaighinnse
 dá_ngeobhtá go bhfaighfeá
 dá_réag dáréag
+dá_ríre dáiríre
 dá_ríribh dáiríre
 dígh_céille díth céille
 ear_is_barr farasbarr
@@ -554,15 +558,18 @@ gur_bh'iad gurbh iad
 gur_bh'é gurbh é
 gur_bhfada gurbh fhada
 gur_bhfearr gurbh fhearr
+gur_bhfearrde gurbh fhearrde
 gur_bhféidir gurbh fhéidir
 gur_bhudh gurbh
 gur_cómha gur comhionann
 gur_deineadh go ndearnadh
+gur_dhéineamair go ndearnamar
 gur_dubhairt go ndúirt
 gur_déineadh go ndearnadh
 gur_frith go bhfuarthas
 gur_fríth go bhfuarthas
 gur_hadhnaiceadh gur adhlacadh
+gur_mdhó gur iomaí
 gur_rinne go ndearna
 gur_rinneadh go ndearnadh
 gur_rinnis go ndearna tú
@@ -653,6 +660,7 @@ i_n-ar inar
 i_n-arm in arm
 i_n-arár inár
 i_n-ascaill in ascaill
+i_n-ath-uair in athuair
 i_n-diu inniu
 i_n-eagar in eagar
 i_n-earraid in earraid
@@ -705,6 +713,7 @@ i_ndan in ann
 i_ndiu inniu
 i_ndiú inniu
 i_ndá in dhá
+i_ndá_ríre i ndáiríre
 i_ndá_ríribh i ndáiríre
 i_ndáiríribh i ndáiríre
 i_ndáríribh i ndáiríre
@@ -728,6 +737,7 @@ ins_na sna
 ionn_a ina
 ionn_a_nam ina n-am
 is_cómha is comhionann
+is_mdhó is iomaí
 is_nea-chómha is neamhionann
 is_neachómha is neamhionann
 ist'_oidhche istoíche
@@ -934,6 +944,7 @@ nár_bhfuláir nárbh fholáir
 nár_bhféidir nárbh fhéidir
 nár_bhudh nárbh
 nár_dhéana nár dhéana
+nár_dhéineamair nach ndearnamar
 nár_rinneadar nach ndearnadar
 nárbh_éidir nárbh fhéidir
 ní_bhia ní bheidh
@@ -980,6 +991,7 @@ níor_bh'é níorbh é
 níor_bhfada níorbh fhada
 níor_bhfearr níorbh fhearr
 níor_bhfearra níorbh fhearr
+níor_bhfearrde níorbh fhearrde
 níor_bhfhada níorbh fhada
 níor_bhfoláir níorbh fholáir
 níor_bhfuláir níorbh fholáir
@@ -987,6 +999,7 @@ níor_bhfuras níorbh fhurasta
 níor_bhfurasta níorbh fhurasta
 níor_bhféidir níorbh fhéidir
 níor_deineadh ní dhearnadh
+níor_dhéineamair ní dhearnamar
 níor_déineadh ní dhearnadh
 níor_frith ní bhfuarthas
 níor_fríth ní bhfuarthas
