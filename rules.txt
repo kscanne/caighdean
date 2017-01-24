@@ -477,6 +477,7 @@ e[oó][cg]haid$	eoidh	1
 ([^e])[oó][cg]haid$	$1óidh	1
 e[oó]chaimi([ds])$	eoimi$1	1
 ([^e])óchaimi([ds])$	$1óimi$2	1
+e[oó]chas$	eoidh	1
 e[oó]cham$	eoimid	1
 ([^e])ócham$	$1óimid	1
 e[oó]chamuid$	eoimid	1
@@ -489,6 +490,8 @@ e[oó]chainnse$	eoinnse	1
 ([^e])óchainnse$	$1óinnse	1
 e[oó]chthá$	eofá	1
 ([^e])óchthá$	$1ófá	1
+e[oó]chfá$	eofá	1
+([^e])óchfá$	$1ófá	1
 e[oó]ch(th)?aidhe$	eofaí	1
 ([^e])óch(th)?aidhe$	$1ófaí	1
 (ó|eo)char$	$1far	1

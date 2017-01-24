@@ -41,6 +41,8 @@ a_céad-luaidhtear céadluaite
 a_d'_iaraidh ag iarraidh
 a_d'iaraidh ag iarraidh
 a_dh'amharc ag amharc
+a_dh'fhanan a fhanann
+a_dh'fhéadfaidh a fhéadfaidh
 a_dh'iaraidh ag iarraidh
 a_dh'iarraidh ag iarraidh
 a_dh'imirt ag imirt
@@ -52,6 +54,7 @@ a_dh'obair ag obair
 a_dh'áirneál a airneán
 a_dh'éirghe ag éirí
 a_dh'éisteacht ag éisteacht
+a_dh'éisteann a éisteann
 a_dh'ól ag ól
 a_dtug ar thug
 a_dtáinig ar tháinig
@@ -61,9 +64,13 @@ a_fágfaí a d'fhágfaí
 a_féadfaí a d'fhéadfaí
 a_ghainfhios i ngan fhios
 a_los as los
+a_lám a lán
+a_mhaisce ambaiste
+a_mhaisge ambaiste
 a_n-aimhdheoin in ainneoin
 a_n-diu inniu
 a_n-diú inniu
+a_n-eadh an ea
 a_n-éinfheacht in éineacht
 a_naimsir in aimsir
 a_naoinfheacht in éineacht
@@ -104,6 +111,7 @@ an_dtáinig ar tháinig
 an_dtáinigh ar tháinig
 an_dtír an tír
 an_gcuala ar chuala
+an_n-eadh an ea
 an_n-éinfheacht in éineacht
 an_ndomhan an domhan
 an_ndoras an doras
@@ -155,7 +163,9 @@ ar_n-a_n-órtha anóirthear
 ar_n-a_n-órthar anóirthear
 ar_na_bhárach arna mhárach
 ar_ndóighe ar ndóigh
+ar_ndú ar ndóigh
 ar_rinnis an ndearna tú
+ar_seachran ar seachrán
 ar_ttúis ar dtús
 ar_tús ar dtús
 ars'_isi ar sise
@@ -182,7 +192,9 @@ cad_'tá cad atá
 cad_cuige cad chuige
 caidé_tá cad é atá
 ce_mhead cé mhéad
+cha_n-eadh ní hea
 chan_fhuilim nílim
+chan_n-eadh ní hea
 char_bhfada charbh fhada
 cho_luath_ás chomh luath agus a
 cia'r_ba cérbh
@@ -596,19 +608,49 @@ i_mbáraigh amárach
 i_mudha amú
 i_n in
 i_n' ina
+i_n'-aigne ina aigne
+i_n'-am ina am
+i_n'-ionad ina ionad
+i_n'Uachtarán ina Uachtarán
+i_n'achrann ina achrann
 i_n'aghaidh ina aghaidh
 i_n'aice ina aice
 i_n'aigne ina aigne
+i_n'aigneadh ina aigne
+i_n'aimsir ina aimsir
+i_n'ainim ina ainm
+i_n'ainm ina ainm
 i_n'am in am
+i_n'amadán ina amadán
+i_n'amhras in amhras
 i_n'aonar ina aonar
+i_n'arraicis in araicis
 i_n'athair ina athair
+i_n'easbog ina easpag
 i_n'fhear ina fhear
 i_n'fhochair ina fhochair
+i_n'fhotharaigh ina fhothrach
+i_n'fhuairthnín ina fhuairnín
 i_n'fhéachaint ina fhéachaint
 i_n'inead in ionad
+i_n'inntinn ina intinn
+i_n'intinn ina intinn
+i_n'iomláine ina iomláine
+i_n'ionad ina ionad
+i_n'oídhche ina oíche
+i_n'uachtarán ina uachtarán
+i_n'ualach ina ualach
 i_n'ucht ina ucht
+i_n'unúmha ina ionú
+i_n'Áirdrígh ina Ardrí
+i_n'Árdshagart ina Ardsagart
+i_n'áirdrígh ina ardrí
 i_n'áit in áit
+i_n'árdshagart ina ardsagart
 i_n'éadan in éadan
+i_n'éaghmuis ina éagmais
+i_n'ídhbirt ina íobairt
+i_n'óige ina óige
 i_n-Acaill in Acaill
 i_n-Albain in Albain
 i_n-Antioch in Aintíoc
@@ -671,6 +713,7 @@ i_n-inead in ionad
 i_n-innimh in inmhe
 i_n-intinn in intinn
 i_n-ionad in ionad
+i_n-ionanas in ionannas
 i_n-iúil in iúl
 i_n-iúl in iúl
 i_n-obair in obair
@@ -687,10 +730,12 @@ i_n-áiteacha in áiteanna
 i_n-áiteachaibh in áiteanna
 i_n-ár inár
 i_n-árd in ard
+i_n-árd-réim in ardréim
 i_n-éa'-chor in aon chor
 i_n-éadan in éadan
 i_n-éadán in éadan
 i_n-éag in éag
+i_n-éan-bhall in aon bhall
 i_n-éan-chor in aon chor
 i_n-éan-áit in aon áit
 i_n-éanchor in aon chor
@@ -700,6 +745,7 @@ i_n-éineacht in éineacht
 i_n-éinfheacht in éineacht
 i_n-íochtar in íochtar
 i_n-úil in iúl
+i_n-úmhail in iúl
 i_n-úsáid in úsáid
 i_nAcaill in Acaill
 i_nApollo in Apalló
@@ -768,6 +814,7 @@ le_n'a lena
 le_n'ais lena ais
 le_n'anam lena anam
 le_n'athair lena athair
+le_n'innsint lena insint
 le_n'ithe lena ithe
 le_n'ucht lena ucht
 le_n'íoc lena íoc
@@ -803,6 +850,7 @@ na_Boers na Bóraigh
 na_Persia na Peirse
 na_Samaria na Samáire
 na_feuchfadh nach bhféachfadh
+na_fflaithios na flaithis
 na_féachfadh nach bhféachfadh
 na_féadfadh nach bhféadfadh
 na_h-Arabia na hAraibe
