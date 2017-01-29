@@ -114,14 +114,13 @@ sub hypothesis_pairs_string {
 	return $ans;
 }
 
-# hard-coded N=3 here; "ngram" can come in either empty, a 1-gram, or 2-gram
+# hard-coded N=3 here; "ngram" can come in as either a 1-gram or a 2-gram;
 # this function tacks on $w at the end, but pushes off first word
 # in case $ngram starts out as a 2-gram
 sub shift_ngram {
 	(my $ngram, my $w) = @_;
 	my $ans = $ngram;
-	$ans .= ' ' unless ($ngram eq '');
-	$ans .= $w;
+	$ans .= " $w";
 	$ans =~ s/^[^ ]+ // if ($ngram =~ m/ /);
 	return $ans;
 }
@@ -257,7 +256,7 @@ sub irishlc {
 	return lc($w);
 }
 
-# whatever we do to corpus in gaeilge/ngram we need to do here!
+# whatever we do to corpus in model/makefile we need to do here!
 # unicode apostrophes already handled at STDIN
 sub ngram_preprocess {
 	(my $w) = @_;
@@ -370,7 +369,7 @@ sub all_matches {
 }
 
 sub load_databases {
-	print "Loading rules file...\n" if $verbose;
+	#print "Loading rules file...\n" if $verbose;
 	open(RULES, "<:utf8", "rules$extension.txt") or die "Could not open spelling rules file: $!";
 	while (<RULES>) {
 		next if (/^#/);
@@ -386,7 +385,7 @@ sub load_databases {
 	}
 	close RULES;
 
-	print "Loading spurious pairs...\n" if $verbose;
+	#print "Loading spurious pairs...\n" if $verbose;
 	open(SPURIOUS, "<:utf8", "spurious$extension.txt") or die "Could not open list of spurious pairs: $!";
 	while (<SPURIOUS>) {
 		chomp;
@@ -643,12 +642,68 @@ sub run_unit_tests {
 	assert(prep_for_output('SO-BHLASTA','so-bhlasta') eq 'SO-BHLASTA => SO-BHLASTA',$testnum++,'prep_for_output of non-trivial pair, source allcap with hyphen, target lowercase with hyphen (cap_style==15)');
 	assert(prep_for_output('BPRIMH-CHISTE','bpríomhchiste') eq 'BPRIMH-CHISTE => bPRÍOMHCHISTE',$testnum++,'prep_for_output of non-trivial pair, source allcap including eclipsis and hyphen, target lowercase (cap_style==15)');
 
+# test extend_sentence
+	assert(extend_sentence('','amach') eq 'amach',$testnum++,'extend_sentence is called with empty first arg iff at start of input');
+	assert(extend_sentence('amach','le') eq 'amach le',$testnum++,'extend_sentence is called with single word as first arg only near start of input');
+	assert(extend_sentence('amach le','mo') eq 'amach le mo',$testnum++,'extend_sentence, as called generically');
 
-# extend_sentence
-# last_two_words
-# shift_ngram
-# ngram_preprocess
-# normalize_apost_and_dash
+# test last_two_words
+	assert(last_two_words('duine') eq 'duine',$testnum++,'last_two_words called with single-word argument iff at start of input');
+	assert(last_two_words('duine beag') eq 'duine beag',$testnum++,'last_two_words called with two-word argument iff near start of input');
+	assert(last_two_words('duine beag gránna') eq 'beag gránna',$testnum++,'generic three-word input to last_two_words');
+	assert(last_two_words('. uaireanta i mo') eq 'i mo',$testnum++,'last_two_words can be called with > three-word argument if we append MWE from pairs-xx.txt');
+
+# test shift_ngram
+	assert(shift_ngram('.','amach') eq '. amach',$testnum++,'first arg shift_ngram is artifically set to a fullstop at start of input, never empty');
+	assert(shift_ngram('amach','le') eq 'amach le',$testnum++,'second call to shift_ngram near start of input looks like this');
+	assert(shift_ngram('amach le','fear') eq 'le fear',$testnum++,'generic call to shift_ngram');
+
+# test ngram_preprocess
+	assert(ngram_preprocess('0') eq '<NUM>',$testnum++,'ngram_preprocess converts simple one-digit number to <NUM>');
+	assert(ngram_preprocess('00034') eq '<NUM>',$testnum++,'ngram_preprocess converts simple number to <NUM> even with leading zeroes');
+	assert(ngram_preprocess('1991') eq '<NUM>',$testnum++,'ngram_preprocess converts simple number to <NUM>');
+	assert(ngram_preprocess('3,219') eq '<NUM>',$testnum++,'ngram_preprocess converts numbers with commas to <NUM>');
+	assert(ngram_preprocess('20:01:43') eq '<NUM>',$testnum++,'ngram_preprocess converts hh:mm::ss to <NUM>');
+	assert(ngram_preprocess('12:25') eq '<NUM>',$testnum++,'ngram_preprocess converts hh:mm to <NUM>');
+	assert(ngram_preprocess('1:1000') eq '<NUM>',$testnum++,'ngram_preprocess converts ratios to <NUM>');
+	assert(ngram_preprocess('1.79') eq '<NUM>',$testnum++,'ngram_preprocess converts numbers with decimals to <NUM>');
+	assert(ngram_preprocess('3.5.8') eq '<NUM>',$testnum++,'ngram_preprocess converts stuff that looks like version numbers to <NUM>');
+	assert(ngram_preprocess('-' x 69) eq ('-' x 69),$testnum++,'ngram_preprocess does not convert 69 character token');
+	assert(ngram_preprocess('-' x 70) eq '<LONG>',$testnum++,'ngram_preprocess converts 70 character token to <LONG>');
+	assert(ngram_preprocess('-' x 200) eq '<LONG>',$testnum++,'ngram_preprocess converts 200 character token to <LONG>');
+	assert(ngram_preprocess('http://igaeilge.wordpress.com/?p=351#comment-389') eq '<URI>',$testnum++,'ngram_preprocess converts http URLs to <URI>');
+	assert(ngram_preprocess('https://vimeo.com/01234567') eq '<URI>',$testnum++,'ngram_preprocess converts https URLs to <URI>');
+	assert(ngram_preprocess('ftp://alpha.gnu.org/gnu/bison/') eq '<URI>',$testnum++,'ngram_preprocess converts ftp URLs to <URI>');
+	assert(ngram_preprocess('@kscanne') eq '<USER>',$testnum++,'ngram_preprocess converts Twitter usernames to <USER>');
+	assert(ngram_preprocess('@KScanne') eq '<USER>',$testnum++,'ngram_preprocess converts Twitter usernames to <USER>, case insensitive');
+	assert(ngram_preprocess('@leaders_indig') eq '<USER>',$testnum++,'ngram_preprocess converts Twitter usernames with underscores to <USER>');
+	assert(ngram_preprocess('kscanne@example.com') eq '<EMAIL>',$testnum++,'ngram_preprocess converts (simple) email addresses to <EMAIL>');
+	assert(ngram_preprocess('k.scannell.1@example123.ac.uk') eq '<EMAIL>',$testnum++,'ngram_preprocess converts (simple) email addresses to <EMAIL>');
+
+# test normalize_apost_and_dash
+	assert(normalize_apost_and_dash('t‐asal') eq 't-asal',$testnum++,'normalize_apost_and_dash converts 2010 dash to ASCII');
+	assert(normalize_apost_and_dash('‐') eq '‐',$testnum++,'normalize_apost_and_dash leaves 2010 dash unchanged when it is a token');
+	assert(normalize_apost_and_dash('an‑álainn') eq 'an-álainn',$testnum++,'normalize_apost_and_dash converts 2011 dash to ASCII');
+	assert(normalize_apost_and_dash('‑') eq '‑',$testnum++,'normalize_apost_and_dash leaves 2011 dash unchanged when it is a token');
+	assert(normalize_apost_and_dash('bʼiúd') eq "b'iúd",$testnum++,'normalize_apost_and_dash converts 02BC to ASCII apostrophe');
+	assert(normalize_apost_and_dash('ʼsa') eq "'sa",$testnum++,'normalize_apost_and_dash converts even initial 02BC to ASCII apostrophe');
+	assert(normalize_apost_and_dash('arsʼ') eq "ars'",$testnum++,'normalize_apost_and_dash converts even final 02BC to ASCII apostrophe');
+	assert(normalize_apost_and_dash('má’s') eq "má's",$testnum++,'normalize_apost_and_dash converts 2019 to ASCII apostrophe');
+	assert(normalize_apost_and_dash('’fhios') eq "'fhios",$testnum++,'normalize_apost_and_dash converts even initial 2019 to ASCII apostrophe');
+	assert(normalize_apost_and_dash('dob’') eq "dob'",$testnum++,'normalize_apost_and_dash converts even final 2019 to ASCII apostrophe');
+
+# test compute_log_prob
+	assert(compute_log_prob('cónaí','sí ina') > compute_log_prob('chónaí','sí ina'),$testnum++,'"cónaí" more likely than "chónaí" after "sí ina"');
+	assert(compute_log_prob('ar','ag filleadh') > compute_log_prob('do','ag filleadh'),$testnum++,'"ar" more likely than "do" after "ag filleadh"');
+	assert(compute_log_prob('héireann','poblacht na') > compute_log_prob('éireann','poblacht na'),$testnum++,'prefix-h more likely than not after "poblacht na"');
+	assert(compute_log_prob('cliath','baile átha') > compute_log_prob('luain','baile átha'),$testnum++,'bác more popular than bál');
+	assert(compute_log_prob('bhí','') > compute_log_prob('raibh',''),$testnum++,'bhí more likely than raibh at start of input');
+	assert(compute_log_prob('tá','') > compute_log_prob('bhfuil',''),$testnum++,'tá more likely than bhfuil at start of input');
+	assert(compute_log_prob('tar éis briseadh','go díreach') > compute_log_prob('ar bhriseadh','go díreach'),$testnum++,'choose correct translation of gd "air_briseadh" in context, note MWE is possible as first argument');
+	assert(compute_log_prob('ar bhriseadh','smaoineamh') > compute_log_prob('tar éis briseadh','smaoineamh'),$testnum++,'choose correct translation of gd "air_briseadh" in context, again');
+
+	$testnum--;
+	print "1..$testnum\n" if $verbose;
 }
 
 if ($runtests) {
