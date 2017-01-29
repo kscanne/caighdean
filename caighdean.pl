@@ -262,8 +262,8 @@ sub ngram_preprocess {
 	(my $w) = @_;
 	$w = irishlc($w);
 	$w =~ s/^[0-9][0-9,.:]*$/<NUM>/;
-	$w =~ s/^.{70}.*$/<LONG>/;
 	$w =~ s/^.+:\/\/.*$/<URI>/;
+	$w =~ s/^.{70}.*$/<LONG>/;
 	$w =~ s/^@[A-Za-z0-9_]+$/<USER>/;
 	$w =~ s/^[A-Za-z0-9].*@.+$/<EMAIL>/;
 	return $w;
@@ -674,6 +674,7 @@ sub run_unit_tests {
 	assert(ngram_preprocess('http://igaeilge.wordpress.com/?p=351#comment-389') eq '<URI>',$testnum++,'ngram_preprocess converts http URLs to <URI>');
 	assert(ngram_preprocess('https://vimeo.com/01234567') eq '<URI>',$testnum++,'ngram_preprocess converts https URLs to <URI>');
 	assert(ngram_preprocess('ftp://alpha.gnu.org/gnu/bison/') eq '<URI>',$testnum++,'ngram_preprocess converts ftp URLs to <URI>');
+	assert(ngram_preprocess('http://fiontardcu.wordpress.com/2013/04/02/maria-ni-shuilleabhain-msc-i-ngno-i-dteicneolaiocht-an-eolais/') eq '<URI>',$testnum++,'ngram_preprocess converts very long URLs to <URI>, not <LONG>');
 	assert(ngram_preprocess('@kscanne') eq '<USER>',$testnum++,'ngram_preprocess converts Twitter usernames to <USER>');
 	assert(ngram_preprocess('@KScanne') eq '<USER>',$testnum++,'ngram_preprocess converts Twitter usernames to <USER>, case insensitive');
 	assert(ngram_preprocess('@leaders_indig') eq '<USER>',$testnum++,'ngram_preprocess converts Twitter usernames with underscores to <USER>');

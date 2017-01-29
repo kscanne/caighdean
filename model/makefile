@@ -39,7 +39,7 @@ training-4.txt : alltokens.txt
 # The normalizations to <URI>, etc. should stay in sync with
 # the ngram_preprocess function in caighdean/caighdean.pl
 alltokens.txt: $(CORPUS) cleanup.sh ../alltokens.pl
-	cat $(CORPUS) | bash cleanup.sh | perl ../alltokens.pl "'-" "0-9#_@" | perl denoise.pl -v | perl tolow.pl | sed 's/^[0-9][0-9,.:]*$$/<NUM>/' | sed '/.\{70\}/s/.*/<LONG>/' | sed '/:\/\//s/^.*$$/<URI>/' | sed 's/^@[A-Za-z0-9_][A-Za-z0-9_]*$$/<USER>/' | sed 's/^[A-Za-z0-9].*@.*$$/<EMAIL>/' > $@
+	cat $(CORPUS) | bash cleanup.sh | perl ../alltokens.pl "'-" "0-9#_@" | perl denoise.pl -v | perl tolow.pl | sed 's/^[0-9][0-9,.:]*$$/<NUM>/' | sed '/:\/\//s/^.*$$/<URI>/' | sed '/.\{70\}/s/.*/<LONG>/' | sed 's/^@[A-Za-z0-9_][A-Za-z0-9_]*$$/<USER>/' | sed 's/^[A-Za-z0-9].*@.*$$/<EMAIL>/' > $@
 
 
 #######################################
