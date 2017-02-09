@@ -33,6 +33,7 @@
 'sy_laa sa lá
 'sy_nah_ynnyd sa dara háit
 'sy_teihll ar domhan
+'sy_toshiaght ar dtús
 'sy_traa_cheddin san am céanna
 'sy_vlein sa bhliain
 'sy_voghrey ar maidin
@@ -7724,6 +7725,9 @@ dy_chur le cur
 dy_chur le tabhairt
 dy_chur_eh é a chur
 dy_chur_eh é a thabhairt
+dy_chur_toshiaght le tosú
+dy_chur_toshiaght_da le cur tús le
+dy_chur_toshiaght_er le cur tús le
 dy_cliaghtagh de ghnáth
 dy_cooidjagh le chéile
 dy_corrym go cothrom
@@ -7814,6 +7818,9 @@ dy_ghoaill_taitnys le taitneamh a bhaint
 dy_ghoaill_taitnys_ayns le taitneamh a bhaint as
 dy_ghoaill_taitnyss le taitneamh a bhaint
 dy_ghoaill_taitnyss_ayns le taitneamh a bhaint as
+dy_ghoaill_tastey_je'h le haird a thabhairt air
+dy_ghoaill_tastey_jeh le haird a thabhairt air
+dy_ghoaill_tastey_jeh le haird a thabhairt ar
 dy_ghoaill_toshiack le tosú
 dy_ghoaill_toshiaght le tosú
 dy_ghoaill_ymmyd déanamh úsáide
@@ -8473,6 +8480,7 @@ ec_y_taa ag an am
 ec_y_toshiaght ar dtús
 ec_y_traa ag an am
 ec_y_vean-oie ar an meán oíche
+ec_yn_toshiaght ar dtús
 ec_yn_un_traa san am céanna
 ec_yn_vean-oie ar an meán oíche
 edd_ard hata ard
@@ -9052,10 +9060,13 @@ er_e_hon_shoh_ooilley ar a shon sin
 er_e_hons ar a shonsa
 er_e_honsyn ar a shonsa
 er_e_hoshiaght ar aghaidh
+er_e_hoshiaght chun tosaigh
 er_e_mooin ar a muin
 er_e_skyn os a chionn
 er_e_skyn os a cionn
 er_e_son ar a son
+er_e_toshiaght ar aghaidh
+er_e_toshiaght chun tosaigh
 er_e_veealloo os a chomhair
 er_e_vooin ar a mhuin
 er_eam ar fáil
@@ -9111,6 +9122,10 @@ er_ghlee faoi chlíth
 er_ghoaill tar éis gabháil
 er_ghoaill-rish tar éis glacadh le
 er_ghoaill-rish tar éis glacadh leis
+er_ghoaill_tastey tar éis tabhairt faoi deara
+er_ghoaill_tastey_jeem's tar éis aird a thabhairt ormsa
+er_ghoaill_tastey_jeh tar éis tabhairt faoi deara
+er_ghoaill_toshaight tar éis tosú
 er_gholl tar éis dul
 er_ghra tar éis rá
 er_ghraa tar éis rá
@@ -9255,6 +9270,7 @@ er_n'eiyrt tar éis leanúint
 er_n'gheddyn tar éis fáil
 er_n'gheddyn_baase tar éis bás a fháil
 er_n'ghoaill tar éis gabháil
+er_n'ghoaill_toshiaght tar éis tosú
 er_n'gholl tar éis imeacht
 er_n'immeeaght tar éis imeacht
 er_n'imraa luaite
@@ -9271,6 +9287,7 @@ er_n'ockley_magh tar éis fógairt
 er_n'ollaghey tar éis folú
 er_n'osley ar oscailt
 er_n'yannoo tar éis déanamh
+er_n'yannoo_toshiaght tar éis tosú
 er_n'yarrood tar éis dearmad a dhéanamh
 er_n'yiooldey tar éis diúltú
 er_n'ymmyrkey tar éis iompar
@@ -9285,6 +9302,8 @@ er_ngeddyn_baase tar éis bás a fháil
 er_ngholl tar éis imeacht
 er_ngialdyn tar éis gealladh
 er_ngoaill tar éis gabháil
+er_ngoaill_tastey_erbee_jeh tar éis aird ar bith a thabhairt air
+er_ngoaill_tastey_jeh tar éis aird a thabhairt air
 er_ngoaill_toshaight tar éis tosú
 er_ngoaill_toshiaght tar éis tosú
 er_ngoll tar éis dul
@@ -9637,6 +9656,7 @@ er_y_hon-syn dá bharr sin
 er_y_hon_shen dá bharr sin
 er_y_honsyn ar a shonsa
 er_y_hoshiaght ar aghaidh
+er_y_hoshiaght chun tosaigh
 er_y_oyr de bharr
 er_y_oyr de bhrí
 er_y_scooyr ar na cannaí
@@ -11698,22 +11718,46 @@ ghow_ad_taitnys bhain siad taitneamh
 ghow_ad_taitnys_ayns bhain siad taitneamh as
 ghow_ad_taitnyss bhain siad taitneamh
 ghow_ad_taitnyss_ayns bhain siad taitneamh as
+ghow_ad_tastey thug siad faoi deara
+ghow_ad_tastey_j'ee thug siad faoi deara í
+ghow_ad_tastey_jeh thug siad faoi deara
+ghow_ad_tastey_jeh thug siad faoi deara é
+ghow_ad_tastey_jeu thug siad faoi deara iad
 ghow_ad_toshiack thosaíodar
+ghow_ad_toshiaght thosaigh siad
 ghow_ad_toshiaght thosaíodar
+ghow_ad_toshiaght_dy thosaigh siad ag
+ghow_deiney_toshiaght thosaigh daoine
+ghow_deiney_toshiaght_dy thosaigh daoine ag
 ghow_ee_taitnys bhain sí taitneamh
 ghow_ee_taitnys_ayns bhain sí taitneamh as
 ghow_ee_taitnyss bhain sí taitneamh
 ghow_ee_taitnyss_ayns bhain sí taitneamh as
+ghow_ee_tastey thug sí faoi deara
+ghow_ee_tastey_j'ee thug sí faoi deara í
+ghow_ee_tastey_jeh thug sí faoi deara
+ghow_ee_tastey_jeh thug sí faoi deara é
+ghow_ee_tastey_jeu thug sí faoi deara iad
 ghow_ee_toshiaght thosaigh sí
+ghow_ee_toshiaght_dy thosaigh sí ag
 ghow_eh_lhuingys chuaigh sé ar bord loinge
 ghow_eh_taitnys bhain sé taitneamh
 ghow_eh_taitnys_ayns bhain sé taitneamh as
 ghow_eh_taitnyss bhain sé taitneamh
 ghow_eh_taitnyss_ayns bhain sé taitneamh as
+ghow_eh_tastey thug sé faoi deara
+ghow_eh_tastey_j'ee thug sé faoi deara í
+ghow_eh_tastey_jeh thug sé faoi deara
+ghow_eh_tastey_jeh thug sé faoi deara é
+ghow_eh_tastey_jeu thug sé faoi deara iad
 ghow_eh_toshiack a thosaigh sé
 ghow_eh_toshiack thosaigh sé
 ghow_eh_toshiaght a thosaigh sé
 ghow_eh_toshiaght thosaigh sé
+ghow_eh_toshiaght_dy thosaigh sé ag
+ghow_eshyn_toshiaght thosaigh seisean
+ghow_eshyn_toshiaght_dy thosaigh seisean ag
+ghow_eshyn_toshiaght_dy_ve thosaigh seisean ar bheith
 ghow_mee_ram_taitnys bhain mé an-taitneamh
 ghow_mee_ram_taitnys_ayns bhain mé an-taitneamh as
 ghow_mee_ram_taitnyss bhain mé an-taitneamh
@@ -11724,25 +11768,42 @@ ghow_mee_taitnys bhain mé taitneamh
 ghow_mee_taitnys_ayns bhain mé taitneamh as
 ghow_mee_taitnyss bhain mé taitneamh
 ghow_mee_taitnyss_ayns bhain mé taitneamh as
+ghow_mee_tastey thug mé faoi deara
+ghow_mee_tastey_j'ee thug mé faoi deara í
+ghow_mee_tastey_jeh thug mé faoi deara
+ghow_mee_tastey_jeh thug mé faoi deara é
+ghow_mee_tastey_jeu thug mé faoi deara iad
 ghow_mee_toshiaght a thosaigh mé
 ghow_mee_toshiaght thosaigh mé
+ghow_mee_toshiaght_dy thosaigh mé ag
+ghow_mish_toshiaght thosaigh mise
+ghow_mish_toshiaght_dy thosaigh mise ag
 ghow_oo_taitnys bhain tú taitneamh
 ghow_oo_taitnys_ayns bhain tú taitneamh as
 ghow_oo_taitnyss bhain tú taitneamh
 ghow_oo_taitnyss_ayns bhain tú taitneamh as
+ghow_oo_toshiaght thosaigh tú
+ghow_oo_toshiaght_dy thosaigh tú ag
 ghow_shin chuamar
 ghow_shin ghabhamar
 ghow_shin ngabhamar
 ghow_shin_lhuingys chuamar ar bord loinge
 ghow_shin_toshiaght thosaíomar
+ghow_shin_toshiaght_dy thosaíomar ag
 ghow_shiu_taitnys bhain sibh taitneamh
 ghow_shiu_taitnys_ayns bhain sibh taitneamh as
 ghow_shiu_taitnyss bhain sibh taitneamh
 ghow_shiu_taitnyss_ayns bhain sibh taitneamh as
+ghow_shiu_toshiaght thosaigh sibh
+ghow_shiu_toshiaght_dy thosaigh sibh ag
+ghow_sleih_toshiaght thosaigh daoine
+ghow_sleih_toshiaght_dy thosaigh daoine ag
 ghow_taitnys bhain taitneamh
 ghow_taitnys_ayns bhain taitneamh as
 ghow_taitnyss bhain taitneamh
 ghow_taitnyss_ayns bhain taitneamh as
+ghow_uss_toshiaght thosaigh tusa
+ghow_uss_toshiaght_dy thosaigh tusa ag
 ghraad_ad ghrádaíodar
 ghraad_ad ngrádaíodar
 ghraad_shin ghrádaíomar
@@ -12811,6 +12872,15 @@ goaill_taitnys baint taitneamh
 goaill_taitnys_ayns baint taitneamh as
 goaill_taitnyss baint taitneamh
 goaill_taitnyss_ayns baint taitneamh
+goaill_tastey ag tabhairt faoi deara
+goaill_tastey_er ag tabhairt airde ar
+goaill_tastey_jee ag tabhairt airde uirthi
+goaill_tastey_jeed ag tabhairt airde ort
+goaill_tastey_jeh ag tabhairt airde air
+goaill_tastey_jeh ag tabhairt airde ar
+goaill_tastey_jeh'n ag tabhairt airde ar an
+goaill_tastey_jehsyn ag tabhairt airde airsean
+goaill_tastey_jeu ag tabhairt airde orthu
 goaill_toshaight ag tosú
 goaill_toshaight tosú
 goaill_toshiaght ag tosú
@@ -13479,14 +13549,26 @@ gow-shiu_taitnys bainigí taitneamh
 gow-shiu_taitnys_ayns bainigí taitneamh as
 gow-shiu_taitnyss bainigí taitneamh
 gow-shiu_taitnyss_ayns bainigí taitneamh as
+gow_ad_toshiaght thosaigh siad
+gow_ad_toshiaght_dy thosaigh siad ag
+gow_eh_toshiaght thosaigh sé
+gow_eh_toshiaght_dy thosaigh sé ag
+gow_oo_toshiaght thosaigh tú
+gow_oo_toshiaght_dy thosaigh tú ag
 gow_shiu_taitnys bainigí taitneamh
 gow_shiu_taitnys_ayns bainigí taitneamh as
 gow_shiu_taitnyss bainigí taitneamh
 gow_shiu_taitnyss_ayns bainigí taitneamh as
+gow_shiu_toshiaght thosaigh sibh
+gow_shiu_toshiaght_dy thosaigh sibh ag
 gow_taitnys bain taitneamh
 gow_taitnys_ayns bain taitneamh as
 gow_taitnyss bain taitneamh
 gow_taitnyss_ayns bain taitneamh as
+gow_tastey_jeh tabhair aire ar
+gow_tastey_vie tabhair aire mhaith
+gow_tastey_vie_jeh tabhair aire mhaith ar
+gow_tastey_vie_jeh'n tabhair aire mhaith ar an
 gow_uss_taitnys bain taitneamh
 gow_uss_taitnyss bain taitneamh
 gowraghyn_post bpostmharcanna
@@ -14072,6 +14154,8 @@ gyn_failt gan fáilte
 gyn_feeuid gan mhaith
 gyn_foaynoo gan fiúntas
 gyn_foaynoo gan tairbhe
+gyn_goaill_tastey_jeh gan aird a thabhairt ar
+gyn_goaill_tastey_jeh'n gan aird a thabhairt ar an
 gyn_grunt gan ghrinneall
 gyn_grunt gan teorainn
 gyn_guinn gan phian
@@ -19171,6 +19255,7 @@ lurg_eh_shen ina dhiaidh sin
 lurg_ooilley i ndeireadh na dála
 lurg_ooilley sa deireadh thiar
 lurg_shen ina dhiaidh sin
+lurg_shoh ina dhiaidh seo
 lurg_y_chaggey tar éis an chogaidh
 lus_Cholum cholaimbín
 lus_Cholum colaimbín
@@ -27896,7 +27981,9 @@ ny_surransee na hothair
 ny_surransee na n-othar
 ny_syrdjey níos airde
 ny_syrjey níos airde
+ny_t'ad a bhfuil siad
 ny_t'ayd a bhfuil agat
+ny_t'er_ny a bhfuil á
 ny_t'ou_uss a bhfuil tusa
 ny_ta a bhfuil
 ny_ta'n a bhfuil an
@@ -30017,11 +30104,25 @@ reir_shoh dá réir seo
 reiragh_ad riarfaidís
 reiragh_oo riarfá
 reiragh_shin riarfaimis
+ren_Yeesey_toshiaght thosaigh Íosa
+ren_Yeesey_toshiaght_dy thosaigh Íosa ag
+ren_Yeesey_toshiaght_dy_ve thosaigh Íosa ar bheith
 ren_ad a rinneadar
 ren_ad rinneadar
+ren_ad_toshiaght thosaigh siad
+ren_ad_toshiaght_dy thosaigh siad ag
+ren_ad_toshiaght_dy_ve thosaigh siad ar bheith
 ren_cheet a tháinig
+ren_ee_toshiaght thosaigh sí
+ren_ee_toshiaght_dy thosaigh sí ag
+ren_ee_toshiaght_dy_ve thosaigh sí ar bheith
 ren_eh_shual chuir sé dlí ar
+ren_eh_toshiaght thosaigh sé
+ren_eh_toshiaght_dy thosaigh sé ag
+ren_eh_toshiaght_dy_ve thosaigh sé ar bheith
 ren_shin rinneamar
+ren_shin_toshiaght thosaíomar
+ren_shin_toshiaght_dy thosaíomar ag
 ren_soaiagh_jeh a ghlac leis
 ren_çheet a tháinig
 rere_ad riaradar
@@ -35670,6 +35771,8 @@ ver_shee síochánaí
 ver_shenn_screeuyn bpailéagrafaí
 ver_shin_mow scriosfaimid
 ver_shiu_mow scriosfaidh sibh
+ver_shiu_tastey tabharfaidh sibh aire
+ver_shiu_tastey thabharfaidh sibh aire
 ver_sooree suirígh
 ver_sooree suiríoch
 ver_soyllaragh macnasaí
