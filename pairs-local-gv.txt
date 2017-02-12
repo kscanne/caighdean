@@ -5,6 +5,7 @@
 1130yn 1130í
 1370yn 1370í
 2010yn 2010í
+1d 1ú
 a' a'
 aa agus
 'aagail fhágáil
@@ -587,6 +588,8 @@ China an tSín
 ching thinn
 ching tinn
 Chittim Chitím
+chlaare-obbyr chláir oibre
+chlaare-obbyr gclár oibre
 Chleayee Chluaidh
 chlienney chlainne
 chlinnym chloisfidh mé
@@ -792,7 +795,12 @@ Dunsany Dún Samhnaí
 d'ushtey d'uisce
 dy-holk go holc
 dyll ghlaoigh
+d'yn do bhur
+d'yn dár
 d'yn á
+dy'n do bhur
+dy'n dár
+dy'n á
 d'ynsaghey le foghlaim
 d'ynsee fhoghlaim
 dy-ughtee suas
@@ -1699,6 +1707,8 @@ Lebanon na Liobáine
 Leffyr Leifear
 leigh'n dlí an
 leigh'n dlí na
+leigh's dlíse
+leigh's dhlíse
 'leih dhaoine
 leodaghey'n laghdú an
 leodaghey'n laghdú na
@@ -1759,6 +1769,7 @@ Maaseiah Mhásaeiá
 MacCooyl Mac Cumhaill
 Macedonia an Mhacadóin
 Macedonia na Macadóine
+Machpelah Macpaelá
 Machir Mácaír
 Machir Mhácaír
 Maeve Méabh
@@ -1766,10 +1777,14 @@ Mahalaleel Mahalalael
 Mahanaim Machanáím
 Mahanaim Mhachanáím
 Mahli Mailí
+Mahlon Machlón
+Mahlon Mhachlón
 m'aigney's mo thoilse
 Makkedah Macaedá
 Makkedah Mhacaedá
 Malaine Mhaigdiléana
+Malchiah Mailcíveá
+Malchiah Mhailcíveá
 Malluch Malúc
 Mamre Mamrae
 Mamre Mhamrae
@@ -1784,6 +1799,8 @@ Mannanan Manannán
 #Mannin #Manainn
 m'annym's m'anamsa
 Manoah Mánóach
+Mareshah Máraeiseá
+Mareshah Mháraeiseá
 marishyn in éineacht leisean
 markiagh ag marcaíocht
 maroosyn in éineacht leosan
@@ -1914,6 +1931,7 @@ my-nealloo i dtámhnéal
 my-neealloo i bhfanntais
 my-neealloo i dtámhnéal
 my-ner faoi deara
+mynvreetçhyn mionbhrístíní
 my-nyn-geayrt ina dtimpeall
 my-nyn-geayrt inár dtimpeall
 my-nyn-geayrt in bhur dtimpeall
@@ -1944,6 +1962,7 @@ Nadab Nádáb
 nagh nach
 nagh nár
 Nahash Nácháis
+Nahath Nachat
 nah-er dara duine
 Nahor Náchór
 Nahshon Nachsón
@@ -2008,14 +2027,19 @@ nee'n déanfaidh an
 'Neen Iníon
 n'eeym íosfaidh mé
 n'eeym n-íosfaidh mé
+neeymayd íosfaimid
+neeymayd déanfaimid
 neeyms déanfaidh mé
 negin an éigean
 n'egooish ina éagmais
 Nehemiah Nihimiá
 nel níl
+Nenetsish Neinéitsis
+Nephthalim Naftáilí
 Ner Néar
 Neria Néiria
 Neriah Néiria
+#Nerin #Éire
 Nethaneel Natanael
 Nethaniah Natainiá
 Nethinimee tíolacthaigh
@@ -2036,12 +2060,14 @@ niaughyn spéartha
 nice mé
 Nickee Nicí
 Nicodemus Níocodaemas
+Niglas Nioclás
 Niglus Nioclás
 Nineve Nínivé
 Nineveh Nínivé
 nione an aithnid
 nione an eol
 n'irrin an fhírinne
+Nivish Nibheis
 Noah Naoi
 n'ockle ina fhocal
 nod an féidir le
@@ -2156,6 +2182,7 @@ oie'll oíche
 'olliaght rún
 'olliaght rúin
 'olliaghtagh rúnda
+Ollister Alasdair
 Olloo-Scoill Ollscoil
 'olmaghey fholmhú
 'olt fholt
@@ -2164,6 +2191,7 @@ Omri Omraí
 Onan Ónán
 'ondagh chumasach
 'ondagh cumasach
+Onnee Áine
 Ono Ónó
 O_O O_O
 oo-hene thú féin
@@ -2200,6 +2228,7 @@ Padan-aram Padan Arám
 Paran Párán
 Paran Phárán
 Parick Pádraig
+Parlane Parthalán
 Pashur Paischiúr
 Pashur Phaischiúr
 Patagonia an Phatagóin
@@ -2354,8 +2383,10 @@ Ruth Rút
 ry'akin le feiceáil
 ry-bleeantyn le blianta
 ry-chosh de chois
+ry-chosney le fáil
 ry-chur le cur
 ry-hoaral le boladh
+ry-scarrey indealaithe
 ry-tammylt le tamall
 'S Is
 s' is
@@ -2431,6 +2462,7 @@ s'cosoylagh is dócha
 Scottee Scotty
 screeagh ag screadach
 scrutaghey'n scrúdú an
+#scrutaghtyn #scrúduithe
 s'cummey is cuma
 s'deyr is daoire
 s'doillee is deacair
@@ -2501,6 +2533,7 @@ Shemaiah Seamaiá
 Shemaiah Sheamaiá
 shen é sin
 she'n is é an
+shen-y sin an
 shen-y-fa dá bharr sin
 shen-y-fa dá bhrí sin
 shen-y-raad is ansin
@@ -2573,8 +2606,8 @@ s'jerree is déanaí
 s'jerree is deireanaí
 Skeabost Sgeitheabost
 #skee #tuirseach
+#SkeealBwaane #ScéalBotháin
 skeealyn-ferrishyn scéalta sí
-#scrutaghtyn #scrúduithe
 'Skyn Os cionn
 s'laik is maith
 slane-gorrym lánghorm
@@ -2635,6 +2668,7 @@ Solomon Sholamh
 Solomon Solamh
 Sorley Somhairle
 sostyn Sasana
+SOTS CSTE
 spotchal ag magadh
 spotçhal ag magadh
 spotchyn-obbree cleasa magaidh
