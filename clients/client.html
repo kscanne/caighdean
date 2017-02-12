@@ -47,8 +47,8 @@
           break;
         }
       }
-      payload += document.getElementById('sourcetext').value;
-      XHR.send(encodeURI(payload));
+      payload += encodeURIComponent(document.getElementById('sourcetext').value);
+      XHR.send(payload);
       var div=document.getElementById("output");
       div.innerHTML='<em>Translating...</em>'
     });
