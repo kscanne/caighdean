@@ -474,8 +474,10 @@ i[uú]bha?l	iúl	1
 ^df([aeiouáéíóú])	d'fh$1	1
 ##################  NON/PRE-STANDARD VERB ENDINGS #########################
 # future/conditional 2nd declension with -cha?- see CO p.103
-e[oó]cha(i?dh)$	eo$1	1
-([^e])ócha(i?dh)$	$1ó$2	1
+e[oó]cha$	eoidh	1
+([^e])ócha$	$1óidh	1
+e[oó]chf?a(i?dh)$	eo$1	1
+([^e])óchf?a(i?dh)$	$1ó$2	1
 e[oó][cg]haid$	eoidh	1
 ([^e])[oó][cg]haid$	$1óidh	1
 e[oó]chaimi([ds])$	eoimi$1	1
@@ -483,21 +485,21 @@ e[oó]chaimi([ds])$	eoimi$1	1
 e[oó]chas$	eoidh	1
 e[oó]cham$	eoimid	1
 ([^e])ócham$	$1óimid	1
-e[oó]chamuid$	eoimid	1
-([^e])óchamuid$	$1óimid	1
+e[oó]cha?muid$	eoimid	1
+([^e])ócha?muid$	$1óimid	1
 e[oó]chamaoid$	eoimid	1
 ([^e])óchamaoid$	$1óimid	1
-e[oó]chai(nn|dís)$	eoi$1	1
-([^e])óchai(nn|dís)$	$1ói$2	1
-e[oó]chainnse$	eoinnse	1
-([^e])óchainnse$	$1óinnse	1
-e[oó]chthá$	eofá	1
-([^e])óchthá$	$1ófá	1
-e[oó]chfá$	eofá	1
-([^e])óchfá$	$1ófá	1
-e[oó]ch(th)?aidhe$	eofaí	1
-([^e])óch(th)?aidhe$	$1ófaí	1
-(ó|eo)char$	$1far	1
+e[oó]ch[au]i(nn|dís)$	eoi$1	1
+([^e])óch[au]i(nn|dís)$	$1ói$2	1
+e[oó]ch[au]innse$	eoinnse	1
+([^e])óch[au]innse$	$1óinnse	1
+e[oó]ch(th|f)?[aá]$	eofá	1
+([^e])óch(th|f)?[aá]$	$1ófá	1
+# cond. aut. below are often -óchthaidhe in prestandard corpus
+# but an earlier rule maps -aidhe to -aí, so rule below handles both
+e[oó]ch(f|th)?(aoi|a?í)$	eofaí	1
+([^e])óch(f|th)?(aoi|a?í)$	$1ófaí	1
+(ó|eo)chf?ar$	$1far	1
 (ó|eo)chthar$	$1far	1
 faidhear$	far	1
 fidhear$	fear	1
