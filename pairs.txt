@@ -6,6 +6,7 @@
 15s 15s
 17s 17s
 18s 18s
+19s 19s
 1s 1s
 2d 2d
 2nd 2nd
@@ -3259,6 +3260,9 @@ ana-bhúrdúnach an-bhurdúnach
 anacail anacal
 anacail t-anacal
 anacaireach anacrach
+anacaireacha anacracha
+anacairí anacraí
+anacairigh anacraigh
 anach eanach
 ana-chomhngarach an-chóngarach
 anachuid an-chuid
@@ -6745,6 +6749,9 @@ b'ána b'ana
 b'anabháis b'anbháis
 b'anabhás b'anbhás
 b'anacail b'anacal
+b'anacaireach b'anacrach
+b'anacaireacha b'anacracha
+b'anacairí b'anacraí
 banach barrach
 bánach bánaí
 b'anachuid b'an-chuid
@@ -9926,6 +9933,7 @@ b'fhothar b'fhothair
 b'fhotharach b'fhothrach
 b'fhotharacha b'fhothracha
 b'fhotharaga b'fhothragadh
+b'fhothdhuine b'fhodhuine
 b'fhothfholúntais ba chorrfholúntais
 b'fhothfholúntas ba chorrfholúntas
 b'fhothragacht b'fhothragadh
@@ -9977,6 +9985,7 @@ b'fhuarchaoineachán b'fhuarchaoineadh
 b'fhuarfholach b'fhuarfhuilteach
 b'fhuarfholacha b'fhuarfhuilteacha
 b'fhuarfholaí b'fhuarfhuiltí
+b'fhuarloch b'fhuarlach
 b'fhuarnimh b'fhuairnimh
 b'fhuarsceirdeach b'fhuarsceirdiúil
 b'fhuarsceirdeacha b'fhuarsceirdiúla
@@ -10000,13 +10009,16 @@ b'fhuathúla b'fhuafaire
 b'fhuathúla b'fhuafara
 b'fhuíche b'fhaíche
 b'fhuide b'fhaide
+b'fhuidhle b'fhuíll
 b'fhuidhleach b'fhuílleach
 b'fhuidhligh b'fhuílligh
 b'fhuígheach b'fhaíoch
 b'fhuígheacha b'fhaíocha
+b'fhuigheall b'fhuíoll
 b'fhuíghí b'fhaíche
 b'fhuighlach b'fhuílleach
 b'fhuighlaigh b'fhuílligh
+b'fhuighle b'fhuíll
 b'fhuighleach b'fhuílleach
 b'fhuighligh b'fhuílligh
 b'fhuígthe b'fhágtha
@@ -14331,6 +14343,7 @@ bhfotharacha bhfothracha
 bhfotharaga bhfothragadh
 bhfotharaga bhfothragtha
 bhfotharaigh bhfothraigh
+bhfothdhuine bhfodhuine
 bhfothfholúntais gcorrfholúntais
 bhfothfholúntas gcorrfholúntas
 bhfothragacht bhfothragadh
@@ -14646,6 +14659,7 @@ bhfuarfaimid bhfuaróimid
 bhfuarfaimis bhfuaróimis
 bhfuarfainn bhfuaróinn
 bhfuarfar bhfuarófar
+bhfuarloch bhfuarlach
 bhfuarnimh bhfuairnimh
 bhfuarnimhe bhfuairnimhe
 bhfuartá bhfuaraíteá
@@ -14689,6 +14703,7 @@ bhfuasgalóchadh bhfuasclódh
 bhfuaslacadh bhfuascailt
 bhfuasnadh bhfuaiscneamh
 bhfui bhfuil
+bhfuidhle bhfuíll
 bhfuidhleach bhfuílleach
 bhfuidhligh bhfuílligh
 bhfuíg bhfág
@@ -14718,6 +14733,7 @@ bhfuighbhinnse bhfaighinnse
 bhfuighead bhfaighidh mé
 bhfuigheadh bhfaigheadh
 bhfuigheadsa bhfaighidh mise
+bhfuigheall bhfuíoll
 bhfuigheam bhfaighimid
 bhfuigheam bhfaighimis
 bhfuigheamuis bhfaighimis
@@ -14729,6 +14745,7 @@ bhfuighfinn bhfaighinn
 bhfuighid bhfaighidh siad
 bhfuighidh bhfaighidh
 bhfuighidís bhfaighidís
+bhfuighill bhfuíll
 bhfuighim bhfaighim
 bhfuighimid bhfaighimid
 bhfuighimíd bhfaighimid
@@ -14740,6 +14757,7 @@ bhfuighir bhfaighidh tú
 bhfuighirse bhfaighidh tusa
 bhfuighlach bhfuílleach
 bhfuighlaigh bhfuílligh
+bhfuighle bhfuíll
 bhfuighleach bhfuílleach
 bhfuighligh bhfuílligh
 bhfuighmid bhfaighimid
@@ -15705,6 +15723,7 @@ bhodhaireacht bhodhaire
 bhodhaireachta bhodhaire
 bhodhamáin bhómáin
 bhodhamán bhómán
+bhodharánacht bhodhránacht
 bhodharfá bhodhrófá
 bhodharfadh bhodhródh
 bhodharfaí bhodhrófaí
@@ -16181,6 +16200,7 @@ bhraise spraise
 bhraistint bhrath
 bhraistinte bhraith
 bhraistintí bhrathanna
+bhráith bhrátha
 bhraithfá bhraithfeá
 bhraithlín bhraillín
 bhráithlín bhraillín
@@ -16338,6 +16358,9 @@ bhreágh bhreá
 bhreagha bhreá
 bhreagha bhreátha
 bhreágha bhreátha
+bhreághacht bhreáthacht
+bhreághachta bhreáthachta
+bhreághachtaí bhreáthachtaí
 bhreághaichte bhreátha
 bhreaghdha bhreá
 bhreaghdha bhreátha
@@ -17892,6 +17915,8 @@ b'inghreamthaí b'inghreimthí
 b'inghreamú b'inghreim
 b'inghreamughadh b'inghreim
 b'ingilt b'innilt
+b'ingín b'iníon
+b'ingíní b'iníonacha
 b'ingir b'ingear
 b'ingirí b'ingir
 b'ingneacha b'ingne
@@ -18060,6 +18085,7 @@ b'iochtúla b'iochtmhara
 bíocum bíocunta
 bíod bíodh
 biodach miodóg
+b'íodail b'íola
 b'iodáileach b'iodálach
 b'Iodáileach b'Iodálach
 b'iodáileacha b'iodálacha
@@ -18069,6 +18095,7 @@ b'Iodáilí b'Iodálaí
 bíodáin béadáin
 b'iodaín b'iaidín
 b'íodaín b'iaidín
+b'íodal b'íol
 bíodán béadán
 bíodánach béadánach
 bíodánacha béadánacha
@@ -18079,7 +18106,9 @@ bíodarnach bíogarnach
 b'iodha b'íona
 b'iodha b'iúr
 b'íodha b'eo
+b'íodhail b'íola
 b'íodhaine b'íonacht
+b'íodhal b'íol
 b'iodhal-adhradh b'íoladhradh
 b'íodhbairt b'íobairt
 b'iodhbairteach b'íobartach
@@ -18985,6 +19014,7 @@ bodhaireacht bodhaire
 bodhaireachta bodhaire
 bodhamáin bómáin
 bodhamán bómán
+bodharánacht bodhránacht
 bodhar-chlaoidhte bodharchloíte
 bodharfaidh bodhróidh
 bodharfaimid bodhróimid
@@ -21151,6 +21181,7 @@ braistint brath
 braistinte braith
 braistintí brathanna
 bráith bráth
+bráith brátha
 braitheamh brathadóir
 braitheoir brathadóir
 braithlín braillín
@@ -21339,6 +21370,8 @@ breagha breá
 breagha breátha
 breágha breátha
 breághacht breáthacht
+breághachta breáthachta
+breághachtaí breáthachtaí
 breághaichte breátha
 breághaichte breáthacht
 breaghdha breá
@@ -22486,6 +22519,7 @@ b'ugh b'ubh
 bugha bú
 bughach búch
 b'ughaim b'úim
+b'úghaim b'úim
 b'ughdair b'údair
 b'úghdair b'údair
 b'ughdar b'údar
@@ -22505,6 +22539,8 @@ b'ughdarásaí b'údarásaí
 b'ughdartháis b'údaráis
 b'ughdarthás b'údarás
 b'ughdarú b'údarú
+b'ughmacha b'úmacha
+b'úghmacha b'úmacha
 b'ughmadh b'úmadh
 buíán buíóg
 b'uibhe b'uibheacha
@@ -23633,6 +23669,7 @@ caithfad caithfidh mé
 caithfadh chaithfeadh
 caithfad-sa caithfidh mise
 caithfam caithfimid
+caithfamuid caithfimid
 caithfe caithfidh
 caithfeach caifeach
 caithfeacha caifeacha
@@ -24639,6 +24676,7 @@ cathaiseach caithiseach
 cathaitheach cathach
 cathamh caitheamh
 cathana cathanna
+cáthaoir cathaoir
 cathaoire cathaoireach
 cathar cathair
 catharach cathrach
@@ -24746,6 +24784,8 @@ céadfaíocha céadfacha
 céadfaíocht céadfacht
 céadfaíochta céadfachta
 ceadfar ceadófar
+céadghein céadghin
+céadgheine céadghine
 céad-ghoineach céadghoineach
 ceadh cé
 céadh cé
@@ -25837,6 +25877,7 @@ cháirdibh chairde
 chairdigh chairdiúil
 cháirdigh chairdiúil
 cháire cháir
+cháireobó chiaramáboc
 chairgreacha charraigeacha
 cháirne chairn
 chairneach charnach
@@ -25933,6 +25974,7 @@ chaitheamh-aimsire chaitheamh aimsire
 chaitheamhar chaitheamar
 chaithean chaitheann
 chaitheas-sa chaith mise
+chaithfamuid chaithfimid
 chaithfe chaithfidh
 chaithfeach chaifeach
 chaithfeacha chaifeacha
@@ -26817,6 +26859,7 @@ chathaíodóra chathaitheora
 cháthair chathair
 chathamh chaitheamh
 chathana chathanna
+cháthaoir chathaoir
 chathaoire chathaoireach
 chatharach chathrach
 chatharacha chathracha
@@ -26878,6 +26921,8 @@ chéadfaíocha chéadfacha
 chéadfaíocht chéadfacht
 chéadfaíochta chéadfachta
 cheadfar cheadófar
+chéadghein chéadghin
+chéadgheine chéadghine
 cheadh cheal
 chéadh ché
 chéadh chéad
@@ -27679,6 +27724,7 @@ chiapóimid chiapfaimid
 chiapóimis chiapfaimis
 chiapóinn chiapfainn
 chiapú chiapadh
+chiarabúca chiaramáboc
 chiaráil chíorláil
 chiaráilte chíorláilte
 chiaráilteá chíorláilteá
@@ -28169,7 +28215,9 @@ chíoróimid chíorfaimid
 chíoróimis chíorfaimis
 chíoróinn chíorfainn
 chiorrabuaic charabuaic
+chiorrabuaic chiaramáboc
 chiorrabuaice charabuaice
+chiorrabuaice chiaramáboc
 chíorr-baidhthe chiorraithe
 chiorrbh chiorraigh
 chiorrbha chiorraí
@@ -28843,6 +28891,8 @@ chliamhaineachtaí chleamhnais
 chliamhaineachtaí chleamhnas
 chliar chléir
 chliathadh chlíth
+chlidh chlé
+chlidhe chlé
 chlifeáil chluicheáil
 chlifeáilte chluicheáilte
 chlifeáilteá chluicheáilteá
@@ -29976,6 +30026,8 @@ choimhplex choimpléasc
 chóimhreamh chomhaireamh
 chóimhreann chomhroinn
 chóimhrimh chomhairimh
+choímhscair choimheascair
+choímhscar choimheascar
 choimhsgair choimheascair
 choimhsgar choimheascar
 choímhtheach choimhthíoch
@@ -35115,7 +35167,9 @@ cíoróidh cíorfaidh
 cíoróige ciaróige
 cíoróimid cíorfaimid
 ciorrabuaic carabuaic
+ciorrabuaic ciaramáboc
 ciorrabuaice carabuaice
+ciorrabuaice ciaramáboc
 ciorraim ciorraím
 ciorrbh ciorraigh
 ciorrbhadh ciorraíodh
@@ -35838,6 +35892,8 @@ clib clibín
 clib cliobóg
 clíbhéir clíbhéar
 clibis clibirt
+clidh clé
+clidhe clé
 clifeáil cluicheáil
 clifeáilte cluicheáilte
 clifeáiltear cluicheáiltear
@@ -37120,6 +37176,8 @@ cóimhrighthe comhairthe
 cóimhrimh comhairimh
 coimhrín cóifrín
 cóimhrithim comhrithim
+coímhscair coimheascair
+coímhscar coimheascar
 coimhsgair coimheascair
 coimhsgar coimheascar
 coímhsgar coimheascar
@@ -48583,6 +48641,7 @@ d'fhotharacha d'fhothracha
 d'fhotharaga d'fhothragadh
 d'fhotharaga d'fhothragtha
 d'fhotharaigh d'fhothraigh
+d'fhothdhuine d'fhodhuine
 d'fhothfholúntais do chorrfholúntais
 d'fhothfholúntas do chorrfholúntas
 d'fhothragacht d'fhothragadh
@@ -48736,6 +48795,7 @@ d'fhuarfaí d'fhuarófaí
 d'fhuarfaidís d'fhuaróidís
 d'fhuarfaimis d'fhuaróimis
 d'fhuarfainn d'fhuaróinn
+d'fhuarloch d'fhuarlach
 d'fhuarnimh d'fhuairnimh
 d'fhuarnimhe d'fhuairnimhe
 d'fhuartá d'fhuaraíteá
@@ -48767,6 +48827,7 @@ d'fhuasclóirí d'fhuascailteoirí
 d'fhuasclóra d'fhuascailteora
 d'fhuaslacadh d'fhuascailt
 d'fhuasnadh d'fhuaiscneamh
+d'fhuidhle d'fhuíll
 d'fhuidhleach d'fhuílleach
 d'fhuidhligh d'fhuílligh
 d'fhúig d'fhág
@@ -48781,11 +48842,14 @@ d'fhuígfidís d'fhágfaidís
 d'fhuígfimis d'fhágfaimis
 d'fhuígfinn d'fhágfainn
 d'fhuigheadh d'fhaigheadh
+d'fhuigheall d'fhuíoll
 d'fhuighidís d'fhaighidís
+d'fhuighill d'fhuíll
 d'fhuighimís d'fhaighimis
 d'fhuighinn d'fhaighinn
 d'fhuighlach d'fhuílleach
 d'fhuighlaigh d'fhuílligh
+d'fhuighle d'fhuíll
 d'fhuighleach d'fhuílleach
 d'fhuighligh d'fhuílligh
 d'fhuightheá d'fhaighteá
@@ -53380,6 +53444,9 @@ d'inghreamú d'inghreim
 d'inghreamughadh d'inghreim
 d'ingilt d'innilt
 d'ingilte d'innilte
+d'ingín d'iníon
+d'ingíne d'iníne
+d'ingíní d'iníonacha
 d'ingir d'ingear
 d'ingire d'ingir
 d'ingirí d'ingear
@@ -53646,15 +53713,21 @@ díochur díchur
 díochurtha díchurtha
 díocsach díocasach
 díod díot
+d'íodail d'íl
+d'íodail d'íola
 d'iodaín d'iaidín
 d'íodaín d'iaidín
+d'íodal d'íol
 d'iodha d'íona
 d'iodha d'iúr
 d'íodha d'eo
 díodhacht diagacht
 díodhachta diagachta
+d'íodhail d'íl
+d'íodhail d'íola
 d'íodhaine d'íonacht
 d'íodhaine d'íonachta
+d'íodhal d'íol
 d'iodhal-adhradh d'íoladhradh
 d'íodhbairt d'íobairt
 d'iodhbairteach d'íobartach
@@ -57625,6 +57698,7 @@ dtainséirín dtáinséirín
 dtainséiríní dtáinséiríní
 dtáir dtáire
 dtáir dtairr
+dtaireac dtarraingt
 dtairfe dtairbhe
 dtairgbheáil dtairiscint
 dtairgbheála dtairisceana
@@ -59364,6 +59438,8 @@ dtímchioll dtimpeall
 dtimchuairt n-imchuairt
 dtimchuairte n-imchuairte
 dtimchuairteanna n-imchuairteanna
+dtimheal dteimheal
+dtimhil dteimhil
 dtímpail dtimpill
 dtímpaill dtimpill
 dtímpal dtimpeall
@@ -60843,6 +60919,7 @@ dtriúranna dtriúir
 dtriuth dtriuf
 dtrodaire dtrodaí
 dtrodairí dtrodaithe
+dtroiche dtrocha
 dtroighthe dtroithe
 dtroilsleáin dtrilseáin
 dtroilsleán dtrilseán
@@ -60851,6 +60928,7 @@ dtroimeachta dtroime
 dtroimíocht dtroime
 dtroimíochta dtroime
 dtroist dtrostáin
+dtromachroídhe dtromchroí
 dtromaíocht dtroime
 dtromaíochta dtroime
 dtromdhacht dtroime
@@ -60892,6 +60970,7 @@ dtrosctar dtroisctear
 dtrost dtrostán
 dtrostanna dtrostáin
 dtrostanna dtrostán
+dtrú dtroch
 dtruagh dtrua
 dtruaibhleodh dtruailleodh
 dtruaibhleofá dtruailleofá
@@ -60973,6 +61052,7 @@ dtruiptear dtruipeáiltear
 dtruipthe dtruipeála
 dtruiptí dtruipeáiltí
 dtrúir dtriúr
+dtruisc dtroisc
 dtruisle dtuisle
 dtruisleadh dtuisle
 dtruisleodh dtuisleodh
@@ -61355,8 +61435,14 @@ dtulcaisí mbulcaisí
 dtullóg bpollóg
 dtullóga bpollóga
 dtullóige bpollóige
+dtumaill dtamaill
+dtumall dtamall
 dtumba dtuama
 dtumbaí dtuamaí
+dturainn dtuirne
+dturainn dturraing
+dtúrainn dtuirne
+dturainne dturrainge
 dturaistí dturais
 dturann dtuirne
 dturasanna dturais
@@ -61378,6 +61464,7 @@ dturloch dturlach
 dturlocha dturlaigh
 dturlochanna dturlach
 dturlochanna dturlaigh
+dtúrn dtuirne
 dtúrna dtuirne
 dtúrnaí dtuirní
 dturnaip dtornapa
@@ -61935,6 +62022,8 @@ dug duga
 duganna dugaí
 d'ugh d'ubh
 d'ughaim d'úim
+d'úghaim d'úim
+d'úghama d'úma
 d'ughdair d'údair
 d'úghdair d'údair
 d'ughdar d'údar
@@ -61964,6 +62053,8 @@ d'ughdartháis d'údaráis
 d'ughdarthás d'údarás
 d'ughdarú d'údarú
 d'ughma d'úma
+d'ughmacha d'úmacha
+d'úghmacha d'úmacha
 d'ughmadh d'úmadh
 d'ughmaidh d'úmtha
 duí duibhe
@@ -63485,6 +63576,8 @@ eataltá eitlíteá
 eataltaí eitlítí
 eataltar eitlítear
 éatar éitear
+eatarra eatarthu
+eatarra eatarthusan
 eatartha eatarthu
 eatartha eatarthusan
 eatha ea
@@ -69756,6 +69849,7 @@ fhotharacha fhothracha
 fhotharaga fhothragadh
 fhotharaga fhothragtha
 fhotharaigh fhothraigh
+fhothdhuine fhodhuine
 fhothfholúntais chorrfholúntais
 fhothfholúntas chorrfholúntas
 fhothragacht fhothragadh
@@ -70110,6 +70204,7 @@ fhuarfholach fhuarfhuilteach
 fhuarfholacha fhuarfhuilteacha
 fhuarfholaí fhuarfhuiltí
 fhuarfholaigh fhuarfhuiltigh
+fhuarloch fhuarlach
 fhuarnimh fhuairnimh
 fhuarnimhe fhuairnimhe
 fhuarsceirdeach fhuarsceirdiúil
@@ -70167,6 +70262,7 @@ fhuathúla fhuafaire
 fhuathúla fhuafara
 fhuíche fhaíche
 fhuide fhaide
+fhuidhle fhuíll
 fhuidhleach fhuílleach
 fhuidhligh fhuílligh
 fhúig fhág
@@ -70190,9 +70286,11 @@ fhuighbheadh bhfaigheadh
 fhuígheach fhaíoch
 fhuígheacha fhaíocha
 fhuigheadh fhaigheadh
+fhuigheall fhuíoll
 fhuíghí fhaíche
 fhuighidís fhaighidís
 fhuíghigh fhaíoch
+fhuighill fhuíll
 fhuighim fhaighim
 fhuighimid fhaighimid
 fhuighimíd fhaighimid
@@ -70201,6 +70299,7 @@ fhuighinn fhaighinn
 fhuighir fhaigheann tú
 fhuighlach fhuílleach
 fhuighlaigh fhuílligh
+fhuighle fhuíll
 fhuighleach fhuílleach
 fhuighligh fhuílligh
 fhuightheá fhaighteá
@@ -72718,6 +72817,7 @@ fotharaga fothragadh
 fotharaga fothragtha
 fotharagach fothragach
 fotharaigh fothraigh
+fothdhuine fodhuine
 fothfholúntais corrfholúntais
 fothfholúntas corrfholúntas
 fothlacht fochlacht
@@ -73249,6 +73349,7 @@ fuarfholacha fuarfhuilteacha
 fuarfholaí fuarfhuiltí
 fuarfholaigh fuarfhuiltigh
 fuarlach forlacht
+fuarloch fuarlach
 fuarma forma
 fuarmáil fothramáil
 fuarnimh fuairnimh
@@ -73331,6 +73432,7 @@ fuidheach faíoch
 fúidheach faíoch
 fuídheach faíoch
 fuidheall fuíoll
+fuidhle fuíll
 fuidhleach fuílleach
 fuidhligh fuílligh
 fúig fág
@@ -73355,6 +73457,7 @@ fuíghí faíche
 fuighidh gheobhaidh
 fuighidís faighidís
 fuíghigh faíoch
+fuighill fuíll
 fuighilleach fuílleach
 fuighim faighim
 fuighimid faighimid
@@ -73362,6 +73465,7 @@ fuighimíd faighimid
 fuighimís faighimis
 fuighlach fuílleach
 fuighlaigh fuílligh
+fuighle fuíll
 fuighleach fuílleach
 fuíghleach fuílleach
 fuighligh fuílligh
@@ -74129,7 +74233,9 @@ gainimhigh gainmhigh
 gainiúil gainmheach
 gainmhe gaineamh
 gainmhe gainimh
+gainmheach gaineamhlach
 gainmhí gainmheach
+gainmhigh gaineamhlaigh
 'gainn againn
 gainneach gainne
 gainneacht gainne
@@ -74557,6 +74663,8 @@ garmna garman
 garmna garmana
 garnóir garraíodóir
 garnóireacht garraíodóireacht
+garrabhuaic ciaramáboc
+garrabhuaice ciaramáboc
 garradh garraí
 gárradh garraí
 garraidh garraí
@@ -74809,6 +74917,7 @@ gcairdeachais gcairdiúlachta
 gcairdeachas gcairdiúlacht
 gcáirdibh gcairde
 gcáire gcáir
+gcáireobó gciaramáboc
 gcairgreacha gcarraigeacha
 gcáirne gcairn
 gcairrfhiadh gcarria
@@ -74887,6 +74996,7 @@ gcaitheachtála gcaithimh
 gcaitheamh-aimsire gcaitheamh aimsire
 gcaithfá gcaithfeá
 gcaithfam gcaithfimid
+gcaithfamuid gcaithfimid
 gcaithfe gcaithfidh
 gcaithfinn-se gcaithfinnse
 gcaithiomh gcaitheamh
@@ -75695,6 +75805,8 @@ gceadfainn gceadóinn
 gcéadfaíocht gcéadfacht
 gcéadfaíochta gcéadfachta
 gceadfar gceadófar
+gcéadghein gcéadghin
+gcéadgheine gcéadghine
 gcéadh gcé
 gcéadlongadh gcéalacan
 gceadóch' gceadódh
@@ -76333,6 +76445,7 @@ gciapóimid gciapfaimid
 gciapóimis gciapfaimis
 gciapóinn gciapfainn
 gciapú gciapadh
+gciarabúca gciaramáboc
 gciaráil gcíorláil
 gciaráilteá gcíorláilteá
 gciaráiltear gcíorláiltear
@@ -76686,7 +76799,9 @@ gcíoróimid gcíorfaimid
 gcíoróimis gcíorfaimis
 gcíoróinn gcíorfainn
 gciorrabuaic gcarabuaic
+gciorrabuaic gciaramáboc
 gciorrabuaice gcarabuaice
+gciorrabuaice gciaramáboc
 gciorrbh gciorraigh
 gciorrbha gciorraí
 gciorrbhadar gciorraíodar
@@ -78289,6 +78404,8 @@ gcoimhplex gcoimpléasc
 gcóimhreamh gcomhaireamh
 gcóimhreann gcomhroinn
 gcóimhrimh gcomhairimh
+gcoímhscair gcoimheascair
+gcoímhscar gcoimheascar
 gcoimhsgair gcoimheascair
 gcoimhsgar gcoimheascar
 gcóimhtheachais gcomhthís
@@ -82948,6 +83065,8 @@ ghainimheacha ghainmheacha
 ghainimhí ghainmhí
 ghainimhigh ghainmhigh
 ghainmhe ghainimh
+ghainmheach ghaineamhlach
+ghainmhigh ghaineamhlaigh
 ghainnéad ghainéad
 ghainnéid ghainéid
 ghainnimhe ghainimh
@@ -83246,6 +83365,8 @@ gharbhuaicigh chorrabhuaisigh
 ghárdadh ghardáil
 ghardha gharraí
 ghardhaí gharraithe
+gharrabhuaic chiaramáboc
+gharrabhuaice chiaramáboc
 gharradh gharraí
 ghárradh gharraí
 gharraidh gharraí
@@ -88938,6 +89059,7 @@ hána hana
 hanabháis hanbháis
 hanabhás hanbhás
 hanacail hanacal
+hanacaireach hanacrach
 hanachuid han-chuid
 hanacla hanacail
 hanadh hana
@@ -89698,6 +89820,7 @@ Haváís Haváis
 Haváíse Haváise
 have have
 having having
+hay hay
 he hé
 héabainít héabainnít
 héabainíte héabainníte
@@ -90729,6 +90852,9 @@ hinghreamú hinghreim
 hinghreamughadh hinghreim
 hingilt hinnilt
 hingilte hinnilte
+hingín hiníon
+hingíne hiníne
+hingíní hiníonacha
 hingir hingear
 hingire hingir
 hingirí hingear
@@ -90921,15 +91047,21 @@ híochtairíní híochtair
 híochtairíní híochtar
 híochtrach híochtarach
 hiochtúil hiochtmhar
+híodail híl
+híodail híola
 hiodáileach hiodálach
 hIodáileach hIodálach
 hiodaín hiaidín
 híodaín hiaidín
+híodal híol
 hiodha híona
 hiodha hiúr
 híodha heo
+híodhail híl
+híodhail híola
 híodhaine híonacht
 híodhaine híonachta
+híodhal híol
 hiodhal-adhradh híoladhradh
 híodhbairt híobairt
 hiodhbairteach híobartach
@@ -92019,6 +92151,8 @@ huga chugat
 hugaí chugaibh
 hugh hubh
 hughaim húim
+húghaim húim
+húghama húma
 hughdair húdair
 húghdair húdair
 hughdar húdar
@@ -92043,6 +92177,8 @@ hughdarthásach húdarásach
 húghdarthásach húdarásach
 hughdarú húdarú
 hughma húma
+hughmacha húmacha
+húghmacha húmacha
 hughmadh húmadh
 hughmaidh húmtha
 huibh huibhe
@@ -93319,6 +93455,9 @@ inghreamughadh inghreim
 ingilt innilt
 ingilte innilte
 ingin ionga
+ingín iníon
+ingíne iníne
+ingíní iníonacha
 ingir ingear
 ingir t-ingear
 ingire ingir
@@ -93772,6 +93911,8 @@ iochtúla iochtmhaire
 iochtúla iochtmhara
 íocshláintiúil íocshláinteach
 íodaigh iadaigh
+íodail íl
+íodail íola
 iodáileach iodálach
 Iodáileach Iodálach
 iodáileacha iodálacha
@@ -93788,6 +93929,8 @@ iodha íona
 iodha iúr
 íodha eo
 íodha t-eo
+íodhail íl
+íodhail íola
 íodhaine íonacht
 íodhaine íonachta
 íodhal íol
@@ -98854,6 +98997,8 @@ Lughnasa Lúnasa
 Lúghnasa Lúnasa
 Lughnasadh Lúnasa
 Lúghnasna Lúnasa
+lui lui
+Lui Laoi
 lúib lúb
 luibheann luibheanna
 luibhearnach luifearnach
@@ -100167,6 +100312,8 @@ m'áithche m'áith
 maitheach maiteach
 maitheachas maiteachas
 maitheacht maiteachas
+maitheamhnachais maithiúnais
+maitheamhnachas maithiúnas
 maitheamhnais maithiúnais
 maitheamhnas maithiúnas
 maithean maitheann
@@ -103218,6 +103365,7 @@ mbodhaireacht mbodhaire
 mbodhaireachta mbodhaire
 mbodhamáin mbómáin
 mbodhamán mbómán
+mbodharánacht mbodhránacht
 mbodharfá mbodhrófá
 mbodharfadh mbodhródh
 mbodharfaí mbodhrófaí
@@ -103669,6 +103817,7 @@ mbraise spraise
 mbraistint mbrath
 mbraistinte mbraith
 mbraistintí mbrathanna
+mbráith mbrátha
 mbraithlín mbraillín
 mbráithlín mbraillín
 mbraithlíne mbraillíne
@@ -103797,6 +103946,9 @@ mbréagaítear mbréagtar
 mbréagaithe mbréagtha
 mbréagaítí mbréagtaí
 mbreágh breá
+mbreághacht mbreáthacht
+mbreághachta mbreáthachta
+mbreághachtaí mbreáthachtaí
 mbreaghdhacht mbreáthacht
 mbreaghdhachta mbreáthachta
 mbreaghdhachtaí mbreáthachtaí
@@ -104819,6 +104971,7 @@ meabhaile meabhail
 meabhair-ghalair meabhairghalair
 meabhair-ghalar meabhairghalar
 meabhán míobhán
+meabhar meabhair
 meabharghalair meabhairghalair
 meabharghalar meabhairghalar
 meabhla meabhail
@@ -107000,6 +107153,7 @@ m'fhotharacha m'fhothracha
 m'fhotharaga m'fhothragadh
 m'fhotharaga m'fhothragtha
 m'fhotharaigh m'fhothraigh
+m'fhothdhuine m'fhodhuine
 m'fhothfholúntais mo chorrfholúntais
 m'fhothfholúntas mo chorrfholúntas
 m'fhothragacht m'fhothragadh
@@ -107048,6 +107202,7 @@ m'fhuaradh m'fhuarú
 m'fhuarc m'fheirc
 m'fhuarchaoineacháin m'fhuarchaointe
 m'fhuarchaoineachán m'fhuarchaoineadh
+m'fhuarloch m'fhuarlach
 m'fhuarnimh m'fhuairnimh
 m'fhuarnimhe m'fhuairnimhe
 m'fhuartha m'fhuaraithe
@@ -107063,10 +107218,14 @@ m'fhuasclóirí m'fhuascailteoirí
 m'fhuasclóra m'fhuascailteora
 m'fhuaslacadh m'fhuascailt
 m'fhuasnadh m'fhuaiscneamh
+m'fhuidhle m'fhuíll
 m'fhuidhleach m'fhuílleach
 m'fhuidhligh m'fhuílligh
+m'fhuigheall m'fhuíoll
+m'fhuighill m'fhuíll
 m'fhuighlach m'fhuílleach
 m'fhuighlaigh m'fhuílligh
+m'fhuighle m'fhuíll
 m'fhuighleach m'fhuílleach
 m'fhuighligh m'fhuílligh
 m'fhuiling m'fhulaingt
@@ -107526,6 +107685,8 @@ mháistreora ghiúistís
 mhait mhaith
 'mhaith a mhaith
 mhaitha mhaithe
+mhaitheamhnachais mhaithiúnais
+mhaitheamhnachas mhaithiúnas
 mhaitheamhnais mhaithiúnais
 mhaitheamhnas mhaithiúnas
 mhaithibh mhaithe
@@ -108045,6 +108206,7 @@ mheabhail mheabhal
 mheabhaile mheabhail
 mheabhair-ghalair mheabhairghalair
 mheabhair-ghalar mheabhairghalar
+mheabhar mheabhair
 mheabharghalair mheabhairghalair
 mheabharghalar mheabhairghalar
 mheabhlacháin mheabhlaire
@@ -108494,6 +108656,7 @@ mhífheileamhnach mhífheiliúnach
 mhífheileamhnacha mhífheiliúnacha
 mhífheileamhnaí mhífheiliúnaí
 mhífheileamhnaigh mhífheiliúnaigh
+mhífhoidhne mhífhoighne
 mhífhoighdeach mhífhoighneach
 mhífhoighdeacha mhífhoighneacha
 mhífhoighdí mhífhoighní
@@ -108504,6 +108667,8 @@ mhífholláineacht mhífholláine
 mhífholláineachta mhífholláine
 mhífhomóis mhí-ómóis
 mhífhomós mhí-ómós
+mhífhortiúin mhífhortúin
+mhífhortiún mhífhortún
 mhíghliocais mhíghlicis
 mhíghliocas mhíghliceas
 mhíghrása mhíghrásta
@@ -108727,6 +108892,7 @@ mhírbhúilteacha mhíorúilteacha
 mhírbhuiltí mhíorúiltí
 mhírbhúiltí mhíorúiltí
 mhírbhúiltigh mhíorúiltigh
+mhíreann mhíreanna
 mhíréasúnach mhíréasúnta
 mhíréasúnacha mhíréasúnta
 mhíréasúnacht mhíréasúntacht
@@ -109728,6 +109894,7 @@ mífheileamhnach mífheiliúnach
 mífheileamhnacha mífheiliúnacha
 mífheileamhnaí mífheiliúnaí
 mífheileamhnaigh mífheiliúnaigh
+mífhoidhne mífhoighne
 mí-fhoidneach mífhoighneach
 mífhoighdeach mífhoighneach
 mífhoighdeacha mífhoighneacha
@@ -109741,6 +109908,8 @@ mífholláineacht mífholláine
 mífholláineachta mífholláine
 mífhomóis mí-ómóis
 mífhomós mí-ómós
+mífhortiúin mífhortúin
+mífhortiún mífhortún
 mí-fhortiúnach mífhortúnach
 m'ifrean m'ifreann
 m'ifrin m'ifrinn
@@ -109952,6 +110121,9 @@ m'inghreamú m'inghreim
 m'inghreamughadh m'inghreim
 m'ingilt m'innilt
 m'ingilte m'innilte
+m'ingín m'iníon
+m'ingíne m'iníne
+m'ingíní m'iníonacha
 m'ingir m'ingear
 m'ingire m'ingir
 m'ingirí m'ingear
@@ -110114,9 +110286,12 @@ miocrascóip micreascóip
 miocrascóp micreascóp
 míocs míog
 míodail méadail
+m'íodail m'íl
+m'íodail m'íola
 m'iodaín m'iaidín
 m'íodaín m'iaidín
 miodaing miodóg
+m'íodal m'íol
 miodamais miodamas
 miodamaise miodamais
 miodán miotán
@@ -110124,8 +110299,11 @@ miodh meá
 m'iodha m'íona
 m'iodha m'iúr
 m'íodha m'eo
+m'íodhail m'íl
+m'íodhail m'íola
 m'íodhaine m'íonacht
 m'íodhaine m'íonachta
+m'íodhal m'íol
 m'iodhal-adhradh m'íoladhradh
 m'íodhbairt m'íobairt
 m'iodhbairteach m'íobartach
@@ -110576,6 +110754,7 @@ mírbhúiltí míorúiltí
 mírbhúiltigh míorúiltigh
 m'íre m'fhíre
 mireacht mire
+míreann míreanna
 míréasúnach míréasúnta
 míréasúnacha míréasúnta
 míréasúnacht míréasúntacht
@@ -111680,6 +111859,8 @@ mugall mogall
 mugarlach mungarlach
 m'ugh m'ubh
 m'ughaim m'úim
+m'úghaim m'úim
+m'úghama m'úma
 m'ughdair m'údair
 m'úghdair m'údair
 m'ughdar m'údar
@@ -111697,6 +111878,8 @@ mughdhoirn murnáin
 mughdhorn murnán
 mughdhornán murnán
 m'ughma m'úma
+m'ughmacha m'úmacha
+m'úghmacha m'úmacha
 m'ughmadh m'úmadh
 m'ughmaidh m'úmtha
 mugóir mogóir
@@ -114247,6 +114430,7 @@ nAmsterdam nAmstardam
 n-amuinisean n-armlón
 n-amuinisin n-armlóin
 n-a'n n-aon
+na'n ná an
 ná'n ná an
 n-ána n-ana
 n-anabháis n-anbháis
@@ -118091,6 +118275,7 @@ ndubh-luighe ndúluí
 ndubhradar ndúradar
 ndubhradh ndúradh
 ndúbhradh ndúradh
+ndubhraís ndúirt tú
 ndubhramar ndúramar
 ndubhras ndúirt mé
 ndubhróin ndobróin
@@ -120032,6 +120217,8 @@ ngáiméití ngaiméití
 ngainimh ngaineamh
 ngainimhe ngainimh
 ngainmhe ngainimh
+ngainmheach ngaineamhlach
+ngainmhigh ngaineamhlaigh
 ngainnéad ngainéad
 ngainnéid ngainéid
 ngainnimhe ngainimh
@@ -120284,6 +120471,8 @@ ngarbhuaic gcorrabhuais
 ngarbhuaice gcorrabhuaise
 ngardha ngarraí
 ngardhaí ngarraithe
+ngarrabhuaic gciaramáboc
+ngarrabhuaice gciaramáboc
 ngarradh ngarraí
 ngárradh ngarraí
 ngarraidh ngarraí
@@ -122538,6 +122727,9 @@ n-inghreamú n-inghreim
 n-inghreamughadh n-inghreim
 n-ingilt n-innilt
 n-ingilte n-innilte
+n-ingín n-iníon
+n-ingíne n-iníne
+n-ingíní n-iníonacha
 n-ingir n-ingear
 n-ingire n-ingir
 n-ingirí n-ingear
@@ -122783,13 +122975,19 @@ n-íochtairíní n-íochtair
 n-íochtairíní n-íochtar
 níoctha íoctha
 níoctha n-íoctha
+n-íodail n-íl
+n-íodail n-íola
 n-iodaín n-iaidín
 n-íodaín n-iaidín
+n-íodal n-íol
 n-iodha n-íona
 n-iodha n-iúr
 n-íodha n-eo
+n-íodhail n-íl
+n-íodhail n-íola
 n-íodhaine n-íonacht
 n-íodhaine n-íonachta
+n-íodhal n-íol
 n-iodhal-adhradh n-íoladhradh
 n-íodhbairt n-íobairt
 n-iodhbairteach n-íobartach
@@ -123510,6 +123708,7 @@ n-íth n-aodh
 níthe nithe
 n-itheas n-íosfaidh
 nithibh nithe
+n-ithid n-itheann
 nítí dhéantaí
 nítí ndéantaí
 n-iubhail n-iubhaile
@@ -124539,6 +124738,8 @@ n-údragáil n-údramáil
 n-údragála n-údramála
 n-ugh n-ubh
 n-ughaim n-úim
+n-úghaim n-úim
+n-úghama n-úma
 n-ughdair n-údair
 n-úghdair n-údair
 n-ughdar n-údar
@@ -124577,6 +124778,8 @@ n-ughdartháis n-údaráis
 n-ughdarthás n-údarás
 n-ughdarú n-údarú
 n-ughma n-úma
+n-ughmacha n-úmacha
+n-úghmacha n-úmacha
 n-ughmadh n-úmadh
 n-ughmaidh n-úmtha
 n-uibh n-uibhe
@@ -125942,6 +126145,7 @@ orrusan orthusan
 órshnaithí órshnáithí
 órsnáithe órshnáithe
 órsnáithí órshnáithí
+órt ort
 orta ortha
 orta orthu
 órta ósta
@@ -125965,6 +126169,7 @@ ortografach ortagrafach
 ortografacha ortagrafacha
 ortografaí ortagrafaí
 ortografaigh ortagrafaigh
+órtsa ortsa
 ortú orthu
 orú arú
 oruinn orainn
@@ -130780,6 +130985,7 @@ reathfainn rithfinn
 reathfar rithfear
 rebeliúntacht reibiliúnacht
 rebeliúntachta reibiliúnachta
+recordings recordings
 red le do
 rédhánta réagánta
 rédorcha rédhorcha
@@ -131674,6 +131880,8 @@ róghrásúla róghrástúla
 rogóid rogáid
 ro-iarratasach ró-iarratach
 roibh raibh
+roibhe roimhe
+roibhesean roimhesean
 roiceanna roic
 roich shroich
 roich sroich
@@ -132179,11 +132387,18 @@ ruchaill hurchaill
 ruchaill n-urchaill
 ruchaill urchaill
 rúcháin racáin
+ruchair hurchair
+ruchair n-urchair
+ruchair urchair
 ruchall hurchall
 ruchall n-urchall
 ruchall t-urchall
 ruchall urchall
 rúchán racán
+ruchar hurchar
+ruchar n-urchar
+ruchar t-urchar
+ruchar urchar
 rúchla rúchladh
 rúchla rúchlaidh
 ruchóid urchóid
@@ -134335,6 +134550,8 @@ sceimeanna scéimeanna
 sceimh scim
 sceimhe sceabhaí
 scéimheach sciamhach
+scéimheacht sciamhacht
+scéimheachta sciamhachta
 sceimheal sceimhleacha
 sceimhil sceimheal
 sceimhil sceimhle
@@ -134614,7 +134831,9 @@ scil scileadh
 scile scileadh
 scile scilte
 sciléad scilléad
+scilic scilligeadh
 scilice scilligeadh
+scilige scilligeadh
 scilimis sceilmis
 scilleacha scillingí
 scillingeach scillingí
@@ -134671,6 +134890,7 @@ sciobalach goblach
 sciobarnach scrobarnach
 scioblach goblach
 sciobóg giobóg
+sciobólaibh sciobóil
 sciobthach sciobtha
 sciobthaíocht sciobthacht
 scioch scuch
@@ -136137,6 +136357,7 @@ seana-phuidheach seanfach
 seana-phuídheach seanfach
 sean-árd sean-ard
 seana-sgríbhinn seanscríbhinn
+seana-shean-athair sin-seanathair
 seanbhaile seanbhailéad
 seanbhalla seanbhallóg
 seanbhalla seanbhallóige
@@ -136153,6 +136374,7 @@ sean-cailleach seanchailleach
 seancam sonc
 seancha seanchaí
 seanchadh seanchaithe
+seancharaid seanchara
 seanchartacha seanchairteacha
 seanchartaíocha seanchairteacha
 seanchasa seanchais
@@ -136210,6 +136432,9 @@ sean-Mhaitias sean-Mhaitias
 seanmhnaoi seanbhean
 seanmhnaoi tseanbhean
 sean-mhrá seanmhná
+seanmhuinntir seanmhuintir
+seanmhuinntire seanmhuintire
+seanmhuinntireacha seanmhuintireacha
 seanmóin seanmóir
 seanmóiní seanmóirí
 seanmóiniú seanmóireacht
@@ -136237,6 +136462,7 @@ sean-sgairt seanscairt
 sean-sgeach seansceach
 sean-sgian seanscian
 sean-sgoláire seanscoláire
+sean-sheanathair sin-seanathair
 sean-spreasadán seanspreasán
 seansúir seamsúir
 seansúr seamsúr
@@ -136427,6 +136653,7 @@ sédéag sé déag
 sé-déag sé déag
 sédeug sé déag
 see see
+seen seen
 séibe seibineach
 seibeanach seibineach
 seibeanaigh seibinigh
@@ -137870,6 +138097,7 @@ sheanam shean-am
 sheanama shean-ama
 sheanamóir sheanmóir
 sheanamóra sheanmóra
+sheana-shean-athair shin-seanathair
 sheanbhalla sheanbhallóg
 sheanbhalla sheanbhallóige
 sheanbhallaí sheanbhallóg
@@ -137879,6 +138107,7 @@ sheanbheidhlíní sheanveidhlíní
 sheanbhlasta sheanbhlastúil
 sheanbhlasta sheanbhlastúla
 sheancha sheanchaí
+sheancharaid sheanchara
 sheanchasa sheanchais
 sheanchasaí sheanchaí
 sheanchasaithe sheanchaithe
@@ -137910,6 +138139,9 @@ sheanmhadadh sheanmhadra
 sheanmhaighistir sheanmháistir
 sheanmhnaoi sheanbhean
 shean-mhnaoi sheanbhean
+sheanmhuinntir sheanmhuintir
+sheanmhuinntire sheanmhuintire
+sheanmhuinntireacha sheanmhuintireacha
 sheanmóiniú sheanmóireacht
 sheanmóracha sheanmóirí
 sheanroilig sheanreilig
@@ -137921,6 +138153,7 @@ sheansaoghail sheansaoil
 sheansaoghal sheansaol
 sheanscéaltaí sheanscéalta
 shean-sgairt sheanscairt
+shean-sheanathair shin-seanathair
 sheansúir sheamsúir
 sheansúr sheamsúr
 Shean-tiomna Shean-Tiomna
@@ -138407,6 +138640,7 @@ shifeoin shiofóin
 shifeon shiofón
 shífistearnaim shífisteirnim
 shífistearnam shífisteirneam
+shíghe shí
 shigheamhais shíobhais
 shigheamhas shíobhas
 Shighle Shíle
@@ -138679,6 +138913,7 @@ shíolfaimid shíolróimid
 shíolfaimis shíolróimis
 shíolfainn shíolróinn
 shíolfar shíolrófar
+shiolgnú scilligeadh
 shiolla shilleadh
 shiollab shiolla
 shiollab shiollaí
@@ -140209,7 +140444,9 @@ Shomáilí Shomálaí
 Shomáiligh Shomálaigh
 sho-mharbhtha sho-mharaithe
 shompla shampla
+shómpla shampla
 shomplaí shamplaí
+shómplaí shamplaí
 shompláil shampláil
 shomplála shamplála
 shonadh shona
@@ -140511,6 +140748,7 @@ shuadhamhail shuadhach
 shuadhamhail shuadhaigh
 shuadhamhaile shuadhacha
 shuadhamhaile shuadhaí
+shuailce shuáilce
 shuaimheas shuaimhneas
 shuaimhis shuaimhnis
 shuaimhnios shuaimhneas
@@ -141036,6 +141274,7 @@ sífistearnaim sífisteirnim
 sífistearnam sífisteirneam
 sifreoir síofróir
 sifreoireacht síofróireacht
+síghe sí
 sigheamhais síobhais
 sigheamhas síobhas
 sighean sín
@@ -143099,6 +143338,7 @@ smoladóir smóladán
 smoladóirí smóladáin
 smoladóirí smóladán
 smoladóra smóladáin
+smólaí smólaigh
 smolán smalán
 smólchán smólachán
 smólghlantóir smóladán
@@ -144232,6 +144472,7 @@ sompal sampla
 sompla sampla
 sómpla sampla
 somplaí samplaí
+sómplaí samplaí
 sompláil sampláil
 somplála samplála
 sonaí sona
@@ -146916,6 +147157,7 @@ suaicheantas suaitheantas
 suaichnidh suaithní
 suaichnidheacht suaithníocht
 suail suaill
+suailce suáilce
 suailceach suáilceach
 suaimheas suaimhneas
 suaimhis suaimhnis
@@ -147877,6 +148119,7 @@ t-áirdiú t-ardú
 tÁird-Rí tArdrí
 taire tAire
 táire táir
+taireac tarraingt
 táireacht táire
 t-áireamhach t-áiritheoir
 tairéis tar éis
@@ -150234,6 +150477,7 @@ thairbhthí thairbhí
 thairbhthigh thairbhigh
 thaire thar
 tháire tháir
+thaireac tharraingt
 thairfe thairbhe
 thairgbheáil thairiscint
 thairgbheála thairisceana
@@ -152275,6 +152519,8 @@ thímchioll thimpeall
 thimchuairt imchuairt
 thimchuairte imchuairte
 thimchuairteanna imchuairteanna
+thimheal theimheal
+thimhil theimhil
 thímpail thimpill
 thímpaill thimpill
 thimpal thimpeall
@@ -154067,6 +154313,7 @@ throdúil throdach
 throdúil throdaigh
 throdúla throdacha
 throdúla throdaí
+throiche throcha
 throidfinn-se throidfinnse
 throighthe throithe
 throilsleáin thrilseáin
@@ -154076,6 +154323,7 @@ throimeachta throime
 throimíocht throime
 throimíochta throime
 throist throstáin
+thromachroídhe thromchroí
 thromaíocht throime
 thromaíochta throime
 thromchroidhtheach thromchroíoch
@@ -154128,6 +154376,7 @@ throst throstán
 throstanna throstáin
 throstanna throstán
 through through
+thrú throch
 thruach atruach
 thruacha atruacha
 thruagh thrua
@@ -154237,6 +154486,7 @@ thruipthe thruipeáilte
 thruipthe thruipeála
 thruiptí thruipeáiltí
 thrúir thriúr
+thruisc throisc
 thruisle thuisle
 thruisleadh thuisle
 thruisleodh thuisleodh
@@ -154698,11 +154948,17 @@ thullóg phollóg
 thullóga phollóga
 thullóige phollóige
 thúm thum
+thumaill thamaill
 Thumaisín Thumaisín
+thumall thamall
 thumba thuama
 thumbaí thuamaí
 thú'n thú an
 thúnadh thuineadh
+thurainn thuirne
+thurainn thurraing
+thúrainn thuirne
+thurainne thurrainge
 thuraistí thurais
 thurann thuirne
 thurasanna thurais
@@ -154725,6 +154981,7 @@ thurloch thurlach
 thurlocha thurlaigh
 thurlochanna thurlach
 thurlochanna thurlaigh
+thúrn thuirne
 thúrna thuirne
 thúrnadh thurnamh
 thúrnaí thuirní
@@ -155094,6 +155351,8 @@ timchuairteanna imchuairteanna
 t-imeal t-imeall
 times times
 t-imfhios t-iomas
+timheal teimheal
+timhil teimhil
 t-imioll t-imeall
 t-imirceoir t-imirceach
 t-imirteas t-imeartas
@@ -155259,7 +155518,9 @@ tiodail teidil
 t-iodaín t-iaidín
 t-íodaín t-iaidín
 tiodal teideal
+t-íodal t-íol
 t-iodha t-iúr
+t-íodhal t-íol
 t-iodhal-adhradh t-íoladhradh
 t-iodhbairteach t-íobartach
 t-íodhbradh íobairt
@@ -157317,6 +157578,7 @@ trólar trálaer
 trom tabhair dom
 tromachan tromaíocht
 tromachán tromaíocht
+tromachroídhe tromchroí
 tromachroidheach tromchroíoch
 troma-chroidheach tromchroíoch
 troma-chroídheach tromchroíoch
@@ -157506,6 +157768,7 @@ truipthe truipeáilte
 truipthe truipeála
 trúir triúr
 truis trais
+truisc troisc
 truiscneach troistneach
 truisle tuisle
 truisleadh tuisle
@@ -157729,6 +157992,7 @@ tSeanGhaedhilge tSean-Ghaeilge
 tseanlánamhain tseanlánúin
 tseanmhnaoi tseanbhean
 tsean-mhnaoi tseanbhean
+tseanmhuinntir tseanmhuintir
 tsean-ollamh seanollamh
 tseanroilig tseanreilig
 tseansá tseansáith
@@ -158164,6 +158428,7 @@ tsoluis tsolais
 tsomaigh tsomacháin
 tSomáile tSomáil
 tsompla tsampla
+tsómpla tsampla
 tsompláil tsampláil
 tsonaíocht sonas
 tsonnradhacht tsonraíocht
@@ -158229,6 +158494,7 @@ tsrubháin tsruáin
 tsrubhóg sruán
 tsrutháin tsruáin
 tsruthlóg sruthlán
+tsuailce tsuáilce
 tsuaimhis tsuaimhnis
 tsuainleasa tsuanleasa
 tsuaithire tsuathaire
@@ -158839,6 +159105,7 @@ tumaill tamaill
 tumain tiomain
 tumáin tiomáin
 Tumaisín Tumaisín
+tumall tamall
 tumanach tiomantach
 tumanta tiomanta
 túmas ómós
@@ -158870,6 +159137,10 @@ t-unúmha t-ionú
 t-ur t-úr
 túr súr
 túr tuar
+turainn tuirne
+turainn turraing
+túrainn tuirne
+turainne turrainge
 turair turaireacht
 turaire turaireacht
 turaireacht turaíocht
@@ -158917,6 +159188,7 @@ turlochanna turlaigh
 t-urluidhe t-orlaí
 t-urmhór formhór
 turn tuirne
+túrn tuirne
 túrna tuirne
 túrnadh turnamh
 turnadóir tornóir
@@ -159425,6 +159697,8 @@ udhmaidh úmtha
 ugh ubh
 ughadh ú
 ughaim úim
+úghaim úim
+úghama úma
 ughamuighthe úmtha
 ughdair údair
 úghdair údair
@@ -159473,6 +159747,8 @@ ughdarthásach údarásach
 ughdarú údarú
 ughdrú údarú
 ughma úma
+ughmacha úmacha
+úghmacha úmacha
 ughmadh úmadh
 ughmadóir úmadóir
 ughmaidh úmtha
@@ -160310,6 +160586,7 @@ Wicklow Wicklow
 wife wife
 wild wild
 will will
+window window
 wish wish
 with with
 without without
