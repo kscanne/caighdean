@@ -428,6 +428,7 @@ Thalloo_Sooloo Súlúlainn
 Thalloo_Sooloo Súlúlainne
 Thalloo_Sooloo tSúlúlainn
 Tomato_Cain Tomato Cain
+Tony_Pass Tony Pass
 Toshiaght_Arree Feabhra
 Toshiaght_Arree d'Fheabhra
 Toshiaght_Gheuree Samhain
@@ -486,6 +487,7 @@ Yuanyn_Haink_Noal inimircigh
 Yuanyn_Haink_Noal n-inimirceach
 Yuanyn_Haink_Noal n-inimircigh
 Zealan_Noa an Nua-Shéalainn
+Zealand_Noa Nua-Shéalainn
 a_._m_._s srl
 a_._r_._e srl
 aa-enmys_ad athsheoladar
@@ -1391,6 +1393,7 @@ ayns_Syria sa tSiria
 ayns_Yernish as Gaeilge
 ayns_Yernish i nGaeilge
 ayns_Zealan_Noa sa Nua-Shéalainn
+ayns_Zealand_Noa sa Nua-Shéalainn
 ayns_aggle faoi eagla
 ayns_aght i mbealach
 ayns_aght_ennagh ar bhealach éigin
@@ -6034,6 +6037,12 @@ deie_shin d'éamar
 deie_shin ghlaomar
 deignee_ad d'éigníodar
 deignee_shin d'éigníomar
+deihagh_ad dtoghfaidís
+deihagh_ad thoghfaidís
+deihagh_oo dtoghfá
+deihagh_oo thoghfá
+deihagh_shin dtoghfaimis
+deihagh_shin thoghfaimis
 deiney_doo daoine gorma
 deiney_mooinjerey gaolta
 deishtagh_ad chinnteoidís
@@ -8092,6 +8101,7 @@ dy_moghey go moch
 dy_mooar go mór
 dy_my do mo
 dy_my_akin do m'fheiceáil
+dy_n'oddins dá bhféadfainnse
 dy_naillee gur mian léi
 dy_naillee gur áil léi
 dy_naillin gur mian linn
@@ -8357,6 +8367,8 @@ dy_voghe_ad go bhfaighidís
 dy_voghe_oo go bhfaighfeá
 dy_voghe_shin go bhfaighimis
 dy_vooadaghey le méadú
+dy_vooghey'n le múchadh an
+dy_vooghey'n le múchadh na
 dy_vow go bhfaighidh
 dy_vow_mayd go bhfaighimid
 dy_voylley le moladh
@@ -9370,10 +9382,15 @@ er_n'aase tar éis fás
 er_n'akin tar éis feiceáil
 er_n'eaishtagh tar éis éisteacht
 er_n'eamagh tar éis glaoch
+er_n'eayraghey tar éis fuarú
 er_n'eddyn tar éis fáil
 er_n'ee tar éis ithe
+er_n'eeasaghey tar éis tabhairt ar iasacht
 er_n'eeck tar éis íoc
 er_n'eiyrt tar éis leanúint
+er_n'estal tar éis feistiú
+er_n'estal tar éis greamú
+er_n'ghearaghey tar éis géarú
 er_n'gheddyn tar éis fáil
 er_n'gheddyn_baase tar éis bás a fháil
 er_n'ghoaill tar éis gabháil
@@ -9394,6 +9411,7 @@ er_n'ockley-magh tar éis fógairt
 er_n'ockley_magh tar éis fógairt
 er_n'ollaghey tar éis folú
 er_n'osley ar oscailt
+er_n'uirraghtyn tar éis fanacht
 er_n'yannoo tar éis déanamh
 er_n'yannoo_toshiaght tar éis tosú
 er_n'yarrood tar éis dearmad a dhéanamh
@@ -15229,6 +15247,13 @@ heid_shin séideamar
 heidagh_ad shéidfidís
 heidagh_oo shéidfeá
 heidagh_shin shéidfimis
+heih_ad dtoghadar
+heih_ad thoghadar
+heih_shin dtoghamar
+heih_shin thoghamar
+heihagh_ad thoghfaidís
+heihagh_oo thoghfá
+heihagh_shin thoghfaimis
 heil_ad shíleadar
 heil_ad síleadar
 heil_shin shíleamar
@@ -17276,6 +17301,7 @@ jeeryn_rea machairí
 jeeryn_vooar mórthíortha
 jeh'n_Americkey de Mheiriceá
 jeh'n_Chreesteeaght den Eocairist
+jeh'n_teih den scoth
 jeh'n_vooinjer-veggey de na daoine maithe
 jeh_'aigney dá aigne
 jeh_'n den
@@ -17861,6 +17887,7 @@ laa_mustyr lá mustair
 laa_nuyr arú amárach
 laa_ny-vairagh lá arna mhárach
 laa_ny_briwnys lá an bhreithiúnais
+laa_ny_nuyr anóirthear
 laa_ny_nuyr arú amárach
 laa_ny_shiaghtin lá den tseachtain
 laa_ny_vairagh lá arna mhárach
@@ -22106,6 +22133,9 @@ my_'naneyn m'aonta
 my_'neen m'iníne
 my_'neen m'iníon
 my_'neenyn m'iníonacha
+my_'nneen m'iníne
+my_'nneen m'iníon
+my_'nneenyn m'iníonacha
 my_Chreesteeaght m'Eocairist
 my_Chreesteeaght m'Eocairiste
 my_Chreestiagh m'Eocairist
@@ -22761,8 +22791,10 @@ my_ghraihoilaght m'áilleacht
 my_ghraihoilaght m'áilleachta
 my_ghraihoilid m'áilleacht
 my_ghraihoilid m'áilleachta
+my_ghraihoilidyn m'áilleachtaí
 my_ghraihoilys m'áilleacht
 my_ghraihoilys m'áilleachta
+my_ghraihoilysyn m'áilleachtaí
 my_ghrane m'fhilíocht
 my_ghrane m'fhilíochta
 my_ghrappeyder_eaynnee m'ailleadóir
@@ -23393,6 +23425,8 @@ my_hranlaasee m'aintiarnaí
 my_hrap m'iall
 my_hrap m'éille
 my_hrapyn m'iallacha
+my_hravaagey m'fhálróid
+my_hravaagey m'fhálróide
 my_hreealaght m'eimpíreachais
 my_hreealaght m'eimpíreachas
 my_hreeleyder m'fheádóir
@@ -24321,6 +24355,8 @@ my_scughey m'aistrithe
 my_scughey m'aistriú
 my_she más é
 my_she'n más é an
+my_skeeandagh m'eolaí
+my_skeeandee m'eolaithe
 my_skellal m'imeacht
 my_skellal m'imeachta
 my_skelley m'imeacht
@@ -24766,6 +24802,7 @@ my_vowe m'fhochaise
 my_voweyn m'fhochaisí
 my_voyid m'áilleacht
 my_voyid m'áilleachta
+my_voyidyn m'áilleachtaí
 my_voyl m'fhadharcáin
 my_voyl m'fhadharcán
 my_voylyn m'fhadharcáin
@@ -25186,6 +25223,8 @@ mychione_yn faoin
 mygeayrt_ayns_shoh timpeall anseo
 mygeayrt_y_miu in bhur dtimpeall
 mygeayrt_y_miu máguaird oraibh
+mygeayrt_y_mo'ee ina timpeall
+mygeayrt_y_mo'ee máguaird uirthi
 mygeayrt_y_moo ina dtimpeall
 mygeayrt_y_moo máguaird orthu
 mygeayrt_y_mood i do thimpeall
@@ -28023,10 +28062,12 @@ ny_markee na marcaigh
 ny_masoonee na máisiúin
 ny_masoonee na máisiún
 ny_mast'_ain inár measc
+ny_mast'_ayd i do mheasc
 ny_mast'_eu in bhur measc
 ny_mast'_oc ina measc
 ny_mast'_ocsyn ina meascsa
 ny_mast'ain inár measc
+ny_mast'ayd i do mheasc
 ny_mast'eu in bhur measc
 ny_mast'oc ina measc
 ny_mast_ain inár measc
@@ -28420,6 +28461,8 @@ ny_yei'n i ndiaidh an
 ny_yei_shen ina dhiaidh sin
 ny_yei_y_cheilley i ndiaidh a chéile
 ny_yeih mar sin féin
+ny_yeih'n i ndiaidh an
+ny_yeih'n i ndiaidh na
 ny_yeï ina dhiaidh
 ny_yindyssyn na hiontais
 ny_yindyssyn na n-iontas
@@ -29408,6 +29451,7 @@ peie_vreinn cudal
 peieyn_vreinn cudail
 peieyn_vreinn cudal
 penn_grine-virragh peann gránbhiorach
+penn_leoaie peann luaidhe
 penn_çhybbyrt peann tobair
 phaag_ad bpógadar
 phaag_ad phógadar
@@ -30705,6 +30749,8 @@ ro_vooar rómhóir
 ro_vooar rómhóire
 ro_vooar rómhór
 ro_vooar rómhóra
+roank_dy cúpla
+roank_dy roinnt
 roddan_Spaainagh agútaí
 roddan_Spaainagh d'agútaí
 roddan_Spaainagh hagútaí
@@ -32838,6 +32884,8 @@ sleihyn_coshey gcos-sluaite
 slieeagh_ad lífidís
 slieeagh_oo lífeá
 slieeagh_shin lífimis
+slieeuan_ingey líomhán ingne
+slieeuan_ingey raspa ingne
 slogh_moaney bruach móna
 slogh_moaney oitir mhóna
 slogh_moaney port móna
@@ -35116,6 +35164,9 @@ v'eh_er_credjal measadh
 v'eh_goll_er_credjal measadh
 v'eh_jerkit bhíothas ag súil leis
 v'eh_ruggit rugadh é
+v'er-gerrey_da a bhí i ngar do
+v'er-gerrey_da a bhí i ngar dó
+v'er-gerrey_daue a bhí i ngar dóibh
 v'er_cheau a bhí tar éis caitheamh
 v'er_chionnaghey a bhí tar éis ceannach
 v'er_chlashtyn a bhí tar éis cloisteáil
