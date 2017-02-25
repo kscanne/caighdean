@@ -511,6 +511,7 @@ aa-oshil_shin n-athosclaíomar
 aa-oshilagh_ad d'athosclóidís
 aa-oshilagh_oo d'athosclófá
 aa-oshilagh_shin d'athosclóimis
+aa-veoir_shee iargharda
 aachiangle_ad athcheanglaíodar
 aachiangle_ad n-athcheanglaíodar
 aachiangle_shin athcheanglaíomar
@@ -637,6 +638,7 @@ aane_ushtey aelusa
 aane_ushtey t-aelus
 aaneyn_ushtey aelusanna
 aanrit_buird línéadach boird
+aanrit_buird éadach boird
 aanrit_keyl línéadach mín
 aanrit_marrey mhuirbhréid
 aanrit_marrey mhuirbhréide
@@ -748,6 +750,13 @@ aavioee_shin n-athbheomar
 aavioeeagh_ad d'athbheofaidís
 aavioeeagh_oo d'athbheofá
 aavioeeagh_shin d'athbheofaimis
+aavioghee_ad athbheodar
+aavioghee_ad n-athbheodar
+aavioghee_shin athbheomar
+aavioghee_shin n-athbheomar
+aaviogheeagh_ad d'athbheofaidís
+aaviogheeagh_oo d'athbheofá
+aaviogheeagh_shin d'athbheofaimis
 aavreck_ad bpointeáladar
 aavreck_ad phointeáladar
 aavreck_shin bpointeálamar
@@ -980,6 +989,7 @@ ar_ushtey fhíoruisce
 arbyl_shynnee eireaball sionnaigh
 ard-chlagh_chorneilagh chloch chúinne
 ard-chlagh_chorneilagh cloch chúinne
+ard-choadey_keeshagh cosaint ardchánach
 ard-raad_mooar mhórbhealach
 ard-raad_mooar mhórbhealaigh
 ard-raad_mooar mórbhealach
@@ -2662,6 +2672,13 @@ c'ren_fa cén fáth
 c'ren_fa_ta cén fáth a bhfuil
 c'ren_fa_va cén fáth a raibh
 ca_vel cá bhfuil
+caabyl_artagh artaire
+caabyl_artagh d'artaire
+caabyl_artagh hartaire
+caabyl_artagh t-artaire
+caabylyn_artagh artairí
+caabylyn_artagh d'artairí
+caabylyn_artagh hartairí
 caagh_er splanctha ina dhiaidh
 caagh_urree splanctha ina diaidh
 caair_hoccoil cathaoir bhog
@@ -3032,11 +3049,13 @@ chaa_shin dhurdálamar
 chaa_shin ndurdálamar
 chaabyl_ad cháblaíodar
 chaabyl_ad gcáblaíodar
+chaabyl_artagh artaire
 chaabyl_shin cháblaíomar
 chaabyl_shin gcáblaíomar
 chaabylagh_ad cháblóidís
 chaabylagh_oo cháblófá
 chaabylagh_shin cháblóimis
+chaabylyn_artagh artairí
 chaagh_ad dhurdálfaidís
 chaagh_oo dhurdálfá
 chaagh_shin dhurdálfaimis
@@ -5794,6 +5813,8 @@ daast_ad d'fháisceadar
 daast_shin d'fháisceamar
 daavioee_ad d'athbheodar
 daavioee_shin d'athbheomar
+daavioghee_ad d'athbheodar
+daavioghee_shin d'athbheomar
 daavreck_ad phointeáladar
 daavreck_shin phointeálamar
 daayeeil_ad chúitíodar
@@ -8912,6 +8933,7 @@ ellan_chorralagh oileán coiréil
 ellyn_clistagh taibh-ealaín
 ellyn_clistagh taibh-ealaíne
 ellyn_vie dea-bhéasa
+emshir_aaragh aimsir láithreach
 emshir_chaie aimsir chaite
 emshir_cheaut aimsir chaite
 emshir_vie aimsir mhaith
@@ -10833,12 +10855,14 @@ ga_ta cé go bhfuil
 ga_ta'd cé go bhfuil siad
 ga_ta'n cé go bhfuil an
 ga_tan cé go bhfuil an
+gaabyl_artagh n-artaire
 gaabylagh_ad cháblóidís
 gaabylagh_ad gcáblóidís
 gaabylagh_oo cháblófá
 gaabylagh_oo gcáblófá
 gaabylagh_shin cháblóimis
 gaabylagh_shin gcáblóimis
+gaabylyn_artagh n-artairí
 gaagh_ad dhurdálfaidís
 gaagh_ad ndurdálfaidís
 gaagh_oo dhurdálfá
@@ -22202,8 +22226,11 @@ my_Yupiter m'Iúpatair
 my_Yupiter m'Iúpatar
 my_aagys má fhágann
 my_aegid m'óige
+my_ail i mo threo
 my_airh m'ór
 my_ayr m'athair
+my_chaabyl_artagh m'artaire
+my_chaabylyn_artagh m'artairí
 my_chaag m'uinge
 my_chaagyn m'uingí
 my_chaartrey m'aithisithe
@@ -25538,6 +25565,12 @@ naavioeeagh_oo athbheofá
 naavioeeagh_oo n-athbheofá
 naavioeeagh_shin athbheofaimis
 naavioeeagh_shin n-athbheofaimis
+naaviogheeagh_ad athbheofaidís
+naaviogheeagh_ad n-athbheofaidís
+naaviogheeagh_oo athbheofá
+naaviogheeagh_oo n-athbheofá
+naaviogheeagh_shin athbheofaimis
+naaviogheeagh_shin n-athbheofaimis
 naavreckagh_ad bpointeálfaidís
 naavreckagh_ad phointeálfaidís
 naavreckagh_oo bpointeálfá
@@ -34180,6 +34213,7 @@ symneeagh_shin thionólfaimis
 symney_screeuee subpoena
 symney_screeuee tsubpoena
 syn_Orkaid in Inse Orc
+syn_asstan sa líneáil
 syn_astyr sa tráthnóna
 syn_earroo san áireamh
 syn_un_chamyr i seomra amháin
@@ -35732,6 +35766,7 @@ vayrnyn_caggee chlogad
 vayrnyn_caggee chlogaid
 vayryn_gleashtanagh mhótarbhealaí
 vayryn_mooar mhórbhóithre
+ve_aaragh a bheith i láthair
 ve_eshyn bhí seisean
 veagh_ad bheidís
 veagh_oo bheifeá
