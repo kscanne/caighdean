@@ -16,7 +16,7 @@ To use the API, simply make a HTTP POST request to the URL
 `http://borel.slu.edu/cgi-bin/seirbhis3.cgi` (https works too)
 with two parameters:
 
-* `teacs`: The source text to be translated, UTF-8 encoded
+* `teacs`: The source text to be translated, as URL-encoded UTF-8
 * `foinse`: The ISO 639-1 code of the source language ("ga", "gd" or "gv"). Specifying source language "ga" invokes the Irish standardizer.  Currently, Irish (ga) is the only supported target language so it does not get specified as a parameter.
 
 The response will be a JSON array of _translation pairs_.  For example,
