@@ -22,11 +22,11 @@ binmode STDERR, ":utf8";
 # probably want to sync these with filt.pl
 # (good way of cleaning corpus is to kill sentences with these!)
 my @fixed = (
+	qr/<[\/]?[A-Za-z]([^>]+)?>/,             # markup
 	qr/(?:https?|ftp):\/\/[A-Za-z0-9\/.:=_%?&~+;\$@\#()-]+[A-Za-z0-9\/=]/, # URLs
 	qr/[A-Za-z0-9][A-Za-z0-9._]*@[A-Za-z0-9.]+[A-Za-z0-9]/,   # emails
 	qr/&([A-Za-z.]+|#[0-9]+);/, # SGML entities &amp; &quot; &#2020; etc.
 	qr/%([0-9]\$)?[A-Za-z]+/, # l10n vars, %1$S, %S, %d, %lu, etc.
-	qr/<[\/]?[A-Za-z]([^>]+)?>/,             # markup
 	qr/[:;=]['’0o-]?[()\]\\{}|dpDP][)]*/,  # emoticons
 	qr/[1-9][0-9]{0,2}(?:,[0-9]{3})+(?:\.[0-9]+)?/,  # numbers with commas in them
 	qr/(?<![,0-9])[0-9]+(?:[:.][0-9]+)+/,  # times: 6:45 11.30, IP addresses, etc.; negative lookbehind prevents this from breaking up token "5,000.00" found by previous regex
@@ -101,20 +101,60 @@ sub process_chunk {
 
 while (<STDIN>) {
 	my $newline_p = /\n$/;
+
+	# first part of each iteration converts the current line into
+	# a linked list of nodes, each representing a "chunk" of the line
+	# where a chunk consists of either a token matching one of the
+	# regexen in @fixed, or some substring in between those fixed tokens
+	# The point is that we want to apply these in order, and once we 
+	# find a fixed token (an HTML tag, say), we don't want to look for
+	# the later patterns within it (URLs, say)
+	my %head = (
+		'string' => $_,
+		'fixed_p' => 0,
+		'next' => 0,
+	);
+	my $currnode;
 	for my $patt (@fixed) {
-		s/($patt)/\n$1\n/sg;
-	}
-	my @chunks = split /\n/;
-	for my $chunk (@chunks) {
-		my $fixed_p = 0;
-		for my $patt (@fixed) {
-			if ($chunk =~ /$patt/) { 
-				print "$chunk\n";
-				$fixed_p = 1;
-				last;
+		$currnode = \%head;
+		while ($currnode != 0) {
+			my $currstr = $currnode->{'string'};
+			if ($currnode->{'fixed_p'}==0 and $currstr =~ /$patt/) {
+				my $nextnode = $currnode->{'next'};
+				$currstr =~ s/($patt)/\n$1\n/sg;
+				my @chunks = split(/\n/,$currstr);
+				my $first = shift @chunks;
+				$currnode->{'string'} = $first;
+				$currnode->{'fixed_p'} = 1 if ($first =~ /$patt/);
+				for my $chunk (@chunks) {
+					unless ($chunk eq '') {
+						my %node = (
+							'string' => $chunk,
+							'fixed_p' => 0,
+							'next' => $nextnode,
+						);
+						$node{'fixed_p'} = 1 if ($chunk =~ /$patt/);
+						$currnode->{'next'} = \%node;
+						$currnode = $currnode->{'next'};
+					}
+				}
 			}
+			$currnode = $currnode->{'next'};
 		}
-		process_chunk($chunk) unless ($fixed_p);
+	}
+
+	# the remainder iterates over the linked list, outputting the fixed
+	# tokens as they are, and passing the others to process_chunk for
+	# further decompsition into words, etc.
+	$currnode = \%head;
+	while ($currnode != 0) {
+		if ($currnode->{'fixed_p'}==1) {
+			print $currnode->{'string'}."\n";
+		}
+		else {
+			process_chunk($currnode->{'string'});
+		}
+		$currnode = $currnode->{'next'};
 	}
 	print '\n'."\n" if $newline_p;
 }
