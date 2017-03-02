@@ -401,6 +401,8 @@ Lios_MoChuda Lios MoChuda
 Lios_Mochuda Lios MoChuda
 Loch_Abar Loch Abar
 Loch_Ma'ruibhe Loch Ma'ruibhe
+Loch_Monar Loch Monar
+Loch_Mullardoch Loch Maol Ardaich
 Loch_Nis Loch Nis
 Luchd_Ionnsachaidh Lucht Foghlamtha
 Là_Fhéill Lá Fhéile
@@ -2631,8 +2633,11 @@ a_dh'at-cuisle d'aineorais
 a_dh'at-cuisle d'aineoras
 a_dh'at-cuislean d'aineorais
 a_dh'at-cuislean d'aineoras
+a_dh'ataim d'adaimh
 a_dh'ataireachd do bhorradh
 a_dh'ataireachd do bhorrtha
+a_dh'atam d'adamh
+a_dh'ataman d'adaimh
 a_dh'atan d'atanna
 a_dh'ath-ainmeachadh d'athainmniú
 a_dh'ath-ainmeachaidh d'athainmnithe
@@ -3229,6 +3234,8 @@ a_dh'eididhean d'éidí
 a_dh'eige d'eanga
 a_dh'eige d'uige
 a_dh'eigeachan d'uigí
+a_dh'eigeòlais d'éiceolaíochta
+a_dh'eigeòlas d'éiceolaíocht
 a_dh'eigh d'oighear
 a_dh'eigh-shruth d'oighearshruth
 a_dh'eigh-shrutha d'oighearshrutha
@@ -4001,6 +4008,7 @@ a_dh'fharranachadh do chrá
 a_dh'fharranachaidh do chráite
 a_dh'fharsaingeachd d'fhairsinge
 a_dh'fharsuingeachd d'fhairsinge
+a_dh'fharsuinneachd d'fhairsinge
 a_dh'fharuim do ghleo
 a_dh'fharuim do thorainn
 a_dh'fharum do ghleo
@@ -4284,6 +4292,7 @@ a_dh'fheasgar do thráthnóna
 a_dh'fheasgarain d'easpartan
 a_dh'fheasgaran d'easparta
 a_dh'fheasgaran do thráthnónta
+a_dh'fheich d'fhiaigh
 a_dh'fheich d'fhéich
 a_dh'fheidh d'fhia
 a_dh'fheidh d'fhianna
@@ -4581,8 +4590,12 @@ a_dh'fhiosaiche d'fháistineach
 a_dh'fhiosaiche d'fháistinigh
 a_dh'fhiosaichean d'fháistineach
 a_dh'fhiosaichean d'fháistinigh
+a_dh'fhiosaics d'fhisic
+a_dh'fhiosaics d'fhisice
 a_dh'fhiosaig d'fhisic
 a_dh'fhiosaige d'fhisice
+a_dh'fhiosaigeachd d'fhisic
+a_dh'fhiosaigeachd d'fhisice
 a_dh'fhiosaigiche d'fhisiceoir
 a_dh'fhiosaigiche d'fhisiceora
 a_dh'fhiosaigichean d'fhisiceoirí
@@ -6284,6 +6297,9 @@ a_dh'iorgull d'imreas
 a_dh'iorgull do chlampar
 a_dh'iorna d'íorna
 a_dh'iornaichean d'íornaí
+a_dh'iosatòip d'iseatóip
+a_dh'iosatòp d'iseatóp
+a_dh'iosatòpaichean d'iseatóip
 a_dh'iosbain d'ispín
 a_dh'iosban d'ispín
 a_dh'iosbanan d'ispíní
@@ -6986,13 +7002,19 @@ a_dh'uchd-mhic d'uchtmhic
 a_dh'uchd-nighean d'uchtiníon
 a_dh'uchd-nigheanan d'uchtiníonacha
 a_dh'uchd-nighinne d'uchtiníne
+a_dh'uchd-èididh do lúireach
+a_dh'uchd-éididh do lúireach
 a_dh'uchda d'uchta
+a_dh'uchda-èididh do lúirí
+a_dh'uchda-éididh do lúirí
 a_dh'uchdach d'uchtach
 a_dh'uchdaich d'uchtach
 a_dh'uchdaich d'uchtaigh
 a_dh'uchdain do chlaífoirt
 a_dh'uchdan d'uchtanna
 a_dh'uchdan do chlaífort
+a_dh'uchdan-èididh do lúireacha
+a_dh'uchdan-éididh do lúireacha
 a_dh'uchdanan do chlaífoirt
 a_dh'uchdanan do chlaífort
 a_dh'uchtach d'uchtach
@@ -8411,6 +8433,7 @@ a_nisd anois
 a_nisde anois
 a_nise anois
 a_nist anois
+a_nochd anocht
 a_nuas anuas
 a_null anonn
 a_nunn anonn
@@ -16796,6 +16819,8 @@ chaidh_a_chur_air_dòigh eagraíodh
 chaidh_a_chur_an_dreuchd ceapadh
 chaidh_a_chur_an_gniomh cuireadh i bhfeidhm
 chaidh_a_chur_an_gniomh cuireadh i ngníomh
+chaidh_a_chur_an_gnìomh cuireadh i bhfeidhm
+chaidh_a_chur_an_gnìomh cuireadh i ngníomh
 chaidh_a_dhealbhadh dearadh
 chaidh_a_dhealbhadh deilbhíodh
 chaidh_a_dhealbhadh_le dearadh ag
@@ -22365,8 +22390,11 @@ de_dh'at-cuisle d'aineorais
 de_dh'at-cuisle d'aineoras
 de_dh'at-cuislean d'aineorais
 de_dh'at-cuislean d'aineoras
+de_dh'ataim d'adaimh
 de_dh'ataireachd de bhorradh
 de_dh'ataireachd de bhorrtha
+de_dh'atam d'adamh
+de_dh'ataman d'adaimh
 de_dh'atan d'atanna
 de_dh'ath-ainmeachadh d'athainmniú
 de_dh'ath-ainmeachaidh d'athainmnithe
@@ -22963,6 +22991,8 @@ de_dh'eididhean d'éidí
 de_dh'eige d'eanga
 de_dh'eige d'uige
 de_dh'eigeachan d'uigí
+de_dh'eigeòlais d'éiceolaíochta
+de_dh'eigeòlas d'éiceolaíocht
 de_dh'eigh d'oighear
 de_dh'eigh-shruth d'oighearshruth
 de_dh'eigh-shrutha d'oighearshrutha
@@ -23734,6 +23764,7 @@ de_dh'fharranachadh de chrá
 de_dh'fharranachaidh de chráite
 de_dh'fharsaingeachd d'fhairsinge
 de_dh'fharsuingeachd d'fhairsinge
+de_dh'fharsuinneachd d'fhairsinge
 de_dh'fharuim de ghleo
 de_dh'fharuim de thorainn
 de_dh'fharum de ghleo
@@ -24017,6 +24048,7 @@ de_dh'fheasgar de thráthnóna
 de_dh'fheasgarain d'easpartan
 de_dh'fheasgaran d'easparta
 de_dh'fheasgaran de thráthnónta
+de_dh'fheich d'fhiaigh
 de_dh'fheich d'fhéich
 de_dh'fheidh d'fhia
 de_dh'fheidh d'fhianna
@@ -24316,8 +24348,12 @@ de_dh'fhiosaiche d'fháistineach
 de_dh'fhiosaiche d'fháistinigh
 de_dh'fhiosaichean d'fháistineach
 de_dh'fhiosaichean d'fháistinigh
+de_dh'fhiosaics d'fhisic
+de_dh'fhiosaics d'fhisice
 de_dh'fhiosaig d'fhisic
 de_dh'fhiosaige d'fhisice
+de_dh'fhiosaigeachd d'fhisic
+de_dh'fhiosaigeachd d'fhisice
 de_dh'fhiosaigiche d'fhisiceoir
 de_dh'fhiosaigiche d'fhisiceora
 de_dh'fhiosaigichean d'fhisiceoirí
@@ -26010,6 +26046,9 @@ de_dh'iorgull d'imreas
 de_dh'iorgull de chlampar
 de_dh'iorna d'íorna
 de_dh'iornaichean d'íornaí
+de_dh'iosatòip d'iseatóip
+de_dh'iosatòp d'iseatóp
+de_dh'iosatòpaichean d'iseatóip
 de_dh'iosbain d'ispín
 de_dh'iosban d'ispín
 de_dh'iosbanan d'ispíní
@@ -26713,13 +26752,19 @@ de_dh'uchd-mhic d'uchtmhic
 de_dh'uchd-nighean d'uchtiníon
 de_dh'uchd-nigheanan d'uchtiníonacha
 de_dh'uchd-nighinne d'uchtiníne
+de_dh'uchd-èididh de lúireach
+de_dh'uchd-éididh de lúireach
 de_dh'uchda d'uchta
+de_dh'uchda-èididh de lúirí
+de_dh'uchda-éididh de lúirí
 de_dh'uchdach d'uchtach
 de_dh'uchdaich d'uchtach
 de_dh'uchdaich d'uchtaigh
 de_dh'uchdain de chlaífoirt
 de_dh'uchdan d'uchtanna
 de_dh'uchdan de chlaífort
+de_dh'uchdan-èididh de lúireacha
+de_dh'uchdan-éididh de lúireacha
 de_dh'uchdanan de chlaífoirt
 de_dh'uchdanan de chlaífort
 de_dh'uchtach d'uchtach
@@ -34981,8 +35026,11 @@ do_dh'at-cuisle d'aineorais
 do_dh'at-cuisle d'aineoras
 do_dh'at-cuislean d'aineorais
 do_dh'at-cuislean d'aineoras
+do_dh'ataim d'adaimh
 do_dh'ataireachd do bhorradh
 do_dh'ataireachd do bhorrtha
+do_dh'atam d'adamh
+do_dh'ataman d'adaimh
 do_dh'atan d'atanna
 do_dh'ath-ainmeachadh d'athainmniú
 do_dh'ath-ainmeachaidh d'athainmnithe
@@ -35579,6 +35627,8 @@ do_dh'eididhean d'éidí
 do_dh'eige d'eanga
 do_dh'eige d'uige
 do_dh'eigeachan d'uigí
+do_dh'eigeòlais d'éiceolaíochta
+do_dh'eigeòlas d'éiceolaíocht
 do_dh'eigh d'oighear
 do_dh'eigh-shruth d'oighearshruth
 do_dh'eigh-shrutha d'oighearshrutha
@@ -36349,6 +36399,7 @@ do_dh'fharranachadh do chrá
 do_dh'fharranachaidh do chráite
 do_dh'fharsaingeachd d'fhairsinge
 do_dh'fharsuingeachd d'fhairsinge
+do_dh'fharsuinneachd d'fhairsinge
 do_dh'fharuim do ghleo
 do_dh'fharuim do thorainn
 do_dh'fharum do ghleo
@@ -36632,6 +36683,7 @@ do_dh'fheasgar do thráthnóna
 do_dh'fheasgarain d'easpartan
 do_dh'fheasgaran d'easparta
 do_dh'fheasgaran do thráthnónta
+do_dh'fheich d'fhiaigh
 do_dh'fheich d'fhéich
 do_dh'fheidh d'fhia
 do_dh'fheidh d'fhianna
@@ -36931,8 +36983,12 @@ do_dh'fhiosaiche d'fháistineach
 do_dh'fhiosaiche d'fháistinigh
 do_dh'fhiosaichean d'fháistineach
 do_dh'fhiosaichean d'fháistinigh
+do_dh'fhiosaics d'fhisic
+do_dh'fhiosaics d'fhisice
 do_dh'fhiosaig d'fhisic
 do_dh'fhiosaige d'fhisice
+do_dh'fhiosaigeachd d'fhisic
+do_dh'fhiosaigeachd d'fhisice
 do_dh'fhiosaigiche d'fhisiceoir
 do_dh'fhiosaigiche d'fhisiceora
 do_dh'fhiosaigichean d'fhisiceoirí
@@ -38626,6 +38682,9 @@ do_dh'iorgull d'imreas
 do_dh'iorgull do chlampar
 do_dh'iorna d'íorna
 do_dh'iornaichean d'íornaí
+do_dh'iosatòip d'iseatóip
+do_dh'iosatòp d'iseatóp
+do_dh'iosatòpaichean d'iseatóip
 do_dh'iosbain d'ispín
 do_dh'iosban d'ispín
 do_dh'iosbanan d'ispíní
@@ -39329,13 +39388,19 @@ do_dh'uchd-mhic d'uchtmhic
 do_dh'uchd-nighean d'uchtiníon
 do_dh'uchd-nigheanan d'uchtiníonacha
 do_dh'uchd-nighinne d'uchtiníne
+do_dh'uchd-èididh do lúireach
+do_dh'uchd-éididh do lúireach
 do_dh'uchda d'uchta
+do_dh'uchda-èididh do lúirí
+do_dh'uchda-éididh do lúirí
 do_dh'uchdach d'uchtach
 do_dh'uchdaich d'uchtach
 do_dh'uchdaich d'uchtaigh
 do_dh'uchdain do chlaífoirt
 do_dh'uchdan d'uchtanna
 do_dh'uchdan do chlaífort
+do_dh'uchdan-èididh do lúireacha
+do_dh'uchdan-éididh do lúireacha
 do_dh'uchdanan do chlaífoirt
 do_dh'uchdanan do chlaífort
 do_dh'uchtach d'uchtach
@@ -48992,6 +49057,7 @@ mo_fharraide m'fhiafraí
 mo_fharraidean m'fhiafraithe
 mo_fharsaingeachd m'fhairsinge
 mo_fharsuingeachd m'fhairsinge
+mo_fharsuinneachd m'fhairsinge
 mo_fhas m'fhás
 mo_fhasach m'fhásach
 mo_fhasachd m'fháise
@@ -49142,6 +49208,7 @@ mo_fheart-mholaidh m'adhmholta
 mo_fheartan m'airde
 mo_fheasgarain m'easpartan
 mo_fheasgaran m'easparta
+mo_fheich m'fhiaigh
 mo_fheich m'fhéich
 mo_fheidh m'fhia
 mo_fheidh m'fhianna
@@ -49338,8 +49405,12 @@ mo_fhiosaiche m'fháistineach
 mo_fhiosaiche m'fháistinigh
 mo_fhiosaichean m'fháistineach
 mo_fhiosaichean m'fháistinigh
+mo_fhiosaics m'fhisic
+mo_fhiosaics m'fhisice
 mo_fhiosaig m'fhisic
 mo_fhiosaige m'fhisice
+mo_fhiosaigeachd m'fhisic
+mo_fhiosaigeachd m'fhisice
 mo_fhiosaigiche m'fhisiceoir
 mo_fhiosaigiche m'fhisiceora
 mo_fhiosaigichean m'fhisiceoirí
@@ -52399,6 +52470,7 @@ nan_inbhean na leibhéal
 nan_innealan na n-inneall
 nan_innealan na ngléasanna
 nan_iolairean na n-iolar
+nan_ioma-eileanach na Polainéise
 nan_iomairtean na bhfeachtas
 nan_ionadan ina ionaid
 nan_ionadan na n-ionad
