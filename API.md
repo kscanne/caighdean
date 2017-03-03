@@ -19,6 +19,12 @@ with two parameters:
 * `teacs`: The source text to be translated, as URL-encoded UTF-8
 * `foinse`: The ISO 639-1 code of the source language ("ga", "gd" or "gv"). Specifying source language "ga" invokes the Irish standardizer.  Currently, Irish (ga) is the only supported target language so it does not get specified as a parameter.
 
+The parameters should be sent in the body of the request
+(not as part of the URL), and the request should have
+`Content-Type: application/x-www-form-urlencoded`.  See
+the various [command-line clients](https://github.com/kscanne/caighdean/tree/master/clients) for more details on how to construct proper API requests
+in your favorite language.
+
 The response will be a JSON array of _translation pairs_.  For example,
 if the value of the `foinse` parameter is "gd" (Scottish Gaelic), and
 the value of the `teacs` parameter is the following string (containing an embedded newline):
