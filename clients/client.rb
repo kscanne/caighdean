@@ -19,7 +19,7 @@ teacs = $stdin.read
 uri = URI.parse("http://borel.slu.edu/cgi-bin/seirbhis3.cgi")
 http = Net::HTTP.new(uri.host, uri.port)
 request = Net::HTTP::Post.new(uri.request_uri)
-#request.add_field('Content-Type', 'application/json')
+request.add_field('Content-Type', 'application/x-www-form-urlencoded')
 request.set_form_data({'foinse' => ARGV[0], 'teacs' => teacs})
 response = http.request(request)
 if response.code == '200'
