@@ -20,7 +20,7 @@ with two parameters:
 * `foinse`: The ISO 639-1 code of the source language ("ga", "gd" or "gv"). Specifying source language "ga" invokes the Irish standardizer.  Currently, Irish (ga) is the only supported target language so it does not get specified as a parameter.
 
 The parameters should be sent in the body of the request
-(not as part of the URL), and the request should have
+(not as part of the URL), and the request should specify
 `Content-Type: application/x-www-form-urlencoded`.  See
 the various [command-line clients](https://github.com/kscanne/caighdean/tree/master/clients) for more details on how to construct proper API requests
 in your favorite language.
