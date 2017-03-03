@@ -1427,6 +1427,7 @@ ayns_chengey i dteanga
 ayns_chiamble i dteampall
 ayns_coardailys ar aon intinn
 ayns_coardailys ar aon tuairim
+ayns_copharteeas i gcomhar
 ayns_corneil i gcoirnéal
 ayns_corp i gcorp
 ayns_coyrle i gcomhairle
@@ -5515,6 +5516,7 @@ cre-voish_ta_mee cad as dom
 cre_ass cad as
 cre_cha cé chomh
 cre_cho cé chomh
+cre_choud cé chomh fada
 cre_erbee cibé
 cre_erbee'n cibé
 cre_fa cén fáth
@@ -5522,6 +5524,7 @@ cre_fa_ta cén fáth a bhfuil
 cre_fod cad is féidir le
 cre_haghrys céard a tharlóidh
 cre_hon cén fáth
+cre_houd cá fhad
 cre_my_haghrys agus má tharlaíonn
 cre_mysh cad faoi
 cre_mysh_yn cad faoin
@@ -7206,6 +7209,8 @@ dt'eeackle_yiole do dhiúlfhiacaile
 dt'eeackleyn_yiole do dhiúlfhiacla
 dt'eeagh_mooar d'fhiach
 dt'eeagh_mooar d'fhiachta
+dt'eeagh_mooar d'fhiaigh
+dt'eeaghyn_mooar d'fhiacha
 dt'eeaih_Loghlinagh do réinfhia
 dt'eeaihyn_Loghlinagh do réinfhianna
 dt'eean_kereen d'fhoitheach
@@ -8714,10 +8719,12 @@ eeagh_ad d'fhífidís
 eeagh_ad d'íosfaidís
 eeagh_mooar fhiach
 eeagh_mooar fhiachta
+eeagh_mooar fhiaigh
 eeagh_oo d'fhífeá
 eeagh_oo d'íosfá
 eeagh_shin d'fhífimis
 eeagh_shin d'íosfaimis
+eeaghyn_mooar fhiacha
 eeaih_Loghlinagh réinfhia
 eeaihyn_Loghlinagh réinfhianna
 eean_guiy éan gé
@@ -9838,6 +9845,7 @@ er_y_skyn os a cionn
 er_y_traa ar an am
 er_y_traie ar an trá
 er_y_trow ar an airdeall
+er_y_tullagh láithreach bonn
 er_y_twoaie ar an taobh thuaidh
 er_y_twoaie sa tuaisceart
 er_y_veealloo os a chomhair
@@ -9903,6 +9911,7 @@ ermyn_griagh ghraífheirmeacha
 ermyn_sthock stocfheirmeacha
 erreish_da'n_cheim iarchéime
 erreish_da_baase iarbháis
+erreish_da_shen tar éis sin
 erskin_towse as cuimse
 erskin_towse thar a bheith
 erskyn_ain os ár gcionn
@@ -10174,6 +10183,8 @@ feeackle_yiole diúlfhiacaile
 feeackleyn_yiole diúlfhiacla
 feeagh_mooar fiach
 feeagh_mooar fiachta
+feeagh_mooar fiaigh
+feeaghyn_mooar fiacha
 feeaih_Loghlinagh réinfhia
 feeaih_firryn fia fireann
 feeaih_mooar fia mór
@@ -20178,6 +20189,8 @@ m'eeackleyn_yiole diúlfhiacla
 m'eeackleyn_yiole mo dhiúlfhiacla
 m'eeagh_mooar m'fhiach
 m'eeagh_mooar m'fhiachta
+m'eeagh_mooar m'fhiaigh
+m'eeaghyn_mooar m'fhiacha
 m'eeaih_Loghlinagh mo réinfhia
 m'eeaih_Loghlinagh réinfhia
 m'eeaihyn_Loghlinagh mo réinfhianna
@@ -25446,6 +25459,7 @@ myr_dy_cliaghtagh mar is iondúil
 myr_hannish de chogar
 myr_hannish i gcogar
 myr_oashagh mar is gnáth
+myr_ragh murach
 myr_sampleyr mar shampla
 myr_sannish de chogar
 myr_shen mar sin
@@ -35999,10 +36013,12 @@ veeagh_ad bhfífidís
 veeagh_ad fhífidís
 veeagh_mooar bhfiach
 veeagh_mooar bhfiachta
+veeagh_mooar bhfiaigh
 veeagh_oo bhfífeá
 veeagh_oo fhífeá
 veeagh_shin bhfífimis
 veeagh_shin fhífimis
+veeaghyn_mooar bhfiacha
 veeaih_Loghlinagh réinfhia
 veeaihyn_Loghlinagh réinfhianna
 veeilaghyn_varrey mhuirmhílte

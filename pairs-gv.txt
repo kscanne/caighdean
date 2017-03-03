@@ -7481,6 +7481,7 @@ aaraghyn dhuáin
 aaraghyn dréimirí
 aaraghyn duáin
 aaraghyn scálaí
+aaraghyn spéirlínte
 aaraghyn áraidh
 aaraueagh lomtheagascach
 aaraueagh lomtheagascacha
@@ -7514,6 +7515,7 @@ aarey dréimire
 aarey duáin
 aarey duán
 aarey scála
+aarey spéirlíne
 aarey t-áradh
 aarey áradh
 aarey áraidh
@@ -8250,6 +8252,10 @@ aerspeihyn aerphiocóidí
 aerspeiy aerphiocóid
 aerspeiy aerphiocóide
 aerspeiyyn aerphiocóidí
+aervarshyl aermharascail
+aervarshyl aermharascal
+aervarshyl t-aermharascal
+aervarshylyn aermharascail
 aerym aerálfaidh mé
 aeryn aeir
 aerys aerálfaidh
@@ -9730,6 +9736,8 @@ annymoilaght anamúlachta
 annymoilid anamúlacht
 annymoilid anamúlachta
 annys fheannfaidh
+annys spéirlíne
+annysyn spéirlínte
 anoayllagh aineolach
 anoayllagh aineolacha
 anoayllagh aineolaigh
@@ -13961,6 +13969,7 @@ beintagh bpéinteálfadh
 beintagh phéinteálfadh
 beintal bpéinteáil
 beintal bpéinteála
+beintey bpéinte
 beinteyr bpéintéara
 beinteyr bpéintéir
 beinteyryn bpéintéirí
@@ -16006,6 +16015,8 @@ boll sciotfaidh
 bollad mullaird
 bollad mullard
 bolladyn mullaird
+bollag gcairn
+bollag gcarn
 bollagh bealach
 bollagh bealaigh
 bollagh bhearrfadh
@@ -16013,6 +16024,7 @@ bollagh lomfadh
 bollagh mbearrfadh
 bollagh sciotfadh
 bollaghyn bóil
+bollagyn gcairn
 bollal lomadh
 bollal lomtha
 bollal mbearradh
@@ -18373,6 +18385,12 @@ but but
 butage bputóg
 butage bputóige
 butageyn bputóga
+butler buitléara
+butler buitléir
+butleryn buitléirí
+butleyr buitléir
+butleyragh buitléara
+butleyryn buitléirí
 buttag bhfeolamáin
 buttag bhfeolamán
 buttag d'eang
@@ -21666,6 +21684,7 @@ cheeraghyn-ardey arda
 cheeraghyn-ardey d'arda
 cheeraghyn-ardey harda
 cheeree tírigh
+cheerey chíre
 cheerey tíre
 cheerey-ard aird
 cheerey-ard d'aird
@@ -28291,6 +28310,7 @@ clastyn cloisteáil
 clastyn cloisteála
 clat tslat
 clatt tslat
+clattag cipín
 clattag craobh
 clattag géag
 clattag tslaitín
@@ -37551,9 +37571,11 @@ dreishteilys ndílseachta
 dreishteilysyn ndílseachtaí
 drelleen bhfothach
 drelleen bhfothaigh
+drensh dtrinse
 drenshoor dtrinsiúir
 drenshoor dtrinsiúr
 drenshooryn dtrinsiúir
+drenshyn dtrinsí
 dreoghys mbaintreachais
 dreoghys mbaintreachas
 dreoir-ockle dtreoirfhocail
@@ -39227,6 +39249,7 @@ dt'aaraghyn d'áraidh
 dt'aaraghyn do dhréimirí
 dt'aaraghyn do dhuáin
 dt'aaraghyn do scálaí
+dt'aaraghyn do spéirlínte
 dt'aare do láithreach
 dt'aare do láthair
 dt'aareaghey d'atheagraithe
@@ -39241,6 +39264,7 @@ dt'aarey do dhréimire
 dt'aarey do dhuáin
 dt'aarey do dhuán
 dt'aarey do scála
+dt'aarey do spéirlíne
 dt'aareyn do láithreacha
 dt'aarheynn d'athroinnt
 dt'aarheynn d'athroinnte
@@ -39551,6 +39575,9 @@ dt'aerspeihyn d'aerphiocóidí
 dt'aerspeiy d'aerphiocóid
 dt'aerspeiy d'aerphiocóide
 dt'aerspeiyyn d'aerphiocóidí
+dt'aervarshyl d'aermharascail
+dt'aervarshyl d'aermharascal
+dt'aervarshylyn d'aermharascail
 dt'aeryn d'aeir
 dt'aesthetaght d'aeistéitic
 dt'aesthetaght d'aeistéitice
@@ -40197,6 +40224,8 @@ dt'annymoilaght d'anamúlacht
 dt'annymoilaght d'anamúlachta
 dt'annymoilid d'anamúlacht
 dt'annymoilid d'anamúlachta
+dt'annys do spéirlíne
+dt'annysyn do spéirlínte
 dt'anoayllys d'aineolais
 dt'anoayllys d'aineolas
 dt'anoaysh d'adhnua
@@ -41504,6 +41533,7 @@ dt'eaill d'fhéile
 dt'eaill' d'fhéile
 dt'eaillaghyn d'fhéilte
 dt'eaillere d'fhéilire
+dt'eaillerey d'fhéilire
 dt'eaillereyn d'fhéilirí
 dt'eailley d'fhéile
 dt'eaillyn d'fhéilte
@@ -41855,6 +41885,7 @@ dt'eeacklyn d'fhiacla
 dt'eeadeen d'iaidín
 dt'eeagh d'fhiach
 dt'eeagh d'fhiaigh
+dt'eeagh d'fhéich
 dt'eeaghanagh d'fhéichiúnaí
 dt'eeaghanee d'fhéichiúnaithe
 dt'eeagheyder do luachálaí
@@ -45471,6 +45502,7 @@ eaill fhéile
 eaill' fhéile
 eaillaghyn fhéilte
 eaillere fhéilire
+eaillerey fhéilire
 eaillereyn fhéilirí
 eailley fhéile
 eaillyn fhéilte
@@ -46237,6 +46269,7 @@ eeagh d'fhífeadh
 eeagh d'íosfadh
 eeagh fhiach
 eeagh fhiaigh
+eeagh fhéich
 eeaghanagh fhéichiúnaí
 eeaghanee fhéichiúnaithe
 eeagheyder luachálaí
@@ -48146,8 +48179,10 @@ faaney fána
 faanys fánais
 faanys fánas
 faanysyn fánais
+faaraghyn spéirlínte
 faare láithreach
 faare láthair
+faarey spéirlíne
 faareyn láithreacha
 faarjey déanaimh
 faarjey déanamh
@@ -48607,6 +48642,8 @@ fanntagh feanntacha
 fanntagh feanntaigh
 fanntee feanntaí
 fannym feannfaidh mé
+fannys spéirlíne
+fannysyn spéirlínte
 fansee fantaisíocht
 fansee fantaisíochta
 fant feannta
@@ -49037,6 +49074,7 @@ feaill féile
 feaill' féile
 feaillaghyn féilte
 feaillere féilire
+feaillerey féilire
 feaillereyn féilirí
 feailley féile
 feaillyn féilte
@@ -49284,6 +49322,7 @@ feeackleyryn fiaclóirí
 feeacklyn fiacla
 feeagh fiach
 feeagh fiaigh
+feeagh féich
 feeaghanagh féichiúnaí
 feeaghanee féichiúnaithe
 feeagheyder luachálaí
@@ -53074,6 +53113,8 @@ gansee geansaí
 ganseeyn geansaithe
 gant gainéad
 gant gainéid
+gant geabhróg
+gant geabhróige
 ganteyder gceantálaí
 ganteyderyn gceantálaithe
 ganteyraght gcantaireacht
@@ -53085,6 +53126,7 @@ gantoon gcantúin
 gantoon gcantún
 gantoonyn gcantúin
 gantyn gainéid
+gantyn geabhróga
 ganvaasaghey gcanbhasáil
 ganvaasaghey gcanbhasála
 ganvysagh chanbhasálfadh
@@ -54118,6 +54160,7 @@ geeiryn gcíora
 geek geek
 geer gcíor
 geer gcíre
+geerey gcíre
 geeryn gcíora
 geeser géasair
 geeser géasar
@@ -55403,7 +55446,10 @@ ghanseeyn gheansaithe
 ghanseyn seansanna
 ghant ghainéad
 ghant ghainéid
+ghant gheabhróg
+ghant gheabhróige
 ghantyn ghainéid
+ghantyn gheabhróga
 gharaashtaghyn gharáistí
 gharaashtey gharáiste
 gharagh gharraí
@@ -58199,6 +58245,8 @@ ghreimeyryn ghreamaire
 ghreimeyrynyn ghreamairí
 ghreimin ghreamóinn
 ghreimit ghreamaithe
+ghreimlyn ghreimlín
+ghreimlynyn ghreimlíní
 ghreimm ghreamaigh
 ghreimm ngreamaigh
 ghreimm-jee ghreamaígí
@@ -58971,6 +59019,9 @@ ghuffyl dhufal
 ghuic dhiúc
 ghuic dhiúic
 ghuicyn dhiúic
+ghuilb shiséal
+ghuilb shiséil
+ghuilbyn shiséil
 ghuillag dhuilleog
 ghuillag dhuilleoige
 ghuillag leathanach
@@ -59998,6 +60049,10 @@ gigleraght scigireacht
 gigleraght scigireachta
 gigleraght sciotaíl
 gigleraght sciotaíola
+gilb siséal
+gilb siséil
+gilb tsiséil
+gilbyn siséil
 gild gild
 gildyn gildeanna
 gillag gcill
@@ -65064,6 +65119,8 @@ greimee greamóidh
 greimeyryn greamaire
 greimeyrynyn greamairí
 greimit greamaithe
+greimlyn greimlín
+greimlynyn greimlíní
 greimm greamaigh
 greimm ngreamaigh
 greimm-jee greamaígí
@@ -66270,6 +66327,10 @@ gughlin gcóin
 gughlin gcón
 gughlinyn gcóin
 gughyn gcacanna
+guilb siséal
+guilb siséil
+guilb tsiséil
+guilbyn siséil
 guillee gcúlseomra
 guilleeyn gcúlseomraí
 guilleig gcuasáin
@@ -68277,6 +68338,9 @@ haerspeihyn haerphiocóidí
 haerspeiy haerphiocóid
 haerspeiy haerphiocóide
 haerspeiyyn haerphiocóidí
+haervarshyl haermharascail
+haervarshyl haermharascal
+haervarshylyn haermharascail
 haeryn haeir
 haesthetagh haeistéitiúil
 haesthetaght haeistéitic
@@ -76189,6 +76253,10 @@ hoghyr hócar
 hoghyr spré
 hoghyr thochra
 hoghyragh heochraí
+hoghyragh thochardach
+hoghyragh thochardacha
+hoghyragh thochardaigh
+hoghyree thochardaí
 hoghyryn hócair
 hoghyryn spréanna
 hoghys chneadfaidh
@@ -78804,9 +78872,11 @@ hrengeyder shreangadóir
 hrengeyder shreangadóra
 hrengeyderyn shreangadóirí
 hrengyn shreanga
+hrensh thrinse
 hrenshoor thrinsiúir
 hrenshoor thrinsiúr
 hrenshooryn thrinsiúir
+hrenshyn thrinsí
 hreoghys bhaintreachais
 hreoghys bhaintreachas
 hreoir-ockle threoirfhocail
@@ -81091,6 +81161,7 @@ hyprys shípris
 hyprys shíprise
 hyprysyn shíprisí
 hyrdjid hairde
+hyrdjit hardaithe
 hyrg searg
 hyrg shearg
 hyrg-jee sheargaigí
@@ -83044,6 +83115,9 @@ jeesaid díséid
 jeesaidyn díséid
 jeeskeaylley díscaoileadh
 jeeskeaylley díscaoilte
+jeeslaghyn díslí
+jeeslee dísle
+jeesley dísle
 jeesoil dénártha
 jeesternee díoscarnach
 jeesternee díoscarnaí
@@ -84135,8 +84209,10 @@ joanlee ceobhránaigh
 joanlee ceobhránaí
 joaraghyn teorainneacha
 joaree deoranta
+joaree deoraí
 joaree hiasachta
 joaree iasachta
+joareeyn deoraithe
 joarey teorainn
 joarey teorann
 joarraghyn coinníollacha
@@ -84861,6 +84937,7 @@ keeiryn cíora
 keeping keeping
 keer cíor
 keer círe
+keerey círe
 keeryn cíora
 keesh cáin
 keesh cánach
@@ -85946,6 +86023,7 @@ kied ceada
 kied céad
 kied-obbyr ceadúnas oibre
 kied-plannal cead pleanála
+kied-stiagh cead isteach
 kied-vleeantagh mac léinn úr
 kieddagh ceadaitheach
 kieddagh ceadaitheacha
@@ -87493,11 +87571,13 @@ late late
 later later
 latt shlaite
 latt shlat
+lattag chipín
 lattag chraobh
 lattag chraoibhe
 lattag ghéag
 lattag ghéige
 lattag shlaitín
+lattagyn chipíní
 lattagyn chraobhacha
 lattagyn ghéaga
 lattagyn shlaitíní
@@ -89485,14 +89565,14 @@ lhiastid fhalsachta
 lhiastid leisce
 lhiastyn i bhfiacha
 lhiastynys bhfiach
-lhiastynys bhfiaigh
+lhiastynys bhféich
 lhiastynys d'fhiach
-lhiastynys d'fhiaigh
+lhiastynys d'fhéich
 lhiastynys fhiach
-lhiastynys fhiaigh
+lhiastynys fhéich
 lhiastynys fiach
 lhiastynys fiacha
-lhiastynys fiaigh
+lhiastynys féich
 lhiasys leasóidh
 lhiasys líomhnóidh
 lhiat leat
@@ -93597,6 +93677,7 @@ m'aaraghyn m'áraidh
 m'aaraghyn mo dhréimirí
 m'aaraghyn mo dhuáin
 m'aaraghyn mo scálaí
+m'aaraghyn mo spéirlínte
 m'aare mo láithreach
 m'aare mo láthair
 m'aareaghey m'atheagraithe
@@ -93611,6 +93692,7 @@ m'aarey mo dhréimire
 m'aarey mo dhuáin
 m'aarey mo dhuán
 m'aarey mo scála
+m'aarey mo spéirlíne
 m'aareyn mo láithreacha
 m'aarheynn m'athroinnt
 m'aarheynn m'athroinnte
@@ -93921,6 +94003,9 @@ m'aerspeihyn m'aerphiocóidí
 m'aerspeiy m'aerphiocóid
 m'aerspeiy m'aerphiocóide
 m'aerspeiyyn m'aerphiocóidí
+m'aervarshyl m'aermharascail
+m'aervarshyl m'aermharascal
+m'aervarshylyn m'aermharascail
 m'aeryn m'aeir
 m'aesthetaght m'aeistéitic
 m'aesthetaght m'aeistéitice
@@ -94567,6 +94652,8 @@ m'annymoilaght m'anamúlacht
 m'annymoilaght m'anamúlachta
 m'annymoilid m'anamúlacht
 m'annymoilid m'anamúlachta
+m'annys mo spéirlíne
+m'annysyn mo spéirlínte
 m'anoayllys m'aineolais
 m'anoayllys m'aineolas
 m'anoaysh m'adhnua
@@ -95874,6 +95961,7 @@ m'eaill m'fhéile
 m'eaill' m'fhéile
 m'eaillaghyn m'fhéilte
 m'eaillere m'fhéilire
+m'eaillerey m'fhéilire
 m'eaillereyn m'fhéilirí
 m'eailley m'fhéile
 m'eaillyn m'fhéilte
@@ -96225,6 +96313,7 @@ m'eeacklyn m'fhiacla
 m'eeadeen m'iaidín
 m'eeagh m'fhiach
 m'eeagh m'fhiaigh
+m'eeagh m'fhéich
 m'eeaghanagh m'fhéichiúnaí
 m'eeaghanee m'fhéichiúnaithe
 m'eeagheyder mo luachálaí
@@ -100526,7 +100615,10 @@ marroosyn mbusanna
 marrym maróidh mé
 marrym mharóidh mé
 marryn mbarraí
+marshyl marascail
+marshyl marascal
 marshyl-magheragh marascal machaire
+marshylyn marascail
 marsooplagh marsúipiach
 marsooplagh marsúipiacha
 marsooplagh marsúipiaigh
@@ -105153,6 +105245,19 @@ moor mbúir
 moor mbúire
 moorane móráin
 moorane mórán
+moorjeenagh brádánach
+moorjeenagh brádánacha
+moorjeenagh brádánaigh
+moorjeenagh ceathach
+moorjeenagh ceathacha
+moorjeenagh ceathaigh
+moorjeenagh múscraí
+moorjeenagh smúitiúil
+moorjeenagh smúitiúla
+moorjeenee brádánaí
+moorjeenee ceathaí
+moorjeenee múscraí
+moorjeenee smúitiúla
 moorsagh stocbhróicéara
 moorsagh stocbhróicéir
 moorse stocmhalartáin
@@ -106789,6 +106894,12 @@ mustyryn mustair
 mustyryn tóstail
 musyn mbusanna
 mutation mutation
+mutler mbuitléara
+mutler mbuitléir
+mutleryn mbuitléirí
+mutleyr mbuitléir
+mutleyragh mbuitléara
+mutleyryn mbuitléirí
 muttag n-eang
 muttag n-eanga
 muttag péist ghoile
@@ -108470,6 +108581,9 @@ naerspeihyn n-aerphiocóidí
 naerspeiy n-aerphiocóid
 naerspeiy n-aerphiocóide
 naerspeiyyn n-aerphiocóidí
+naervarshyl n-aermharascail
+naervarshyl n-aermharascal
+naervarshylyn n-aermharascail
 naerym aerálfaidh mé
 naerym n-aerálfaidh mé
 naeryn n-aeir
@@ -113978,7 +114092,10 @@ ngansee ngeansaí
 nganseeyn ngeansaithe
 ngant ngainéad
 ngant ngainéid
+ngant ngeabhróg
+ngant ngeabhróige
 ngantyn ngainéid
+ngantyn ngeabhróga
 ngaraashtaghyn ngaráistí
 ngaraashtey ngaráiste
 ngaragh ngarraí
@@ -114643,6 +114760,9 @@ ngigleraght scigireacht
 ngigleraght scigireachta
 ngigleraght sciotaíl
 ngigleraght sciotaíola
+ngilb siséal
+ngilb siséil
+ngilbyn siséil
 ngild ngild
 ngildyn ngildeanna
 ngillid ngile
@@ -115829,6 +115949,8 @@ ngreimeyryn ngreamaire
 ngreimeyrynyn ngreamairí
 ngreimin ghreamóinn
 ngreimin ngreamóinn
+ngreimlyn ngreimlín
+ngreimlynyn ngreimlíní
 ngreimm ghreamóidh
 ngreimm ngreamóidh
 ngreimmag ngreamáin
@@ -116182,6 +116304,9 @@ nguess ngeise
 nguessyn n-orthaí
 nguessyn ngeasa
 nguessyn ngeasróga
+nguilb siséal
+nguilb siséil
+nguilbyn siséil
 nguilley mbuachaill
 nguilley mbuachalla
 nguilley ngiolla
@@ -123602,6 +123727,7 @@ peint-jee péinteálaigí
 peintal péinteáil
 peintal péinteála
 peintee péinteálfaidh
+peintey péinte
 peinteyr péintéara
 peinteyr péintéir
 peinteyryn péintéirí
@@ -124316,6 +124442,7 @@ pheint-jee phéinteálaigí
 pheintagh phéinteálfadh
 pheintal phéinteáil
 pheintal phéinteála
+pheintey phéinte
 pheinteyr phéintéara
 pheinteyr phéintéir
 pheinteyryn phéintéirí
@@ -125048,9 +125175,12 @@ pholl sciot
 pholl-jee bhearraigí
 pholl-jee lomaigí
 pholl-jee sciotaigí
+phollag chairn
+phollag charn
 phollagh bhearrfadh
 phollagh lomfadh
 phollagh sciotfadh
+phollagyn chairn
 phollal bhearradh
 phollal bhearrtha
 phollal lomadh
@@ -126619,7 +126749,10 @@ poll-jee bearraigí
 poll-jee lomaigí
 poll-jee mbearraigí
 poll-jee sciotaigí
+pollag cairn
+pollag carn
 pollagh meacan uisce
+pollagyn cairn
 pollal bearradh
 pollal bearrtha
 pollal lomadh
@@ -131045,6 +131178,8 @@ rog fhroig
 roggad roicéad
 roggad roicéid
 roggadyn roicéid
+roggadys roicéadeolaíocht
+roggadys roicéadeolaíochta
 roggyn fhroganna
 roghid chríonlobhadh
 roghid chríonlofa
@@ -139325,8 +139460,10 @@ slat slat
 slat-eeastee slat iascaigh
 slatt slaite
 slatt slat
+slattag cipín
 slattag craobh
 slattag craoibhe
+slattag gcipín
 slattag gcraobh
 slattag gcraoibhe
 slattag géag
@@ -139334,7 +139471,9 @@ slattag géige
 slattag ngéag
 slattag ngéige
 slattag slaitín
+slattagyn cipíní
 slattagyn craobhacha
+slattagyn gcipíní
 slattagyn gcraobhacha
 slattagyn géaga
 slattagyn ngéaga
@@ -144156,10 +144295,13 @@ stokemayd stócálfaimid
 stokeym stócálfaidh mé
 stokeys stócálfaidh
 stokit stócáilte
+stolk stailc
+stolk stailce
 stolkey stalcaireacht
 stolkey stalcaireachta
 stolkeyder stalcaire
 stolkeyderyn stalcairí
+stolkyn stailceanna
 stollaghyn stallaí
 stolley stalla
 stone stone
@@ -147873,6 +148015,10 @@ toghtyn tochtanna
 toghtyn toitíní
 toghyr spré
 toghyr tochra
+toghyragh tochardach
+toghyragh tochardacha
+toghyragh tochardaigh
+toghyree tochardaí
 toghyryn spréanna
 toiag suíochán
 toiagan cúisín
@@ -149368,9 +149514,11 @@ treng-skeeal sreangscéal
 treng-skeeal tsreangscéil
 trengeyder sreangadóir
 trengeyder tsreangadóra
+trensh trinse
 trenshoor trinsiúir
 trenshoor trinsiúr
 trenshooryn trinsiúir
+trenshyn trinsí
 treoghe ar baintreach í
 treoghys baintreachais
 treoghys baintreachas
@@ -151275,6 +151423,7 @@ vaar-jee bhearraigí
 vaar-jee chaithigí
 vaaragh bhearrfadh
 vaaragh chaithfeadh
+vaaraghyn spéirlínte
 vaarail chaitheamh
 vaarail chaithimh
 vaarailagh bhaothchaiteoir
@@ -151336,6 +151485,7 @@ vaarelagh bharrán
 vaarelee bharráin
 vaarey bhearradh
 vaarey bhearrtha
+vaarey spéirlíne
 vaareyder bhearrthóir
 vaareyder bhearrthóra
 vaareyderyn bhearrthóirí
@@ -152336,6 +152486,8 @@ vannym fheannfaidh mé
 vannyn bhandaí
 vannyn bhannaí
 vannys bheannóidh
+vannys spéirlíne
+vannysyn spéirlínte
 vansee bhfantaisíocht
 vansee bhfantaisíochta
 vanshey bhainise
@@ -152885,6 +153037,9 @@ varrysthie ngeilleagar
 varrysyn bhfearais
 varscreeu mbrionnaithe
 varscreeu mbrionnú
+varshyl mharascail
+varshyl mharascal
+varshylyn mharascail
 varsooplagh mharsúipiach
 varsooplagh mharsúipiacha
 varsooplagh mharsúipiaigh
@@ -153319,6 +153474,7 @@ veaill' bhféile
 veaillaghyn bhféilte
 veaillaghyn mhéilséaraí
 veaillere bhféilire
+veaillerey bhféilire
 veaillereyn bhféilirí
 veailley bhféile
 veailley mhéilséara
@@ -153870,6 +154026,7 @@ veeackleyryn bhfiaclóirí
 veeacklyn bhfiacla
 veeagh bhfiach
 veeagh bhfiaigh
+veeagh bhféich
 veeagh bhfífeadh
 veeagh fhífeadh
 veeaghan mhíosacháin
@@ -158701,6 +158858,19 @@ voor bhúir
 voor bhúire
 voorane mhóráin
 voorane mhórán
+voorjeenagh bhrádánach
+voorjeenagh bhrádánacha
+voorjeenagh bhrádánaigh
+voorjeenagh cheathach
+voorjeenagh cheathacha
+voorjeenagh cheathaigh
+voorjeenagh mhúscraí
+voorjeenagh smúitiúil
+voorjeenagh smúitiúla
+voorjeenee bhrádánaí
+voorjeenee cheathaí
+voorjeenee mhúscraí
+voorjeenee smúitiúla
 voorsagh stocbhróicéara
 voorsagh stocbhróicéir
 voorse stocmhalartáin
@@ -160875,6 +161045,12 @@ vustyral chruinniú
 vustyryn mhustair
 vustyryn thóstail
 vusyn bhusanna
+vutler bhuitléara
+vutler bhuitléir
+vutleryn bhuitléirí
+vutleyr bhuitléir
+vutleyragh bhuitléara
+vutleyryn bhuitléirí
 vuttag eang
 vuttag eanga
 vuttagh dhingthe
@@ -163229,6 +163405,12 @@ yeeskeaylley dhíscaoileadh
 yeeskeaylley dhíscaoilte
 yeeskeaylley ndíscaoileadh
 yeeskeaylley ndíscaoilte
+yeeslaghyn dhíslí
+yeeslaghyn ndíslí
+yeeslee dhísle
+yeeslee ndísle
+yeesley dhísle
+yeesley ndísle
 yeesoil dhénártha
 yeesternee dhíoscarnach
 yeesternee dhíoscarnaí
@@ -164517,6 +164699,9 @@ yigleraght scigireacht
 yigleraght scigireachta
 yigleraght sciotaíl
 yigleraght sciotaíola
+yilb shiséal
+yilb shiséil
+yilbyn shiséil
 yild ghild
 yildyn ghildeanna
 yilg dhealga
@@ -165837,7 +166022,11 @@ yoanlee gceobhráin
 yoaraghyn dteorainneacha
 yoaraghyn theorainneacha
 yoaree dheoranta
+yoaree dheoraí
 yoaree iasachta
+yoaree ndeoraí
+yoareeyn dheoraithe
+yoareeyn ndeoraithe
 yoarey dteorainn
 yoarey dteorann
 yoarey theorainn
@@ -166010,6 +166199,7 @@ youyshagh bháirsiúla
 youyshee bháirsiúla
 yr yr
 yrdjid airde
+yrdjit ardaithe
 yrjaghey ardaithe
 yrjaghey ardú
 yrjaghey n-ardaithe
