@@ -504,7 +504,7 @@ sub normalize_apost_and_dash {
 	(my $w) = @_;
 	if ($w =~ m/[a-zA-ZáéíóúÁÉÍÓÚàèìòùÀÈÌÒÙ]/) {
 		$w =~ s/[ʼ’]/'/g;
-		$w =~ s/[‐‑]/-/g;  # U+2010, U+2011 to ASCII
+		$w =~ s/[‐−‑]/-/g;  # U+2010, U+2212, U+2011 to ASCII
 	}
 	return $w;
 }
@@ -686,6 +686,8 @@ sub run_unit_tests {
 	assert(normalize_apost_and_dash('‐') eq '‐',$testnum++,'normalize_apost_and_dash leaves 2010 dash unchanged when it is a token');
 	assert(normalize_apost_and_dash('an‑álainn') eq 'an-álainn',$testnum++,'normalize_apost_and_dash converts 2011 dash to ASCII');
 	assert(normalize_apost_and_dash('‑') eq '‑',$testnum++,'normalize_apost_and_dash leaves 2011 dash unchanged when it is a token');
+	assert(normalize_apost_and_dash('an−álainn') eq 'an-álainn',$testnum++,'normalize_apost_and_dash converts 2212 dash to ASCII');
+	assert(normalize_apost_and_dash('−') eq '−',$testnum++,'normalize_apost_and_dash leaves 2212 dash unchanged when it is a token');
 	assert(normalize_apost_and_dash('bʼiúd') eq "b'iúd",$testnum++,'normalize_apost_and_dash converts 02BC to ASCII apostrophe');
 	assert(normalize_apost_and_dash('ʼsa') eq "'sa",$testnum++,'normalize_apost_and_dash converts even initial 02BC to ASCII apostrophe');
 	assert(normalize_apost_and_dash('arsʼ') eq "ars'",$testnum++,'normalize_apost_and_dash converts even final 02BC to ASCII apostrophe');

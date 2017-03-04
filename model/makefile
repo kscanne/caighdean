@@ -68,7 +68,7 @@ ITSONRAI=${HOME}/gaeilge/crubadan/twitter/sonrai
 # stuff with URLs and might keep other langs, I wrote a gaeilgeamhain.pl
 # to only keep stuff that's mostly Irish
 corpus-pre.txt: corpus-pre-pre.txt
-	(cat $(ITSONRAI)/ga-tweets.txt | randomize | head -n $(TWEETS) | sed 's/^[0-9]*\t[0-9]*\t//' | de-entify; cat corpus-pre-pre.txt) | clean-sent.pl '$(OKCHARS)' | sed "s/\([A-ZÁÉÍÓÚa-záéíóú]\)[’ʼ]\([A-ZÁÉÍÓÚa-záéíóú]\)/\1'\2/g" | sed "s/[‑‐]/-/g" | perl gaeilgeamhain.pl > $@
+	(cat $(ITSONRAI)/ga-tweets.txt | randomize | head -n $(TWEETS) | sed 's/^[0-9]*\t[0-9]*\t//' | de-entify; cat corpus-pre-pre.txt) | clean-sent.pl '$(OKCHARS)' | sed "s/\([A-ZÁÉÍÓÚa-záéíóú]\)[’ʼ]\([A-ZÁÉÍÓÚa-záéíóú]\)/\1'\2/g" | sed "s/[‑‐−]/-/g" | perl gaeilgeamhain.pl > $@
 
 # beginning is like "cat okdocs.txt | xargs cat" but adds a space
 # at start of each file so abairti-dumb won't run sentences together

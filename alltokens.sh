@@ -5,4 +5,4 @@
 # the stuff in gaeilge/ngram in sync!
 # don't use ${HOME} since web service uses this
 FREAMH="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-perl ${FREAMH}/alltokens.pl "-‑‐" "0-9ʼ’'#_@"
+perl ${FREAMH}/alltokens.pl "-−‑‐" "0-9ʼ’'#_@"
