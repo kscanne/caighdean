@@ -334,7 +334,7 @@ sub all_matches {
 		}
 	}
 	# acceptable Irish only: 71ú, 6km, etc., as if added to clean.txt
-	elsif ($w =~ m/^[0-9,.-]+([ckm]?[mgl]|[Ckúx]|bn|msu|[kKMGTP]B)$/) {
+	elsif ($w =~ m/^[0-9,.-]+([ckm]?[mgl]|[Ckúx]|0í|bn|msu|[kKMGTP]B)$/) {
 		$ans{$w} = $count;
 	}
 	for my $rule (@rules) {
