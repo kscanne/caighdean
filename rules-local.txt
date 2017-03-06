@@ -6,7 +6,9 @@
 # also means we need to have forms like "tsaoghail", where we want to
 # preserve the initial t, in the IG db as alt
 ^ts			s		1
+# note next two aren't anchored at start => multiple digits are ok 
 ([0-9])adh$	$1ú		1
+([0-9])mhadh$	$1ú		1
 e[oó][cg]had$		eoidh_mé	1
 ([^e])[oó][cg]had$	$1óidh_mé	1
 e[oó][cg]hadsa$		eoidh_mise	1
