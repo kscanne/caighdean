@@ -241,6 +241,7 @@ Aràibia_nan_Sabhd an Araib Shàdach
 Ath_bheothachadh Athbheochan
 Bail'_Ath_Cliath Baile Átha Cliath
 Baile_Ath_Cliath Baile Átha Cliath
+Baile_Che Baile Chè
 Baile_Àtha Baile Átha
 Beal_Feairste Béal Feirste
 Beal_Feirste Béal Feirste
@@ -301,6 +302,7 @@ Chailleannaich_Nuadha Nua-Chaladónach
 Chailleannaich_Nuadha Nua-Chaladónaigh
 Chailleannaiche_Nuadha Nua-Chaladónaí
 Chal_Mac Chal Mac
+Che_Guevara Che Guevara
 Cheann_Suidhe Uachtarán
 Cheap_Bhreatainn Cheap Bhreatainn
 Cho_Fhlaitheis Chomhlathais
@@ -569,6 +571,7 @@ a'_chathair-thròcair cathaoir na trócaire
 a'_chathair-thròcair chathaoir na trócaire
 a'_chionns cionn is
 a'_chlann-nighean na cailíní
+a'_chraobh-fhìge an crann figí
 a'_chànain an teanga
 a'_chànain na teanga
 a'_chànan an teanga
@@ -11067,6 +11070,7 @@ as_deidh tar éis
 as_deidh_lon tar éis lóin
 as_deoghaidh i ndiaidh
 as_deoghaidh tar éis
+as_dheidh i ndiaidh
 as_dhèidh i ndiaidh
 as_do_dheidh i do dhiaidh
 as_do_dhèidh i do dhiaidh
@@ -12268,6 +12272,12 @@ bhonntaicheadh_iad bhunaídís
 bhonntaicheadh_iad bhunóidís
 bhonntaicheadh_tu bhunófá
 bhonntaichidh_sinn bhunóimid
+bhot_iad vótáladar
+bhot_sinn vótálamar
+bhotadh_iad vótálaidís
+bhotadh_iad vótálfaidís
+bhotadh_tu vótálfá
+bhotaidh_sinn vótálfaimid
 bhrabhsairean_lìn bhrabhsálaithe
 bhrach_iad bhrachadar
 bhrach_iad mbrachadar
@@ -12901,6 +12911,9 @@ bonntaicheadh_iad mbunóidís
 bonntaicheadh_tu mbunófá
 bonntaichidh_sinn bunóimid
 bonntaichidh_sinn mbunóimid
+boot_car búit charr
+botadh_iad vótálfaidís
+botadh_tu vótálfá
 brachadh_iad brachaidís
 brachadh_iad mbrachaidís
 brachadh_iad mbrachfaidís
@@ -13535,8 +13548,10 @@ bu_choileanta b'iomlán
 bu_choileanta b'iomlána
 bu_choileantachd b'fhoirfeacht
 bu_choileantachd b'iomláine
+bu_choimead b'amharc
 bu_choimheach b'iasachta
 bu_choimhead b'amharc
+bu_choimheadh b'amharc
 bu_choimheadta b'amharctha
 bu_choimheadta b'fhéachta
 bu_choimhiche b'iasachta
@@ -18765,6 +18780,14 @@ chòiricheadh_iad chóireoidís
 chòiricheadh_iad chóirídís
 chòiricheadh_tu chóireofá
 chòirichidh_sinn chóireoimid
+chòisich_iad shiúladar
+chòisich_iad siúladar
+chòisich_sinn shiúlamar
+chòisich_sinn siúlamar
+chòisicheadh_iad shiúlaidís
+chòisicheadh_iad shiúlfaidís
+chòisicheadh_tu shiúlfá
+chòisichidh_sinn shiúlfaimid
 chòmhdaich_iad chlúdaíodar
 chòmhdaich_iad chumhdaíodar
 chòmhdaich_iad gclúdaíodar
@@ -20216,6 +20239,10 @@ còiricheadh_iad gcóirídís
 còiricheadh_tu gcóireofá
 còirichidh_sinn cóireoimid
 còirichidh_sinn gcóireoimid
+còisicheadh_iad siúlaidís
+còisicheadh_iad siúlfaidís
+còisicheadh_tu siúlfá
+còisichidh_sinn siúlfaimid
 còmh'_le in éineacht le
 còmh'_leam in éineacht liom
 còmh'_ri in éineacht le
@@ -48854,8 +48881,12 @@ mo_chobhartaich m'éadálacha
 mo_choileantachd m'fhoirfeacht
 mo_choileantachd m'fhoirfeachta
 mo_choileantachd m'iomláine
+mo_choimead m'amharc
+mo_choimeid m'amhairc
 mo_choimhead m'amharc
+mo_choimheadh m'amharc
 mo_choimhid m'amhairc
+mo_choimhidh m'amhairc
 mo_choimig m'fhuirseoir
 mo_choimig m'fhuirseora
 mo_choimigean m'fhuirseoirí
@@ -51990,6 +52021,7 @@ mu_dheas ó dheas
 mu_dhedhinn faoi
 mu_dheich timpeall deich
 mu_dheich_uairean timpeall a deich a chlog
+mu_dheidh faoi
 mu_dheidheinn faoi
 mu_dheidhin faoi
 mu_dheidhinn faoi
@@ -52000,6 +52032,9 @@ mu_dheidhinn_nan i dtaobh na
 mu_dheireadh deireanach
 mu_dheireadh faoi dheireadh
 mu_dheireadh_thall faoi dheireadh
+mu_dheireamh deireanach
+mu_dheireamh faoi dheireadh
+mu_dheireamh_thall faoi dheireadh
 mu_dheoghainn faoi
 mu_dheoghainn_an faoi
 mu_dhèidhinn faoi
@@ -52322,6 +52357,8 @@ na_bu_mhotha ní ba mhó
 na_bu_mhò ní ba mhó
 na_bùtha an tsiopa
 na_bùthaidh an tsiopa
+na_cailleabh ná cailligí
+na_cathair-thròcair chathaoir na trócaire
 na_chaidh_a_chruinneachadh ar cruinníodh
 na_chaidh_a_chur ar cuireadh
 na_chaidh_a_dhèanamh a ndearnadh
@@ -52584,6 +52621,7 @@ nam_briosgaidean na bhfianán
 nam_briosgaidean na mbrioscaí
 nam_bu dá mba
 nam_buill ina mbaill
+nam_buill-phàrlamaid na dteachtaí parlaiminte
 nam_bàrd na bhfilí
 nam_bàtaichean na mbád
 nam_bùithtean-obrach na gceardlann
@@ -55492,6 +55530,7 @@ ruitheadh_iad rithfidís
 ruitheadh_iad rithidís
 ruitheadh_tu rithfeá
 ruithidh_sinn rithfimid
+run_chleireach rúnaí
 ràc_an_t-sìl dtraonach
 ràc_an_t-sìl thraonach
 ràc_an_t-sìl traonach
@@ -62584,6 +62623,7 @@ woo_hoo wúhú
 àitichidh_sinn n-áiteoimid
 àitichidh_sinn áiteoimid
 àm_'san_do am ar
+àm_boot am tosaithe
 àm_eigin am éigin
 àm_san_do am ar
 àraicheadh_iad dtógaidís
@@ -62658,6 +62698,7 @@ woo_hoo wúhú
 às_deidh tar éis
 às_deoghaidh i ndiaidh
 às_deoghaidh tar éis
+às_dheidh i ndiaidh
 às_dhèidh i ndiaidh
 às_do_dheidh i do dhiaidh
 às_do_dhèidh i do dhiaidh
