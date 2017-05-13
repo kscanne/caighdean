@@ -32,8 +32,11 @@ Nua_Eabhroc Nua-Eabhrac
 Nuadh_Eabhrac Nua-Eabhrac
 Nuadh_Eabhroc Nua-Eabhrac
 Sinn_Féineach Sinn Féineach
+Ua_bhFailghe Uíbh Fhailí
 Ua_bhFáilí Uíbh Fhailí
+Uibh_Failghe Uíbh Fhailí
 Uí_Chonnachán Uí Chonnacháin
+Uí_Failghe Uíbh Fhailí
 a_b'fhearr ab fhearr
 a_bhfad i bhfad
 a_bhfadh i bhfad
@@ -69,8 +72,11 @@ a_ghainfhios i ngan fhios
 a_los as los
 a_lám a lán
 a_lós as los
+a_maigh amuigh
 a_mhaisce ambaiste
 a_mhaisge ambaiste
+a_muich amuigh
+a_muigh amuigh
 a_n-achan i ngach aon
 a_n-aimhdheoin in ainneoin
 a_n-diu inniu
@@ -81,6 +87,8 @@ a_naimsir in aimsir
 a_naoinfheacht in éineacht
 a_ndiu inniu
 a_ngrádh i ngrá
+a_ttarla ar tharla
+a_ttárla ar tharla
 ad'_fhochair-se i d'fhochairse
 ag_brionglóidigh ag brionglóideach
 ag_fiuchaidh ag fiuchadh
@@ -92,6 +100,8 @@ agus_'tá agus atá
 air_bioth ar bith
 air_bit ar bith
 air_d-tus ar dtús
+air_n-a_bharach arna mhárach
+air_na_bharach arna mhárach
 am'_aghaidh-se i m'aghaidhse
 am'_fhocair i m'fhochair
 am'_fhocair-se i m'fhochairse
@@ -165,6 +175,7 @@ ar_bit ar bith
 ar_d-tus ar dtús
 ar_dtúis ar dtús
 ar_fadh ar feadh
+ar_fféidir arbh fhéidir
 ar_fiuchaidh ar fiuchadh
 ar_fád ar fad
 ar_isi ar sise
@@ -272,6 +283,7 @@ d'á_mbí dá mbíonn
 d'á_ríribh dáiríre
 d'ár_bh'ainm darbh ainm
 d'é_do é a
+d_fhás d'fhás
 da_mhead dá mhéad
 da_ríribh dáiríre
 dar_bh'ainm darbh ainm
@@ -504,6 +516,7 @@ droch_íde drochíde
 droch_úsáid drochúsáid
 droch_úsáide drochúsáide
 dá_'réag dáréag
+dá_dtarla dár tharla
 dá_dtugtí dá dtabharfaí
 dá_mbíodh dá mbeadh
 dá_mhead dá mhéad
@@ -514,16 +527,21 @@ dá_ngeobhtá go bhfaighfeá
 dá_réag dáréag
 dá_ríre dáiríre
 dá_ríribh dáiríre
+dá_ttarla dár tharla
+dá_ttárla dár tharla
 dígh_céille díth céille
 ear_is_barr farasbarr
 fa_dheoigh faoi dheoidh
 fa_dheóigh faoi dheoidh
 fa_dtear faoi deara
+fa_gcuairt máguaird
+fa_gcuáirt máguaird
 faoi_'n faoin
 faoi_dheoigh faoi dheoidh
 faoi_do_réir faoi do réir
 faoi_n'asgaill faoina ascaill
 faoi_n-a faoina
+feibh_mar faoi mar
 froma_ar_aghaig cruthúnas díreach
 froma_ar_gcúlaibh cruthúnas indíreach
 fríd_a trína
@@ -531,6 +549,8 @@ fríd_a' tríd an
 fríd_ár trínár
 fá_dheoigh faoi dheoidh
 fá_dheóigh faoi dheoidh
+fá_gcuairt máguaird
+fá_gcuáirt máguaird
 fá_n'asgaill faoina ascaill
 fá_n-a faoina
 fá_ndeár faoi deara
@@ -542,6 +562,7 @@ fé_ndeára faoi deara
 gCeanntar_gCumhang gCeantar Cúng
 galar_dóghach galar dubhach
 gan_chrí gan chríoch
+gcruadh_chás gcruachás
 ge_dtí go dtí
 ge_go cé go
 ge_gur cé gur
@@ -588,7 +609,9 @@ go_ngeobhthí go bhfaighfí
 go_rinne go ndearna
 go_rinneabhair go ndearna sibh
 go_rinneadh go ndearnadh
+go_ttarla gur tharla
 go_ttug gur thug
+go_ttárla gur tharla
 go_té'n cén
 gor_bhfada gurbh fhada
 gur_ab gurb
@@ -612,6 +635,7 @@ gur_deineadh go ndearnadh
 gur_dhéineamair go ndearnamar
 gur_dubhairt go ndúirt
 gur_déineadh go ndearnadh
+gur_fféidir gurbh fhéidir
 gur_frith go bhfuarthas
 gur_fríth go bhfuarthas
 gur_hadhnaiceadh gur adhlacadh
@@ -726,6 +750,7 @@ i_n-ao' in aon
 i_n-ao'-chor in aon chor
 i_n-ao'chor in aon chor
 i_n-aochor in aon chor
+i_n-aoineacht in éineacht
 i_n-aoinfheacht in éineacht
 i_n-aoinne in aon duine
 i_n-aointeach in aon teach
@@ -794,6 +819,7 @@ i_nDamascus sa Damaisc
 i_nEirinn in Éirinn
 i_nGaililí sa Ghailíl
 i_nUachtar in Uachtar
+i_nUibh_Failghe in Uíbh Fhailí
 i_na ina
 i_naice in aice
 i_naoinfheacht in éineacht
@@ -814,6 +840,7 @@ i_ngioll i ngeall
 i_náirde in airde
 i_san sa
 i_san san
+iar_dtain iardain
 iar_n-a arna
 id'_fhochair-se i d'fhochairse
 id_aghaidh-se i d'aghaidhse
@@ -886,6 +913,7 @@ le_theinidh le tine
 lem'_aghaidh-se le m'aghaidhse
 les_an leis an
 les_gach le gach
+lo'r_n-a_mháireach lá arna mhárach
 luighe_gaidhte luí gaidhte
 luí_gaidhte luí gaidhte
 lá'r_n'a lá arna
@@ -939,8 +967,11 @@ nach_géillfeadh nach ngéillfeadh
 nach_ngeobhadh nach bhfaigheadh
 nach_ngeobhaidh nach bhfaighidh
 nach_rinne nach ndearna
+nach_ttarla nár tharla
+nach_ttárla nár tharla
 nach_tógfadh nach dtógfadh
 nar_bhféidir nárbh fhéidir
+nar_vfeidir nárbh fhéidir
 ndroch_aicme drochaicme
 ndroch_aigeanta ndrochaigeanta
 ndroch_aigne ndrochaigne
@@ -974,6 +1005,11 @@ ndroch_úsáid ndrochúsáid
 ndroch_úsáide ndrochúsáide
 nior_bhfada níorbh fhada
 nior_bhféidir níorbh fhéidir
+nior_vfeidir níorbh fhéidir
+noc_a a
+noc_atá atá
+noc_do a
+noc_dobhí a bhí
 noch_a a
 noch_atá atá
 noch_do a
@@ -1005,6 +1041,8 @@ ná_díolfadh nach ndíolfadh
 ná_dúnfadh nach ndúnfadh
 ná_facathas nach bhfacthas
 ná_faghainn nach bhfaighinn
+ná_faighinn nach bhfaighinn
+ná_faighinnse nach bhfaighinnse
 ná_fanfadh nach bhfanfadh
 ná_feacamair nach bhfacamar
 ná_feacaís nach bhfaca tú
@@ -1046,6 +1084,7 @@ nách_faghainn nach bhfaighinn
 nách_feacaís nach bhfaca tú
 nách_féadfaidhe nach bhféadfaí
 nách_géillfeadh nach ngéillfeadh
+náchar_fféidir nárbh fhéidir
 nár_bh nárbh
 nár_bh' nárbh
 nár_bh'fheárr nárbh fhearr
@@ -1062,9 +1101,12 @@ nár_bhféidir nárbh fhéidir
 nár_bhudh nárbh
 nár_dhéana nár dhéana
 nár_dhéineamair nach ndearnamar
+nár_fféidir nárbh fhéidir
 nár_rinneadar nach ndearnadar
+nár_vhéidir nárbh fhéidir
 nárbh_éidir nárbh fhéidir
 ní_'l níl
+ní_bhfuil níl
 ní_bhia ní bheidh
 ní_chuala níor chuala
 ní_chualaidh níor chuala
@@ -1154,6 +1196,7 @@ níor_bhféidir níorbh fhéidir
 níor_deineadh ní dhearnadh
 níor_dhéineamair ní dhearnamar
 níor_déineadh ní dhearnadh
+níor_fféidir níorbh fhéidir
 níor_frith ní bhfuarthas
 níor_fríth ní bhfuarthas
 níor_rinne ní dhearna
@@ -1191,6 +1234,7 @@ ró_árd ró-ard
 sa_Ghaililí sa Ghailíl
 sa_chéill sa chiall
 sa_n-Arabia san Araib
+sa_nolc san olc
 san_allód anallód
 sar_ar sular
 seacht_bhfearr seacht bhfearr
@@ -1251,6 +1295,7 @@ té_'tá té atá
 ó_n ón
 ó_n'athair óna athair
 ó_n-a óna
+ó_nolc ón olc
 ón_bPersia ón bPeirs
 óraing_útaing órang-útan
 ós_ard os ard
