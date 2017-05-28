@@ -31,6 +31,7 @@ sub normalize {
 sub undo_poncanna {
 	(my $w) = @_;
 	if ($extension eq '') {
+		return $w if ($w !~ m/[ḃċḋḟġṁṗṡṫḂĊḊḞĠṀṖṠṪ]/ or $w =~ m/:\/\//);
 		for ($w) {
 			s/ḃ/bh/g;
 			s/ċ/ch/g;
