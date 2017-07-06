@@ -852,7 +852,7 @@ iteá$	íteá	2
 aio	aío	2
 ([^áéóú])ionn$	$1íonn	2
 ([^áéóú])ioch	$1íoch	2
-([^áéóú])io([bdm])h		$1ío$2h		2	<V.*>	<&> # sgriobh, guíodh, ríomh*
+([^áéóú])io([bdm])h	$1ío$2h	2
 ([^áéóú])io([dm])ar$	$1ío$2ar	2
 ([^e])oidh$	$1óidh	2
 ([^e])ofar$	$1ófar	2
@@ -910,6 +910,6 @@ leir	léir	2
 #^([bcdfgmpBCDFGMP])h	$1		0	<[ANVY].*>	<&>
 #^([Tt])h([^s])		$1$2		0	<[ANVY].*>	<&>   # luathscéal danger
 #^([Ss])h([lnraeiouáéíóú])	$1$2	0	<[ANVY].*>	<&>
-##^[bdm]'([AEIOUÁÉÍÓÚaeiouáéíóú]|[Ff]h)	$1	0	<[ANVY].*>	<&>	# d'Éamonn too
+#^[bdm]'([AEIOUÁÉÍÓÚaeiouáéíóú]|[Ff]h)	$1	0	<[ANVY].*>	<&>	# d'Éamonn too
 #^[nt]-([aeiouáéíóú])	$1		0	<[ANV].*>	<&>
 #^[nt]([AEIOUÁÉÍÓÚ])	$1		0	<[ANV].*>	<&>
