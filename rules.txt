@@ -794,7 +794,7 @@ mist$	mis	1
 chaí$	cha	1
 thaí$	tha	1
 (.[aá])igh$	$1ch	1
-(..)i[dg]h$	$1each	1
+(.[^aá])i[dg]h$	$1each	1
 (..)aidh$	$1a	1
 #  rule for [^eéií] is above with other non-std prefixes, last resort here
 #  for words like cóimhéigean -> comhéigean
@@ -845,12 +845,15 @@ ula$	úla	2
 eail$	eáil	2
 ([^ae])oir$	$1óir	2
 ([^ae])ora$	$1óra	2
-aio	aío	2
 eor$	eoir	2
-ionn$	íonn	2
 itear$	ítear	2
 iteá$	íteá	2
-#iodh$			íodh		2	<V.*>	<&>	# redundant (io->ío)
+#io			ío		2	<.+>	<&>		# too general (fios, sioc, etc.)
+aio	aío	2
+([^áéóú])ionn$	$1íonn	2
+([^áéóú])ioch	$1íoch	2
+([^áéóú])io([bdm])h		$1ío$2h		2	<V.*>	<&> # sgriobh, guíodh, ríomh*
+([^áéóú])io([dm])ar$	$1ío$2ar	2
 ([^e])oidh$	$1óidh	2
 ([^e])ofar$	$1ófar	2
 # next batch from ngramprobs.pl
@@ -860,9 +863,6 @@ u$	ú	2
 (...)i$	$1í	2
 iu	iú	2
 no	nó	2
-# aio			aío		2	<.+>	<&>
-#aioch(ta?)$		aíoch$1		2	<N.*>	<&>   # see prev.
-io	ío	2
 leir	léir	2
 ^(g?ch?)om([^haómnpr]..)	$1omh$2	2
 éá	éa	2
