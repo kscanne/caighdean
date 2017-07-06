@@ -315,8 +315,9 @@ sub compute_log_prob {
 	return $ans;
 }
 
-# takes non-standard word and returns hashref whose keys are
-# candidate standardizations and values the number of rules applied to get there
+# takes a source language token (MWEs with underscores allowed)
+# and returns hashref whose keys are # candidate translations and values
+# the number of rules applied to get there.
 # Second argument is there because it's recursive.
 # Callers should call as: all_matches('focal', 0)
 sub all_matches {
@@ -345,6 +346,8 @@ sub all_matches {
 			$cand =~ s/$p/$r/eeg;
 			my $subcount = $count;
 			$subcount++ unless ($rule->{'level'} == -1);
+			# recurse, even if rule results in MWE! Will recurse on
+			# the "pieces" as a last resort below, if necessary
 			my $subans = all_matches($cand, $subcount);
 			for my $a (keys %{$subans}) {
 				next if (exists($spurious{"$w $a"}));
