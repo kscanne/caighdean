@@ -4,6 +4,13 @@ then
 	echo "Usage: bash work.sh [-d|-x]"
 	exit 1
 fi
+# tweakable parameters...
+WORDSTODO=50
+FROMAMONG=1000
+AFTERSKIPPING=0
+CAPITALS_P=0
+
+#### start of main ####
 TEANGA=""
 CLAR="qo"
 if [ $# -eq 1 ]
@@ -23,10 +30,12 @@ then
 		fi
 	fi
 fi
-BARR=100
-DEPTH=0
-SKIP=0
-cat unknown${TEANGA}.txt | sed 's/^[0-9]* //' | sed "1,${DEPTH}d" | egrep '..' | head -n ${BARR} | sort -u | sed "1,${SKIP}d" |
+FILTER="cat"
+if [ $CAPITALS_P -eq 0 ]
+then
+	FILTER="egrep -v '[A-Z]'"
+fi
+cat unknown${TEANGA}.txt | sed 's/^[0-9]* //' | sed "1,${AFTERSKIPPING}d" | egrep '..' | ${FILTER} | head -n ${FROMAMONG} | shuf | head -n ${WORDSTODO} | sort -u |
 while read x
 do
 	echo
