@@ -30,12 +30,12 @@ then
 		fi
 	fi
 fi
-FILTER="cat"
+FILTER="[@]"
 if [ $CAPITALS_P -eq 0 ]
 then
-	FILTER="egrep -v '[A-Z]'"
+	FILTER="[A-Z]"
 fi
-cat unknown${TEANGA}.txt | sed 's/^[0-9]* //' | sed "1,${AFTERSKIPPING}d" | egrep '..' | ${FILTER} | head -n ${FROMAMONG} | shuf | head -n ${WORDSTODO} | sort -u |
+cat unknown${TEANGA}.txt | sed 's/^[0-9]* //' | sed "1,${AFTERSKIPPING}d" | egrep '..' | egrep -v "$FILTER" | head -n ${FROMAMONG} | shuf | head -n ${WORDSTODO} | sort -u |
 while read x
 do
 	echo
