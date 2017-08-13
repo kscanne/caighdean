@@ -382,6 +382,7 @@ Ree_Adha Rí Artúr
 Reereeaght_Unnanyssit Ríocht Aontaithe
 Reeriaght_Unnaneyssit Ríocht Aontaithe
 Reeriaght_Unnanyssit Ríocht Aontaithe
+Reill_Thie Rialtas Dúchais
 Rheynn_Hwoaie Rinn Thuaidh
 Rhine_Hwoaie-Westfalen Réin-Westfalen Thuaidh
 Rinn_Vooar Líonán Mór
@@ -1391,6 +1392,7 @@ ayns_Niau ar neamh
 ayns_Niau sna flaithis
 ayns_Norlann san Iorua
 ayns_Norlynn san Iorua
+ayns_Ossetia san Oiséit
 ayns_Patagonia sa Phatagóin
 ayns_Patagonia_ny i bPatagóin na
 ayns_Purt i bPort
@@ -2510,6 +2512,12 @@ browagh_shin bpromhfaimis
 browagh_shin iarrfaimis
 browagh_shin n-iarrfaimis
 browagh_shin phromhfaimis
+bryssooneeagh_ad bpríosúnóidís
+bryssooneeagh_ad phríosúnóidís
+bryssooneeagh_oo bpríosúnófá
+bryssooneeagh_oo phríosúnófá
+bryssooneeagh_shin bpríosúnóimis
+bryssooneeagh_shin phríosúnóimis
 buhtagh_ad bpocálfaidís
 buhtagh_ad phocálfaidís
 buhtagh_ad sháfaidís
@@ -2840,6 +2848,16 @@ cass_hoshee cos tosaigh
 cass_vaidjey cos mhaide
 casseyder_corp freangálaí
 casseyderyn_corp freangálaithe
+castrey_cair measartha maith
+castrey_cair meánach
+castrey_cair meánacha
+castrey_cair meánaigh
+castrey_cair meánaí
+castrey_care measartha maith
+castrey_care meánach
+castrey_care meánacha
+castrey_care meánaigh
+castrey_care meánaí
 caulgan_marrey cuán mara
 cayrn_Alpagh alpchoirn
 cayrn_Alpagh alpchorn
@@ -3337,6 +3355,14 @@ chastagh_oo chloífeá
 chastagh_oo choiscfeá
 chastagh_shin chloífimis
 chastagh_shin choiscfimis
+chastrey_cair mheánach
+chastrey_cair mheánacha
+chastrey_cair mheánaigh
+chastrey_cair mheánaí
+chastrey_care mheánach
+chastrey_care mheánacha
+chastrey_care mheánaigh
+chastrey_care mheánaí
 chatalog_ad chatalógaíodar
 chatalog_ad gcatalógaíodar
 chatalog_shin chatalógaíomar
@@ -5691,6 +5717,7 @@ cur_ry-cheilley cur le chéile
 cur_seose cur suas
 cur_spotch_er ag magadh faoi
 cur_stiagh cur isteach
+cur_stiagh tabhairt isteach
 cur_uss cuir
 cur_uss tabhair
 cur_yn_kibosh an chaidhp bháis a chur
@@ -7271,6 +7298,8 @@ dt'er_baghee d'áitritheoir
 dt'er_baghee d'áitritheora
 dt'er_bann do bhannadóir
 dt'er_bann do bhannadóra
+dt'er_bingagh do ghiúróir
+dt'er_bingagh do ghiúróra
 dt'er_cabbagh do stadaire
 dt'er_clee do chléach
 dt'er_clee do chléigh
@@ -7409,6 +7438,7 @@ dt'inney_veyl do chailín aimsire
 dt'inney_veyl do dhaorbhean
 dt'inney_veyl do dhaormhná
 dt'ir_baghee d'áitritheoirí
+dt'ir_bingagh do ghiúróirí
 dt'ir_coonee do chabhróirí
 dt'ir_coonee do chúntóirí
 dt'ir_coyrlee do chomhairleoirí
@@ -8706,6 +8736,7 @@ ee_ad fhíodar
 ee_ad itheadar
 ee_ad n-itheadar
 ee_ad sí iad
+ee_dooyteil sí in amhras
 ee_hene sí féin
 ee_hene í féin
 ee_shin bhfíomar
@@ -8897,6 +8928,7 @@ eeyn_geayr fhínéagar
 eeyn_noa úrfhíon
 eeyn_noa úrfhíona
 eeynyn_noa úrfhíonta
+eh_dooyteil sé in amhras
 eh_hene sé féin
 eh_hene é féin
 eh_paa tart air
@@ -9101,6 +9133,8 @@ er_be_dy_row mura raibh
 er_be_dy_vel mura bhfuil
 er_bee ar bith
 er_beealloo os comhair
+er_bingagh ghiúróir
+er_bingagh ghiúróra
 er_board ar bord
 er_broogh ar bhruach
 er_cabbagh stadaire
@@ -9239,7 +9273,9 @@ er_eiyrts sa tóir ar
 er_ennym ar ainm
 er_fakin_ad iad a fheiceáil
 er_fastyr tráthnóna
+er_feai-ny-crooinney ar fud na cruinne
 er_feai-ny-cruinney ar fud an domhain
+er_feai_ny_cruinney ar fud na cruinne
 er_feaï-ny-cruinney ar fud an domhain
 er_feie ar feadh
 er_feie ar fud
@@ -9783,6 +9819,7 @@ er_spotçhal tar éis magadh
 er_stroie tar éis scriosadh
 er_taggloo ag caint
 er_tayrn ar tarraingt
+er_thalloo ar talamh
 er_thammag bhastaird
 er_thammag bhastard
 er_thie ar theach
@@ -10158,6 +10195,7 @@ fasteen_pabyr fáiscín páipéir
 fastyr_dy_row tráthnóna amháin
 fea_ny_merriu suaimhneas na marbh
 feailley_bleeaney comóradh bliana
+feailley_yn_chur-stiagh féile chlabhsúr an fhómhair
 feallagh_ennagh roinnt daoine
 feaynid_mooar folúis
 feaynid_mooar folús
@@ -10459,6 +10497,8 @@ fer_beaghey fear beo
 fer_beg bhfear beag
 fer_beg fear beag
 fer_beg fhear beag
+fer_bingagh giúróir
+fer_bingagh giúróra
 fer_bog fear bog
 fer_brisht fear briste
 fer_buigh fear buí
@@ -10541,6 +10581,7 @@ fer_oik oifigeach
 fer_oik oifigigh
 fer_oik t-oifigeach
 fer_ooasle fear uasal
+fer_post fear an phoist
 fer_post fear poist
 fer_rannag frogaire
 fer_reill ceannaire
@@ -10638,6 +10679,7 @@ feyshtey_tessen ceastóireachta
 feyshtey_tessen ceistithe
 feyshtey_tessen ceistiú
 feyshtyn_creoi cruacheisteanna
+fie_ort briost thú
 fieau_er feitheamh le
 fieau_er feitheamh leis
 fieau_erriu feitheamh libh
@@ -10654,6 +10696,7 @@ fine_Frangagh coiscín
 fineyn_Frangagh coiscíní
 fir_baghee háitritheoirí
 fir_baghee áitritheoirí
+fir_bingagh giúróirí
 fir_coonee cabhróirí
 fir_coonee cúntóirí
 fir_coyrlee comhairleoirí
@@ -17131,6 +17174,7 @@ iogheeagh_ad d'fheofaidís
 iogheeagh_oo d'fheofá
 iogheeagh_shin d'fheofaimis
 ir_baghee áitritheoirí
+ir_bingagh ghiúróirí
 ir_coonee chabhróirí
 ir_coonee chúntóirí
 ir_coyrlee chomhairleoirí
@@ -19098,6 +19142,7 @@ lieh-vroieagh_oo gcnagbhruithfeá
 lieh-vroieagh_shin chnagbhruithfimis
 lieh-vroieagh_shin gcnagbhruithfimis
 lieh_cheead leathchéad
+lieh_cheead-blein leathchéad bliain
 lieh_chyagh leathchaoch
 lieh_chyagh leathchaocha
 lieh_chyagh leathchaoiche
@@ -20290,6 +20335,8 @@ m'er_bann bannadóir
 m'er_bann bannadóra
 m'er_bann mo bhannadóir
 m'er_bann mo bhannadóra
+m'er_bingagh mo ghiúróir
+m'er_bingagh mo ghiúróra
 m'er_cabbagh mo stadaire
 m'er_cabbagh stadaire
 m'er_clee cléach
@@ -20542,6 +20589,7 @@ m'inney_veyl m'ionailte
 m'inney_veyl mo dhaorbhean
 m'inney_veyl mo dhaormhná
 m'ir_baghee m'áitritheoirí
+m'ir_bingagh mo ghiúróirí
 m'ir_coonee cabhróirí
 m'ir_coonee cúntóirí
 m'ir_coonee mo chabhróirí
@@ -21121,6 +21169,7 @@ mee_brisht gconamair
 mee_brisht gconamar
 mee_cooag seamsóg
 mee_cooag seamsóige
+mee_dooyteil mé in amhras
 mee_eignit sé orm
 mee_er_chummal mé i mo chónaí
 mee_ny_molley mí na meala
@@ -21541,6 +21590,15 @@ mlaasagh_shin bhlaisfimis
 mlaasagh_shin mblaisfimis
 mlaayn_ny_ferrishyn gcoireáin
 mlaayn_ny_ferrishyn gcoireán
+mlakagh_ad bhféachfaidís
+mlakagh_ad fhéachfaidís
+mlakagh_ad stánfaidís
+mlakagh_oo bhféachfá
+mlakagh_oo fhéachfá
+mlakagh_oo stánfá
+mlakagh_shin bhféachfaimis
+mlakagh_shin fhéachfaimis
+mlakagh_shin stánfaimis
 mlakeagh_ad bhféachfaidís
 mlakeagh_ad fhéachfaidís
 mlakeagh_ad stánfaidís
@@ -22931,6 +22989,8 @@ my_ghooishtys m'fhad-dúiseacht
 my_ghooishtys m'fhad-dúiseachta
 my_ghooraghyn m'uruithe
 my_ghoorey m'urú
+my_ghooyteil m'amhrais
+my_ghooyteil m'amhras
 my_ghorley_brooinney m'íorpais
 my_ghorley_brooinney m'íorpaise
 my_ghorley_shymlee m'eitinn
@@ -23058,6 +23118,8 @@ my_ghunverysyn_hene m'fhéinmharuithe
 my_ghwee m'impí
 my_ghweeaghyn m'impíocha
 my_ghweeyn m'impíocha
+my_ghwoaie m'fhuath
+my_ghwoaie m'fhuatha
 my_haase m'áis
 my_haase m'áise
 my_haaseyn m'áiseanna
@@ -23120,6 +23182,7 @@ my_harkyl-nieu m'fhiailnimhe
 my_harkyl-nieuyn m'fhiailicídí
 my_harkyl-nieuyn m'fhiailnimheanna
 my_harkyllyn m'fhiailí
+my_harkylyn m'fhiailí
 my_harmaynys m'eacnamaíocht
 my_harmaynys m'eacnamaíochta
 my_harmoan m'armónach
@@ -24852,6 +24915,8 @@ my_visheyder m'iolraitheoir
 my_visheyder m'iolraitheora
 my_visheyderyn m'iolraitheoirí
 my_vlakaghyn m'fhéachaintí
+my_vlakail m'fhéachaint
+my_vlakail m'fhéachana
 my_vlakey m'fhéachaint
 my_vlakey m'fhéachana
 my_vleb m'amadáin
@@ -25244,6 +25309,8 @@ my_yesheenaghaghyn m'oirnithe
 my_yesheenaghey m'oirnithe
 my_yesheenaghey m'oirniú
 my_yesheenyn m'ornáidí
+my_yess m'ortha
+my_yessyn m'orthaí
 my_yeï i mo dhiaidh
 my_yialdyn-argid m'urraíocht
 my_yialdyn-argid m'urraíochta
@@ -27467,9 +27534,13 @@ noghyr_reeoil gcaibheáir
 noghyr_reeoil gcaibheár
 noi_ain inár n-aghaidh
 noi_ayd i d'aghaidh
+noi_aym i m'aghaidh
 noi_cliaghtey in aghaidh coinbhinsin
+noi_echey ina aghaidh
+noi_eck ina haghaidh
 noi_eu in bhur n-aghaidh
 noi_oc ina n-aghaidh
+noi_ocsyn ina n-aghaidhse
 noi_ry_cheilley in aghaidh a chéile
 noik_paabagh bpápaireacht
 noik_paabagh bpápaireachta
@@ -28140,6 +28211,7 @@ ny_fir-oik na hoifigigh
 ny_fir-oik na n-oifigeach
 ny_fir-reill na ceannairí
 ny_fir-reill na gceannairí
+ny_fir_bingagh na giúróirí
 ny_fir_oik na hoifigigh
 ny_fir_oik na n-oifigeach
 ny_flaunysee na slua
@@ -30071,6 +30143,13 @@ phrowagh_oo d'iarrfá
 phrowagh_oo phromhfá
 phrowagh_shin d'iarrfaimis
 phrowagh_shin phromhfaimis
+phryssoonee_ad bpríosúnaíodar
+phryssoonee_ad phríosúnaíodar
+phryssoonee_shin bpríosúnaíomar
+phryssoonee_shin phríosúnaíomar
+phryssooneeagh_ad phríosúnóidís
+phryssooneeagh_oo phríosúnófá
+phryssooneeagh_shin phríosúnóimis
 phuht_ad bpocáladar
 phuht_ad phocáladar
 phuht_ad shádar
@@ -34321,6 +34400,7 @@ surranse_foddey d'fhadfhulaingt
 surranse_foddey d'fhadfhulaingthe
 surranse_foddey fadfhulaingt
 surranse_foddey fadfhulaingthe
+surrys_enn tá sé i bhfios
 sy_Chanadey i gCeanada
 sy_foddeeaght i gcéin
 sy_foddeeys i gcéin
@@ -36385,6 +36465,8 @@ ver_baghee n-áitritheoir
 ver_baghee n-áitritheora
 ver_bann mbannadóir
 ver_bann mbannadóra
+ver_bingagh ngiúróir
+ver_bingagh ngiúróra
 ver_cabbagh stadaire
 ver_clee gcléach
 ver_clee gcléigh
@@ -36673,6 +36755,7 @@ violeeagh_ad mheallfaidís
 violeeagh_oo mheallfá
 violeeagh_shin mheallfaimis
 vir_baghee n-áitritheoirí
+vir_bingagh ngiúróirí
 vir_coonee gcabhróirí
 vir_coonee gcúntóirí
 vir_coyrlee gcomhairleoirí
@@ -36727,6 +36810,20 @@ vlaasagh_oo bhlaisfeá
 vlaasagh_shin bhlaisfimis
 vlaayn_ny_ferrishyn choireáin
 vlaayn_ny_ferrishyn choireán
+vlak_ad bhféachadar
+vlak_ad d'fhéachadar
+vlak_ad fhéachadar
+vlak_ad stánadar
+vlak_shin bhféachamar
+vlak_shin d'fhéachamar
+vlak_shin fhéachamar
+vlak_shin stánamar
+vlakagh_ad d'fhéachfaidís
+vlakagh_ad stánfaidís
+vlakagh_oo d'fhéachfá
+vlakagh_oo stánfá
+vlakagh_shin d'fhéachfaimis
+vlakagh_shin stánfaimis
 vlake_ad bhféachadar
 vlake_ad d'fhéachadar
 vlake_ad fhéachadar
@@ -37877,6 +37974,7 @@ y_cloudeyrys an preas
 y_derrey_yeh an duine amháin
 y_fa_t'eh an fáth a bhfuil sé
 y_fa_ta an fáth a bhfuil
+y_fer-post fear an phoist
 y_ghaa an dá
 y_ghaa_ghless-hooilley na déshúiligh
 y_naa_laa an chéad lá eile
@@ -38769,6 +38867,7 @@ yn_cloudeyrys an preas
 yn_derrey_yeh an duine amháin
 yn_fa_t'eh an fáth a bhfuil sé
 yn_fa_ta an fáth a bhfuil
+yn_fer-post fear an phoist
 yn_fondaghey infhoirfe
 yn_immanagh an tiománaí
 yn_inneen-'sy-leigh_echey bean a mhic
