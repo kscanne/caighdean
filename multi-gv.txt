@@ -274,6 +274,7 @@ Laa_ny_Briwnys Lá an Bhreithiúnais
 Laa_ny_Briwnys Lá an Bhrátha
 Laa_yn_Ghiense Lá Chinn an Dá Lá Dhéag
 Lhoob_Vexico Murascaill Mheicsiceo
+Lib_Demee Daonlathaithe Liobrálacha
 Lioar_dy_Hymnyn Leabhar Iomann
 Littyr_Kennain Leitir Ceanainn
 Logh_Garman Loch Garman
@@ -349,6 +350,7 @@ Niar_Meanagh Mheánoirthir
 Noa_Heelan Nua-Shéalainn
 Noid_ny_h-Anmey An Boc Dubh
 Nollick_ghennal Nollaig shona
+Noo_Kitts San Críostóir
 Nova_Scotia Albain Nua
 Oarpey_neuellanagh Eoraip mhór-roinneach
 Oie'll_Voirrey Oíche Nollag
@@ -1375,6 +1377,7 @@ ayns_Caarle i gContae
 ayns_Canada i gCeanada
 ayns_China sa tSín
 ayns_Cilicia sa tSiléis
+ayns_Constantinople i gCathair Chonstaintín
 ayns_Crete sa Chréit
 ayns_Divlyn i mBaile Átha Cliath
 ayns_Egypt san Éigipt
@@ -1385,6 +1388,7 @@ ayns_Kosovo sa Chosaiv
 ayns_Lebanon sa Liobáin
 ayns_Libanus sa Liobáin
 ayns_Mesopotamia sa Measpatáim
+ayns_Navajo sa Navachóis
 ayns_Nerin in Éirinn
 ayns_Nerin_Hwoaie i dTuaisceart Éireann
 ayns_Nherin in Éirinn
@@ -1401,6 +1405,7 @@ ayns_Purt_Largey i bPort Láirge
 ayns_Purt_le_Moirrey i bPort le Muire
 ayns_Samaria sa tSamáir
 ayns_Sheen sa tSín
+ayns_Shetland i Sealtainn
 ayns_Switzerland san Eilvéis
 ayns_Syria sa tSiria
 ayns_Yernish as Gaeilge
@@ -1520,6 +1525,7 @@ ayns_y_Cheayn_Sheear san Aigéan Atlantach
 ayns_y_Phobblaght_Check i bPoblacht na Seice
 ayns_y_Phobblaght_Çheck i bPoblacht na Seice
 ayns_y_Rank sa Fhrainc
+ayns_y_Valta i Málta
 ayns_y_toshiaght ag an tús
 ayns_y_toshiaght i dtús báire
 ayns_yn sa
@@ -5341,6 +5347,7 @@ coorse_ushtey sruthchúrsa
 coorse_ushtey tsruthchúrsa
 coorseyn_ushtey sruthchúrsaí
 cooyl_y_wannal cúl an mhuiníl
+cooylley_hroggee comhla thógála
 cooylley_sauçhys comhla sceite
 cooyn_brock broc-chúnna
 cooyn_conveyrt seacáil
@@ -5604,6 +5611,7 @@ creoi_agglagh iontach crua
 cretooryn_feie d'fhiadhúlra
 cretooryn_feie fiadhúlra
 cro_Brasillagh cnó Brasaíleach
+cro_bainney cnó cócó
 cro_cabbyl cnó capaill
 cro_darree cnó darach
 cro_frangagh cnó francach
@@ -10427,6 +10435,8 @@ fegooish_ayd i d'éagmais
 fegooish_echey ina éagmais
 fegooish_eck ina héagmais
 fegooish_eu in bhur n-éagmais
+fegooish_lhiggey-shaghey gan mhoill
+fegooish_lhiggey_shaghey gan mhoill
 fegooish_mooaraghey gan doicheall
 fegooish_oc ina n-éagmais
 fegooish_spot gan mháchail
@@ -13201,6 +13211,7 @@ goan_foslee réamhrá
 goan_mollaghtagh blaisféim
 goan_mollaghtagh blaisféime
 goan_mollaghtagh diamhasla
+goan_oaiagh mionn éithigh
 goanyn_foshlee réamhfhocail
 goanyn_foshlee réamhfhocal
 goanyn_mollaghtagh blaisféimí
@@ -18956,6 +18967,7 @@ lhiggey_my_hraa mhoilleadóir
 lhiggey_my_hraa mhoilleadóra
 lhiggey_my_hraa moilleadóir
 lhiggey_my_hraa moilleadóra
+lhiggey_shaghey ligean thart
 lhiggey_stiagh ligean isteach
 lhiggeyder_folley bhfoladóir
 lhiggeyder_folley bhfoladóra
@@ -19392,6 +19404,7 @@ loayragh_oo labhrófá
 loayragh_shin labhróimis
 loayreyder_dooghyssagh cainteoir dúchais
 loayreyder_dooghyssagh chainteoir dúchais
+loayreyderyn_ny_Navajo cainteoirí Navachóise
 loayrtys_garroo ghráisciúlacht
 loayrtys_garroo ghráisciúlachta
 loayrtys_garroo gráisciúlacht
@@ -22214,6 +22227,7 @@ mruightagh_oo bhrúchtfá
 mruightagh_oo mbrúchtfá
 mruightagh_shin bhrúchtfaimis
 mruightagh_shin mbrúchtfaimis
+mu_smoo níos mó
 muc_fahnaghtagh muc fhaithneach
 muc_fahnaghtagh torc na bhfaithní
 muc_feie bhfiamhuc
@@ -22489,6 +22503,9 @@ my_chayt_Americaanagh m'osalait
 my_chayt_Americaanagh m'osalat
 my_chaytyn_Americaanagh m'osalait
 my_chaytyn_Americaanagh m'osalat
+my_cheab m'fhód
+my_cheab m'fhóid
+my_cheabyn m'fhóid
 my_cheaghlaght m'inathraitheacht
 my_cheaghlaght m'inathraitheachta
 my_cheaghlaghyn m'athruithe
@@ -22802,6 +22819,9 @@ my_chummaltee m'áitritheoirí
 my_chummaltys m'fhorghabháil
 my_chummaltys m'fhorghabhála
 my_chummaltysyn m'fhorghabhálacha
+my_chummeydys m'inniúlacht
+my_chummeydys m'inniúlachta
+my_chummeydysyn m'inniúlachtaí
 my_churmeyder m'fheidhm
 my_churmeyder m'fheidhme
 my_churmeyderyn m'fheidhmeanna
@@ -23580,6 +23600,9 @@ my_hootyn m'amadáin
 my_hootyn m'amadán
 my_hootyn m'óinseach
 my_hootyn m'óinseacha
+my_horriteeyn m'údaráis
+my_horrity m'údaráis
+my_horrity m'údarás
 my_hort m'aird
 my_hort m'airde
 my_hortyn m'airde
@@ -23826,6 +23849,9 @@ my_hyndaa-ys má thiontaíonn
 my_hyndaader m'aistritheoir
 my_hyndaader m'aistritheora
 my_hyndaaderyn m'aistritheoirí
+my_hyndaadeyr m'aistritheoir
+my_hyndaadeyr m'aistritheora
+my_hyndaadeyryn m'aistritheoirí
 my_hyndaaghyn m'iompuithe
 my_hyndaayn m'iompuithe
 my_hyndaays m'aistriúcháin
@@ -24504,6 +24530,8 @@ my_rouailtagh m'fhánaí
 my_rouailtee m'fhánaithe
 my_rouanys m'ainriantacht
 my_rouanys m'ainriantachta
+my_roudaght m'fharasbairr
+my_roudaght m'fharasbarr
 my_ruegey m'ionradh
 my_ruegey m'ionraidh
 my_ruegys m'ionradh
@@ -28955,6 +28983,7 @@ oaddagh_oo lasfá
 oaddagh_shin d'adhanfaimis
 oaddagh_shin d'fhadóimis
 oaddagh_shin lasfaimis
+oaiagh_yn uaigheanna
 oaie_ny_marrey aghaidh na farraige
 oailuck_ad adhlacadar
 oailuck_ad n-adhlacadar
@@ -29377,6 +29406,7 @@ ooh_vroieit ubh bhruite
 ooil_lostee dhó-ola
 ooil_lostee dó-ola
 ooil_lostee ola bhreosla
+ooiley_ny gach ceann de na
 ooill_aw amhola
 ooill_chasherick chriosma
 ooill_chasherick criosma
@@ -29607,6 +29637,7 @@ oyryn_bevyllit fhiarfhaobhar
 paart_dy cuid de
 paart_dy cuid den
 paart_dy roinnt
+pabyr-naight_baghtagh nuachtán tablóideach
 pabyr_boalley páipéar balla
 pabyr_carboan páipéar carbóin
 pabyr_fuillee dramhpháipéar
@@ -29708,6 +29739,7 @@ peieyn_vreinn cudal
 penn_grine-virragh peann gránbhiorach
 penn_leoaie peann luaidhe
 penn_çhybbyrt peann tobair
+persoonyn_oaiagh lucht na mionn éithigh
 phaag_ad bpógadar
 phaag_ad phógadar
 phaag_shin bpógamar
@@ -29720,6 +29752,9 @@ phaar_shin laghdaíomar
 phaaragh_ad laghdóidís
 phaaragh_oo laghdófá
 phaaragh_shin laghdóimis
+phabyr-naigh_baghtagh nuachtán tablóideach
+phabyr-naight_baghtagh nuachtán tablóideach
+phabyr-naight_shiaghtinoil_baghtagh nuachtán seachtainiúil tablóideach
 phabyr_ad bpáipéaraíodar
 phabyr_ad pháipéaraíodar
 phabyr_fuillee dhramhpháipéar
@@ -30194,6 +30229,7 @@ physhoonys_pronnag bhotalais
 physhoonys_pronnag bhotalas
 physhoonys_pronnag ispíneachais
 physhoonys_pronnag ispíneachas
+piagh_erbee duine ar bith
 pian_cree pian chroí
 pian_cree tinneas croí
 pianney_jeeragh pianó díreach
@@ -30357,6 +30393,7 @@ queeylleeagh_ad rothlóidís
 queeylleeagh_oo rothlófá
 queeylleeagh_shin rothlóimis
 queig_bleeantyn cúig bliana
+queig_bleiney cúig bliana
 queig_bwilleenyn cúig bhuilín
 queig_cheead cúig chéad
 queig_cubityn cúig bhanlámh
@@ -31230,6 +31267,7 @@ roshagh_oo shroichfeá
 roshagh_oo sroichfeá
 roshagh_shin shroichfimis
 roshagh_shin sroichfimis
+roudaght_jeh farasbarr
 rourey_Baarle an iomarca Béarla
 rourey_sleih an iomarca daoine
 rouyr_dy an iomarca
@@ -34480,9 +34518,11 @@ t'eh_eignit tá sé air
 t'eh_er_credjal meastar
 t'eh_goll_er_credjal meastar
 t'eh_jerkit táthar ag súil leis
+t'eh_laik is dócha
 t'eh_meanal ciallaíonn sé
 t'eh_paa tá tart air
 t'eh_paagh tá tart air
+t'eh_possibyl d'fhéadfadh sé
 t'eh_sloateil tá sé ag glanadh
 t'eh_sloateil tá sé ag triomú
 t'eh_soaral tá boladh as
@@ -37967,6 +38007,7 @@ y_Teemor_Hiar Tíomór Thoir
 y_Togo Tóga
 y_Toorinam Suranam
 y_Vainshtyr_Ghoherty a Mhic Uí Dhochartaigh
+y_Valta Málta
 y_Varoc Maracó
 y_Vengaal Beangál
 y_Vietnam Vítneam
@@ -38848,6 +38889,7 @@ yn_Phobblaght_Check Poblacht na Seice
 yn_Phobblaght_Çheck Poblacht na Seice
 yn_RY an RO
 yn_Sheen an tSín
+yn_Shilonite ó Shileo
 yn_Sparta Sparta
 yn_Syrian an tArámach
 yn_Tahiti Taihítí
@@ -38855,6 +38897,7 @@ yn_Tansibar Sainsibeár
 yn_Teemor_Hiar Tíomór Thoir
 yn_Togo Tóga
 yn_Toorinam Suranam
+yn_Valta Málta
 yn_Varoc Maracó
 yn_Vengaal Beangál
 yn_Vietnam Vítneam
