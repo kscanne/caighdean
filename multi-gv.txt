@@ -91,10 +91,12 @@ Billie_Yeaman Billie Yeaman
 Blein_Nyn_Jiarn bliain an Tiarna
 Bow_Ghorree Bealach na Bó Finne
 Bretin_Vooar Breatain Mhór
+Bretyn_Vooar Breatain Mhór
 Broogh_Sheear Bruach Thiar
 Burkina_Faso Buircíne Fasó
 Caayr_Adrian Cathair Aidriain
 Caladoan_Noa Nua-Chaladóin
+Catreeney_dy_Aragon Caitríona na hAragóine
 Cayr_Deeth Caerdydd
 Charles_Cain Charles Cain
 Cheayn_Sheealtagh Aigéan Ciúin
@@ -834,6 +836,7 @@ aght_ad iompraíodar
 aght_ad n-iompraíodar
 aght_baghee modh beatha
 aght_baghee modh maireachtála
+aght_baghee slí bheatha
 aght_beaghee slí bheatha
 aght_erbee ar aon chuma
 aght_erbee ar aon dath
@@ -1375,11 +1378,13 @@ ayn_rish_foddey ann le fada
 ayns_'aigney ina aigne
 ayns_Afghanistan san Afganastáin
 ayns_Arabia san Araib
+ayns_Aragon san Aragóin
 ayns_Asia san Áise
 ayns_Athens san Aithin
 ayns_Baarle i mBéarla
 ayns_Balley i mBaile
 ayns_Bretin sa Bhreatain Bheag
+ayns_Bretyn sa Bhreatain Bheag
 ayns_Caarle i gContae
 ayns_Canada i gCeanada
 ayns_China sa tSín
@@ -1415,6 +1420,7 @@ ayns_Sheen sa tSín
 ayns_Shetland i Sealtainn
 ayns_Switzerland san Eilvéis
 ayns_Syria sa tSiria
+ayns_Ukraine san Úcráin
 ayns_Yernish as Gaeilge
 ayns_Yernish i nGaeilge
 ayns_Zealan_Noa sa Nua-Shéalainn
@@ -7698,6 +7704,7 @@ duillag_veetyl beiteal
 duillag_veetyl beitil
 duillag_vooar mórbhileog
 duillag_vooar mórbhileoige
+duillag_çhaghteragh nóta greamach
 duillagyn_scarree scarbhileog
 duillagyn_scarree scarbhileoga
 duillagyn_soor spoinc
@@ -8432,6 +8439,8 @@ dy_ventyn le baint
 dy_vleeantyn de bhlianta
 dy_vod go bhféadfadh
 dy_vod-mayd gur féidir linn
+dy_vod-ym gur féidir liom
+dy_vod-yms gur féidir liomsa
 dy_vod_ad gur féidir leo
 dy_vod_ee gur féidir léi
 dy_vod_eh gur féidir leis
@@ -8472,6 +8481,11 @@ dy_vriaght le fiafraí
 dy_vrishey le briseadh
 dy_vriwnys an bhreithiúnais
 dy_vriwnys le breithniú
+dy_vud go bhféadfadh
+dy_vud_ad gur féidir leo
+dy_vud_ee gur féidir léi
+dy_vud_eh gur féidir leis
+dy_vud_shiu gur féidir libh
 dy_vuill d'áiteanna
 dy_woalley le bualadh
 dy_yannoo le déanamh
@@ -8544,6 +8558,7 @@ dynsee_shin theagascamar
 dyrjee_ad d'ardaíodar
 dyrjee_shin d'ardaíomar
 dys_Bretin go dtí an Bhreatain Bheag
+dys_Bretyn go dtí an Bhreatain Bheag
 dys_shen ansin
 dys_shoh anseo
 dys_y go dtí an
@@ -19092,6 +19107,12 @@ lhuingys_aer n-aerloingeas
 lhuingys_aer n-aerloingis
 lhuingys_aer n-aerlíne
 lhuingys_aer t-aerloingeas
+lhuingys_caggee cabhlach
+lhuingys_caggee cabhlaigh
+lhuingys_caggee chabhlach
+lhuingys_caggee chabhlaigh
+lhuingys_caggee gcabhlach
+lhuingys_caggee gcabhlaigh
 lhuingys_y_ghoaill dul ar bord loinge
 lhuingysyn_aer aerloingeas
 lhuingysyn_aer aerloingis
@@ -19105,6 +19126,9 @@ lhuingysyn_aer haerlínte
 lhuingysyn_aer n-aerloingeas
 lhuingysyn_aer n-aerloingis
 lhuingysyn_aer n-aerlínte
+lhuingysyn_caggee cabhlaigh
+lhuingysyn_caggee chabhlaigh
+lhuingysyn_caggee gcabhlaigh
 lhune_doo leann dubh
 lhune_eddrym d'iarleann
 lhune_eddrym d'iarleanna
@@ -23343,6 +23367,7 @@ my_helvaanaghey m'fhónáil
 my_helvaanaghey m'fhónála
 my_hemmal m'fháithim
 my_hemmal m'fháithime
+my_hemmallyn m'fháithimí
 my_hemmalyn m'fháithimí
 my_hene-arrym m'fhéinmheas
 my_hene-arrym m'fhéinmheasa
@@ -24429,6 +24454,8 @@ my_raaueyn m'fholáireamh
 my_raaueyn m'fholáirimh
 my_raiseyder m'athair
 my_raiseyder m'athrach
+my_rasey m'únfairt
+my_rasey m'únfairte
 my_reaghaghyn m'eagruithe
 my_reaghey m'eagraithe
 my_reaghey m'eagrú
@@ -25353,6 +25380,8 @@ my_yesheenaghey m'oirniú
 my_yesheenyn m'ornáidí
 my_yess m'ortha
 my_yessyn m'orthaí
+my_yeushan m'inse
+my_yeushanyn m'insí
 my_yeï i mo dhiaidh
 my_yialdyn-argid m'urraíocht
 my_yialdyn-argid m'urraíochta
@@ -28278,6 +28307,7 @@ ny_guillyn na mbuachaillí
 ny_h'ellan an oileáin
 ny_h-Ellanyn_Balearagh na hOileáin Bhailéaracha
 ny_h-Injyn na hIndiacha
+ny_h-Innsmouthee muintir Innsmouth
 ny_h-Oarpey_neuellanagh na hEorpa mór-roinní
 ny_h-ellan an oileáin
 ny_h-enneeyn an inchinn
@@ -28542,6 +28572,8 @@ ny_s'moo níos mó
 ny_s'mooar níos mó
 ny_s'niartal níos cumhachtaí
 ny_s'niartal níos treise
+ny_s'niartey níos cumhachtaí
+ny_s'niartey níos treise
 ny_s'niessey níos gaire
 ny_s'odjey níos faide
 ny_s'onnoroil níos onóraí
@@ -31067,6 +31099,15 @@ ro_vooar rómhór
 ro_vooar rómhóra
 roank_dy cúpla
 roank_dy roinnt
+roar_bree ghluaisrothair
+roar_bree ghluaisrothar
+roar_bree gluaisrothair
+roar_bree gluaisrothar
+roar_bree ngluaisrothair
+roar_bree ngluaisrothar
+roaryn_bree ghluaisrothair
+roaryn_bree gluaisrothair
+roaryn_bree ngluaisrothair
 roddan_Spaainagh agútaí
 roddan_Spaainagh d'agútaí
 roddan_Spaainagh hagútaí
@@ -35445,6 +35486,7 @@ ushteeagh_ad d'uisceoidís
 ushteeagh_oo d'uisceofá
 ushteeagh_shin d'uisceoimis
 ushtey_bea uisce beatha
+ushtey_beaghey uisce beatha
 ushtey_casherick uisce coisricthe
 ushtey_fo-halloo uisce faoi thalamh
 ushtey_king hidriceifileas
@@ -36335,6 +36377,7 @@ veih'n_vrein ó bhroinn
 veih_Asia ón Áise
 veih_Athens ón Aithin
 veih_Bretin ón Bhreatain Bheag
+veih_Bretyn ón Bhreatain Bheag
 veih_Crete ón Chréit
 veih_Egypt ón Éigipt
 veih_Galilee ón nGailíl
@@ -38865,6 +38908,7 @@ yn_'iorag an iora
 yn_'iorag an t-iora
 yn_Aidyn Áidin
 yn_Americkey Meiriceá
+yn_Carmelite ó Chairmeil
 yn_Chanadey Ceanada
 yn_Chanadey gCeanada
 yn_Channon an tSionainn
@@ -39164,6 +39208,8 @@ yystyn_poddash phorainséir
 çheh_agglagh iontach te
 çheh_souyr te teolaí
 çhellvane_shooylagh fón póca
+çhellvane_shooyllagh fón póca
+çhellvaneyn_shooyllagh fóin phóca
 çhellveeish_chullyr teilifís dhaite
 çhemmit_liorish teorainn ar theorainn le
 çhemmit_liorish teorainn ar theorainn leis
