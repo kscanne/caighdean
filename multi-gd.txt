@@ -228,6 +228,7 @@
 'san_t-seadh sa chiall
 24_uairean 24 uair an chloig
 Abhainn_Niger Abhainn na Nígire
+Abhainn_Seine abhainn na Séine
 Afraga_a_Deas an Afraic Theas
 Afraga_a_Deas na hAfraice Theas
 Aimearaga_Laideannach Meiriceá Laidineach
@@ -239,6 +240,7 @@ Ard_Righ ardrí
 Arra_Ghaidheal Earra-Ghàidheal
 Aràibia_nan_Sabhd an Araib Shàdach
 Ath_bheothachadh Athbheochan
+Audit_Scotland Audit Scotland
 Bail'_Ath_Cliath Baile Átha Cliath
 Baile_Ath_Cliath Baile Átha Cliath
 Baile_Che Baile Chè
@@ -460,6 +462,7 @@ Phrìomh_Thalla Phríomh-Halla
 Plaid_Cymru Plaid Cymru
 Poblachd_Meadhan_Afraga Poblacht na hAfraice Láir
 Porto_Novo Porto-Novo
+Porto_Rìceo Pórtó Ríce
 Prìomh_Ghnìomhan Príomh-Ghníomhartha
 Prìomh_Ionad-Cluiche Príomh-Staid
 Prìomh_Lìog Príomhshraith
@@ -5010,9 +5013,12 @@ a_dh'fhorm d'fhoirm
 a_dh'fhorm d'fhoirme
 a_dh'fhormaichean d'fhoirmeacha
 a_dh'fhormain d'fhormáin
+a_dh'fhormait d'fhormáide
 a_dh'fhorman d'fhormán
 a_dh'fhormanan d'fhormáin
 a_dh'fhormanan d'fhormán
+a_dh'fhormat d'fhormáid
+a_dh'fhormatan d'fhormáidí
 a_dh'fhorsa d'fhórsa
 a_dh'fhorsaichean d'fhórsaí
 a_dh'fhorsaireachd d'fhoraoiseacht
@@ -9984,6 +9990,7 @@ altraimidh_sinn altramóimid
 altraimidh_sinn n-altramóimid
 am_Faoilleach Eanáir
 am_Faoilteach Eanáir
+am_Milky_Way Bealach na Bó Finne
 am_Màrt Márta
 am_Proif an tOll.
 am_Pàrtaidh_Làbarach Páirtí an Lucht Oibre
@@ -10138,6 +10145,7 @@ an_Lùnasdal Lúnasa
 an_Nirribhidh an Iorua
 an_Phersia an Pheirs
 an_Roinn-Eorpa Roinn na hEorpa
+an_Seine an tSéin
 an_Sgriob_Chlann_Uisnich Bealach na Bó Finne
 an_Sgrìob_Chlann_Uisnich Bealach na Bó Finne
 an_Sloibhinia an tSlóivéin
@@ -10560,6 +10568,7 @@ ann_am_Bermuda i mBeirmiúda
 ann_am_Bet-el i mBéitéil
 ann_am_Betlehem i mBeithil
 ann_am_Beul-Feirste i mBéal Feirste
+ann_am_Bilbao i mBilbao
 ann_am_Boilibhia sa Bholaiv
 ann_am_Bosna sa Bhoisnia
 ann_am_Bosnia sa Bhoisnia
@@ -10596,6 +10605,7 @@ ann_am_Patagòinia sa Phatagóin
 ann_am_Peirse sa Pheirs
 ann_am_Persia sa Pheirs
 ann_am_Pompeii i bPoimpé
+ann_am_Porto_Rìceo i bPórtó Ríce
 ann_am_Pràg i bPrág
 ann_am_Punjab sa Phuinseaib
 ann_am_badeigin in áit éigin
@@ -10654,6 +10664,7 @@ ann_an_Gabon sa Ghabúin
 ann_an_Galatia sa Ghaláit
 ann_an_Galicia sa Ghailís
 ann_an_Galile sa Ghailíl
+ann_an_Geneva sa Ghinéiv
 ann_an_Iapan sa tSeapáin
 ann_an_Iarac san Iaráic
 ann_an_Iarag san Iaráic
@@ -10688,6 +10699,7 @@ ann_an_Nigèiria sa Nigéir
 ann_an_Nigéiria sa Nigéir
 ann_an_Nirribhidh san Iorua
 ann_an_Normandaidh sa Normainn
+ann_an_Norway san Iorua
 ann_an_Nìgeir sa Nígir
 ann_an_Nìgeiria sa Nigéir
 ann_an_Nòrmandaidh sa Normainn
@@ -10727,6 +10739,7 @@ ann_an_Sìombabue sa tSiombáib
 ann_an_Sìombaibe sa tSiombáib
 ann_an_Sìona sa tSín
 ann_an_Taiwan sa Téaváin
+ann_an_Tasmania sa Tasmáin
 ann_an_Thailand sa Téalainn
 ann_an_Tibet sa Tibéid
 ann_an_Tirus sa Tuír
@@ -10914,6 +10927,7 @@ anns_na_Laboraich i bPáirtí an Lucht Oibre
 anns_na_Làbaraich i bPáirtí an Lucht Oibre
 anns_na_Làboraich i bPáirtí an Lucht Oibre
 anns_na_Meadhanan sna Meáin
+anns_na_beanntain_Rockies sna Sléibhte Creagacha
 anns_na_bha ina raibh
 anns_na_chaidh_a_ràdh ina ndúradh
 anns_na_chanas ina ndeir
@@ -12921,6 +12935,7 @@ boltaigeadh_iad páipéaraídís
 boltaigeadh_tu bpáipéarófá
 boltaigidh_sinn bpáipéaróimid
 boltaigidh_sinn páipéaróimid
+bon_voyage bon voyage
 bonntaicheadh_iad bunaídís
 bonntaicheadh_iad mbunaídís
 bonntaicheadh_iad mbunóidís
@@ -24938,9 +24953,12 @@ de_dh'fhorm d'fhoirm
 de_dh'fhorm d'fhoirme
 de_dh'fhormaichean d'fhoirmeacha
 de_dh'fhormain d'fhormáin
+de_dh'fhormait d'fhormáide
 de_dh'fhorman d'fhormán
 de_dh'fhormanan d'fhormáin
 de_dh'fhormanan d'fhormán
+de_dh'fhormat d'fhormáid
+de_dh'fhormatan d'fhormáidí
 de_dh'fhorsa d'fhórsa
 de_dh'fhorsaichean d'fhórsaí
 de_dh'fhorsaireachd d'fhoraoiseacht
@@ -37676,9 +37694,12 @@ do_dh'fhorm d'fhoirm
 do_dh'fhorm d'fhoirme
 do_dh'fhormaichean d'fhoirmeacha
 do_dh'fhormain d'fhormáin
+do_dh'fhormait d'fhormáide
 do_dh'fhorman d'fhormán
 do_dh'fhormanan d'fhormáin
 do_dh'fhormanan d'fhormán
+do_dh'fhormat d'fhormáid
+do_dh'fhormatan d'fhormáidí
 do_dh'fhorsa d'fhórsa
 do_dh'fhorsaichean d'fhórsaí
 do_dh'fhorsaireachd d'fhoraoiseacht
@@ -46710,6 +46731,7 @@ lorgaidh_sinn n-aimseoimid
 lorgan_coise lorga coise
 losg_iad loisceadar
 losg_sinn loisceamar
+losgadh_clay_pigeon lámhach crécholúr
 losgadh_iad loiscfidís
 losgadh_iad loiscidís
 losgadh_na_grèine loscadh gréine
@@ -50095,9 +50117,12 @@ mo_fhorm m'fhoirm
 mo_fhorm m'fhoirme
 mo_fhormaichean m'fhoirmeacha
 mo_fhormain m'fhormáin
+mo_fhormait m'fhormáide
 mo_fhorman m'fhormán
 mo_fhormanan m'fhormáin
 mo_fhormanan m'fhormán
+mo_fhormat m'fhormáid
+mo_fhormatan m'fhormáidí
 mo_fhorsa m'fhórsa
 mo_fhorsaichean m'fhórsaí
 mo_fhorsaireachd m'fhoraoiseacht
@@ -52366,12 +52391,14 @@ na_Laboraich Páirtí an Lucht Oibre
 na_Làbaraich Páirtí an Lucht Oibre
 na_Làboraich Páirtí an Lucht Oibre
 na_Mòr-bheinne an Mhórshléibhe
+na_Rockies na Sléibhte Creagacha
 na_Roinn-Eorpa Roinn na hEorpa
 na_Roinn-Eòrpa Roinn na hEorpa
 na_Roinn_Eòrpa na hEorpa
 na_Roinne-Eòrpa na hEorpa
 na_Sami na Sámach
 na_Sami na Sámaigh
+na_Seine na Séine
 na_Sultaine Mheán Fómhair
 na_Sàmi na Sámach
 na_Sàmi na Sámaigh
@@ -52462,12 +52489,14 @@ na_fir-chlis an chaor aduaidh
 na_fir-chlis na gealáin thuaidh
 na_gilean na haltáin
 na_grèin na gréine
+na_h-Aibhne_Seine abhainn na Séine
 na_h-Aimearagan na Críocha Mheiriceá
 na_h-Aisearan na cuaillí naofa
 na_h-Eileanan_Fàclannach Oileáin Fháclainne
 na_h-Eileanan_a-Staigh na hOileáin Istigh
 na_h-Iebusaich na Iabúsaigh
 na_h-Innseachan an India
+na_h-aibhne_Seine abhainn na Séine
 na_h-aon_amasan na haidhmeanna céanna
 na_h-aon_amasan na spriocanna céanna
 na_h-aon_bheachdan na tuairimí céanna
@@ -52510,6 +52539,7 @@ na_lùib san áireamh
 na_muice-mara an mhíl mhóir
 na_mìos-sa na míosa
 na_naidheachdan an nuacht
+na_polls na pobalbhreitheanna
 na_prothaidean an brabús
 na_prothaidean an mbrabús
 na_pàrtaidhean_Làbarach páirtithe an Lucht Oibre
@@ -53281,6 +53311,7 @@ nigheadh_iad nídís
 nigheadh_iad nífidís
 nigheadh_tu nífeá
 nighidh_sinn nífimid
+no_cigar no cigar
 nochd_iad nochtadar
 nochd_sinn nochtamar
 nochdadh_iad nochtaidís
@@ -53636,6 +53667,7 @@ pacaigeadh_iad pacálaidís
 pacaigeadh_tu bpacálfá
 pacaigidh_sinn bpacálfaimid
 pacaigidh_sinn pacálfaimid
+packed_lunch lón pacáilte
 paisgeadh_iad bhfillfidís
 paisgeadh_iad bhfillidís
 paisgeadh_iad fillidís
@@ -55629,6 +55661,7 @@ rèil_chearbach chóiméid
 rèil_chearbach cóiméid
 rèil_chearbach gcóiméid
 rèis_iad rásáladar
+rèis_relay rás sealaíochta
 rèis_sinn rásálamar
 rèiseadh_iad rásálaidís
 rèiseadh_iad rásálfaidís
@@ -58379,9 +58412,11 @@ smèideadh_iad sméidfidís
 smèideadh_iad sméididís
 smèideadh_tu sméidfeá
 smèididh_sinn sméidfimid
+sna_Rockies sna Sléibhte Creagacha
 sna_h-Aimearagan sna Críocha Mheiriceá
 sna_h-Innseachan san India
 sna_naidheachdan sa nuacht
+sna_polls sna pobalbhreitheanna
 snaidheadh_iad snoídís
 snaidheadh_iad snoífidís
 snaidheadh_tu snoífeá
@@ -59058,6 +59093,7 @@ streapadh_tu ndreapfá
 streapaidh_sinn dhreapfaimid
 streapaidh_sinn dreapfaimid
 streapaidh_sinn ndreapfaimid
+stretch_limo liomó sínte
 stràc_geur síneadh fada
 stràc_gheur síneadh fada
 stràc_throm ghraif
@@ -61648,6 +61684,7 @@ timcheall-gheàrradh_iad timpeallghearraidís
 timcheall-gheàrradh_tu dtimpeallghearrfá
 timcheall-gheàrraidh_sinn dtimpeallghearrfaimid
 timcheall-gheàrraidh_sinn timpeallghearrfaimid
+tinneas_Alzheimer's galar Alzheimer
 tinneas_an_t-siùcair diaibéiteas
 tinneas_an_t-siùcair ndiaibéiteas
 tinneas_cridhe tinneas croí
