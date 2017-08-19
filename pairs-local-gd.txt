@@ -1,445 +1,136 @@
-#5Latha #5Lá
-#5Latha16 #5Lá16
-#AbairteanLag #AbairtíLaga
-#Acair #Ancaire
-#aimhreit #aimhréidh
-#ainmaite #logainm
-#Ainmaite #logainm
-#ainmàite #logainm
-#Ainmàite #logainm
-#airanlaseo #aranláseo
-#AirAnRathad #ArAnmBóthar
-#airbhioran #arbís
-#AithrisanFheasgair #TuairiscanTráthnóna
-#AithrisanFheasgar #TuairiscanTráthnóna
-#aithrisnamaidne #Tuairiscnamaidine
-#AithrisnaMaidne #TuairiscnaMaidine
-#àlainn #álainn
-#ALBA #ALBAIN
-#alba #albain
-#Alba #Albain
-#albaceilidh #albacéilí
-#ALBAceilidh #ALBAcéilí
-#Albais #Albainis
-#AlbaNuadh #AlbainNua
-#amadan #amadán
-#AnDreasa #AnGúna
-#AnLa #AnLá
-#AnLà #AnLá
-#anlà #anlá
-#Anlà #Anlá
-#antaghadh #antoghchán
-#AnTaghadh #AnToghchán
-#antaghadh2010 #antoghchán2010
-#AnTional #AnTionól
-#baidhseagal #rothar
-#BaileAirBhoil #BaileArBuile
-#ballcoise #sacar
-#bannan #bandaí
-#Bannan #Bandaí
-#bardachd #filíocht
-#Bàrdachd #Filíocht
-#bàrdachd #filíocht
-#BB_Bellag #BB_Bellag
-#BBCANLASpòrs #BBCANLÁSpóirt
-#BBCSpòrs #BBCSpórt
-#BeagAirBheag #BeagánArBheagán
-#beò #beo
-#beurla #béarla
-#Beurla #Béarla
-#Biadh #Bia
-#Breab #Cic
-#breagha #breá
-#Briog #Cliceáil
-#buchoir #tá
-#buchòir #tá
-#BuChoir #Tá
-#BuChòir #Tá
-#Buchòir #Tá
-#BuChòirFhathast #TáFós
-#BuChòirOir #TáÓir
-#camanachd #camánacht
-#Camanachd #Camánacht
-#canada #ceanada
-#Canada #Ceanada
-#cananan #teangacha
-#Cèic #Cáca
-#Ceilidh #Céilí
-#ceilidh #céilí
-#cèilidh #céilí
-#Cèilidh #céilí
-#ceòl #ceol
-#Ceòl #Ceol
-#ceolas #ceòlas
-#ceolmath #ceolmaith
-#cianalas #cumha
-#ClàrNaSeachdain #ClárNaSeachtaine
-#cleachddobhòt #úsáiddovóta
-#Clì #Clé
-#coinGhàidhlig #madraíGàidhlig
-#còmhradhmòr #comhrámór
-#cothrom #deis
-#Cuach #Corn
-#CuileanCraicte #CoileánCraiceáilte
-#Cuimris #Breatnais
-#cultar #cultúr
-#CùmGàidhligBeò #CoinnighGàidhligBeo
-#CupaABC #CornABC
-#CupaDavis #CornDavis
-#CupaMacamhlaigh #CornMacamhlaigh
-#CupaMhicAmhlaigh #CornMhicAmhlaigh
-#CupaMhicamhlaigh #CornMhicAmhlaigh
-#CupanaCamanachd #CornNaCamánachta
-#CupanaCruinne #CornanDomhain
-#DàBhòtSNP #DháVótaSNP
-#Dannsa #Damhsa
-#dannsa #damhsa
-#dealbh #grianghraf
-#Dealbh #Grianghraf
-#deasbad #díospóireacht
-#DeasbadBTAlba #DíospóireachtBTAlba
-#deasbadGU #díospóireachtGU
-#deasbadmor #díospóireachtmhór
-#dèideagan #bréagáin
-#dènachdèannacoin #cadénachndéanannmadraí
-#Deò #Dé
-#DhanUisge #DonUisce
-#Dotaman #Dòtaman
-#drama #dráma
-#dràma #dráma
-#Drama #Dráma
-#Dràma #Dráma
-#Duaisean #Duaiseanna
-#duaisean #duaiseanna
-#duaiseangàidhlig #duaiseannagàidhlig
-#DuaiseanGàidhlig #duaiseannaGàidhlig
-#dualchas #dúchas
-#DualchasBeò #DúchasBeo
-#duneideann #dúnéideann
-#DunEideann #DúnÉideann
-#DùnÈideann #DúnÉideann
-#Eachdraidh #Stair
-#eachdraidh #stair
-#ealain #ealaín
-#Ealain #Ealaín
-#Ealan #Ealaín
-#Èirinn #Éire
-#Eòrpa #Eoraip
-#Eorpa #Eoraip
-#eòrpa #eoraip
-#eorpa #eoraip
-#farpais #comórtas
-#fealladha #magadh
-#feasgar #tráthnóna
-#Feasgar #tráthnóna
-#fèineag #féinphic
-#Fèineag #Féinphic
-#feis #feis
-#fèis #feis
-#Fèis #Feis
-#feisean #feiseanna
-#fèisean #feiseanna
-#Fèisean #Feiseanna
-#FeisIle #FeisÌle
-#fèislitalba #feislitalba
-#FèisLitAlba #FeisLitAlba
-#FIANAIS #FIANAISE
-#foghlam #foghlaim
-#Foghlam #Foghlaim
-#fothiotalan #fotheidil
-#Fuaran #Fuarán
-#gabhancothrom #tapaighandeis
-#Gàdhlig #Gàidhlig
-#Gaelige #Gaeilge
-#Gàidheal #Gael
-#Gàidhig #Gàidhlig
-#gàidhilg #gàidhlig
-#gaidhilg #gàidhlig
-#gaidhlig #gàidhlig
-#Gaidhlig #Gàidhlig
-#GàidhligaigBlas2013 #GàidhligagBlas2013
-#gaisgeach #gaiscíoch
-#Gaol #Grá
-#gaol #grá
-#Ghaidhlig #Ghàidhlig
-#Glaschu #Glaschú
-#glaschu #glaschú
-#Glaschu2014 #Glaschú2014
-#glaschu2014 #glaschú2014
-#Glaschu2017 #Glaschú2017
-#GLIOCAS #GAOIS
-#gnathasancainntùra #coracaintenua
-#golf #galf
-#grianach #grianmhar
-#Guru #Gúrú
-#iasgach #iascaireacht
-#Ile #Ìle
-#iomain #iomáin
-#ionnsachadh #foghlaim
-#lànaGàidhlig #lánaGàidhlig
-#lanagaidhlig #lánagàidhlig
-#LanaGaidhlig #LánaGàidhlig
-#LaNaGaidhlig #LáNaGàidhlig
-#LaNaGàidhlig #LáNaGàidhlig
-#LànaGàidhlig #LánaGàidhlig
-#LàNaGàidhlig #LáNaGàidhlig
-#lathamath #lámaith
-#LathaMath #LáMaith
-#LathanaGaidhlig #LánaGàidhlig
-#lathaninjaGàidhlig #láninjaGàidhlig
-#LathaTwitterNaGaidhlig #LáTwitterNaGàidhlig
-#LathaTwitterNaGàidhlig #LáTwitterNaGàidhlig
-#leabhraichean #leabhair
-#Leabhraichean #Leabhair
-#leugh #léigh
-#Leugh #Léigh
-#leughadh #léamh
-#LeughGàidhlig #LéighGàidhlig
-#litreachas #litríocht
-#Litreachas #Litríocht
-#lunnainn #londain
-#Lunnainn #Londain
-#Lunnain #Londain
-#lusan #lusanna
-#LusNaTùise #Labhandar
-#machair #machaire
-#Manchester #Manchain
-#MasMath #MásMaith
-#Misneachd #Misneach
-#mod #mòd
-#Mod #Mòd
-#mod2012 #mòd2012
-#mod2013 #mòd2013
-#Mod2013 #Mòd2013
-#Mòd2013 #Mòd2013
-#mod2014 #mòd2014
-#Mod2014 #Mòd2014
-#Mòd2015 #Mòd2015
-#Mod2016 #Mòd2016
-#modphaislig2013 #mòdphàislig2013
-#naidheachd #nuacht
-#naidheachdan #nuacht
-#NollaigChridheil #NollaigShona
-#oban #òban
-#Oban #Òban
-#OidhcheShamhna #OícheShamhna
-#oidhcheshamhna #oícheshamhna
-#oigridh #ógra
-#òigridh #ógra
-#òrain #amhráin
-#Òrain #Amhráin
-#òran #amhrán
-#partaidh #cóisir
-#planaGàidhlig #pleanGàidhlig
-#PopUpGàidhealtachd #PopUpGaeltacht
-#punk #punc
-#radio #raidió
-#Radio #Raidió
-#radionangaidheal #raidiónangael
-#RadionanGaidheal #RaidiónanGael
-#RadioNanGaidheal #RaidióNanGael
-#rugbaidh #rugbaí
-#sàrchoin #sármhadraí
-#Sasainn #Sasana
-#seanfhacail #seanfhocail
-#Seanfhacail #Seanfhocail
-#seanfhacal #seanfhocal
-#seinn #canadh
-#Seinn #Canadh
-#sgeulachdan #scéalta
-#sgith #tuirseach
-#sgìth #tuirseach
-#Sgoinneil #Iontach
-#sgoinneil #iontach
-#sìde #aimsir
-#Siuthad #LeanOrt
-#SMWLitirGleBheag #SMWLitirAnBheag
-#SMWdeasbad #SMWdíospóireacht
-#SMWGlaschu #SMWGlaschú
-#smwglaschu #smwglaschú
-#SMWGlaschu2012 #SMWGlaschú2012
-#smwglaschu2012 #smwglaschú2012
-#SMWGlasgow #SMWGlasgow
-#sneachd #sneachta
-#Soillse #Soilse
-#SP_Connect #SP_Connect
-#sp_educ #sp_educ
-#SP_educ #SP_educ
-#SP_Educ #SP_Educ
-#SP_outreach #SP_outreach
-#SP_Outreach #SP_Outreach
-#spors #spórt
-#spòrs #spórt
-#Spòrs #Spórt
-#SpòrsAnLà #SpórtAnLae
-#SpòrsnaBliadhna #SpórtnaBliana
-#Spòrsnaseachdain #Spórtnaseachtaine
-#Sporsnaseachdain #Spórtnaseachtaine
-#sporsnaseachdain #spórtnaseachtaine
-#SpòrsnaSeachdainn #SpórtnaSeachtaine
-#SpòrsnaSeachdain #SpórtnaSeachtaine
-#spòrsnaseachdain #spórtnaseachtaine
-#spòrsRnG #spórtRnaG
-#srùbag #bolgam
-#SùilairSpòrs #SúilarSpórt
-#tachartas #imeacht
-#tachartasan #imeachtaí
-#Tadhal #Cuairt
-#TADHAL #CUAIRT
-#taghadh11 #toghchán11
-#taic #tacaíocht
-#Taic #Tacaíocht
-#tàlant #bua
-#teagasg #teagasc
-#Teagasg #Teagasc
-#teth #te
-#Tì #Tae
-#TirGunChriochan #TírGanChríocha
-#TìrGunChrìochan #TírGanChríocha
-#toilichte #sásta
-#trang #gnóthach
-#treanaichean #traenacha
-#Trosg #Trosc
-#trusadh #díolaim
-#Trusadh #Díolaim
-#tweetGaidhligSaLatha #tweetGàidhligSaLá
-#uairg #uairG
-#UibhistaTuath #UibhistThuaidh
-#uisgebeatha #uiscebeatha
-#Ulpan #Ùlpan
-#UofGosìosal #UofGosíseal
-#VlogaMhòid #VlaganMhòid
-#5Latha15 #5Lá15
-2D 2T
-3D 3T
-'5 Is
-7c srl
-7ain 7ain
-1m 1rn
-2m 2rn
-3m 3rn
-4m 4rn
-5m 5rn
-6m 6rn
-7m 7rn
-8m 8rn
-9m 9rn
-9sm 9rn
-10m 10rn
-10near 10niúr
-11m 11rn
-11m 11m
-12m 12rn
-1f 1in
-1-2f 1-2in
-2f 2in
-2-4f 2-4in
-3f 3in
-4f 4in
-05f 05in
-5f 5in
-6f 6in
-6-7f 6-7in
-7f 7in
-7-8f 7-8in
-7-9f 7-9in
-8f 8in
-8-9f 8-9in
-9f 9in
-10f 10in
-11f 11in
-12f 12in
-13f 13in
-14f 14in
-15f 15in
-16f 16in
-17f 17in
-18f 18in
-19f 19in
-20f 20in
-21f 21in
-22f 22in
-23f 23in
-25f 25in
-30f 30in
-35f 35in
-40f 40in
-45f 45in
-50f 50in
-55f 55in
-1uf 1in
-2uf 2in
-3uf 3in
-4uf 4in
-05uf 05in
-5uf 5in
-6uf 6in
-7uf 7in
-8uf 8in
-9uf 9in
-10uf 10in
-11uf 11in
-12uf 12in
-1uf 1in
-2uf 2in
-3uf 3in
-4uf 4in
-05uf 05in
-5uf 5in
-6uf 6in
-7uf 7in
-8uf 8in
-9uf 9in
-10uf 10in
-11uf 11in
-12uf 12in
-13uf 13in
-14uf 14in
-15uf 15in
-16uf 16in
-17uf 17in
-18uf 18in
-19uf 19in
-20uf 20in
-21uf 21in
-22uf 22in
-23uf 23in
-25uf 25in
-30uf 30in
-35uf 35in
-40uf 40in
-45uf 45in
-50uf 50in
-55uf 55in
-1d 1ú
-1ad 1ú
-2na 2ú
-02na 2ú
-3s 3ú
-100mh 100ú
-1000mh 1000ú
-12na 12ú
-h-18mh 18ú
-21st 21ú
-22na 22ú
-40mh 40ú
-50mh 50ú
-600an 600í
-70s 70í
-1710an 1710í
-1810an 1810í
-1990s 1990í
 00an 00í
 00ean 00í
-2010an 2010í
+02na 2ú
+05f 05in
+05uf 05in
+05uf 05in
+1000mh 1000ú
+100mh 100ú
 10an 10í
 10ean 10í
+10f 10in
+10m 10rn
+10near 10niúr
+10uf 10in
+10uf 10in
+11f 11in
+11m 11m
+11m 11rn
+11uf 11in
+11uf 11in
+12f 12in
+1-2f 1-2in
+12m 12rn
+12na 12ú
+12uf 12in
+12uf 12in
+13f 13in
+13uf 13in
+14f 14in
+14uf 14in
+15f 15in
+15uf 15in
+16f 16in
+16uf 16in
+1710an 1710í
+17f 17in
+17uf 17in
+1810an 1810í
+18f 18in
+18uf 18in
+1990s 1990í
+19f 19in
+19uf 19in
+1ad 1ú
+1d 1ú
+1f 1in
+1m 1rn
+1uf 1in
+1uf 1in
+2010an 2010í
+20f 20in
+20uf 20in
+21f 21in
+21st 21ú
+21uf 21in
+22f 22in
+22na 22ú
+22uf 22in
+23f 23in
+23uf 23in
+2-4f 2-4in
+25f 25in
+25uf 25in
+2D 2T
+2f 2in
+2m 2rn
+2na 2ú
+2uf 2in
+2uf 2in
+30f 30in
+30uf 30in
+35f 35in
+35uf 35in
+3D 3T
+3f 3in
+3m 3rn
+3s 3ú
+3uf 3in
+3uf 3in
+40f 40in
+40mh 40ú
+40uf 40in
+45f 45in
+45uf 45in
+4f 4in
+4m 4rn
+4uf 4in
+4uf 4in
+'5 Is
+50f 50in
+50mh 50ú
+50uf 50in
+55f 55in
+55uf 55in
+5f 5in
+#5Latha #5Lá
+#5Latha15 #5Lá15
+#5Latha16 #5Lá16
+5m 5rn
+5uf 5in
+5uf 5in
+600an 600í
+6-7f 6-7in
+6f 6in
+6m 6rn
+6uf 6in
+6uf 6in
+70s 70í
+7-8f 7-8in
+7-9f 7-9in
+7ain 7ain
+7c srl
+7f 7in
+7m 7rn
+7uf 7in
+7uf 7in
+8-9f 8-9in
+8f 8in
+8m 8rn
+8uf 8in
+8uf 8in
+9f 9in
+9m 9rn
+9sm 9rn
+9uf 9in
+9uf 9in
+a5 ag
+a5 an
 aa an
 Aaroin Árón
-a5 an
-a5 ag
 abair déarfaidh
 abair ndéarfaidh
+#AbairteanLag #AbairtíLaga
 Abednego Aibéid Neagó
 Abeil Áibil
 Abel Áibil
@@ -465,9 +156,10 @@ abramaid déarfaimis
 abramaid ndéarfaimis
 abrar déarfar
 abrar ndéarfar
-Absalom Aibseálóm
 Absaloim Aibseálóm
+Absalom Aibseálóm
 AC AD
+#Acair #Ancaire
 acb ach
 accordeon bosca ceoil
 a-chèile a chéile
@@ -488,8 +180,8 @@ adhartachadh a chur chun cinn
 adhartais dul chun cinn
 adhartasan dul chun cinn
 a-dol ag dul
-Adomnán Adhamhnán
 Adomnan Adhamhnán
+Adomnán Adhamhnán
 Adoniah Adoiníá
 aea acu
 aeh ach
@@ -499,8 +191,8 @@ af amh
 Afraca-a-Tuath Tuaisceart na hAfraice
 Afraga-a-Tuath Tuaisceart na hAfraice
 Afrikaans Afracáinis
-agas agus
 Agaistin Agaistín
+agas agus
 'aghaidh a aghaidh
 aghaidh-sa aghaidhse
 aghaidh-san aghaidhse
@@ -525,18 +217,26 @@ aidh aidhe
 AIDS SEIF
 Aifhreann Aifreann
 AimeireagaIosrael MeiriceáIosrael
+#aimhreit #aimhréidh
 Aindreas Aindrias
 Aine Áine
 'ainm a ainm
+#ainmaite #logainm
+#Ainmaite #logainm
+#ainmàite #logainm
+#Ainmàite #logainm
 ainmeachadh a ainmniú
 Ainmean-Àite Logainmneacha
-ainm-sa ainmse
 ainmsa ainmse
-ainm-san ainmse
+ainm-sa ainmse
 ainmsan ainmse
+ainm-san ainmse
 air tar éis
-aìr ar
 aìr air
+aìr ar
+#airanlaseo #aranláseo
+#AirAnRathad #ArAnmBóthar
+#airbhioran #arbís
 aireòbaich aeróbaíocht
 Air-Loidhne Ar Líne
 aiseagan báid fharantóireachta
@@ -551,21 +251,34 @@ Aisearah Aiséará
 aithnichinn-sa aithneoinnse
 'aithrichean a aithreacha
 'aithrichean a shinsir
+#AithrisanFheasgair #TuairiscanTráthnóna
+#AithrisanFheasgar #TuairiscanTráthnóna
+#aithrisnamaidne #Tuairiscnamaidine
+#AithrisnaMaidne #TuairiscnaMaidine
 al ag
+#àlainn #álainn
 AlasdairBochd AlasdairBocht
+#alba #albain
+#Alba #Albain
+#ALBA #ALBAIN
+#albaceilidh #albacéilí
+#ALBAceilidh #ALBAcéilí
 Albainn Alba
+#Albais #Albainis
 Alban Albain
+#AlbaNuadh #AlbainNua
 Alcimus Alcamas
 Alecsander Alastar
 Algiers Cathair na hAilgéire
 alumnus céimí
-àm ham
 am i mo
 'am i mo
 a'm i mo
 a'm' i mo
+àm ham
 A-Mach Amach
 a-macho amach
+#amadan #amadán
 A-Màireach Amárach
 A-màireach-Sgòthach Amárach-Scamallach
 Amalec Amailéic
@@ -598,14 +311,23 @@ Andalusia an Andalúis
 an-deidh i ndiaidh
 An-Diugh Inniu
 Andorra Andóra
-Anndrais Aindriais
+#AnDreasa #AnGúna
 anemone anamóine
+#AnLa #AnLá
+#anlà #anlá
+#Anlà #Anlá
+#AnLà #AnLá
+Anndrais Aindriais
 annsa ansa
-A-nochd-Tioram Anocht Tirim
 a-nochd-tioram anocht tirim
+A-nochd-Tioram Anocht Tirim
+#antaghadh #antoghchán
+#AnTaghadh #AnToghchán
+#antaghadh2010 #antoghchán2010
 Antioch Aintíoch
 Antioch hAintíoch
 Antiochus Aintíochas
+#AnTional #AnTionól
 Antonaidh Antaine
 'aodach a chuid éadaigh
 aodach-san éadach
@@ -632,11 +354,11 @@ Arcaich Arcaigh
 Arnoin Arnón
 Arphacsad Arpaicsead
 Arra-Ghaidheal Earra-Ghàidheal
-Arra-Ghàidheal Earra-Ghàidheal
 Arra-Gháidheal Earra-Ghàidheal
+Arra-Ghàidheal Earra-Ghàidheal
 Arra-Ghaidheil Earra-Ghàidheil
-Arra-Ghàidheil Earra-Ghàidheil
 Arra-Gháidheil Earra-Ghàidheil
+Arra-Ghàidheil Earra-Ghàidheil
 ars arsa
 ars' arsa
 as is
@@ -653,12 +375,12 @@ Asuir Azúr
 Asur Aisiúr
 ata atá
 Ataliah Atailiá
-a'tha atá
 atha atá
+a'tha atá
 Atha Átha
 'athair a athair
-athair-san athairse
 'athair-san a athairse
+athair-san athairse
 'athar a athar
 atharrachadh a athrú
 athar-sa atharsa
@@ -673,17 +395,17 @@ Ath-Nuadhaichte In-athnuaite
 ath-thweet atweet
 ath-tweet atweet
 a-Tuath Thuaidh
-au au
 au an
+au au
 audio fhuaim
 audio fuaim
 audio fuaime
 Augustine Agaistín
 Avalonia Abhalóinia
+axes aiseanna
 axis ais
 axis-x x-ais
 axis-y y-ais
-axes aiseanna
 aye aidhe
 Baal Bál
 Baalim Bálaím
@@ -697,7 +419,9 @@ Bahai Bhahá'íoch
 Bahai mBahá'íoch
 Bahamas Bahámaí
 Bàideanaich Báideanaigh
+#baidhseagal #rothar
 Bail Baile
+#BaileAirBhoil #BaileArBuile
 bailtean-iasgaich bailte iascaireachta
 bailtean-mòra bailte móra
 b'aithne b'aithnid
@@ -705,9 +429,12 @@ Balaam Balám
 Balaam Bhalám
 Balac Bálác
 Balephuil Baile a' Phuill
+#ballcoise #sacar
 Ban Bán
 Banbhàn Banbhán
 b'ann ba
+#bannan #bandaí
+#Bannan #Bandaí
 Ban-Rìgh Banríon
 ban-sìdhe ban sí
 ban-sìdhe mban sí
@@ -717,12 +444,18 @@ Barabas Barabas
 Barabbas Barabas
 Barac Bárác
 barail-se barúilse
+#bardachd #filíocht
+#bàrdachd #filíocht
+#Bàrdachd #Filíocht
 Baruch Barúch
-bass dordghiotár
 bass dordghiotáir
+bass dordghiotár
 bàtaichean-aiseig báid fharantóireachta
 bàtaichean-iasgaich báid iascaigh
 bba bhí
+#BB_Bellag #BB_Bellag
+#BBCANLASpòrs #BBCANLÁSpóirt
+#BBCSpòrs #BBCSpórt
 bbi bhí
 BC BC
 BC RC
@@ -736,14 +469,15 @@ beachd-san tuairimse
 beachd-se dtuairimse
 beachd-se tuairimse
 b'eadh ba ea
+#BeagAirBheag #BeagánArBheagán
 beag-feuma gan mhaith
 Beál Béal
 Bearnaraigh Beàrnaraigh
 beartas-cainnt saibhreas cainte
-Beer-sèba Béar Seaba
-Beer-sèba mBéar Seaba
 Beer-seba Béar Seaba
 Beer-seba mBéar Seaba
+Beer-sèba Béar Seaba
+Beer-sèba mBéar Seaba
 Beijing Béising
 beil bhfuil
 beilear bhfuiltear
@@ -754,28 +488,31 @@ Belarus an Bhealarúis
 Belize an Bheilís
 Benaiah Banáiá
 Ben-hadad Bein Hadad
-Beniàmin Biniáimin
 Beniamin Biniáimin
+Beniàmin Biniáimin
+#beò #beo
 bèobaban crainn bhaobab
 Berlin Beirlín
 b'esan ba eisean
 beta béite
+Betani Béatáine
+Betania Béatáine
 Betel Béitéil
 Bet-el Béitéil
 Bet-horon Béit Horon
 Betlehem Beithil
 Bet-lehem Beithil
-Betani Béatáine
-Betania Béatáine
 Beul-àtha Béal Átha
 Beul-Feirste Béal Feirste
+#beurla #béarla
+#Beurla #Béarla
 b'fhaisge b'fhoisce
 b'fhasa b'fhusa
 b'fheairrde b'fhearrde
 b'fheàirrde b'fhearrde
+b'fhearr b'fhearr
 b'fhèarr b'fhearr
 b'fheàrr b'fhearr
-b'fhearr b'fhearr
 b'fheudar b'éigean
 b'fhiach b'fhiú
 b'fhiù b'fhiú
@@ -793,26 +530,26 @@ Bhàideanach Bháideanach
 Bhàideanaich Bháideanaigh
 bh'aig bhí ag
 bh'aige bhí aige
+Bhaileintin Vailintín
 bhaile-mhòir bhaile mhóir
 bhaile-mhòr bhaile mór
-Bhaileintin Vailintín
 bh'air bhí ar
 bh'air bhí tar éis
 bhais bháis
 bhalachaibh bhuachaillí
 Bhalentine Vailintín
-bhall-pàrlamaid theachta parlaiminte
 bhall-pàrlamaid teachta parlaiminte
+bhall-pàrlamaid theachta parlaiminte
 bha'n bhí an
 bhana-chruitear chruitire mná
 bhana-sheinneadair amhránaí mná
 Bhan-Mhoabach Móábach mná
-Bhan-Spàinnteach Bhean Spáinneach
 bh'ann a bhí ann
 bh'annad bhí ionat
 bh'annam bhí ionam
 bh'annam-sa bhí ionamsa
 bh'annta bhí iontu
+Bhan-Spàinnteach Bhean Spáinneach
 bharail-sa bharúilse
 bhàr-inneil bharra uirlisí
 Bhatairnis Bhàtairnis
@@ -854,42 +591,42 @@ Bhet-el Bhéitéil
 Bhetlehem Bheithil
 Bhetueil Bhatúél
 Bhetulia Bhéitiúilia
-'bhi a bheith
 bhi a bheith
 bhi bheith
-bhì bheith
+'bhi a bheith
 bhì bheidh
+bhì bheith
 Bhictoria Victoria
 Bhictòria Victoria
 bhidh bheidh
 bhidiothan-ciùil físeáin cheoil
 bhike rothar
-bhilh bheith
-bhileag-iùil bhileog eolais
 bhileagan-iùil bhileoga eolais
+bhileag-iùil bhileog eolais
 bhilean bheola
 bhileig-iùil bhileog eolais
+bhilh bheith
 bh'innte bhí inti
 Bhioctoria Victoria
 bhiodhte bhítí
 bhiomaid bheimis
 bhioran-fighe bhiorán cniotála
-bhios bhíonn
 bhios bheidh
+bhios bhíonn
 Bhirginia Virginia
 bhitb bheith
 bhite bhítí
-bhithte bhítí
 bhitear bheifear
-bhitheas bheifear
 bhitheadh bheadh
 bhitheadh mbeadh
-bhithean neacha
 bhithean dhúile
+bhithean neacha
+bhitheas bheifear
 bhithinnsa bheinnse
 bhithinn-sa bheinnse
 bhithist bhítí
 bhithiste bhítí
+bhithte bhítí
 bhleideagan-sneachda chalóga sneachta
 bhliadhna-sa bhliainse
 bhobh abhó
@@ -915,12 +652,13 @@ bhuidhinn-chiùil cheolbhuíon
 Bhun-Sgoil Bhunscoil
 bhur ó bhur
 bhùthaidh siopa
-b'i ba í
 bi beidh
-bì beidh
 bi mbeidh
+b'i ba í
+bì beidh
 bì mbeidh
 b'iad ba iad
+#Biadh #Bia
 b'iadsan ba iadsan
 bias blas
 biathlon dé-atlan
@@ -938,16 +676,16 @@ bi-sa bí
 bi-sa bíse
 b'ise ba ise
 bite mbítí
-bitear bítear
 bitear beifear
+bitear bítear
 bitear mbeifear
 bith beidh
 bith mbeidh
 bìth beidh
 bìth mbeidh
 bitheadh mbeadh
-bithean neacha
 bithean dúile
+bithean neacha
 bithibh-se bígí
 bithinn-sa mbeinnse
 bithte bhítí
@@ -968,8 +706,8 @@ boideagan-feòil péisteanna feola
 boir bain
 bonnaich-uighe bonnóga uibhe
 Bonnbhail Bonnbhaile
-bonuses duaiseanna
 bonuses dhuaiseanna
+bonuses duaiseanna
 boring leadránach
 boring leadránacha
 boss bas
@@ -978,34 +716,47 @@ bòtannan-airm buataisí airm
 BPAan BPAanna
 Brasil an Bhrasaíl
 Brazil an Bhrasaíl
-Breat-a-mach Breatimeacht
+#Breab #Cic
+#breagha #breá
 Breatainne Breataine
+Breat-a-mach Breatimeacht
 brèig bréag
-Brighde Bríde
-Bristol Briostó
 Brìd Bríd
 Bride Bríde
+Brighde Bríde
+#Briog #Cliceáil
+Bristol Briostó
 Brodick Breadhaig
 brògan-spòrs bróga spóirt
 b'thusa ba thusa
 btw das
+#buchoir #tá
+#BuChoir #Tá
+#buchòir #tá
+#Buchòir #Tá
+#BuChòir #Tá
+#BuChòirFhathast #TáFós
+#BuChòirOir #TáÓir
 Budapest Búdaipeist
 Budapest mBúdaipeist
 Buddha Búda
 buidhnean-obrach grúpaí oibre
 buill-chuirp baill choirp
-buill-pàrlamaid teachtaí parlaiminte
 buill-pàrlamaid dteachtaí parlaiminte
+buill-pàrlamaid teachtaí parlaiminte
 buill-phàrlamaid teachtaí parlaiminte
 bùithtean-bìdh siopaí bia
 Bulgaria an Bhulgáir
 bun-lùth bunfhuinneamh
 Bun-Sgoil Bunscoil
-b'urrainn b'fhéidir
 b'urrain b'fhéidir
+b'urrainn b'fhéidir
 b'urrainnear b'fhéidir
 Burras Speig Neanta
 bùthaidh siopa
+c1eachdadh úsáid
+c1uich imirt
+c6ig cúig
 ca cá
 Cades Cáidéis
 cafe caifé
@@ -1025,20 +776,25 @@ Caleb Cálaeb
 Caledonia Caladóin
 Calicut Calcúta
 Calluinn Caille
+#camanachd #camánacht
+#Camanachd #Camánacht
 Campus Campas
-Canàan Canán
-Canàan gCanán
 Canaan Canán
 Canaan gCanán
 Cànaan Canán
 Cànaan gCanán
+Canàan Canán
+Canàan gCanán
+#canada #ceanada
+#Canada #Ceanada
+#cananan #teangacha
 cànan-sa dteangasa
 cànan-sa teangasa
 cannabis cannabas
-cante ndéarfaí
 cante dhéarfaí
-Caoimhìn Caoimhín
+cante ndéarfaí
 Caoimhin Caoimhín
+Caoimhìn Caoimhín
 carbadan-ola carranna ola
 carbaid-phoileis cairr póilíní
 casa-gobhlachan cosa trasna ar a chéile
@@ -1051,9 +807,18 @@ CDs CDanna
 Ceann-suidhhe Uachtarán
 cearcall-teine ciorcal tine
 cearcan-fraoich cearca fraoigh
+#Cèic #Cáca
 Ceilah Ceíleá
+#ceilidh #céilí
+#Ceilidh #Céilí
+#cèilidh #céilí
+#Cèilidh #céilí
 cèill ciall
+#ceòl #ceol
+#Ceòl #Ceol
+#ceolas #ceòlas
 Ceolas Ceòlas
+#ceolmath #ceolmaith
 ceòlraidh béithe
 Cèoto Kiótó
 cha níor
@@ -1077,16 +842,16 @@ Chaleib Chálaeb
 Challuinn Caille
 Challum Cholm
 cha-mhòr ba bheag
-cha-mhòr is beag
 cha-mhòr beagnach
+cha-mhòr is beag
 cha-mhòr nach mór
 champagne seaimpéin
-Chanàain Chanán
 Chanaain Chanán
-chanainn-sa déarfainnse
+Chanàain Chanán
 chanainnsa déarfainnse
-cha'n'eil níl
+chanainn-sa déarfainnse
 chaneil níl
+cha'n'eil níl
 chaoimhneis-ghràidh bhuanghrá
 chapall-coille chapall coille
 Chapernaum Cafarnáum
@@ -1106,13 +871,13 @@ Cheasar Céasar
 Cheasar Chéasar
 Chèasar Céasar
 Chèasar Chéasar
-Chesarea Céasaráia
-Chesarea Chéasaráia
+chéil' chéile
 chèil' chéile
 chèile chéile
-chéil' chéile
 chèill chéill
 chèin i gcéin
+Chesarea Céasaráia
+Chesarea Chéasaráia
 cheumnachd searmanas bronnta céimeanna
 chi bhfeicfidh
 chi feicfidh
@@ -1139,10 +904,10 @@ chìte d'fheictí
 chìtheadh d'fheicfeadh
 chìtheadh fheicfeadh
 chìthear bhfeicfear
-chìthear fheicfear
 chìthear feicfear
-chìthinn d'fheicfinn
+chìthear fheicfear
 chithinn d'fheicfinn
+chìthinn d'fheicfinn
 chlachair shaor cloiche
 chlachan-meallain chlocha sneachta
 chlachan-mìle chlocha míle
@@ -1189,15 +954,15 @@ chòirichean chearta
 chois chos
 cho-là-breith lá breithe
 Choloimbia na Colóime
-chomann-shòisealta chumann sóisialta
 chomainn-sòisealta chumainn shóisialta
+chomann-shòisealta chumann sóisialta
 chomann-shòisealta chumann sóisialta
 chomann-sòisealta chumann sóisialta
 chomasan chumas
 Chon-Chaorach Mhadra Caorach
 cho-ogha chol ceathrair
-cho-op chomharchumann
 cho-op chomharchumainn
+cho-op chomharchumann
 chòr chóir
 Chorah Chorach
 chòraichean chearta
@@ -1208,12 +973,12 @@ chraicinn-liopard chraicinn liopaird
 chrann-ceusaidh chrann céasta
 chrann-cheusaidh chrann céasta
 chraoibh chrann
-chrìch chríoch
 chrich chríoch
-chrìch teorainn
 chrich teorainn
-chrìch theorainn
 chrich theorainn
+chrìch chríoch
+chrìch teorainn
+chrìch theorainn
 chrìdh chroí
 chridhe-sa chroíse
 chrios-ghiùlai chrios iompair
@@ -1226,8 +991,8 @@ chuibhrig-leapa chuilt leapa
 chuideigin dhuine éigin
 Chuimrigh Bhreatain Bheag
 chùis-lagha chúis dlí
-chùlaibh chúl
 chulaibh chúl
+chùlaibh chúl
 chùlaobh chúl
 Chullaig Challainn
 chum chun
@@ -1240,6 +1005,7 @@ chur-seachad chaitheamh aimsire
 chur-seachadan chaitheamh aimsire
 chur-seachadan shiamsaíocht
 chus an iomarca
+#cianalas #cumha
 cìch cíoch
 cidhisean-ospadail maisc mháinliachta
 cigarette toitín
@@ -1252,10 +1018,12 @@ clachan-mheallain clocha sneachta
 clachan-mìle clocha míle
 clan clann
 clàran-fuaime taifid fhuaime
-c1eachdadh úsáid
+#ClàrNaSeachdain #ClárNaSeachtaine
+#cleachddobhòt #úsáiddovóta
 cleasan-teine tinte ealaíne
 Cleopatra Cléapatra
 clever cliste
+#Clì #Clé
 Cliatha Cliath
 Clio Cléó
 clìthe clé
@@ -1265,7 +1033,6 @@ Cluaisean Cluaisín
 Cluaisein Cluaisín
 clubaichean-dannsa clubanna damhsa
 clubaichean-oidhche clubanna oíche
-c1uich imirt
 cluinn chluinnfidh
 cluinn gcluinnfidh
 cluinntear cluinfear
@@ -1277,10 +1044,10 @@ Co-Cheangailte Comhcheangailte
 cocktails manglaim
 Cohatach Cohátaigh
 Cohatach gCohátach
-c6ig cúig
 coilltean-uisge foraoisí báistí
 coimpiùtaireach ríomhaireachta
 Coin-Chaorach Madraí Caorach
+#coinGhàidhlig #madraíGàidhlig
 còirichean cearta
 cois cos
 Co-Labhairt Comhdháil
@@ -1295,25 +1062,27 @@ comhfhurtachd-se compordsa
 Comhghall Còmhghall
 còmhla-ri in éineacht le
 còmhla-ri in éineacht leis
+#còmhradhmòr #comhrámór
 companasan-catharra páirtnéireachtaí sibhialta
 con-chaorach madraí caorach
 Constantinople Cathair Chonstaintín
 co-oghaichean col ceathracha
 cookie fianán
-co-op chomharchumann
 co-op chomharchumainn
-co-op comharchumann
+co-op chomharchumann
 co-op comharchumainn
+co-op comharchumann
 Copenhagen Cóbanhávan
 Corah Corach
 còraichean cearta
 corailean coiréil
-Corcaigh Corcaí
 Corcaigh Chorcaí
+Corcaigh Corcaí
 Corea an Chóiré
 corporal ceannaire
-còrsair-poileis carr póilíní
 còrsairean-poileis carranna póilíní
+còrsair-poileis carr póilíní
+#cothrom #deis
 courtiers cúirteoirí
 craicinn-liopard craicinn liopaird
 crainn-ghaoithe tuirbíní gaoithe
@@ -1321,9 +1090,10 @@ Craobh-airgid Crann-airgid
 craobhan-calltainn crainn choill
 Craobh-òir Crann-óir
 craoibh gcrann
-crìch críoch
 crich críoch
+crìch críoch
 crisps criospaí
+#Cuach #Corn
 cuairteagan-gaoithe cuaifigh
 cuala chuala
 cuala gcuala
@@ -1334,21 +1104,32 @@ cualas gcualathas
 Cuchulainn Cú Chulainn
 cuI cúl
 cuideigin dhuine éigin
+#CuileanCraicte #CoileánCraiceáilte
 Cuil-lodair Cùil Lodair
 cuimhn'am cuimhne agam
-cùise-lagha cúise dlí
+#Cuimris #Breatnais
 cùisean-lagha cúiseanna dlí
+cùise-lagha cúise dlí
 culaibh cúl
 cùlaobh cúl
 cùlaobh gcúl
+#cultar #cultúr
 cultural cultúrtha
 Cumantan Teachtaí
+#CùmGàidhligBeò #CoinnighGàidhligBeo
 Cumhail Cumhaill
+#CupaABC #CornABC
+#CupaDavis #CornDavis
+#CupaMacamhlaigh #CornMacamhlaigh
+#CupaMhicamhlaigh #CornMhicAmhlaigh
+#CupaMhicAmhlaigh #CornMhicAmhlaigh
+#CupanaCamanachd #CornNaCamánachta
+#CupanaCruinne #CornanDomhain
 'cur ag cur
 cur-an-gnìomh cur i bhfeidhm
 cur-an-gnìomh cur i ngníomh
-Cur-an-Seilbh Infheistíochta
 cur-an-seilbh infheistiú
+Cur-an-Seilbh Infheistíochta
 curry curaí
 curseachadan caitheamh aimsire
 curseachadan siamsaíocht
@@ -1356,8 +1137,9 @@ cur-seachadan caitheamh aimsire
 cur-seachadan siamsaíocht
 cus i bhfad
 d' d'
-daga-phlasma phiostail plasma
+#DàBhòtSNP #DháVótaSNP
 daga-phlasma bpiostal plasma
+daga-phlasma phiostail plasma
 daga-plasma piostal plasma
 dainig tháinig
 dàinig tháinig
@@ -1366,12 +1148,16 @@ Dalriada Dál Riata
 Damascus an Damaisc
 Damascus na Damaisce
 damhain-allaidh damháin alla
+#dannsa #damhsa
+#Dannsa #Damhsa
 daoinibh daoine
 dà-phìos dhá phíosa
 daraig dair
 Darius Dáire
 darts dairteanna
 da-san dósan
+db' d'
+Db' D'
 d'bhràthair do dheartháir
 d'choimhearsnach do chomharsa
 d'chraiceann do chraiceann
@@ -1385,6 +1171,8 @@ deachaidh ndeachaigh
 deachas dheachthas
 deachas ndeachthas
 deadh rachadh
+#dealbh #grianghraf
+#Dealbh #Grianghraf
 Dealbh-Chluich Dráma
 dean dhéanfaidh
 dean ndéanfaidh
@@ -1399,36 +1187,43 @@ dèantar déantar
 dèantar dhéantar
 dearbhairean-liteachaidh litreoirí
 dearganaich saighdiúirí dearga
+#deasbad #díospóireacht
+#DeasbadBTAlba #DíospóireachtBTAlba
+#deasbadGU #díospóireachtGU
+#deasbadmor #díospóireachtmhór
 deasga-ionnsramaid painéal ionstraimí
 Dedan Déadán
 deicheadan tréimhsí deich mbliana
-déid rachaidh
 deid rachaidh
+déid rachaidh
 dèid rachaidh
-deidhinn rachainn
+#dèideagan #bréagáin
 deidheadh rachadh
-deighinn rachainn
+deidhinn rachainn
 deigheadh rachadh
 deigheamaid rachaimis
+deighinn rachainn
 deireach deireadh
 deireadh-sheachdain deireadh seachtaine
-deise-fànais culaith spáis
-deise-snàimh gculaith shnámha
-deise-snàimh culaithe snámha
 deiseachan-snàimh cultacha snámha
+deise-fànais culaith spáis
+deise-snàimh culaithe snámha
+deise-snàimh gculaith shnámha
 Delhi Deilí
 Demetrius Déimitrias
 dè'n cén
+#dènachdèannacoin #cadénachndéanannmadraí
 dengue deinge
+#Deò #Dé
 depot stáisiún
 derby dearbaí
 Dè-ròc Dè-Ròc
-detective bleachtaire
 detective bhleachtaire
+detective bleachtaire
 detective mbleachtaire
 Devonian Deavónach
-Devonian Dheavónach
 Devonian Deavónacha
+Devonian Dheavónach
 d'fhuair bhfuair
 d'fhuair fuair
 d'fhuaireadh bhfuarthas
@@ -1439,18 +1234,17 @@ d'fhuaras bhfuarthas
 d'fhuaras fuarthas
 dg lch
 d'gheatachan do gheataí
-Dh' D'
-Db' D'
 dh' d'
-db' d'
+Dh' D'
 dh'aindeoin in ainneoin
 dh'aindheoin in ainneoin
-Dhanieil Dhainéil
 dh'àirmheadh áiríodh
 dh'aithghearr go luath
 dhalta leanbh altrama
-Dhamascus an Damaisc
 Dhamascuis na Damaisce
+Dhamascus an Damaisc
+Dhanieil Dhainéil
+#DhanUisge #DonUisce
 dhaoine-uasal daoine uaisle
 dhaoinibh dhaoine
 Dhariuis Dháire
@@ -1465,20 +1259,20 @@ dheanarnh dhéanamh
 dhèantar dhéantar
 dhèantar ndéantar
 Dheathainn Dheathain
-dheidhinn rachainn
 dheidheadh rachadh
 dheidheamaid rachaimis
+dheidhinn rachainn
 dhéidh-san dhiaidh sin
 dh'eigh bhéic
 dh'eigh scairt
-dheighinn rachainn
 dheigheadh rachadh
 dheigheamaid rachaimis
+dheighinn rachainn
 dheisciobluibh dheisceabail
 dhenamh dhéanamh
 dheug dhéag
-dh'fhaighich d'fhiafraigh
 dh'falbh d'imigh
+dh'fhaighich d'fhiafraigh
 dh'fhaodte seans
 dh'fhaoidte seans
 dh'fheumar chaithfear
@@ -1500,9 +1294,9 @@ dhiùchd nocht
 dhiùchd nochtadh
 Dhiùrach Dhiúrach
 dhòigh-beatha shlí mhaireachtála
-dhòigh-obrach nós imeachta
 dhòighean-obrach nósanna imeachta
 dhòighean-teagaisg mhodhanna teagaisc
+dhòigh-obrach nós imeachta
 dhorduich d'ordaigh
 dhraghan bhuarthaí
 dhràma-sa dhráma-sa
@@ -1547,16 +1341,21 @@ doineannan stoirmeacha
 Dòmhnach Domhnach
 Dòmhnaich Domhnach
 Dòmhnaich Domhnaigh
-Dòmhnullach Dónallach
 Domhnullach Dónallach
+Dòmhnullach Dónallach
 domh-sa domsa
 dorch' dorcha
-draghan buarthaí
+#Dotaman #Dòtaman
 d'rachadh rachadh
+draghan buarthaí
 d'rainig shroich
 d'rainig sroich
 d'ràinig shroich
 d'ràinig sroich
+#drama #dráma
+#Drama #Dráma
+#dràma #dráma
+#Dràma #Dráma
 d'readh rachadh
 d'reigheadh rachadh
 d'reigheamaid rachaimis
@@ -1570,23 +1369,29 @@ d'rugadh rugadh
 d'sheirbhiseach do shearbhónta
 d'sheirbhiseach do sheirbhíseach
 d'sheirbhisich do sheirbhísigh
-d'thàinig tháinig
-dthàinig tháinig
 dthainig tháinig
 d'thainig tháinig
+dthàinig tháinig
+d'thàinig tháinig
 d'thaobh do thaobh
 d'thigh do theach
 d'thubhairt dúirt
 d'thubhairt ndúirt
-d'thug thug
 dthug thug
-d'thugadh tugadh
+d'thug thug
 dthugadh tugadh
+d'thugadh tugadh
 d'thuirt dúirt
 d'thuirt ndúirt
 Dtr Dr
 duais-airgid duais airgid
+#duaisean #duaiseanna
+#Duaisean #Duaiseanna
+#duaiseangàidhlig #duaiseannagàidhlig
+#DuaiseanGàidhlig #duaiseannaGàidhlig
+#dualchas #dúchas
 dualchasan traidisiúin
+#DualchasBeò #DúchasBeo
 dubhairt dúirt
 dubhairt ndúirt
 dùbhradh dúradh
@@ -1598,31 +1403,39 @@ duilleagan-obrach bileoga oibre
 duine-uasail duine uasail
 duirt dúirt
 duirt ndúirt
-Dùn-Èideann Dún Éideann
+#duneideann #dúnéideann
+#DunEideann #DúnÉideann
 Dun-Eideann Dún Éideann
+#DùnÈideann #DúnÉideann
+Dùn-Èideann Dún Éideann
 dungarees dungaraithe
 DVDan DVDanna
 dyslexia disléicse
 ea' sé ag
 Eabhraig Eabhrac
+#eachdraidh #stair
+#Eachdraidh #Stair
 ead iad
 Eadar-Reultach Idir-Réaltach
 Eadar-Reultaich Idir-Réaltach
 eadh ea
 eagal-san eagla
 ealain ealaíne
+#ealain #ealaín
+#Ealain #Ealaín
 ealan n-ealaíon
-earbchean fianna rua
+#Ealan #Ealaín
 earbaichean fianna rua
+earbchean fianna rua
+Earraghaidheal Earra-Ghàidheal
 Earra-Ghaidheal Earra-Ghàidheal
 Earra-Gháidheal Earra-Ghàidheal
-Earra-ghàidheal Earra-Ghàidheal
 Earraghàidheal Earra-Ghàidheal
+Earra-ghàidheal Earra-Ghàidheal
 Earraghàidhealach Earra-Ghàidhealach
-Earraghaidheal Earra-Ghàidheal
 Earraghaidheil Earra-Ghàidheil
-Ear-Thuath Thoir Thuaidh
 Ear-Thuath Oirthuaisceart
+Ear-Thuath Thoir Thuaidh
 Eber Éibir
 echo sé chomh
 Eclesiastes Cóiheilit
@@ -1631,10 +1444,10 @@ Edein Éidin
 Edoim Eadóm
 Edom Eadóm
 e-féin é féin
-e-fhèin é féin
-e-fhèin sé féin
 e-fhéin é féin
 e-fhéin sé féin
+e-fhèin é féin
+e-fhèin sé féin
 eg msh
 eH bhfuil
 eha ní
@@ -1644,11 +1457,11 @@ Eidean Éideann
 Eideann Éideann
 Èideann Éideann
 Èideard Éadbhard
-Èidinn Éideann
 Eidinn Éideann
+Èidinn Éideann
 Eigich Eigigh
-éigin éigean
 eigin éigin
+éigin éigean
 eil bhfuil
 'eil bhfuil
 'Eil An bhfuil
@@ -1658,9 +1471,10 @@ einnseanan-lùbaidh innill fhreangtha
 einnseanan-lùbaidh n-inneall freangtha
 Eire Éire
 Éirinn Éire
+#Èirinn #Éire
 eisdibh éistigí
-èisteabh éistigí
 éisteabh éistigí
+èisteabh éistigí
 éistibh éistigí
 Elah Éalá
 Elaim Éalám
@@ -1687,6 +1501,10 @@ Eòghain Eoghain
 Eòin Eoin
 eòin-mhara éin mhara
 eòlasan eachtraí
+#eorpa #eoraip
+#Eorpa #Eoraip
+#eòrpa #eoraip
+#Eòrpa #Eoraip
 eòrpach Eorpach
 Eorpaich Eorpaigh
 Ephesus Eifeasas
@@ -1717,17 +1535,17 @@ faclan-faire focail fhaire
 fags toitíní
 faic bhfeicfidh
 faic fheicfidh
-faiceadh fheicfeadh
 faiceadh bhfeicfeadh
-faiceamaid fheicfimis
+faiceadh fheicfeadh
 faiceamaid bhfeicfimis
-faicear fheicfear
+faiceamaid fheicfimis
 faicear bhfeicfear
-faicinn fheicfinn
+faicear fheicfear
 faicinn bhfeicfinn
+faicinn fheicfinn
+faictear bhfeicfear
 faictear feictear
 faictear fheicfear
-faictear bhfeicfear
 faidhlichean-fuaim comhaid fhuaime
 faidhlichean-fuaime comhaid fhuaime
 faigh bhfaighidh
@@ -1739,44 +1557,59 @@ falaisgean foloscadh
 Faolan Faolán
 Fàro Faró
 Fàro Fharó
+#farpais #comórtas
 feachdan-àrmachd fórsaí armtha
-fear-na-bainnse fear nuaphósta
-feàrr fearr
 feairrde fearrde
 feàirrde fearrde
+#fealladha #magadh
+fear-na-bainnse fear nuaphósta
+feàrr fearr
+#feasgar #tráthnóna
+#Feasgar #tráthnóna
+#fèineag #féinphic
+#Fèineag #Féinphic
 fèin-leigheasach féinleigheasach
 Feinne Féinne
 Fèinne Féinne
 feirg fearg
 feirg feirge
+#feis #feis
+#fèis #feis
+#Fèis #Feis
 fèis-ciùil feise ceoil
+#feisean #feiseanna
+#fèisean #feiseanna
+#Fèisean #Feiseanna
 Fèisgoil Feiscoil
 Feisidh Fèisidh
+#FeisIle #FeisÌle
+#fèislitalba #feislitalba
+#FèisLitAlba #FeisLitAlba
+feumar gcaithfear
 feumas caithfear
 feumidh caithfidh
-feumar gcaithfear
 feusgain-neamhnaid diúilicíní péarla
-fhac' fhaca
 fhac' bhfaca
+fhac' fhaca
 fhaca bhfaca
-'fhacal a fhocal
 'fhacal a bhriathar
+'fhacal a fhocal
 fhacas fhacthas
 fhaclan-faire fhocail fhaire
 'fhad a fhad
 fhàgail a fhágáil
-fhaiceadh fheicfeadh
 fhaiceadh bhfeicfeadh
-fhaiceamaid fheicfimis
+fhaiceadh fheicfeadh
 fhaiceamaid bhfeicfimis
-'fhaicinn a fheiceáil
+fhaiceamaid fheicfimis
 fhaicinn a fheiceáil
-fhaicinn fheicfinn
 fhaicinn bhfeicfinn
+fhaicinn fheicfinn
+'fhaicinn a fheiceáil
 fhaidhle-fiosrachaidh comhad fíricí
 fhaigh bhfaighidh
-'fhaighinn a fháil
 fhaighinn a fháil
+'fhaighinn a fháil
 fhaighneachd a fhiafraí
 fhalaisgean fholoscadh
 fhaotainn a fháil
@@ -1784,8 +1617,8 @@ fhaotuinn a fháil
 fharpais-chiùil comórtas ceoil
 fhasa fusa
 fhè' féin
-'fheachd a arm
 'fheachd a airm
+'fheachd a arm
 fheachd-phoilis fhórsa póilíneachta
 fheachd-phoilis fórsa póilíneachta
 fheachd-thèarainteachd fhórsa slándála
@@ -1797,11 +1630,11 @@ fhearas-mhòr éirí in airde
 'fhearg a fhearg
 fhear-gnothaich fhear gnó
 fhear-naidheachd fhear nuachta
-fhèarr fearr
 fhearr fearr
+fhèarr fearr
 fheàrr fearr
-Fhèinn Fhiann
 Fhèinn Fhéinn
+Fhèinn Fhiann
 fheirg bhfearg
 fheirg fhearg
 fhèis-chiùil fheis cheoil
@@ -1821,8 +1654,8 @@ fhios'm a fhios agam
 'fhìreantachd a fhíréantacht
 fhoillseachadh a fhoilsiú
 fhoirm-iarrtais fhoirm iarratais
-fhòn-làimhe fhón póca
 fhòn-làimhe fhóin póca
+fhòn-làimhe fhón póca
 fhosgladh a oscailt
 fho-thalamh faoi thalamh
 Fhransaidh Phroinsias
@@ -1832,57 +1665,74 @@ fhuaireas bhfuarthas
 fhuaireas fuarthas
 fhuaras bhfuarthas
 fhuaras fuarthas
-'fhuil a fhuil
 'fhuil a chuid fola
+'fhuil a fhuil
 fiadh-bheathaichean ainmhithe allta
 fiamh-se eaglasa
 fiamh-se n-eaglasa
+#FIANAIS #FIANAISE
 fichead fichid
 fileantaich cainteoirí líofa
 filmg_alba filmg_alba
 Fiobha Fìobha
-fios'am a fhios agam
 fiosam a fhios agam
+fios'am a fhios agam
 fiosan fógraí
 fir-dàimh fir mhuinteartha
 fir-gnothaich fir ghnó
 fir-rathaid fir bhóthair
 fir-tàileisg fir fichille
-fiù's fiú is
 fiu's fiú is
 fiùs fiú is
+fiù's fiú is
 Flanders bhFlóndras
 Flanders Flóndras
 flos fios
 flu fliú
+#foghlam #foghlaim
+#Foghlam #Foghlaim
 fònaichean-làimhe fóin phóca
 fo-phròsasairean fophróiseálaithe
+#fothiotalan #fotheidil
 Fr An tAth
 franchise saincheadúnas
 Francois François
 Fransaidh Proinsias
 Frisealaich Frisealaigh
+#Fuaran #Fuarán
 'G Ag
-g'eil go bhfuil
+#gabhancothrom #tapaighandeis
 Gadaich Gádaigh
 Gàdhlig Gàidhlig
+#Gàdhlig #Gàidhlig
 gaeh gach
 gaeilge Gaeilge
-Gaelige Gaeilge
 Gaeilige Gaeilge
+Gaelige Gaeilge
+#Gaelige #Gaeilge
+#Gàidheal #Gael
 gaidhealach Gaelach
 Gàidhig Gàidhlig
+#Gàidhig #Gàidhlig
+#gaidhilg #gàidhlig
+#gàidhilg #gàidhlig
+#gaidhlig #gàidhlig
+#Gaidhlig #Gàidhlig
 Gaidhlig_ Gàidhlig_
+#GàidhligaigBlas2013 #GàidhligagBlas2013
 Gàidhlig-Beurla Gàidhlig-Béarla
 Gàidhlige Gàidhlig
+#gaisgeach #gaiscíoch
 Galatia an Ghaláit
 Galatia na Galáite
 Galatianaich Galátaigh
 Galile an Ghailíl
 Gall-Ghaidhealaibh Gall-Ghàidhealaibh
+gangster gangstaer
 gaoith gaoithe
 gaoith gaoth
-gangster gangstaer
+#gaol #grá
+#Gaol #Grá
 Gartán Gartán
 Gartán nGartán
 GDP OTI
@@ -1891,6 +1741,7 @@ gealagan-làir plúiríní sneachta
 geamairean maoir ghéim
 geataichean-tèarainteachd geataí slándála
 Gedaliah Gadailiá
+g'eil go bhfuil
 Genesis Geineasas
 genus géineas
 ghach gach
@@ -1898,32 +1749,33 @@ Ghaelic Ghàidhlig
 Ghaelige Ghaeilge
 Ghàidhig Ghàidhlig
 ghaidhlig Ghàidhlig
+Ghaidhlig Ghàidhlig
+#Ghaidhlig #Ghàidhlig
 ghàidhlig Ghàidhlig
 Ghàidhlig Ghàidhlig
-Ghaidhlig Ghàidhlig
 Ghàidlig Ghàidhlig
 Ghalile na Gailíle
 ghaoith ghaoth
 ghaoith ngaoth
-ghealaich ngealach
 ghealaich ghealach
+ghealaich ngealach
 ghealaich-dhachaigh ghealach bhaile
-gheamair mhaor géim
 gheamair mhaoir ghéim
+gheamair mhaor géim
 gheamairean mhaoir ghéim
 ghearmailt Ghearmáin
 Ghearrloch Gheàrrloch
-gheibhte gheofaí
-gheibhte fhaightí
 gheibhte d'fhaightí
+gheibhte fhaightí
+gheibhte gheofaí
 gheibhtear gheofar
 ghèir ghéir
 gheobh gheobhaidh
 gheobhar gheofar
 Ghibeah Ghibeá
 Ghibeoin Ghibeón
-ghnàthas-cainnt chor cainte
 ghnàthasan-cainnt chora cainte
+ghnàthas-cainnt chor cainte
 Ghomorrah Ghomóra
 Ghosein Ghoisin
 ghràdh-sa ghrá-sa
@@ -1946,8 +1798,16 @@ Gini-Nuadh Nua-Ghuine
 glàn glan
 glasan-làimhe glais lámh
 glaschu Glaschú
+#glaschu #glaschú
+#Glaschu #Glaschú
+#glaschu2014 #glaschú2014
+#Glaschu2014 #Glaschú2014
+#Glaschu2017 #Glaschú2017
+#GLIOCAS #GAOIS
 gnàthasan-cainnt cora cainte
+#gnathasancainntùra #coracaintenua
 gneiss naghas
+#golf #galf
 Golspie Goillspidh
 Gomorrah Gomóra
 gothic gotach
@@ -1961,38 +1821,41 @@ grèim-bàis greim báis
 grèin grian
 grèin ngrian
 greisean-gnìomhachais socrúcháin oibre
-grid greille
+#grianach #grianmhar
 grid ghreille
+grid greille
 guerrillas guairillí
 guerrillas nguairillí
 Guiness Guinness
 gùintean-oidhche gúnaí oíche
-gu'n go dtí an
+gun gur
 gu-n go
 gu-n gur
+gu'n go dtí an
 gu'n gur
-gun gur
 Gunnaich Gunnaigh
 gura go raibh
+#Guru #Gúrú
 gus ar tí
 guth-se guthsa
 gutteral guttural
+h-18mh 18ú
 h-A hA
 Habhilah Havalá
-Hadrian Haidrian
 h-acainn-ciùil huirlise ceoil
+Hadrian Haidrian
 Hagai Hagaí
 Hàgar Hágár
 Hai Haigh
 haidh haigh
 Haileafags Halifax
-halleluiah aililiú
-hallelùiah aililiú
 h-Ailpean hAlpa
 Haiti Háítí
 Halafacs Halifax
 hAlba hAlbain
 H-ALBA hALBAN
+halleluiah aililiú
+hallelùiah aililiú
 Ham Hám
 Hamait Hamát
 h-Amalecich hAmailéicigh
@@ -2016,8 +1879,8 @@ Hasabiah Haisibiá
 Hasael Hazáéil
 hashtag haischlib
 Hawai'i Haváí
-Hawaiian Haváis
 Hawaiian Haváíoch
+Hawaiian Haváis
 h-e é
 h-eadh hea
 h-EALAN h-EALAÍONA
@@ -2032,8 +1895,8 @@ h-einnseanan-lùbaidh hinnill freangtha
 h-Éireann hÉireann
 Helsinki Heilsincí
 Hercules Earcail
-Herodiais Héaróidias
 Herod Héaród
+Herodiais Héaróidias
 Heroid Héaróid
 Hesboin Heisbeon
 Hesbon Heisbeon
@@ -2059,8 +1922,8 @@ hò hó
 h-Ò hÓ
 Hòbos Hóbos
 h-oileanach mac léinn
-h-oileanaich mic léinn
 hoileanaich mic léinn
+h-oileanaich mic léinn
 Holoferneis Holofarnaes
 Holofernes Holofarnaes
 Hòmair Hóiméar
@@ -2077,12 +1940,12 @@ h-Uí hUí
 h-Uibhistich hUibhistigh
 h-uile huile
 hurrah hurá
-Husai Húisí
 Husai Huiseá
-Iàcob Iacób
-Iàcoib Iacób
+Husai Húisí
 Iacob Iacób
+Iàcob Iacób
 Iacoib Iacób
+Iàcoib Iacób
 Iah an Tiarna
 Iaineatan Iónátán
 ianaid ionaid
@@ -2092,6 +1955,7 @@ iar-dhaonna iardhaonna
 Iàred Iárad
 iarraidh a iarraidh
 Iar-Thuath Iarthuaisceart
+#iasgach #iascaireacht
 Iason Iásón
 Ido Ideo
 Ido Ido
@@ -2099,14 +1963,14 @@ Iebusach Iabúsach
 Iehiel Ieíéil
 Iehòbha Iáivé
 Iehobhah Iáivé
-Iehoiada Iahóideá
 Iehoiacim Iahóiácaím
+Iehoiada Iahóideá
 Iehoram Iahórám
 Iehosaphait Iahóiseáfát
 Iehosaphat Iahóiseáfát
 Iehu Iéahú
-Iephuneh Iafuna
 Iephtah Iaftá
+Iephuneh Iafuna
 Ieremiah Irimia
 Iericho Ireachó
 Ieroboaim Iarobám
@@ -2115,18 +1979,19 @@ Ierusaleim Iarúsailéim
 Ierusalem Iarúsailéim
 Iese Ieise
 Iesebel Ízeibil
-Iesreel Izréil
 Iesreel hIzréil
+Iesreel Izréil
 Iesua Iéisiúa
 Ieus Ieúis
 i-fhèin í féin
 iha tá
 'il bhfuil
 Ile Ìle
-'Ille 'Ille
-'Ille A mhic
-'ille a mhic
+#Ile #Ìle
 ille a mhic
+'ille a mhic
+'Ille A mhic
+'Ille 'Ille
 'illean a bhuachaillí
 i'n sí an
 inbhich daoine fásta
@@ -2140,9 +2005,9 @@ Innd-Innse Indinéis
 innealan-ciùil gléasanna ceoil
 innse a insint
 Innse-Gall Inse Gall
+inspector chigire
 inspector cigire
 inspector gcigire
-inspector chigire
 inspector-sgoile cigire scoile
 inspector-sgoiltean cigire scoileanna
 insurance árachais
@@ -2159,15 +2024,17 @@ Ioel Ióéil
 Iohanan Ióchánán
 Ioirc Eabhrac
 iolairean-mara iolair mhara
+#iomain #iomáin
 ioma-mheadhain ilmheán
 ionadan-sgithidh ionaid sciála
 ionadan-spòrs ionaid spóirt
 Ionah Ióna
 ionaid-mheasaidh ionaid tástála
-Ionatan Iónátán
 Ionatain Iónátán
-'ionnsachadh a fhoghlaim
+Ionatan Iónátán
 ionnsachadh a fhoghlaim
+'ionnsachadh a fhoghlaim
+#ionnsachadh #foghlaim
 ionnsramaidean-ciùil gléasanna ceoil
 ionnsramaidean-ciùil uirlisí ceoil
 Iopa Iopae
@@ -2175,13 +2042,13 @@ Ioram Iórám
 Iordain an Iordáin
 Iòrdain an Iordáin
 Ìos' Íosa
-Iosiah Ióisíá
 Iòsaph Iósaef
 Iòsaph Seosamh
+Ioseiph Iósaef
+Iòseiph Iósaf
 Ioseph Iósaf
 Iòseph Iósaf
-Iòseiph Iósaf
-Ioseiph Iósaef
+Iosiah Ióisíá
 Iosua Iósua
 Iotam Iótám
 Iraq an Iaráic
@@ -2224,9 +2091,9 @@ kiosk both
 Korea an Cóiré
 la-an-diugh lá inniu
 là-an-diugh lá inniu
+Làbain Lábán
 Laban Lábán
 Làban Lábán
-Làbain Lábán
 Làbaraich Páirtí an Lucht Oibre
 labhraibh labhraígí
 Labrador Labradar
@@ -2247,11 +2114,19 @@ làithean-obrach laethanta oibre
 làithean-sa laethanta seo
 laithean-saora laethanta saoire
 làithean-saora laethanta saoire
+làithean-saora laethanta saoire
 làithean-solais solaslaethanta
 Làmech Láimic
 làmhan-sa lámha-sa
 làmh-sa lámhsa
 làmh-san lámhsa
+#lanagaidhlig #lánagàidhlig
+#LanaGaidhlig #LánaGàidhlig
+#LaNaGaidhlig #LáNaGàidhlig
+#LaNaGàidhlig #LáNaGàidhlig
+#lànaGàidhlig #lánaGàidhlig
+#LànaGàidhlig #LánaGàidhlig
+#LàNaGàidhlig #LáNaGàidhlig
 land landáil
 làn-deise lánchulaith
 làn-fhios lánfhios
@@ -2263,20 +2138,26 @@ Lasarus Lazaras
 làthair-sa láthairse
 làthair-san láthairse
 latha-luain lá an luain
+#lathamath #lámaith
+#LathaMath #LáMaith
+#LathanaGaidhlig #LánaGàidhlig
 latha-ne lá-sa
+#lathaninjaGàidhlig #láninjaGàidhlig
+#LathaTwitterNaGaidhlig #LáTwitterNaGàidhlig
+#LathaTwitterNaGàidhlig #LáTwitterNaGàidhlig
 LCDT LADT
-LGBT LADT
-LGDT LADT
 leabaidh-ospadail leaba ospidéil
+#leabhraichean #leabhair
+#Leabhraichean #Leabhair
 leabhraichean-cloinne leabhair do pháistí
+leabhraichean-eachdraidh leabhair staire
 leabhraichean-obrach leabhair oibre
 leabhraichean-raoin leabhair nótaí
-leabhraichean-eachdraidh leabhair staire
 leacagan-làir tíleanna urláir
-Lèah Léá
+leacan-uaighe leaca uaighe
 Leah Léá
 Leah Leah
-leacan-uaighe leaca uaighe
+Lèah Léá
 learn liom
 leasachaidhean feabhsúcháin
 leatha-se léise
@@ -2286,8 +2167,8 @@ Lèbhi Léiví
 Lebhitheach Léivíteach
 Lebhithich Léivítigh
 lehòbha Iáivé
-lèintean-t t-léinte
 leintean-t t-léinte
+lèintean-t t-léinte
 Lèir-Sgrios Léirscrios
 leithid-sa leithéidse
 leithid-san leithéidse
@@ -2301,22 +2182,30 @@ leth-chrogallan leathchrogaill
 leth-laghail leathdhleathach
 leth-robotan leathróbait
 leth-thréibh leath-threibh
+#leugh #léigh
+#Leugh #Léigh
+#leughadh #léamh
+#LeughGàidhlig #LéighGàidhlig
 leum-lùbaidh léim freangtha
 leur léir
+LGBT LADT
+LGDT LADT
 Libnah Libneá
 lift síob
 l'ig léig
 linn-se linnse
 Lionail Lìonail
 Lisbon Liospóin
+#litreachas #litríocht
+#Litreachas #Litríocht
 lò lá
 locale logchaighdeán
 lochan-mara lochanna mara
 logo lógó
 loidhne-bhrisidh líne bhristeach
 loidhne-pheansail líne phionsail
-LOL GOA
 lol goa
+LOL GOA
 lomall Imeall
 lona Iona
 lorgan-coise lorga coise
@@ -2324,8 +2213,8 @@ losa Íosa
 losal íseal
 Lot Lót
 lot-s' ghabháltas-sa
-Lùcas Lúcás
 luaireagan gearraí róid
+Lùcas Lúcás
 luchd-amhairc lucht féachana
 luchd-amharc lucht féachana
 luchd-aoraidh lucht adhartha
@@ -2362,8 +2251,8 @@ luchd-taice lucht tacaíochta
 luchd-tèarainteachd lucht slándála
 luchd-ùidh grúpa sainleasa
 luchd-ùidhe grúpa sainleasa
-ludhach nGiúdach
 ludhach Giúdach
+ludhach nGiúdach
 lugha lú
 luim lom
 luing long
@@ -2373,32 +2262,21 @@ luing-fhànais spáslong
 Lùn Lún
 Lunainn Londain
 Lunnain Londain
+#Lunnain #Londain
+#lunnainn #londain
+#Lunnainn #Londain
+#lusan #lusanna
+#LusNaTùise #Labhandar
 Lùtair Liútar
 m' m'
-m'ainm-sa m'ainmse
-m'ainme-sa m'ainmse
-m'Athar-sa m'Atharsa
-m'bheatha mo bheatha
-m'chridhe mo chroí
-m'eanchainn-sa m'inchinnse
-m'eudail mo chuisle
-m'eudail mo chroí
-m'fhàgail mé a fhágáil
-m'fhaileas mo scáth
-m'fhèin-mholadh m'fhéinmholadh
-m'ghuth mo ghuth
-m'mhac mo mhac
-m'shùilean mo shúile
-m'thaobh mo thaobh
-m'thighearn mo thiarna
-m'thighearna mo thiarna
 Maachah Mácá
 Maaseiah Másaeiá
-Maccabeus Macabaech
 Maccabeus an Macabaech
+Maccabeus Macabaech
 MacDhomhnaill MacDhòmhnaill
 MacDhughaill MacDhùghaill
 Macedonia An Mhacadóin
+#machair #machaire
 MacNeill MacNèill
 Mac-Talla Macalla
 MacThomais MacThòmais
@@ -2410,56 +2288,70 @@ Mahalalil Mahalalael
 maic maidhc
 maic-fhosgailte maidhc oscailte
 Màili Mailí
+m'ainme-sa m'ainmse
+m'ainm-sa m'ainmse
 maise-gnùis cosmaidí
 Malawi an Mhaláiv
 Malawi na Maláive
 manam m'anam
 Manannan Manannán
 Manaseh Manaise
+#Manchester #Manchain
 Mandarin Mandairínis
 Manoah Mánóach
 maoimean-slèibhe maidhmeanna sléibhe
 Màrs Mars
 marsin mar sin
 Ma-ruibhe Ma-Ruibhe
+#MasMath #MásMaith
 m'Athair-sa m'Athairse
 màthar-chéile máthar chéile
+m'Athar-sa m'Atharsa
 mathte maite
-mè mé
+m'bheatha mo bheatha
+m'chridhe mo chroí
 me msh
+mè mé
+meadhanan-sòisealta meáin shóisialta
+meadhanan-sòisealta meán sóisialta
 meadhan-Beurla Béarla
 meadhan-Beurla Bhéarla
 meadhan-Gàidhlig Gàidhlig
 meadhan-Gàidhlig Ghàidhlig
 meadhan-latha meán lae
-meadhanan-sòisealta meáin shóisialta
-meadhanan-sòisealta meán sóisialta
 meanbh-robòtaics mionróbatach
+m'eanchainn-sa m'inchinnse
 measg-ne meascna
 measg-san meascsa
 measg-se meascsa
 Mecca Meice
 Medusa Meadúsa
-mèis mias
 mèis mhias
+mèis mias
 Menelaus Meinealás
 Mesiah Meisias
-Mesolithic Mhéisiliteach
 Mesolithic Méisiliteach
 Mesolithic Méisiliteacha
+Mesolithic Mhéisiliteach
 Mesulam Misiulám
 Metis Métis
 metre méadar
 metre mhéadar
 Metùselah Matúsalach
+m'eudail mo chroí
+m'eudail mo chuisle
 Mexico Meicsiceo
 Mexico Mheicsiceo
 m'fhacal m'fhocal
 m'fhacal-sa m'fhocalsa
-m'fhalt m'fholt
+m'fhàgail mé a fhágáil
 m'fhaicinn m'fheiceáil
+m'fhaileas mo scáth
+m'fhalt m'fholt
+m'fhèin-mholadh m'fhéinmholadh
 m'fhuil-sa m'fhuilse
 Mghr Uas
+m'ghuth mo ghuth
 mh ú
 mhacaibh mhic
 Mhacedonia na Macadóine
@@ -2483,22 +2375,22 @@ Mhaor-Cladaich Garda Cósta
 Mhata Mhatha
 mhàth mhaith
 mhàthair-chéile mháthair chéile
-mhàthar-chéile mháthar chéile
 mhàthair-mhullaich mháthairmhullach
+mhàthar-chéile mháthar chéile
 mheadhan-astair mheánfhaid
-mheadhan-latha mheán lae
 mheadhan-là mheán lae
+mheadhan-latha mheán lae
 mheadhan-oidhche mheán oíche
 mheanbh-rèile mhion-iarnród
 Mhedia na Méide
-mhèis mias
 mhèis mhias
+mhèis mias
 Mherari Mharáraí
 Mhgr Uasal
 mhi mise
 Mhicah Mhíceá
-mhic-an-duine daonna
 mhic-an-duine daoine
+mhic-an-duine daonna
 mhic-an-duine dhaoine
 MhicNèill Mhac Néill
 MhicNèill Mhic Néill
@@ -2511,10 +2403,10 @@ mhithich mhithid
 mhnaoi bhean
 mhnaoi mbean
 Mhoaib Mhóáb
+mhodhan-obrach mhodhanna oibre
 mhodh-obrach mhodh oibre
 mhodh-obrach modh oibre
 mhodh-teagaisg mhodh teagaisc
-mhodhan-obrach mhodhanna oibre
 mhóir mhór
 Mhoire Mhuire
 Mhóir-roinn Mhór-Roinn
@@ -2533,25 +2425,27 @@ Micaiah Míocáiá
 Mìcheil Michíl
 Midian Midián
 Midianaich Midiánaigh
+mi-fhein mé féin
 mi-fhéin mé féin
 mi-fhèin mé féin
-mi-fhein mé féin
 mi-fhìn mé féin
 migraines freanga cinn
 Milcah Milceá
-million milliún
 million mhilliún
-mi'm mé i mo
+million milliún
 mi'm mé an
+mi'm mé i mo
 mi'n mé an
 mion-fhiosrachaidh mionsonraí
 mìosan-solais solasmhíonna
 Mìro Míro
 misean-ne misean-na
+#Misneachd #Misneach
 Mispeh Mizpeá
 m'làimh mo láimh
 m'làimh mo lámh
 mlnich mínigh
+m'mhac mo mhac
 mnaoi bean
 mnaoi bhean
 mnaoi mbean
@@ -2562,11 +2456,22 @@ Moab Mhóáb
 Moab Móáb
 Moabaich Móábaigh
 m'obair-sa m'obairse
-mobile soghluaiste
 mobile fón póca
+mobile soghluaiste
+#mod #mòd
 Mod Mòd
+#Mod #Mòd
+#mod2012 #mòd2012
+#mod2013 #mòd2013
+#Mod2013 #Mòd2013
+#Mòd2013 #Mòd2013
+#mod2014 #mòd2014
+#Mod2014 #Mòd2014
+#Mòd2015 #Mòd2015
+#Mod2016 #Mòd2016
 modhan-obrach modhanna oibre
 modhan-teagaisg modhanna teagaisc
+#modphaislig2013 #mòdphàislig2013
 Moire Muire
 Móir-roinne Mór-Roinne
 molaidheadan moltaí
@@ -2582,7 +2487,11 @@ motor-bike gluaisrothar
 msa srl
 msaa srl
 m'shluagh mo shlua
+m'shùilean mo shúile
 msu msu
+m'thaobh mo thaobh
+m'thighearn mo thiarna
+m'thighearna mo thiarna
 mù mú
 Muàmbo Muámbo
 mucan-mara míolta móra
@@ -2591,20 +2500,22 @@ mu-n sula
 Munich München
 murnuigh m'urnaí
 'N An
-'Na Ina
 'n-a ina
+'Na Ina
 Naaman Námán
 Nabal Nábál
 Nabot Nábót
 nacb nach
-nach'eil nach bhfuil
 nacheil nach bhfuil
+nach'eil nach bhfuil
 nacli nach
 Nadab Nádáb
 naeh nach
 Nahoir Náchór
 Nàhor Náchór
 Nahson Nachsón
+#naidheachd #nuacht
+#naidheachdan #nuacht
 na'm dá
 naomh' naofa
 naomh-sa naofa
@@ -2613,8 +2524,8 @@ Naples Napoli
 narran Narann
 Narrann Narann
 Nasarach Nazórach
-Nàsaret Nazarat
 Nasaret Nazarat
+Nàsaret Nazarat
 Nasareth Nazarat
 Natan Nátán
 Natànael Natanael
@@ -2638,12 +2549,12 @@ Ninebhah Nínivé
 Ninebheh Nínivé
 nior níor
 Nisich Nisigh
-nìtear déanfar
-nìtear dhéanfar
-nìtear ndéanfar
 nitear déanfar
 nitear dhéanfar
 nitear ndéanfar
+nìtear déanfar
+nìtear dhéanfar
+nìtear ndéanfar
 nìthear déanfar
 nìthear dhéanfar
 nìthear ndéanfar
@@ -2651,6 +2562,7 @@ Nòah Naoi
 Nobeil Nobel
 n-oileanaich mic léinn
 nollaig Nollaig
+#NollaigChridheil #NollaigShona
 nollaige Nollag
 Noro-Bhìorais Noraivíris
 Noro-Bhìoras Noraivíreas
@@ -2664,31 +2576,37 @@ oa na
 Obadiah Obaidiá
 Obain Òbain
 Óbain Òbain
+#oban #òban
 Oban Òban
+#Oban #Òban
 Óban Òban
 Obed Obaed
-òbh ó
 obh ó
+òbh ó
 obhan ochón
 obh-obh ó ó
-obrachaidhean oibríochtaí
 obrachaidhean n-oibríochtaí
+obrachaidhean oibríochtaí
 ochan ochón
 Odin Óidin
 Oedipus Éideapúis
 Oedipus Éideapús
 'òglach a sheirbhíseach
-Oh' D'
 oh ó
+Oh' D'
 Ohoh Óhó
-Oidhche-Challainn Oíche Chaille
 Oidhche-Challain Oíche Chaille
+Oidhche-Challainn Oíche Chaille
+#oidhcheshamhna #oícheshamhna
+#OidhcheShamhna #OícheShamhna
 oifisean-rannsachaidh oifigí taighde
 'oighreachd a oidhreacht
 'oighreachd-san a oidhreachtsa
-oighreachd-san oidhreachtsa
 oighreachd-san n-oidhreachtsa
+oighreachd-san oidhreachtsa
 Òigh-sgeir Óghsceir
+#oigridh #ógra
+#òigridh #ógra
 oileanaich mhic léinn
 oileanaich mic léinn
 oinc áinc
@@ -2707,6 +2625,9 @@ Onias hOinias
 Onias Oinias
 Oops Úps
 Ophir Óifír
+#òrain #amhráin
+#Òrain #Amhráin
+#òran #amhrán
 orca olca
 òrdughan-losgaidh orduithe loiscthe
 Òrla Órla
@@ -2732,6 +2653,7 @@ paperback gclúdach bog
 Paras Páras
 Paris Páras
 ParlamaidAlba Parlaimint na hAlban
+#partaidh #cóisir
 PC-achas ceartaiseacht pholaitiúil
 p-d r-phost
 pèileagan muca mara
@@ -2747,13 +2669,13 @@ Phadraig Phádraig
 Phàdruig Phádraig
 Phairiseacha a Fhairisíneacha
 Phaislig Phàislig
-phanto phanta
 phannalan-comhairleachaidh phainéil chomhairleacha
+phanto phanta
 phàrantan-san thuismitheoirí
-Phàraoh Faró
 Pharaoh Fhorainn
 Pharaoh Fhorann
 Pharaoh Forann
+Phàraoh Faró
 Pharis Pháras
 phèileag mhuc mhara
 Phersia na Peirse
@@ -2764,19 +2686,19 @@ phìob-mhòr phíob mhór
 phìob-sheirbheis phíopa seirbhíse
 phiuthair dheirfiúr
 phlanaid-dhachaigh phláinéad baile
-phlanaid-thlachd pláinéad aoibhinn
 phlanaid-thlachd bpláinéad aoibhinn
+phlanaid-thlachd pláinéad aoibhinn
 phlana-leasachaidh phlean forbartha
 phoca-dhroma mhála droma
 Phòil Phóil
-PhortRìgh Phort Rí
 PhortRigh Phort Rí
+PhortRìgh Phort Rí
 Phost-Oifis Oifig an Phoist
 phreas-aodaich phrios éadaigh
 phrèiridh fhásach féir
 phremiership phríomhroinn
-phrìomh phríomh
 phriomh phríomh
+phrìomh phríomh
 phrog chláir
 phrog chlár
 phrothaidean bhrabús
@@ -2786,6 +2708,7 @@ Pilat Píoláit
 Pìlat Píoláit
 ping-pong ping pang
 piuthair deirfiúr
+#planaGàidhlig #pleanGàidhlig
 Plato Platón
 Pliny Plinias
 pls ldt
@@ -2796,16 +2719,17 @@ pocannan-plastaig málaí plaisteacha
 podcast podchraoladh
 podcasts podchraoltaí
 Pompeii Poimpé
-pool púl
 pool púil
+pool púl
 poor_mouse poor_mouse
+#PopUpGàidhealtachd #PopUpGaeltacht
 Pòrt Port
-PortRìgh Port Rí
-PortRìgh bPort Rí
-PortRigh Port Rí
-PortRigh bPort Rí
-Portrigh Port Rí
 Portrigh bPort Rí
+Portrigh Port Rí
+PortRigh bPort Rí
+PortRigh Port Rí
+PortRìgh bPort Rí
+PortRìgh Port Rí
 post-blog blagphostáil
 post-bloga blagphostáil
 poster póstaer
@@ -2825,6 +2749,7 @@ puirt-a-beul poirt-as-béal
 puirt-à-beul poirt-as-béal
 Punjab an Phuinseaib
 Punjabi Puinseáibis
+#punk #punc
 Qatar Catar
 Quebec Québec
 Quito Caíteo
@@ -2832,15 +2757,20 @@ Quíto Caíteo
 ra lena
 Rabah Rabá
 Rabbi Raibí
-Rabsaceh an tArdoifigeach
 Rabsaceh an Ardoifigeach
 Rabsaceh an Ardoifigigh
+Rabsaceh an tArdoifigeach
 Racheil Ráchael
 rachtar téitear
-raffle crannchuir
+#radio #raidió
+#Radio #Raidió
+#radionangaidheal #raidiónangael
+#RadionanGaidheal #RaidiónanGael
+#RadioNanGaidheal #RaidióNanGael
 raffle chrannchuir
-raffle crannchur
 raffle chrannchur
+raffle crannchuir
+raffle crannchur
 raffle gcrannchur
 Raguel Raguéil
 Rahab Rácháb
@@ -2859,8 +2789,8 @@ Ramot-gilead Rámot Gileád
 Ranza Raonasa
 raoin-rocaid raoin roicéad
 raon-fhànais raon spáis
-rathad-se mbealachsa
 rathad-se bhealachsa
+rathad-se mbealachsa
 Rathaig Ràthaig
 readh rachadh
 Rebecah Ribeacá
@@ -2906,10 +2836,11 @@ RTs RTanna
 Ruadh-Ghleann Rua-Ghleann
 Ruàin Ruáin
 Ruàn Ruán
+#rugbaidh #rugbaí
 ruig sroichfidh
 ruige dtí
-ruigtear sroichtear
 ruigtear shroichtear
+ruigtear sroichtear
 rumannan-cadail seomraí leapa
 rumannan-cadail sheomraí leapa
 rùn-sa rúnsa
@@ -2918,14 +2849,14 @@ Rwanda Ruanda
 s' is
 'S Is
 S' Is
-SAA SAM
-'Sa Sa
-'Sa San
-'sa sa
 'sa is a
+'sa sa
 'sa san
 'sa' sa
 'sa' san
+'Sa Sa
+'Sa San
+SAA SAM
 sàbhalaidhean coigilteas
 Sadoc Zádóc
 Sadusaich Sadúcaigh
@@ -2937,8 +2868,8 @@ Salah Seálach
 Salum Sealúm
 Samaritanaich Samáraigh
 Sami Sáimis
-Sámi Sáimis
 Sami Sáimise
+Sámi Sáimis
 Sámi Sáimise
 samurai samúraí
 san ina
@@ -2947,42 +2878,46 @@ san ina
 'San Sa
 'San San
 sanasan-làimhe comharthaí láimhe
-'Sann Is ann
-'sann is ann
-s'ann is é
-s'ann is
-S'ann Is ann
 sann is ann
+'sann is ann
+s'ann is
+s'ann is é
+'Sann Is ann
+S'ann Is ann
 Santiago Saintiagó
-saor-làithean saoire
-saor-làithean laethanta saoire
 saor-laithean laethanta saoire
 saorlàithean laethanta saoire
-làithean-saora laethanta saoire
+saor-làithean laethanta saoire
+saor-làithean saoire
 Sàrah Sárá
-Sàrai Sárá
-Sarai Seárái
 Sarai Sáraí
+Sarai Seárái
+Sàrai Sárá
 Sarajevo Sairéavó
+#sàrchoin #sármhadraí
 sarin sarain
+#Sasainn #Sasana
 Satan Sátan
 Sathairne Sathairn
 Scalpaich Scalpaigh
 Schd Co
 score scór
+se is é
 'se is é
+s'e is é
 'Se Is é
 S'e Is é
-s'e is é
-se is é
 sè sé
 seachadan seachtóidí
 seachdains seachtaine seo
-seachdain-sa seachtain seo
 seachdain-sa seachtaine seo
+seachdain-sa seachtain seo
 sealbhadairean-dachaighean úinéirí tí
-Sèba Seabá
+#seanfhacail #seanfhocail
+#Seanfhacail #Seanfhocail
+#seanfhacal #seanfhocal
 Seba Seabá
+Sèba Seabá
 Sebede Zeibidé
 Sebulun Zabúlun
 sec seo
@@ -2992,9 +2927,11 @@ seD seo
 Sedeciagh Zidicíá
 Sedeciah Zidicíá
 seilleanan-meala beacha meala
+#seinn #canadh
+#Seinn #Canadh
 Seir Saeír
-seirbhis-teàrainteachd seirbhís slándála
 seirbhis-teàrainteachd seirbhíse slándála
+seirbhis-teàrainteachd seirbhís slándála
 seiseanan-cluiche seisiúin
 Selah Séalá
 Sem Séam
@@ -3012,8 +2949,8 @@ Seoras Seòras
 Seoul Súl
 Serah Searach
 seribhis seirbhís
-serpulid sheirpíneach
 serpulid seirpíneach
+serpulid sheirpíneach
 Serubabel Zarubáibil
 Serug Sarúg
 serve seirbhís
@@ -3022,14 +2959,19 @@ sgaoilidhean astuithe
 sgàth-sa shonsa
 sgeape scartha
 sgeòil-sa scéalsa
+#sgeulachdan #scéalta
 sgilean-beatha scileanna saoil
 sgilean-cànain scileanna teanga
 sgioba-ceasnachaidh foireann cheistiúcháin
 sgirean-croitearachd ceantair chrochtóireachta
+#sgith #tuirseach
+#sgìth #tuirseach
 sgitheanach Sgitheanach
 Sgitheanaich Sgitheanaich
 Sgìtheanaich Sgitheanaich
 Sgoil-Earraich Scoil Earraigh
+#sgoinneil #iontach
+#Sgoinneil #Iontach
 sgrìobahdh scríobh
 sguataichean scuait
 Shadoic Zádóc
@@ -3083,8 +3025,8 @@ shlighean-sa bhealaí
 shliochd-sa shliochtsa
 shluagh-sa phobalsa
 shluaigh-sa phobalsa
-Shòdoim Shodam
 Shodoim Shodom
+Shòdoim Shodam
 shon-sa shonsa
 shon-san shonsa
 shùbhan-craoibh shútha craobh
@@ -3092,14 +3034,15 @@ shùilean-sa shúilese
 shùilibh shúile
 shùl shúl
 'si is í
-'Si Is í
 Si Is í
-'siad is iad
+'Si Is í
 siad is iad
+'siad is iad
 sib sibh
 Siba Zíbeá
 Siberia an tSibéir
 Siclag Zicleag
+#sìde #aimsir
 Sidon Síodón
 Sihon Síochon
 silage sadhlas
@@ -3109,8 +3052,8 @@ Silpah Zilpeá
 Simei Simeí
 Simeon Simeon
 Sìmon Síomón
-Simri Zimrí
 Simri Shimrí
+Simri Zimrí
 Sine Síne
 Sìne Síne
 Sineag Sìneag
@@ -3122,44 +3065,73 @@ Sisera Síseará
 Sistine Sistíneach
 sitigean cairn aoiligh
 Siudaig Siùdaig
+#Siuthad #LeanOrt
 siuthadaibh ar aghaidh libh
 siuthaidibh ar aghaidh libh
 Skeabost Sgeitheabost
 sleepover cuairt codlata
-Sléite Slèite
 Sleite Slèite
+Sléite Slèite
 slògh sluaite
 slos síos
 sm rn
+#SMWdeasbad #SMWdíospóireacht
+#smwglaschu #smwglaschú
+#SMWGlaschu #SMWGlaschú
+#smwglaschu2012 #smwglaschú2012
+#SMWGlaschu2012 #SMWGlaschú2012
+#SMWGlasgow #SMWGlasgow
+#SMWLitirGleBheag #SMWLitirAnBheag
 sn an
+#sneachd #sneachta
 Soar Zoar
 Sòcraitèas Sócraitéas
 Socrates Sócraitéas
 Sòdom Sodom
+#Soillse #Soilse
 Sokrates Sócraitéas
 son-ne sonsa
 son-se sonsa
 soo seo
 soorsa sórt
-SP_LocalGovt SP_LocalGovt
 spaghetti spaigití
+#SP_Connect #SP_Connect
+#sp_educ #sp_educ
+#SP_educ #SP_educ
+#SP_Educ #SP_Educ
 speuclairean spéaclaí
 speuclairean-grèine spéaclaí gréine
-Sport Spórt
+SP_LocalGovt SP_LocalGovt
+#spors #spórt
+#spòrs #spórt
+#Spòrs #Spórt
+#SpòrsAnLà #SpórtAnLae
+#SpòrsnaBliadhna #SpórtnaBliana
+#sporsnaseachdain #spórtnaseachtaine
+#Sporsnaseachdain #Spórtnaseachtaine
+#spòrsnaseachdain #spórtnaseachtaine
 Spòrsnaseachdain Spórtnaseachtaine
+#Spòrsnaseachdain #Spórtnaseachtaine
+#SpòrsnaSeachdain #SpórtnaSeachtaine
+#SpòrsnaSeachdainn #SpórtnaSeachtaine
+#spòrsRnG #spórtRnaG
+Sport Spórt
+#SP_outreach #SP_outreach
+#SP_Outreach #SP_Outreach
 squad scuad
 Sraid Sráid
 sreathaibh sraitheanna
 Srrchd Contae
+#srùbag #bolgam
 staidhre-teine staighre tine
 staidhre-theine staighre tine
-stèisean-chumhachd stáisiún cumhachta
 stèiseanan-bhòtaidh stáisiúin vótála
 stèiseanan-fànais stáisiúin spáis
 stèiseanan-rèile stáisiúin traenach
+stèisean-chumhachd stáisiún cumhachta
 stèisein-chumhachd stáisiúin chumhachta
-Stèornabhagh Steòrnabhagh
 Steornabhagh Steòrnabhagh
+Stèornabhagh Steòrnabhagh
 Steornabhaigh Steòrnabhaigh
 Stiubhairt Stiùbhairt
 Stiubhart Stiùbhart
@@ -3175,50 +3147,57 @@ stuthan-teatha gréithe le haghaidh an tae
 sùbhan-craoibh sútha craobh
 subway traein faoi thalamh
 Sudan-a-Deas an tSúdáin Theas
+#SùilairSpòrs #SúilarSpórt
 sùilibh súile
 sùl súl
 sumo súmó
 s'urrainn is féidir
 survey suirbhé
-Sù-Sì Sushi
 sù-sì sushi
+Sù-Sì Sushi
 swastika svaistice
 Syria an tSiria
-t-Oban t-Òban
 ta atá
 ta tá
 tabhaireadh dtabharfadh
 tabhaireadh tugadh
 tabhaiream tugaim
+tabhaireamaid dtabharfaimis
 tabhaireamaid tugaimis
 tabhairibh tugaigí
 tabhairinn dtabharfainn
-tabhaireamaid dtabharfaimis
 tabhartais-loisgte íobartha loiscthe
 tabhartais-peacaidh íobartha peaca
 tabhartais-pheacaidh íobartha peaca
+tabhartasan-dibhe íobairtí dí
+tabhartasan-loisgte íobairtí loiscthe
+tabhartasan-sìth híobairtí síochána
+tabhartasan-sìth íobairtí síochána
+tabhartasan-sìth n-íobairtí síochána
 tabhartas-dibhe deoch ofrála
 tabhartas-peacaidh íobairt pheaca
 tabhartas-togta íobairt tógtha
-tabhartasan-dibhe íobairtí dí
-tabhartasan-loisgte íobairtí loiscthe
-tabhartasan-sìth íobairtí síochána
-tabhartasan-sìth híobairtí síochána
-tabhartasan-sìth n-íobairtí síochána
+#tachartas #imeacht
+#tachartasan #imeachtaí
+#Tadhal #Cuairt
+#TADHAL #CUAIRT
 tadhalaibh tugaigí cuairt ar
 t-adhartas dul chun cinn
+#taghadh11 #toghchán11
 taghain cait chrainn
 Tahiti Taihítí
-taic-bheatha tacaíocht beatha
+#taic #tacaíocht
+#Taic #Tacaíocht
 taic-bheatha tacaíochta beatha
+taic-bheatha tacaíocht beatha
 taigh-bhìdh bhialann
 taigh-cèilidh teach céilí
 taigh-dubh dteach dubh
 taighean-aoigheachd tithe aíochta
-taighean-cuibhle tithe rotha
 taighean-cuibhle dtithe rotha
-taighean-dubha tithe dubha
+taighean-cuibhle tithe rotha
 taighean-dubha dtithe dubha
+taighean-dubha tithe dubha
 taighean-ionnlaid tithe folctha
 taighean-seinnse tithe tábhairne
 taighean-sgoile tithe scoile
@@ -3233,18 +3212,19 @@ taim atáim
 taim táim
 tàineas dtángthas
 tàineas thángthas
+tainig tháinig
 tàinig dtáinig
 tàinig tháinig
-tainig tháinig
 tàinigeas dtángthas
 tàinigeas thángthas
 tainm d'ainm
-taipwriter clóscríobhán
 taipwriter chlóscríobhán
+taipwriter clóscríobhán
 taipwriter gclóscríobhán
 Taiwan an Téaváin
 Talamhach Domhandach
 Talamhaich Domhandaigh
+#tàlant #bua
 t-amadan-mòintich t-amadán móinteach
 Tamar Támár
 Tàmar Támár
@@ -3261,9 +3241,9 @@ tarlaidh tarlóidh
 tàrlaidh tarlóidh
 Tarsis Tairsís
 tba tá
-TBh Tf
-Tbh Tf
 tbh tf
+Tbh Tf
+TBh Tf
 td lch
 tdd lgh
 tè bhean
@@ -3272,11 +3252,13 @@ tè cheann
 tè gceann
 t-each-uisge t-each uisce
 teagamhan amhras
+#teagasg #teagasc
+#Teagasg #Teagasc
 Tèarlach Séarlas
 techniques teicnící
 teicneòlaichean-rocaid teicneoirí roicéid
-téid rachaidh
 teid rachaidh
+téid rachaidh
 tèid rachaidh
 tèidear rachfar
 t'eile té eile
@@ -3297,54 +3279,40 @@ Tèrah Tearach
 teraphim taráfaím
 territories críocha
 tè-siubhail bean siúil
+#teth #te
 tfhocail d'fhocail
 tfhocal d'fhocal
 th' atá
-thabhartasan-sìth íobairtí síochána
-thabhartasan-loisgte íobairtí loiscthe
-thabhartas-loisgte íobairt loiscthe
-thabhartas-luaisgte dhleacht ar leith
-thabhartas-peacaidh íobairt pheaca
-thachair tharla
-tha'd tá siad
-thaic-airgid thacaíocht airgid
-thaighean-seinnse thithe tábhairne
-thalamh-àitich thalamh curaíochta
-tha'm tá an
-tha'n tá an
-th'aca atá acu
-th'agad atá agat
-th'agaibh atá agat
-th'agaibh atá agaibh
-th'againn atá againn
-th'agam atá agam
-Thai Téalannach
-th'aig atá ag
-th'aige atá aige
-thaigh-dubh theach dubh
-thaighean-cuibhle thithe rotha
-thaighean-dubha thithe dubha
-thaipwriter chlóscríobhán
-th'air atá ar
-th'air atá tar éis
-thalla imigh leat
-th'ann atá ann
-th'annad atá ionat
-th'annam atá ionam
-th'annta atá iontu
-thar-Chriochan trasteorann
-Tharsis Thairsís
-thats that's
-th'ort atá ort
 tha tá
 thà tá
 thabhaireadh thabharfadh
-thabhairinn thabharfainn
 thabhaireamaid thabharfaimis
+thabhairinn thabharfainn
+thabhartasan-loisgte íobairtí loiscthe
+thabhartasan-sìth íobairtí síochána
+thabhartas-loisgte íobairt loiscthe
+thabhartas-luaisgte dhleacht ar leith
+thabhartas-peacaidh íobairt pheaca
+th'aca atá acu
+thachair tharla
+tha'd tá siad
+th'agad atá agat
+th'agaibh atá agaibh
+th'agaibh atá agat
+th'againn atá againn
+th'agam atá agam
+Thai Téalannach
+thaic-airgid thacaíocht airgid
+th'aig atá ag
+th'aige atá aige
 thaigh-aoigheachd theach aíochta
-thaigh-tughaidh theach ceann tuí
+thaigh-dubh theach dubh
 thaighean-aoigheachd thithe aíochta
+thaighean-cuibhle thithe rotha
+thaighean-dubha thithe dubha
+thaighean-seinnse thithe tábhairne
 thaighean-tughaidh tithe ceann tuí
+thaigh-tughaidh theach ceann tuí
 Thailand an Téalainn
 thàineas dtángthas
 thàineas thángthas
@@ -3354,18 +3322,32 @@ thàinigeadh dtángthas
 thàinigeadh thángthas
 thàinigeas dtángthas
 thàinigeas thángthas
+thaipwriter chlóscríobhán
+th'air atá ar
+th'air atá tar éis
+thalamh-àitich thalamh curaíochta
+thalla imigh leat
+tha'm tá an
 Thames Tamais
+tha'n tá an
 thanaig dtáinig
 thanaig tháinig
 thànaig dtáinig
 thànaig tháinig
+th'ann atá ann
+th'annad atá ionat
+th'annam atá ionam
+th'annta atá iontu
+thar-Chriochan trasteorann
 thar-ghuth guthú
 thar-ghuthan guthú
 tharladh tharla
 thàrladh tharla
+Tharsis Thairsís
 thatar táthar
 thathar táthar
 thathas táthar
+thats that's
 theab dóbair
 Thearlaich Theárlaich
 thearr fearr
@@ -3383,22 +3365,22 @@ theirigear téitear
 theirigibh téigí
 theirte deirtear
 Theorsa Theòrsa
+t-Hibheach Hiveach
 thigeas thiocfaidh
 thighearna-sa thiarnasa
 thigh-sa theachsa
 thigh-san theachsa
-thigtear tagtar
 thigtear dtiocfar
+thigtear tagtar
 thigtear thiocfar
 thigtear tiocfar
 thimcheall-sa thimpeallsa
-thin thin
 thin féin
+thin thin
 thinneas-cridhe thinneas croí
 th'innte atá inti
 thios a fhios
 Thiruis na Tuíre
-t-Hibheach Hiveach
 thoil-sa thoilse
 thoir tabhair
 thoireabh tugaigí
@@ -3406,6 +3388,7 @@ thoiribh tugaigí
 thoirtear tugtar
 thòn-sa thóinse
 Thoraigh Thoraí
+th'ort atá ort
 thourist thurasóir
 thràth-bhliadhnaichean luathbhlianta
 threas-phàrtaidhean thríú páirtithe
@@ -3429,16 +3412,18 @@ thuirteadh ndúradh
 thun go dtí
 thu'n tú an
 thweet tweet
+#Tì #Tae
 Ticonderòga Ticonderoga
 t-Iebusach tIabúsach
 tig dtiocfaidh
-tig thiocfaidh
 tig tar
+tig thiocfaidh
 tigeadh tagadh
 tigeam tagaim
 tigeamaid tagaimis
 tigear tagtar
 tigibh tagaigí
+tigtear tagtar
 tigtear tagtar
 t-Ìleach tÍleach
 Timnat Timneá
@@ -3447,29 +3432,33 @@ Tinbheal Tinvaal
 t-inneal-lìbhrigidh t-inneall seachadta
 tiops sceallóga
 Tiree Tiriodh
+#TirGunChriochan #TírGanChríocha
+#TìrGunChrìochan #TírGanChríocha
 Tiristich Tiristigh
 TìrnamBlòg TírnamBlaganna
 Tìr-nan-Òg Tír na nÓg
 Tirol an Tioróil
-Tirsah Tirzeá
 Tirsah dTirzeá
+Tirsah Tirzeá
 Tirus an Tuír
 Titus Títeas
 tiugainn téanam
 tl grma
 tlia tá
 tlr tír
-t-Òban tÒban
 Tobago Tobága
+t-Oban t-Òban
+t-Òban tÒban
 Tobiah Tóibíá
 Tobit Tóibít
-tòglach do ghiolla
 tòglach d'ógánach
+tòglach do ghiolla
 Tògo Tóga
 t-Oifigear-riaghlaidh tOifigeach Ceannais
 t-oileanach mac léinn
-toir tabhair
+#toilichte #sásta
 toir dtabharfaidh
+toir tabhair
 toir thabharfaidh
 'toirt ag tabhairt
 Tokyo Tóiceo
@@ -3480,14 +3469,16 @@ Tories Tóraithe
 tractor tarracóir
 trailer tréiléar
 train traein
+#trang #gnóthach
 tràth-bhliadhnaichean luathbhlianta
-treallaich truflais
 treallaich tranglam
+treallaich truflais
+#treanaichean #traenacha
 treas-phàrtaidhean tríú páirtithe
 tre'n tríd an
 trend treocht
-Triasaig Triasach
 Triasaig Thriasach
+Triasaig Triasach
 Triasaig Triasacha
 tric go minic
 trice minice
@@ -3495,18 +3486,21 @@ trìd-san trídsean
 trì-ficheadan seascaidí
 Triphon Trufón
 Tripoli Tripilí
+trobhadaibh ar aghaidh libh
 trobhadaibh gabhaigí i leith
 trobhadaibh téanam oraibh
-trobhadaibh ar aghaidh libh
+trobhaidibh ar aghaidh libh
 trobhaidibh gabhaigí i leith
 trobhaidibh téanam oraibh
-trobhaidibh ar aghaidh libh
-troimh'n tríd an
 troimhn tríd an
+troimh'n tríd an
 Tròisichean Trosaichean
+#Trosg #Trosc
 trostanan cosa croise
 truaighean trioblóidí
 truaighean tubaistí
+#trusadh #díolaim
+#Trusadh #Díolaim
 t-saidse-inntrigidh haiste rochtana
 t-saidse-mhullaich haiste dín
 t-Saoir tSaoir
@@ -3514,21 +3508,21 @@ t-saothair-ealain saothar ealaíne
 t-seachain tseachtain
 t-seachdainnsa tseachtain seo
 t-seachdainn-sa tseachtainse
-t-seachdainsa tseachtain seo
-t-seachdains' tseachtain seo
 t-seachdains tseachtain seo
+t-seachdains' tseachtain seo
+t-seachdainsa tseachtain seo
 t-Sean tSean
-t-seann tsean
 t-seann sean
+t-seann tsean
 t-seirbheis-thèarainteachd tseirbhís slándála
 t-seisein-chiùil tseisiúin cheoil
 t-Seòlaid Bealach Long
-t-seòmar-bìdh seomra bia
 t-seòmair-chadail tseomra codlata
 t-seòmair-chluiche tseomra súgartha
 t-seòmair-ionnlaid tseomra folctha
 t-seòmair-stiùiridh seomra rialaithe
 t-seòmair-suidhe tseomra suí
+t-seòmar-bìdh seomra bia
 t-seòmar-chluiche seomra súgartha
 t-seòmar-deasbaid seomra díospóireachta
 t-seòmar-ionnlaid seomra folctha
@@ -3551,9 +3545,6 @@ t-sitig charn aoiligh
 t-Slèibhe tSléibhe
 t-sluichd tsloic
 t-strì troid
-t-Urr tUrr
-t-Ùrr tUrr
-tigtear tagtar
 tuathan-gaoithe feirmeacha gaoithe
 tubhairt dúirt
 tubhairt ndúirt
@@ -3579,20 +3570,24 @@ tuirteadh ndúradh
 t-uisge-beatha t-uisce beatha
 tuitichean tweetanna
 tulle fialsíoda
+turasan-latha turais lae
 turas-sa turas seo
 turas-sa uair seo
-turasan-latha turais lae
+t-Urr tUrr
+t-Ùrr tUrr
 Turtair-mheallta Turtar Bréige
 tweetaichean tweetanna
 tweetan tweetanna
+#tweetGaidhligSaLatha #tweetGàidhligSaLá
 tweets tweetanna
-typewriter clóscríobhán
 typewriter chlóscríobhán
+typewriter clóscríobhán
 typewriter gclóscríobhán
 Ù Ú
 ua na
 uac vác
 uairean a chlog
+#uairg #uairG
 uair-is-uair arís is arís eile
 uairsin uair sin
 uaith uaidh
@@ -3607,16 +3602,20 @@ Ui Uí
 Úi Uí
 uibhist Uibhist
 Uibhist-a-Deas Uibhist Theas
+#UibhistaTuath #UibhistThuaidh
 Uibhistich Uibhistigh
 uicipeid vicipéid
 uicipeid vicipéide
+#uisgebeatha #uiscebeatha
 Uisne Uisnigh
 Ukraine Úcráin
 Ulaidh Uladh
 ullachadh a ullmhú
 Ulpan Ùlpan
+#Ulpan #Ùlpan
 UN NA
 uncle uncail
+#UofGosìosal #UofGosíseal
 ùrachadh a athnuachan
 ùrachadh a nuashonrú
 Urdu Urdúis
@@ -3635,6 +3634,7 @@ Vesuvius Veasúive
 vinyl vinil
 vinyl vinile
 vlog vlag
+#VlogaMhòid #VlaganMhòid
 vlogan vlaganna
 vol iml
 Warsaw Vársá
