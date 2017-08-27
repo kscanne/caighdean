@@ -856,6 +856,7 @@ aio	aío	2
 ([^áéóú])io([dm])ar$	$1ío$2ar	2
 ([^e])oidh$	$1óidh	2
 ([^e])ofar$	$1ófar	2
+([^eií])og$	$1óg	2
 # next batch from ngramprobs.pl
 u$	ú	2
 #chtai$			chtaí		2	<N.*>	<&>
