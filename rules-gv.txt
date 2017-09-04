@@ -23,6 +23,8 @@
 ^dh'([AEIOUÁÉÍÓÚÀÈÌÒÙF])	d'\l$1	-1
 ^h([AEIOUÁÉÍÓÚÀÈÌÒÙ])	h\l$1	-1
 ^m'([AEIOUÁÉÍÓÚÀÈÌÒÙF])	m'\l$1	-1
+# Fo-Rheynn => fo-rheynn
+(..)-([A-ZÁÉÍÓÚÀÈÌÒÙÇ])	$1-\l$2	-1
 # hand-in-hand with code for reading in multi-xx...
 # always adds a fully lowercased version to hash
 ^(.*[A-ZÁÉÍÓÚÀÈÌÒÙÇ].*_.+)$	\L$1	1
