@@ -188,6 +188,8 @@
 's_ann_an_seo is anseo
 's_ann_an_sin is ansin
 's_coingeis_dhomh is cuma liom
+'s_dòch b'fhéidir
+'s_dòch is dócha
 's_dòch' b'fhéidir
 's_dòch' is dócha
 's_dòcha b'fhéidir
@@ -230,6 +232,7 @@
 'sna_laithean-sa sna laethanta seo
 'sna_làithean-sa sna laethanta seo
 24_uairean 24 uair an chloig
+A'_Chàparaid An Seanghliogar
 Abhainn_Niger Abhainn na Nígire
 Abhainn_Seine abhainn na Séine
 Afraga_a_Deas an Afraic Theas
@@ -253,7 +256,9 @@ Baile_Ath_Cliath Baile Átha Cliath
 Baile_Che Baile Chè
 Baile_Àtha Baile Átha
 Beal_Feairste Béal Feirste
+Beal_Feairte Béal Feirste
 Beal_Feirste Béal Feirste
+Beal_Feirte Béal Feirste
 Belize_City Cathair na Beilíse
 Beul_Feirste Béal Feirste
 Beurla_Gallda Albainis
@@ -317,12 +322,15 @@ Che_Guevara Che Guevara
 Cheann_Suidhe Uachtarán
 Cheap_Bhreatainn Cheap Bhreatainn
 Chesarea_Philippi Chéasaráia Philib
+Chip_and_PIN Chip and PIN
 Cho_Fhlaitheis Chomhlathais
 Chuach_na_Cruinne Chorn an Domhain
 Cinn_Abair Cinn Abair
 Cladh_Hallain Cladh Hallain
 Cladh_Hallan Cladh Hallan
 Clann_Uisnich Clann Uisnigh
+Cnoc_an_Rà Chnoc an Rá
+Cnoc_an_Rà Cnoc an Rá
 Conradh_na_Gaeilge Conradh na Gaeilge
 Corea_a_Deas an Chóiré Theas
 Corea_a_Tuath an Chóiré Thuaidh
@@ -2945,6 +2953,15 @@ a_dh'athbheothachaidh d'athbheochana
 a_dh'athchuinge d'achainí
 a_dh'athchuingean d'achainíocha
 a_dh'athraichean d'aithreacha
+a_dh'athris d'aithris
+a_dh'athris do ráiteas
+a_dh'athris do thuairisc
+a_dh'athrise d'aithrise
+a_dh'athrise do ráitis
+a_dh'athrise do thuairisce
+a_dh'athrisean d'aithrisí
+a_dh'athrisean do ráitis
+a_dh'athrisean do thuairiscí
 a_dh'atlais d'atlais
 a_dh'atlas d'atlas
 a_dh'atlasan d'atlais
@@ -7064,7 +7081,9 @@ a_dh'oposam d'apasam
 a_dh'oposaman d'apasaim
 a_dh'oposaman d'apasam
 a_dh'opra do cheoldráma
+a_dh'opra-fànais do spásdráma
 a_dh'oprathan do cheoldrámaí
+a_dh'oprathan-fànais do spásdrámaí
 a_dh'oragain d'oragáin
 a_dh'oragan d'oragán
 a_dh'oraid d'óráid
@@ -7136,6 +7155,7 @@ a_dh'osann d'osna
 a_dh'osannan d'osnaí
 a_dh'osdail do bhrú
 a_dh'osdailean do bhrúnna
+a_dh'osmium d'oismiam
 a_dh'osna d'osna
 a_dh'osnadh d'osna
 a_dh'osnaich d'osnaíl
@@ -8890,6 +8910,7 @@ abaicheadh_tu aibeofá
 abaicheadh_tu n-aibeofá
 abaichidh_sinn aibeoimid
 abaichidh_sinn n-aibeoimid
+abhainn_Rhein abhainn na Réine
 abradh_iad abraidís
 abradh_iad déarfaidís
 abradh_iad n-abraidís
@@ -10409,6 +10430,7 @@ an_Taidh-Bhàn an Téaváin
 an_a_dhèidh ina dhiaidh
 an_a_shiud ansiúd
 an_abair an ndéarfaidh
+an_abhainn_Rhein abhainn na Réine
 an_abhainn_Rhine an Réin
 an_aghaidh in aghaidh
 an_ainm_an_aigh in ainm Dé
@@ -10589,6 +10611,7 @@ an_dràsd' anois
 an_dràsda anois
 an_dràst' anois
 an_dràsta anois
+an_dug ar thug
 an_duigh inniu
 an_dà-rìribh i ndáiríre
 an_dàn an dán
@@ -10814,6 +10837,8 @@ analaichidh_sinn n-análóimid
 anm_am i
 anm_an i
 anm_an in
+ann's_an sa
+ann's_an san
 ann_An i
 ann_An in
 ann_a'_seo anseo
@@ -10873,6 +10898,7 @@ ann_am_Peirse sa Pheirs
 ann_am_Persia sa Pheirs
 ann_am_Pompeii i bPoimpé
 ann_am_Porto_Rìceo i bPórtó Ríce
+ann_am_Prague i bPrág
 ann_am_Pràg i bPrág
 ann_am_Punjab sa Phuinseaib
 ann_am_badeigin in áit éigin
@@ -10970,6 +10996,7 @@ ann_an_Namibia sa Namaib
 ann_an_Nigeria sa Nigéir
 ann_an_Nigèiria sa Nigéir
 ann_an_Nigéiria sa Nigéir
+ann_an_Nirrbhidh san Iorua
 ann_an_Nirribhidh san Iorua
 ann_an_Normandaidh sa Normainn
 ann_an_Norway san Iorua
@@ -16320,7 +16347,9 @@ bu_spirisean b'fharaí
 bu_spleadhach b'fhinscéalach
 bu_spleadhach b'fhinscéalacha
 bu_spleadhaiche b'fhinscéalaí
+bu_sponsair b'urraitheoir
 bu_sponsaireachd b'urraíocht
+bu_sponsairean b'urraitheoirí
 bu_sporghail b'útamáil
 bu_spreidh b'eallach
 bu_sprèidh b'eallach
@@ -17280,6 +17309,8 @@ cha_dearg_mi_air níl mé in ann dó
 cha_dig ní thiocfaidh
 cha_do níor
 cha_do_rinn ní dhearna
+cha_dug níor thug
+cha_dèanainn-sa ní dhéanfainnse
 cha_leig_mi_a_leas ní gá dom
 cha_leig_mi_leas ní gá dom
 cha_leig_thu_a_leas ní gá duit
@@ -17575,6 +17606,7 @@ chan_ell níl
 chan_facaidh ní fhaca
 chan_fhac ní fhaca
 chan_fhaca ní fhaca
+chan_fhacaidh ní fhaca
 chan_fhaigh ní bhfaighidh
 chan_fheumadh ní chaithfeadh
 chan_fheumar ní chaithfear
@@ -23241,6 +23273,15 @@ de_dh'athbheothachaidh d'athbheochana
 de_dh'athchuinge d'achainí
 de_dh'athchuingean d'achainíocha
 de_dh'athraichean d'aithreacha
+de_dh'athris d'aithris
+de_dh'athris de ráiteas
+de_dh'athris de thuairisc
+de_dh'athrise d'aithrise
+de_dh'athrise de ráitis
+de_dh'athrise de thuairisce
+de_dh'athrisean d'aithrisí
+de_dh'athrisean de ráitis
+de_dh'athrisean de thuairiscí
 de_dh'atlais d'atlais
 de_dh'atlas d'atlas
 de_dh'atlasan d'atlais
@@ -26636,6 +26677,7 @@ de_dh'ioma-nòmaiche d'iltéarmaigh
 de_dh'ioma-nòmaichean d'iltéarmach
 de_dh'ioma-nòmaichean d'iltéarmaigh
 de_dh'iomad d'iolraí
+de_dh'iomadach de go leor
 de_dh'iomadachadh d'iolrú
 de_dh'iomadachaidh d'iolraithe
 de_dh'iomadachd d'éagsúlacht
@@ -27353,7 +27395,9 @@ de_dh'oposam d'apasam
 de_dh'oposaman d'apasaim
 de_dh'oposaman d'apasam
 de_dh'opra de cheoldráma
+de_dh'opra-fànais de spásdráma
 de_dh'oprathan de cheoldrámaí
+de_dh'oprathan-fànais de spásdrámaí
 de_dh'oragain d'oragáin
 de_dh'oragan d'oragán
 de_dh'oraid d'óráid
@@ -27425,6 +27469,7 @@ de_dh'osann d'osna
 de_dh'osannan d'osnaí
 de_dh'osdail de bhrú
 de_dh'osdailean de bhrúnna
+de_dh'osmium d'oismiam
 de_dh'osna d'osna
 de_dh'osnadh d'osna
 de_dh'osnaich d'osnaíl
@@ -36243,6 +36288,15 @@ do_dh'athbheothachaidh d'athbheochana
 do_dh'athchuinge d'achainí
 do_dh'athchuingean d'achainíocha
 do_dh'athraichean d'aithreacha
+do_dh'athris d'aithris
+do_dh'athris do ráiteas
+do_dh'athris do thuairisc
+do_dh'athrise d'aithrise
+do_dh'athrise do ráitis
+do_dh'athrise do thuairisce
+do_dh'athrisean d'aithrisí
+do_dh'athrisean do ráitis
+do_dh'athrisean do thuairiscí
 do_dh'atlais d'atlais
 do_dh'atlas d'atlas
 do_dh'atlasan d'atlais
@@ -39638,6 +39692,7 @@ do_dh'ioma-nòmaiche d'iltéarmaigh
 do_dh'ioma-nòmaichean d'iltéarmach
 do_dh'ioma-nòmaichean d'iltéarmaigh
 do_dh'iomad d'iolraí
+do_dh'iomadach do go leor
 do_dh'iomadachadh d'iolrú
 do_dh'iomadachaidh d'iolraithe
 do_dh'iomadachd d'éagsúlacht
@@ -40355,7 +40410,9 @@ do_dh'oposam d'apasam
 do_dh'oposaman d'apasaim
 do_dh'oposaman d'apasam
 do_dh'opra do cheoldráma
+do_dh'opra-fànais do spásdráma
 do_dh'oprathan do cheoldrámaí
+do_dh'oprathan-fànais do spásdrámaí
 do_dh'oragain d'oragáin
 do_dh'oragan d'oragán
 do_dh'oraid d'óráid
@@ -40427,6 +40484,7 @@ do_dh'osann d'osna
 do_dh'osannan d'osnaí
 do_dh'osdail do bhrú
 do_dh'osdailean do bhrúnna
+do_dh'osmium d'oismiam
 do_dh'osna d'osna
 do_dh'osnadh d'osna
 do_dh'osnaich d'osnaíl
@@ -44626,6 +44684,9 @@ ge_bu cé gur
 ge_bè cibé
 ge_ta áfach
 ge_tà áfach
+gead_a_bha cé go raibh
+gead_nach cé nach
+gead_nach_do cé nár
 gealag_bhuidhe siscín
 gealagan_bhuidhe siscíní
 gealaicheadh_iad bánaídís
@@ -45914,6 +45975,7 @@ gu'm_bu gur
 gu'm_bu gurbh
 gu'm_ionnsuidh chugam
 gu'n_d'thàinig gur tháinig
+gu'n_dèanainn-sa go ndéanfainnse
 gu-n_do gur
 gu_Afganastan go dtí an Afganastáin
 gu_Afghanistan go dtí an Afganastáin
@@ -46216,8 +46278,10 @@ gun_do gur
 gun_do_rinn go ndearna
 gun_do_rinneadh go ndearnadh
 gun_doubt gan dabht
+gun_dug gur thug
 gun_dàil gan mhoill
 gun_dàil láithreach
+gun_dèanainn-sa go ndéanfainnse
 gun_dùil_ri gan súil le
 gun_dùil_ris gan súil leis
 gun_fhaclan gan focail
@@ -52243,6 +52307,7 @@ mo_nuallanaiche m'uallfartaí
 mo_nuar monuar
 mo_nàdar-fheallsanachd m'fhisic
 mo_nàdar-fheallsanachd m'fhisice
+mo_nìghne m'iníne
 mo_phaclach m'asclán
 mo_phaclaich m'ascláin
 mo_phaclaichean m'ascláin
@@ -52669,8 +52734,11 @@ mo_spideig m'fhiliméala
 mo_spiris m'fhara
 mo_spirise m'fhara
 mo_spirisean m'fharaí
+mo_sponsair m'urraitheoir
+mo_sponsair m'urraitheora
 mo_sponsaireachd m'urraíocht
 mo_sponsaireachd m'urraíochta
+mo_sponsairean m'urraitheoirí
 mo_sporghail m'útamáil
 mo_sporghail m'útamála
 mo_spreidh m'eallach
@@ -53568,6 +53636,7 @@ na_grèin na gréine
 na_h-Aibhne_Seine abhainn na Séine
 na_h-Aimearagan na Críocha Mheiriceá
 na_h-Aisearan na cuaillí naofa
+na_h-Arabah an Arabá
 na_h-Eileanan_Fàclannach Oileáin Fháclainne
 na_h-Eileanan_a-Staigh na hOileáin Istigh
 na_h-Iebusaich na Iabúsaigh
@@ -53621,6 +53690,7 @@ na_lùib san áireamh
 na_muice-mara an mhíl mhóir
 na_mìos-sa na míosa
 na_naidheachdan an nuacht
+na_polis na gardaí
 na_polls na pobalbhreitheanna
 na_prothaidean an brabús
 na_prothaidean an mbrabús
@@ -53712,10 +53782,12 @@ nach_deach_mo_thogail nár tógadh mé
 nach_do nár
 nach_do_dh' nár
 nach_do_rinn nach ndearna
+nach_dug nár thug
 nach_ei nach bhfuil
 nach_eil nach bhfuil
 nach_eil_e_fèir nach bhfuil sé féaráilte
 nach_eil_e_math nach bhfuil sé go maith
+nach_fhacaidh nach bhfaca
 nach_h-ann nach
 nach_ion nach ceart
 nach_maireann nach maireann
@@ -63213,6 +63285,7 @@ trialladh_iad triallaidís
 trialladh_tu dtriallfá
 triallaidh_sinn dtriallfaimid
 triallaidh_sinn triallfaimid
+trick_or_treat trick or treat
 triobhuaileadh_iad crithidís
 triobhuaileadh_iad gcrithfidís
 triobhuaileadh_iad gcrithidís
