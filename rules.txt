@@ -363,7 +363,9 @@ eoracht(a?)$	eoireacht$1	1
 éair$	éir	1
 eor$	eoir	1
 # 08-11-05, generalize nouns to everything (fraochta e.g.)
-chd(a?)$	cht$1	1
+# Sept 2017, generalize from end of word to anywhere
+chd([^h])	cht$1	1
+chd$	cht	1
 ínteacht(a?)$	íneacht$1	1
 óanna$	ónna	1
 # corpus - Dómhnach, etc., but not rómhilis, etc.
@@ -848,6 +850,7 @@ eail$	eáil	2
 eor$	eoir	2
 itear$	ítear	2
 iteá$	íteá	2
+fea$	feá	2
 #io			ío		2	<.+>	<&>		# too general (fios, sioc, etc.)
 aio	aío	2
 ([^áéóú])ionn$	$1íonn	2
