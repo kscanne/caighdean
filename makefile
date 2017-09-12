@@ -158,11 +158,12 @@ cgaeval: cga-output.txt FORCE
 
 ############## MAINTENANCE TARGETS: SURVEY OF UNKNOWN WORDS, ETC #############
 SEANCHORPAS=${HOME}/gaeilge/caighdean/prestandard/corpus.txt
+SEANTOKENS=${HOME}/gaeilge/caighdean/prestandard/alltokens.txt
 maint/unknown.txt: $(SEANCHORPAS) multi.txt pairs.txt pairs-local.txt rules.txt spurious.txt alltokens.sh alltokens.pl nasc.pl tiomanai.sh
 	cat $(SEANCHORPAS) | bash tiomanai.sh -u | egrep '[A-Za-zÁÉÍÓÚáéíóúÀÈÌÒÙàèìòù]' | egrep -v '^[:;]' | LC_ALL=C egrep -v '^@[A-Za-z0-9_]+$$' | sort | uniq -c | sort -r -n | sed 's/^ *//' > $@
 
 maint/oov.txt: maint/unknown.txt $(SEANCHORPAS) alltokens.sh alltokens.pl nasc.pl
-	echo `date '+%Y-%m-%d %H:%M:%S'` `(cat maint/unknown.txt | sed 's/ .*//' | addem; echo '10000'; echo '*'; cat $(SEANCHORPAS) | bash alltokens.sh | perl nasc.pl | egrep -v '^[<\\]' | wc -l; echo '/'; echo 'p') | dc | sed 's/..$$/.&/'` >> $@
+	echo `date '+%Y-%m-%d %H:%M:%S'` `(cat maint/unknown.txt | sed 's/ .*//' | addem; echo '10000'; echo '*'; cat $(SEANTOKENS) | egrep -v '^[<\\]' | wc -l; echo '/'; echo 'p') | dc | sed 's/..$$/.&/'` >> $@
 	tail $@
 
 GDCORPUS=${HOME}/seal/idirlamha/gd/freq/corpus.txt
