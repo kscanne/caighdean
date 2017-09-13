@@ -222,15 +222,16 @@ refresh: clean.txt-refresh pairs.txt-refresh alltokens.pl-refresh ngramify.pl-re
 # make groom called in ~/clar/script/groom, which is called from "cdup"
 groom: pairs.txt-refresh clean.txt-refresh rules.txt-refresh
 	cat multi.txt | LC_ALL=C sort -u | LC_ALL=C sort -k1,1 > temp.txt
-	if ! diff -q temp.txt multi.txt; then mv -f temp.txt multi.txt; fi
+	if ! diff -q temp.txt multi.txt; then cp -f temp.txt multi.txt; fi
+	rm -f temp.txt
 	make cands.hash
 
 # removed gaelu for RIA May 2014; doesn't make sense if trying to mimic
 # a human standardizing a pre-standard Irish book for example
 pairs.txt-refresh: $(GAELSPELL)/apost $(GAELSPELL)/athfhocail $(GAELSPELL)/earraidi $(PRESTD)/immutable.txt
-	rm -f pairs.txt
-	(cat $(PRESTD)/immutable.txt | sed 's/^.*$$/& &/'; cat $(GAELSPELL)/apost $(GAELSPELL)/athfhocail $(GAELSPELL)/earraidi) | LC_ALL=C sort -u | sort -k1,1 > pairs.txt
-	chmod 444 pairs.txt
+	(cat $(PRESTD)/immutable.txt | sed 's/^.*$$/& &/'; cat $(GAELSPELL)/apost $(GAELSPELL)/athfhocail $(GAELSPELL)/earraidi) | LC_ALL=C sort -u | sort -k1,1 > temp.txt
+	if ! diff -q temp.txt pairs.txt; then cp -f temp.txt pairs.txt; chmod 444 pairs.txt; fi
+	rm -f temp.txt
 
 # actually updates pairs-gd.txt and multi-gd.txt
 # the make target in $(GA2GD) copies pairs-gd.txt back here
@@ -248,14 +249,12 @@ pairs-gv.txt-refresh: FORCE
 
 # run groom to rebuild caighdean.txt if necessary
 clean.txt-refresh: FORCE
-	rm -f clean.txt
-	cp -f $(GAELSPELL)/caighdean.txt clean.txt
-	chmod 444 clean.txt
+	if ! diff -q $(GAELSPELL)/caighdean.txt clean.txt; then cp -f $(GAELSPELL)/caighdean.txt clean.txt; chmod 444 clean.txt; fi
 
 rules.txt-refresh: $(GRAMADOIR)/morph-ga.txt
-	rm -f rules.txt
-	cat $(GRAMADOIR)/morph-ga.txt | iconv -f iso-8859-1 -t utf8 | sed '/SYNTHETIC FORMS/,/END PREFIX STRIPPING/s/^/#/' | sed '/start emphatic/,/end emphatic/s/^/#/' | sed '/start derivational/,/end derivational/s/^/#/' | sed '/DEMUTATE/,$$s/^/#/' | sed '/^\^do(/,/^\^h?in(\[\^/s/^/#/' | sed '/^fa\?ir/s/idh/idh_tú/' | sed '/rules-local.txt here/r rules-local.txt' | sed '/^[^#]/s/^\([^ \t]*\)[ \t]*\([^ \t]*\)[ \t]*\([^ \t]*\).*/\1\t\2\t\3/' > rules.txt
-	chmod 444 rules.txt
+	cat $(GRAMADOIR)/morph-ga.txt | iconv -f iso-8859-1 -t utf8 | sed '/SYNTHETIC FORMS/,/END PREFIX STRIPPING/s/^/#/' | sed '/start emphatic/,/end emphatic/s/^/#/' | sed '/start derivational/,/end derivational/s/^/#/' | sed '/DEMUTATE/,$$s/^/#/' | sed '/^\^do(/,/^\^h?in(\[\^/s/^/#/' | sed '/^fa\?ir/s/idh/idh_tú/' | sed '/rules-local.txt here/r rules-local.txt' | sed '/^[^#]/s/^\([^ \t]*\)[ \t]*\([^ \t]*\)[ \t]*\([^ \t]*\).*/\1\t\2\t\3/' > temprules.txt
+	if ! diff -q temprules.txt rules.txt; then cp -f temprules.txt rules.txt; chmod 444 rules.txt; fi
+	rm -f temprules.txt
 
 alltokens.pl-refresh: $(CRUBLOCAL)/alltokens.pl
 	rm -f alltokens.pl
