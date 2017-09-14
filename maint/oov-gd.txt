@@ -245,3 +245,7 @@
 2017-08-31 22:48:02 2.93
 2017-09-09 12:21:06 2.93
 2017-09-09 17:58:07 2.92
+# small change to tokenizer; total number of words in denominator computed
+# *after* splitting apostrophes from tokens not among known apostrophe words
+2017-09-13 20:58:25 2.92
+2017-09-13 21:30:24 2.92
