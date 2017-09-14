@@ -9147,6 +9147,7 @@ air_a_cruthachadh_le cruthaithe ag
 air_a_cuairteachadh rothlaithe
 air_a_cumail coinnithe
 air_a_cur curtha
+air_a_dhruim-dìreach ar shlat a dhroma
 air_a_dhèanamh déanta
 air_a_dhòigh sona sásta
 air_a_dhòigh_glan ar mhuin na muice
@@ -9641,6 +9642,7 @@ air_dearbhadh tar éis deimhniú
 air_deireadh ar deireadh
 air_dheireadh ar deireadh
 air_do_bheulaibh os do chomhair
+air_do_dhruim-dìreach ar shlat do dhroma
 air_do_dhòigh sona sásta
 air_do_dhòigh_glan ar mhuin na muice
 air_doigh ar dhóigh
@@ -12494,6 +12496,8 @@ bho_Yugoslavia ón Iúgslaiv
 bho_Zimbabwe ón tSiombáib
 bho_a óna
 bho_ar ónár
+bho_chach ón chuid eile
+bho_chach_a_chèile óna chéile
 bho_chionn go ceann
 bho_chionn_a-mach uaidh sin amach
 bho_chionn_fada i bhfad ó shin
@@ -15620,6 +15624,7 @@ bu_luchd-dealachaidh b'easaontóirí
 bu_luchd-deasachaidh b'eagarthóirí
 bu_luchd-dreuchd b'fhostaithe
 bu_luchd-dràma b'aisteoirí
+bu_luchd-eagrachaidh b'eagraithe
 bu_luchd-ealain b'ealaíontóirí
 bu_luchd-faireachdainn b'aeistéití
 bu_luchd-fastaidh b'fhostóirí
@@ -15860,6 +15865,7 @@ bu_neach-dealachaidh b'easaontóir
 bu_neach-deasachaidh b'eagarthóir
 bu_neach-dreuchd b'fhostaí
 bu_neach-dràma b'aisteoir
+bu_neach-eagrachaidh b'eagraí
 bu_neach-ealain b'ealaíontóir
 bu_neach-faireachdainn b'aeistéit
 bu_neach-fastaidh b'fhostóir
@@ -21132,6 +21138,7 @@ de_a_th'ann_an cad é atá i
 de_a_tha cad é atá
 de_ar dár
 de_bha cad é a bhí
+de_chach_a_chèile dá chéile
 de_dh'A-Hiom d'A-Hiom
 de_dh'Abchais d'Abcáise
 de_dh'Abchas d'Abcáis
@@ -29096,6 +29103,7 @@ de_dh'ùthannan d'úthanna
 de_dh'ùtrais d'fhústráil
 de_dh'ùtrais d'fhústrála
 de_fhaid ar fad
+de_la_Mer de la Mer
 de_làimh de láimh
 de_marble de mharmar
 de_mhisnich de mhisneach
@@ -34132,6 +34140,9 @@ do_an dá
 do_ar dár
 do_bhrìgh de bhrí
 do_bhur_n-ionnsuidh chugaibh
+do_chach don chuid eile
+do_chach_a_cheile dá chéile
+do_chach_a_chèile dá chéile
 do_chàch don chuid eile
 do_chàch-a-chèile dá chéile
 do_d'_athair do d'athair
@@ -51947,6 +51958,7 @@ mo_luchd-dealachaidh m'easaontóirí
 mo_luchd-deasachaidh m'eagarthóirí
 mo_luchd-dreuchd m'fhostaithe
 mo_luchd-dràma m'aisteoirí
+mo_luchd-eagrachaidh m'eagraithe
 mo_luchd-ealain m'ealaíontóirí
 mo_luchd-faireachdainn m'aeistéití
 mo_luchd-fastaidh m'fhostóirí
@@ -52185,6 +52197,7 @@ mo_neach-deasachaidh m'eagarthóra
 mo_neach-dreuchd m'fhostaí
 mo_neach-dràma m'aisteoir
 mo_neach-dràma m'aisteora
+mo_neach-eagrachaidh m'eagraí
 mo_neach-ealain m'ealaíontóir
 mo_neach-ealain m'ealaíontóra
 mo_neach-faireachdainn m'aeistéit
@@ -54679,6 +54692,7 @@ o_Yugoslavia ón Iúgslaiv
 o_Zimbabwe ón tSiombáib
 o_a óna
 o_ar ónár
+o_chach ón chuid eile
 o_chionn ó
 o_chionn_'s cionn is
 o_chionn_beagan_bhliadhnaichean le blianta beaga anuas
