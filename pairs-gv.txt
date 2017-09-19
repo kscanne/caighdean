@@ -139,6 +139,7 @@
 'syn san
 1a2 1a2
 1cm 1cm
+1st 1st
 2i 2i
 7c 7c
 8c 8c
@@ -924,6 +925,8 @@ Breesheydagh Brigiteacha
 Breesheydagh Brigitigh
 Breesheydee Brigitigh
 Breesheydee Brigití
+Breeu-Hirveishagh bPríomh-Aire
+Breeu-Hirveishee bPríomh-Airí
 Breizh Breizh
 Bresbyteyragh bPreispitéireach
 Bresbyteyragh bPreispitéirigh
@@ -2493,6 +2496,7 @@ Gharnee Ghánaí
 Gheeroyl dTioróil
 Gheeroyl dTioróile
 Ghelbee Ghelbee
+Gherby Gherby
 Ghilman Ghilman
 Ghlaschu Ghlaschú
 Ghlascoe Ghlaschú
@@ -3515,6 +3519,7 @@ Kistershagh Cistéirseacha
 Kistershagh Cistéirsigh
 Kistershee Cistéirsigh
 Kistershee Cistéirsí
+Kitching Kitching
 Kitterland Kitterland
 Klaksvík Klaksvík
 Klüt Klüt
@@ -4296,6 +4301,7 @@ Naejeeanee nAeigéigh
 Naeoleeanagh nAeólach
 Naeoleeanagh nAeólaigh
 Naeoleeanee nAeólaigh
+Nafarroa Nafarroa
 Naffrick nAfraic
 Naffrick nAfraice
 Naffrickagh nAfracach
@@ -4527,6 +4533,7 @@ Neajipt-oaylleeaght nÉigipteolaíochta
 Neajiptagh nÉigipteach
 Neajiptagh nÉigiptigh
 Neajiptee nÉigiptigh
+Neale Neale
 Nealisaidagh nEilíseach
 Nealisaidagh nEilísigh
 Nealisaidee nEilísigh
@@ -5028,6 +5035,7 @@ OBE OBE
 OCS OCS
 OK OK
 OKF OKF
+OLLO OLLO
 Oaraishey Eoráise
 Oarpagh Eorpach
 Oarpagh Eorpacha
@@ -5081,6 +5089,7 @@ Omaan Óman
 Omniglot Omniglot
 Onagraceae Onagraceae
 Onchan Onchan
+Onega Onega
 Ontario Ontario
 Ooganda Uganda
 Ooganda tUganda
@@ -5392,6 +5401,8 @@ Phortiugee Phortaingéalaí
 Phortiugish Phortaingéilis
 Phortiugish Phortaingéilise
 Phraag Phrág
+Phreeu-Hirveishagh Phríomh-Aire
+Phreeu-Hirveishee Phríomh-Airí
 Phresbyteyragh Phreispitéireach
 Phresbyteyragh Phreispitéireacha
 Phresbyteyragh Phreispitéirigh
@@ -5503,6 +5514,8 @@ Poznań Poznań
 Praag Prág
 Pradesh Pradesh
 Prayer Prayer
+Preeu-Hirveishagh Príomh-Aire
+Preeu-Hirveishee Príomh-Airí
 Premier Premier
 Presbyteyragh Preispitéireach
 Presbyteyragh Preispitéireacha
@@ -5562,6 +5575,7 @@ Queenie Queenie
 Quest Quest
 Quilliam Quilliam
 Quine Quine
+Quintin Quintin
 Quirk Quirk
 RFC RFC
 RIB RIB
@@ -13444,6 +13458,8 @@ bainnagh bainniúil
 bainnagh bainniúla
 bainnee bainniúla
 bainney bainne
+baint bpéint
+baint bpéinte
 bairk bpáirc
 bairk bpáirce
 bairk bpáirceálfaidh
@@ -37073,6 +37089,7 @@ dogmaghyn dogmaí
 dogmee dogmaí
 dogmey dogma
 dogs dogs
+doi doi
 doiagh cineálta
 doiagh garúil
 doiagh garúla
@@ -43697,6 +43714,11 @@ dt'er-coyrlee do chomhairleoir
 dt'er-coyrlee do chomhairleora
 dt'er-croo do chruthaitheoir
 dt'er-croo do chruthaitheora
+dt'er-faishnee d'fháistineach
+dt'er-faishnee d'fháistinigh
+dt'er-faishnee do dhraoi
+dt'er-faishnee do dhraíodóir
+dt'er-faishnee do dhraíodóra
 dt'er-gaddee do ghadaí
 dt'er-joarree do dheoraí
 dt'er-keirdey do cheardaí
@@ -44255,6 +44277,9 @@ dt'ir-choyrlee do chomhairleoirí
 dt'ir-chroo do chruthaitheoirí
 dt'ir-coadee do choimirceoirí
 dt'ir-coadee do chosantóirí
+dt'ir-faishnee d'fháistinigh
+dt'ir-faishnee do dhraoithe
+dt'ir-faishnee do dhraíodóirí
 dt'ir-gaddee do ghadaithe
 dt'ir-joarree do dheoraithe
 dt'ir-kiaullee do cheoltóirí
@@ -45103,6 +45128,8 @@ dt'oltaght d'fhionnaitheacht
 dt'oltaght d'fhionnaitheachta
 dt'oltaghyn do bhaill
 dt'oltaghyn do chomhaltaí
+dt'olteeyn do bhaill
+dt'olteeyn do chomhaltaí
 dt'oltey do bhaill
 dt'oltey do bhall
 dt'oltey do chomhalta
@@ -48903,6 +48930,11 @@ er-egin ar éigean
 er-eiyrts ar lorg
 er-eiyrts ar thóir
 er-ennym ar ainm
+er-faishnee dhraoi
+er-faishnee dhraíodóir
+er-faishnee dhraíodóra
+er-faishnee fháistineach
+er-faishnee fháistinigh
 er-fakin le feiceáil
 er-finnue ar buile
 er-gaddee ghadaí
@@ -51059,6 +51091,11 @@ fer-dellal fear gnó
 fer-dellal fhear gnó
 fer-erbee aon duine
 fer-erbee duine ar bith
+fer-faishnee draoi
+fer-faishnee draíodóir
+fer-faishnee draíodóra
+fer-faishnee fáistineach
+fer-faishnee fáistinigh
 fer-gaddee gadaí
 fer-joarree deoraí
 fer-keirdey ceardaí
@@ -51458,6 +51495,9 @@ fir-choyrlee comhairleoirí
 fir-chroo cruthaitheoirí
 fir-coadee coimirceoirí
 fir-coadee cosantóirí
+fir-faishnee draoithe
+fir-faishnee draíodóirí
+fir-faishnee fáistinigh
 fir-gaddee gadaithe
 fir-joarree deoraithe
 fir-kiaullee ceoltóirí
@@ -66228,6 +66268,7 @@ grauemayd greanfaimid
 graueym greanfaidh mé
 graueyn gcnámha
 grauit greanta
+grave grave
 gray gcré
 gray-chalmane gcrécholúir
 gray-chalmane gcrécholúr
@@ -73686,6 +73727,9 @@ heckyn sheiceanna
 hecliptagh héiclipteach
 hecliptagh héicliptigh
 hecliptee héicliptigh
+hectare heicteáir
+hectare heicteár
+hectareyn heicteáir
 hed gabhfaidh
 hed ghabhfaidh
 hedd hata
@@ -78630,6 +78674,8 @@ holtanyn bhallóga
 holtanyn fhothracha
 holtee haltaigh
 holtee-jee haltaígí
+holteeyn baill
+holteeyn comhaltaí
 holter naisc
 holter nasc
 holteryn naisc
@@ -82063,6 +82109,7 @@ hunnaneysaght haontachas
 hunnaneyseyr haontachtaí
 hunnaneyseyryn haontachtaithe
 hunnaneysit haontaithe
+hunnaneyssagh haontachtach
 hunnaneyssaghyn comhaontuithe
 hunnaneyssey comhaontú
 hunnaneyssit haontaithe
@@ -83888,6 +83935,9 @@ ir-choyrlee chomhairleoirí
 ir-chroo chruthaitheoirí
 ir-coadee choimirceoirí
 ir-coadee chosantóirí
+ir-faishnee dhraoithe
+ir-faishnee dhraíodóirí
+ir-faishnee fháistinigh
 ir-gaddee ghadaithe
 ir-joarree dheoraithe
 ir-kiaullee cheoltóirí
@@ -99160,6 +99210,11 @@ m'er-coyrlee mo chomhairleoir
 m'er-coyrlee mo chomhairleora
 m'er-croo mo chruthaitheoir
 m'er-croo mo chruthaitheora
+m'er-faishnee m'fháistineach
+m'er-faishnee m'fháistinigh
+m'er-faishnee mo dhraoi
+m'er-faishnee mo dhraíodóir
+m'er-faishnee mo dhraíodóra
 m'er-gaddee mo ghadaí
 m'er-joarree mo dheoraí
 m'er-keirdey mo cheardaí
@@ -99718,6 +99773,9 @@ m'ir-choyrlee mo chomhairleoirí
 m'ir-chroo mo chruthaitheoirí
 m'ir-coadee mo choimirceoirí
 m'ir-coadee mo chosantóirí
+m'ir-faishnee m'fháistinigh
+m'ir-faishnee mo dhraoithe
+m'ir-faishnee mo dhraíodóirí
 m'ir-gaddee mo ghadaithe
 m'ir-joarree mo dheoraithe
 m'ir-kiaullee mo cheoltóirí
@@ -100566,6 +100624,8 @@ m'oltaght m'fhionnaitheacht
 m'oltaght m'fhionnaitheachta
 m'oltaghyn mo bhaill
 m'oltaghyn mo chomhaltaí
+m'olteeyn mo bhaill
+m'olteeyn mo chomhaltaí
 m'oltey mo bhaill
 m'oltey mo bhall
 m'oltey mo chomhalta
@@ -106428,6 +106488,9 @@ moal-inçhynagh mallintinnigh
 moal-inçhynee mallintinní
 moal-ynsit tearcmhúinte
 moalaghyn mballaí
+moaldey bochta
+moaldey laga
+moaldey malla
 moalit maolaithe
 moallaghyn mballaí
 moalley mballa
@@ -109948,6 +110011,7 @@ myr mar
 myr'naght ar an gcaoi chéanna
 myr-yein cur i gcéill
 myr-yien mar dhea
+myrane mar aon
 myrchaagh mar an gcéanna
 myrgeayrt timpeall
 myrgeddin chomh maith
@@ -120862,6 +120926,8 @@ nolteeym altramóidh mé
 nolteeym altóidh mé
 nolteeym n-altramóidh mé
 nolteeym n-altóidh mé
+nolteeyn gcomhaltaí
+nolteeyn mbaill
 noltey gcomhalta
 noltey mbaill
 noltey mball
@@ -124580,6 +124646,10 @@ olteeagh d'altódh
 olteein d'altóinn
 olteemayd altóimid
 olteeym altóidh mé
+olteeyn baill
+olteeyn bhaill
+olteeyn chomhaltaí
+olteeyn comhaltaí
 oltey baill
 oltey ball
 oltey bhaill
@@ -125990,6 +126060,8 @@ paggey paca
 paggit pacáilte
 paggmayd pacálfaimid
 paggym pacálfaidh mé
+paint péint
+paint péinte
 pairk bpáirceáil
 pairk páirc
 pairk páirce
@@ -126746,6 +126818,8 @@ phaggey phaca
 phaggin phacálfainn
 phaggit phacáilte
 phaggys phacálfaidh
+phaint phéint
+phaint phéinte
 phairk bpáirceáil
 phairk pháirc
 phairk pháirce
@@ -131196,6 +131270,13 @@ raaidey-vooar mhórbhealaigh
 raaidey-vooar mhórbhóthair
 raaidey-vooar mórbhealaigh
 raaidey-vooar mórbhóthair
+raaidjey bealaigh
+raaidjey bhealaigh
+raaidjey bhóthair
+raaidjey bóthair
+raaidjey mbealaigh
+raaidjey mbóthair
+raaidjey róid
 raaidjyn bealaí
 raaidjyn bhealaí
 raaidjyn bhóithre
@@ -137873,6 +137954,7 @@ sealmayd séalóimid
 sealym shéalóidh mé
 sealym séalóidh mé
 sealyn séalaí
+season season
 secant seiceant
 secant seicint
 secantyn seicint
@@ -147378,6 +147460,7 @@ stiagh-vleaystey inphléasctha
 stiagh-vleaystey n-inphléascadh
 stiagh-vleaystey n-inphléasctha
 stiagh-vleaystey t-inphléascadh
+stiaght isteach
 sticks sticks
 still fós
 still ina stad
@@ -154449,8 +154532,12 @@ unnaneyseyr aontachtaí
 unnaneyseyr t-aontachtaí
 unnaneyseyryn aontachtaithe
 unnaneysit aontaithe
+unnaneyssagh aontachtach
+unnaneyssagh aontachtacha
+unnaneyssagh aontachtaigh
 unnaneyssaghyn chomhaontuithe
 unnaneyssaghyn comhaontuithe
+unnaneyssee aontachtaí
 unnaneyssey chomhaontú
 unnaneyssey comhaontú
 unnaneyssit aontaithe
@@ -158841,6 +158928,11 @@ ver-coyrlee gcomhairleoir
 ver-coyrlee gcomhairleora
 ver-croo gcruthaitheoir
 ver-croo gcruthaitheora
+ver-faishnee bhfáistineach
+ver-faishnee bhfáistinigh
+ver-faishnee ndraoi
+ver-faishnee ndraíodóir
+ver-faishnee ndraíodóra
 ver-gaddee ngadaí
 ver-joarree ndeoraí
 ver-keirdey gceardaí
@@ -159824,6 +159916,9 @@ vir-choyrlee gcomhairleoirí
 vir-chroo gcruthaitheoirí
 vir-coadee gcoimirceoirí
 vir-coadee gcosantóirí
+vir-faishnee bhfáistinigh
+vir-faishnee ndraoithe
+vir-faishnee ndraíodóirí
 vir-gaddee ngadaithe
 vir-joarree ndeoraithe
 vir-kiaullee gceoltóirí
@@ -160778,6 +160873,9 @@ voal-inçhynagh mhallintinnigh
 voal-inçhynee mhallintinní
 voal-ynsit thearcmhúinte
 voalaghyn bhallaí
+voaldey bhochta
+voaldey laga
+voaldey mhalla
 voalit mhaolaithe
 voall bhfeall
 voall bhfill
