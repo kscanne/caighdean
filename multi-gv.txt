@@ -3093,6 +3093,7 @@ cha_vod-mayd ní féidir linn
 cha_vod_ad ní féidir leo
 cha_vod_ee ní féidir léi
 cha_vod_eh ní féidir leis
+cha_vod_mad ní féidir linn
 cha_vod_mayd ní féidir linn
 cha_vod_oo ní féidir leat
 cha_vod_shiu ní féidir libh
@@ -3271,6 +3272,8 @@ chalmane_turtle fhearáin
 chalmane_turtle fhearán
 chalmaneyn_turtle fhearáin
 chalmaneyn_turtle fhearán
+chamm's_eh_hene chomh maith leis féin
+chamm's_lesh_aggle chomh maith le heagla
 chammah's_shen chomh maith leis sin
 chammah_as_shen chomh maith leis sin
 chamoo_ren agus ní dhearna
@@ -6635,6 +6638,7 @@ dooinnaghyn_albeenagh hailbíneach
 dooinnaghyn_albeenagh hailbínigh
 dooinnaghyn_bingagh coisteoirí
 dooinnaghyn_bingagh giúróirí
+dooinnaghyn_sooree leannáin
 dooinnaghyn_sooree suirígh
 dooinnaghyn_sooree suiríoch
 dooinney_albeenagh ailbíneach
@@ -6670,6 +6674,8 @@ dooinney_poost fear pósta
 dooinney_scarrit fear colscartha
 dooinney_seihllt duine saolta
 dooinney_seyr fear uasal
+dooinney_sooree leannáin
+dooinney_sooree leannán
 dooinney_sooree suirígh
 dooinney_sooree suiríoch
 dooinney_sooree tsuirígh
@@ -8470,6 +8476,7 @@ dy_vod-yms gur féidir liomsa
 dy_vod_ad gur féidir leo
 dy_vod_ee gur féidir léi
 dy_vod_eh gur féidir leis
+dy_vod_mad gur féidir linn
 dy_vod_mayd gur féidir linn
 dy_vod_oo gur féidir leat
 dy_vod_shin dá bhféadfaimis
@@ -9617,6 +9624,7 @@ er_ny_ghoaill á ghabháil
 er_ny_ghra á rá
 er_ny_hauail á shlánú
 er_ny_hauail á shábháil
+er_ny_hellym á shéideadh
 er_ny_heyrey á shaoradh
 er_ny_hickyraghey á chinntiú
 er_ny_hickyraghey á dhearbhú
@@ -9922,6 +9930,7 @@ er_vrishey'n tar éis briseadh an
 er_y_Nollick faoi Nollaig
 er_y_cheayn ar an bhfarraige
 er_y_cheayn ar farraige
+er_y_cheilley ar a chéile
 er_y_chlag a chlog
 er_y_chooid_sloo ar a laghad
 er_y_chooyl ar an bpointe
@@ -11967,6 +11976,7 @@ ghooinnaghyn_albeenagh ailbíneach
 ghooinnaghyn_albeenagh ailbínigh
 ghooinnaghyn_bingagh choisteoirí
 ghooinnaghyn_bingagh ghiúróirí
+ghooinnaghyn_sooree leannáin
 ghooinnaghyn_sooree shuirígh
 ghooinnaghyn_sooree shuiríoch
 ghooinney_albeenagh ailbíneach
@@ -11981,6 +11991,8 @@ ghooinney_mooinjerey ghaoil
 ghooinney_mooinjerey ghaol
 ghooinney_niartal-caggee ghaiscíoch tréan
 ghooinney_seyr a dhuine uasail
+ghooinney_sooree leannáin
+ghooinney_sooree leannán
 ghooinney_sooree shuirígh
 ghooinney_sooree shuiríoch
 ghooinney_treoghe bhaintreach
@@ -13003,6 +13015,12 @@ glinkagh_oo chlingfeá
 glinkagh_oo gclingfeá
 glinkagh_shin chlingfimis
 glinkagh_shin gclingfimis
+glinnagh_ad chloisfidís
+glinnagh_ad gcloisfidís
+glinnagh_oo chloisfeá
+glinnagh_oo gcloisfeá
+glinnagh_shin chloisfimis
+glinnagh_shin gcloisfimis
 glioon_er_glioon céim ar chéim
 glishagh_ad chlisfidís
 glishagh_ad gclisfidís
@@ -13061,6 +13079,7 @@ gloiederyn_obo n-óbóirí
 gloieyn_kiaullee méaldrámaí
 glonney_chassagh gloinse choise
 glonney_chrystal gloine chriostail
+glonney_frauaigagh gloine shnáithíneach
 glonney_ghaait gloine dhaite
 glonney_vooadee gloine formhéadúcháin
 glooid_traaght plódú tráchta
@@ -13555,6 +13574,7 @@ goll_stiagh dul isteach
 goll_thie ag dul abhaile
 goll_thie dul abhaile
 goll_twoaie bogha ceatha
+goll_twoaie bogha síne
 gollage_chiaullee gabhailín ceoil
 gollage_chiaullee gabhlóg thiúnta
 gollage_greddan forc tóstála
@@ -22503,6 +22523,9 @@ my_Yamaicee m'Iamácaigh
 my_Yamaikey m'Iamáice
 my_Yerraghyn_Geuree m'Eanáirí
 my_Yerrey_Geuree m'Eanáir
+my_Yesuit m'Íosánach
+my_Yesuit m'Íosánaigh
+my_Yesuityn m'Íosánaigh
 my_Yordaan m'Iordáin
 my_Yordaan m'Iordáine
 my_Yuan_Haink_Noal m'inimirceach
@@ -22646,6 +22669,8 @@ my_chiarailyn_rolaue m'ullmhúcháin
 my_chiarailyn_rolaue m'ullmhúchán
 my_chiarailys m'oirchill
 my_chiarailys m'oirchille
+my_chiarrail m'aire
+my_chiarrailyn m'airí
 my_chiartaghaghyn m'ullmhuithe
 my_chiartaghey m'ullmhaithe
 my_chiartaghey m'ullmhú
@@ -23812,6 +23837,8 @@ my_hreishteilys m'iontaofacht
 my_hreishteilys m'iontaofachta
 my_hrelleen m'fhothach
 my_hrelleen m'fhothaigh
+my_hreshteil m'iontaoibh
+my_hreshteil m'iontaoibhe
 my_hriesht m'iontaoibh
 my_hriesht m'iontaoibhe
 my_hroagyraght m'fhánaíocht
@@ -24661,6 +24688,7 @@ my_sailloo más mian leo
 my_saillt más mian leat
 my_saillym más mian liom
 my_sailt más mian leat
+my_sallish más mian leis
 my_scaipail m'éalaithe
 my_scaipail m'éalú
 my_scaipailtagh m'éalaitheach
@@ -25275,6 +25303,14 @@ my_walkal m'úcadh
 my_walkal m'úctha
 my_walkee m'úctha
 my_walkey m'úcadh
+my_wandrail m'fhálróid
+my_wandrail m'fhálróide
+my_wandrail m'fhánaíocht
+my_wandrail m'fhánaíochta
+my_wandreilys m'fhálróid
+my_wandreilys m'fhálróide
+my_wandreilys m'fhánaíocht
+my_wandreilys m'fhánaíochta
 my_wappin m'airm
 my_wappin m'arm
 my_wappinyn m'airm
@@ -26110,6 +26146,7 @@ nagh_vod-mayd nach féidir linn
 nagh_vod_ad nach féidir leo
 nagh_vod_ee nach féidir léi
 nagh_vod_eh nach féidir leis
+nagh_vod_mad nach féidir linn
 nagh_vod_mayd nach féidir linn
 nagh_vod_oo nach féidir leat
 nagh_vod_shinyn nach féidir linne
@@ -27831,6 +27868,7 @@ nooinnaghyn_albeenagh n-ailbíneach
 nooinnaghyn_albeenagh n-ailbínigh
 nooinnaghyn_bingagh gcoisteoirí
 nooinnaghyn_bingagh ngiúróirí
+nooinnaghyn_sooree leannáin
 nooinnaghyn_sooree suirígh
 nooinnaghyn_sooree suiríoch
 nooinney_albeenagh n-ailbíneach
@@ -27842,6 +27880,8 @@ nooinney_bingagh ngiúróra
 nooinney_erskyn_deiney n-osduine
 nooinney_mooinjerey ngaoil
 nooinney_mooinjerey ngaol
+nooinney_sooree leannáin
+nooinney_sooree leannán
 nooinney_sooree suirígh
 nooinney_sooree suiríoch
 nooishtagh_ad dhúiseoidís
@@ -33795,6 +33835,9 @@ son_shen leis sin
 son_shen_as_ooilley mar sin féin
 son_shickerys go cinnte
 son_shickerys go deimhin
+son_shickrys ar ndóigh
+son_shickrys go cinnte
+son_shickrys go deimhin
 son_shickyrys ar ndóigh
 son_shickyrys gan amhras
 son_shickyrys go cinnte
@@ -39026,6 +39069,7 @@ yn_Jeeaghyn Eipeafáine
 yn_Keayn_Sheealtagh an tAigéan Ciúin
 yn_Keayn_Sheear an tAigéan Atlantach
 yn_Laos Laos
+yn_Naamathite ó Namát
 yn_Nickeraag Nicearagua
 yn_Omaan Óman
 yn_Ooraguay Uragua
