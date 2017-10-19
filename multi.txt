@@ -19,12 +19,22 @@
 'nn_ár inár
 'san_mbioth ar bith
 'sé_r'd is éard
+Baile_Phib Baile Phib
+Bhaile_Phib Bhaile Phib
 Botany_Bay Botany Bay
 Bric_na_Buaire Bric na Buaire
+Chill_Aithnín Chill Aithnín
+Chill_Díoma Chill Díoma
+Chill_Uird Chill Uird
+Cill_Aithnín Cill Aithnín
+Cill_Díoma Cill Díoma
+Cill_Uird Cill Uird
 De_Bhet De Wet
+Dhurlas_Éile Dhurlas Éile
 Dhún_Gheanainn Dhún Geanainn
 Dolar_Durbha Dolar Durbha
 Don_Iuan Don Juan
+Durlas_Éile Durlas Éile
 Dún_Gheanainn Dún Geanainn
 Fear_Monach Fear Manach
 Fhear_Monach Fhear Manach
@@ -34,9 +44,11 @@ Hóm_Rúil Hóm Rúil
 Iúdás_Macabéus Iúdás Macabaech
 Iúlius_Caesar Iúil Caesar
 Lios_Caragáin Lios Carragáin
+Loch_Deán Loch Deán
 Loch_gCarman Loch Garman
 Mac_Furra Mac Furra
 Mhic_Furra Mhic Furra
+Mhic_Íre Mhic Íre
 Nua_Eabhrac Nua-Eabhrac
 Nua_Eabhroc Nua-Eabhrac
 Nuadh_Eabhrac Nua-Eabhrac
@@ -45,6 +57,7 @@ Ros_Guill Ros Goill
 San_Iuan San Juan
 Sinn_Féineach Sinn Féineach
 Spion_Cop Spion Kop
+Sráid_Talbóid Sráid Thalbóid
 Ua_bhFailghe Uíbh Fhailí
 Ua_bhFáilí Uíbh Fhailí
 Uibh_Failghe Uíbh Fhailí
@@ -111,6 +124,7 @@ a_n-aoinfheacht in éineacht
 a_n-diu inniu
 a_n-diú inniu
 a_n-eadh an ea
+a_n-éagmhuis in éagmais
 a_n-éinfheacht in éineacht
 a_nEirinn in Éirinn
 a_naimsir in aimsir
@@ -406,6 +420,7 @@ dhá_ríribh dáiríre
 dhó_nó'r_trí dhá nó trí
 dia_domhnac Dé Domhnaigh
 dia_domnach Dé Domhnaigh
+dia_satarn Dé Sathairn
 ding_dang ding deang
 do_'n don
 do_Dhamascus don Damaisc
@@ -450,6 +465,7 @@ do_chonnairc a chonaic
 do_chonnairc chonaic
 do_chonnarc a chonaic
 do_chonnarc chonaic
+do_chose a chosc
 do_chromas chrom mé
 do_chuadhas chuaigh mé
 do_chuaidh a chuaigh
@@ -620,6 +636,7 @@ faoi_dheoigh faoi dheoidh
 faoi_do_réir faoi do réir
 faoi_n'ar faoinár
 faoi_n'asgaill faoina ascaill
+faoi_n'ár faoinár
 faoi_n-a faoina
 faoi_ndeara faoi deara
 faoí_n'ar faoinár
@@ -648,6 +665,9 @@ fé_ndearr faoi deara
 fé_ndeár faoi deara
 fé_ndeára faoi deara
 gCeanntar_gCumhang gCeantar Cúng
+gCill_Aithnín gCill Aithnín
+gCill_Díoma gCill Díoma
+gCill_Uird gCill Uird
 gach_n'aon gach aon
 galar_dóghach galar dubhach
 gan_chrí gan chríoch
@@ -910,6 +930,7 @@ i_n-éa'-chor in aon chor
 i_n-éadan in éadan
 i_n-éadán in éadan
 i_n-éag in éag
+i_n-éagmhuis in éagmais
 i_n-éan-bhall in aon bhall
 i_n-éan-chor in aon chor
 i_n-éan-áit in aon áit
@@ -924,6 +945,7 @@ i_n-úil in iúl
 i_n-úmhail in iúl
 i_n-úsáid in úsáid
 i_nAcaill in Acaill
+i_nAontrum in Aontroim
 i_nApollo in Apalló
 i_nDamascus sa Damaisc
 i_nEachdhruim in Eachroim
@@ -978,6 +1000,7 @@ is_cómha is comhionann
 is_mdhó is iomaí
 is_nea-chómha is neamhionann
 is_neachómha is neamhionann
+is_soth is oth
 is_é_r'd is éard
 ist'_oidhche istoíche
 ist_oidche istoíche
@@ -1018,12 +1041,14 @@ le_haigh' le haghaidh
 le_lin le linn
 le_n' lena
 le_n'a lena
+le_n'aghaidh lena aghaidh
 le_n'ais lena ais
 le_n'anam lena anam
 le_n'athair lena athair
 le_n'innsint lena insint
 le_n'ithe lena ithe
 le_n'ucht lena ucht
+le_n'ár lenár
 le_n'íoc lena íoc
 le_n'ól lena ól
 le_n-a lena
@@ -1044,7 +1069,9 @@ luí_gaidhte luí gaidhte
 lá'r_n'a lá arna
 lá_'l lá fhéile
 láirín_ó_lúra láirín ó lúra
+lé_n'aghaidh lena aghaidh
 lúirín_ó_lára lúirín ó lára
+mBaile_Phib mBaile Phib
 mac_a_samhail macasamhail
 mar'dh_eadh mar dhea
 mar_'bhí mar a bhí
@@ -1058,13 +1085,16 @@ mb'_fhéidir mb'fhéidir
 mb'_áil mb'áil
 mb'_éigean mb'éigean
 mbudh_éidir mb'fhéidir
+mo_chrí mo chroí
 mo_chéill mo chiall
 mo_níon m'iníon
 muga_maga mugadh magadh
 my_faith my faith
 má_'s más
 más_nea-chómha más neamhionann
+n'ár_ndiaidh inár ndiaidh
 n-ár_ndhiaidh inár ndiaidh
+nDurlas_Éile nDurlas Éile
 nDún_Gheanainn nDún Geanainn
 nUdarás_nAitiúil nÚdarás Áitiúil
 na_Boers na Bóraigh
@@ -1193,6 +1223,7 @@ ná_feudfainn nach bhféadfainn
 ná_fillfeadh nach bhfillfeadh
 ná_fuair nach bhfuair
 ná_fuighbheadh nach bhfaigheadh
+ná_fuighdís nach bhfaighidís
 ná_fuil nach bhfuil
 ná_fuileam nach bhfuilimid
 ná_fuileann nach bhfuil
@@ -1432,6 +1463,7 @@ tar_a_éisibh tar éis
 thar_éis tar éis
 thar_éise tar éis
 tre_n-ar' trínar
+tri_n'ár trínár
 tré_Shamaria tríd an tSamáir
 trí_n-a trína
 trí_treana trí treana
