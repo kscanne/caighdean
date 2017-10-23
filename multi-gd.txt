@@ -423,6 +423,7 @@ Iulius_Ceasar Iúil Caesar
 Iulius_Ceusair Iúil Caesar
 Iùdas_Iscariot Iúdás Isceiriót
 Ju_Jitsu Jú-Jiotsú
+Keil_School Keil School
 Korea_Deas an Chóiré Theas
 Korea_Tuath an Chóiré Thuaidh
 Korea_a_Deas an Chóiré Theas
@@ -501,6 +502,7 @@ Phrìomh_Ghnìomhan Phríomh-Ghníomhartha
 Phrìomh_Ionad-Cluiche Phríomh-Staid
 Phrìomh_Mhinistear Phríomh-Aire
 Phrìomh_Mhinisteir Phríomh-Aire
+Phrìomh_Mhinstear Phríomh-Aire
 Phrìomh_Thalla Phríomh-Halla
 Plaid_Cymru Plaid Cymru
 Poblachd_Meadhan_Afraga Poblacht na hAfraice Láir
@@ -511,6 +513,8 @@ Prìomh_Ionad-Cluiche Príomh-Staid
 Prìomh_Lìog Príomhshraith
 Prìomh_Mhinistear Príomh-Aire
 Prìomh_Mhinistear bPríomh-Aire
+Prìomh_Mhinstear Príomh-Aire
+Prìomh_Mhinstear bPríomh-Aire
 Prìomh_Thalla Príomh-Halla
 Prògram_Choinnich Clár Choinnigh
 Puerto_Rico Portó Ríce
@@ -1065,6 +1069,8 @@ a_dh'Fhàl d'Fhál
 a_dh'Fhàrothach d'Fharóch
 a_dh'Fhàrothaich d'Fharóch
 a_dh'Fhàrothaich d'Fharóigh
+a_dh'Fhèil d'Fhéile
+a_dh'Fhèile d'Fhéile
 a_dh'Fhèill d'Fhéile
 a_dh'Fhèille d'Fhéile
 a_dh'Fhèin-Dhìonachd d'fhéinchosaint
@@ -4473,6 +4479,7 @@ a_dh'fhear-stiùiridh do stiúrthóir
 a_dh'fhear-tagraidh d'abhcóide
 a_dh'fhear-teagaisg do mhúinteoir
 a_dh'fhear-togail do thógálaí
+a_dh'fhear-àiteachaidh d'áitritheoir
 a_dh'fhearachais d'fhearúlachta
 a_dh'fhearachas d'fhearúlacht
 a_dh'fhearachdainn do mhothú
@@ -4960,6 +4967,8 @@ a_dh'fhir-teagaisg do mhúinteoirí
 a_dh'fhir-teagaisg do mhúinteora
 a_dh'fhir-togail do thógálaithe
 a_dh'fhir-togail do thógálaí
+a_dh'fhir-àiteachaidh d'áitritheoirí
+a_dh'fhir-àiteachaidh d'áitritheora
 a_dh'fhireach d'fhiarach
 a_dh'fhiread d'fhiréad
 a_dh'fhirean d'fhíréan
@@ -5787,6 +5796,7 @@ a_dh'fhìrich d'fhiaraigh
 a_dh'fhìrichean d'fhiaraigh
 a_dh'fhìrinn d'fhírinne
 a_dh'fhìrinne d'fhírinne
+a_dh'fhìrinneachd d'fhírinne
 a_dh'fhìrinnean d'fhírinní
 a_dh'fhòcais d'fhócais
 a_dh'fhòcas d'fhócas
@@ -6067,6 +6077,8 @@ a_dh'iathairean d'adharcáin
 a_dh'iathairean d'adharcán
 a_dh'iathairean d'aeróg
 a_dh'iathairean d'aeróga
+a_dh'ideòlais d'idé-eolaíochta
+a_dh'ideòlas d'idé-eolaíocht
 a_dh'idheoin d'iain
 a_dh'idheon d'ian
 a_dh'idheonaichean d'iain
@@ -10618,6 +10630,7 @@ an_coimeas_riutha i gcomparáid leo
 an_coimeas_ruibh i gcomparáid leat
 an_coimeas_ruibh i gcomparáid libh
 an_coimeas_ruinn i gcomparáid linn
+an_coingheall ar iasacht
 an_cois cois
 an_coluadair i dteagmháil
 an_coluadair i gcomhar
@@ -14009,6 +14022,8 @@ bu_choimhiche b'iasachta
 bu_choimig b'fhuirseoir
 bu_choimigean b'fhuirseoirí
 bu_choin-eunaidh b'aimseadóirí
+bu_choingheall b'iasacht
+bu_choingheallan b'iasachtaí
 bu_choinleach b'fhoráiste
 bu_choir ba chóir
 bu_choireach_airson ba chúis le
@@ -21525,6 +21540,8 @@ de_dh'Fhàl d'Fhál
 de_dh'Fhàrothach d'Fharóch
 de_dh'Fhàrothaich d'Fharóch
 de_dh'Fhàrothaich d'Fharóigh
+de_dh'Fhèil d'Fhéile
+de_dh'Fhèile d'Fhéile
 de_dh'Fhèill d'Fhéile
 de_dh'Fhèille d'Fhéile
 de_dh'Fhèin-Dhìonachd d'fhéinchosaint
@@ -24907,6 +24924,7 @@ de_dh'fhear-stiùiridh de stiúrthóir
 de_dh'fhear-tagraidh d'abhcóide
 de_dh'fhear-teagaisg de mhúinteoir
 de_dh'fhear-togail de thógálaí
+de_dh'fhear-àiteachaidh d'áitritheoir
 de_dh'fhearachais d'fhearúlachta
 de_dh'fhearachas d'fhearúlacht
 de_dh'fhearachdainn de mhothú
@@ -25396,6 +25414,8 @@ de_dh'fhir-teagaisg de mhúinteoirí
 de_dh'fhir-teagaisg de mhúinteora
 de_dh'fhir-togail de thógálaithe
 de_dh'fhir-togail de thógálaí
+de_dh'fhir-àiteachaidh d'áitritheoirí
+de_dh'fhir-àiteachaidh d'áitritheora
 de_dh'fhireach d'fhiarach
 de_dh'fhiread d'fhiréad
 de_dh'fhirean d'fhíréan
@@ -26223,6 +26243,7 @@ de_dh'fhìrich d'fhiaraigh
 de_dh'fhìrichean d'fhiaraigh
 de_dh'fhìrinn d'fhírinne
 de_dh'fhìrinne d'fhírinne
+de_dh'fhìrinneachd d'fhírinne
 de_dh'fhìrinnean d'fhírinní
 de_dh'fhòcais d'fhócais
 de_dh'fhòcas d'fhócas
@@ -26502,6 +26523,8 @@ de_dh'iathairean d'adharcáin
 de_dh'iathairean d'adharcán
 de_dh'iathairean d'aeróg
 de_dh'iathairean d'aeróga
+de_dh'ideòlais d'idé-eolaíochta
+de_dh'ideòlas d'idé-eolaíocht
 de_dh'idheoin d'iain
 de_dh'idheon d'ian
 de_dh'idheonaichean d'iain
@@ -33760,6 +33783,7 @@ dhuisgeadh_tu dhúiseofá
 dhuisgeadh_tu mhúsclófá
 dhuisgidh_sinn dhúiseoimid
 dhuisgidh_sinn mhúsclóimid
+dhun_eideann Dhún Éideann
 dhà_bhliadhna dhá bhliain
 dhà_chànanach dhátheangach
 dhà_chànanach dhátheangacha
@@ -34603,6 +34627,8 @@ do_dh'Fhàl d'Fhál
 do_dh'Fhàrothach d'Fharóch
 do_dh'Fhàrothaich d'Fharóch
 do_dh'Fhàrothaich d'Fharóigh
+do_dh'Fhèil d'Fhéile
+do_dh'Fhèile d'Fhéile
 do_dh'Fhèill d'Fhéile
 do_dh'Fhèille d'Fhéile
 do_dh'Fhèin-Dhìonachd d'fhéinchosaint
@@ -37989,6 +38015,7 @@ do_dh'fhear-stiùiridh do stiúrthóir
 do_dh'fhear-tagraidh d'abhcóide
 do_dh'fhear-teagaisg do mhúinteoir
 do_dh'fhear-togail do thógálaí
+do_dh'fhear-àiteachaidh d'áitritheoir
 do_dh'fhearachais d'fhearúlachta
 do_dh'fhearachas d'fhearúlacht
 do_dh'fhearachdainn do mhothú
@@ -38478,6 +38505,8 @@ do_dh'fhir-teagaisg do mhúinteoirí
 do_dh'fhir-teagaisg do mhúinteora
 do_dh'fhir-togail do thógálaithe
 do_dh'fhir-togail do thógálaí
+do_dh'fhir-àiteachaidh d'áitritheoirí
+do_dh'fhir-àiteachaidh d'áitritheora
 do_dh'fhireach d'fhiarach
 do_dh'fhiread d'fhiréad
 do_dh'fhirean d'fhíréan
@@ -39305,6 +39334,7 @@ do_dh'fhìrich d'fhiaraigh
 do_dh'fhìrichean d'fhiaraigh
 do_dh'fhìrinn d'fhírinne
 do_dh'fhìrinne d'fhírinne
+do_dh'fhìrinneachd d'fhírinne
 do_dh'fhìrinnean d'fhírinní
 do_dh'fhòcais d'fhócais
 do_dh'fhòcas d'fhócas
@@ -39584,6 +39614,8 @@ do_dh'iathairean d'adharcáin
 do_dh'iathairean d'adharcán
 do_dh'iathairean d'aeróg
 do_dh'iathairean d'aeróga
+do_dh'ideòlais d'idé-eolaíochta
+do_dh'ideòlas d'idé-eolaíocht
 do_dh'idheoin d'iain
 do_dh'idheon d'ian
 do_dh'idheonaichean d'iain
@@ -42713,6 +42745,8 @@ duisgeadh_tu ndúiseofá
 duisgidh_sinn dúiseoimid
 duisgidh_sinn músclóimid
 duisgidh_sinn ndúiseoimid
+dun_eideann Dún Éideann
+dun_eideann nDún Éideann
 dur_n-ionnsaigh chugaibh
 dà_bhliadhna dhá bhliain
 dà_chànanach dátheangach
@@ -46409,6 +46443,8 @@ gu_leth go leith
 gu_leìr go léir
 gu_leòr go leor
 gu_lèir go léir
+gu_ma go mba
+gu_ma_h-ann go mba
 gu_mì-fhortanach faraor
 gu_seachd-àraidh go háirithe
 gu_seachd_àraidh go háirithe
@@ -49809,6 +49845,8 @@ mo_Fhàl m'Fhál
 mo_Fhàrothach m'Fharóch
 mo_Fhàrothaich m'Fharóch
 mo_Fhàrothaich m'Fharóigh
+mo_Fhèil m'Fhéile
+mo_Fhèile m'Fhéile
 mo_Fhèill m'Fhéile
 mo_Fhèille m'Fhéile
 mo_Fhèin-Dhìonachd m'fhéinchosaint
@@ -50281,6 +50319,9 @@ mo_choimig m'fhuirseora
 mo_choimigean m'fhuirseoirí
 mo_choin-eunaidh m'aimseadóirí
 mo_choin-eunaidh m'aimseadóra
+mo_choingheall m'iasacht
+mo_choingheallan m'iasachtaí
+mo_choinghill m'iasachta
 mo_choinleach m'fhoráiste
 mo_choinlich m'fhoráiste
 mo_chomaig m'fhuirseoir
@@ -50965,6 +51006,7 @@ mo_fhear-lagh m'aturnae
 mo_fhear-lagha m'aturnae
 mo_fhear-seallaidh m'fháidh
 mo_fhear-tagraidh m'abhcóide
+mo_fhear-àiteachaidh m'áitritheoir
 mo_fhearachais m'fhearúlachta
 mo_fhearachas m'fhearúlacht
 mo_fhearaibh m'fhear
@@ -51252,6 +51294,8 @@ mo_fhir-sheallaidh m'fháidh
 mo_fhir-sheallaidh m'fháithe
 mo_fhir-tagraidh m'abhcóide
 mo_fhir-tagraidh m'abhcóidí
+mo_fhir-àiteachaidh m'áitritheoirí
+mo_fhir-àiteachaidh m'áitritheora
 mo_fhireach m'fhiarach
 mo_fhiread m'fhiréad
 mo_fhirean m'fhíréan
@@ -51916,6 +51960,7 @@ mo_fhìrich m'fhiaraigh
 mo_fhìrichean m'fhiaraigh
 mo_fhìrinn m'fhírinne
 mo_fhìrinne m'fhírinne
+mo_fhìrinneachd m'fhírinne
 mo_fhìrinnean m'fhírinní
 mo_fhòcais m'fhócais
 mo_fhòcas m'fhócas
@@ -54784,6 +54829,7 @@ neo_shoirbheachail mírathúil
 neo_shoirbheachail mírathúla
 ni's_motha níos mó
 ni's_mò níos mó
+ni_h-ann ní
 nigh_iad níodar
 nigh_sinn níomar
 nigheadh_iad nídís
