@@ -7,9 +7,10 @@ translators as a web service which powers several applications:
 
 * the Intergaelic web site <http://intergaelic.com/>
 * the Pota Focal interface to the standardizer <http://www.potafocal.com/cai/>
-* Twitter streams <http://borel.slu.edu/gd2ga> and <http://borel.slu.edu/gv2ga>
+* [Scottish Gaelic](http://borel.slu.edu/gd2ga) and [Manx](http://borel.slu.edu/gv2ga) Twitter streams
 * [Minority Translate](http://translate.keeleleek.ee/wiki/Esileht), a translation application for Wikipedia articles
 * [Pootle](http://pootle.translatehouse.org/), web-based localization server
+* [Pontoon](https://pontoon.mozilla.org/), another web-based localization server
 * [Command line clients](https://github.com/kscanne/caighdean/tree/master/clients) in Perl, Python, Ruby, and more
 * [python-caighdean](https://github.com/phlax/python-caighdean), installable Python client by [@phlax](https://github.com/phlax)
 
