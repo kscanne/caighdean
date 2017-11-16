@@ -11,6 +11,7 @@ translators as a web service which powers several applications:
 * [Minority Translate](http://translate.keeleleek.ee/wiki/Esileht), a translation application for Wikipedia articles
 * [Pootle](http://pootle.translatehouse.org/), web-based localization server
 * [Command line clients](https://github.com/kscanne/caighdean/tree/master/clients) in Perl, Python, Ruby, and more
+* [python-caighdean](https://github.com/phlax/python-caighdean), installable Python client by [@phlax](https://github.com/phlax)
 
 To use the API, simply make a HTTP POST request to the URL
 `http://borel.slu.edu/cgi-bin/seirbhis3.cgi` (https works too)
