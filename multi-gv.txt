@@ -8967,7 +8967,10 @@ eer_aashagh an-éasca
 eer_aeg an-óg
 eer_anchasley an-difriúil
 eer_anchasley an-éagsúil
+eer_ard an-aird
+eer_ard an-airde
 eer_ard an-ard
+eer_ard an-arda
 eer_beg fhíorbheag
 eer_beg fhíorbheaga
 eer_beg fhíorbheige
@@ -8979,6 +8982,9 @@ eer_casley an-chosúil
 eer_creoi an-chrua
 eer_cronnalagh an-suntasach
 eer_currymagh an-chúramach
+eer_currymagh an-chúramacha
+eer_currymagh an-chúramaigh
+eer_currymagh an-chúramaí
 eer_doccar fhíordheacair
 eer_doccar fhíordheacra
 eer_doolagh an-díomách
@@ -8994,11 +9000,17 @@ eer_injil fhíoríseal
 eer_injil fhíorísil
 eer_injil fhíorísle
 eer_jarrooagh an-dearfach
+eer_jarrooagh an-dearfacha
+eer_jarrooagh an-dearfaigh
+eer_jarrooagh an-dearfaí
 eer_jesh an-deas
 eer_lag an-lag
 eer_lajer fhíorláidir
 eer_lajer fhíorláidre
+eer_liauyr an-aird
+eer_liauyr an-airde
 eer_liauyr an-ard
+eer_liauyr an-arda
 eer_liauyr an-fhada
 eer_mie fhíormhaith
 eer_mie fhíormhaithe
@@ -9032,13 +9044,17 @@ eer_veg fhíorbheaga
 eer_veg fhíorbheige
 eer_veg fhíorbhig
 eer_vie an-mhaith
+eer_vie an-mhaithe
 eer_vie fhíormhaith
 eer_vie fhíormhaithe
 eer_voght fhíorbhocht
 eer_voght fhíorbhochta
 eer_voght fhíorbhoicht
 eer_voght fhíorbhoichte
+eer_vooar an-mhóir
+eer_vooar an-mhóire
 eer_vooar an-mhór
+eer_vooar an-mhóra
 eer_vooar ollmhóir
 eer_vooar ollmhóire
 eer_vooar ollmhór
@@ -10398,7 +10414,11 @@ feer_anchasley an-difriúil
 feer_anchasley an-éagsúil
 feer_anmagh fíordhéanach
 feer_anveagh fíorbhuartha
+feer_ard an-aird
+feer_ard an-airde
 feer_ard an-ard
+feer_ard an-arda
+feer_ard han-ard
 feer_beg fíorbheag
 feer_beg fíorbheaga
 feer_beg fíorbheige
@@ -10421,6 +10441,10 @@ feer_chroutagh fíorchliste
 feer_creoi an-chrua
 feer_cronnalagh an-suntasach
 feer_currymagh an-chúramach
+feer_currymagh an-chúramacha
+feer_currymagh an-chúramaigh
+feer_currymagh an-chúramaí
+feer_currymagh han-chúramach
 feer_doccar fíordheacair
 feer_doccar fíordheacra
 feer_doillee an-deacair
@@ -10459,14 +10483,22 @@ feer_injil fíoríseal
 feer_injil fíorísil
 feer_injil fíorísle
 feer_jarrooagh an-dearfach
+feer_jarrooagh an-dearfacha
+feer_jarrooagh an-dearfaigh
+feer_jarrooagh an-dearfaí
+feer_jarrooagh han-dearfach
 feer_jesh an-deas
 feer_jymmoosagh an-fheargach
 feer_lag an-lag
 feer_lajer fíorláidir
 feer_lajer fíorláidre
 feer_lhag-chredjuagh fíor-mhíchreidmheach
+feer_liauyr an-aird
+feer_liauyr an-airde
 feer_liauyr an-ard
+feer_liauyr an-arda
 feer_liauyr an-fhada
+feer_liauyr han-ard
 feer_mie fíormhaith
 feer_mie fíormhaithe
 feer_neuchramp an-simplí
@@ -10515,9 +10547,11 @@ feer_veggan fíorbheagán
 feer_vennick go mion minic
 feer_vhioyral fhíorláidir
 feer_vie an-mhaith
+feer_vie an-mhaithe
 feer_vie fhíormhaith
 feer_vie fíormhaith
 feer_vie fíormhaithe
+feer_vie han-mhaith
 feer_voal an-mhall
 feer_vodjallagh fíorscamallach
 feer_voghey an-luath
@@ -10526,7 +10560,10 @@ feer_voght fíorbhocht
 feer_voght fíorbhochta
 feer_voght fíorbhoicht
 feer_voght fíorbhoichte
+feer_vooar an-mhóir
+feer_vooar an-mhóire
 feer_vooar an-mhór
+feer_vooar an-mhóra
 feer_vooar han-mhór
 feer_vooar hollmhór
 feer_vooar ollmhóir
@@ -24881,6 +24918,7 @@ my_scrobbag m'eagaoise
 my_scrobbagyn m'eagaoisí
 my_scrughey m'aistrithe
 my_scrughey m'aistriú
+my_scrutaghaghyn m'iniúchtaí
 my_scrutaghey m'iniúchadh
 my_scrutaghey m'iniúchta
 my_scruteyder m'iniúchóir
@@ -25542,8 +25580,10 @@ my_yallooyn m'íola
 my_yallooyn m'íomhánna
 my_yargaght m'ábaltacht
 my_yargaght m'ábaltachta
+my_yargaghtyn m'ábaltachtaí
 my_yargallys m'ábaltacht
 my_yargallys m'ábaltachta
+my_yargallysyn m'ábaltachtaí
 my_yarragh dá ndéarfadh
 my_yarragh_oo dá ndéarfá
 my_yarroo-enney m'aitheantais
