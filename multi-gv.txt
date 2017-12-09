@@ -2428,8 +2428,11 @@ brattyn_laare cairpéad
 brattyn_laare cairpéid
 breaban_caggee n-aimfitéatair
 breaban_caggee n-aimfitéatar
+breaban_caggee n-amfaitéatair
+breaban_caggee n-amfaitéatar
 breabanyn_caggee n-aimfitéatair
 breabanyn_caggee n-aimfitéatar
+breabanyn_caggee n-amfaitéatair
 breachagh_ad bhfógróidís
 breachagh_ad fhógróidís
 breachagh_oo bhfógrófá
@@ -3152,10 +3155,13 @@ chaabylyn_artagh artairí
 chaagh_ad dhurdálfaidís
 chaagh_oo dhurdálfá
 chaagh_shin dhurdálfaimis
+chaart_cheerey léarscáil
+chaart_cheerey léarscáile
 chaartraghyn_screeuit leabhail
 chaartraghyn_screeuit leabhal
 chaartrey_screeuit leabhail
 chaartrey_screeuit leabhal
+chaartyn_cheerey léarscáileanna
 chaartyr_ad aithisíodar
 chaartyr_ad d'aithisíodar
 chaartyr_ad maslaíodar
@@ -11138,10 +11144,13 @@ gaagh_oo dhurdálfá
 gaagh_oo ndurdálfá
 gaagh_shin dhurdálfaimis
 gaagh_shin ndurdálfaimis
+gaart_cheerey léarscáil
+gaart_cheerey léarscáile
 gaartraghyn_screeuit leabhail
 gaartraghyn_screeuit leabhal
 gaartrey_screeuit leabhail
 gaartrey_screeuit leabhal
+gaartyn_cheerey léarscáileanna
 gaartyragh_ad aithiseoidís
 gaartyragh_ad maslóidís
 gaartyragh_ad mhaslóidís
@@ -17933,10 +17942,13 @@ jystyn_poddash porainséir
 kaart_Nollick cárta Nollag
 kaart_ayndagh cárta innéacs
 kaart_bee cárta bia
+kaart_cheerey léarscáil
+kaart_cheerey léarscáile
 kaart_dellal cárta gnó
 kaart_ny_feeyney cárta an fhíona
 kaart_ruggyree cárta breithlae
 kaart_skensh cárta scóir
+kaartyn_cheerey léarscáileanna
 kanys_t'ad conas atá siad
 kanys_t'eh conas atá sé
 kanys_t'ou conas atá tú
@@ -18878,12 +18890,20 @@ lhee_coshey coslia
 lhee_coshey gcoslia
 lhee_mraane lia ban
 lhee_neughruggagh bhfisiteiripeach
+lhee_neughruggagh bhfisiteiripeoir
+lhee_neughruggagh bhfisiteiripeora
 lhee_neughruggagh bhfisiteiripigh
 lhee_neughruggagh d'fhisiteiripeach
+lhee_neughruggagh d'fhisiteiripeoir
+lhee_neughruggagh d'fhisiteiripeora
 lhee_neughruggagh d'fhisiteiripigh
 lhee_neughruggagh fhisiteiripeach
+lhee_neughruggagh fhisiteiripeoir
+lhee_neughruggagh fhisiteiripeora
 lhee_neughruggagh fhisiteiripigh
 lhee_neughruggagh fisiteiripeach
+lhee_neughruggagh fisiteiripeoir
+lhee_neughruggagh fisiteiripeora
 lhee_neughruggagh fisiteiripigh
 lheead_meir leithead méire
 lheeahidyn_glooie slam-mhúscáin
@@ -18895,12 +18915,16 @@ lheeyn_coshey choslianna
 lheeyn_coshey coslianna
 lheeyn_coshey gcoslianna
 lheeyn_neughruggagh bhfisiteiripeach
+lheeyn_neughruggagh bhfisiteiripeoirí
 lheeyn_neughruggagh bhfisiteiripigh
 lheeyn_neughruggagh d'fhisiteiripeach
+lheeyn_neughruggagh d'fhisiteiripeoirí
 lheeyn_neughruggagh d'fhisiteiripigh
 lheeyn_neughruggagh fhisiteiripeach
+lheeyn_neughruggagh fhisiteiripeoirí
 lheeyn_neughruggagh fhisiteiripigh
 lheeyn_neughruggagh fisiteiripeach
+lheeyn_neughruggagh fisiteiripeoirí
 lheeyn_neughruggagh fisiteiripigh
 lheeys_aigney shíciatracht
 lheeys_aigney shíciatrachta
@@ -24288,6 +24312,8 @@ my_lheayst m'árann
 my_lheaystyn m'áranna
 my_lhee-obbee m'asarlaí
 my_lhee_neughruggagh m'fhisiteiripeach
+my_lhee_neughruggagh m'fhisiteiripeoir
+my_lhee_neughruggagh m'fhisiteiripeora
 my_lhee_neughruggagh m'fhisiteiripigh
 my_lheeasid m'ára
 my_lheeasid m'árann
@@ -24300,6 +24326,7 @@ my_lheeayst m'árann
 my_lheeaystyn m'áranna
 my_lheeghyn-obbee m'asarlaithe
 my_lheeyn_neughruggagh m'fhisiteiripeach
+my_lheeyn_neughruggagh m'fhisiteiripeoirí
 my_lheeyn_neughruggagh m'fhisiteiripigh
 my_lheeys_neughruggagh m'fhisiteiripe
 my_lheiltys m'aclaíocht
@@ -24657,8 +24684,11 @@ my_phossanyn_eash m'aoisghrúpaí
 my_phossanyn_folley m'fhuilghrúpaí
 my_phreaban_caggee m'aimfitéatair
 my_phreaban_caggee m'aimfitéatar
+my_phreaban_caggee m'amfaitéatair
+my_phreaban_caggee m'amfaitéatar
 my_phreabanyn_caggee m'aimfitéatair
 my_phreabanyn_caggee m'aimfitéatar
+my_phreabanyn_caggee m'amfaitéatair
 my_phreacheil m'fhógairt
 my_phreacheil m'fhógartha
 my_phreaçheil m'fhógairt
@@ -30484,8 +30514,11 @@ phrashagh_oo phrásálfá
 phrashagh_shin phrásálfaimis
 phreaban_caggee aimfitéatair
 phreaban_caggee aimfitéatar
+phreaban_caggee amfaitéatair
+phreaban_caggee amfaitéatar
 phreabanyn_caggee aimfitéatair
 phreabanyn_caggee aimfitéatar
+phreabanyn_caggee amfaitéatair
 phreach_ad bhfógraíodar
 phreach_ad d'fhógraíodar
 phreach_ad fhógraíodar
@@ -30715,17 +30748,27 @@ poyntyn_rio reophointí
 praase_Spaainagh práta Spáinneach
 preaban_caggee aimfitéatair
 preaban_caggee aimfitéatar
+preaban_caggee amfaitéatair
+preaban_caggee amfaitéatar
 preaban_caggee d'aimfitéatair
 preaban_caggee d'aimfitéatar
+preaban_caggee d'amfaitéatair
+preaban_caggee d'amfaitéatar
 preaban_caggee haimfitéatair
 preaban_caggee haimfitéatar
+preaban_caggee hamfaitéatair
+preaban_caggee hamfaitéatar
 preaban_caggee t-aimfitéatar
+preaban_caggee t-amfaitéatar
 preabanyn_caggee aimfitéatair
 preabanyn_caggee aimfitéatar
+preabanyn_caggee amfaitéatair
 preabanyn_caggee d'aimfitéatair
 preabanyn_caggee d'aimfitéatar
+preabanyn_caggee d'amfaitéatair
 preabanyn_caggee haimfitéatair
 preabanyn_caggee haimfitéatar
+preabanyn_caggee hamfaitéatair
 press_feeyney cantaoir fíona
 problem_erbee fadhb ar bith
 pronney_shehghyn seitheadóireacht
