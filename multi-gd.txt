@@ -1950,6 +1950,7 @@ a_dh'airidheachd d'incháilitheacht
 a_dh'airidheachd d'incháilitheachta
 a_dh'airm d'airm
 a_dh'airm d'arm
+a_dh'airm-thilgidh do dhiúracáin
 a_dh'airmean d'airm
 a_dh'airmean d'arm
 a_dh'airnean d'airneán
@@ -2706,6 +2707,8 @@ a_dh'arm-lainn d'armlainne
 a_dh'arm-lann d'armlann
 a_dh'arm-lannan d'armlann
 a_dh'arm-lannan d'armlanna
+a_dh'arm-tilgidh do dhiúracáin
+a_dh'arm-tilgidh do dhiúracán
 a_dh'armachadh d'armáil
 a_dh'armachaidh d'armála
 a_dh'armachd d'airm
@@ -4443,6 +4446,7 @@ a_dh'fhear do cheann
 a_dh'fhear-aithris d'iriseoir
 a_dh'fhear-bogha do bhoghdóir
 a_dh'fhear-bogha do shaighdeoir
+a_dh'fhear-brathaidh do spiaire
 a_dh'fhear-ceàird do cheardaí
 a_dh'fhear-chungaidh do phoitigéir
 a_dh'fhear-cogaidh do shaighdiúir
@@ -4544,6 +4548,10 @@ a_dh'fheasgar do thráthnóna
 a_dh'fheasgarain d'easpartan
 a_dh'fheasgaran d'easparta
 a_dh'fheasgaran do thráthnónta
+a_dh'fheathaimh d'fhanachta
+a_dh'fheathaimh d'fheithimh
+a_dh'fheathamh d'fhanacht
+a_dh'fheathamh d'fheitheamh
 a_dh'fheich d'fhiaigh
 a_dh'fheich d'fhéich
 a_dh'fheidh d'fhia
@@ -4892,6 +4900,8 @@ a_dh'fhir-bhogha do bhoghdóirí
 a_dh'fhir-bhogha do bhoghdóra
 a_dh'fhir-bhogha do shaighdeoirí
 a_dh'fhir-bhogha do shaighdeora
+a_dh'fhir-bhrathaidh do spiaire
+a_dh'fhir-bhrathaidh do spiairí
 a_dh'fhir-ceàird do cheardaithe
 a_dh'fhir-ceàird do cheardaí
 a_dh'fhir-chogaidh do shaighdiúirí
@@ -10822,6 +10832,7 @@ an_t-aite_far_a_bheil an áit ina bhfuil
 an_t-aon_den an duine den
 an_t-ap an aip
 an_t-ath_cheum an chéad chéim eile
+an_t-ath_dhùn an chéad dún eile
 an_t-ath_eilean an chéad oileán eile
 an_t-seachdain-sa an tseachtain seo
 an_t-sean_bhliadhna an tseanbhliain
@@ -16070,6 +16081,8 @@ bu_nios b'eas
 bu_niosan b'easa
 bu_nobhail b'úrscéal
 bu_nobhailean b'úrscéalta
+bu_nobhailiche b'úrscéalaí
+bu_nobhailichean b'úrscéalaithe
 bu_notachadh b'anótáil
 bu_notachaidhean b'anótálacha
 bu_notaichte b'anótáilte
@@ -16624,10 +16637,14 @@ bu_theagmhadh b'amhras
 bu_theagmhaiche b'amhrasaí
 bu_theanntachd b'urchóid
 bu_theanntachdan b'urchóidí
+bu_thearainnte b'éalaithe
+bu_thearainnte b'íslithe
 bu_thearc b'annamh
 bu_thearca b'annamha
 bu_thearnadh b'éalú
 bu_thearnadh b'ísliú
+bu_thearuinnte b'éalaithe
+bu_thearuinnte b'íslithe
 bu_theasach b'fhiabhras
 bu_theasaichean b'fhiabhrais
 bu_theatair b'amharclann
@@ -16770,6 +16787,8 @@ bu_thèarnadh b'éalú
 bu_thèarnadh b'ísliú
 bu_thèarnta b'éalaithe
 bu_thèarnta b'íslithe
+bu_thèaruinnte b'éalaithe
+bu_thèaruinnte b'íslithe
 bu_thèatair b'amharclann
 bu_thèatairean b'amharclanna
 bu_thèatar b'amharclann
@@ -22411,6 +22430,7 @@ de_dh'airidheachd d'incháilitheacht
 de_dh'airidheachd d'incháilitheachta
 de_dh'airm d'airm
 de_dh'airm d'arm
+de_dh'airm-thilgidh de dhiúracáin
 de_dh'airmean d'airm
 de_dh'airmean d'arm
 de_dh'airnean d'airneán
@@ -23156,6 +23176,8 @@ de_dh'arm-lainn d'armlainne
 de_dh'arm-lann d'armlann
 de_dh'arm-lannan d'armlann
 de_dh'arm-lannan d'armlanna
+de_dh'arm-tilgidh de dhiúracáin
+de_dh'arm-tilgidh de dhiúracán
 de_dh'armachadh d'armáil
 de_dh'armachaidh d'armála
 de_dh'armachd d'airm
@@ -24892,6 +24914,7 @@ de_dh'fhear de cheann
 de_dh'fhear-aithris d'iriseoir
 de_dh'fhear-bogha de bhoghdóir
 de_dh'fhear-bogha de shaighdeoir
+de_dh'fhear-brathaidh de spiaire
 de_dh'fhear-ceàird de cheardaí
 de_dh'fhear-chungaidh de phoitigéir
 de_dh'fhear-cogaidh de shaighdiúir
@@ -24993,6 +25016,10 @@ de_dh'fheasgar de thráthnóna
 de_dh'fheasgarain d'easpartan
 de_dh'fheasgaran d'easparta
 de_dh'fheasgaran de thráthnónta
+de_dh'fheathaimh d'fhanachta
+de_dh'fheathaimh d'fheithimh
+de_dh'fheathamh d'fhanacht
+de_dh'fheathamh d'fheitheamh
 de_dh'fheich d'fhiaigh
 de_dh'fheich d'fhéich
 de_dh'fheidh d'fhia
@@ -25343,6 +25370,8 @@ de_dh'fhir-bhogha de bhoghdóirí
 de_dh'fhir-bhogha de bhoghdóra
 de_dh'fhir-bhogha de shaighdeoirí
 de_dh'fhir-bhogha de shaighdeora
+de_dh'fhir-bhrathaidh de spiaire
+de_dh'fhir-bhrathaidh de spiairí
 de_dh'fhir-ceàird de cheardaithe
 de_dh'fhir-ceàird de cheardaí
 de_dh'fhir-chogaidh de shaighdiúirí
@@ -35507,6 +35536,7 @@ do_dh'airidheachd d'incháilitheacht
 do_dh'airidheachd d'incháilitheachta
 do_dh'airm d'airm
 do_dh'airm d'arm
+do_dh'airm-thilgidh do dhiúracáin
 do_dh'airmean d'airm
 do_dh'airmean d'arm
 do_dh'airnean d'airneán
@@ -36252,6 +36282,8 @@ do_dh'arm-lainn d'armlainne
 do_dh'arm-lann d'armlann
 do_dh'arm-lannan d'armlann
 do_dh'arm-lannan d'armlanna
+do_dh'arm-tilgidh do dhiúracáin
+do_dh'arm-tilgidh do dhiúracán
 do_dh'armachadh d'armáil
 do_dh'armachaidh d'armála
 do_dh'armachd d'airm
@@ -37987,6 +38019,7 @@ do_dh'fhear do cheann
 do_dh'fhear-aithris d'iriseoir
 do_dh'fhear-bogha do bhoghdóir
 do_dh'fhear-bogha do shaighdeoir
+do_dh'fhear-brathaidh do spiaire
 do_dh'fhear-ceàird do cheardaí
 do_dh'fhear-chungaidh do phoitigéir
 do_dh'fhear-cogaidh do shaighdiúir
@@ -38088,6 +38121,10 @@ do_dh'fheasgar do thráthnóna
 do_dh'fheasgarain d'easpartan
 do_dh'fheasgaran d'easparta
 do_dh'fheasgaran do thráthnónta
+do_dh'fheathaimh d'fhanachta
+do_dh'fheathaimh d'fheithimh
+do_dh'fheathamh d'fhanacht
+do_dh'fheathamh d'fheitheamh
 do_dh'fheich d'fhiaigh
 do_dh'fheich d'fhéich
 do_dh'fheidh d'fhia
@@ -38438,6 +38475,8 @@ do_dh'fhir-bhogha do bhoghdóirí
 do_dh'fhir-bhogha do bhoghdóra
 do_dh'fhir-bhogha do shaighdeoirí
 do_dh'fhir-bhogha do shaighdeora
+do_dh'fhir-bhrathaidh do spiaire
+do_dh'fhir-bhrathaidh do spiairí
 do_dh'fhir-ceàird do cheardaithe
 do_dh'fhir-ceàird do cheardaí
 do_dh'fhir-chogaidh do shaighdiúirí
@@ -51048,6 +51087,10 @@ mo_fheart-mholaidh m'adhmholta
 mo_fheartan m'airde
 mo_fheasgarain m'easpartan
 mo_fheasgaran m'easparta
+mo_fheathaimh m'fhanachta
+mo_fheathaimh m'fheithimh
+mo_fheathamh m'fhanacht
+mo_fheathamh m'fheitheamh
 mo_fheich m'fhiaigh
 mo_fheich m'fhéich
 mo_fheidh m'fhia
@@ -52643,6 +52686,8 @@ mo_niosan m'easa
 mo_nobhail m'úrscéal
 mo_nobhaile m'úrscéil
 mo_nobhailean m'úrscéalta
+mo_nobhailiche m'úrscéalaí
+mo_nobhailichean m'úrscéalaithe
 mo_notachadh m'anótáil
 mo_notachaidh m'anótála
 mo_notachaidhean m'anótálacha
@@ -61375,6 +61420,7 @@ tairgeadh_iad tairgidís
 tairgeadh_tu dtairgfeá
 tairgidh_sinn dtairgfimid
 tairgidh_sinn tairgfimid
+tairis_sin thairis sin
 tairngeadh_iad dtarraingeoidís
 tairngeadh_iad dtarraingídís
 tairngeadh_iad tarraingídís
@@ -61564,12 +61610,64 @@ teannaidh_sinn bogfaimid
 teannaidh_sinn dtosóimid
 teannaidh_sinn mbogfaimid
 teannaidh_sinn tosóimid
+tearainneadh_iad dtuirlingeoidís
+tearainneadh_iad dtuirlingídís
+tearainneadh_iad dtéarnaídís
+tearainneadh_iad dtéarnóidís
+tearainneadh_iad héalaídís
+tearainneadh_iad híslídís
+tearainneadh_iad n-éalaídís
+tearainneadh_iad n-éalóidís
+tearainneadh_iad n-ísleoidís
+tearainneadh_iad n-íslídís
+tearainneadh_iad tuirlingídís
+tearainneadh_iad téarnaídís
+tearainneadh_iad éalaídís
+tearainneadh_iad íslídís
+tearainneadh_tu dtuirlingeofá
+tearainneadh_tu dtéarnófá
+tearainneadh_tu n-éalófá
+tearainneadh_tu n-ísleofá
+tearainnidh_sinn dtuirlingeoimid
+tearainnidh_sinn dtéarnóimid
+tearainnidh_sinn n-éalóimid
+tearainnidh_sinn n-ísleoimid
+tearainnidh_sinn tuirlingeoimid
+tearainnidh_sinn téarnóimid
+tearainnidh_sinn éalóimid
+tearainnidh_sinn ísleoimid
 tearbadh_iad dealaídís
 tearbadh_iad ndealaídís
 tearbadh_iad ndealóidís
 tearbadh_tu ndealófá
 tearbaidh_sinn dealóimid
 tearbaidh_sinn ndealóimid
+tearuinneadh_iad dtuirlingeoidís
+tearuinneadh_iad dtuirlingídís
+tearuinneadh_iad dtéarnaídís
+tearuinneadh_iad dtéarnóidís
+tearuinneadh_iad héalaídís
+tearuinneadh_iad híslídís
+tearuinneadh_iad n-éalaídís
+tearuinneadh_iad n-éalóidís
+tearuinneadh_iad n-ísleoidís
+tearuinneadh_iad n-íslídís
+tearuinneadh_iad tuirlingídís
+tearuinneadh_iad téarnaídís
+tearuinneadh_iad éalaídís
+tearuinneadh_iad íslídís
+tearuinneadh_tu dtuirlingeofá
+tearuinneadh_tu dtéarnófá
+tearuinneadh_tu n-éalófá
+tearuinneadh_tu n-ísleofá
+tearuinnidh_sinn dtuirlingeoimid
+tearuinnidh_sinn dtéarnóimid
+tearuinnidh_sinn n-éalóimid
+tearuinnidh_sinn n-ísleoimid
+tearuinnidh_sinn tuirlingeoimid
+tearuinnidh_sinn téarnóimid
+tearuinnidh_sinn éalóimid
+tearuinnidh_sinn ísleoimid
 teas_meadhain ceartláir
 teas_meadhain gceartláir
 teas_meadhan ceartlár
@@ -62159,6 +62257,46 @@ theannaicheadh_tu theannfá
 theannaichidh_sinn theannfaimid
 theannaidh_sinn bhogfaimid
 theannaidh_sinn thosóimid
+thearainn_iad d'éalaíodar
+thearainn_iad d'íslíodar
+thearainn_iad dtuirlingíodar
+thearainn_iad dtéarnaíodar
+thearainn_iad n-éalaíodar
+thearainn_iad n-íslíodar
+thearainn_iad thuirlingíodar
+thearainn_iad théarnaíodar
+thearainn_iad éalaíodar
+thearainn_iad íslíodar
+thearainn_sinn d'éalaíomar
+thearainn_sinn d'íslíomar
+thearainn_sinn dtuirlingíomar
+thearainn_sinn dtéarnaíomar
+thearainn_sinn n-éalaíomar
+thearainn_sinn n-íslíomar
+thearainn_sinn thuirlingíomar
+thearainn_sinn théarnaíomar
+thearainn_sinn éalaíomar
+thearainn_sinn íslíomar
+thearainneadh_iad d'éalóidís
+thearainneadh_iad d'ísleoidís
+thearainneadh_iad thuirlingeoidís
+thearainneadh_iad thuirlingídís
+thearainneadh_iad théarnaídís
+thearainneadh_iad théarnóidís
+thearainneadh_iad éalaídís
+thearainneadh_iad éalóidís
+thearainneadh_iad ísleoidís
+thearainneadh_iad íslídís
+thearainneadh_tu d'éalófá
+thearainneadh_tu d'ísleofá
+thearainneadh_tu thuirlingeofá
+thearainneadh_tu théarnófá
+thearainneadh_tu éalófá
+thearainneadh_tu ísleofá
+thearainnidh_sinn thuirlingeoimid
+thearainnidh_sinn théarnóimid
+thearainnidh_sinn éalóimid
+thearainnidh_sinn ísleoimid
 thearb_iad dhealaíodar
 thearb_iad ndealaíodar
 thearb_sinn dhealaíomar
@@ -62167,6 +62305,46 @@ thearbadh_iad dhealaídís
 thearbadh_iad dhealóidís
 thearbadh_tu dhealófá
 thearbaidh_sinn dhealóimid
+thearuinn_iad d'éalaíodar
+thearuinn_iad d'íslíodar
+thearuinn_iad dtuirlingíodar
+thearuinn_iad dtéarnaíodar
+thearuinn_iad n-éalaíodar
+thearuinn_iad n-íslíodar
+thearuinn_iad thuirlingíodar
+thearuinn_iad théarnaíodar
+thearuinn_iad éalaíodar
+thearuinn_iad íslíodar
+thearuinn_sinn d'éalaíomar
+thearuinn_sinn d'íslíomar
+thearuinn_sinn dtuirlingíomar
+thearuinn_sinn dtéarnaíomar
+thearuinn_sinn n-éalaíomar
+thearuinn_sinn n-íslíomar
+thearuinn_sinn thuirlingíomar
+thearuinn_sinn théarnaíomar
+thearuinn_sinn éalaíomar
+thearuinn_sinn íslíomar
+thearuinneadh_iad d'éalóidís
+thearuinneadh_iad d'ísleoidís
+thearuinneadh_iad thuirlingeoidís
+thearuinneadh_iad thuirlingídís
+thearuinneadh_iad théarnaídís
+thearuinneadh_iad théarnóidís
+thearuinneadh_iad éalaídís
+thearuinneadh_iad éalóidís
+thearuinneadh_iad ísleoidís
+thearuinneadh_iad íslídís
+thearuinneadh_tu d'éalófá
+thearuinneadh_tu d'ísleofá
+thearuinneadh_tu thuirlingeofá
+thearuinneadh_tu théarnófá
+thearuinneadh_tu éalófá
+thearuinneadh_tu ísleofá
+thearuinnidh_sinn thuirlingeoimid
+thearuinnidh_sinn théarnóimid
+thearuinnidh_sinn éalóimid
+thearuinnidh_sinn ísleoimid
 theas_meadhan cheartlár
 theasaich_iad dtéadar
 theasaich_iad théadar
@@ -63244,6 +63422,46 @@ thèarnaidh_sinn thuirlingeoimid
 thèarnaidh_sinn théarnóimid
 thèarnaidh_sinn éalóimid
 thèarnaidh_sinn ísleoimid
+thèaruinn_iad d'éalaíodar
+thèaruinn_iad d'íslíodar
+thèaruinn_iad dtuirlingíodar
+thèaruinn_iad dtéarnaíodar
+thèaruinn_iad n-éalaíodar
+thèaruinn_iad n-íslíodar
+thèaruinn_iad thuirlingíodar
+thèaruinn_iad théarnaíodar
+thèaruinn_iad éalaíodar
+thèaruinn_iad íslíodar
+thèaruinn_sinn d'éalaíomar
+thèaruinn_sinn d'íslíomar
+thèaruinn_sinn dtuirlingíomar
+thèaruinn_sinn dtéarnaíomar
+thèaruinn_sinn n-éalaíomar
+thèaruinn_sinn n-íslíomar
+thèaruinn_sinn thuirlingíomar
+thèaruinn_sinn théarnaíomar
+thèaruinn_sinn éalaíomar
+thèaruinn_sinn íslíomar
+thèaruinneadh_iad d'éalóidís
+thèaruinneadh_iad d'ísleoidís
+thèaruinneadh_iad thuirlingeoidís
+thèaruinneadh_iad thuirlingídís
+thèaruinneadh_iad théarnaídís
+thèaruinneadh_iad théarnóidís
+thèaruinneadh_iad éalaídís
+thèaruinneadh_iad éalóidís
+thèaruinneadh_iad ísleoidís
+thèaruinneadh_iad íslídís
+thèaruinneadh_tu d'éalófá
+thèaruinneadh_tu d'ísleofá
+thèaruinneadh_tu thuirlingeofá
+thèaruinneadh_tu théarnófá
+thèaruinneadh_tu éalófá
+thèaruinneadh_tu ísleofá
+thèaruinnidh_sinn thuirlingeoimid
+thèaruinnidh_sinn théarnóimid
+thèaruinnidh_sinn éalóimid
+thèaruinnidh_sinn ísleoimid
 thèid_a_chleachdadh úsáidfear
 thèid_a_chumail eagrófar
 thèid_a_chumail reáchtálófar
@@ -64023,6 +64241,32 @@ tèarnaidh_sinn tuirlingeoimid
 tèarnaidh_sinn téarnóimid
 tèarnaidh_sinn éalóimid
 tèarnaidh_sinn ísleoimid
+tèaruinneadh_iad dtuirlingeoidís
+tèaruinneadh_iad dtuirlingídís
+tèaruinneadh_iad dtéarnaídís
+tèaruinneadh_iad dtéarnóidís
+tèaruinneadh_iad héalaídís
+tèaruinneadh_iad híslídís
+tèaruinneadh_iad n-éalaídís
+tèaruinneadh_iad n-éalóidís
+tèaruinneadh_iad n-ísleoidís
+tèaruinneadh_iad n-íslídís
+tèaruinneadh_iad tuirlingídís
+tèaruinneadh_iad téarnaídís
+tèaruinneadh_iad éalaídís
+tèaruinneadh_iad íslídís
+tèaruinneadh_tu dtuirlingeofá
+tèaruinneadh_tu dtéarnófá
+tèaruinneadh_tu n-éalófá
+tèaruinneadh_tu n-ísleofá
+tèaruinnidh_sinn dtuirlingeoimid
+tèaruinnidh_sinn dtéarnóimid
+tèaruinnidh_sinn n-éalóimid
+tèaruinnidh_sinn n-ísleoimid
+tèaruinnidh_sinn tuirlingeoimid
+tèaruinnidh_sinn téarnóimid
+tèaruinnidh_sinn éalóimid
+tèaruinnidh_sinn ísleoimid
 tìodhlaiceadh_iad adhlacaidís
 tìodhlaiceadh_iad hadhlacaidís
 tìodhlaiceadh_iad n-adhlacaidís
