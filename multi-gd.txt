@@ -492,6 +492,7 @@ Pan_Am Pan Am
 Pan_Ceilteach Pan-Cheilteach
 Pan_Cheilteach Pan-Cheilteach
 Papua_Gini-Nuadh Nua-Ghuine Phapua
+Pasg_Hapus Pasg Hapus
 Peer_Gynt Peer Gynt
 Pentre_Ifan Pentre Ifan
 Phriomh_Mhinisear Phríomh-Aire
@@ -2167,6 +2168,9 @@ a_dh'almanac d'almanag
 a_dh'almanacan d'almanag
 a_dh'almanacan d'almanaig
 a_dh'almanaic d'almanaig
+a_dh'almoin d'almóinne
+a_dh'almon d'almóinn
+a_dh'almonan d'almóinní
 a_dh'almorfachd d'allamorfacht
 a_dh'almorfachd d'allamorfachta
 a_dh'aloidh do chóimhiotal
@@ -2902,6 +2906,8 @@ a_dh'ath-leasachadh do leasú
 a_dh'ath-leasachaidh do leasaithe
 a_dh'ath-leasachaidh do leasú
 a_dh'ath-leasachaidhean do leasuithe
+a_dh'ath-leughadh d'athléamh
+a_dh'ath-leughaidh d'athléimh
 a_dh'ath-neartachadh d'athneartú
 a_dh'ath-neartachaidh d'athneartaithe
 a_dh'ath-nochdadh d'athdhéanamh
@@ -3257,6 +3263,9 @@ a_dh'ear-dheas d'oirdheisceart
 a_dh'ear-dheas d'oirdheiscirt
 a_dh'ear-thuath d'oirthuaisceart
 a_dh'ear-thuath d'oirthuaiscirt
+a_dh'earachaill do chinniúna
+a_dh'earachall do chinniúint
+a_dh'earachallan do chinniúintí
 a_dh'earail do spreagadh
 a_dh'earainn do choda
 a_dh'earainn do rannáin
@@ -3288,6 +3297,9 @@ a_dh'earbsa do mhuinín
 a_dh'earbsa do mhuiníne
 a_dh'earbsadh d'earbadh
 a_dh'earbsaidh d'earbtha
+a_dh'earchaill do chinniúintí
+a_dh'earchaill do chinniúna
+a_dh'earchall do chinniúint
 a_dh'earlaiseachadh d'áirithint
 a_dh'earlaiseachaidh d'áirithinte
 a_dh'earlaiseachaidhean d'áirithintí
@@ -6257,6 +6269,8 @@ a_dh'innein d'inneonach
 a_dh'innich d'innigh
 a_dh'innidh d'inne
 a_dh'innidhean d'inní
+a_dh'innil d'innill
+a_dh'innil do ghléasanna
 a_dh'innis d'inis
 a_dh'innleachadh do cheapadh
 a_dh'innleachaidh do cheaptha
@@ -7656,6 +7670,7 @@ a_dh'unndaise d'unlais
 a_dh'unndaisean d'unlais
 a_dh'unnsa d'unsa
 a_dh'unnsachan d'unsaí
+a_dh'unnsaichean d'unsaí
 a_dh'upraid do chlampar
 a_dh'upraid do raic
 a_dh'upraide do chlampair
@@ -11143,6 +11158,7 @@ ann_an_Suomaidh san Fhionlainn
 ann_an_Suòmaidh san Fhionlainn
 ann_an_Sàrdainea sa tSairdín
 ann_an_Sìn sa tSín
+ann_an_Sìna sa tSín
 ann_an_Sìombab sa tSiombáib
 ann_an_Sìombabue sa tSiombáib
 ann_an_Sìombaibe sa tSiombáib
@@ -11246,6 +11262,7 @@ anns_a'_chumantas i gcoitinne
 anns_a'_ghuth-thàmh de chogar
 anns_a'_mhadainn ar maidin
 anns_a'mhòr-roinn sa mhór-roinn
+anns_a'thaigh_seinnse sa teach tábhairne
 anns_a_bhad ar an bpointe
 anns_a_bhad láithreach
 anns_a_bheil ina bhfuil
@@ -12592,6 +12609,7 @@ bho_Suomaidh ón Fhionlainn
 bho_Suòmaidh ón Fhionlainn
 bho_Sàrdainea ón tSairdín
 bho_Sìn ón tSín
+bho_Sìna ón tSín
 bho_Sìombab ón tSiombáib
 bho_Sìombabue ón tSiombáib
 bho_Sìombaibe ón tSiombáib
@@ -13863,7 +13881,9 @@ bu_bhàidse b'ualach
 bu_bhàidseachan b'ualaí
 bu_bhàird b'fhilí
 bu_bhàrd b'fhile
+bu_bhàrdach b'fhileata
 bu_bhàrdachd b'fhilíocht
+bu_bhàrdaiche b'fhileata
 bu_bhàrdail b'fhileata
 bu_bhàrdaile b'fhileata
 bu_bhòidhche b'áille
@@ -14067,6 +14087,8 @@ bu_chonnlach b'fhoráiste
 bu_chonnsachadh b'aighneas
 bu_chorraich b'fhearg
 bu_chorranach b'olagón
+bu_chosag b'ailbheolas
+bu_chosagan b'ailbheolais
 bu_chosnaiche b'fhostaí
 bu_chosnaichean b'fhostaithe
 bu_chothrom-obrach b'fholúntas
@@ -16105,6 +16127,7 @@ bu_pharagrafan b'ailt
 bu_phasgadh b'fhilleadh
 bu_phasgan b'fhillteán
 bu_phasganan b'fhillteáin
+bu_phasgta b'fhillte
 bu_phears-eaglais b'eaglaiseach
 bu_phearsan-eaglais b'eaglaisigh
 bu_pheilear b'urchar
@@ -16380,6 +16403,8 @@ bu_shearbhagach b'aigéadacha
 bu_shearbhagachd b'aigéadacht
 bu_shearbhagaiche b'aigéadaí
 bu_shearbhagan b'aigéid
+bu_sheilbheachd b'infheistíocht
+bu_sheilbheachdan b'infheistíochtaí
 bu_sheileastair b'fheileastram
 bu_sheinneadair b'amhránaí
 bu_sheinneadairean b'amhránaithe
@@ -16673,6 +16698,7 @@ bu_thilltinn b'fhilleadh
 bu_thiodhlacadh b'adhlacadh
 bu_thiodhlacaidhean b'adhlacthaí
 bu_thiodhlaicte b'adhlactha
+bu_thiodhlaigeadh b'adhlacadh
 bu_thionndachadh b'iompú
 bu_thionndadh b'iompú
 bu_thionndaichte b'iompaithe
@@ -21270,6 +21296,7 @@ de_Suomaidh den Fhionlainn
 de_Suòmaidh den Fhionlainn
 de_Sàrdainea den tSairdín
 de_Sìn den tSín
+de_Sìna den tSín
 de_Sìombab den tSiombáib
 de_Sìombabue den tSiombáib
 de_Sìombaibe den tSiombáib
@@ -22643,6 +22670,9 @@ de_dh'almanac d'almanag
 de_dh'almanacan d'almanag
 de_dh'almanacan d'almanaig
 de_dh'almanaic d'almanaig
+de_dh'almoin d'almóinne
+de_dh'almon d'almóinn
+de_dh'almonan d'almóinní
 de_dh'almorfachd d'allamorfacht
 de_dh'almorfachd d'allamorfachta
 de_dh'aloidh de chóimhiotal
@@ -23371,6 +23401,8 @@ de_dh'ath-leasachadh de leasú
 de_dh'ath-leasachaidh de leasaithe
 de_dh'ath-leasachaidh de leasú
 de_dh'ath-leasachaidhean de leasuithe
+de_dh'ath-leughadh d'athléamh
+de_dh'ath-leughaidh d'athléimh
 de_dh'ath-neartachadh d'athneartú
 de_dh'ath-neartachaidh d'athneartaithe
 de_dh'ath-nochdadh d'athdhéanamh
@@ -23726,6 +23758,9 @@ de_dh'ear-dheas d'oirdheisceart
 de_dh'ear-dheas d'oirdheiscirt
 de_dh'ear-thuath d'oirthuaisceart
 de_dh'ear-thuath d'oirthuaiscirt
+de_dh'earachaill de chinniúna
+de_dh'earachall de chinniúint
+de_dh'earachallan de chinniúintí
 de_dh'earail de spreagadh
 de_dh'earainn de choda
 de_dh'earainn de rannáin
@@ -23757,6 +23792,9 @@ de_dh'earbsa de mhuinín
 de_dh'earbsa de mhuiníne
 de_dh'earbsadh d'earbadh
 de_dh'earbsaidh d'earbtha
+de_dh'earchaill de chinniúintí
+de_dh'earchaill de chinniúna
+de_dh'earchall de chinniúint
 de_dh'earlaiseachadh d'áirithint
 de_dh'earlaiseachaidh d'áirithinte
 de_dh'earlaiseachaidhean d'áirithintí
@@ -26727,6 +26765,8 @@ de_dh'innein d'inneonach
 de_dh'innich d'innigh
 de_dh'innidh d'inne
 de_dh'innidhean d'inní
+de_dh'innil d'innill
+de_dh'innil de ghléasanna
 de_dh'innis d'inis
 de_dh'innleachadh de cheapadh
 de_dh'innleachaidh de cheaptha
@@ -28119,6 +28159,7 @@ de_dh'unndaise d'unlais
 de_dh'unndaisean d'unlais
 de_dh'unnsa d'unsa
 de_dh'unnsachan d'unsaí
+de_dh'unnsaichean d'unsaí
 de_dh'upraid de chlampar
 de_dh'upraid de raic
 de_dh'upraide de chlampair
@@ -34361,6 +34402,7 @@ do_Suomaidh don Fhionlainn
 do_Suòmaidh don Fhionlainn
 do_Sàrdainea don tSairdín
 do_Sìn don tSín
+do_Sìna don tSín
 do_Sìombab don tSiombáib
 do_Sìombabue don tSiombáib
 do_Sìombaibe don tSiombáib
@@ -35749,6 +35791,9 @@ do_dh'almanac d'almanag
 do_dh'almanacan d'almanag
 do_dh'almanacan d'almanaig
 do_dh'almanaic d'almanaig
+do_dh'almoin d'almóinne
+do_dh'almon d'almóinn
+do_dh'almonan d'almóinní
 do_dh'almorfachd d'allamorfacht
 do_dh'almorfachd d'allamorfachta
 do_dh'aloidh do chóimhiotal
@@ -36477,6 +36522,8 @@ do_dh'ath-leasachadh do leasú
 do_dh'ath-leasachaidh do leasaithe
 do_dh'ath-leasachaidh do leasú
 do_dh'ath-leasachaidhean do leasuithe
+do_dh'ath-leughadh d'athléamh
+do_dh'ath-leughaidh d'athléimh
 do_dh'ath-neartachadh d'athneartú
 do_dh'ath-neartachaidh d'athneartaithe
 do_dh'ath-nochdadh d'athdhéanamh
@@ -36832,6 +36879,9 @@ do_dh'ear-dheas d'oirdheisceart
 do_dh'ear-dheas d'oirdheiscirt
 do_dh'ear-thuath d'oirthuaisceart
 do_dh'ear-thuath d'oirthuaiscirt
+do_dh'earachaill do chinniúna
+do_dh'earachall do chinniúint
+do_dh'earachallan do chinniúintí
 do_dh'earail do spreagadh
 do_dh'earainn do choda
 do_dh'earainn do rannáin
@@ -36863,6 +36913,9 @@ do_dh'earbsa do mhuinín
 do_dh'earbsa do mhuiníne
 do_dh'earbsadh d'earbadh
 do_dh'earbsaidh d'earbtha
+do_dh'earchaill do chinniúintí
+do_dh'earchaill do chinniúna
+do_dh'earchall do chinniúint
 do_dh'earlaiseachadh d'áirithint
 do_dh'earlaiseachaidh d'áirithinte
 do_dh'earlaiseachaidhean d'áirithintí
@@ -39833,6 +39886,8 @@ do_dh'innein d'inneonach
 do_dh'innich d'innigh
 do_dh'innidh d'inne
 do_dh'innidhean d'inní
+do_dh'innil d'innill
+do_dh'innil do ghléasanna
 do_dh'innis d'inis
 do_dh'innleachadh do cheapadh
 do_dh'innleachaidh do cheaptha
@@ -41224,6 +41279,7 @@ do_dh'unndaise d'unlais
 do_dh'unndaisean d'unlais
 do_dh'unnsa d'unsa
 do_dh'unnsachan d'unsaí
+do_dh'unnsaichean d'unsaí
 do_dh'upraid do chlampar
 do_dh'upraid do raic
 do_dh'upraide do chlampair
@@ -46432,6 +46488,7 @@ gu_Suomaidh go dtí an Fhionlainn
 gu_Suòmaidh go dtí an Fhionlainn
 gu_Sàrdainea go dtí an tSairdín
 gu_Sìn go dtí an tSín
+gu_Sìna go dtí an tSín
 gu_Sìombab go dtí an tSiombáib
 gu_Sìombabue go dtí an tSiombáib
 gu_Sìombaibe go dtí an tSiombáib
@@ -47624,6 +47681,7 @@ le_Suomaidh leis an Fhionlainn
 le_Suòmaidh leis an Fhionlainn
 le_Sàrdainea leis an tSairdín
 le_Sìn leis an tSín
+le_Sìna leis an tSín
 le_Sìombab leis an tSiombáib
 le_Sìombabue leis an tSiombáib
 le_Sìombaibe leis an tSiombáib
@@ -50399,6 +50457,9 @@ mo_chorraich m'fhearg
 mo_chorraich m'fheirge
 mo_chorranach m'olagón
 mo_chorranaich m'olagóin
+mo_chosag m'ailbheolas
+mo_chosagan m'ailbheolais
+mo_chosaig m'ailbheolais
 mo_chosnaiche m'fhostaí
 mo_chosnaichean m'fhostaithe
 mo_chothroim-obrach m'fholúntais
@@ -53049,6 +53110,9 @@ mo_shearbhagan m'aigéad
 mo_shearbhagan m'aigéid
 mo_shearbhaig m'aigéid
 mo_sheilbh m'áidh
+mo_sheilbheachd m'infheistíocht
+mo_sheilbheachd m'infheistíochta
+mo_sheilbheachdan m'infheistíochtaí
 mo_sheileastair m'fheileastraim
 mo_sheileastair m'fheileastram
 mo_sheinneadair m'amhránaí
@@ -53408,6 +53472,8 @@ mo_thilltinn m'fhillidh
 mo_thiodhlacadh m'adhlacadh
 mo_thiodhlacaidh m'adhlactha
 mo_thiodhlacaidhean m'adhlacthaí
+mo_thiodhlaigeadh m'adhlacadh
+mo_thiodhlaigidh m'adhlactha
 mo_thionndachadh m'iompú
 mo_thionndachaidh m'iompaithe
 mo_thionndadh m'iompú
@@ -54900,6 +54966,7 @@ nochdadh_iad nochtaidís
 nochdadh_iad nochtfaidís
 nochdadh_tu nochtfá
 nochdaidh_sinn nochtfaimid
+nom_nom_nom nom nom nom
 notaich_iad anótáladar
 notaich_iad d'anótáladar
 notaich_iad n-anótáladar
@@ -55085,6 +55152,7 @@ o_Suomaidh ón Fhionlainn
 o_Suòmaidh ón Fhionlainn
 o_Sàrdainea ón tSairdín
 o_Sìn ón tSín
+o_Sìna ón tSín
 o_Sìombab ón tSiombáib
 o_Sìombabue ón tSiombáib
 o_Sìombaibe ón tSiombáib
@@ -55280,6 +55348,13 @@ pasaigeadh_iad pasálaidís
 pasaigeadh_tu bpasálfá
 pasaigidh_sinn bpasálfaimid
 pasaigidh_sinn pasálfaimid
+pasg_hapus pasg hapus
+pasgadh_iad bhfillfidís
+pasgadh_iad bhfillidís
+pasgadh_iad fillidís
+pasgadh_tu bhfillfeá
+pasgaidh_sinn bhfillfimid
+pasgaidh_sinn fillfimid
 peacaicheadh_iad bpeacaídís
 peacaicheadh_iad bpeacóidís
 peacaicheadh_iad peacaídís
@@ -55360,6 +55435,18 @@ phasaigeadh_iad phasálaidís
 phasaigeadh_iad phasálfaidís
 phasaigeadh_tu phasálfá
 phasaigidh_sinn phasálfaimid
+phasg_iad bhfilleadar
+phasg_iad d'fhilleadar
+phasg_iad fhilleadar
+phasg_sinn bhfilleamar
+phasg_sinn d'fhilleamar
+phasg_sinn fhilleamar
+phasgadh_iad d'fhillfidís
+phasgadh_iad fhillfidís
+phasgadh_iad fhillidís
+phasgadh_tu d'fhillfeá
+phasgadh_tu fhillfeá
+phasgaidh_sinn fhillfimid
 pheacaich_iad bpeacaíodar
 pheacaich_iad pheacaíodar
 pheacaich_sinn bpeacaíomar
@@ -56889,6 +56976,7 @@ ri_Suomaidh leis an Fhionlainn
 ri_Suòmaidh leis an Fhionlainn
 ri_Sàrdainea leis an tSairdín
 ri_Sìn leis an tSín
+ri_Sìna leis an tSín
 ri_Sìombab leis an tSiombáib
 ri_Sìombabue leis an tSiombáib
 ri_Sìombaibe leis an tSiombáib
@@ -62037,6 +62125,7 @@ thaigh_eiridinn otharlann
 thaigh_tughaidh theach ceann tuí
 thaighean_aoigheachd thithe aíochta
 thaighean_dubha thithe dubha
+thaighean_seinnse thithe tábhairne
 thaighean_tasgaidh iarsmalann
 thaighean_tasgaidh iarsmalanna
 thaighean_tasgaidh mhúsaeim
