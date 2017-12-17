@@ -455,6 +455,7 @@ Loch_Ma'ruibhe Loch Ma'ruibhe
 Loch_Monar Loch Monar
 Loch_Mullardoch Loch Maol Ardaich
 Loch_Nis Loch Nis
+Loch_Oich Loch Oich
 Luchd_Ionnsachaidh Lucht Foghlamtha
 Là_Fhéill Lá Fhéile
 Là_Luain Dé Luain
@@ -575,7 +576,9 @@ Star_Trek Star Trek
 Sui_Fea Sui Fea
 Sula_Sgeir Sùlaisgeir
 Taigh_Seinnse Teach Tábhairne
+Taigh_na_Cummantan Teach na dTeachtaí
 Taigh_nan_Cumantan Teach na dTeachtaí
+Taigh_nan_Cummantan Teach na dTeachtaí
 Taigh_Òsta Teach Ósta
 Thìr_nam_Blòg Thír na mBlaganna
 Thìr_Ìosal Ísiltír
@@ -1039,6 +1042,8 @@ a_dh'Eireannaich d'Éireannaigh
 a_dh'Eirinn d'Éire
 a_dh'Eorpa d'Eoraip
 a_dh'Eorpa d'Eorpa
+a_dh'Etiopach d'Aetópach
+a_dh'Etiopaich d'Aetópaigh
 a_dh'Etiopia d'Aetóip
 a_dh'Etiopia d'Aetóipe
 a_dh'Etìopia d'Aetóip
@@ -1154,6 +1159,8 @@ a_dh'Israeleach d'Iosraelach
 a_dh'Israelich d'Iosraelaigh
 a_dh'Itioipe d'Aetóipe
 a_dh'Itiop d'Aetóip
+a_dh'Itiopach d'Aetópach
+a_dh'Itiopaich d'Aetópaigh
 a_dh'Iubile d'iubhaile
 a_dh'Iuchair d'Iúil
 a_dh'Iuchar d'Iúil
@@ -14220,6 +14227,7 @@ bu_chìs-bhuailtiche b'inchánaithe
 bu_chòilean b'idirstad
 bu_chòileanan b'idirstadanna
 bu_chòistri b'aighneas
+bu_chòmhdail b'iompar
 bu_chòmhdhail b'iompar
 bu_chòmhlachadh b'idircheapadh
 bu_chòmhlaichte b'idircheaptha
@@ -21599,6 +21607,8 @@ de_dh'Eireannaich d'Éireannaigh
 de_dh'Eirinn d'Éire
 de_dh'Eorpa d'Eoraip
 de_dh'Eorpa d'Eorpa
+de_dh'Etiopach d'Aetópach
+de_dh'Etiopaich d'Aetópaigh
 de_dh'Etiopia d'Aetóip
 de_dh'Etiopia d'Aetóipe
 de_dh'Etìopia d'Aetóip
@@ -21714,6 +21724,8 @@ de_dh'Israeleach d'Iosraelach
 de_dh'Israelich d'Iosraelaigh
 de_dh'Itioipe d'Aetóipe
 de_dh'Itiop d'Aetóip
+de_dh'Itiopach d'Aetópach
+de_dh'Itiopaich d'Aetópaigh
 de_dh'Iubile d'iubhaile
 de_dh'Iuchair d'Iúil
 de_dh'Iuchar d'Iúil
@@ -34715,6 +34727,8 @@ do_dh'Eireannaich d'Éireannaigh
 do_dh'Eirinn d'Éire
 do_dh'Eorpa d'Eoraip
 do_dh'Eorpa d'Eorpa
+do_dh'Etiopach d'Aetópach
+do_dh'Etiopaich d'Aetópaigh
 do_dh'Etiopia d'Aetóip
 do_dh'Etiopia d'Aetóipe
 do_dh'Etìopia d'Aetóip
@@ -34832,6 +34846,8 @@ do_dh'Israeleach d'Iosraelach
 do_dh'Israelich d'Iosraelaigh
 do_dh'Itioipe d'Aetóipe
 do_dh'Itiop d'Aetóip
+do_dh'Itiopach d'Aetópach
+do_dh'Itiopaich d'Aetópaigh
 do_dh'Iubile d'iubhaile
 do_dh'Iuchair d'Iúil
 do_dh'Iuchar d'Iúil
@@ -50613,6 +50629,8 @@ mo_chòileanan m'idirstadanna
 mo_chòilein m'idirstad
 mo_chòistri m'aighneas
 mo_chòistri m'aighnis
+mo_chòmhdail m'iompar
+mo_chòmhdalach m'iompair
 mo_chòmhdhail m'iompar
 mo_chòmhdhalach m'iompair
 mo_chòmhlachadh m'idircheapadh
