@@ -352,6 +352,7 @@ Dhùn_Bhreatainn Dhùn Bhreatainn
 Dhùn_Phris Dùn Phrìs
 Dhùn_Phrìs Dùn Phrìs
 Dhùn_Èideann Dhún Éideann
+Di_Sathuirne Dé Sathairn
 Din_Eidyn Din Eidyn
 Donnchadh_nan_sùl_mòr Donncha na súl mór
 Dun_Caan Dùn Caan
@@ -666,6 +667,7 @@ a'_gabhail_àite ag tarlú
 a'_gabhal_aite ag tarlú
 a'_gabhal_pàirt ag glacadh páirte
 a'_gabhal_àite ag tarlú
+a'_gàbhail_pàirt ag glacadh páirte
 a'_mealtainn ag baint sult as
 a'_mhàireach amárach
 a'_màireach amárach
@@ -11126,6 +11128,7 @@ ann_an_Norway san Iorua
 ann_an_Nìgeir sa Nígir
 ann_an_Nìgeiria sa Nigéir
 ann_an_Nòrmandaidh sa Normainn
+ann_an_Omagh san Ómaigh
 ann_an_Romàinia sa Rómáin
 ann_an_Sagsainn sa tSacsain
 ann_an_Sagsainn-Anhalt sa tSacsain-Anhalt
@@ -11947,10 +11950,22 @@ bathar_cruaidh crua-earraí
 bathar_cruaidh gcrua-earra
 batharan_cruaidh crua-earraí
 batharan_cruaidh gcrua-earraí
+beachd-smaoinicheadh_iad machnaídís
+beachd-smaoinicheadh_iad machnóidís
 beachd-smaoinicheadh_iad smaoineoidís
 beachd-smaoinicheadh_iad smaoinídís
+beachd-smaoinicheadh_tu machnófá
 beachd-smaoinicheadh_tu smaoineofá
+beachd-smaoinichidh_sinn machnóimid
 beachd-smaoinichidh_sinn smaoineoimid
+beachd-smuainicheadh_iad machnaídís
+beachd-smuainicheadh_iad machnóidís
+beachd-smuainicheadh_iad smaoineoidís
+beachd-smuainicheadh_iad smaoinídís
+beachd-smuainicheadh_tu machnófá
+beachd-smuainicheadh_tu smaoineofá
+beachd-smuainichidh_sinn machnóimid
+beachd-smuainichidh_sinn smaoineoimid
 beachd_smuain smaoineamh
 beachd_smuain smaoinimh
 beachdaicheadh_iad smaoineoidís
@@ -12187,12 +12202,34 @@ bhathair_cruaidh chrua-earra
 bhathar_bog bhogearra
 bhathar_cruaidh chrua-earra
 bhatharan_cruaidh chrua-earraí
+bheachd-smaoinich_iad machnaíodar
+bheachd-smaoinich_iad mhachnaíodar
 bheachd-smaoinich_iad smaoiníodar
+bheachd-smaoinich_sinn machnaíomar
+bheachd-smaoinich_sinn mhachnaíomar
 bheachd-smaoinich_sinn smaoiníomar
+bheachd-smaoinicheadh_iad mhachnaídís
+bheachd-smaoinicheadh_iad mhachnóidís
 bheachd-smaoinicheadh_iad smaoineoidís
 bheachd-smaoinicheadh_iad smaoinídís
+bheachd-smaoinicheadh_tu mhachnófá
 bheachd-smaoinicheadh_tu smaoineofá
+bheachd-smaoinichidh_sinn mhachnóimid
 bheachd-smaoinichidh_sinn smaoineoimid
+bheachd-smuainich_iad machnaíodar
+bheachd-smuainich_iad mhachnaíodar
+bheachd-smuainich_iad smaoiníodar
+bheachd-smuainich_sinn machnaíomar
+bheachd-smuainich_sinn mhachnaíomar
+bheachd-smuainich_sinn smaoiníomar
+bheachd-smuainicheadh_iad mhachnaídís
+bheachd-smuainicheadh_iad mhachnóidís
+bheachd-smuainicheadh_iad smaoineoidís
+bheachd-smuainicheadh_iad smaoinídís
+bheachd-smuainicheadh_tu mhachnófá
+bheachd-smuainicheadh_tu smaoineofá
+bheachd-smuainichidh_sinn mhachnóimid
+bheachd-smuainichidh_sinn smaoineoimid
 bheachdaich_iad smaoiníodar
 bheachdaich_sinn smaoiníomar
 bheachdaicheadh_iad smaoineoidís
@@ -15875,6 +15912,8 @@ bu_mheata b'eaglaí
 bu_mheata b'fhaiteach
 bu_mheata b'fhaiteacha
 bu_mheata b'fhaití
+bu_mherrachd b'earráid
+bu_mherrachdan b'earráidí
 bu_mhiannachadh b'iarraidh
 bu_mhiannaichte b'iarrtha
 bu_mhiarbhaileach b'iontach
@@ -16777,10 +16816,13 @@ bu_thuire b'iomláine
 bu_thur b'iomlán
 bu_thura b'iomlána
 bu_thuras b'uair
+bu_thuras-adhair b'eitilt
 bu_thurasan b'uaireanta
+bu_thurasan-adhair b'eitiltí
 bu_thurchairt b'amhantar
 bu_thurchairtean b'amhantair
 bu_thursan b'uaireanta
+bu_thursan-adhair b'eitiltí
 bu_thurus b'uair
 bu_thurusan b'uaireanta
 bu_thus b'fhoinse
@@ -44904,6 +44946,7 @@ gabhail_ealla_rithe breathnú uirthi
 gabhail_ealla_rium breathnú orm
 gabhail_ealla_riut breathnú ort
 gabhail_ealla_riutha breathnú orthu
+gabhail_pairt glacadh páirte
 gabhail_pàirt glacadh páirte
 gach_duine gach duine
 gach_dàrnach gach dara
@@ -46795,6 +46838,8 @@ gus_an_urrainn_dhuibh ionas gur féidir leat
 gus_an_urrainn_dhuibh ionas gur féidir libh
 gus_an_urrainn_dhuinn ionas gur féidir linn
 gus_an_urrainn_dhut ionas gur féidir leat
+gàbhail_pairt glacadh páirte
+gàbhail_pàirt glacadh páirte
 gàirdicheadh_iad gairdídís
 gàirdicheadh_iad ngairdeoidís
 gàirdicheadh_iad ngairdídís
@@ -52536,6 +52581,9 @@ mo_mhearachaidh m'aimlithe
 mo_mhearachd m'earráid
 mo_mhearachd m'earráide
 mo_mhearachdan m'earráidí
+mo_mherrachd m'earráid
+mo_mherrachd m'earráide
+mo_mherrachdan m'earráidí
 mo_mhiannachadh m'iarraidh
 mo_mhiannachaidh m'iarrata
 mo_mhinistear m'aire
@@ -53581,13 +53629,17 @@ mo_thuathanas m'fheirm
 mo_thuathanasan m'fheirmeacha
 mo_thuis m'fhoinse
 mo_thurais m'uaire
+mo_thurais-adhair m'eitilte
 mo_thuras m'uair
+mo_thuras-adhair m'eitilt
 mo_thurasan m'uaireanta
+mo_thurasan-adhair m'eitiltí
 mo_thurchairt m'amhantar
 mo_thurchairte m'amhantair
 mo_thurchairtean m'amhantair
 mo_thurchairtean m'amhantar
 mo_thursan m'uaireanta
+mo_thursan-adhair m'eitiltí
 mo_thuruis m'uaire
 mo_thurus m'uair
 mo_thurusan m'uaireanta
