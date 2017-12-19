@@ -28,6 +28,9 @@ my @fixed = (
 	qr/&([A-Za-z.]+|#[0-9]+);/, # SGML entities &amp; &quot; &#2020; etc.
 	qr/%([0-9]\$)?[A-Za-z]+/, # l10n vars, %1$S, %S, %d, %lu, etc.
 	qr/[:;=]['’0o-]?[()\]\\{}|dpDP][)]*/,  # emoticons
+	qr/[\x{0023}\x{002A}-\x{0039}\x{00A9}\x{00AE}\x{203C}\x{2049}\x{2122}-\x{2B55}\x{1F004}-\x{1F6F3}][\x{FE0E}\x{FE0F}]/,  # emoji with variation selector
+	qr/[\x{1F1E6}-\x{1F1FF}][\x{1F1E6}-\x{1F1FF}]/, # flags
+	qr/[\x{261D}\x{26F9}-\x{270D}\x{1F385}-\x{1F9DD}][\x{1F3FB}-\x{1F3FF}]/, # skin-tone modified emoji
 	qr/[1-9][0-9]{0,2}(?:,[0-9]{3})+(?:\.[0-9]+)?/,  # numbers with commas in them
 	qr/(?<![,0-9])[0-9]+(?:[:.][0-9]+)+/,  # times: 6:45 11.30, IP addresses, etc.; negative lookbehind prevents this from breaking up token "5,000.00" found by previous regex
 );

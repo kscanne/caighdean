@@ -38,3 +38,10 @@ roinnt athróg: %1$S/%2$S  [%3$S], %lu, %3$lu, %S %d.
 agus anois is fiú <a href="http://borel.slu.edu/index.php?title=S%C3%B2isealtasan&amp;action=edit&amp;redlink=1" class="new">HTML níos casta</a> a thástáil
 agus comharthaí níos giorra leabaithe laistigh de chinn níos faide:   
 <div class="tástáil">http://example.com/email.php?address=kscanne@example.com</div>
+# tháinig an chéad sampla eile ó fíor-thweet Gàidhlig; úsáideann sé U+FE0F
+# Variant Selector tar éis an emoji, ach is "marc" é sin, agus chuir an
+# tokenizer leis an bhfocal ina dhiaidh (Tha) é
+⚠️Tha Oifis na Sìde air rabhaidhean buidhe fhoillseachadh airson uisge &amp; sneachda, Diciadain agus Diardaoin.⚠️ #Gaelic #Gaidhlig https://t.co/2AlnHFtFKn
+Bratacha déanta as níos mó ná códphointe amháin: 🇮🇪 mar shampla, nó 🇱🇮!!
+Agus athraitheoirí craicinn: 👶🏾 nó 👷🏿(dhá chódphointe i gceist leo)
+Agus roghnóirí malairte, ☀️ (taispeáint emoji) vs. ☀︎  (taispeáint téacs)
