@@ -219,6 +219,7 @@
 's_urrainn_dhut is féidir leat
 's_urrainn_dhutsa is féidir leatsa
 's_urrainn_do is féidir le
+'s_urrainn_do_dh'oileanaich is féidir le mic léinn
 's_urrainnear is féidir
 'sa_bha is a bhí
 'sa_bhad ar an bpointe
@@ -435,6 +436,7 @@ Korea_a_Deas an Chóiré Theas
 Korea_a_Tuath an Chóiré Thuaidh
 Latha_Luain Dé Luain
 Latha_Naomh_Bhaileintin Lá Fhéile Vailintín
+Leas-Phrìomh_Mhinistear Leas-Phríomhaire
 Lesser_Antilles hAintillí Beaga
 Lib_Deamach Daonlathaithe Liobrálach
 Lib_Deamach Daonlathaí Liobrálach
@@ -666,6 +668,7 @@ a'_dh'_aindeoin in ainneoin
 a'_dh'aindeoin in ainneoin
 a'_dèanamh_fiughair ag súil
 a'_dèanamh_fiùghair ag súil
+a'_dèanamh_fiùghar ag súil
 a'_falach i bhfolach
 a'_farpais ag coimhlint
 a'_feuchainn_ri ag iarraidh
@@ -695,6 +698,7 @@ a'_phàrtaidh_Làborach Páirtí an Lucht Oibre
 a'_phàrtaidh_Làboraich Páirtí an Lucht Oibre
 a'_rithist arís
 a'_seo anseo
+a'_sgrùdach ag scrúdú
 a'_steach isteach
 a'_tadhal ag tabhairt cuairte
 a'_taghal ag tabhairt cuairte
@@ -17545,6 +17549,7 @@ cha_b'e níorbh é
 cha_b'fhada níorbh fhada
 cha_b'fhasa níorbh fhusa
 cha_b'fhiach níorbh fhiú
+cha_b'fhuilear níorbh fholáir
 cha_b'i níorbh í
 cha_b'iad níorbh iad
 cha_b'iadsan níorbh iadsan
@@ -17578,6 +17583,7 @@ cha_d'_fhuaradh ní bhfuarthas
 cha_d'fhuair ní bhfuair
 cha_d'fhuaireadh ní bhfuarthas
 cha_d'fhuaradh ní bhfuarthas
+cha_d'thachair níor tharla
 cha_deach ní dheachaigh
 cha_deach_a_chleachdadh níor úsáideadh
 cha_deach_a_chur níor cuireadh
@@ -17899,6 +17905,7 @@ chan_fhaigh ní bhfaighidh
 chan_fheumadh ní chaithfeadh
 chan_fheumar ní chaithfear
 chan_fhiach ní fiú
+chan_fhuilear ní foláir
 chan_iad dúradar
 chan_iad ndúradar
 chan_iad ní dúradar
@@ -43625,6 +43632,7 @@ fa_near faoi deara
 fa_sgaoil saor
 faca_iad bhfacadar
 faca_sinn bhfacamar
+facal_sgrùdach focal cáinteach
 facal_suaicheantais mana
 faclan_luirg lorgfhocail
 faclan_luirg lorgfhocal
@@ -46930,6 +46938,7 @@ gun_chinnt go sealadach
 gun_choimeas gan sárú
 gun_d'_chòrd gur thaitin
 gun_d'chòrd gur thaitin
+gun_d'thachair gur tharla
 gun_d'thàinig gur tháinig
 gun_dail gan mhoill
 gun_dail láithreach
@@ -47707,6 +47716,7 @@ is_feumar ní foláir
 is_fheairrde is fearrde
 is_fheàirrde is fearrde
 is_fhiach is fiú
+is_fhuilear is foláir
 is_fiach is fiú
 is_fuathach is fuath
 is_gann is ar éigean
@@ -54549,6 +54559,7 @@ nach_b'_urrainn_dhuibh níorbh fhéidir libh
 nach_b'_urrainn_dhuinn níorbh fhéidir linn
 nach_b'_urrainn_dhut níorbh fhéidir leat
 nach_b'e nárbh é
+nach_b'fhuilear nárbh fholáir
 nach_b'i nárbh í
 nach_b'iad nárbh iad
 nach_b'iadsan nárbh iadsan
@@ -54593,6 +54604,7 @@ nach_eil nach bhfuil
 nach_eil_e_fèir nach bhfuil sé féaráilte
 nach_eil_e_math nach bhfuil sé go maith
 nach_fhacaidh nach bhfaca
+nach_fhuilear nach foláir
 nach_h-ann nach
 nach_ion nach ceart
 nach_maireann nach maireann
@@ -55077,6 +55089,7 @@ nas_fhaisg_orm níos gaire dom
 nas_fhaisg_orra níos gaire dóibh
 nas_fhaisg_ort níos gaire duit
 nas_fhaisge níos cóngaraí
+nas_lùgha níos lú
 nas_miosa níos measa
 nas_miosa_na níos measa ná
 nas_motha níos mó
