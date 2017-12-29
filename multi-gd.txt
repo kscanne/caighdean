@@ -289,6 +289,7 @@ Breatainn_Bheag mBriotáin
 Breatainne_Bheag Briotáine
 Breatainne_Bheag mBriotáine
 Breatainne_Bige Briotáine
+Buaile_Fhiodhaid Buaile Fhiodhaid
 Buircina_Fhaso Buircíne Fasó
 Buirciona_Faso Buircíne Fasó
 Bun_Sgoil Bunscoil
@@ -470,13 +471,16 @@ Là_Naomh_Bhaileintin Lá Fhéile Vailintín
 Làbaraich_na_h-Alba Páirtí an Lucht Oibre in Albain
 MIME_type cineál MIME
 MacGill_Eain MacGill-Eain
+Mac_Dhrac Mac Dhrac
 Mac_Talla Macalla
 Maol_Chaluim Maol-Chaluim
 Meadhan_Aoisean Meánaoiseanna
+Mhac_Dhrac Mhac Dhrac
 Mhuir_Mheadhan-thìreach Mheánmhuir
 Monach_Islands Monach Islands
 Monach_Isle Monach Isle
 Monach_Isles Monach Isles
+Monadh_Miongaig Monadh Miongaig
 Mont_Blanc Mont Blanc
 Moor_Fea Moor Fea
 Na_Lìogs Na Sraitheanna
@@ -553,12 +557,19 @@ Sealainn_Nuadh Nua-Shéalainn
 Sealainn_Nuadh Nua-Shéalainne
 Sealan_Nuadh Nua-Shéalainn
 Sealann_Nuadh Nua-Shéalainn
+Seann_Ghreugais Sean-Ghréigis
+Seann_Ghreugais Sean-Ghréigise
+Seann_Ghreugais tSean-Ghréigis
+Seann_Ghrèugais Sean-Ghréigis
+Seann_Ghrèugais Sean-Ghréigise
+Seann_Ghrèugais tSean-Ghréigis
 Seann_Lochlannais Sean-Lochlainnis
 Seann_Lochlannais Sean-Lochlainnise
 Seann_Tiomnadh Sean-Tiomna
 Sgioba_Olympic Foireann Oilimpeach
 Sgriob_Chlann_Uisnich Bealach na Bó Finne
 Sgrìob_Chlann_Uisnich Bealach na Bó Finne
+Sgàrd_Ruaidh Sgàrd Ruaidh
 Shabhal_Mor_Ostaig Shabhal Mòr Ostaig
 Shabhal_Mòr_Ostaig Shabhal Mòr Ostaig
 Shealain_Nuadh Nua-Shéalainne
@@ -2826,7 +2837,16 @@ a_dh'asgallan d'ascaillí
 a_dh'asgnadh do bhuaic
 a_dh'asgnaidh do bhuaice
 a_dh'asgnaidhean do bhuaiceanna
+a_dh'aslachadh d'impí
+a_dh'aslachaidh d'impí
+a_dh'aslachaidhean d'impíocha
+a_dh'asluchadh d'impí
+a_dh'asluchaidh d'impí
+a_dh'asluchaidhean d'impíocha
 a_dh'asna d'easna
+a_dh'asnachadh d'impí
+a_dh'asnachaidh d'impí
+a_dh'asnachaidhean d'impíocha
 a_dh'asnaichean d'easnacha
 a_dh'asp d'asp
 a_dh'aspa d'aspa
@@ -7387,6 +7407,7 @@ a_dh'uair d'uair
 a_dh'uaird do bharda
 a_dh'uaire d'uaire
 a_dh'uaireach d'uaire
+a_dh'uairead d'oiread
 a_dh'uaireadair d'uaireadóir
 a_dh'uaireadair d'uaireadóra
 a_dh'uaireadair-grèine do ghrianchlog
@@ -11171,6 +11192,7 @@ ann_an_Iùgoslaibhia san Iúgslaiv
 ann_an_Iùgoslàibhia san Iúgslaiv
 ann_an_Korea sa Chóiré
 ann_an_Korea_Tuath sa Chóiré Thuaidh
+ann_an_Kosovo sa Chosaiv
 ann_an_Leabanon sa Liobáin
 ann_an_Lebanon sa Liobáin
 ann_an_Libeiria sa Libéir
@@ -11206,6 +11228,8 @@ ann_an_Sambia sa tSaimbia
 ann_an_Sardinia sa tSairdín
 ann_an_Sealainn_Nuadh sa Nua-Shéalainn
 ann_an_Seanagal sa tSeineagáil
+ann_an_Seann_Ghreugais sa tSean-Ghréigis
+ann_an_Seann_Ghrèugais sa tSean-Ghréigis
 ann_an_Seapan sa tSeapáin
 ann_an_Seapàn sa tSeapáin
 ann_an_Silesia sa tSiléis
@@ -12621,6 +12645,7 @@ bho_Cambuidea ón Chambóid
 bho_Casachstan ón Chasacstáin
 bho_Ceinia ón Chéinia
 bho_Chatalòinia ón Chatalóin
+bho_Choirèa ón Chóiré
 bho_Cirgiostàn ón Chirgeastáin
 bho_Coirea ón Chóiré
 bho_Coiria ón Chóiré
@@ -15716,6 +15741,7 @@ bu_ghloidhc b'amadán
 bu_ghloidhc b'óinseach
 bu_ghloidhcean b'amadáin
 bu_ghloidhcean b'óinseacha
+bu_ghlutadh b'alpadh
 bu_ghlàichd b'amadán
 bu_ghlàichd b'óinseach
 bu_ghlàichdean b'amadáin
@@ -15776,6 +15802,7 @@ bu_ghrìosachadh b'impí
 bu_ghrìosaichte b'impithe
 bu_ghrùthan b'ae
 bu_ghrùthanan b'aenna
+bu_ghual-fhiodha b'fhioghual
 bu_ghual-fiodha b'fhioghual
 bu_ghàbhaidh b'uafásach
 bu_ghàbhaidh b'uafásacha
@@ -23421,7 +23448,16 @@ de_dh'asgallan d'ascaillí
 de_dh'asgnadh de bhuaic
 de_dh'asgnaidh de bhuaice
 de_dh'asgnaidhean de bhuaiceanna
+de_dh'aslachadh d'impí
+de_dh'aslachaidh d'impí
+de_dh'aslachaidhean d'impíocha
+de_dh'asluchadh d'impí
+de_dh'asluchaidh d'impí
+de_dh'asluchaidhean d'impíocha
 de_dh'asna d'easna
+de_dh'asnachadh d'impí
+de_dh'asnachaidh d'impí
+de_dh'asnachaidhean d'impíocha
 de_dh'asnaichean d'easnacha
 de_dh'asp d'asp
 de_dh'aspa d'aspa
@@ -27976,6 +28012,7 @@ de_dh'uair d'uair
 de_dh'uaird de bharda
 de_dh'uaire d'uaire
 de_dh'uaireach d'uaire
+de_dh'uairead d'oiread
 de_dh'uaireadair d'uaireadóir
 de_dh'uaireadair d'uaireadóra
 de_dh'uaireadair-grèine de ghrianchlog
@@ -34510,6 +34547,7 @@ do_Cambuidea don Chambóid
 do_Casachstan don Chasacstáin
 do_Ceinia don Chéinia
 do_Chatalòinia don Chatalóin
+do_Choirèa don Chóiré
 do_Cirgiostàn don Chirgeastáin
 do_Coirea don Chóiré
 do_Coiria don Chóiré
@@ -36624,7 +36662,16 @@ do_dh'asgallan d'ascaillí
 do_dh'asgnadh do bhuaic
 do_dh'asgnaidh do bhuaice
 do_dh'asgnaidhean do bhuaiceanna
+do_dh'aslachadh d'impí
+do_dh'aslachaidh d'impí
+do_dh'aslachaidhean d'impíocha
+do_dh'asluchadh d'impí
+do_dh'asluchaidh d'impí
+do_dh'asluchaidhean d'impíocha
 do_dh'asna d'easna
+do_dh'asnachadh d'impí
+do_dh'asnachaidh d'impí
+do_dh'asnachaidhean d'impíocha
 do_dh'asnaichean d'easnacha
 do_dh'asp d'asp
 do_dh'aspa d'aspa
@@ -41179,6 +41226,7 @@ do_dh'uair d'uair
 do_dh'uaird do bharda
 do_dh'uaire d'uaire
 do_dh'uaireach d'uaire
+do_dh'uairead d'oiread
 do_dh'uaireadair d'uaireadóir
 do_dh'uaireadair d'uaireadóra
 do_dh'uaireadair-grèine do ghrianchlog
@@ -44721,6 +44769,7 @@ fo_làimh_easpaig faoi lámh easpaig
 fo_mhisg ar meisce
 fo_na_b' faoinarbh
 fo_phrosbaig faoi mhionscrúdú
+fo_phrospaig faoi mhionscrúdú
 fo_phràmh faoi bhrón
 fo_phràmh i dtámh
 fo_sgèith faoi cheannas
@@ -48008,6 +48057,7 @@ le_dementia a bhfuil néaltrú air
 le_dementia a bhfuil néaltrú orthu
 le_grunnd go cúramach
 le_na leis na
+le_pòig le póg
 le_sin leis sin
 le_t-uile_anam le d'anam iomlán
 le_t-uile_chridhe le do chroí iomlán
@@ -52559,6 +52609,8 @@ mo_ghloidhcean m'amadáin
 mo_ghloidhcean m'amadán
 mo_ghloidhcean m'óinseach
 mo_ghloidhcean m'óinseacha
+mo_ghlutadh m'alpadh
+mo_ghlutaidh m'alptha
 mo_ghlàichd m'amadáin
 mo_ghlàichd m'amadán
 mo_ghlàichd m'óinseach
@@ -52621,6 +52673,8 @@ mo_ghrìosachaidh m'impí
 mo_ghrùthain m'ae
 mo_ghrùthan m'ae
 mo_ghrùthanan m'aenna
+mo_ghuail-fhiodha m'fhioghuail
+mo_ghual-fhiodha m'fhioghual
 mo_ghual-fiodha m'fhioghuail
 mo_ghual-fiodha m'fhioghual
 mo_ghàirdean m'uillinn
@@ -54047,6 +54101,11 @@ mu_deidhinn fúithi
 mu_dheas sa deisceart
 mu_dheas ó dheas
 mu_dhedhinn faoi
+mu_dheibhinn faoi
+mu_dheibhinn-san faoisean
+mu_dheibhinn_an faoin
+mu_dheibhinn_nam i dtaobh na
+mu_dheibhinn_nan i dtaobh na
 mu_dheich timpeall deich
 mu_dheich_uairean timpeall a deich a chlog
 mu_dheidh faoi
@@ -58047,6 +58106,7 @@ saoraicheadh_iad saorfaidís
 saoraicheadh_tu saorfá
 saoraichidh_sinn saorfaimid
 saoraidh_sinn saorfaimid
+saors_an_asgaidh saor in aisce
 saothair_ealain saothar ealaíne
 saothraicheadh_iad saothraídís
 saothraicheadh_iad saothróidís
