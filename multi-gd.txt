@@ -2568,6 +2568,9 @@ a_dh'aoighean d'aíonna
 a_dh'aoil d'aoil
 a_dh'aoin d'aoin
 a_dh'aoine d'aoine
+a_dh'aoineadh d'ailt
+a_dh'aoinidh d'ailte
+a_dh'aoinidhean d'ailteanna
 a_dh'aoir d'aoir
 a_dh'aoire d'aoire
 a_dh'aoirean d'aortha
@@ -5624,6 +5627,8 @@ a_dh'fhàidheadaireachd do thairngreachta
 a_dh'fhàidhean d'fháithe
 a_dh'fhàil d'fháil
 a_dh'fhàil d'fhálta
+a_dh'fhàil do speala
+a_dh'fhàil do speile
 a_dh'fhàile do bholadh
 a_dh'fhàile do bholaidh
 a_dh'fhàileadh do bholadh
@@ -5693,6 +5698,7 @@ a_dh'fhàitheam d'fháithim
 a_dh'fhàitheaman d'fháithimí
 a_dh'fhàitheim d'fháithime
 a_dh'fhàl d'fhál
+a_dh'fhàl do speal
 a_dh'fhàlair d'fhalaire
 a_dh'fhàlaireachd d'fhalaireacht
 a_dh'fhàlaireachd d'fhalaireachta
@@ -6606,6 +6612,7 @@ a_dh'iomainichean d'iománaithe
 a_dh'iomainichean do thiománaithe
 a_dh'iomainn d'iomáin
 a_dh'iomainne d'iomána
+a_dh'iomair d'iomaire
 a_dh'iomaire d'iomaire
 a_dh'iomairean d'iomairí
 a_dh'iomairiche d'iomróir
@@ -7554,6 +7561,12 @@ a_dh'uatachais d'uathachais
 a_dh'uatachas d'uathachas
 a_dh'uathachais d'uathachais
 a_dh'uathachas d'uathachas
+a_dh'ubag d'ortha
+a_dh'ubag d'upa
+a_dh'ubagan d'orthaí
+a_dh'ubagan d'upaí
+a_dh'ubaige d'ortha
+a_dh'ubaige d'upa
 a_dh'ubhail d'úill
 a_dh'ubhal d'úll
 a_dh'ubhal-ghoirt d'úlloird
@@ -8641,6 +8654,8 @@ a_dh'ìbhri d'eabhair
 a_dh'ìbhri d'eabhar
 a_dh'ìce d'íce
 a_dh'ìce d'íoca
+a_dh'ìgh do gheir
+a_dh'ìghe do gheire
 a_dh'ìghne d'iníne
 a_dh'ìghne do chailín
 a_dh'ìghnean d'iníonacha
@@ -23302,6 +23317,9 @@ de_dh'aoighean d'aíonna
 de_dh'aoil d'aoil
 de_dh'aoin d'aoin
 de_dh'aoine d'aoine
+de_dh'aoineadh d'ailt
+de_dh'aoinidh d'ailte
+de_dh'aoinidhean d'ailteanna
 de_dh'aoir d'aoir
 de_dh'aoire d'aoire
 de_dh'aoirean d'aortha
@@ -26352,6 +26370,8 @@ de_dh'fhàidheadaireachd de thairngreachta
 de_dh'fhàidhean d'fháithe
 de_dh'fhàil d'fháil
 de_dh'fhàil d'fhálta
+de_dh'fhàil de speala
+de_dh'fhàil de speile
 de_dh'fhàile de bholadh
 de_dh'fhàile de bholaidh
 de_dh'fhàileadh de bholadh
@@ -26421,6 +26441,7 @@ de_dh'fhàitheam d'fháithim
 de_dh'fhàitheaman d'fháithimí
 de_dh'fhàitheim d'fháithime
 de_dh'fhàl d'fhál
+de_dh'fhàl de speal
 de_dh'fhàlair d'fhalaire
 de_dh'fhàlaireachd d'fhalaireacht
 de_dh'fhàlaireachd d'fhalaireachta
@@ -27335,6 +27356,7 @@ de_dh'iomainichean d'iománaithe
 de_dh'iomainichean de thiománaithe
 de_dh'iomainn d'iomáin
 de_dh'iomainne d'iomána
+de_dh'iomair d'iomaire
 de_dh'iomaire d'iomaire
 de_dh'iomairean d'iomairí
 de_dh'iomairiche d'iomróir
@@ -28276,6 +28298,12 @@ de_dh'uatachais d'uathachais
 de_dh'uatachas d'uathachas
 de_dh'uathachais d'uathachais
 de_dh'uathachas d'uathachas
+de_dh'ubag d'ortha
+de_dh'ubag d'upa
+de_dh'ubagan d'orthaí
+de_dh'ubagan d'upaí
+de_dh'ubaige d'ortha
+de_dh'ubaige d'upa
 de_dh'ubhail d'úill
 de_dh'ubhal d'úll
 de_dh'ubhal-ghoirt d'úlloird
@@ -29362,6 +29390,8 @@ de_dh'ìbhri d'eabhair
 de_dh'ìbhri d'eabhar
 de_dh'ìce d'íce
 de_dh'ìce d'íoca
+de_dh'ìgh de gheir
+de_dh'ìghe de gheire
 de_dh'ìghne d'iníne
 de_dh'ìghne de chailín
 de_dh'ìghnean d'iníonacha
@@ -36634,6 +36664,9 @@ do_dh'aoighean d'aíonna
 do_dh'aoil d'aoil
 do_dh'aoin d'aoin
 do_dh'aoine d'aoine
+do_dh'aoineadh d'ailt
+do_dh'aoinidh d'ailte
+do_dh'aoinidhean d'ailteanna
 do_dh'aoir d'aoir
 do_dh'aoire d'aoire
 do_dh'aoirean d'aortha
@@ -39684,6 +39717,8 @@ do_dh'fhàidheadaireachd do thairngreachta
 do_dh'fhàidhean d'fháithe
 do_dh'fhàil d'fháil
 do_dh'fhàil d'fhálta
+do_dh'fhàil do speala
+do_dh'fhàil do speile
 do_dh'fhàile do bholadh
 do_dh'fhàile do bholaidh
 do_dh'fhàileadh do bholadh
@@ -39753,6 +39788,7 @@ do_dh'fhàitheam d'fháithim
 do_dh'fhàitheaman d'fháithimí
 do_dh'fhàitheim d'fháithime
 do_dh'fhàl d'fhál
+do_dh'fhàl do speal
 do_dh'fhàlair d'fhalaire
 do_dh'fhàlaireachd d'fhalaireacht
 do_dh'fhàlaireachd d'fhalaireachta
@@ -40667,6 +40703,7 @@ do_dh'iomainichean d'iománaithe
 do_dh'iomainichean do thiománaithe
 do_dh'iomainn d'iomáin
 do_dh'iomainne d'iomána
+do_dh'iomair d'iomaire
 do_dh'iomaire d'iomaire
 do_dh'iomairean d'iomairí
 do_dh'iomairiche d'iomróir
@@ -41608,6 +41645,12 @@ do_dh'uatachais d'uathachais
 do_dh'uatachas d'uathachas
 do_dh'uathachais d'uathachais
 do_dh'uathachas d'uathachas
+do_dh'ubag d'ortha
+do_dh'ubag d'upa
+do_dh'ubagan d'orthaí
+do_dh'ubagan d'upaí
+do_dh'ubaige d'ortha
+do_dh'ubaige d'upa
 do_dh'ubhail d'úill
 do_dh'ubhal d'úll
 do_dh'ubhal-ghoirt d'úlloird
@@ -42692,6 +42735,8 @@ do_dh'ìbhri d'eabhair
 do_dh'ìbhri d'eabhar
 do_dh'ìce d'íce
 do_dh'ìce d'íoca
+do_dh'ìgh do gheir
+do_dh'ìghe do gheire
 do_dh'ìghne d'iníne
 do_dh'ìghne do chailín
 do_dh'ìghnean d'iníonacha
@@ -56383,6 +56428,20 @@ phlubadh_iad phlabaidís
 phlubadh_iad phlabfaidís
 phlubadh_tu phlabfá
 phlubaidh_sinn phlabfaimid
+phluc_iad bplucáladar
+phluc_iad phlucáladar
+phluc_iad stoitheadar
+phluc_sinn bplucálamar
+phluc_sinn phlucálamar
+phluc_sinn stoitheamar
+phlucadh_iad phlucálaidís
+phlucadh_iad phlucálfaidís
+phlucadh_iad stoithfidís
+phlucadh_iad stoithidís
+phlucadh_tu phlucálfá
+phlucadh_tu stoithfeá
+phlucaidh_sinn phlucálfaimid
+phlucaidh_sinn stoithfimid
 phlàst_iad bplástráladar
 phlàst_iad phlástráladar
 phlàst_sinn bplástrálamar
@@ -56415,6 +56474,14 @@ phlèastraigeadh_iad phlástrálaidís
 phlèastraigeadh_iad phlástrálfaidís
 phlèastraigeadh_tu phlástrálfá
 phlèastraigidh_sinn phlástrálfaimid
+phlùch_iad bplúchadar
+phlùch_iad phlúchadar
+phlùch_sinn bplúchamar
+phlùch_sinn phlúchamar
+phlùchadh_iad phlúchaidís
+phlùchadh_iad phlúchfaidís
+phlùchadh_tu phlúchfá
+phlùchaidh_sinn phlúchfaimid
 phoidsig_iad bpóitseáladar
 phoidsig_iad phóitseáladar
 phoidsig_sinn bpóitseálamar
@@ -56878,6 +56945,16 @@ plubadh_iad plabaidís
 plubadh_tu bplabfá
 plubaidh_sinn bplabfaimid
 plubaidh_sinn plabfaimid
+plucadh_iad bplucálaidís
+plucadh_iad bplucálfaidís
+plucadh_iad plucálaidís
+plucadh_iad stoithfidís
+plucadh_iad stoithidís
+plucadh_tu bplucálfá
+plucadh_tu stoithfeá
+plucaidh_sinn bplucálfaimid
+plucaidh_sinn plucálfaimid
+plucaidh_sinn stoithfimid
 plus_ca_change plus ça change
 plàstadh_iad bplástrálaidís
 plàstadh_iad bplástrálfaidís
@@ -56903,6 +56980,12 @@ plèastraigeadh_iad plástrálaidís
 plèastraigeadh_tu bplástrálfá
 plèastraigidh_sinn bplástrálfaimid
 plèastraigidh_sinn plástrálfaimid
+plùchadh_iad bplúchaidís
+plùchadh_iad bplúchfaidís
+plùchadh_iad plúchaidís
+plùchadh_tu bplúchfá
+plùchaidh_sinn bplúchfaimid
+plùchaidh_sinn plúchfaimid
 poca_cadail mála codlata
 poidsigeadh_iad bpóitseálaidís
 poidsigeadh_iad bpóitseálfaidís
