@@ -232,6 +232,7 @@ Jerraghyn_Geuree Eanáirí
 Jerraghyn_Geuree d'Eanáirí
 Jerraghyn_Geuree hEanáirí
 Jerrey_Arree Mí Aibreáin
+Jerrey_Fouyir Deireadh Fómhair
 Jerrey_Geuree Eanáir
 Jerrey_Geuree d'Eanáir
 Jerrey_Geuree hEanáir
@@ -3887,6 +3888,13 @@ chlaare_argidoil bhuiséad
 chlaare_argidoil bhuiséid
 chlaare_caghlaaee lasc-chláir
 chlaare_caghlaaee lasc-chlár
+chlaaree_ad chláraíodar
+chlaaree_ad gcláraíodar
+chlaaree_shin chláraíomar
+chlaaree_shin gcláraíomar
+chlaareeagh_ad chláróidís
+chlaareeagh_oo chlárófá
+chlaareeagh_shin chláróimis
 chlaareyn_argidoil bhuiséad
 chlaareyn_argidoil bhuiséid
 chlaareyn_caghlaaee lasc-chláir
@@ -4599,6 +4607,13 @@ chossynagh_shin bhuafaimis
 chossynagh_shin gheobhaimis
 chossynagh_shin ghnóthóimis
 chossynagh_shin theithfimis
+chost_ad chosnaíodar
+chost_ad gcosnaíodar
+chost_shin chosnaíomar
+chost_shin gcosnaíomar
+chostagh_ad chosnóidís
+chostagh_oo chosnófá
+chostagh_shin chosnóimis
 choud_as chomh fada agus
 choud_cheddin chomh fada agus
 chouyr_ad bhisíodar
@@ -7815,6 +7830,8 @@ duittagh_shin dtitfimis
 duittagh_shin thitfimis
 dull_roie béal tuile
 dullish_awin duileasc abhann
+dunnaneysee_ad d'aontaíodar
+dunnaneysee_shin d'aontaíomar
 dunverys_hene d'fhéinmharaithe
 dunverys_hene d'fhéinmharú
 dunverys_hene féinmharaithe
@@ -13025,6 +13042,12 @@ glaare_eddin héadan
 glaare_eddin t-éadan
 glaare_eddin éadain
 glaare_eddin éadan
+glaareeagh_ad chláróidís
+glaareeagh_ad gcláróidís
+glaareeagh_oo chlárófá
+glaareeagh_oo gclárófá
+glaareeagh_shin chláróimis
+glaareeagh_shin gcláróimis
 glaareyn_argidoil mbuiséad
 glaareyn_argidoil mbuiséid
 glaareyn_caghlaaee lasc-chláir
@@ -14064,6 +14087,12 @@ gossynagh_shin mbuafaimis
 gossynagh_shin ngeobhaimis
 gossynagh_shin ngnóthóimis
 gossynagh_shin theithfimis
+gostagh_ad chosnóidís
+gostagh_ad gcosnóidís
+gostagh_oo chosnófá
+gostagh_oo gcosnófá
+gostagh_shin chosnóimis
+gostagh_shin gcosnóimis
 gouyragh_ad bhiseoidís
 gouyragh_ad dtéarnóidís
 gouyragh_ad mbiseoidís
@@ -22957,6 +22986,12 @@ my_chleighyn m'fhálta
 my_chleih m'fháil
 my_chleih m'fhál
 my_chleihyn m'fhálta
+my_chlet m'fhochais
+my_chlet m'fhochaise
+my_chlett m'fhochais
+my_chlett m'fhochaise
+my_chlettyn m'fhochaisí
+my_chletyn m'fhochaisí
 my_chlinneyder m'éisteoir
 my_chlinneyder m'éisteora
 my_chlinneyderyn m'éisteoirí
@@ -23021,6 +23056,8 @@ my_choamrey m'éadaigh
 my_choardail m'aontaithe
 my_choardail m'aontú
 my_choayl_chooinaght m'aimnéise
+my_chocaslys m'íomhá
+my_chocaslysyn m'íomhánna
 my_chochaslys m'íomhá
 my_chochaslysyn m'íomhánna
 my_chochruinnaght m'oireachtais
@@ -23260,6 +23297,9 @@ my_gharmadyn m'éidí
 my_ghean m'aidhm
 my_ghean m'aidhme
 my_gheanyn m'aidhmeanna
+my_gheayin m'uain
+my_gheayn m'uain
+my_gheayn m'uan
 my_ghebejaght m'éadóchais
 my_ghebejaght m'éadóchas
 my_ghecree m'fhorógra
@@ -23457,6 +23497,9 @@ my_ghrogh-yantee m'urchóidigh
 my_ghroghad_ushtey m'uisceriain
 my_ghroghad_ushtey m'uiscerian
 my_ghroghadyn_ushtey m'uiscerianta
+my_ghrooee m'ainniseoir
+my_ghrooee m'ainniseora
+my_ghrooeeyn m'ainniseoirí
 my_ghuag m'uaimh
 my_ghuag m'uaimhe
 my_ghuaggyn m'uaimheanna
@@ -24007,6 +24050,9 @@ my_hraasteyder m'fháiscire
 my_hraasteyderyn m'fháiscirí
 my_hraee m'fhéar
 my_hraee m'fhéara
+my_hraidoor m'fhealltóir
+my_hraidoor m'fhealltóra
+my_hraidooryn m'fhealltóirí
 my_hraitoor m'fhealltóir
 my_hraitoor m'fhealltóra
 my_hraitooryn m'fhealltóirí
@@ -24117,6 +24163,10 @@ my_hroiddey m'fheannta
 my_hroiddeyder m'fheannadóir
 my_hroiddeyder m'fheannadóra
 my_hroiddeyderyn m'fheannadóirí
+my_hromlaase m'aintiarnais
+my_hromlaase m'aintiarnas
+my_hromlaase m'fhoréigean
+my_hromlaase m'fhoréigin
 my_hronnag m'fhoracha
 my_hronnag m'fhorachan
 my_hronnagyn m'fhorachain
@@ -25240,6 +25290,8 @@ my_veihaghan_lheimmey m'ainsiléad
 my_veihaghan_lheimmey m'ainsiléid
 my_veihaghanyn_lheimmey m'ainsiléad
 my_veihaghanyn_lheimmey m'ainsiléid
+my_veihll m'útamálaí
+my_veihllyn m'útamálaithe
 my_veisht m'ainmhí
 my_veishteig-nieu m'fheithidicíd
 my_veishteig-nieu m'fheithidicíde
@@ -25312,6 +25364,8 @@ my_vioag m'orgánach
 my_vioag m'orgánaigh
 my_vioagyn m'orgánach
 my_vioagyn m'orgánaigh
+my_vioghys m'anam
+my_vioghys m'anama
 my_viol m'fhidil
 my_viol m'fhidle
 my_viol-chloieder m'fhidléara
@@ -25339,6 +25393,12 @@ my_vlebbinys m'amadántacht
 my_vlebbinys m'amadántachta
 my_vlebyn m'amadáin
 my_vlebyn m'amadán
+my_vleie m'útamálaí
+my_vleieyn m'útamálaithe
+my_vleih m'útamálaí
+my_vleihyn m'útamálaithe
+my_vlieh m'útamálaí
+my_vliehyn m'útamálaithe
 my_voal-hushtagh m'amadáin
 my_voal-hushtagh m'amadán
 my_voal-hushtee m'amadáin
@@ -25466,6 +25526,8 @@ my_vraaidyn m'altáin
 my_vraaidyn m'altán
 my_vrabbanagh m'fhionnáin
 my_vrabbanagh m'fhionnán
+my_vranlaadee m'aislingeacht
+my_vranlaadee m'aislingeachta
 my_vranlaadys m'aislingeacht
 my_vranlaadys m'aislingeachta
 my_vreast m'ucht
@@ -28397,6 +28459,12 @@ nunjin_frangagh bhfionnchoill
 nunjin_frangagh bhfionncholl
 nunnaneys_aigney n-aontoilíocht
 nunnaneys_aigney n-aontoilíochta
+nunnaneyseeagh_ad aontóidís
+nunnaneyseeagh_ad n-aontóidís
+nunnaneyseeagh_oo aontófá
+nunnaneyseeagh_oo n-aontófá
+nunnaneyseeagh_shin aontóimis
+nunnaneyseeagh_shin n-aontóimis
 nunverys_hene bhféinmharaithe
 nunverys_hene bhféinmharú
 nunverysyn_hene bhféinmharuithe
@@ -35822,6 +35890,13 @@ unnaneys_aigney aontoilíocht
 unnaneys_aigney aontoilíochta
 unnaneys_thallooinagh sláine críche
 unnaneys_thallooinagh tsláine críche
+unnaneysee_ad aontaíodar
+unnaneysee_ad n-aontaíodar
+unnaneysee_shin aontaíomar
+unnaneysee_shin n-aontaíomar
+unnaneyseeagh_ad d'aontóidís
+unnaneyseeagh_oo d'aontófá
+unnaneyseeagh_shin d'aontóimis
 urlaghyn_convaartagh chondair
 urlaghyn_convaartagh chondar
 urlaghyn_convaartagh condair
@@ -39009,15 +39084,25 @@ yeshaght_reuyrey rótachartaire
 yeshaght_skiootagh scairdinneall
 yeshaght_skiootagh scairdinnill
 yeshee_ad dheasaíodar
+yeshee_ad dheisíodar
 yeshee_ad ndeasaíodar
+yeshee_ad ndeisíodar
 yeshee_shin dheasaíomar
+yeshee_shin dheisíomar
 yeshee_shin ndeasaíomar
+yeshee_shin ndeisíomar
 yesheeagh_ad dheasóidís
+yesheeagh_ad dheiseoidís
 yesheeagh_ad ndeasóidís
+yesheeagh_ad ndeiseoidís
 yesheeagh_oo dheasófá
+yesheeagh_oo dheiseofá
 yesheeagh_oo ndeasófá
+yesheeagh_oo ndeiseofá
 yesheeagh_shin dheasóimis
+yesheeagh_shin dheiseoimis
 yesheeagh_shin ndeasóimis
+yesheeagh_shin ndeiseoimis
 yesheen_ad d'oirníodar
 yesheen_ad dheasaíodar
 yesheen_ad maisíodar
