@@ -2632,6 +2632,18 @@ bussalyn_laue ciarsúr
 bussalyn_mwannal muifléad
 bussalyn_mwannal muifléid
 bussalyn_mwannal scaifeanna
+buttagh_ad bpocálfaidís
+buttagh_ad phocálfaidís
+buttagh_ad sháfaidís
+buttagh_ad sáfaidís
+buttagh_oo bpocálfá
+buttagh_oo phocálfá
+buttagh_oo sháfá
+buttagh_oo sáfá
+buttagh_shin bpocálfaimis
+buttagh_shin phocálfaimis
+buttagh_shin sháfaimis
+buttagh_shin sáfaimis
 bwaane_craitnagh wigwam
 bwaane_rioee d'íoglú
 bwaane_rioee híoglú
@@ -3591,10 +3603,17 @@ chere_shin gcíoramar
 chereagh_ad chíorfaidís
 chereagh_oo chíorfá
 chereagh_shin chíorfaimis
+cherree_ad bpionósaíodar
+cherree_ad phionósaíodar
 cherree_ad smachtaíodar
+cherree_shin bpionósaíomar
+cherree_shin phionósaíomar
 cherree_shin smachtaíomar
+cherreeagh_ad phionósóidís
 cherreeagh_ad smachtóidís
+cherreeagh_oo phionósófá
 cherreeagh_oo smachtófá
+cherreeagh_shin phionósóimis
 cherreeagh_shin smachtóimis
 cherroo_eayn ghiogóid
 cherroo_eayn ghiogóide
@@ -4637,12 +4656,19 @@ chovest_shin gcumascamar
 chovestagh_ad chumascfaidís
 chovestagh_oo chumascfá
 chovestagh_shin chumascfaimis
+chovuill_ad chomhbhuaileadar
 chovuill_ad chomhbhualadar
+chovuill_ad gcomhbhuaileadar
 chovuill_ad gcomhbhualadar
+chovuill_shin chomhbhuaileamar
 chovuill_shin chomhbhualamar
+chovuill_shin gcomhbhuaileamar
 chovuill_shin gcomhbhualamar
+chovuillagh_ad chomhbhuailfidís
 chovuillagh_ad chomhbhualfaidís
+chovuillagh_oo chomhbhuailfeá
 chovuillagh_oo chomhbhualfá
+chovuillagh_shin chomhbhuailfimis
 chovuillagh_shin chomhbhualfaimis
 chowraghyn_post phostmharcanna
 chowree_ad chomharthaíodar
@@ -11593,8 +11619,14 @@ gereagh_oo chíorfá
 gereagh_oo gcíorfá
 gereagh_shin chíorfaimis
 gereagh_shin gcíorfaimis
+gerreeagh_ad bpionósóidís
+gerreeagh_ad phionósóidís
 gerreeagh_ad smachtóidís
+gerreeagh_oo bpionósófá
+gerreeagh_oo phionósófá
 gerreeagh_oo smachtófá
+gerreeagh_shin bpionósóimis
+gerreeagh_shin phionósóimis
 gerreeagh_shin smachtóimis
 gerroo_eayn ngiogóid
 gerroo_eayn ngiogóide
@@ -11911,6 +11943,13 @@ ghlack_shin nglacamar
 ghlackagh_ad ghlacfaidís
 ghlackagh_oo ghlacfá
 ghlackagh_shin ghlacfaimis
+ghlass_ad ghlasáladar
+ghlass_ad nglasáladar
+ghlass_shin ghlasálamar
+ghlass_shin nglasálamar
+ghlassagh_ad ghlasálfaidís
+ghlassagh_oo ghlasálfá
+ghlassagh_shin ghlasálfaimis
 ghlassan_chaayl chálslá
 ghleash_ad bhogadar
 ghleash_ad chorraíodar
@@ -13459,6 +13498,8 @@ goaill_y_soylley_ass ag baint sult as
 goaill_y_soylley_jeh ag baint sult as
 goaill_ymmyd ag déanamh úsáide
 goaill_ymmyd déanamh úsáide
+goal_twoaie bogha ceatha
+goal_twoaie bogha síne
 goamreeagh_ad bhfeisteoidís
 goamreeagh_ad fheisteoidís
 goamreeagh_ad ghléasfaidís
@@ -14111,11 +14152,17 @@ govestagh_oo chumascfá
 govestagh_oo gcumascfá
 govestagh_shin chumascfaimis
 govestagh_shin gcumascfaimis
+govuillagh_ad chomhbhuailfidís
 govuillagh_ad chomhbhualfaidís
+govuillagh_ad gcomhbhuailfidís
 govuillagh_ad gcomhbhualfaidís
+govuillagh_oo chomhbhuailfeá
 govuillagh_oo chomhbhualfá
+govuillagh_oo gcomhbhuailfeá
 govuillagh_oo gcomhbhualfá
+govuillagh_shin chomhbhuailfimis
 govuillagh_shin chomhbhualfaimis
+govuillagh_shin gcomhbhuailfimis
 govuillagh_shin gcomhbhualfaimis
 gow-jee_baght_jeh breathnaígí air
 gow-jee_baght_jeh breathnaígí ar
@@ -23065,6 +23112,8 @@ my_chochruinnaght m'oireachtas
 my_chohirreyder m'iomaitheoir
 my_chohirreyder m'iomaitheora
 my_chohirreyderyn m'iomaitheoirí
+my_choinney m'aiteann
+my_choinney m'aitinn
 my_choirraghyn m'fhoirnéisí
 my_choirrey m'fhoirnéis
 my_choirrey m'fhoirnéise
@@ -23244,6 +23293,8 @@ my_ghaccanyn m'olagóin
 my_ghaccanyn m'olagón
 my_ghaccanyn m'éamh
 my_ghaccanyn m'éamha
+my_ghaccyrys m'ocrais
+my_ghaccyrys m'ocras
 my_ghaerr m'aoileach
 my_ghaerr m'aoiligh
 my_ghaerr m'otrach
@@ -24133,6 +24184,9 @@ my_hroar m'fhómhair
 my_hroar m'fhómhar
 my_hroaryn m'fhómhair
 my_hroaryn m'fhómhar
+my_hroayr m'fhómhair
+my_hroayr m'fhómhar
+my_hroayryn m'fhómhair
 my_hroddan m'fheachtais
 my_hroddan m'fheachtas
 my_hroddanagh m'fheachtasóir
@@ -24367,6 +24421,9 @@ my_lee m'fhaillí
 my_leeast m'ára
 my_leeast m'árann
 my_leeastyn m'áranna
+my_leeayst m'ára
+my_leeayst m'árann
+my_leeaystyn m'áranna
 my_leeghyn m'fhaillíocha
 my_leeu m'fhaobhraithe
 my_leeu m'fhaobhrú
@@ -24408,6 +24465,8 @@ my_lheiltys m'aclaíochta
 my_lhergagh m'fhána
 my_lhergee m'fhána
 my_lhergeeyn m'fhánaí
+my_lhiargagh m'fhána
+my_lhiargeeyn m'fhánaí
 my_lhiasteyr m'fhalsóir
 my_lhiasteyr m'fhalsóra
 my_lhiasteyryn m'fhalsóirí
@@ -24469,6 +24528,8 @@ my_liaghey m'fhearthainn
 my_liaghey m'fhearthainne
 my_liargagh m'fhána
 my_liargeeyn m'fhánaí
+my_liasstid m'fhalsacht
+my_liasstid m'fhalsachta
 my_liauyrey m'fhadaithe
 my_liauyrey m'fhadú
 my_lieh-chiartys m'éagothroime
@@ -24765,6 +24826,8 @@ my_phreabanyn_caggee m'aimfitéatar
 my_phreabanyn_caggee m'amfaitéatair
 my_phreacheil m'fhógairt
 my_phreacheil m'fhógartha
+my_phreaçhal m'fhógairt
+my_phreaçhal m'fhógartha
 my_phreaçheil m'fhógairt
 my_phreaçheil m'fhógartha
 my_phronnag m'ispín
@@ -24885,6 +24948,8 @@ my_rheynnoilid m'inroinnteachta
 my_rhumbyl m'fháithim
 my_rhumbyl m'fháithime
 my_rhumbyllyn m'fháithimí
+my_rigg m'iomaire
+my_riggyn m'iomairí
 my_rimmaghyn m'imeall
 my_rimmaghyn m'imill
 my_rimmey m'imeall
@@ -24897,6 +24962,8 @@ my_rio-hrustyryn m'oigheardheascthaí
 my_rio-rinck m'oighear-rinc
 my_rio-rinck m'oighear-rince
 my_rio-rinckyn m'oighear-rinceanna
+my_riogan m'eite
+my_rioganyn m'eití
 my_rioggan m'eite
 my_riogganyn m'eití
 my_rioose m'aird
@@ -25055,6 +25122,8 @@ my_smarage m'aibhleog
 my_smarage m'aibhleoige
 my_smarageyn m'aibhleog
 my_smarageyn m'aibhleoga
+my_smock m'fhorléine
+my_smockyn m'fhorléinte
 my_smooinys má smaoiníonn
 my_speyr m'aeráid
 my_speyr m'aeráide
@@ -25073,8 +25142,11 @@ my_sproght m'fhearg
 my_sproght m'fheirge
 my_stark_Injynagh m'ararúit
 my_stark_Injynagh m'ararút
+my_state m'eastáit
+my_state m'eastát
 my_state-hallooin m'fheirm
 my_state-hallooin m'fheirme
+my_stateyn m'eastáit
 my_stayd m'eastáit
 my_stayd m'eastát
 my_staydyn m'eastáit
@@ -25626,12 +25698,15 @@ my_wappinyn m'airm
 my_wappinyn m'arm
 my_watch m'fhaire
 my_watchyn m'fhairí
+my_watçhal m'fhaire
 my_wee m'fhaí
 my_weeyn m'fhaíthe
 my_whaaghid m'aisteachais
 my_whaaghid m'aisteachas
 my_whaaley m'fhuáil
 my_whaaley m'fhuála
+my_whaaleyr m'fhuálaí
+my_whaaleyryn m'fhuálaithe
 my_whaaltys m'agallaimh
 my_whaaltys m'agallamh
 my_whaaltysyn m'agallaimh
@@ -25657,6 +25732,8 @@ my_whippad m'fhuipéid
 my_whippadyn m'fhuipéad
 my_whippadyn m'fhuipéid
 my_whiss m'fhuist
+my_whistlal m'fheadaíl
+my_whistlal m'fheadaíola
 my_winlass m'unlais
 my_winlass m'unlas
 my_winlassyn m'unlais
@@ -25718,8 +25795,11 @@ my_yeaaghyn m'fhéachaint
 my_yeaaghyn m'fhéachana
 my_yeaghyn m'fhéachaint
 my_yeaghyn m'fhéachana
+my_yeayin m'uain
 my_yeayl_creoi m'antraicít
 my_yeayl_creoi m'antraicíte
+my_yeayn m'uain
+my_yeayn m'uan
 my_yeaynaghyn m'uainí
 my_yeayney m'uaine
 my_yeayr m'aigéad
@@ -25755,7 +25835,10 @@ my_yeianee m'fhorásach
 my_yeianee m'fhorásaigh
 my_yeih i mo dhiaidh
 my_yeill m'aire
+my_yeill m'fhuaráin
+my_yeill m'fhuarán
 my_yeillyn m'airí
+my_yeillyn m'fhuaráin
 my_yennaghyn m'easnaimh
 my_yennaghyn m'easnamh
 my_yennaghyn m'easpaí
@@ -25778,6 +25861,8 @@ my_yennidyn m'easnamh
 my_yennidyn m'easpaí
 my_yerjagh m'aoibhneas
 my_yerjagh m'aoibhnis
+my_yerjys m'aoibhneas
+my_yerjys m'aoibhnis
 my_yeshaght m'inneall
 my_yeshaght m'innill
 my_yeshaghteyr m'innealtóir
@@ -25797,6 +25882,9 @@ my_yess m'ortha
 my_yessyn m'orthaí
 my_yeushan m'inse
 my_yeushanyn m'insí
+my_yeyll m'fhuaráin
+my_yeyll m'fhuarán
+my_yeyllyn m'fhuaráin
 my_yeï i mo dhiaidh
 my_yialdyn-argid m'urraíocht
 my_yialdyn-argid m'urraíochta
@@ -25817,6 +25905,8 @@ my_yibbey_hiu m'fhuachtáin
 my_yibbey_hiu m'fhuachtán
 my_yien m'aoibhneas
 my_yien m'aoibhnis
+my_yimman m'ainrianaí
+my_yimmanyn m'ainrianaithe
 my_yinnagh dá ndéanfadh
 my_yinnagh_ad dá ndéanfaidís
 my_yiooldeyder m'easaontóir
@@ -25851,10 +25941,12 @@ my_ynnag m'fhaoitín
 my_ynnagyn m'fhaoitíní
 my_ynneig m'fhaighneog
 my_ynneig m'fhaighneoige
+my_ynneig m'fhaoitín
 my_ynneig m'fhíneog
 my_ynneig m'fhíneoige
 my_ynneigyn m'fhaighneog
 my_ynneigyn m'fhaighneoga
+my_ynneigyn m'fhaoitíní
 my_ynneigyn m'fhíneog
 my_ynneigyn m'fhíneoga
 my_ynneraght m'fhionnuaire
@@ -27343,6 +27435,12 @@ nglackagh_oo ghlacfá
 nglackagh_oo nglacfá
 nglackagh_shin ghlacfaimis
 nglackagh_shin nglacfaimis
+nglassagh_ad ghlasálfaidís
+nglassagh_ad nglasálfaidís
+nglassagh_oo ghlasálfá
+nglassagh_oo nglasálfá
+nglassagh_shin ghlasálfaimis
+nglassagh_shin nglasálfaimis
 nglassan_chaayl gcálslá
 ngleashagh_ad bhogfaidís
 ngleashagh_ad chorróidís
@@ -30745,6 +30843,20 @@ phumpagh_ad phumpálfaidís
 phumpagh_oo phumpálfá
 phumpagh_shin phumpálfaimis
 phurt_aeragh aerfort
+phutt_ad bpocáladar
+phutt_ad phocáladar
+phutt_ad shádar
+phutt_ad sádar
+phutt_shin bpocálamar
+phutt_shin phocálamar
+phutt_shin shámar
+phutt_shin sámar
+phuttagh_ad phocálfaidís
+phuttagh_ad sháfaidís
+phuttagh_oo phocálfá
+phuttagh_oo sháfá
+phuttagh_shin phocálfaimis
+phuttagh_shin sháfaimis
 physhage_ad meamhlaíodar
 physhage_ad mheamhlaíodar
 physhage_shin meamhlaíomar
@@ -31161,7 +31273,12 @@ rassagh_oo roisfeá
 rassagh_shin roisfimis
 rastagh_agglagh iontach stoirmeach
 ratçhal_cabbil rásaíocht chapall
+raue_ad rámhaíodar
 raue_cadleen chodlaidín
+raue_shin rámhaíomar
+raueagh_ad rámhóidís
+raueagh_oo rámhófá
+raueagh_shin rámhóimis
 raun_chleayshagh mhór-róin
 raun_chleayshagh mhór-rón
 raun_chleayshagh mór-róin
