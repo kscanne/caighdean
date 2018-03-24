@@ -9360,7 +9360,6 @@ ainjys aithne
 ainjys t-aitheantas
 ainjyssagh aitheanta
 ainjyssee aitheanta
-ainjysyn aitheanta
 ainjysyn aitheantais
 ainle aingeal
 ainle aingil
@@ -11506,7 +11505,15 @@ ard-voylys ardmholfaidh
 ard-voyrnagh arrachtach
 ard-voyrnagh arrachtacha
 ard-voyrnagh arrachtaigh
+ard-voyrnagh mhórthaibhseach
+ard-voyrnagh mhórthaibhseacha
+ard-voyrnagh mhórthaibhsigh
+ard-voyrnagh mórthaibhseach
+ard-voyrnagh mórthaibhseacha
+ard-voyrnagh mórthaibhsigh
 ard-voyrnee arrachtaí
+ard-voyrnee mhórthaibhsí
+ard-voyrnee mórthaibhsí
 ard-vreageyder deargbhréagadóir
 ard-vreageyder deargbhréagadóra
 ard-vreageyder dheargbhréagadóir
@@ -12437,8 +12444,6 @@ arryltys fhoinn
 arryltys fhonn
 arryltys foinn
 arryltys fonn
-arryltysyn fhoinn
-arryltysyn foinn
 arrym meas
 arrym measa
 arrym mheas
@@ -19783,6 +19788,7 @@ caagh grágaíola
 caaghyn deiseanna
 caagyn d'uingí
 caagyn huingí
+caagyn tinní
 caagyn uingí
 caaidge caighean
 caaidge caighin
@@ -21263,6 +21269,7 @@ chaagh dhurdálfadh
 chaagh ghrágaíl
 chaagh ghrágaíola
 chaaghyn dheiseanna
+chaagyn thinní
 chaagyn uingí
 chaaidge chaighean
 chaaidge chaighin
@@ -23116,10 +23123,10 @@ cheintyn shaghsanna
 cheintyn shórtanna
 cheintys ghnéas
 cheintys ghnéis
-cheintyssagh ghréasach
-cheintyssagh ghréasacha
-cheintyssagh ghréasaigh
-cheintyssee ghréasaí
+cheintyssagh ghnéasach
+cheintyssagh ghnéasacha
+cheintyssagh ghnéasaigh
+cheintyssee ghnéasaí
 cheintysyn ghnéasanna
 cheiraght cheardaíocht
 cheiraght cheardaíochta
@@ -23515,7 +23522,6 @@ chestal choraíocht
 chestal choraíochta
 chestal chortha
 chestalyn chastaí
-chestalyn choraíochtaí
 chestalyn chorthaí
 chesteyder choraí
 chesteyder iomrascálaí
@@ -35815,14 +35821,12 @@ daal dtálfaidh
 daal thálfaidh
 daalagh dtálfadh
 daalagh thálfadh
-daalaghyn dtáil
 daaley dtáil
 daaley dtál
 daalheie d'athleáigh
 daalhieen d'athlíon
 daalid dtáil
 daalid dtál
-daalidyn dtáil
 daalin dtálfainn
 daalin thálfainn
 daalmayd dtálfaimid
@@ -42053,7 +42057,6 @@ dt'aineyderyn do charbadóirí
 dt'ainjys d'aitheantais
 dt'ainjys d'aitheantas
 dt'ainjys d'aithne
-dt'ainjysyn d'aitheanta
 dt'ainjysyn d'aitheantais
 dt'ainle d'aingeal
 dt'ainle d'aingil
@@ -43453,7 +43456,6 @@ dt'arryltys d'fhoinn
 dt'arryltys d'fhonn
 dt'arryltys do dhíograis
 dt'arryltys do dhíograise
-dt'arryltysyn d'fhoinn
 dt'arrym d'onóir
 dt'arrym d'onóra
 dt'arrym d'urraim
@@ -44751,7 +44753,6 @@ dt'ennaghtaght do mhaoithneas
 dt'ennaghtaght do mhaoithnis
 dt'ennaghtyn do mhothaithe
 dt'ennaghtyn do mhothú
-dt'ennaghyn d'aitheanta
 dt'ennal d'anáil
 dt'ennal d'anála
 dt'ennalaghaghyn d'análuithe
@@ -44814,7 +44815,6 @@ dt'eohderyn d'fhuathaitheoirí
 dt'eohdoilys do ghráiniúlacht
 dt'eohdoilys do ghráiniúlachta
 dt'eohdoilysyn do ghráiniúlachtaí
-dt'eohyn d'fhuathanna
 dt'eoiltaght do fhlaithiúlacht
 dt'eoiltaght do fhlaithiúlachta
 dt'eoiltys d'fhialmhaireacht
@@ -45632,7 +45632,6 @@ dt'o-yialdyn do fhrithghealladh
 dt'o-yialdyn do fhrithgheallta
 dt'oad d'fhód
 dt'oad d'fhóid
-dt'oaddaghyn d'fhaduithe
 dt'oaddan do chipín
 dt'oaddan do lasáin
 dt'oaddan do lasán
@@ -45646,6 +45645,7 @@ dt'oaddey do lasadh
 dt'oaddey do lasta
 dt'oadey d'adhaint
 dt'oadey d'adhainte
+dt'oadey d'fhadaithe
 dt'oadey d'fhadú
 dt'oadey do lasadh
 dt'oadey do lasta
@@ -46913,7 +46913,6 @@ dt'uinnag d'fhuinneog
 dt'uinnag d'fhuinneoige
 dt'uinnagyn d'fhuinneoga
 dt'uinney d'fhuineadh
-dt'uinney d'fhuinidh
 dt'uinney d'fhuinte
 dt'uinneyder d'fhuinteoir
 dt'uinneyder d'fhuinteora
@@ -49966,7 +49965,6 @@ ennaghtyn mhothaithe
 ennaghtyn mhothú
 ennaghtyn mothaithe
 ennaghtyn mothú
-ennaghyn aitheanta
 ennal anáil
 ennal anála
 ennalagh análach
@@ -50146,7 +50144,6 @@ eohdoil ghráiniúla
 eohdoilys ghráiniúlacht
 eohdoilys ghráiniúlachta
 eohdoilysyn ghráiniúlachtaí
-eohyn fhuathanna
 eoilt fhial
 eoilt fhiala
 eoilt fhlaithiúil
@@ -52391,7 +52388,6 @@ feohdoil gráiniúla
 feohdoilys gráiniúlacht
 feohdoilys gráiniúlachta
 feohdoilysyn gráiniúlachtaí
-feohyn fuathanna
 feoilt fial
 feoilt fiala
 feoilt flaithiúil
@@ -53434,7 +53430,6 @@ foadd-jee fadaígí
 foadd-jee hadhnaigí
 foadd-jee lasaigí
 foadd-jee n-adhnaigí
-foaddaghyn faduithe
 foaddan cipín
 foaddan lasáin
 foaddan lasán
@@ -53466,6 +53461,7 @@ foadee fadóidh
 foadee lasfaidh
 foadey adhaint
 foadey adhainte
+foadey fadaithe
 foadey fadú
 foadey hadhaint
 foadey hadhainte
@@ -54815,7 +54811,6 @@ fuinn-jee bhfuinigí
 fuinn-jee fuinigí
 fuinnee fuinfidh
 fuinney fuineadh
-fuinney fuinidh
 fuinney fuinte
 fuinneyder báicéara
 fuinneyder báicéir
@@ -55140,6 +55135,7 @@ gaaghyn ndeiseanna
 gaagit gágtha
 gaagmayd gágfaimid
 gaagym gágfaidh mé
+gaagyn dtinní
 gaagyn n-uingí
 gaaidge gcaighean
 gaaidge gcaighin
@@ -57909,7 +57905,6 @@ gestal gcoraíocht
 gestal gcoraíochta
 gestal gcortha
 gestalyn gcastaí
-gestalyn gcoraíochtaí
 gestalyn gcorthaí
 gesteyder gcoraí
 gesteyder n-iomrascálaí
@@ -59480,6 +59475,7 @@ ghlareaghyn theangacha
 ghlasheen chaislín
 ghlasheen ghlaise
 ghlasheenyn chaislíní
+ghlasheenyn ghlaisí
 ghlashtin ghruagach
 ghlashtin ghruagaigh
 ghlashtinyn ghruagaigh
@@ -64160,6 +64156,7 @@ glashal gclasú
 glasheen caislín
 glasheen glaise
 glasheenyn caislíní
+glasheenyn glaisí
 glashin chlasóinn
 glashin gclasóinn
 glashmayd chlasóimid
@@ -71622,7 +71619,6 @@ haalagh háil
 haalagh hál
 haalagh thálfadh
 haalaghyn hálta
-haalaghyn tháil
 haalee hálta
 haalettyragh huamach
 haalettyraghys huaim
@@ -71661,7 +71657,6 @@ haalid tháil
 haalid thál
 haalidyn háilleachtaí
 haalidyn scéimheanna
-haalidyn tháil
 haalin hálainn
 haalin thálfainn
 haalistal hathliostáil
@@ -72719,7 +72714,6 @@ hainjys haitheantais
 hainjys haitheantas
 hainjys haithne
 hainjyssagh haitheanta
-hainjysyn haitheanta
 hainjysyn haitheantais
 haink tháinig
 hainle haingeal
@@ -74214,6 +74208,7 @@ hard-voylley hardmholadh
 hard-voylley hardmholta
 hard-voyllit hardmholta
 hard-voyrnagh harrachtach
+hard-voyrnagh mórthaibhseach
 hard-vreageyder deargbhréagadóir
 hard-vreageyder deargbhréagadóra
 hard-vreageyderyn deargbhréagadóirí
@@ -74844,7 +74839,6 @@ harryltys díograis
 harryltys díograise
 harryltys foinn
 harryltys fonn
-harryltysyn foinn
 harrym honóir
 harrym honóra
 harrym hurraim
@@ -74901,7 +74895,6 @@ harvaantyn sheirbhísigh
 harvollagh tharbhealach
 harvollagh tharbhealaigh
 harvollee tharbhealaí
-has has
 hasbestos haispeist
 hasbestos haispeiste
 hasbyrt heasparta
@@ -77785,7 +77778,6 @@ hennaghtaght maoithneas
 hennaghtaght maoithnis
 hennaghtyn mothaithe
 hennaghtyn mothú
-hennaghyn haitheanta
 hennaghyn thinte
 hennaghys sheanchais
 hennaghys sheanchas
@@ -89686,10 +89678,10 @@ keintyn saghsanna
 keintyn sórtanna
 keintys gnéas
 keintys gnéis
-keintyssagh gréasach
-keintyssagh gréasacha
-keintyssagh gréasaigh
-keintyssee gréasaí
+keintyssagh gnéasach
+keintyssagh gnéasacha
+keintyssagh gnéasaigh
+keintyssee gnéasaí
 keintysyn gnéasanna
 keiraght ceardaíocht
 keiraght ceardaíochta
@@ -90045,7 +90037,6 @@ kestal coraíocht
 kestal coraíochta
 kestal cortha
 kestalyn castaí
-kestalyn coraíochtaí
 kestalyn corthaí
 kestee casfaidh
 kestee corfaidh
@@ -92111,6 +92102,11 @@ lane-emshiragh lánaimseartha
 lane-emshiree lánaimseartha
 lane-emshyragh lánaimseartha
 lane-emshyree lánaimseartha
+lane-ghooisht i do lándúiseacht
+lane-ghooisht i mo lándúiseacht
+lane-ghooisht in bhur lándúiseacht
+lane-ghooisht ina lándúiseacht
+lane-ghooisht inár lándúiseacht
 lane-howshanagh lánmhéide
 lane-howshanee lánmhéide
 lane-lhaggaghyn lánloghanna
@@ -95669,7 +95665,6 @@ lieeuan líomháin
 lieeuan líomhán
 lieeuanyn líomháin
 lieeyn leadhbanna
-lieeyn líocha
 lieh leath
 lieh leithe
 lieh shlua
@@ -99319,7 +99314,6 @@ m'aineyderyn mo charbadóirí
 m'ainjys m'aitheantais
 m'ainjys m'aitheantas
 m'ainjys m'aithne
-m'ainjysyn m'aitheanta
 m'ainjysyn m'aitheantais
 m'ainle m'aingeal
 m'ainle m'aingil
@@ -100719,7 +100713,6 @@ m'arryltys m'fhoinn
 m'arryltys m'fhonn
 m'arryltys mo dhíograis
 m'arryltys mo dhíograise
-m'arryltysyn m'fhoinn
 m'arrym m'onóir
 m'arrym m'onóra
 m'arrym m'urraim
@@ -102017,7 +102010,6 @@ m'ennaghtaght mo mhaoithneas
 m'ennaghtaght mo mhaoithnis
 m'ennaghtyn mo mhothaithe
 m'ennaghtyn mo mhothú
-m'ennaghyn m'aitheanta
 m'ennal m'anáil
 m'ennal m'anála
 m'ennalaghaghyn m'análuithe
@@ -102080,7 +102072,6 @@ m'eohderyn m'fhuathaitheoirí
 m'eohdoilys mo ghráiniúlacht
 m'eohdoilys mo ghráiniúlachta
 m'eohdoilysyn mo ghráiniúlachtaí
-m'eohyn m'fhuathanna
 m'eoiltaght mo fhlaithiúlacht
 m'eoiltaght mo fhlaithiúlachta
 m'eoiltys m'fhialmhaireacht
@@ -102898,7 +102889,6 @@ m'o-yialdyn mo fhrithghealladh
 m'o-yialdyn mo fhrithgheallta
 m'oad m'fhód
 m'oad m'fhóid
-m'oaddaghyn m'fhaduithe
 m'oaddan mo chipín
 m'oaddan mo lasáin
 m'oaddan mo lasán
@@ -102912,6 +102902,7 @@ m'oaddey mo lasadh
 m'oaddey mo lasta
 m'oadey m'adhaint
 m'oadey m'adhainte
+m'oadey m'fhadaithe
 m'oadey m'fhadú
 m'oadey mo lasadh
 m'oadey mo lasta
@@ -104179,7 +104170,6 @@ m'uinnag m'fhuinneog
 m'uinnag m'fhuinneoige
 m'uinnagyn m'fhuinneoga
 m'uinney m'fhuineadh
-m'uinney m'fhuinidh
 m'uinney m'fhuinte
 m'uinneyder m'fhuinteoir
 m'uinneyder m'fhuinteora
@@ -104788,14 +104778,13 @@ maaigyn lapaí
 maaigyn mága
 maail máil
 maail mál
-maailyn máil
 maais máis
 maais más
 maaish mbaithis
 maaish mbaithise
 maaish mbáis
 maaishyn mbaithisí
-maaisyn mása
+maaisyn máis
 maal bí ag méileach
 maalagh méileach
 maalagh méilí
@@ -108478,6 +108467,7 @@ messoil measaí
 messoil torthúil
 messoil torthúla
 messyn dtorthaí
+messyn measa
 messyn torthaí
 mest measc
 mest meascfaidh
@@ -113244,9 +113234,6 @@ myskidagh mioscaiseach
 myskidagh mioscaiseacha
 myskidagh mioscaisigh
 myskidee mioscaisí
-myskidyn bhfuathanna
-myskidyn d'fhuathanna
-myskidyn fuathanna
 myths myths
 na ná
 na' nach
@@ -114613,7 +114600,6 @@ naimyn uncailí
 nainjys n-aitheantais
 nainjys n-aitheantas
 nainjys n-aithne
-nainjysyn n-aitheanta
 nainjysyn n-aitheantais
 nainle n-aingeal
 nainle n-aingil
@@ -116115,7 +116101,6 @@ narryltys bhfoinn
 narryltys bhfonn
 narryltys ndíograis
 narryltys ndíograise
-narryltysyn bhfoinn
 narrym dtairgfidh mé
 narrym meas
 narrym measa
@@ -117712,7 +117697,6 @@ nennaghtaght maoithneas
 nennaghtaght maoithnis
 nennaghtyn mothaithe
 nennaghtyn mothú
-nennaghyn n-aitheanta
 nennal n-anáil
 nennal n-anála
 nennalaghaghyn n-análuithe
@@ -120981,6 +120965,7 @@ nglareaghyn gcainteanna
 nglasheen gcaislín
 nglasheen nglaise
 nglasheenyn gcaislíní
+nglasheenyn nglaisí
 nglashtin ngruagach
 nglashtin ngruagaigh
 nglashtinyn ngruagaigh
@@ -123902,7 +123887,6 @@ noccarys ndeacracht
 noccarys ndeacrachta
 noccarys ndua
 noccarysyn ndeacrachtaí
-noch noch
 nocsaid n-ocsaíd
 nocsaid n-ocsaíde
 nocsaidaghey n-ocsaídithe
@@ -126784,7 +126768,6 @@ oadd-jee lasaigí
 oaddagh d'adhanfadh
 oaddagh d'fhadódh
 oaddagh lasfadh
-oaddaghyn fhaduithe
 oaddan chipín
 oaddan lasáin
 oaddan lasán
@@ -126807,6 +126790,7 @@ oaddys fhadóidh
 oaddys lasfaidh
 oadey adhaint
 oadey adhainte
+oadey fhadaithe
 oadey fhadú
 oadey lasadh
 oadey lasta
@@ -137407,8 +137391,8 @@ reyghyn réanna
 reygyr roinnt
 reygyr roinnte
 reygyryn rannta
-reynn ranna
 reynn roinn
+reynn roinne
 reynn roinnfidh
 reynn roinnt
 reynn roinnte
@@ -137476,8 +137460,8 @@ rhennee raithneacha
 rhesar rásúir
 rhesar rásúr
 rhesaryn rásúir
-rheynn ranna
 rheynn roinn
+rheynn roinne
 rheynn roinnfidh
 rheynn roinnt
 rheynn roinnte
@@ -138455,6 +138439,7 @@ ronney rainn
 ronney rann
 ronney ranna
 ronney roinn
+ronney roinne
 ronneyder rannaire
 ronneyder scairshealbhóir
 ronneyder scairshealbhóra
@@ -145102,7 +145087,6 @@ shlieein lífinn
 shlieemayd lífimid
 shlieeym lífidh mé
 shlieeyn leadhbanna
-shlieeyn líocha
 shlieuee géaraithe
 shlig sliogáin
 shlig sliogán
@@ -153583,13 +153567,11 @@ taal táil
 taal tál
 taal-jee dtálaigí
 taal-jee tálaigí
-taalaghyn táil
 taalee tálfaidh
 taaley táil
 taaley tál
 taalid táil
 taalid tál
-taalidyn táil
 taalit tálta
 taalmayd tálfaimid
 taalym tálfaidh mé
@@ -158838,7 +158820,6 @@ uinnagh d'fhuinfeadh
 uinnagyn fhuinneoga
 uinnagyn fuinneoga
 uinney fhuineadh
-uinney fhuinidh
 uinney fhuinte
 uinneyder bháicéara
 uinneyder bháicéir
@@ -159415,7 +159396,6 @@ vaaigyn lapaí
 vaaigyn mhága
 vaail mháil
 vaail mhál
-vaailyn mháil
 vaais mháis
 vaais mhás
 vaaish bhaithis
@@ -159441,7 +159421,7 @@ vaaishnys-enn ndiagnóise
 vaaishnys-ennyn ndiagnóisí
 vaaishnysyn bhfáistiní
 vaaishyn bhaithisí
-vaaisyn mhása
+vaaisyn mháis
 vaal bhfáil
 vaal bhfál
 vaalagh mhéileach
@@ -163524,7 +163504,6 @@ veohderyn bhfuathaitheoirí
 veohdoilys ngráiniúlacht
 veohdoilys ngráiniúlachta
 veohdoilysyn ngráiniúlachtaí
-veohyn bhfuathanna
 veoiltaght bhflaithiúlacht
 veoiltaght bhflaithiúlachta
 veoiltys bhfialmhaireacht
@@ -163843,6 +163822,7 @@ vessoil mheasaí
 vessoil thorthúil
 vessoil thorthúla
 vessyn bhfearsaidí
+vessyn mheasa
 vessyn thorthaí
 vest bhfeisteoidh
 vest fheisteoidh
@@ -165524,7 +165504,6 @@ voaddagh lasfadh
 voaddagh n-adhanfadh
 voaddagh throisc
 voaddagh throsc
-voaddaghyn bhfaduithe
 voaddan gcipín
 voaddan lasáin
 voaddan lasán
@@ -165554,6 +165533,7 @@ voaddym fhadóidh mé
 voaddym lasfaidh mé
 voaddym n-adhanfaidh mé
 voadee throisc
+voadey bhfadaithe
 voadey bhfadú
 voadey lasadh
 voadey lasta
@@ -169132,7 +169112,6 @@ vuinneelyn mhuinchillí
 vuinney bhachlóg
 vuinney bhachlóige
 vuinney bhfuineadh
-vuinney bhfuinidh
 vuinney bhfuinte
 vuinney bhuinne
 vuinney bhuinneog
@@ -170014,7 +169993,6 @@ vyskidagh mhioscaiseach
 vyskidagh mhioscaiseacha
 vyskidagh mhioscaisigh
 vyskidee mhioscaisí
-vyskidyn fhuathanna
 vyss bhfeasa
 vyss bhfios
 vysseraght bhfiosracht
