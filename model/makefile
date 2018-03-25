@@ -83,7 +83,7 @@ corpus-pre-pre.txt: okdocs.txt
 webonly.txt:
 	cat $(CRUB)/MANIFEST | sed '1d' | egrep -v '(blogspot.com|corkirish|indigenoustweets|smo.uhi.ac.uk|wikipedia|wikisource.org|ucc.ie/celt|celt.ucc.ie)' | sed 's@^[^ ]* @$(CRUB)/ciu/@' > $@
 	(cd ${HOME}/seal/irishcompleted/walescrawler; make > /dev/null 2>&1; cat okdocs.txt) >> $@
-	echo '/home/kps/seal/leipzig/gle_mixed_unique.txt' >> $@
+	echo '/home/kps/seal/irishcompleted/leipzig/gle_mixed_unique.txt' >> $@
 
 # Adding OF81 back in 18 Jul 2016
 # IB-laighneach == t/OB36 == ria/AU021
