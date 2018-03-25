@@ -10,7 +10,7 @@ binmode STDIN, ":utf8";
 binmode STDOUT, ":utf8";
 binmode STDERR, ":utf8";
 
-my $prune = 0;  # don't write out n-grams with count <= than this
+my $prune = 1;  # don't write out n-grams with count <= than this
 my $verbose = 1;
 my $redis = Redis->new(encoding => undef);  # 127.0.0.1:6379
 
@@ -134,9 +134,11 @@ for my $n (2..$N) {
 		my $tail = $k;
 		$tail =~ s/^[^ ]+ //;
 		my $newprob = (($rawcount - $discount{$n}) / $startcount) + $smooth{$start} * $prob{$tail};
-		if ($n == $N and $rawcount > $prune) { # write highest order ones directly to DB
-			my $v = sprintf("%.3f", log($newprob));
-			$redis->set(encode('utf8', $k) => $v);
+		if ($n == $N) { # write highest order ones directly to DB
+			if ($rawcount > $prune) {
+				my $v = sprintf("%.3f", log($newprob));
+				$redis->set(encode('utf8', $k) => $v);
+			}
 		}
 		else {  # we'll keep lower order ones in perl hash
 			$prob{$k} = $newprob
@@ -148,9 +150,14 @@ for my $n (2..$N) {
 $lowercounts{$unseen} = $prune+1;
 print STDERR "Take log of lower-order probs and write to DB...\n" if $verbose;
 for my $k (keys %prob) {
-	if ($lowercounts{$k} > $prune) {
-		my $probout = sprintf("%.3f", log($prob{$k}));
-		$redis->set(encode('utf8', $k) => $probout);
+	if (!exists($lowercounts{$k})) {
+		print "PROBLEM: no lowercounts val for key: [$k]\n";
+	}
+	else {
+		if ($lowercounts{$k} > $prune) {
+			my $probout = sprintf("%.3f", log($prob{$k}));
+			$redis->set(encode('utf8', $k) => $probout);
+		}
 	}
 }
 print STDERR "Writing smoothing constants to DB...\n" if $verbose;
