@@ -4,6 +4,7 @@ use strict;
 use warnings;
 use utf8;
 use Redis;
+use Encode qw(encode);
 
 binmode STDIN, ":utf8";
 binmode STDOUT, ":utf8";
@@ -11,7 +12,7 @@ binmode STDERR, ":utf8";
 
 my $prune = 0;  # don't write out n-grams with count <= than this
 my $verbose = 1;
-my $redis = Redis->new;  # 127.0.0.1:6379
+my $redis = Redis->new(encoding => undef);  # 127.0.0.1:6379
 
 # the two tables we're trying to compute
 # these will only be used to store results for n < N
@@ -135,7 +136,7 @@ for my $n (2..$N) {
 		my $newprob = (($rawcount - $discount{$n}) / $startcount) + $smooth{$start} * $prob{$tail};
 		if ($n == $N and $rawcount > $prune) { # write highest order ones directly to DB
 			my $v = sprintf("%.3f", log($newprob));
-			$redis->set($k => $v);
+			$redis->set(encode('utf8', $k) => $v);
 		}
 		else {  # we'll keep lower order ones in perl hash
 			$prob{$k} = $newprob
@@ -149,7 +150,7 @@ print STDERR "Take log of lower-order probs and write to DB...\n" if $verbose;
 for my $k (keys %prob) {
 	if ($lowercounts{$k} > $prune) {
 		my $probout = sprintf("%.3f", log($prob{$k}));
-		$redis->set($k => $probout);
+		$redis->set(encode('utf8', $k) => $probout);
 	}
 }
 print STDERR "Writing smoothing constants to DB...\n" if $verbose;
@@ -157,7 +158,7 @@ $redis->select(1);
 for my $k (keys %smooth) {
 	if ($lowercounts{$k} > $prune) {
 		my $smoothout = sprintf("%.3f", log($smooth{$k}));
-		$redis->set($k => $smoothout);
+		$redis->set(encode('utf8', $k) => $smoothout);
 	}
 }
 
