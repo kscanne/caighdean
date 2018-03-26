@@ -27,7 +27,8 @@ testonelang() {
 	TMPFILE=`mktemp`
 	cd ${FREAMH}
 	cat "test/testin${1}.txt" | bash tiomanai.sh ${2} > $TMPFILE
-	testoneclient "${1}" "$TMPFILE" 'bash' "${3}" && testoneclient "${1}" "$TMPFILE" 'perl' "${3}" && testoneclient "${1}" "$TMPFILE" 'python' "${3}" && testoneclient "${1}" "$TMPFILE" 'ruby' "${3}" && testoneclient "${1}" "$TMPFILE" '' "${3}" && testoneclient "${1}" "$TMPFILE" 'java' "${3}"
+	testoneclient "${1}" "$TMPFILE" 'bash' "${3}" && testoneclient "${1}" "$TMPFILE" 'perl' "${3}" && testoneclient "${1}" "$TMPFILE" 'python' "${3}" && testoneclient "${1}" "$TMPFILE" 'ruby' "${3}" && testoneclient "${1}" "$TMPFILE" 'java' "${3}"
+	# testoneclient "${1}" "$TMPFILE" 'bash' "${3}" && testoneclient "${1}" "$TMPFILE" 'perl' "${3}" && testoneclient "${1}" "$TMPFILE" 'python' "${3}" && testoneclient "${1}" "$TMPFILE" 'ruby' "${3}" && testoneclient "${1}" "$TMPFILE" '' "${3}" && testoneclient "${1}" "$TMPFILE" 'java' "${3}"
 	eval "rm -f $TMPFILE; return $?"
 }
 
