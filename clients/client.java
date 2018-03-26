@@ -83,7 +83,7 @@ public class client {
     String urlParameters = "foinse=" + URLEncoder.encode(args[0],"UTF-8") + "&teacs=" + URLEncoder.encode(slurp.toString(), "UTF-8");
     byte[] postData = urlParameters.getBytes("UTF-8");
 
-    String url = "http://borel.slu.edu/cgi-bin/seirbhis3.cgi";
+    String url = "https://cadhan.com/api/intergaelic/3.0";
     URL obj = new URL(url);
     HttpURLConnection conn = (HttpURLConnection) obj.openConnection();
     conn.setDoOutput(true);

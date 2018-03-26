@@ -12,6 +12,7 @@
 #include <sys/socket.h> /* socket, connect */
 #include <netinet/in.h> /* struct sockaddr_in, struct sockaddr */
 #include <netdb.h> /* struct hostent, gethostbyname */
+#include <ctype.h> /* isspace, etc. */
 
 void error(const char *msg) { perror(msg); exit(1); }
 
@@ -87,8 +88,8 @@ void request_and_response(char* foinse, char* buffer, char* json) {
 
     /* first where are we going to send it? */
     int portno = 80;
-    char *host = "borel.slu.edu";
-    char *path = "/cgi-bin/seirbhis3.cgi";
+    char *host = "cadhan.com";
+    char *path = "/api/intergaelic/3.0";
     char *header = "Content-Type: application/x-www-form-urlencoded";
 
     struct hostent *server;

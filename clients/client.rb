@@ -1,4 +1,5 @@
 require 'net/http'
+require 'net/https'
 require 'uri'
 require 'rubygems'
 require 'json'
@@ -16,12 +17,13 @@ end
 
 
 teacs = $stdin.read
-uri = URI.parse("http://borel.slu.edu/cgi-bin/seirbhis3.cgi")
-http = Net::HTTP.new(uri.host, uri.port)
+uri = URI.parse("https://cadhan.com/api/intergaelic/3.0")
+https = Net::HTTP.new(uri.host, uri.port)
+https.use_ssl = true
 request = Net::HTTP::Post.new(uri.request_uri)
 request.add_field('Content-Type', 'application/x-www-form-urlencoded')
 request.set_form_data({'foinse' => ARGV[0], 'teacs' => teacs})
-response = http.request(request)
+response = https.request(request)
 if response.code == '200'
   begin
     parsed = JSON.parse(response.body)
@@ -33,5 +35,5 @@ if response.code == '200'
     puts x[0] + ' => ' + x[1]
   }
 else
-  $stderr.puts "Bad response code from server."
+  $stderr.puts "Bad response code from server: #{response.code}"
 end

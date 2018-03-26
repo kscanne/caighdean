@@ -18,7 +18,7 @@ def make_request(param_dict):
 	params = urllib.urlencode(param_dict)
 	headers = {'Content-Type': 'application/x-www-form-urlencoded', 'Accept': 'application/json'}
 	try:
-		req = urllib2.Request('https://borel.slu.edu/cgi-bin/seirbhis3.cgi', params, headers)
+		req = urllib2.Request('https://cadhan.com/api/intergaelic/3.0', params, headers)
 	except URLError as e:
 		kprint('Unable to connect with the server: ' + e.reason)
 		return []
