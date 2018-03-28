@@ -15,7 +15,7 @@ translators as a web service which powers several applications:
 * [python-caighdean](https://github.com/phlax/python-caighdean), installable Python client by [@phlax](https://github.com/phlax)
 
 To use the API, simply make a HTTP POST request to the URL
-`http://borel.slu.edu/cgi-bin/seirbhis3.cgi` (https works too)
+`https://cadhan.com/api/intergaelic/3.0`
 with two parameters:
 
 * `teacs`: The source text to be translated, as URL-encoded UTF-8
