@@ -78,6 +78,8 @@ a_b'fhearr ab fhearr
 a_bhfad i bhfad
 a_bhfadh i bhfad
 a_bhfasta i bhfostú
+a_bhfolach i bhfolach
+a_bhfollach i bhfolach
 a_cCallain i gCallainn
 a_chára a chara
 a_céad-luaidhtear céadluaite
@@ -149,6 +151,7 @@ a_nis anois
 a_noiread an oiread
 a_néinfheacht in éineacht
 a_stuigh istigh
+a_stóin is dóigh
 a_taoi'n atá
 a_thaoi'n atá
 a_ttarla ar tharla
@@ -254,6 +257,14 @@ ar_bis ar bís
 ar_bit ar bith
 ar_báll ar ball
 ar_d-tus ar dtús
+ar_dhein a ndearna
+ar_dhein an ndearna
+ar_dheineadar a ndearnadar
+ar_dheineadar an ndearnadar
+ar_dheineas a ndearna mé
+ar_dheineas an ndearna mé
+ar_dheinis a ndearna tú
+ar_dheinis an ndearna tú
 ar_dtuis ar dtús
 ar_dtúis ar dtús
 ar_fad' ar fad'
@@ -292,6 +303,8 @@ atá'n_tú atá tú
 ba_h-é ba é
 ba_hé ba é
 ba_mho ba mhó
+barra_taoide barr taoide
+bharra_taoide bharr taoide
 bhí_'is bhí a fhios
 bogha_eara bogha gearr
 bud_mhaith ba mhaith
@@ -539,7 +552,14 @@ do_deunfadh a dhéanfadh
 do_deunfadh dhéanfadh
 do_dhein a rinne
 do_dhein rinne
+do_dheineadar a rinneadar
+do_dheineadar rinneadar
+do_dheineamair a rinneamar
+do_dheineamair rinneamar
+do_dheineas a rinne mé
 do_dheineas rinne mé
+do_dheinis a rinne tú
+do_dheinis rinne tú
 do_dhéanaid a dhéanann siad
 do_dhéanaid déanann siad
 do_do_réir do do réir
@@ -692,11 +712,13 @@ faoi_n-a faoina
 faoi_ndeara faoi deara
 faoí_n'ar faoinár
 feibh_mar faoi mar
+fo_dhein faoi dhéin
 froma_ar_aghaig cruthúnas díreach
 froma_ar_gcúlaibh cruthúnas indíreach
 fríd_a trína
 fríd_a' tríd an
 fríd_ár trínár
+fá_dhein faoi dhéin
 fá_dheoigh faoi dheoidh
 fá_dheóigh faoi dheoidh
 fá_gcuairt máguaird
@@ -709,6 +731,7 @@ fá_ndeara faoi deara
 fá_ndearr faoi deara
 fá_ndeár faoi deara
 fá_ndeára faoi deara
+fé_dhein faoi dhéin
 fé_dheoigh faoi dheoidh
 fé_lán-tsiubhal faoi lán seoil
 fé_ndeara faoi deara
@@ -800,6 +823,10 @@ gur_bhféidir gurbh fhéidir
 gur_bhudh gurbh
 gur_cómha gur comhionann
 gur_deineadh go ndearnadh
+gur_dhein go ndearna
+gur_dheineadar go ndearnadar
+gur_dheineas go ndearna mé
+gur_dheinis go ndearna tú
 gur_dhéineamair go ndearnamar
 gur_dubhairt go ndúirt
 gur_déineadh go ndearnadh
@@ -1151,6 +1178,7 @@ mb'_fhiú mb'fhiú
 mb'_fhéidir mb'fhéidir
 mb'_áil mb'áil
 mb'_éigean mb'éigean
+mbarra_taoide mbarr taoide
 mbudh_éidir mb'fhéidir
 mo_chrí mo chroí
 mo_chéill mo chiall
@@ -1356,6 +1384,11 @@ nár_bhfoláir nárbh fholáir
 nár_bhfuláir nárbh fholáir
 nár_bhféidir nárbh fhéidir
 nár_bhudh nárbh
+nár_dhein nach ndearna
+nár_dheineabhair nach ndearna sibh
+nár_dheineadar nach ndearnadar
+nár_dheineas nach ndearna mé
+nár_dheinis nach ndearna tú
 nár_dhéana nár dhéana
 nár_dhéineamair nach ndearnamar
 nár_fféidir nárbh fhéidir
@@ -1459,6 +1492,12 @@ níor_bhfuras níorbh fhurasta
 níor_bhfurasta níorbh fhurasta
 níor_bhféidir níorbh fhéidir
 níor_deineadh ní dhearnadh
+níor_dhein ní dhearna
+níor_dheineabhair ní dhearna sibh
+níor_dheineadar ní dhearnadar
+níor_dheineamair ní dhearnamar
+níor_dheineas ní dhearna mé
+níor_dheinis ní dhearna tú
 níor_dhéineamair ní dhearnamar
 níor_déineadh ní dhearnadh
 níor_fféidir níorbh fhéidir

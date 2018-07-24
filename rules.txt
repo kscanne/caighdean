@@ -317,10 +317,12 @@ e[oó]chairse$	eoidh_tusa	1
 ^scoith	scoth	1
 ^(sh?)eana-	$1ean-	1
 ^(sh?)ein-	$1ean-	1
+^(sh?)eana([dst])h	$1ean$2	1
 ^(sh?)iod	$1ead	1
 ^(sh?)íodh	$1í	1
 # N.B. makes it longer
 ^(sh?)ír-	$1íor-	1
+^shm	sm	1
 ^smúid	smúit	1
 ^(sh?)oi-	$1o-	1
 # handled by more general ll rule below
