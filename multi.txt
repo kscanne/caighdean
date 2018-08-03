@@ -74,6 +74,7 @@ Uí_Chonnachán Uí Chonnacháin
 Uí_Failghe Uíbh Fhailí
 Uí_bhFíodhcháin Uí Fhiacháin
 a'_feachainn ag féachaint
+a_b'eadh ab ea
 a_b'fhearr ab fhearr
 a_bhfad i bhfad
 a_bhfadh i bhfad
@@ -281,6 +282,8 @@ ar_n-a_n-oirthear anóirthear
 ar_n-a_n-órtha anóirthear
 ar_n-a_n-órthar anóirthear
 ar_na_bhárach arna mhárach
+ar_na_mháireach arna mhárach
+ar_na_mhárach arna mhárach
 ar_ndóighe ar ndóigh
 ar_ndú ar ndóigh
 ar_rinnis an ndearna tú
@@ -290,6 +293,11 @@ ar_ttúis ar dtús
 ar_tús ar dtús
 ars'_isi ar sise
 arsa'_n arsan
+as_a_chomhair os a chomhair
+as_a_comhair os a comhair
+as_do_chomhair os do chomhair
+as_mo_chomhair os mo chomhair
+as_cionn os cionn
 as_Samaria as an tSamáir
 at'_aigne i d'aigne
 at'_amadán i d'amadán
@@ -300,6 +308,7 @@ ath_déanamh athdhéanamh
 ath_scrúdú athscrúdú
 atá'n_tu atá tú
 atá'n_tú atá tú
+ba_cuma ba chuma
 ba_h-é ba é
 ba_hé ba é
 ba_mho ba mhó
@@ -421,6 +430,7 @@ de_Bruin de Bruin
 de_lis de lis
 de_n-a dá
 de_níon d'iníon
+dem'_aois de m'aois
 dh'á_ríribh dáiríre
 dhar_gcionn dár gcionn
 dhar_liom dar liom
@@ -500,6 +510,7 @@ do_bhí a bhí
 do_bhí bhí
 do_bhíobhar bhí sibh
 do_bhíodar bhíodar
+do_bhíodh a bhíodh
 do_bhíodh bhíodh
 do_bhíos bhí mé
 do_bhís-se a bhí tusa
@@ -612,8 +623,11 @@ do_rinneadh a rinneadh
 do_rinneadh rinneadh
 do_rinneas rinne mé
 do_ritheas rith mé
+do_rug a rug
+do_rug rug
 do_réir de réir
 do_sgríobhas scríobh mé
+do_shuidheas shuigh mé
 do_shíleas shíl mé
 do_sna do na
 do_tharla a tharla
@@ -641,6 +655,7 @@ dob'_éidir b'fhéidir
 dob_fhearr ab fhearr
 dob_fhearr b'fhearr
 dob_éidir b'fhéidir
+dom'_athair do m'athair
 don_Phersia don Pheirs
 dot'_ainm do d'ainm
 dot'_athair do d'athair
@@ -710,6 +725,7 @@ faoi_n'asgaill faoina ascaill
 faoi_n'ár faoinár
 faoi_n-a faoina
 faoi_ndeara faoi deara
+faoin_dtráth faoin tráth
 faoí_n'ar faoinár
 feibh_mar faoi mar
 fo_dhein faoi dhéin
@@ -738,6 +754,7 @@ fé_ndeara faoi deara
 fé_ndearr faoi deara
 fé_ndeár faoi deara
 fé_ndeára faoi deara
+fén_dtráth faoin tráth
 gCeanntar_gCumhang gCeantar Cúng
 gCill_Aithnín gCill Aithnín
 gCill_Díoma gCill Díoma
@@ -1039,6 +1056,7 @@ i_nDamascus sa Damaisc
 i_nEachdhruim in Eachroim
 i_nEirinn in Éirinn
 i_nGaililí sa Ghailíl
+i_nIarthar in Iarthar
 i_nUachtar in Uachtar
 i_nUibh_Failghe in Uíbh Fhailí
 i_na ina
@@ -1080,6 +1098,7 @@ in_a ina
 in_allód anallód
 in_ar' inar
 in_n-éinfheacht in éineacht
+in_sna sna
 ins_an sa
 ins_an san
 ins_gach i ngach
@@ -1187,6 +1206,7 @@ muga_maga mugadh magadh
 my_faith my faith
 má_'s más
 má_'tá má tá
+má_seadh más ea
 más_nea-chómha más neamhionann
 n'ár_ndiaidh inár ndiaidh
 n-ár_ndhiaidh inár ndiaidh
@@ -1573,6 +1593,7 @@ sul_ma sula
 sul_mar sular
 sul_má sula
 sul_már sular
+sula_dtáinig sular tháinig
 sula_ngeobhaidh sula bhfaighidh
 sula_rinne sula ndearna
 sé_r'd is éard
@@ -1581,6 +1602,7 @@ tSráth_Bán Srath Bán
 tar_'éise tar éis
 tar_a_éise tar éis
 tar_a_éisibh tar éis
+thar_n-ais ar ais
 thar_éis tar éis
 thar_éise tar éis
 tras_teorainn trasteorann
