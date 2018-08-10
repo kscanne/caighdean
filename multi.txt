@@ -20,6 +20,7 @@
 'nn_bhúr in bhur
 'nn_gach i ngach
 'nn_ár inár
+'on_daighe don daighe
 'san_mbioth ar bith
 'sé_r'd is éard
 Baile_Phib Baile Phib
@@ -164,6 +165,7 @@ ag_feachainn ag féachaint
 ag_fiuchaidh ag fiuchadh
 ag_iarraid ag iarraidh
 ag_iarraigh ag iarraidh
+ag_léimeadh ag léim
 ag_léimnigh ag léimneach
 ag_pioca ag piocadh
 ag_scríobhadh ag scríobh
@@ -187,6 +189,7 @@ am_fhocair i m'fhochair
 am_fhochair-se i m'fhochairse
 an_Arabia an Araib
 an_chead an chéad
+an_daigh don daighe
 an_dtalamh an talamh
 an_dtaobh an taobh
 an_dteach an teach
@@ -709,6 +712,7 @@ dá_fhaid dá fhad
 dá_mbeidh' dá mbeadh
 dá_mbíodh dá mbeadh
 dá_mhead dá mhéad
+dá_mhéid dá mhéad
 dá_ngeobhadh dá bhfaigheadh
 dá_ngeobhainn-se dá bhfaighinnse
 dá_ngeobhainnse dá bhfaighinnse
@@ -876,6 +880,7 @@ h-ana_mhaith han-mhaith
 h-ana_mhór han-mhór
 h-aon_úna haon ionadh
 heó_láir lárphointe
+hob_ná_héib hob ná hé
 hurla_harla hurlamaboc
 i_Samaria sa tSamáir
 i_Samaría sa tSamáir
@@ -981,6 +986,7 @@ i_n-aindeoin in ainneoin
 i_n-aindeóin in ainneoin
 i_n-ainim in ainm
 i_n-ainm in ainm
+i_n-airm in arm
 i_n-aisge in aisce
 i_n-aistear in aistear
 i_n-aithne in aithne
@@ -1033,6 +1039,7 @@ i_n-olcas in olcas
 i_n-onóir in onóir
 i_n-uachdar in uachtar
 i_n-uachtar in uachtar
+i_n-uaighneas in uaigneas
 i_n-uaigneas in uaigneas
 i_n-uisge in uisce
 i_n-umhail in iúl
@@ -1061,6 +1068,7 @@ i_n-éineacht in éineacht
 i_n-éinfheacht in éineacht
 i_n-éinní in aon ní
 i_n-íochtar in íochtar
+i_n-órdú in ordú
 i_n-úil in iúl
 i_n-úmhail in iúl
 i_n-úrthosach in urthosach
@@ -1333,6 +1341,7 @@ ná_béadh nach mbeadh
 ná_bíon nach mbíonn
 ná_bíonn nach mbíonn
 ná_caithfeadh nach gcaithfeadh
+ná_casfaí nach gcasfaí
 ná_claoidhfeadh nach gcloífeadh
 ná_cloisfeadh nach gcloisfeadh
 ná_cloisfeá nach gcloisfeá
@@ -1390,6 +1399,13 @@ ná_gearrfadh nach ngearrfadh
 ná_glacfadh nach nglacfadh
 ná_géillfeadh nach ngéillfeadh
 ná_h-aithnigheann nach n-aithníonn
+ná_h-oirean nach n-oireann
+ná_hachtófaí nach n-achtófaí
+ná_himtheóchaidh nach n-imeoidh
+ná_héireóchaidh nach n-éireoidh
+ná_híosfaidh nach n-íosfaidh
+ná_híosfá nach n-íosfá
+ná_hólfá nach n-ólfá
 ná_pósfadh nach bpósfadh
 ná_r' nár
 ná_raibh nach raibh
@@ -1649,8 +1665,10 @@ té_'tá té atá
 ó_n'athair óna athair
 ó_n-a óna
 ó_nolc ón olc
+ó_sna ó na
 ón_bPersia ón bPeirs
 óraing_útaing órang-útan
 ós_ard os ard
 ós_coinne os coinne
+ós_na ó na
 ós_árd os ard

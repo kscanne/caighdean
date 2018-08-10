@@ -608,6 +608,9 @@ mist$	mis	1
 álta$	áilte	1
 álaithe$	áilte	1
 álanna$	álacha	1
+^h-?([aeiouáéíóú].+)adh$	n-$1adh	1
+^h-?([aeiouáéíóú].+)inn$	n-$1inn	1
+^h-?([aeiouáéíóú].+)ann$	n-$1ann	1
 #############################################################################
 ##  SYNTHETIC FORMS
 ##  more non-standard verbs; these are all examples where the pronoun
