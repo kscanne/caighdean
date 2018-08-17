@@ -22140,6 +22140,9 @@ b'Ollaindeach b'Ollannach
 b'Ollaindeacha b'Ollannacha
 b'Ollaindí b'Ollannaí
 b'Ollaindigh b'Ollannaigh
+b'Ollainneach b'Ollannach
+b'Ollainneacha b'Ollannacha
+b'Ollainní b'Ollannaí
 b'ollamh b'ullamh
 b'ollamha b'ullamha
 b'ollamhain b'ollúna
@@ -68183,6 +68186,8 @@ dtreabhach dtreabhdóirí
 dtreabhachais dtreabhchais
 dtreabhachas dtreabhchas
 dtreabhadóir dtreabhdóir
+dtreabhadóireacht dtreabhdóireacht
+dtreabhadóireachta dtreabhdóireachta
 dtreabhadóirí dtreabhdóirí
 dtreabhadóra dtreabhdóra
 dtreabhaigh dtreabhdóirí
@@ -103114,6 +103119,7 @@ hOllaind hOllainn
 hOllainde hOllainne
 hOllaindeach hOllannach
 hOllaindigh hOllannaigh
+hOllainneach hOllannach
 hollamh hullamh
 hollamhaídís hullmhaídís
 hollamhaigh hullmhaigh
@@ -121072,6 +121078,7 @@ mhadadh mhadraí
 mhadaí mhadraí
 mhadaidh mhadra
 mhadaidh mhadraí
+Mhadaigh Mhadaidh
 mhadar mhadra
 mhadara mhadra
 mhadaraí mhadraí
@@ -123500,6 +123507,8 @@ mhusgladh mhúscailt
 mhusgóladh mhúsclódh
 Mhusgrave Mhusgrave
 Mhuslamach Mhoslamach
+Mhuslamacha Mhoslamacha
+Mhuslamaí Mhoslamaí
 Mhuslamaigh Mhoslamaigh
 mhustarach mhustrach
 mhustaracha mhustracha
@@ -124590,6 +124599,7 @@ m'iongnaí m'ionaí
 mioninste mioninsinte
 míonlach mínleach
 mionlacha mionlaigh
+Mionloch Mionlach
 m'ionmhais m'ionnúis
 m'ionmhas m'ionnús
 mionna mionn
@@ -126778,6 +126788,7 @@ mus mos
 musach mosach
 m'usacht m'fhusacht
 m'usachta m'fhusachta
+musaem músaem
 m'úsáidire m'úsáideoir
 m'úsáidire m'úsáideora
 m'úsáidirí m'úsáideoirí
@@ -126868,6 +126879,8 @@ musla muscail
 músla muscail
 muslaire muslachán
 Muslamach Moslamach
+Muslamacha Moslamacha
+Muslamaí Moslamaí
 Muslamaigh Moslamaigh
 m'uspáin m'ispín
 m'uspáin m'ispíní
@@ -133518,6 +133531,7 @@ ndumhacha nduimhche
 ndumhacha ndumhcha
 ndumhaí nduimhche
 ndumhchanna ndumhcha
+nDun nDún
 ndúnáruis ndúnárais
 ndúnárus ndúnáras
 nDúnchaoin nDún Chaoin
@@ -133612,6 +133626,7 @@ n-eachaidh n-eachaí
 n-eachlaisc n-eachlasc
 n-each-neart n-each-chumhacht
 n-each-nirt n-each-chumhachta
+Neachtáin Neachtain
 neachtar ceachtar
 neachtarach neodrach
 Neachtin Neachtain
@@ -140416,6 +140431,7 @@ Nuadhat Nuad
 nuádhdhéanta nuadhéanta
 Nuadh-Eabhrac Nua-Eabhrac
 Nuadh-Eabhrach Nua-Eabhrac
+NuaEabhrac Nua-Eabhrac
 Nua-Eabhrach Nua-Eabhrac
 Nua-Eabhraic Nua-Eabhrac
 nuaealain nua-ealaín
@@ -142057,6 +142073,10 @@ Ollaindeach Ollannach
 Ollaindeacha Ollannacha
 Ollaindí Ollannaí
 Ollaindigh Ollannaigh
+Ollainneach Ollannach
+Ollainneacha Ollannacha
+Ollainní Ollannaí
+Ollainnigh Ollannaigh
 ollamh ullamh
 ollamha ullamha
 ollamhaí ullmhaí
@@ -146219,6 +146239,7 @@ príomhaltanna príomhailt
 Príomh-Atúrnae Príomh-Aturnae
 príomhdha príomha
 príomhdhacht príomhaíocht
+príomhfheidhmeanach príomhfheidhmeannach
 príomhmholadh príomh-mholadh
 príomhmholtaí príomh-mholtaí
 príomh-oifigeach príomhoifigeach
@@ -147080,6 +147101,7 @@ ráidthe ráite
 raidtí radtaí
 raifeal raifil
 ráifleáil ráfláil
+Raiftéirí Raiftearaí
 Raifteri Raiftearaí
 Raifterí Raiftearaí
 raig ráig
@@ -148475,6 +148497,7 @@ rinn' rinne
 rinnce rince
 rinncí rincí
 rinne linne
+Rinné Rinne
 rinneamar-ne rinneamar
 rinneas rinne mé
 rinnis rinne tú
@@ -149179,6 +149202,7 @@ rolláil roll
 rolláil rolladh
 róm romham
 Róma Róimh
+Romáin Rómáin
 rómánsúil rómánsach
 rómánsúil rómánsaigh
 rómánsúla rómánsacha
@@ -149252,6 +149276,7 @@ rómpú rompu
 rompúsan rompusan
 ronadh rinneadh
 rónadh rinneadh
+Ronáin Rónáin
 rónaire rónadóir
 Rónan Rónán
 ronaomhtha rónaofa
@@ -150222,6 +150247,7 @@ sáir-nímhneach sárnimhneach
 sáirse sairse
 sáirse sáiste
 saírse sairse
+Sairséal Sáirséal
 sáirseant sáirsint
 sáirseantanna sáirsintí
 sáis táis
@@ -153891,6 +153917,8 @@ seamsóige seamsáin
 seamsóige tseamsáin
 Seamuisín Séamuisín
 séamus Séamus
+Seámus Séamus
+Seamús Séamus
 seán Seán
 seanabhean seanbhean
 seanabhlais seanbhlais
@@ -154645,6 +154673,7 @@ seoagus seo agus
 Seochrughadh Siochrú
 seod seoid
 seod tseoid
+seo'd seo
 seodach seodmhar
 seodchomhartha séadchomhartha
 seodchomharthaí séadchomharthaí
@@ -155113,6 +155142,7 @@ sháirítear sháraítear
 sháirithe sháraithe
 sháirítí sháraítí
 sháiriú shárú
+Shairséal Sháirséal
 sháirseant sháirsint
 sháirseantanna sháirsintí
 sháiseóch' shásódh
@@ -155767,6 +155797,7 @@ Sheághan Sheán
 Sheaghán Sheán
 sheaicéadaí sheaicéid
 Sheain Sheáin
+Shéain Sheáin
 Sheainín Sheáinín
 sheáirgint sháirsint
 sheáirgintí sháirsintí
@@ -156396,6 +156427,7 @@ sheoidí sheoda
 sheoidire sheodóir
 sheoidire sheodóra
 sheoidirí sheodóirí
+Sheoigeach Sheoigheach
 sheoiníneachais sheoinínteachta
 sheoiníneachas sheoinínteacht
 sheoirt shóirt
@@ -156915,6 +156947,7 @@ shiombail shiombaile
 shiombail shiombailí
 shiombal shiombail
 shiombal shiombailí
+Shiomóin Shíomóin
 shíomsa shiamsa
 shíomsaí shiamsaí
 shiomsáin sheamsáin
@@ -160086,6 +160119,7 @@ siombal tsiombail
 'siomdha is iomaí
 'Siomdha Is iomaí
 siomóideacha siomóidí
+Siomóin Síomóin
 siompla sampla
 síomsa siamsa
 síomsaí siamsaí
@@ -163889,6 +163923,7 @@ sponcánta sponcach
 sponcánta sponcacha
 sponcánta sponcaí
 sponcánta sponcaigh
+Spongebob SpongeBob
 sponla spanla
 sponóg spúnóg
 sponóga spúnóga
@@ -166631,6 +166666,7 @@ súntasacha suntasacha
 súntasaí suntasaí
 súntasaigh suntasaigh
 superannuation superannuation
+Supervalu SuperValu
 sur sior
 sur sur
 súraice súraicí
@@ -167341,6 +167377,7 @@ tairis tairiseach
 tairis tairisigh
 tairis thairis
 tairiscinte tairisceana
+tairiscíonn tairgeann
 tairise tairiseach
 tairise tairiseacha
 tairise tairisí
@@ -173929,6 +173966,8 @@ threabhach threabhdóirí
 threabhachais threabhchais
 threabhachas threabhchas
 threabhadóir threabhdóir
+threabhadóireacht threabhdóireacht
+threabhadóireachta threabhdóireachta
 threabhadóirí threabhdóirí
 threabhadóra threabhdóra
 threabhaigh threabhdóirí
@@ -177451,6 +177490,8 @@ treabhach treibheach
 treabhachais treabhchais
 treabhachas treabhchas
 treabhadóir treabhdóir
+treabhadóireacht treabhdóireacht
+treabhadóireachta treabhdóireachta
 treabhadóirí treabhdóirí
 treabhadóra treabhdóra
 treabhaí treafaí
@@ -181675,6 +181716,7 @@ Wexford Wexford
 what what
 Whateley Whateley
 whatever whatever
+Whatsapp WhatsApp
 when when
 whence whence
 where where
@@ -181792,6 +181834,7 @@ yet yet
 yia Dhia
 ynaih ghnáth
 yo dó
+yóga ióga
 yole yole
 you you
 young young
