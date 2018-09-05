@@ -29,6 +29,11 @@ while (<STDIN>) {
 	my $orig = $_;
 	my $iomlan = 0;
 	my $ok = 0;
+	# U+00A4 ¤
+	# U+00B6 ¶
+	# U+00C3 Ã
+	# U+FFFD �
+	next if /[\x{a4}\x{b6}\x{c3}\x{fffd}]/;
 	next if /<[^>]+>/;
 	# just need to kill special tokens that contain "word" substrings
 	s/(?:https?|ftp):\/\/[A-Za-z0-9\/.:=_%?&~+;\$@\#()-]+[A-Za-z0-9\/=]//g; # URLs, from alltokens.pl

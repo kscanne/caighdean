@@ -73,8 +73,11 @@ corpus-pre.txt: corpus-pre-pre.txt
 # beginning is like "cat okdocs.txt | xargs cat" but adds a space
 # at start of each file so abairti-dumb won't run sentences together
 # from separate files
+# Important that everything in corpus is valid UTF-8 before piping
+# through all of this; grep will choke on binary files and even
+# stops abruptly when encountering invalid characters
 corpus-pre-pre.txt: okdocs.txt
-	cat okdocs.txt | while read fn; do sed '1s/^/\n/' "$$fn"; done | abairti-dumb | tr "\000-\011" " " | tr "\013-\037" " " | egrep -v '[Ã¤¶�]' | egrep -v '.{500}' | egrep '.{20}' > $@
+	cat okdocs.txt | while read fn; do sed '1s/^/\n/' "$$fn"; done | abairti-dumb | tr "\000-\011" " " | tr "\013-\037" " " | egrep -v '.{500}' | egrep '.{20}' > $@
 
 # Filtering: (1) sites that make it into corpus some other way, e.g.
 # Indigenous Tweets, *.blogspot.*, Tuairisc, Wikipedia, etc.
