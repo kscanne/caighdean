@@ -9550,6 +9550,7 @@ béildearg béaldearg
 béildearga béaldearga
 béildeirg béaldeirg
 béildeirge béaldeirge
+beile béile
 b'eileafaint b'eilifintí
 b'eileafant b'eilifint
 b'eileamhtháint b'eilifintí
@@ -9989,6 +9990,7 @@ b'fhábharacha b'fhabhracha
 b'fhabharaí b'fhabhraí
 b'fhábharaí b'fhabhraí
 b'fhacas chonacthas
+b'fhachnaid b'fhachnaoid
 b'fhachta b'fhaighte
 b'fhacthas chonacthas
 b'fhactóir b'fhachtóir
@@ -11030,6 +11032,8 @@ b'fhocalaibh b'fhocail
 b'fhocharbad b'fho-charbad
 b'fhocharbaid b'fho-charbaid
 b'fho-cheann b'fhocheann
+b'fhochnaid b'fhachnaoid
+b'fhochnamh b'fhachnaoid
 b'fho-chraicneach b'fhochraicneach
 b'fho-chraicneacha b'fhochraicneacha
 b'fho-chraicní b'fhochraicní
@@ -13228,6 +13232,8 @@ bhfacas bhfacthas
 bhfaca-sa bhfaca mise
 bhfacas-sa bhfaca mise
 bhfacathas bhfacthas
+bhfachnaid bhfachnaoid
+bhfachnaide bhfachnaoide
 bhfachtar bhfaightear
 bhfacionn bhfeiceann
 bhfacsaint bhfeiceáil
@@ -15342,6 +15348,9 @@ bhfocharbad bhfo-charbad
 bhfocharbaid bhfo-charbaid
 bhfo-cheann bhfocheann
 bhfo-chinn bhfochinn
+bhfochnaid bhfachnaoid
+bhfochnaide bhfachnaoide
+bhfochnamh bhfachnaoid
 bhfocla bhfocail
 bhfoclacht bhfoclaíocht
 bhfoclachta bhfoclaíochta
@@ -52181,6 +52190,8 @@ d'fhabhar d'fhabhraí
 d'fhábhar d'fhabhar
 d'fhaca fhaca
 d'fhacaidh fhaca
+d'fhachnaid d'fhachnaoid
+d'fhachnaide d'fhachnaoide
 d'fhactóir d'fhachtóir
 d'fhactóirí d'fhachtóirí
 d'fhactóra d'fhachtóra
@@ -53794,6 +53805,9 @@ d'fhocharbad d'fho-charbad
 d'fhocharbaid d'fho-charbaid
 d'fho-cheann d'fhocheann
 d'fho-chinn d'fhochinn
+d'fhochnaid d'fhachnaoid
+d'fhochnaide d'fhachnaoide
+d'fhochnamh d'fhachnaoid
 d'fhocla d'fhocail
 d'fhoclacht d'fhoclaíocht
 d'fhoclachta d'fhoclaíochta
@@ -68554,6 +68568,8 @@ dtruim dtroim
 dtruime dtroime
 dtruimeacht dtroime
 dtruimeachta dtroime
+dtrúin dtrúig
+dtrúine dtrúige
 dtruip dtruipeáil
 dtrúip dtrúpa
 dtrúip dtrúpaí
@@ -72630,6 +72646,7 @@ fachairne fachmaire
 Fachairt Fochaird
 fachann fachain
 fachnaid fachnaoid
+fachnaide fachnaoide
 facht fócht
 fachta faighte
 fachtaim fóchtaim
@@ -74935,6 +74952,8 @@ fhacasa fhaca mise
 fhacas-sa fhaca mise
 fhacathas fhacthas
 fháccaibh fhág
+fhachnaid fhachnaoid
+fhachnaide fhachnaoide
 fhachta fhaighte
 fhachtar fhaightear
 fhactóir fhachtóir
@@ -77437,6 +77456,9 @@ fhocharbad fho-charbad
 fhocharbaid fho-charbaid
 fho-cheann fhocheann
 fho-chinn fhochinn
+fhochnaid fhachnaoid
+fhochnaide fhachnaoide
+fhochnamh fhachnaoid
 fho-chraicneach fhochraicneach
 fho-chraicneacha fhochraicneacha
 fho-chraicní fhochraicní
@@ -80694,6 +80716,7 @@ fochlag fochlac
 fochmhaid fochaid
 fochmhaideach fochaideach
 fochnaid fachnaoid
+fochnaide fachnaoide
 fochnamh fachnaoid
 fochonn fachain
 fo-chraicneach fochraicneach
@@ -119379,6 +119402,8 @@ m'fhábhaltas m'fháltas
 m'fhabhar m'fhabhra
 m'fhabhar m'fhabhraí
 m'fhábhar m'fhabhar
+m'fhachnaid m'fhachnaoid
+m'fhachnaide m'fhachnaoide
 m'fhactóir m'fhachtóir
 m'fhactóirí m'fhachtóirí
 m'fhactóra m'fhachtóra
@@ -120410,6 +120435,9 @@ m'fhocharbad m'fho-charbad
 m'fhocharbaid m'fho-charbaid
 m'fho-cheann m'fhocheann
 m'fho-chinn m'fhochinn
+m'fhochnaid m'fhachnaoid
+m'fhochnaide m'fhachnaoide
+m'fhochnamh m'fhachnaoid
 m'fhocla m'fhocail
 m'fhoclacht m'fhoclaíocht
 m'fhoclachta m'fhoclaíochta
@@ -174488,6 +174516,8 @@ thruim throim
 thruime throime
 thruimeacht throime
 thruimeachta throime
+thrúin thrúig
+thrúine thrúige
 thruip thruipeáil
 thrúip thrúpa
 thrúip thrúpaí
@@ -178198,6 +178228,7 @@ truimeacht troime
 truimeachta troime
 truimide troimide
 trúin trúig
+trúine trúige
 truip truipeáil
 trúip trúpa
 trúip trúpaí
