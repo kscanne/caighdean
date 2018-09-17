@@ -7,6 +7,7 @@ use strict;
 use warnings;
 use Encode qw(decode);
 use Unicode::Normalize;
+use utf8;
 
 if ($#ARGV != 1) {
     die "Usage: $0 interiorcharstring bdcharstring\n";
@@ -23,7 +24,7 @@ binmode STDERR, ":utf8";
 # (good way of cleaning corpus is to kill sentences with these!)
 my @fixed = (
 	qr/<[\/]?[A-Za-z]([^>]+)?>/,             # markup
-	qr/(?:https?|ftp):\/\/[A-Za-z0-9\/.:=_%?&~+;\$@\#()-]+[A-Za-z0-9\/=]/, # URLs
+	qr/(?:https?|ftp):\/\/[A-ZÁÉÍÓÚa-záéíóú0-9\/.:=_%?&~+;\$@\#()-]+[A-ZÁÉÍÓÚa-záéíóú0-9\/=]/, # URLs
 	qr/[A-Za-z0-9][A-Za-z0-9._]*@[A-Za-z0-9.]+[A-Za-z0-9]/,   # emails
 	qr/&([A-Za-z.]+|#[0-9]+);/, # SGML entities &amp; &quot; &#2020; etc.
 	qr/%([0-9]\$)?[A-Za-z]+/, # l10n vars, %1$S, %S, %d, %lu, etc.
