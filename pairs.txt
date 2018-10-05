@@ -8661,6 +8661,7 @@ basaí bosaí
 básaidís básaídís
 basaigh bosaigh
 básaigí básaígí
+basáil basaíocht
 basaíl basaíocht
 basaíl bosaíl
 básaim básaím
@@ -8673,6 +8674,7 @@ básaire básadóir
 basaireacht bosaíl
 b'Asairis b'Asarbaiseáinis
 b'asala b'asail
+basála basaíochta
 b'asán b'osán
 básánaí básachán
 b'asanálú b'easanálú
@@ -12756,6 +12758,7 @@ bhasaí bhosaí
 bhásaidís bhásaídís
 bhasaigh bhosaigh
 bhásaigí bhásaígí
+bhasáil bhasaíocht
 bhasaíl bhasaíocht
 bhasaíl bhosaíl
 bhásaim bhásaím
@@ -12764,6 +12767,7 @@ bhásaimis bhásaímis
 bhásainn bhásaínn
 bhasaíola bhasaíochta
 bhasaíola bhosaíola
+bhasála bhasaíochta
 bhásamar bhásaíomar
 bhásann bhásaíonn
 bhascaid bhascaed
@@ -20344,8 +20348,6 @@ bhunúcháin bhunaithe
 bhunúchán bhunú
 bhunúice bhunóice
 bhunuithe bhunaithe
-bhunúlacht bhunúsacht
-bhunúlachta bhunúsachta
 'bhur in bhur
 bhúr bhur
 bhúrach bhúr
@@ -20549,6 +20551,8 @@ b'iarUachtarán b'iar-Uachtarán
 b'Iarusalem b'Iarúsailéim
 b'Iarúsalem b'Iarúsailéim
 bías bíonn
+b'iasaint ba hiasaint
+b'iasaintí ba hiasaintí
 biast péist
 biastamhail péistiúil
 biataigh biathaigh
@@ -22230,6 +22234,12 @@ bóibéiseach bóibéisithe
 bóibéisigh bóibéisí
 bóibéisigh bóibéisithe
 bóibéisíocht bóibéis
+b'óibhéala b'áibhéalach
+b'óibhéala b'áibhéalacha
+b'óibhéala b'áibhéalaí
+b'óibhéalda b'áibhéalach
+b'óibhéalda b'áibhéalacha
+b'óibhéalda b'áibhéalaí
 b'oibhseach b'aibhseach
 b'oibhseacha b'aibhseacha
 b'oibhsí b'aibhsí
@@ -26633,8 +26643,6 @@ bunúchán bunú
 bunúdhsacha bunúsacha
 bunúice bunóice
 bunuithe bunaithe
-bunúlacht bunúsacht
-bunúlachta bunúsachta
 b'unúmha b'ionú
 bunus bunús
 bunusach bunúsach
@@ -27546,7 +27554,6 @@ Calmfear Calmfhear
 calpa colpa
 calpach colpach
 calpán colpán
-cálráib cál rábach
 caltacha calaí
 caltar coltar
 calthóg calóg
@@ -29592,8 +29599,10 @@ ceolteoirí ceoltóirí
 ceolteora ceoltóra
 ceolthán ceolán
 ceoltoirí ceoltóirí
+ceomharáin ceobhráin
 ceomharán ceobhrán
 ceomharsach ceomhar
+ceomhráin ceobhráin
 ceomhrán ceobhrán
 ceothach ceoch
 ceothacha ceocha
@@ -30144,7 +30153,6 @@ chalmasach chalma
 chalmasacha chalma
 chalmasaí chalma
 chalmasaigh chalma
-chálráib chál rábach
 chalthóg chalóg
 chalthóga chalóga
 chalthóige chalóige
@@ -31906,6 +31914,10 @@ cheoltaí cheolta
 cheolteoir cheoltóir
 cheolteoirí cheoltóirí
 cheolteora cheoltóra
+cheomharáin cheobhráin
+cheomharán cheobhrán
+cheomhráin cheobhráin
+cheomhrán cheobhrán
 cheothach cheoch
 cheothacha cheocha
 cheothaí cheoiche
@@ -32009,8 +32021,6 @@ chianúil chianach
 chianúil chianaigh
 chianúla chianacha
 chianúla chianaí
-chianúlais chiandachta
-chianúlas chiandacht
 chiapaí chiapa
 chiapaídís chiapaidís
 chiapaigh chiap
@@ -39793,8 +39803,6 @@ cianúil cianach
 cianúil cianaigh
 cianúla cianacha
 cianúla cianaí
-cianúlais ciandachta
-cianúlas ciandacht
 ciapaídís ciapaidís
 ciapaigh ciap
 ciapaígí ciapaigí
@@ -58128,6 +58136,7 @@ dhío-mhaslóinn dhiamhaslóinn
 dhío-mhaslú dhiamhaslú
 dhíomhnais dhíomhaointis
 dhíomhnas dhíomhaointeas
+dhiomlasta dhomlasta
 dhíomlasta dhomlasta
 dh'iompóch' d'iompódh
 dhiomsa díomsa
@@ -59082,6 +59091,7 @@ dholldramán dhalldramán
 dholuighe dholuí
 dhom dom
 dhom' do mo
+dhomblasta dhomlasta
 dhombuidheach dhiomaíoch
 dhombuidheacha dhiomaíocha
 dhombuidhí dhiomaíche
@@ -60427,6 +60437,9 @@ dias dís
 dias díseanna
 Dia's Dia is
 diasa díseanna
+d'iasaint do hiasaint
+d'iasainte do hiasainte
+d'iasaintí do hiasaintí
 diasair diasraigh
 diasarfaidh diasróidh
 diasarfaimid diasróimid
@@ -84848,6 +84861,7 @@ gailéangach gailléan
 gailearánta gailfeanach
 Gailege Gaeilge
 gailéirí gailearaí
+gailéirithe gailearaithe
 gaileog galóg
 gailerí gailearaí
 gailerithe gailearaithe
@@ -85137,6 +85151,7 @@ galaoirí gallúnaí
 galarach galrach
 galaraí gailearaí
 galaraigh galraigh
+galaraithe gailearaithe
 galbhúnach gallúnach
 galfóir galfaire
 galfóirí galfairí
@@ -85855,7 +85870,6 @@ gcalcú gcalcadh
 gcáll gcall
 gcalma gcalmacht
 gcalma gcalmachta
-gcálráib gcál rábach
 gcalthóg gcalóg
 gcalthóga gcalóga
 gcalthóige gcalóige
@@ -87296,6 +87310,10 @@ gceoltaí gceolta
 gceolteoir gceoltóir
 gceolteoirí gceoltóirí
 gceolteora gceoltóra
+gceomharáin gceobhráin
+gceomharán gceobhrán
+gceomhráin gceobhráin
+gceomhrán gceobhrán
 gcetel gciteal
 gcéudhna gcéanna
 gcí bhfeiceann
@@ -87352,8 +87370,6 @@ gcianósta gcianóstaigh
 gcianóstaí gcianóstach
 gcianóstaí gcianóstaigh
 gciantaí gcianta
-gcianúlais gciandachta
-gcianúlas gciandacht
 gciapaí gciapa
 gciapaídís gciapaidís
 gciapaigh gciap
@@ -94599,6 +94615,8 @@ ghaigiúlacht ghaigíocht
 ghaigiúlachta ghaigíochta
 ghail ghal
 ghaile ghoile
+ghailéirí ghailearaí
+ghailéirithe ghailearaithe
 ghailerí ghailearaí
 ghailerithe ghailearaithe
 ghailí ghoilí
@@ -94826,7 +94844,9 @@ ghalántas ghalántacht
 ghalaoireach ghallúnach
 ghalaoireacha ghallúnacha
 ghalaoirí ghallúnaí
+ghalaraí ghailearaí
 ghalaraibh ghalair
+ghalaraithe ghailearaithe
 ghalfóir ghalfaire
 ghalfóirí ghalfairí
 ghalfóra ghalfaire
@@ -95641,6 +95661,8 @@ ghigilt chigilt
 ghigilte chigilte
 ghileacht ghile
 ghileachta ghile
+ghileáraí ghailearaí
+ghileáraithe ghailearaithe
 ghilmín ghilidín
 ghilmíneach ghilidín
 ghilmíneach ghilidíní
@@ -97587,6 +97609,7 @@ gilbín gilidín
 gileacht gile
 gileachta gile
 gileáraí gailearaí
+gileáraithe gailearaithe
 gilibín gilidín
 gilicín gilidín
 gilide gilidín
@@ -104580,6 +104603,8 @@ hóglaoigh hóglaigh
 hógmhnaoi hógbhean
 hoib hob
 hoibeartha hoibrithe
+hóibhéala háibhéalach
+hóibhéalda háibhéalach
 hoibhseach haibhseach
 hoibir hoibrigh
 hoibire hoibre
@@ -105976,6 +106001,9 @@ iaruinn iarainn
 iarumh iaramh
 Iarusalem Iarúsailéim
 Iarúsalem Iarúsailéim
+iasaint hiasaint
+iasainte hiasainte
+iasaintí hiasaintí
 iasc éasc
 iascaigh iasc
 iascar iascra
@@ -112060,6 +112088,7 @@ líomhaímid líomhaimid
 líomhaímis líomhaimis
 líomhaínn líomhainn
 líomhaint líomhain
+líomhainte líomhanta
 líomhaíodar líomhadar
 líomhaíodh líomhadh
 líomhaíomar líomhamar
@@ -117161,6 +117190,7 @@ mbasadóirí n-ambasadóirí
 mbasadóra n-ambasadóra
 mbásaidís mbásaídís
 mbásaigí mbásaígí
+mbasáil mbasaíocht
 mbasaíl mbasaíocht
 mbasaíl mbosaíl
 mbásaim mbásaím
@@ -117169,6 +117199,7 @@ mbásaimis mbásaímis
 mbásainn mbásaínn
 mbasaíola mbasaíochta
 mbasaíola mbosaíola
+mbasála mbasaíochta
 mbásamar mbásaíomar
 mbásann mbásaíonn
 mbascaid mbascaed
@@ -120119,8 +120150,6 @@ mbunúca mbunóca
 mbunúcháin mbunaithe
 mbunúchán mbunú
 mbunúice mbunóice
-mbunúlacht mbunúsacht
-mbunúlachta mbunúsachta
 mbur bhur
 mbúrach mbúr
 mbúraigh mbúir
@@ -125733,6 +125762,9 @@ m'iarUachtarán m'iar-Uachtarán
 m'Iarusalem m'Iarúsailéim
 m'Iarúsalem m'Iarúsailéim
 mí-ásach mí-ámharach
+m'iasaint mo hiasaint
+m'iasainte mo hiasainte
+m'iasaintí mo hiasaintí
 miasanna miasa
 m'Iávais m'Iáivis
 m'Iávaise m'Iáivise
@@ -137707,6 +137739,8 @@ ngaigiúlacht ngaigíocht
 ngaigiúlachta ngaigíochta
 ngail ngal
 ngaile ngoile
+ngailéirí ngailearaí
+ngailéirithe ngailearaithe
 ngailerí ngailearaí
 ngailerithe ngailearaithe
 ngailí ngoilí
@@ -137893,6 +137927,8 @@ ngalántas ngalántacht
 ngalaoireach ngallúnach
 ngalaoireacha ngallúnacha
 ngalaoirí ngallúnaí
+ngalaraí ngailearaí
+ngalaraithe ngailearaithe
 ngalfóir ngalfaire
 ngalfóirí ngalfairí
 ngalfóra ngalfaire
@@ -138483,6 +138519,8 @@ ngigilt gcigilt
 ngigilte gcigilte
 ngileacht ngile
 ngileachta ngile
+ngileáraí ngailearaí
+ngileáraithe ngailearaithe
 ngilmín ngilidín
 ngilmíneach ngilidín
 ngilmíneach ngilidíní
@@ -140107,6 +140145,9 @@ n-iar-uachtarán n-iaruachtarán
 n-iarUachtarán n-iar-Uachtarán
 nIarusalem nIarúsailéim
 nIarúsalem nIarúsailéim
+n-iasaint hiasaint
+n-iasainte hiasainte
+n-iasaintí hiasaintí
 nIávais nIáivis
 nIávaise nIáivise
 níb ní ba
@@ -143880,8 +143921,14 @@ Ogygia Ogygia
 oibeartha oibrithe
 óibhéal áibhéil
 óibhéala áibhéalach
+óibhéala áibhéalacha
+óibhéala áibhéalaí
+óibhéala áibhéalaigh
 óibhéala uaiféalta
 óibhéalda áibhéalach
+óibhéalda áibhéalacha
+óibhéalda áibhéalaí
+óibhéalda áibhéalaigh
 óibhéalda uaiféalta
 oibhreóchaidh oibreoidh
 oibhriughadh oibriú
@@ -149257,6 +149304,10 @@ racsaim racáin
 racsam racán
 rad radadh
 rád rá
+radacaí radacach
+radacaí radacaigh
+radacaithe radacach
+radacaithe radacaigh
 radagóiniméadair radagónaiméadair
 radagóiniméadar radagónaiméadar
 radaí radaire
@@ -159190,6 +159241,7 @@ shílíteá shílteá
 shílítear shíltear
 shílithe shílte
 shílítí shíltí
+shillí chillí
 shílmid shíleamar
 shílstean shíleadh
 shílsteana shílte
@@ -162290,6 +162342,8 @@ sílíteá sílteá
 sílítear síltear
 sílithe sílte
 sílítí síltí
+sillí cillí
+sillí gcillí
 sílstean síleadh
 sílsteana sílte
 sílsteana tsílte
@@ -181615,6 +181669,7 @@ tsiléag tsiléig
 tsileastair feileastraim
 tsilide tseilide
 tsilinít xiolóinít
+tsillí cillí
 tsílstean síleadh
 tsílstin síleadh
 tsílstint síleadh
