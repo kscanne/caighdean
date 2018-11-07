@@ -205,8 +205,13 @@ maint/grammar-gv.txt: nua-output-gv.txt
 maint/tofixgram.txt: FORCE
 	cat $(TESTPOST) | commonerrs > $@
 
-maint/modern-unknown.txt: FORCE
-	cat model/corpus.txt | randomize | head -n 1000000 | bash tiomanai.sh -u | egrep '[A-Za-zÁÉÍÓÚáéíóú]' | egrep -v '[@#]' | egrep -v '://' | sort | uniq -c | sort -r -n | sed 's/^ *//' > $@
+maint/modern-unknown.txt maint/modern-tokens.txt: FORCE
+	cat model/corpus.txt | randomize | head -n 1000000 > maint/temp-mod-corp.txt
+	cat maint/temp-mod-corp.txt | perl preproc.pl | bash alltokens.sh | egrep -v '^\\n' | wc -l > maint/modern-tokens.txt
+	cat maint/temp-mod-corp.txt | bash tiomanai.sh -u | egrep '[A-Za-zÁÉÍÓÚáéíóú]' | egrep -v '[@#]' | egrep -v '://' | sort | uniq -c | sort -r -n | sed 's/^ *//' > maint/modern-unknown.txt
+	echo `date '+%Y-%m-%d %H:%M:%S'` `(cat maint/modern-unknown.txt | sed 's/ .*//' | addem; echo '10000'; echo '*'; cat maint/modern-tokens.txt; echo '/'; echo 'p') | dc | sed 's/..$$/.&/'` >> maint/oov-modern.txt
+	rm -f maint/temp-mod-corp.txt
+	tail maint/oov-modern.txt
 
 ############## TARGETS FOR MAINTAINER ONLY ! ###############
 GAELSPELL=${HOME}/gaeilge/ispell/ispell-gaeilge
