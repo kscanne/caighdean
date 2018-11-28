@@ -372,6 +372,7 @@ cad_cuige cad chuige
 caid_é cad é
 caid_é_r'd céard
 caidé_tá cad é atá
+carte_blanche carte blanche
 ce_mhead cé mhéad
 ceann_scribe ceann scríbe
 cha_n-eadh ní hea
@@ -634,6 +635,8 @@ do_gairfidhe a ghairfí
 do_ghabhas ghabh mé
 do_ghearras ghearr mé
 do_ghlacas ghlac mé
+do_ghlaodhas ghlaoigh mé
+do_ghlaos ghlaoigh mé
 do_ghnidh a dhéanann
 do_h-ínseadh insíodh
 do_hadhnaiceadh a adhlacadh
@@ -755,6 +758,7 @@ dá_ttarla dár tharla
 dá_ttárla dár tharla
 dígh_céille díth céille
 dó_déag dó dhéag
+dóire_bunsen dóire Bunsen
 ear_is_barr farasbarr
 et_cetera et cetera
 ex_gratia ex gratia
@@ -827,12 +831,14 @@ go_Samaria go dtí an tSamáir
 go_deoigh go deo
 go_deóigh go deo
 go_dteacha go ndeachaigh
+go_dtin go dtí
 go_dtug gur thug
 go_dtáinic gur tháinig
 go_dtáinig gur tháinig
 go_dtáinigh gur tháinig
 go_dtánag gur tháinig mé
 go_dtángas gur tháinig mé
+go_dtínár go dtí ár
 go_dé'n cad é an
 go_foil go fóill
 go_gcuala gur chuala
@@ -840,6 +846,7 @@ go_gcualaidh gur chuala
 go_gheobhaidh go bhfaighidh
 go_h-Arabia go dtí an Araib
 go_hÉire go hÉirinn
+go_héascadh go héasca
 go_m'fhéidir go mb'fhéidir
 go_m-beannuighidh go mbeannaí
 go_mbeannaighidh go mbeannaí
@@ -1059,6 +1066,7 @@ i_n-aois in aois
 i_n-aon in aon
 i_n-aon-chor in aon chor
 i_n-aonacht in éineacht
+i_n-aonbhall in aon bhall
 i_n-aonchor in aon chor
 i_n-aondtigh in éindí
 i_n-aonfheacht in éineacht
@@ -1255,6 +1263,7 @@ le_theacht le teacht
 le_theinidh le tine
 leath_chois leathchois
 leath_shúil leathshúil
+leathánach_uisce leathánach uisce
 lem'_aghaidh-se le m'aghaidhse
 les_an leis an
 les_gach le gach
@@ -1313,6 +1322,7 @@ na_fflaithios na flaithis
 na_féachfadh nach bhféachfadh
 na_féadfadh nach bhféadfadh
 na_h-Arabia na hAraibe
+na_haigéine an aigéin
 na_háine an chiorcail
 na_mBoers na mBórach
 na_ndhiaidh ina dhiaidh
@@ -1713,6 +1723,7 @@ thar'n_ais ar ais
 thar_n-ais ar ais
 thar_éis tar éis
 thar_éise tar éis
+thrí'n_a trína
 tras_teorainn trasteorann
 tras_teorann trasteorann
 tras_tíre trastíre
