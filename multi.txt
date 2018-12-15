@@ -312,6 +312,7 @@ ar_bhit ar bith
 ar_bhudh arbh
 ar_bis ar bís
 ar_bit ar bith
+ar_bithe ar bith
 ar_báll ar ball
 ar_d-tus ar dtús
 ar_dhein a ndearna
@@ -393,6 +394,7 @@ bhriolla_bhrealla bhrille bhreaille
 bhriolla_bhreolla brille bhreaille
 bhí_'is bhí a fhios
 bhí_sé_air_aige bhí sé ar eire aige
+bliadha_nó bliain ó
 bodaire_gaoithe bod gaoithe
 bogha_eara bogha gearr
 bratach_Bhríde brat Bhríde
@@ -456,6 +458,7 @@ cia_r'_bh'é cérbh é
 cia_r'_bh'í cérbh í
 ciar_dubh ciardhubh
 cib_air_bith cibé ar bith
+cibé_haca cibé acu
 cinn_fhearainn cinnfhearann
 cliobar_hob cliobach
 cliobaram_hob cliobach
@@ -533,6 +536,7 @@ d'ar'_bh'ainm darbh ainm
 d'ear_is_barr d'fharasbarr
 d'á_mbí dá mbíonn
 d'á_ríribh dáiríre
+d'ár'_bh'ainm darbh ainm
 d'ár_bh'ainm darbh ainm
 d'ár_ndóigh ar ndóigh
 d'é_do é a
@@ -947,6 +951,7 @@ gCill_Uird gCill Uird
 gach_le_Domhnach gach re Domhnach
 gach_le_lá gach re lá
 gach_n'aon gach aon
+gach_re gach re
 galar_dóghach galar dubhach
 gan_chrí gan chríoch
 gaoirle_guairle gírle guairle
@@ -962,6 +967,7 @@ gearra_goirt gearr goirt
 gearra_goirt gearraí goirt
 ghnigh_mé déanaim
 gib_geab giob geab
+gidh_bé cibé
 gile_guaire gírle guairle
 go_Damascus go dtí an Damaisc
 go_Samaria go dtí an tSamáir
@@ -1294,6 +1300,7 @@ i_n-aonuaigh in aon uaigh
 i_n-aonuair in aon uair
 i_n-aos in aois
 i_n-ar inar
+i_n-ar' inar
 i_n-ardfhlaitheas in ardfhlaitheas
 i_n-arm in arm
 i_n-arár inár
@@ -1379,6 +1386,7 @@ i_n-áiteachaibh in áiteanna
 i_n-áiteannaibh in áiteanna
 i_n-áitibh in áiteanna
 i_n-ár inár
+i_n-ár' inar
 i_n-árd in ard
 i_n-árd-réim in ardréim
 i_n-árdfhlaitheas in ardfhlaitheas
@@ -1462,6 +1470,16 @@ id_aghaidh-se i d'aghaidhse
 idée_fixe idée fixe
 im'_aghaidh-se i m'aghaidhse
 im'_fhochair-se i m'fhochairse
+im_cheann i mo cheann
+im_chroí i mo chroí
+im_chónaí i mo chónaí
+im_dhiaidh i mo dhiaidh
+im_leith i mo leith
+im_shaol i mo shaol
+im_sheasamh i mo sheasamh
+im_shuí i mo shuí
+im_thuairim i mo thuairim
+im_thuairimse i mo thuairimse
 in_Arabia san Araib
 in_Iúil in Iúil
 in_a ina
@@ -1536,6 +1554,7 @@ le_gréin le gréin
 le_haigh le haghaidh
 le_haigh' le haghaidh
 le_lin le linn
+le_mbiadh lena mbeadh
 le_n' lena
 le_n'a lena
 le_n'aghaidh lena aghaidh
@@ -1559,6 +1578,7 @@ le_theinidh le tine
 leath_chois leathchois
 leath_shúil leathshúil
 leathánach_uisce leathánach uisce
+leis_fin leis sin
 lem'_aghaidh-se le m'aghaidhse
 les_an leis an
 les_gach le gach
@@ -1616,6 +1636,7 @@ mo_bhrian_óg mo bhrín óg
 mo_chean mochean
 mo_chrí mo chroí
 mo_chéill mo chiall
+mo_fhreagradh mo fhreagra
 mo_níon m'iníon
 muga_maga mugadh magadh
 muid_inne muidne
@@ -1636,6 +1657,7 @@ nDún_Gheanainn nDún Geanainn
 nGaoth_Bearra nGaoth Beara
 nUdarás_nAitiúil nÚdarás Áitiúil
 na_Boers na Bóraigh
+na_Breatan na Breataine
 na_Persia na Peirse
 na_Samaria na Samáire
 na_brach' na braiche
@@ -1658,6 +1680,7 @@ na_seo ná seo
 na_sin ná sin
 na_sinsire an tsinsir
 na_tógfadh nach dtógfadh
+nach_biadh nach mbeadh
 nach_caithfeadh nach gcaithfeadh
 nach_deunfadh nach ndéanfadh
 nach_deurna nach ndearna
@@ -1670,6 +1693,8 @@ nach_fanfadh nach bhfanfadh
 nach_feacamair nach bhfacamar
 nach_feachainn nach bhféachfainn
 nach_fillfeadh nach bhfillfeadh
+nach_fuil nach bhfuil
+nach_fuil nach fuil
 nach_féadfadh nach bhféadfadh
 nach_féadfaidhe nach bhféadfaí
 nach_gcuala nár chuala
@@ -1992,6 +2017,7 @@ plup_plap plob plab
 plé_ráca pléaráca
 plé_seam pléiseam
 puc_saor poc saor
+re'_raile le chéile
 re_n'ais lena ais
 re_n-a lena
 riail-bhlianacht_cheannaigh blianacht cheannaigh chaighdeánach
@@ -2002,6 +2028,8 @@ ros_samh ró samh
 ruadhán_alla damhán alla
 ruán_alla damhán alla
 rápal_húta raiple húta
+ré'_raile le chéile
+ré_chéile le chéile
 rém'_ais le m'ais
 ró_bheag róbheag
 ró_chruaidh róchrua
@@ -2138,6 +2166,7 @@ um_an_oirthear_arís amainiris
 à_los as los
 ás_tá agus atá
 é_r'd is éard
+ó'_n ón
 ó_'n-a óna
 ó_Ghaililí ón Ghailíl
 ó_Shamaria ón tSamáir
@@ -2148,7 +2177,15 @@ um_an_oirthear_arís amainiris
 ó_sna ó na
 ón_bPersia ón bPeirs
 óraing_útaing órang-útan
+ós_a_chionn os a chionn
+ós_a_chomhair os a chomhair
+ós_a_cionn os a cionn
+ós_a_comhair os a comhair
+ós_a_gcionn os a gcionn
+ós_a_gcomhair os a gcomhair
 ós_ard os ard
+ós_cionn os cionn
 ós_coinne os coinne
+ós_comhair os comhair
 ós_na ó na
 ós_árd os ard
