@@ -37,7 +37,7 @@ test: FORCE
 	bash test/clienttest.sh
 
 commitlog: FORCE
-	git add maint/oov.txt maint/oov-gd.txt maint/oov-gv.txt eval/speedlog.txt eval/wer.txt eval/wer-gd.txt eval/wer-gv.txt
+	git add maint/oov.txt maint/oov-gd.txt maint/oov-gv.txt maint/oov-modern.txt eval/speedlog.txt eval/wer.txt eval/wer-gd.txt eval/wer-gv.txt
 	git commit -m "Latest OOV and WER numbers"
 
 ###################### TARGETS FOR EVALUATION ###########################
