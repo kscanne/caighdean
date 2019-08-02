@@ -77,7 +77,7 @@ corpus-pre.txt: corpus-pre-pre.txt
 # through all of this; grep will choke on binary files and even
 # stops abruptly when encountering invalid characters
 corpus-pre-pre.txt: okdocs.txt
-	cat okdocs.txt | while read fn; do sed '1s/^/\n/' "$$fn"; done | abairti-dumb | tr "\000-\011" " " | tr "\013-\037" " " | egrep -v '.{500}' | egrep '.{20}' > $@
+	cat okdocs.txt | while read fn; do sed '1s/^/\n/' "$$fn"; done | abairti-dumb | tr "\000-\011" " " | tr "\013-\037" " " | sed 's/   */ /g' | egrep -v '.{500}' | egrep '.{20}' > $@
 
 # Filtering: (1) sites that make it into corpus some other way, e.g.
 # Indigenous Tweets, *.blogspot.*, Tuairisc, Wikipedia, etc.
@@ -87,6 +87,7 @@ webonly.txt:
 	cat $(CRUB)/MANIFEST | sed '1d' | egrep -v '(blogspot.com|corkirish|indigenoustweets|smo.uhi.ac.uk|wikipedia|wikisource.org|ucc.ie/celt|celt.ucc.ie)' | sed 's@^[^ ]* @$(CRUB)/ciu/@' > $@
 	(cd ${HOME}/seal/irishcompleted/walescrawler; make > /dev/null 2>&1; cat okdocs.txt) >> $@
 	echo '/home/kps/seal/irishcompleted/leipzig/gle_mixed_unique.txt' >> $@
+	echo '/home/kps/seal/irishcompleted/oscar/ga_dedup_scag.txt' >> $@
 
 # Adding OF81 back in 18 Jul 2016
 # IB-laighneach == t/OB36 == ria/AU021
