@@ -17,16 +17,16 @@ redis-refresh: training-1.txt training-2.txt training-3.txt buildmodel.pl
 	perl buildmodel.pl 3
 
 training-1.txt : alltokens.txt
-	cat alltokens.txt | LC_ALL=C sort | LC_ALL=C uniq -c | LC_ALL=C sort -r -n | sed 's/^ *//' > $@
+	cat alltokens.txt | egrep -v '^\\n$$' | LC_ALL=C sort | LC_ALL=C uniq -c | LC_ALL=C sort -r -n | sed 's/^ *//' > $@
 
 training-2.txt : alltokens.txt
-	cat alltokens.txt | perl ngramify.pl 2 | LC_ALL=C sort | LC_ALL=C uniq -c | LC_ALL=C sort -r -n | sed 's/^ *//' > $@
+	cat alltokens.txt | egrep -v '^\\n$$' | perl ngramify.pl 2 | LC_ALL=C sort | LC_ALL=C uniq -c | LC_ALL=C sort -r -n | sed 's/^ *//' > $@
 
 training-3.txt : alltokens.txt
-	cat alltokens.txt | perl ngramify.pl 3 | LC_ALL=C sort | LC_ALL=C uniq -c | LC_ALL=C sort -r -n | sed 's/^ *//' > $@
+	cat alltokens.txt | egrep -v '^\\n$$' | perl ngramify.pl 3 | LC_ALL=C sort | LC_ALL=C uniq -c | LC_ALL=C sort -r -n | sed 's/^ *//' > $@
 
 training-4.txt : alltokens.txt
-	cat alltokens.txt | perl ngramify.pl 4 | LC_ALL=C sort | LC_ALL=C uniq -c | LC_ALL=C sort -r -n | sed 's/^ *//' > $@
+	cat alltokens.txt | egrep -v '^\\n$$' | perl ngramify.pl 4 | LC_ALL=C sort | LC_ALL=C uniq -c | LC_ALL=C sort -r -n | sed 's/^ *//' > $@
 
 # note we're not using caighdean tokenizer, QUITE ON PURPOSE
 # unicode apostrophes and hyphens already converted here,
