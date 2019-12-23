@@ -26,4 +26,4 @@ If you have a reasonably large corpus of (more or less) standard Irish, you can 
 	$ cd model
 	$ make
 
-You will need the [Redis Perl module](http://search.cpan.org/dist/Redis/), and the Redis server must be running on your machine for this to work.  This will take a while to run.  When it finishes, you will be ready to [start standardizing text](https://github.com/kscanne/caighdean/blob/master/USAGE.md).
+You will need the [Redis Perl module](https://metacpan.org/release/Redis), and the Redis server must be running on your machine for this to work.  This will take a while to run.  When it finishes, you will be ready to [start standardizing text](https://github.com/kscanne/caighdean/blob/master/USAGE.md).
