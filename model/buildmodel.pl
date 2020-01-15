@@ -6,6 +6,8 @@ use utf8;
 use Redis;
 use Encode qw(encode);
 
+use constant REDIS_SET_CHUNKSIZE => 100;
+
 binmode STDIN, ":utf8";
 binmode STDOUT, ":utf8";
 binmode STDERR, ":utf8";
@@ -29,6 +31,21 @@ my %followers; # keys are n-grams, vals are number of distinct n+1-grams which b
 my %lowercounts;  # keys are n-grams (1 <= n < N), vals are raw counts
 my $unseen = '<UNSEEN>';
 
+# $chunksize will be constant REDIS_SET_CHUNKSIZE declared above,
+# or else 0 to flush anything left in @chunk (and in that case
+# @key_value_pair should be omitted, so push below is a no-op)
+sub redis_chunked_set {
+	our @chunk;
+	(my $redis, my $chunksize, my @key_value_pair) = @_;
+
+	push @chunk, @key_value_pair;
+	if ( scalar(@chunk) && scalar(@chunk)/2 >= $chunksize ) {
+		$redis->mset(@chunk);
+		@chunk = ();
+	}
+
+	return;
+}
 
 if ($#ARGV != 0) {
         die "Usage: perl buildmodel.pl N\n";
@@ -137,7 +154,7 @@ for my $n (2..$N) {
 		if ($n == $N) { # write highest order ones directly to DB
 			if ($rawcount > $prune) {
 				my $v = sprintf("%.3f", log($newprob));
-				$redis->set(encode('utf8', $k) => $v);
+				redis_chunked_set( $redis, REDIS_SET_CHUNKSIZE, encode('utf8', $k) => $v );
 			}
 		}
 		else {  # we'll keep lower order ones in perl hash
@@ -145,6 +162,7 @@ for my $n (2..$N) {
 		}
 	}
 	close COUNTS;
+	redis_chunked_set( $redis, 0 );  # flush
 }
 
 $lowercounts{$unseen} = $prune+1;
@@ -156,17 +174,20 @@ for my $k (keys %prob) {
 	else {
 		if ($lowercounts{$k} > $prune) {
 			my $probout = sprintf("%.3f", log($prob{$k}));
-			$redis->set(encode('utf8', $k) => $probout);
+			redis_chunked_set( $redis, REDIS_SET_CHUNKSIZE, encode('utf8', $k) => $probout );
 		}
 	}
 }
+redis_chunked_set( $redis, 0 );  # flush
+
 print STDERR "Writing smoothing constants to DB...\n" if $verbose;
 $redis->select(1);
 for my $k (keys %smooth) {
 	if ($lowercounts{$k} > $prune) {
 		my $smoothout = sprintf("%.3f", log($smooth{$k}));
-		$redis->set(encode('utf8', $k) => $smoothout);
+		redis_chunked_set( $redis, REDIS_SET_CHUNKSIZE, encode('utf8', $k) => $smoothout );
 	}
 }
+redis_chunked_set( $redis, 0 );  # flush
 
 exit 0;
