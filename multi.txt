@@ -22,6 +22,7 @@
 'nn_bhúr in bhur
 'nn_gach i ngach
 'nn_ár inár
+'o_chola a chodladh
 'on_daighe don daighe
 'san_mbioth ar bith
 'sé_r'd is éard
@@ -57,6 +58,7 @@ Cill_Uird Cill Uird
 Cill_mac_Ciarainn Cill Mhic Iarainn
 Cill_tSeadhna Cill tSéadhna
 Cnoc_Mordán Cnoc Mordáin
+Coca_Cola Coca Cola
 Dalai_Lama Dalaí Láma
 Dalaí_Láma Dalaí Láma
 De_Bhet De Wet
@@ -80,6 +82,7 @@ Grand_Prix Grand Prix
 Helen_na_Gréige Héilin na Gréige
 Hóm_Rúil Hóm Rúil
 Inis_Óirr Inis Oírr
+Inse_Seithleann Inis Shealtainn
 Iúdás_Macabéus Iúdás Macabaech
 Iúlius_Caesar Iúil Caesar
 Junk_Kouture Junk Kouture
@@ -89,6 +92,8 @@ Lios_Caragáin Lios Carragáin
 Loch_Deán Loch Deán
 Loch_an_lúir Loch an Iúir
 Loch_gCarman Loch Garman
+Lá_Sain Lá San
+Lá_Shain Lá San
 Mac_Furra Mac Furra
 Mac_Lochlann Mac Lochlainn
 Mac_Piaras Mac Piarais
@@ -203,6 +208,7 @@ a_n-aimhdheoin in ainneoin
 a_n-allód anallód
 a_n-allóid anallód
 a_n-aoinfheacht in éineacht
+a_n-aonacht in éineacht
 a_n-diu inniu
 a_n-diú inniu
 a_n-eadh an ea
@@ -248,6 +254,7 @@ ag_pioca ag piocadh
 ag_scríobhadh ag scríobh
 agus_'bhí agus a bhí
 agus_'tá agus atá
+aigem_athair ag m'athair
 air_bioth ar bith
 air_bit ar bith
 air_d-tus ar dtús
@@ -373,6 +380,7 @@ ar_dtuis ar dtús
 ar_dtúis ar dtús
 ar_fad' ar fad'
 ar_fadh ar feadh
+ar_feag ar feadh
 ar_fféidir arbh fhéidir
 ar_fhaid ar fad
 ar_fhaid ar fhad
@@ -758,6 +766,7 @@ do_chromas chrom mé
 do_chuadhas chuaigh mé
 do_chuaidh a chuaigh
 do_chuaidh chuaigh
+do_chualai' chuala
 do_chualas chuala mé
 do_chuas chuaigh mé
 do_chuir a chuir
@@ -869,6 +878,8 @@ do_rinneadh a rinneadh
 do_rinneadh rinneadh
 do_rinneas rinne mé
 do_ritheas rith mé
+do_riug a rug
+do_riug rug
 do_ronnadh roinneadh
 do_rug a rug
 do_rug rug
@@ -882,6 +893,10 @@ do_shádhas sháigh mé
 do_shíleas shíl mé
 do_sna do na
 do_thairrngirsiod thairngríodar
+do_tharaig a tharraing
+do_tharaig tharraing
+do_tharaing a tharraing
+do_tharaing tharraing
 do_tharla a tharla
 do_tharla tharla
 do_tharraing a tharraing
@@ -1118,6 +1133,7 @@ go_dtánag gur tháinig mé
 go_dtángas gur tháinig mé
 go_dtínár go dtí ár
 go_dé'n cad é an
+go_dí go dtí
 go_foil go fóill
 go_fuarc go feirc
 go_fuirc go feirc
@@ -1169,6 +1185,9 @@ go_ttug gur thug
 go_ttárla gur tharla
 go_té'n cén
 go_wil go bhfuil
+gom_fheara go mb'fhearr
+gom_fheár go mb'fhearr
+gom_fhéidir go mb'fhéidir
 gor_bhfada gurbh fhada
 gos_ard os ard
 gos_íseal os íseal
@@ -1197,6 +1216,7 @@ gur_bhféidir gurbh fhéidir
 gur_bhudh gurbh
 gur_cómha gur comhionann
 gur_deineadh go ndearnadh
+gur_dh'imi' gur imigh
 gur_dhein go ndearna
 gur_dheineadar go ndearnadar
 gur_dheineas go ndearna mé
@@ -1848,6 +1868,7 @@ na_brach' na braiche
 na_bracha na braiche
 na_báirce an bháirc
 na_con an chú
+na_cuntúrach an chuntair
 na_cún an chú
 na_cúramaí na cúraimí
 na_fallaí na ballaí
@@ -2009,6 +2030,7 @@ ná_bádhfadh nach mbáfadh
 ná_bádhfaidís nach mbáfaidís
 ná_báidhfeadh nach mbáfadh
 ná_báthfadh nach mbáfadh
+ná_béach nach mbeadh
 ná_béadh nach mbeadh
 ná_béarfaidís nach mbéarfaidís
 ná_béarfainn nach mbéarfainn
@@ -2637,3 +2659,8 @@ um_an_oirthear_arís amainiris
 ós_comhair os comhair
 ós_na ó na
 ós_árd os ard
+úna_air ionadh air
+úna_ar ionadh ar
+úna_er ionadh ar
+úna_ortha ionadh orthu
+úna_uirthi ionadh uirthi
