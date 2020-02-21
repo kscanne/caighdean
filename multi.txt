@@ -1,4 +1,5 @@
 'd_eile cad eile
+'d_é cad é
 'dh_eadh dhea
 'ionns'_air ionsair
 'ionns'_air ionsar
@@ -15,6 +16,7 @@
 'mo_bhrian_óg i mo bhrín óg
 'má_gcuairt máguaird
 'n_a ina
+'na_dheabhaig ina dhiaidh
 'na_dhígh_sin ina dhiaidh sin
 'nina_dhia'dh_san ina dhiaidh sin
 'nn_a ina
@@ -22,7 +24,9 @@
 'nn_bhúr in bhur
 'nn_gach i ngach
 'nn_ár inár
+'o_chlog a chlog
 'o_chola a chodladh
+'o_ló de lá
 'on_daighe don daighe
 'san_mbioth ar bith
 'sé_r'd is éard
@@ -176,6 +180,8 @@ a_dh'éirghe ag éirí
 a_dh'éisteacht ag éisteacht
 a_dh'éisteann a éisteann
 a_dh'ól ag ól
+a_dteannt' i dteannta
+a_dteannta i dteannta
 a_dtháinig ar tháinig
 a_dtuaidh aduaidh
 a_dtug ar thug
@@ -201,6 +207,7 @@ a_mhaisge ambaiste
 a_muich amuigh
 a_muigh amuigh
 a_n'aon in aon
+a_n-' ina
 a_n-Albainn in Albain
 a_n-Eirinn in Éirinn
 a_n-achan i ngach aon
@@ -715,6 +722,7 @@ do's_na de na
 do's_na do na
 do_'n don
 do_Dhamascus don Damaisc
+do_b'_fh'rist' b'fhurasta
 do_b'fhada b'fhada
 do_b'éigean b'éigean
 do_bhain a bhain
@@ -862,6 +870,7 @@ do_mhoidh mhaidhm
 do_n don
 do_n-a dá
 do_níon d'iníon
+do_pósach pósadh
 do_raghfá rachfá
 do_rannsad a roinneadar
 do_righneadh a rinneadh
@@ -1075,6 +1084,7 @@ fásga_a_níos úscadh aníos
 fé_dhein faoi dhéin
 fé_dheoigh faoi dheoidh
 fé_lán-tsiubhal faoi lán seoil
+fé_n-' faoina
 fé_ndear faoi deara
 fé_ndeara faoi deara
 fé_ndearr faoi deara
@@ -1361,6 +1371,7 @@ i_n'éadan in éadan
 i_n'éaghmuis ina éagmais
 i_n'ídhbirt ina íobairt
 i_n'óige ina óige
+i_n-' ina
 i_n-Acaill in Acaill
 i_n-Achadh in Achadh
 i_n-Achaia san Acháia
@@ -1761,6 +1772,7 @@ le_n'ucht lena ucht
 le_n'ár lenár
 le_n'íoc lena íoc
 le_n'ól lena ól
+le_n-' lena
 le_n-a lena
 le_n-a_lin lena linn
 le_n-ar' lenar
@@ -2189,6 +2201,7 @@ ná_féadfaí nach bhféadfaí
 ná_féadfá nach bhféadfá
 ná_féadfí nach bhféadfaí
 ná_féadhfadh nach bhféadfadh
+ná_féatadh nach bhféadfadh
 ná_féudfá nach bhféadfá
 ná_fóirfeadh nach bhfóirfeadh
 ná_geallfadh nach ngeallfadh
@@ -2569,6 +2582,13 @@ sár_jab sárjab
 sár_jaib sárjab
 sé_r'd is éard
 sú_salúin sú talún
+t'_aghaidh d'aghaidh
+t'_aigne d'aigne
+t'_anam d'anam
+t'_athair d'athair
+t'_athar d'athar
+t'_fhocail d'fhocail
+t'_fhocal d'fhocal
 t-ath_scrúdú t-athscrúdú
 tSráth_Bán Srath Bán
 tar_'éise tar éis
