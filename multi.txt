@@ -28,6 +28,7 @@
 'o_chola a chodladh
 'o_ló de lá
 'on_daighe don daighe
+'s_a_chionn os a chionn
 'san_mbioth ar bith
 'sé_r'd is éard
 Abu_Dhabi Abú Daibí
@@ -157,6 +158,8 @@ a_bhfollach i bhfolach
 a_bpairt i bpáirt
 a_cCallain i gCallainn
 a_capella a capella
+a_choidhche choíche
+a_choíche choíche
 a_chára a chara
 a_céad-luaidhtear céadluaite
 a_d'_iaraidh ag iarraidh
@@ -285,6 +288,7 @@ an_Arabia an Araib
 an_allod anallód
 an_allóid anallód
 an_chead an chéad
+an_chnáimh na cnáimhe
 an_daigh don daighe
 an_dtalamh an talamh
 an_dtaobh an taobh
@@ -362,6 +366,7 @@ ar_a_threasna ar a thrasna
 ar_aist ar ais
 ar_bal ar ball
 ar_bh' arbh
+ar_bh'eadh arbh ea
 ar_bhfada arbh fhada
 ar_bhfearrde arbh fhearrde
 ar_bhfeidir arbh fhéidir
@@ -393,6 +398,7 @@ ar_feag ar feadh
 ar_fféidir arbh fhéidir
 ar_fhaid ar fad
 ar_fhaid ar fhad
+ar_fheag ar feadh
 ar_fhis ris
 ar_fhéid ar fhéad
 ar_fiuchaidh ar fiuchadh
@@ -514,9 +520,11 @@ cha_n-eadh ní hea
 chad_chuige cad chuige
 chait_bhrád ghaid bhrád
 chan_eil níl
+chan_fhuil níl
 chan_fhuilim nílim
 chan_n-eadh ní hea
 char_bhfada charbh fhada
+char_bhé charbh é
 charas_Críost chara as Críost
 cheann_scribe cheann scríbe
 chlach_loinge chabhlach loinge
@@ -543,6 +551,7 @@ ciar_dubh ciardhubh
 cib_air_bith cibé ar bith
 cibé_haca cibé acu
 cinn_fhearainn cinnfhearann
+cié_aca cé acu
 cliobar_hob cliobach
 cliobaram_hob cliobach
 cluan_mara cuán mara
@@ -1029,6 +1038,7 @@ ear_is_barr farasbarr
 en_masse en masse
 en_route en route
 en_suite en suite
+er_fheag ar feadh
 et_cetera et cetera
 ex_gratia ex gratia
 fa_dheoigh faoi dheoidh
@@ -1071,6 +1081,7 @@ fuithilí_faithilí fuile faile
 fultham_faltham fuile faile
 fut_fat futa fata
 futha_fatha futa fata
+fá_chionn faoi cheann
 fá_dear faoi deara
 fá_dhein faoi dhéin
 fá_dheoigh faoi dheoidh
@@ -1086,6 +1097,7 @@ fá_ndeara faoi deara
 fá_ndearr faoi deara
 fá_ndeár faoi deara
 fá_ndeára faoi deara
+fán_am faoin am
 fáscadh_aníos úscadh aníos
 fásga_a_níos úscadh aníos
 fé_dhein faoi dhéin
@@ -1123,6 +1135,7 @@ gearg_goirt gearr goirt
 gearr_ghoirt gearr goirt
 gearra_goirt gearr goirt
 gearra_goirt gearraí goirt
+ghiorr'_anála ghiorranáil
 ghnigh_mé déanaim
 gib_geab giob geab
 gidh_bé cibé
@@ -1218,6 +1231,7 @@ gur_bh gurbh
 gur_bh' gurbh
 gur_bh'air gurbh air
 gur_bh'amhlaig gurbh amhlaidh
+gur_bh'eisean gurbh eisean
 gur_bh'fhearr gurbh fhearr
 gur_bh'fhiú gurbh fhiú
 gur_bh'fhéidir gurbh fhéidir
@@ -1226,6 +1240,7 @@ gur_bh'urus gurbh fhurasta
 gur_bh'é gurbh é
 gur_bhadh gurbh
 gur_bhfada gurbh fhada
+gur_bhfeairrde gurbh fhearrde
 gur_bhfearr gurbh fhearr
 gur_bhfearra gurbh fhearr
 gur_bhfearrde gurbh fhearrde
@@ -1286,6 +1301,7 @@ han_mhaith han-mhaith
 han_mhinic han-mhinic
 han_minic han-mhinic
 heó_láir lárphointe
+hiarraigh_ruadha ioraí rua
 hob_ná_héib hob ná hé
 hoibín_hos hoibín host
 huga_leat chugat leat
@@ -1317,6 +1333,9 @@ i_bpé i pé
 i_do_cheap i do cheap
 i_dteannta_chéile i dteannta a chéile
 i_gainfhios i ngan fhios
+i_gan_fhios i ngan fhios
+i_gan_fios i ngan fhios
+i_ganfhios i ngan fhios
 i_gceill i gcéill
 i_gcionn i gceann
 i_gclí i gclí
@@ -1327,6 +1346,8 @@ i_gcóir i gcóir
 i_geist i gceist
 i_ghainfhios i ngan fhios
 i_ghanfhios i ngan fhios
+i_leataoibh i leataobh
+i_leath-taoibh i leataobh
 i_mBrazil sa Bhrasaíl
 i_mbarach amárach
 i_mbáireach amárach
@@ -1664,6 +1685,8 @@ i_ndóthair ar ndóigh
 i_ngainfhios i ngan fhios
 i_ngan-'is i ngan fhios
 i_ngan_'is i ngan fhios
+i_ngan_fios i ngan fhios
+i_nganfhios i ngan fhios
 i_ngioll i ngeall
 i_ngár i ngar
 i_nÉirinn in Éirinn
@@ -1697,10 +1720,12 @@ in_Arabia san Araib
 in_Iúil in Iúil
 in_a ina
 in_aiche in aice
+in_aimhréidhtigh in aimhréidh
 in_allod anallód
 in_allód anallód
 in_ar' inar
 in_dá in dhá
+in_gach i ngach
 in_imchian in imigéin
 in_imchiana in imigéin
 in_imchéin in imigéin
@@ -1754,11 +1779,13 @@ le'n_a lena
 le'n_bhur le bhur
 le_Damascus leis an Damaisc
 le_Serbhia leis an tSeirbia
+le_aon le haon
 le_ar' lenar
 le_cheile le chéile
 le_cheíle le chéile
 le_chur le cur
 le_dhul le dul
+le_feirg le fearg
 le_fhagháil le fáil
 le_fheiceáil le feiceáil
 le_ghabhail le gabháil
@@ -1832,6 +1859,7 @@ mar_a_gciana mar an gcéanna
 mar_dh'eadh mar dhea
 mar_dheadh mar dhea
 mar_ghioll mar gheall
+mara_bé murab é
 mb'_fhiú mb'fhiú
 mb'_fhéidir mb'fhéidir
 mb'_áil mb'áil
@@ -1864,6 +1892,8 @@ muid_inne muidne
 muid_sinne muidne
 mun_ba murar
 munga_manga mugadh magadh
+mur_b'é murab é
+mura_bé murab é
 mura_wil mura bhfuil
 my_faith my faith
 má_'s más
@@ -2320,6 +2350,7 @@ nár_bh'fholáir nárbh fholáir
 nár_bh'fhéidir nárbh fhéidir
 nár_bh'fhóghanta nárbh fhónta
 nár_bh'é nárbh é
+nár_bh'éigean nárbh éigean
 nár_bhfada nárbh fhada
 nár_bhfearr nárbh fhearr
 nár_bhfearra nárbh fhearr
@@ -2591,13 +2622,6 @@ sár_jab sárjab
 sár_jaib sárjab
 sé_r'd is éard
 sú_salúin sú talún
-t'_aghaidh d'aghaidh
-t'_aigne d'aigne
-t'_anam d'anam
-t'_athair d'athair
-t'_athar d'athar
-t'_fhocail d'fhocail
-t'_fhocal d'fhocal
 t-ath_scrúdú t-athscrúdú
 tSráth_Bán Srath Bán
 tar_'éise tar éis
@@ -2682,6 +2706,7 @@ um_an_oirthear_arís amainiris
 ós_a_comhair os a comhair
 ós_a_gcionn os a gcionn
 ós_a_gcomhair os a gcomhair
+ós_aird os ard
 ós_ard os ard
 ós_cionn os cionn
 ós_coinne os coinne
