@@ -14,12 +14,14 @@ binmode STDERR, ":utf8";
 
 my $verbose = 0;
 my $unknowns = 0;
+my $candidates = 0;
 my $runtests = 0;
 my $extension = '';
 
 for my $a (@ARGV) {
 	$verbose = 1 if ($a eq '-v');
 	$unknowns = 1 if ($a eq '-u');
+	$candidates = 1 if ($a eq '-c');
 	$runtests = 1 if ($a eq '-t');
 	$extension = '-gd' if ($a eq '-d');
 	$extension = '-gv' if ($a eq '-x');
@@ -455,7 +457,14 @@ sub process_one_token {
 			delete $hashref->{$tok};
 		}
 	}
-	return if ($unknowns);
+	else {
+		if ($candidates) {
+			for my $x (keys %{$hashref}) {
+				print prep_for_output($tok, $x)."\n";
+			}
+		}
+	}
+	return if ($unknowns or $candidates);
 
 	print "Input token = $tok\n" if $verbose;
 	for my $x (keys %{$hashref}) {
