@@ -124,6 +124,7 @@ Mac_Lochlann Mac Lochlainn
 Mac_Piaras Mac Piarais
 Maigh_Cuillin Maigh Cuilinn
 Meirí_Bál Meirí Bál
+Melas_Chasma Melas Chasma
 Mhic_Furra Mhic Furra
 Mhic_Íre Mhic Íre
 Muir_chlúmhach Máirín an chlúimh
@@ -156,6 +157,7 @@ San_Iuan San Juan
 Sancta_Maria Sancta Maria
 Sao_Paulo São Paulo
 Shabhal_Mòr Shabhal Mòr
+Shalbatana_Vallis Shalbatana Vallis
 Sinn_Féineach Sinn Féineach
 Spion_Cop Spion Kop
 Sri_Lanka Srí Lanca
@@ -182,6 +184,7 @@ a_b'fhearr ab fhearr
 a_b'fheárr ab fhearr
 a_b'fhéidir ab fhéidir
 a_bainm ab ainm
+a_bfheárr ab fhearr
 a_bhfad i bhfad
 a_bhfadh i bhfad
 a_bhfasta i bhfostú
@@ -473,6 +476,7 @@ ar_ttúis ar dtús
 ar_tús ar dtús
 ar_uain_ar_éigean ar inn ar éigean
 ar_uainibh ar uainibh
+ar_éigin ar éigean
 ar_éis tar éis
 ars'_eisean ar seisean
 ars'_ise ar sise
@@ -788,8 +792,10 @@ do_'n don
 do_Dhamascus don Damaisc
 do_b'_fh'rist' b'fhurasta
 do_b'ea ab ea
+do_b'eadh ab ea
 do_b'fhada b'fhada
 do_b'éigean b'éigean
+do_bfhearra b'fhearr
 do_bhain a bhain
 do_bhain bhain
 do_bhaineas bhain mé
@@ -815,6 +821,7 @@ do_bhís-se a bhí tusa
 do_bhís-se bhí tusa
 do_budh ba
 do_bádhfaí bháfaí
+do_cailleadh cailleadh
 do_chailleas chaill mé
 do_chaith a chaith
 do_chaith chaith
@@ -864,6 +871,7 @@ do_chítí d'fheictí
 do_connaich chonaic
 do_cuireadh cuireadh
 do_deineadar rinneadar
+do_deineadh a rinneadh
 do_deineadh rinneadh
 do_deunfadh a dhéanfadh
 do_deunfadh dhéanfadh
@@ -910,6 +918,8 @@ do_ghabh a ghabh
 do_ghabh ghabh
 do_ghabhas ghabh mé
 do_ghearras ghearr mé
+do_ghlac a ghlac
+do_ghlac ghlac
 do_ghlacas ghlac mé
 do_ghlaodhas ghlaoigh mé
 do_ghlaos ghlaoigh mé
@@ -934,9 +944,13 @@ do_léigheas léigh mé
 do_ló de ló
 do_marbhad a maraíodh
 do_marbhad maraíodh
+do_mhair a mhair
+do_mhair mhair
 do_mharbhsad a mharaíodar
 do_mharbhsad mharaíodar
 do_mhoidh mhaidhm
+do_mhol a mhol
+do_mhol mhol
 do_n don
 do_n-a dá
 do_nighean d'iníon
@@ -969,6 +983,8 @@ do_ráidh a dúirt
 do_ráidh dúirt
 do_réir de réir
 do_scréachas scréach mé
+do_scríobh a scríobh
+do_scríobh scríobh
 do_sgaoil a scaoil
 do_sgaoil scaoil
 do_sgríobhas scríobh mé
@@ -1327,6 +1343,7 @@ gur_bhfearra gurbh fhearr
 gur_bhfearrde gurbh fhearrde
 gur_bhféidir gurbh fhéidir
 gur_bhudh gurbh
+gur_bhé gurbh é
 gur_cómha gur comhionann
 gur_deineadh go ndearnadh
 gur_dh'imi' gur imigh
@@ -1547,6 +1564,7 @@ i_n-achan i ngach aon
 i_n-achrann in achrann
 i_n-adhbhadhaibh in adhbha
 i_n-agaidh in aghaidh
+i_n-agha'n in aghaidh an
 i_n-aghaid in aghaidh
 i_n-aghaidh in aghaidh
 i_n-aibíd in aibíd
@@ -1795,20 +1813,52 @@ iar_dtain iardain
 iar_n-a arna
 id'_fhochair-se i d'fhochairse
 id_aghaidh-se i d'aghaidhse
+id_aigne i d'aigne
+id_anam i d'anam
+id_aonar i d'aonar
+id_intinn i d'intinn
+id_óinseach i d'óinseach
+id_óinsig i d'óinseach
+id_óinsigh i d'óinseach
 idée_fixe idée fixe
 im'_aghaidh-se i m'aghaidhse
 im'_aigne i m'aigne
 im'_fhochair-se i m'fhochairse
+im_aghaidh i m'aghaidh
+im_aice i m'aice
+im_aigne i m'aigne
+im_aonar i m'aonar
+im_bhéal i mo bhéal
 im_cheann i mo cheann
+im_chluasa i mo chluasa
+im_chodladh i mo chodladh
+im_choinne i mo choinne
+im_choinnibh i mo choinne
+im_chroidhe i mo chroí
 im_chroí i mo chroí
+im_chómhnuidhe i mo chónaí
 im_chónaí i mo chónaí
 im_dhiaidh i mo dhiaidh
+im_fhochair i m'fhochair
+im_ghoile i mo ghoile
+im_intinn i m'intinn
 im_leith i mo leith
+im_láimh i mo láimh
+im_phóca i mo phóca
 im_shaol i mo shaol
 im_sheasamh i mo sheasamh
+im_sheilbh i mo sheilbh
+im_shuidhe i mo shuí
 im_shuí i mo shuí
+im_shúilibh i mo shúile
+im_thaobh i mo thaobh
+im_thimcheall i mo thimpeall
+im_threo i mo threo
+im_threó i mo threo
 im_thuairim i mo thuairim
 im_thuairimse i mo thuairimse
+im_thímcheall i mo thimpeall
+im_óige i m'óige
 in_Arabia san Araib
 in_Iúil in Iúil
 in_a ina
@@ -1921,6 +1971,7 @@ leith_istigh laistigh
 lem'_aghaidh-se le m'aghaidhse
 lem'_ais le m'ais
 lem_ais le m'ais
+lem_aisse le m'ais-se
 les_an leis an
 les_gach le gach
 lia_bró liabró
@@ -2459,6 +2510,7 @@ nár_bh'éigean nárbh éigean
 nár_bhfada nárbh fhada
 nár_bhfearr nárbh fhearr
 nár_bhfearra nárbh fhearr
+nár_bhfhios nárbh fhios
 nár_bhfhéidir nárbh fhéidir
 nár_bhfoláir nárbh fholáir
 nár_bhfuláir nárbh fholáir
