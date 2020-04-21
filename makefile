@@ -160,7 +160,7 @@ cgaeval: cga-output.txt FORCE
 SEANCHORPAS=${HOME}/gaeilge/caighdean/prestandard/corpus.txt
 SEANTOKENS=${HOME}/gaeilge/caighdean/prestandard/alltokens.txt
 maint/unknown.txt: $(SEANCHORPAS) multi.txt pairs.txt pairs-local.txt rules.txt spurious.txt alltokens.sh alltokens.pl nasc.pl tiomanai.sh
-	cat $(SEANCHORPAS) | bash tiomanai.sh -u | egrep '[A-Za-zÁÉÍÓÚáéíóúÀÈÌÒÙàèìòù]' | egrep -v '^[:;]' | LC_ALL=C egrep -v '^@[A-Za-z0-9_]+$$' | sort | uniq -c | sort -r -n | sed 's/^ *//' > $@
+	cat $(SEANCHORPAS) | bash tiomanai.sh -u | egrep '[A-Za-zÁÉÍÓÚáéíóúÀÈÌÒÙàèìòù]' | egrep -v '[.:;]' | LC_ALL=C egrep -v '^@[A-Za-z0-9_]+$$' | sort | uniq -c | sort -r -n | sed 's/^ *//' > $@
 
 maint/oov.txt: maint/unknown.txt $(SEANCHORPAS) alltokens.sh alltokens.pl nasc.pl
 	echo `date '+%Y-%m-%d %H:%M:%S'` `(cat maint/unknown.txt | sed 's/ .*//' | addem; echo '10000'; echo '*'; cat $(SEANTOKENS) | egrep -v '^[<\\]' | wc -l; echo '/'; echo 'p') | dc | sed 's/..$$/.&/'` >> $@
@@ -169,7 +169,7 @@ maint/oov.txt: maint/unknown.txt $(SEANCHORPAS) alltokens.sh alltokens.pl nasc.p
 GDCORPUS=${HOME}/seal/idirlamha/gd/freq/corpus.txt
 GDTOKENS=${HOME}/seal/idirlamha/gd/freq/alltokens.txt
 maint/unknown-gd.txt: $(GDCORPUS) multi-gd.txt pairs-gd.txt pairs-local-gd.txt rules-gd.txt spurious-gd.txt alltokens.sh alltokens.pl nasc.pl tiomanai.sh
-	cat $(GDCORPUS) | bash tiomanai.sh -d -u | egrep '[A-Za-zÁÉÍÓÚáéíóúÀÈÌÒÙàèìòù]' | egrep -v '^[:;]' | LC_ALL=C egrep -v '^@[A-Za-z0-9_]+$$' | sort | uniq -c | sort -r -n | sed 's/^ *//' > $@
+	cat $(GDCORPUS) | bash tiomanai.sh -d -u | egrep '[A-Za-zÁÉÍÓÚáéíóúÀÈÌÒÙàèìòù]' | egrep -v '[.:;]' | LC_ALL=C egrep -v '^@[A-Za-z0-9_]+$$' | sort | uniq -c | sort -r -n | sed 's/^ *//' > $@
 
 maint/oov-gd.txt: maint/unknown-gd.txt $(GDCORPUS) alltokens.sh alltokens.pl nasc.pl
 	echo `date '+%Y-%m-%d %H:%M:%S'` `(cat maint/unknown-gd.txt | sed 's/ .*//' | addem; echo '10000'; echo '*'; cat $(GDTOKENS) | egrep -v '^[<\\]' | wc -l; echo '/'; echo 'p') | dc | sed 's/..$$/.&/'` >> $@
@@ -178,7 +178,7 @@ maint/oov-gd.txt: maint/unknown-gd.txt $(GDCORPUS) alltokens.sh alltokens.pl nas
 GVCORPUS=${HOME}/seal/idirlamha/gv/freq/corpus.txt
 GVTOKENS=${HOME}/seal/idirlamha/gv/freq/alltokens.txt
 maint/unknown-gv.txt: $(GVCORPUS) multi-gv.txt pairs-gv.txt pairs-local-gv.txt rules-gv.txt spurious-gv.txt alltokens.sh alltokens.pl nasc.pl tiomanai.sh
-	cat $(GVCORPUS) | bash tiomanai.sh -x -u | egrep '[A-Za-zçÇÁÉÍÓÚáéíóúÀÈÌÒÙàèìòù]' | egrep -v '^[:;]' | LC_ALL=C egrep -v '^@[A-Za-z0-9_]+$$' | sort | uniq -c | sort -r -n | sed 's/^ *//' > $@
+	cat $(GVCORPUS) | bash tiomanai.sh -x -u | egrep '[A-Za-zçÇÁÉÍÓÚáéíóúÀÈÌÒÙàèìòù]' | egrep -v '[.:;]' | LC_ALL=C egrep -v '^@[A-Za-z0-9_]+$$' | sort | uniq -c | sort -r -n | sed 's/^ *//' > $@
 
 maint/oov-gv.txt: maint/unknown-gv.txt $(GVCORPUS) alltokens.sh alltokens.pl nasc.pl
 	echo `date '+%Y-%m-%d %H:%M:%S'` `(cat maint/unknown-gv.txt | sed 's/ .*//' | addem; echo '10000'; echo '*'; cat $(GVTOKENS) | egrep -v '^[<\\]' | wc -l; echo '/'; echo 'p') | dc | sed 's/..$$/.&/'` >> $@
