@@ -26,7 +26,7 @@ my @fixed = (
 	qr/<[\/]?[A-Za-z]([^>]+)?>/,             # markup
 	qr/(?:https?|ftp):\/\/[A-ZÁÉÍÓÚa-záéíóú0-9\/.:=_%?&~+;\$@\#()-]+[A-ZÁÉÍÓÚa-záéíóú0-9\/=]/, # URLs
 	qr/[A-Za-z0-9][A-Za-z0-9._]*@[A-Za-z0-9.]+[A-Za-z0-9]/,   # emails
-	qr/(?:www\.)?([A-ZÁÉÍÓÚa-záéíóú0-9-]+\.){1,3}(?:blog|ca|com|ed?u|ie|info|net|org|(?:org|gov|co|ac)\.uk)/, # URLs w/o protocol
+	qr/(?:www\.)?([A-ZÁÉÍÓÚa-záéíóú0-9-]+\.){1,3}(?:blog|ca|com|ed?u|i[em]|info|net|org|scot|(?:org|gov|co|ac)\.uk)/, # URLs w/o protocol
 	qr/&([A-Za-z.]+|#[0-9]+);/, # SGML entities &amp; &quot; &#2020; etc.
 	qr/%([0-9]\$)?[A-Za-z]+/, # l10n vars, %1$S, %S, %d, %lu, etc.
 	qr/[:;=]['’0o-]?[()\]\\{}|dpDP][)]*/,  # emoticons
