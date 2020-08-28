@@ -41,6 +41,9 @@ training-4.txt : alltokens.txt
 alltokens.txt: $(CORPUS) cleanup.sh ../alltokens.pl
 	cat $(CORPUS) | bash cleanup.sh | perl ../alltokens.pl "'-" "0-9#_@" | perl denoise.pl -v | perl tolow.pl | sed 's/^[0-9][0-9,.:]*$$/<NUM>/' | sed '/:\/\//s/^.*$$/<URI>/' | sed '/.\{70\}/s/.*/<LONG>/' | sed 's/^@[A-Za-z0-9_][A-Za-z0-9_]*$$/<USER>/' | sed 's/^[A-Za-z0-9].*@.*$$/<EMAIL>/' > $@
 
+# like alltokens but where I don't want to shuffle source text sentences!
+alltokens-order.txt: corpus-pre.txt cleanup.sh ../alltokens.pl
+	cat corpus-pre.txt | egrep '[.?!"”]$$' | bash cleanup.sh | perl ../alltokens.pl "'-" "0-9#_@" | perl denoise.pl -v | perl tolow.pl | sed 's/^[0-9][0-9,.:]*$$/<NUM>/' | sed '/:\/\//s/^.*$$/<URI>/' | sed '/.\{70\}/s/.*/<LONG>/' | sed 's/^@[A-Za-z0-9_][A-Za-z0-9_]*$$/<USER>/' | sed 's/^[A-Za-z0-9].*@.*$$/<EMAIL>/' > $@
 
 #######################################
 ## Targets below are for KPS only!!  ##
