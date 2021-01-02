@@ -418,6 +418,8 @@ Iar_Thuath Iarthuaisceart
 Inbhir_Narann Inbhir Narann
 Inbhir_Nis Inbhir Nis
 Inbhir_Nìs Inbhir Nis
+Innis_Tìle an Íoslainn
+Innis_Tìle na hÍoslainne
 Innis_Tìleach Íoslannach
 Innis_Tìleach Íoslannacha
 Innis_Tìlis Íoslainnis
@@ -11328,6 +11330,7 @@ ann_an_Iarac san Iaráic
 ann_an_Iarag san Iaráic
 ann_an_Iarain san Iaráin
 ann_an_Iaran san Iaráin
+ann_an_Innis_Tìle san Íoslainn
 ann_an_Iordan san Iordáin
 ann_an_Ioràc san Iaráic
 ann_an_Ioràn san Iaráin
@@ -12813,6 +12816,8 @@ bho_Iarac ón Iaráic
 bho_Iarag ón Iaráic
 bho_Iarain ón Iaráin
 bho_Iaran ón Iaráin
+bho_Innis_Tile ón Íoslainn
+bho_Innis_Tìle ón Íoslainn
 bho_Iordan ón Iordáin
 bho_Ioràc ón Iaráic
 bho_Ioràn ón Iaráin
@@ -13320,14 +13325,14 @@ bhuaileadh_iad bhuailfidís
 bhuaileadh_iad bhuailidís
 bhuaileadh_tu bhuailfeá
 bhuailidh_sinn bhuailfimid
-bhuain_iad bhuaineadar
-bhuain_iad mbuaineadar
-bhuain_sinn bhuaineamar
-bhuain_sinn mbuaineamar
-bhuaineadh_iad bhuainfidís
-bhuaineadh_iad bhuainidís
-bhuaineadh_tu bhuainfeá
-bhuainidh_sinn bhuainfimid
+bhuain_iad bhuanadar
+bhuain_iad mbuanadar
+bhuain_sinn bhuanamar
+bhuain_sinn mbuanamar
+bhuaineadh_iad bhuanaidís
+bhuaineadh_iad bhuanfaidís
+bhuaineadh_tu bhuanfá
+bhuainidh_sinn bhuanfaimid
 bhuair_iad bhuaireadar
 bhuair_iad chathaíodar
 bhuair_iad gcathaíodar
@@ -17199,12 +17204,12 @@ buaileadh_iad mbuailidís
 buaileadh_tu mbuailfeá
 buailidh_sinn buailfimid
 buailidh_sinn mbuailfimid
-buaineadh_iad buainidís
-buaineadh_iad mbuainfidís
-buaineadh_iad mbuainidís
-buaineadh_tu mbuainfeá
-buainidh_sinn buainfimid
-buainidh_sinn mbuainfimid
+buaineadh_iad buanaidís
+buaineadh_iad mbuanaidís
+buaineadh_iad mbuanfaidís
+buaineadh_tu mbuanfá
+buainidh_sinn buanfaimid
+buainidh_sinn mbuanfaimid
 buaireadh_iad buairidís
 buaireadh_iad cathaídís
 buaireadh_iad gcathaídís
@@ -47785,6 +47790,7 @@ gìosgaidh_sinn díoscfaimid
 gìosgaidh_sinn ndíoscfaimid
 gìosgan_fhiacal díoscán fiacla
 gìosgan_fhiacall díoscán fiacla
+h-Innis_Tìle hÍoslainne
 h-Innis_Tìlis hÍoslainnis
 h-Innise_Tìlis hÍoslainnise
 h-abaicheadh_iad haibídís
