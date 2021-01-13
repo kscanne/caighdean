@@ -189,6 +189,7 @@ Feailley_Sarn Féile Satairn
 Fer_Darig Fear Darig
 Fianna_Fail Fianna Fáil
 Fin_McCool Fionn Mac Cumhaill
+Futbolo_klubas Futbolo klubas
 Gael_Albinagh Gael Albanach
 Gaelg_ny_Halbey Gaeilge na hAlban
 Gaelg_ny_h-Albey Gaeilge na hAlban
@@ -3868,6 +3869,9 @@ chiareagh_oo cheapfá
 chiareagh_oo sholáthrófá
 chiareagh_shin cheapfaimis
 chiareagh_shin sholáthróimis
+chiark_rhennee phatraisc
+chiark_rhennee phatraisce
+chiarkyn_rhennee phatraiscí
 chiart_moaney mhóincheart
 chiart_moaney mhóinchirt
 chiartee_ad cheartaíodar
@@ -5803,6 +5807,7 @@ cre'n_fa_v'eh cén fáth a raibh sé
 cre'n_fa_v'ou cén fáth a raibh tú
 cre'n_fa_va cén fáth a raibh
 cre'n_fa_va'n cén fáth a raibh an
+cre'n_monney_dy cén sórt
 cre'n_oyr cén fáth
 cre'n_oyr_hie cén fáth a ndeachaigh
 cre'n_oyr_ren cén fáth a ndearna
@@ -6185,6 +6190,7 @@ daggyrt_shin d'éilíomar
 dagh_ooilley gach uile
 dagh_ooilley_ard gach uile áit
 dagh_ooilley_cor gach re
+dagh_ooilley_peigh gach uile dhuine
 dagh_ooilley_pheiagh gach uile dhuine
 dagh_ooilley_voayl gach uile áit
 daght_ad d'iompraíodar
@@ -8188,6 +8194,9 @@ dy_bog go bog
 dy_bollagh amach is amach
 dy_bollagh ar fad
 dy_bollagh go hiomlán
+dy_bollaght amach is amach
+dy_bollaght ar fad
+dy_bollaght go hiomlán
 dy_bra go brách
 dy_braa go brách
 dy_braagh go brách
@@ -13273,6 +13282,9 @@ giareagh_shin cheapfaimis
 giareagh_shin gceapfaimis
 giareagh_shin sholáthróimis
 giareagh_shin soláthróimis
+giark_rhennee bpatraisc
+giark_rhennee bpatraisce
+giarkyn_rhennee bpatraiscí
 giarraghyn_feddan vaiseachtóimí
 giarrey_beg gearradh beag
 giarrey_cughlinagh cónghearradh
@@ -18207,6 +18219,7 @@ jeh_my_yoin as mo stuaim
 jeh_my_yoin as mo stuaim féin
 jeh_my_yoin_hene as mo stuaim féin
 jeh_ny_cosnaghyn den bhrabús
+jeh_ny_imneaghyn den imní
 jeh_nyn de bhur
 jeh_nyn dá
 jeh_nyn dár
@@ -18618,7 +18631,10 @@ kiare_thousaneyn ceithre mhíle
 kiareyder_shirveish_eddyr-voggyl soláthraí seirbhísí idirlín
 kiark_cholgagh cearc cholgach
 kiark_freoaie cearc fhraoigh
+kiark_rhennee patraisc
+kiark_rhennee patraisce
 kiark_ushtey cearc uisce
+kiarkyn_rhennee patraiscí
 kiart_dy_liooar ceart go leor
 kiart_enmys ceart ainmnithe
 kiart_moaney móincheart
@@ -23420,6 +23436,9 @@ my_cheird-eeastee m'iascaireachta
 my_chenjallys mo chineáltas
 my_cheoieid m'fhiántais
 my_cheoieid m'fhiántas
+my_chercheen m'ainniseoir
+my_chercheen m'ainniseora
+my_chercheenyn m'ainniseoirí
 my_cherçheen m'ainniseoir
 my_cherçheen m'ainniseora
 my_cherçheenyn m'ainniseoirí
@@ -24422,6 +24441,14 @@ my_hielheihys m'ospidéal
 my_hielheihys m'ospidéil
 my_hielheihys m'otharlainne
 my_hielheihys m'otharlann
+my_hielliu m'uinnimint
+my_hielliu m'uinniminte
+my_hielliu m'ungadh
+my_hielliu m'ungtha
+my_hielliu m'íce
+my_hielliu m'íoc
+my_hielliuyn m'uinnimintí
+my_hielliuyn m'íoca
 my_hieyn-cloie m'amharclann
 my_hieyn-cloie m'amharclanna
 my_hieyn-lheihys m'ospidéal
@@ -24696,6 +24723,14 @@ my_hreeuaghyn m'achrainn
 my_hreeuaghyn m'achrann
 my_hreeuailtys m'eascairdeas
 my_hreeuailtys m'eascairdis
+my_hreeue m'achrainn
+my_hreeue m'achrann
+my_hreeue m'aighneas
+my_hreeue m'aighnis
+my_hreeue m'easaontais
+my_hreeue m'easaontas
+my_hreeue m'imreas
+my_hreeue m'imris
 my_hreig-ys má thréigeann
 my_hreigys má thréigeann
 my_hreihid m'ainnise
@@ -25879,6 +25914,8 @@ my_vee-hushtey m'aineolais
 my_vee-hushtey m'aineolas
 my_vee-ooashley m'easonóir
 my_vee-ooashley m'easonóra
+my_vee-oural m'ofráil
+my_vee-oural m'ofrála
 my_vee-ourys m'amhrais
 my_vee-ourys m'amhras
 my_vee-unnaneys m'easaontais
@@ -27925,6 +27962,9 @@ ngeidagh_oo ghoidfeá
 ngeidagh_oo ngoidfeá
 ngeidagh_shin ghoidfimis
 ngeidagh_shin ngoidfimis
+ngeillagh_ad scairdfidís
+ngeillagh_oo scairdfeá
+ngeillagh_shin scairdfimis
 ngeragh_ad ghairfidís
 ngeragh_ad ngairfidís
 ngeragh_oo ghairfeá
@@ -27961,6 +28001,9 @@ ngeuleeagh_oo gheimhleofá
 ngeuleeagh_oo ngeimhleofá
 ngeuleeagh_shin gheimhleoimis
 ngeuleeagh_shin ngeimhleoimis
+ngeyllagh_ad scairdfidís
+ngeyllagh_oo scairdfeá
+ngeyllagh_shin scairdfimis
 ngeyreeagh_ad ghéaróidís
 ngeyreeagh_ad ngéaróidís
 ngeyreeagh_oo ghéarófá
@@ -29333,6 +29376,7 @@ ny_Romanee na Rómhánach
 ny_Romanee na Rómhánaigh
 ny_SU SAM
 ny_Sansibar Sainsibeár
+ny_Satanee na Sátanaigh
 ny_Sheshaght_Gailckagh an Chumainn Ghaelaigh
 ny_Slyst_Iuaagagh an Chósta Eabhair
 ny_Sostnee na Sasanach
@@ -29469,6 +29513,7 @@ ny_croink na cnoic
 ny_croink na gcnoc
 ny_cruink na cnoic
 ny_cruink na gcnoc
+ny_curpin an t-eireaball méith
 ny_cuttee_ghoarney an fobhríste dornálaí
 ny_deiney na bhfear
 ny_deiney na daoine
@@ -29555,6 +29600,7 @@ ny_hrooid tríd
 ny_hrooidsyn tríd
 ny_imlee lucht na huirísle
 ny_imlee na daoine ísle
+ny_imneaghyn an imní
 ny_jallooyn na bpictiúr
 ny_jallooyn na híomhánna
 ny_jallooyn na n-íomhánna
@@ -31019,6 +31065,8 @@ peie_vreinn cudail
 peie_vreinn cudal
 peieyn_vreinn cudail
 peieyn_vreinn cudal
+peigh_ennagh duine éigin
+peigh_erbee duine ar bith
 penn_grine-virragh peann gránbhiorach
 penn_leoaie peann luaidhe
 penn_çhybbyrt peann tobair
@@ -39504,6 +39552,7 @@ y_cheilley a chéile
 y_chied-vess na céadtorthaí
 y_chooyl_ayms ar mo chúl
 y_cloudeyrys an preas
+y_curpin an t-eireaball méith
 y_derrey_yeh an duine amháin
 y_fa_t'eh an fáth a bhfuil sé
 y_fa_ta an fáth a bhfuil
@@ -39944,6 +39993,11 @@ yeihoo_as_tree_feed sheachtódú
 yeihooyn_as_kiare_feed nóchaduithe
 yeihooyn_as_tree_feed seachtóduithe
 yeihooyn_as_tree_feed sheachtóduithe
+yeill_ad scairdeadar
+yeill_shin scairdeamar
+yeillagh_ad scairdfidís
+yeillagh_oo scairdfeá
+yeillagh_shin scairdfimis
 yelliu_ad stangadar
 yelliu_shin stangamar
 yelliuagh_ad stangfaidís
@@ -40084,6 +40138,11 @@ yeulee_shin ngeimhlíomar
 yeuleeagh_ad gheimhleoidís
 yeuleeagh_oo gheimhleofá
 yeuleeagh_shin gheimhleoimis
+yeyll_ad scairdeadar
+yeyll_shin scairdeamar
+yeyllagh_ad scairdfidís
+yeyllagh_oo scairdfeá
+yeyllagh_shin scairdfimis
 yeyree_ad ghéaraíodar
 yeyree_ad ngéaraíodar
 yeyree_shin ghéaraíomar
@@ -40457,6 +40516,7 @@ yn_breck_frangagh an bholgach fhrancach
 yn_chied-vess na céadtorthaí
 yn_chruinnaght an cruinniú
 yn_cloudeyrys an preas
+yn_curpin an t-eireaball méith
 yn_derrey_yeh an duine amháin
 yn_fa_t'eh an fáth a bhfuil sé
 yn_fa_ta an fáth a bhfuil
@@ -40465,12 +40525,15 @@ yn_fondaghey infhoirfe
 yn_immanagh an tiománaí
 yn_inneen-'sy-leigh_echey bean a mhic
 yn_inneen-'sy-leigh_eck bean a mic
+yn_magher-foalley gort na fola
+yn_magher_foalley gort na fola
 yn_mooinjer_veggey na daoine maithe
 yn_naa_laa an chéad lá eile
 yn_ree an rí
 yn_scaailley_ruy soiriáis
 yn_scailley_ruy soiriáis
 yn_shenn_sleih na seandaoine
+yn_slane_curpin an t-eireaball méith go léir
 yn_sleih_aegey na daoine óga
 yn_sleih_boghtey na daoine bochta
 yn_sleih_voghtey na daoine bochta
@@ -40806,6 +40869,8 @@ yystyn_poddash phorainséir
 çhiow_ny_cruinney téamh domhanda
 çhiowder_ushtey téitheoir uisce
 çhirveish_cherree pianseirbhís
+çhirveish_cherree pianseirbhíse
+çhirveish_ny_merriu sochraide
 çhirveish_ny_merriu tsochraid
 çhleiy_varrey harpún
 çhleiy_varrey muirgha
