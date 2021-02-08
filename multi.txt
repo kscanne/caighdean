@@ -60,16 +60,19 @@ British_Airways British Airways
 Buiríos_Ó_Luigheach Buiríos Ó Luigheach
 Bun_Chranncha Bun Cranncha
 Cambridge_Analytica Cambridge Analytica
+Ceann_tSáile Cionn tSáile
 Cearnóg_Muirfean Cearnóg Mhuirfean
 Champs_Elysees Champs-Élysées
 Champs_Elysées Champs-Élysées
 Champs_Élysees Champs-Élysées
 Champs_Élysées Champs-Élysées
 Che_Guevara Che Guevara
+Cheann_tSáile Chionn tSáile
 Chill_Aithnín Chill Aithnín
 Chill_Díoma Chill Díoma
 Chill_Uird Chill Uird
 Chinua_Achebe Chinua Achebe
+Chionn_tSáile Chionn tSáile
 Chnoc_Mordán Chnoc Mordáin
 Choláiste_Oiriall Choláiste Oiriall
 Cill_Aithnín Cill Aithnín
@@ -78,6 +81,7 @@ Cill_Mac_Ciarainn Cill Mhic Iarainn
 Cill_Uird Cill Uird
 Cill_mac_Ciarainn Cill Mhic Iarainn
 Cill_tSeadhna Cill tSéadhna
+Cionn_tSáile Cionn tSáile
 Cnoc_Mordán Cnoc Mordáin
 Coca_Cola Coca Cola
 Coláiste_Oiriall Coláiste Oiriall
@@ -514,6 +518,7 @@ ars_eisean ar seisean
 ars_ise ar sise
 arsa'_n arsan
 as_Samaria as an tSamáir
+as_Samária as an tSamáir
 as_a_chomhair os a chomhair
 as_a_comhair os a comhair
 as_cionn os cionn
@@ -732,7 +737,7 @@ da_ríribh dáiríre
 dall_an_phúicín dalladh púicín
 dall_na_mullóg dallamullóg
 dalladh_mullóg dallamullóg
-dar_an_leabhra dar an leabhar de
+dar_an_leabhra dar an leabhar
 dar_bainm darb ainm
 dar_bh'ainm darbh ainm
 dar_bhainm darbh ainm
@@ -751,13 +756,21 @@ de_Buis de Buis
 de_Maupassant de Maupassant
 de_Varad de Varad
 de_aghaidheannaí d'aghaidheanna
+de_fhaill d'fhaill
+de_fhear d'fhear
 de_fheirg d'fhearg
+de_fheóíl d'fheoil
+de_fhionnadh d'fhionnadh
+de_fhoclaí d'fhocail
+de_fhonn d'fhonn
+de_fhuacht d'fhuacht
 de_ghorta_gharta de dhoirte dhairte
 de_ghurta_gharta de dhoirte dhairte
 de_jure de jure
 de_lis de lis
 de_n-a dá
 de_níon d'iníon
+de_oidhche d'oíche
 dem'_aois de m'aois
 dh'á_ríribh dáiríre
 dhalladh_mullóg dhallamullóg
@@ -827,6 +840,8 @@ do's_na de na
 do's_na do na
 do_'n don
 do_Dhamascus don Damaisc
+do_Iordan den Iordáin
+do_Iordan don Iordáin
 do_b'_fh'rist' b'fhurasta
 do_b'ea ab ea
 do_b'eadh ab ea
@@ -838,6 +853,9 @@ do_bhain bhain
 do_bhaineas bhain mé
 do_bheadh a bheadh
 do_bheadh bheadh
+do_bhiadh a bhíodh
+do_bhiadh bhíodh
+do_bhiadh do bhia
 do_bhris a bhris
 do_bhris bhris
 do_bhríg de bhrí
@@ -894,6 +912,8 @@ do_chuir a chuir
 do_chuir chuir
 do_chuireadar chuireadar
 do_chuireas chuir mé
+do_chum chum
+do_chum chun
 do_chéill de chiall
 do_chéill do chiall
 do_chí a fheiceann
@@ -924,6 +944,7 @@ do_dheineas a rinne mé
 do_dheineas rinne mé
 do_dheinis a rinne tú
 do_dheinis rinne tú
+do_dhruid dhruid
 do_dhéanaid a dhéanann siad
 do_dhéanaid déanann siad
 do_dhéin a rinne
@@ -976,6 +997,7 @@ do_hug thug
 do_labhair a labhair
 do_labhair labhair
 do_labhras labhair mé
+do_leag leag
 do_leanas lean mé
 do_lingdís lingidís
 do_luigheas luigh mé
@@ -1015,6 +1037,7 @@ do_rinneas rinne mé
 do_ritheas rith mé
 do_riug a rug
 do_riug rug
+do_roinn roinn
 do_ronnadh roinneadh
 do_rug a rug
 do_rug rug
@@ -1045,6 +1068,7 @@ do_tharraing tharraing
 do_theip a theip
 do_theip theip
 do_thochasuíos thochais mé
+do_thosnuigh thosaigh
 do_thug a thug
 do_thug thug
 do_thugas thug mé
@@ -1244,10 +1268,12 @@ fébh_mar faoi mar
 fén_dtráigh faoin trá
 fén_dtráth faoin tráth
 fúiste_fáiste faoiste fáiste
+gCeann_tSáile gCionn tSáile
 gCeanntar_gCumhang gCeantar Cúng
 gCill_Aithnín gCill Aithnín
 gCill_Díoma gCill Díoma
 gCill_Uird gCill Uird
+gCionn_tSáile gCionn tSáile
 gach_le_Domhnach gach re Domhnach
 gach_le_lá gach re lá
 gach_n'aon gach aon
@@ -1273,7 +1299,9 @@ gidh_bé cibé
 gile_guaire gírle guairle
 giorr_análach gearranálach
 go_Damascus go dtí an Damaisc
+go_Iordan go dtí an Iordáin
 go_Samaria go dtí an tSamáir
+go_Samária go dtí an tSamáir
 go_bráth go brách
 go_cé cad é
 go_cé'n cad é an
@@ -1463,6 +1491,8 @@ hurta_harta húirte háirte
 hólam_tró holam halam
 i_Samaria sa tSamáir
 i_Samaría sa tSamáir
+i_Samária sa tSamáir
+i_Samáría sa tSamáir
 i_Serbhia sa tSeirbia
 i_bPersia sa Pheirs
 i_bfad i bhfad
@@ -1498,6 +1528,7 @@ i_ghanfhios i ngan fhios
 i_leataoibh i leataobh
 i_leath-taoibh i leataobh
 i_mBrazil sa Bhrasaíl
+i_maille maille
 i_mbarach amárach
 i_mbáireach amárach
 i_mbárach amárach
@@ -1966,6 +1997,7 @@ le'n_a lena
 le'n_bhur le bhur
 le_Damascus leis an Damaisc
 le_Serbhia leis an tSeirbia
+le_a lena
 le_aon le haon
 le_ar' lenar
 le_cheile le chéile
@@ -2732,12 +2764,15 @@ rae_roilleachán ré roithleagán
 rae_roilleacán ré roithleagán
 ragha_míd rachaimid
 re'_raile le chéile
+re_a lena
 re_n'ais lena ais
 re_n-a lena
 res_publica res publica
 riail-bhlianacht_cheannaigh blianacht cheannaigh chaighdeánach
+righ_Saxan rí Shasana
 rileo_ró roithleoró
 ris_a lena
+rite_reaite rite reaite
 ro_chan a chan
 rom_com rom com
 ros_samh ró samh
@@ -2747,6 +2782,8 @@ rápal_húta raiple húta
 ré'_raile le chéile
 ré_chéile le chéile
 rém'_ais le m'ais
+rí_Saxan rí Shasana
+rígh_Saxan rí Shasana
 ró_bheag róbheag
 ró_chruaidh róchrua
 ró_dheacair ródheacair
@@ -2841,12 +2878,14 @@ sú_salúin sú talún
 t-ath_scrúdú t-athscrúdú
 tSráth_Bán Srath Bán
 tar_'éise tar éis
+tar_Iordan thar an Iordáin
 tar_a_éise tar éis
 tar_a_éisibh tar éis
 tar_cheann thar ceann
 tear_and_'ounds tear and 'ounds
 thar'n_ais ar ais
 thar_leár thar lear
+thar_n-a arna
 thar_n-ais ar ais
 thar_éis tar éis
 thar_éise tar éis
