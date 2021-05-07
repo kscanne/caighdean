@@ -166,6 +166,10 @@ maint/oov.txt: maint/unknown.txt $(SEANCHORPAS) alltokens.sh alltokens.pl nasc.p
 	echo `date '+%Y-%m-%d %H:%M:%S'` `(cat maint/unknown.txt | sed 's/ .*//' | addem; echo '10000'; echo '*'; cat $(SEANTOKENS) | egrep -v '^[<\\]' | wc -l; echo '/'; echo 'p') | dc | sed 's/..$$/.&/'` >> $@
 	tail $@
 
+RIA=${HOME}/gaeilge/diolaim/sean/ria
+maint/unknown-bible.txt:
+	cat $(RIA)/L082 $(RIA)/L080 | egrep -v '^<' | abairti-dumb | perl ${HOME}/gaeilge/caighdean/prestandard/rejoin.pl | bash tiomanai.sh -u | egrep '[A-Za-zÁÉÍÓÚáéíóú]' | sort | uniq -c | sort -r -n | sed 's/^ *//' > $@
+
 GDCORPUS=${HOME}/seal/idirlamha/gd/freq/corpus.txt
 GDTOKENS=${HOME}/seal/idirlamha/gd/freq/alltokens.txt
 maint/unknown-gd.txt: $(GDCORPUS) multi-gd.txt pairs-gd.txt pairs-local-gd.txt rules-gd.txt spurious-gd.txt alltokens.sh alltokens.pl nasc.pl tiomanai.sh
