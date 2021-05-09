@@ -160,6 +160,7 @@ Máire_chlúmhach Máirín an chlúimh
 Móglaí_Bap Móglaí Bap
 Naomh_Aban Naomh Abán
 Naomh_Naille Naomh Náille
+Ner_Cis Néar Cís
 Nic_an_Aillí Nic an Ailí
 Norn_Iron Norn Iron
 Nostra_Aetate Nostra Aetate
@@ -212,6 +213,9 @@ Uí_bhFíodhcháin Uí Fhiacháin
 West_Brom West Brom
 Yom_Kippur Yom Kippur
 a'_feachainn ag féachaint
+a_Nisrael in Iosrael
+a_Nísrael in Iosrael
+a_Samária sa tSamáir
 a_b'ead ab ea
 a_b'eadh ab ea
 a_b'fhearr ab fhearr
@@ -295,6 +299,8 @@ a_n-oir anoir
 a_n-éagmhuis in éagmais
 a_n-éinfheacht in éineacht
 a_nEirinn in Éirinn
+a_nIarusalém in Iarúsailéim
+a_nIósa in Íosa
 a_naimsir in aimsir
 a_nainffios i ngan fhios
 a_naoinfheacht in éineacht
@@ -317,6 +323,8 @@ a_wil a bhfuil
 ab_bu_búna ababúna
 ach_go_bé ach ab é
 ad'_fhochair-se i d'fhochairse
+ad_ainmsi i d'ainmse
+ad_fhochairsi i d'fhochairse
 ad_hoc ad hoc
 ad_hominem ad hominem
 ad_infinitum ad infinitum
@@ -352,9 +360,11 @@ am'_fhocair-se i m'fhochairse
 am'_fhochair-se i m'fhochairse
 am_aghaidh i m'aghaidh
 am_aghaidh-se i m'aghaidhse
+am_ainmsi i m'ainmse
 am_baice ambaiste
 am_fhocair i m'fhochair
 am_fhochair-se i m'fhochairse
+am_fhochairsi i m'fhochairse
 an_Arabia an Araib
 an_allod anallód
 an_allóid anallód
@@ -845,6 +855,7 @@ do_'n don
 do_Dhamascus don Damaisc
 do_Iordan den Iordáin
 do_Iordan don Iordáin
+do_adhlaiceadar d'adhlacadar
 do_b'_fh'rist' b'fhurasta
 do_b'ea ab ea
 do_b'eadh ab ea
@@ -960,7 +971,9 @@ do_do_réir do do réir
 do_déineadh rinneadh
 do_eug d'éag
 do_fhir d'fhir
+do_fhosadar d'fhosaíodar
 do_fhreagairsiod d'fhreagair siad
+do_fhreagradarsan d'fhreagraíodar
 do_fhuirigh d'fhuirigh
 do_fhás a d'fhás
 do_fhás d'fhás
@@ -986,6 +999,7 @@ do_ghlac ghlac
 do_ghlacas ghlac mé
 do_ghlaodhas ghlaoigh mé
 do_ghlaos ghlaoigh mé
+do_ghluáis ghluais
 do_ghnidh a dhéanann
 do_h-ínseadh insíodh
 do_hadhlaiceadh adhlacadh
@@ -1072,6 +1086,7 @@ do_theip a theip
 do_theip theip
 do_thochasuíos thochais mé
 do_thosnuigh thosaigh
+do_thréoruigh threoraigh
 do_thug a thug
 do_thug thug
 do_thugas thug mé
@@ -1111,6 +1126,7 @@ dobh_fheárr ab fhearr
 dobh_fhiú ab fhiú
 dobh_fhéidir b'fhéidir
 dom'_athair do m'athair
+dom_ainmsi do m'ainmse
 dom_mharbhad do mo mharú
 don_Phersia don Pheirs
 don_dtráigh don trá
@@ -1976,6 +1992,7 @@ is_nea-chómha is neamhionann
 is_neachómha is neamhionann
 is_soth is oth
 is_é_r'd is éard
+is_éidir is féidir
 ist'_oidhche istoíche
 ist_lá sa lá
 ist_ló sa lá
@@ -1990,6 +2007,7 @@ it'_aonar i d'aonar
 it'_fhear i d'fhear
 it'_fhochair i d'fhochair
 it'_inntinn i d'intinn
+it_fhochairsi i d'fhochairse
 la'r_n-a lá arna
 la'r_na lá arna
 la_'l lá fhéile
@@ -2044,6 +2062,7 @@ le_theinidh le tine
 leath_chois leathchois
 leath_shúil leathshúil
 leathánach_uisce leathánach uisce
+led_ainmsi le d'ainmse
 leis_fin leis sin
 leith_istigh laistigh
 lem'_aghaidh-se le m'aghaidhse
@@ -2814,11 +2833,13 @@ sa_chéill sa chiall
 sa_n-Arabia san Araib
 sa_n-oídhche san oíche
 sa_nolc san olc
+sa_náit san áit
 sail_chuach sailchuach
 sail_chuaiche sailchuach
 san_allód anallód
 san_am_chéann san am céanna
 san_mbioth ar bith
+san_náit san áit
 sar_ar sular
 scol_rámha ascaill rámha
 seach_is seachas
@@ -2957,7 +2978,9 @@ vena_cava vena cava
 ó'n_a óna
 ó_'n-a óna
 ó_Ghaililí ón Ghailíl
+ó_Lebanon ón Liobáin
 ó_Shamaria ón tSamáir
+ó_Shamária ón tSamáir
 ó_n ón
 ó_n'athair óna athair
 ó_n-a óna
