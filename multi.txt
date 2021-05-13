@@ -215,6 +215,7 @@ West_Brom West Brom
 Yom_Kippur Yom Kippur
 a'_feachainn ag féachaint
 a_Macedónia sa Mhacadóin
+a_Niarúsalém in Iarúsailéim
 a_Nisrael in Iosrael
 a_Nísrael in Iosrael
 a_Samária sa tSamáir
@@ -309,6 +310,7 @@ a_nainffios i ngan fhios
 a_naoinfheacht in éineacht
 a_naois in aois
 a_ndiu inniu
+a_neabhra in Eabhrais
 a_nfairge an fharraige
 a_ngrádh i ngrá
 a_nis anois
@@ -456,6 +458,7 @@ ar_bh'eadh arbh ea
 ar_bhfada arbh fhada
 ar_bhfearrde arbh fhearrde
 ar_bhfeidir arbh fhéidir
+ar_bhfhagháil iar bhfáil
 ar_bhfhéidir arbh fhéidir
 ar_bhféidir arbh fhéidir
 ar_bhit ar bith
@@ -873,6 +876,7 @@ do_bheadh bheadh
 do_bhiadh a bhíodh
 do_bhiadh bhíodh
 do_bhiadh do bhia
+do_bhriogh de bhrí
 do_bhris a bhris
 do_bhris bhris
 do_bhríg de bhrí
@@ -974,8 +978,10 @@ do_do_réir do do réir
 do_déineadh rinneadh
 do_eug d'éag
 do_fhir d'fhir
+do_fhiáfruigheadar d'fhiafraíodar
 do_fhosadar d'fhosaíodar
 do_fhreagairsiod d'fhreagair siad
+do_fhreagoir d'fhreagair
 do_fhreagradarsan d'fhreagraíodar
 do_fhuirigh d'fhuirigh
 do_fhás a d'fhás
@@ -1073,6 +1079,7 @@ do_sgaoil scaoil
 do_sgríobhas scríobh mé
 do_shuidheas shuigh mé
 do_shádhas sháigh mé
+do_shén shéan
 do_shíleas shíl mé
 do_smuáin smaoinigh
 do_sna do na
@@ -1299,6 +1306,7 @@ gCill_Aithnín gCill Aithnín
 gCill_Díoma gCill Díoma
 gCill_Uird gCill Uird
 gCionn_tSáile gCionn tSáile
+ga_has cad as
 gach_le_Domhnach gach re Domhnach
 gach_le_lá gach re lá
 gach_n'aon gach aon
@@ -2151,6 +2159,7 @@ muga_maga mugadh magadh
 muid_inne muidne
 muid_sinne muidne
 mun_ba murar
+muna_bheath mura mbeadh
 munga_manga mugadh magadh
 mur_b'é murab é
 mura_bé murab é
@@ -2205,6 +2214,8 @@ nach_bíodh nach mbíodh
 nach_caithfeadh nach gcaithfeadh
 nach_casfadh nach gcasfadh
 nach_clisfeadh nach gclisfeadh
+nach_creidtí nach gcreideann sibh
+nach_creidtí nach gcreidtí
 nach_deunfadh nach ndéanfadh
 nach_deurna nach ndearna
 nach_dteacha nach ndeachaigh
@@ -2839,6 +2850,7 @@ sa_Ghaililí sa Ghailíl
 sa_chéill sa chiall
 sa_n-Arabia san Araib
 sa_n-oídhche san oíche
+sa_naít san áit
 sa_nolc san olc
 sa_náit san áit
 sail_chuach sailchuach
