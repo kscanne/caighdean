@@ -5,9 +5,10 @@ then
 	exit 1
 fi
 # tweakable parameters...
-WORDSTODO=50
-FROMAMONG=1000
+WORDSTODO=185
+FROMAMONG=185
 AFTERSKIPPING=0
+# 1 means keep upper and lower; 0 means just lower
 CAPITALS_P=1
 
 #### start of main ####
