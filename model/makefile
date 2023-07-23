@@ -10,8 +10,10 @@ CORPUS=corpus.txt
 # > flushall
 # > info keyspace
 # > quit
-#  And then maybe run "top" while it's going to check memory 
-# consumption of the redis daemon; < 2 hrs to run on 16 March 2016
+#  And then watch DigitalOcean console to check memory usage...
+# Topped out at 84% for the build I did on new borel 23 July 2023.
+# That was 125M word corpus, 42M unique trigrams before pruning, ~20 min total!
+# Previous run before moregan fix was ~2 hrs on 16 March 2016
 # with about 95M word corpus, 31M unique trigrams
 redis-refresh: training-1.txt training-2.txt training-3.txt buildmodel.pl
 	perl buildmodel.pl 3
