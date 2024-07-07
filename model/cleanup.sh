@@ -1,4 +1,8 @@
 #!/bin/bash
+perl ../preproc.pl |
+sed "s/\([A-ZÁÉÍÓÚa-záéíóú]\)[’ʼ]\([A-ZÁÉÍÓÚa-záéíóú]\)/\1'\2/g" |
+sed "s/[‑‐−]/-/g" |
+perl gaeilgeamhain.pl |
 sed "
 s/ ag siúil / ag siúl /gi
 s/ fá dear / faoi deara /gi
