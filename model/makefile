@@ -31,13 +31,13 @@ training-4.txt : alltokens.txt
 	cat alltokens.txt | egrep -v '^\\n$$' | perl ngramify.pl 4 | LC_ALL=C sort | LC_ALL=C uniq -c | LC_ALL=C sort -r -n | sed 's/^ *//' > $@
 
 # note we're not using caighdean tokenizer, QUITE ON PURPOSE
-# unicode apostrophes and hyphens already converted here,
+# cleanup.sh now (re-)normalizes unicode apostrophes and hyphens,
 # so enough to tokenize with ASCII ' and - only
 # also note that since we're trying to build a STANDARD language model
 # we don't even bother tokenizing leading/trailing apostrophes
 # we DO want to keep the range of characters roughly in parallel with
 # what's in caighdean/alltokens.sh
-# Markup has been killed already so no need for special catch-all tag
+# Markup killed in cleanup.sh by gaeilgeamhain.pl so no need for special catchall tag
 # The normalizations to <URI>, etc. should stay in sync with
 # the ngram_preprocess function in caighdean/caighdean.pl
 alltokens.txt: $(CORPUS) cleanup.sh ../alltokens.pl
