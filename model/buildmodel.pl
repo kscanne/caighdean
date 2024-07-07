@@ -14,7 +14,10 @@ binmode STDERR, ":utf8";
 
 my $prune = 1;  # don't write out n-grams with count <= than this
 my $verbose = 1;
-my $redis = Redis->new(encoding => undef);  # 127.0.0.1:6379
+my $dryrun = 0; # set to 1 for testing; won't touch Redis DB
+
+my $redis = undef;
+$redis = Redis->new(encoding => undef) unless ($dryrun==1);  # 127.0.0.1:6379
 
 # the two tables we're trying to compute
 # these will only be used to store results for n < N
@@ -40,7 +43,7 @@ sub redis_chunked_set {
 
 	push @chunk, @key_value_pair;
 	if ( scalar(@chunk) && scalar(@chunk)/2 >= $chunksize ) {
-		$redis->mset(@chunk);
+		$redis->mset(@chunk) unless ($dryrun==1);
 		@chunk = ();
 	}
 
@@ -181,7 +184,7 @@ for my $k (keys %prob) {
 redis_chunked_set( $redis, 0 );  # flush
 
 print STDERR "Writing smoothing constants to DB...\n" if $verbose;
-$redis->select(1);
+$redis->select(1) unless ($dryrun==1);
 for my $k (keys %smooth) {
 	if ($lowercounts{$k} > $prune) {
 		my $smoothout = sprintf("%.3f", log($smooth{$k}));
